@@ -16,3 +16,12 @@ C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS\src\obj
 C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS\src\obj\x64\ML_Cpp_net6_interop\LimbusCompanyBusRUS.dll
 C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS\src\obj\x64\ML_Cpp_net6_interop\refint\LimbusCompanyBusRUS.dll
 C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS\src\obj\x64\ML_Cpp_net6_interop\ref\LimbusCompanyBusRUS.dll
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\LimbusCompanyBusRus.csproj.AssemblyReference.cache
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\LimbusCompanyBusRus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\LimbusCompanyBusRus.csproj.CoreCompileInputs.cache
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\LimbusCompanyBusRus.csproj.CopyComplete
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\Release\LimbusCompanyBusRUS_BIE.deps.json
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\Release\LimbusCompanyBusRUS_BIE.dll
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\LimbusCompanyBusRUS_BIE.dll
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\refint\LimbusCompanyBusRUS_BIE.dll
+C:\Users\timof\Desktop\РУСИФИКАТОР ЛКБ\LimbusCompanyBusRUS_BepInEx\src\obj\x64\ML_Cpp_net6_interop\ref\LimbusCompanyBusRUS_BIE.dll

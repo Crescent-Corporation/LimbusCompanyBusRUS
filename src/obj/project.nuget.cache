@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePRQ/dlBDKm+vA6PMRIsKc3H4jc3AShb3nEL/glJTru4a+kuNw7dHblL0tGIEf9A0NjyYEh+4kSagNqPHHOC5w==",
+  "dgSpecHash": "EUvBZRoV27sRuNTY9zksFNotGwEhVGn8o67etaTDjRYJl+UA/AakWe5oUraP2mScIi7nkH7NxgAuokg23mOhvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS\\src\\LimbusCompanyBusRus.csproj",
+  "projectFilePath": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS_BepInEx\\src\\LimbusCompanyBusRus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\timof\\.nuget\\packages\\harmonyx\\2.5.2\\harmonyx.2.5.2.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\iced\\1.17.0\\iced.1.17.0.nupkg.sha512",
@@ -29,7 +29,6 @@
     "C:\\Users\\timof\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
-    "C:\\Users\\timof\\.nuget\\packages\\samboy063.tomlet\\3.1.3\\samboy063.tomlet.3.1.3.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",

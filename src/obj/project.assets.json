@@ -318,15 +318,6 @@
           }
         }
       },
-      "Samboy063.Tomlet/3.1.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Tomlet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Tomlet.dll": {}
-        }
-      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1524,19 +1515,6 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
-      ]
-    },
-    "Samboy063.Tomlet/3.1.3": {
-      "sha512": "OqKHbxmRKu5TmBwRiwyPr9US5mVYki9lKqljV5Sv/h9RAr5BA9Yki7ayOvk2qv594v6Pz8v3e5tuo5BjPOCNsg==",
-      "type": "package",
-      "path": "samboy063.tomlet/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/Tomlet.dll",
-        "lib/netstandard2.0/Tomlet.dll",
-        "samboy063.tomlet.3.1.3.nupkg.sha512",
-        "samboy063.tomlet.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -3891,9 +3869,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "HarmonyX >= 2.5.2",
-      "Il2CppInterop.Common >= 1.0.0",
-      "Il2CppInterop.Runtime >= 1.0.0",
-      "Samboy063.Tomlet >= 3.1.3"
+      "Il2CppInterop.Runtime >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3903,17 +3879,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS\\src\\LimbusCompanyBusRus.csproj",
-      "projectName": "LimbusCompanyBusRUS",
-      "projectPath": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS\\src\\LimbusCompanyBusRus.csproj",
+      "projectUniqueName": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS_BepInEx\\src\\LimbusCompanyBusRus.csproj",
+      "projectName": "LimbusCompanyBusRUS_BIE",
+      "projectPath": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS_BepInEx\\src\\LimbusCompanyBusRus.csproj",
       "packagesPath": "C:\\Users\\timof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS\\src\\obj\\",
+      "outputPath": "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS_BepInEx\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS\\src\\NuGet.Config",
+        "C:\\Users\\timof\\Desktop\\РУСИФИКАТОР ЛКБ\\LimbusCompanyBusRUS_BepInEx\\src\\NuGet.Config",
         "C:\\Users\\timof\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3948,17 +3924,9 @@
             "target": "Package",
             "version": "[2.5.2, )"
           },
-          "Il2CppInterop.Common": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "Il2CppInterop.Runtime": {
             "target": "Package",
             "version": "[1.0.0, )"
-          },
-          "Samboy063.Tomlet": {
-            "target": "Package",
-            "version": "[3.1.3, )"
           }
         },
         "imports": [
@@ -3977,7 +3945,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
