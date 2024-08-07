@@ -659,7 +659,7 @@
                 {
                     "level": 1,
                     "name": "Слабость обнаружена! Огонь!",
-                    "desc": "Если на цели 5+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</color></link></u></color></link></u>, сила столкновения +2",
+                    "desc": "Если на цели 5+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</color></link></u></color></link></u>, сила в поединке +2",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -687,7 +687,7 @@
                                     "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</color></link></u> на 3\nНаносит дополнительный урон, равный <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</color></link></u>м</color></link></u> на цели"
                                 },
                                 {
-                                    "desc": "Тратит 1 Патрон"
+                                    "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                                 }
                             ]
                         }

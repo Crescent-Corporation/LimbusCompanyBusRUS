@@ -179,6 +179,14 @@
     {
       "id": "StartBattle_Force",
       "name": "<color=#93f13e>[В начале хода]</color>"
+    },
+    {
+      "id": "TargetKill",
+      "name": "[При убийстве цели]"
+    },
+    {
+      "id": "CriticalTargetKill",
+      "name": "[При убийстве критической атакой]"
     }
   ]
 }

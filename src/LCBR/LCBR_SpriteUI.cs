@@ -45,7 +45,10 @@ namespace LimbusLocalizeRUS
             Transform motto = __instance.transform.Find("[Canvas]/[Image]RedLine/[Image]Phrase");
             if (motto != null)
             {
-                motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto"];
+                if (catchphrase != null)
+                    motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Season"];
+                else
+                    motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Default"];
             }
         }
         #endregion

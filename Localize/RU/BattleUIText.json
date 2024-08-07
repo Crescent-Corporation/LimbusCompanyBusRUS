@@ -26,7 +26,7 @@
     },
     {
       "id": "creature_destroy_notice",
-      "content": "Часть сломана"
+      "content": "Часть повреждена"
     },
     {
       "id": "oneside_attack",
@@ -482,7 +482,7 @@
     },
     {
       "id": "slash_resistance",
-      "content": "Соп. к режущему"
+      "content": "Соп. к рубящему"
     },
     {
       "id": "penetrate_resistance",
@@ -663,6 +663,30 @@
     {
       "id": "received_the_golden_bough_undecided",
       "content": "?"
+    },
+    {
+      "id": "vibration_fusion",
+      "content": "Произошло наложение амплитуд!"
+    },
+    {
+      "id": "BatonPassUIText",
+      "content": "Подмога"
+    },
+    {
+      "id": "perfect",
+      "content": "Абсолют"
+    },
+    {
+      "id": "ab_part_destroyed",
+      "content": "Часть повреждена!"
+    },
+    {
+      "id": "ab_part_vanished",
+      "content": "Часть повреждена и отсечена!"
+    },
+    {
+      "id": "ab_part_cannot_destroy_and_vanish",
+      "content": "Повреждение и отсечение невозможны"
     }
   ]
 }

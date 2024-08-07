@@ -3238,14 +3238,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 }
               ]
             },
@@ -3266,7 +3266,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 },
                 {
                   "desc": ""
@@ -3276,7 +3276,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 }
               ]
             },
@@ -3302,21 +3302,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 1 Кровотечение"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 1 Кровотечение"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 1 Кровотечение"
                 }
               ]
             },
@@ -3331,21 +3331,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 1 Кровотечение"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 1 Кровотечение"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 1 Кровотечение"
                 }
               ]
             },
@@ -3365,14 +3365,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
                 }
               ]
             },
@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Хлыст разума",
-          "desc": "Тратит весь Заряд\nЕсли у грешницы менее 10 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
+          "desc": "Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли у грешницы менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3702,7 @@
         {
           "level": 4,
           "name": "Хлыст разума",
-          "desc": "Понижает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8\nЕсли у грешницы менее 8 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
+          "desc": "Понижает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8\nЕсли у грешницы менее 8 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -4055,14 +4055,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             }
@@ -4083,14 +4083,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>; Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>; Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>; Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>; Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
                 }
               ]
             }
@@ -4116,21 +4116,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color>"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color>"
                 }
               ]
             }
@@ -4151,21 +4151,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон\n[OnSucceedAttack] Наносит 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color>"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>\n[OnSucceedAttack] Наносит 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color>"
                 }
               ]
             }
@@ -4187,7 +4187,7 @@
         {
           "level": 4,
           "name": "Блок",
-          "desc": "[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nПри 0 Патрон, получает ещё 2 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color>",
+          "desc": "[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nПри 0 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патронов</link></u></color>, получает ещё 2 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color>",
           "coinlist": [
             {}
           ]
@@ -6679,7 +6679,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Глупость…!",
+          "name": "Глупость!..",
           "desc": "[StartBattle] Получает 1 Защищённость\nЕсли у грешника менее 50% ОЗ, итоговая сила +2",
           "coinlist": [
             {}
@@ -8824,7 +8824,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем тратит весь Заряд на повышение границы выносливости на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> x 5)% (До 50%)",
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на повышение границы выносливости на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> x 5)% (До 50%)",
                   "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; Тратит Заряд на повышение границы выносливости"
                 }
               ]
@@ -8869,7 +8869,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем тратит весь Заряд на повышение границы выносливости на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> x 5)% (До 50%)",
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на повышение границы выносливости на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> x 5)% (До 50%)",
                   "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; Тратит Заряд на повышение границы выносливости"
                 }
               ]
@@ -9580,7 +9580,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Тяжёлое…!",
+          "name": "Тяжёлое!..",
           "desc": "",
           "coinlist": [
             {
@@ -9594,7 +9594,7 @@
         },
         {
           "level": 2,
-          "name": "Тяжёлое…!",
+          "name": "Тяжёлое!..",
           "desc": "",
           "coinlist": [
             {
@@ -9611,7 +9611,7 @@
         },
         {
           "level": 4,
-          "name": "Тяжёлое…!",
+          "name": "Тяжёлое!..",
           "desc": "[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[DefeatDuel] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
@@ -9633,7 +9633,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Брызжется…!",
+          "name": "Брызжется!..",
           "desc": "",
           "coinlist": [
             {
@@ -9654,7 +9654,7 @@
         },
         {
           "level": 2,
-          "name": "Брызжется…!",
+          "name": "Брызжется!..",
           "desc": "",
           "coinlist": [
             {
@@ -9675,7 +9675,7 @@
         },
         {
           "level": 4,
-          "name": "Брызжется…!",
+          "name": "Брызжется!..",
           "desc": "[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[DefeatDuel] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {

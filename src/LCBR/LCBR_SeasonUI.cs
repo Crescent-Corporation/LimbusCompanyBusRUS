@@ -15,19 +15,33 @@ namespace LimbusLocalizeRUS
 {
     public static class LCBR_SeasonUI
     {
-        [HarmonyPatch(typeof(MainLobbyUIPanel), nameof(MainLobbyUIPanel.Initialize))]
+        [HarmonyPatch(typeof(MainLobbyBannerSlot), nameof(MainLobbyBannerSlot.Update))]
         [HarmonyPostfix]
-        private static void MainLobbyUIPanel_Init(MainLobbyUIPanel __instance)
+        private static void MainLobbyUIPanel_Init(MainLobbyBannerSlot __instance)
         {
             //MAIN MENU
-            GameObject banner = GameObject.Find("[Canvas]RatioMainUI/[Rect]PresenterRoot/[UIPresenter]LobbyUIPresenter(Clone)/[Rect]Active/[UIPanel]MainLobbyUIPanel/[Rect]Banner/[Rect]RightBanners/[Script]FirstBanner/[Mask]BannerImageMask/[Image]BannerImage");
-            // banner_s3.GetComponentInChildren<UnityEngine.UI.Image>(true).m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["Season3_Banner"];
+
+            Sprite banner = __instance.img_main.sprite;
+            if (banner.name.Contains("banner_battlepass_season4"))
+                __instance.img_main.overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["Season4_Banner"];
+
+            //GameObject banner = GameObject.Find("[Canvas]RatioMainUI/[Rect]PresenterRoot/[UIPresenter]LobbyUIPresenter(Clone)/[Rect]Active/[UIPanel]MainLobbyUIPanel/[Rect]Banner/[Rect]RightBanners/[Script]FirstBanner/[Mask]BannerImageMask/[Image]BannerImage");
+            //if (banner.GetComponentInChildren<Image>(true).sprite.name.Contains("banner_battlepass_season4_en") || banner.GetComponentInChildren<Image>(true).sprite.name.Contains("banner_battlepass_season4_kr") || banner.GetComponentInChildren<Image>(true).sprite.name.Contains("banner_battlepass_season4_jp"))
+            //    banner.GetComponentInChildren<Image>(true).m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["Season4_Banner"];
         }
         [HarmonyPatch(typeof(VendingMachineBannerSlot), nameof(VendingMachineBannerSlot.SetData))]
         [HarmonyPostfix]
         private static void VendingMachineBannerSlot_Init(BannerSlot<VendingMachineStaticDataList> __instance)
         {
-            if (__instance._id == 3)
+            if (__instance._id == 0)
+            {
+                __instance._base._bannerImage.m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["Base_Shop"];
+            }
+            else if (__instance._id == 4)
+            {
+                __instance._base._bannerImage.m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["Season4_Shop"];
+            }
+            else if (__instance._id == 3)
             {
                 __instance._base._bannerImage.m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["Season3_Shop"];
             }

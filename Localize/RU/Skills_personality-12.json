@@ -379,7 +379,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 },
                 {
                   "desc": "+50% урона, если удар был критическим"
@@ -403,7 +403,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 },
                 {
                   "desc": "+100% урона, если удар был критическим"

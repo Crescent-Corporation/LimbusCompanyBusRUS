@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "Свернуться",
-          "desc": "Если этот навык находится на ячейке, голова получает 50 ОЗ Щита за каждый Подзаряд.\nЕсли голова сломана, вместо этого получает 25 ОЗ Щита за каждый Подзаряд.\nПри потере того количества ОЗ щита, на который был потрачен 1 Подзаряд, тратит ещё один дополнительный Подзаряд",
+          "desc": "Если этот навык находится на ячейке, голова получает 50 ОЗ Щита за каждый Подзаряд.\nЕсли голова повреждена, вместо этого получает 25 ОЗ Щита за каждый Подзаряд.\nПри потере того количества ОЗ щита, на который был потрачен 1 Подзаряд, тратит ещё один дополнительный Подзаряд",
           "coinlist": [
             {}
           ]
@@ -375,7 +375,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 провоцирует Тремор и +2 счётчика провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> и +2 счётчика<sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 }
               ]
             }
@@ -416,14 +416,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует столько провоцирует Тремор, сколько счётчиков провоцирует Тремор на цели"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> по числу на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тратит весь Тремор цели"
@@ -486,7 +486,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
@@ -792,7 +792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 провоцирует Тремор и +2 счётчика провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> и +2 счётчика<sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 }
               ]
             }
@@ -833,14 +833,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует столько провоцирует Тремор, сколько счётчиков провоцирует Тремор на цели"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> по числу на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тратит весь Тремор цели"
@@ -903,7 +903,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
@@ -1507,7 +1507,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 2 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 2 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1517,7 +1517,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 2 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 2 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1792,7 +1792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 }
               ]
             }
@@ -1811,7 +1811,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика провоцирует Тремор"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
@@ -1828,7 +1828,7 @@
         {
           "level": 1,
           "name": "Усыпляющая лень",
-          "desc": "Если получает атаку, при этом имея щит, провоцирует провоцирует Тремор у себя и у атаковавшего",
+          "desc": "Если получает атаку, при этом имея щит, провоцирует<sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> у себя и у атаковавшего",
           "coinlist": [
             {
               "coindescs": [

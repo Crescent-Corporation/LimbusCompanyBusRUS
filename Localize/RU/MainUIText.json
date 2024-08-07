@@ -1735,6 +1735,18 @@
     {
       "id": "mainui_battleresult_AbnormalitySuppress_defeat",
       "content": "Не удалось усмирить аномалию"
+    },
+    {
+      "id": "ui_text_unknown",
+      "content": "Неизвестно"
+    },
+    {
+      "id": "buff_effect_for_level_format",
+      "content": "「{0}」"
+    },
+    {
+      "id": "personality_unit_keyword",
+      "content": "Аспект идентичности"
     }
   ]
 }

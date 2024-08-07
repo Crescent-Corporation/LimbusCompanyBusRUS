@@ -395,7 +395,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
@@ -435,7 +435,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 Патрон"
+                  "desc": "Тратит 1 <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патрон</link></u></color>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"

@@ -229,6 +229,127 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2040711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[BeforeAttack] Кол-во целей +(число грехов в наибольшем резонансе) (До 2)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] В равном количестве распределяет 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями атаки"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[BeforeAttack] Кол-во целей +(число грехов в наибольшем резонансе) (До <style=\"highlight\">4</style>)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] В равном количестве распределяет <style=\"highlight\">15</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями атаки"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[BeforeAttack] Кол-во целей +(число грехов в наибольшем резонансе) (До <style=\"highlight\">6</style>)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> <style=\"highlight\">на этот и следующий ход</style> (До 7)\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] В равном количестве распределяет 15 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями атаки<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Наносит 7 <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели)% урона (До 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (1 + число грехов в наибольшем резонансе x 1.5) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 10, округление в меньшую сторону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Наносит 7 <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели)% урона (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(3 + число грехов в наибольшем резонансе x 2)</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До <style=\"highlight\">15</style>, округление в меньшую сторону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на <style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Наносит 7 <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color>\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели)% урона (До <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(10 + число грехов в наибольшем резонансе x 2.5)</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До <style=\"highlight\">25</style>, округление в меньшую сторону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на <style=\"highlight\">5</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
