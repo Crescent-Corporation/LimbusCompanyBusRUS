@@ -1,0 +1,227 @@
+{
+  "dataList": [
+    {
+      "id": 835001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Преклонитесь передо мной",
+          "desc": "[WhenUse] Сила в поединке +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жалкие людишки",
+          "desc": "[WhenUse] Сила в поединке +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ступайте вон... Вон!..",
+          "desc": "[WhenUse] Сила в поединке +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] +5% урона за каждую единицу счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 20%)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Князь парада",
+          "desc": "[StartBattle] Число целей +(число целей с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>) (До 5)\n[WhenUse] Базовая сила +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Сила монет +1 против целей с 3 и выше на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Тратит 1 единицу <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови из запаса</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровь... Крови... Крови!..",
+          "desc": "[WhenUse] Сила монет +1 против целей с 8 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Тратит 1 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">единицу Крови из запаса</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +20% урона следующей монеты против целей с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 единицу <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови в запас</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оставьте меня!..",
+          "desc": "[WhenUse] Базовая сила +1 за каждую единицу счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 4)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я же... князь... сего шествия!..",
+          "desc": "[CantDuel]\n[WhenUse] Удваивает восстановление ОЗ от пассивки 「Глефа из застывшей крови」\n[WhenUse] Обновляет СД до 0\n[EndSkill] Получает 10 единиц <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови в запас</link></u></color>\nКассетти не может быть оглушён в этот ход; завершает ход после использования этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я не вернусь... во веки веков!..",
+          "desc": "[WhenUse] Сила в поединке +1 за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>Кровотечения</link></u></color> на цели (До 3)\n[WhenUse] Сила монет +1 против целей с 4 и более на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] +5% урона за каждую единицу счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 20%)\n[WhenUse] Удваивает восстановление ОЗ от пассивки 「Глефа из застывшей крови」\n[EndSkill] Получает 10 единиц <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови в запас</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

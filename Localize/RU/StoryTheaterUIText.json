@@ -58,7 +58,7 @@
     },
     {
       "id": "SPEECH",
-      "content": "Диалог"
+      "content": "Диалоги"
     },
     {
       "id": "OPEN_CONDITION",
@@ -74,7 +74,7 @@
     },
     {
       "id": "DATA_DOWNLOAD_DESC",
-      "content": "Использовать голосовые записи?\nНеобходимо загрузить доп. материалы."
+      "content": "Использовать голосовые записи?\nНеобходимо загрузить дополнительные материалы."
     },
     {
       "id": "DATA_DOWNLOAD_NO",
@@ -82,7 +82,7 @@
     },
     {
       "id": "DATA_DOWNLOAD_YES",
-      "content": "Голос\n({0} MB)"
+      "content": "С голосом\n({0} MB)"
     },
     {
       "id": "CV_1",
@@ -134,7 +134,7 @@
     },
     {
       "id": "gacksung",
-      "content": "Связь"
+      "content": "Усиление Связи"
     },
     {
       "id": "EnterStoryPopupDesc",
@@ -250,11 +250,39 @@
     },
     {
       "id": "OtherStoryOpenCondition_9016",
-      "content": "Пройдите6-48"
+      "content": "Пройдите 6-48"
     },
     {
       "id": "theStoryOf",
       "content": ", История"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9109",
+      "content": "Пройдите 6.5-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9017",
+      "content": "Пройдите 6-48"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9110",
+      "content": "Пройдите 6.5-16"
+    },
+    {
+      "id": "personality_voice_section_before_clear_chapter_format",
+      "content": "До {0}-ой Песни"
+    },
+    {
+      "id": "personality_voice_section_after_clear_chapter_format",
+      "content": "После {0}-ой Песни"
+    },
+    {
+      "id": "PersonalityStory_OpenCodition_UnlockCode106",
+      "content": "Пройдите 6-ую Песнь"
+    },
+    {
+      "id": "PersoanlityStory_After",
+      "content": ", (Послесловие)"
     }
   ]
 }

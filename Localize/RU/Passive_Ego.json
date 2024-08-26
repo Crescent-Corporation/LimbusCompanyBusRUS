@@ -373,7 +373,13 @@
     {
       "id": 2070711,
       "name": "Разбитый медальон",
-      "desc": "При 3 и более грехов в наибольшем резонансе на начало фазы битвы получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> ."
+      "desc": "При 3 и более грехов в наибольшем резонансе на начало фазы битвы получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>."
+    },
+    {
+      "id": 2110711,
+      "name": "Блуждающая",
+      "desc": "Верхняя граница счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> +5.\n([Charge] - 1) по +2% урона при трате счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>. (До 10%)",
+      "summary": "Повышает урон при трате счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>."
     }
   ]
 }

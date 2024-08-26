@@ -282,7 +282,7 @@
         {
           "level": 2,
           "name": "Металлический звон",
-          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить кол-во целей этого навыка на 1\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
+          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить число целей этого навыка на 1\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -310,7 +310,7 @@
         {
           "level": 4,
           "name": "Металлический звон",
-          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить кол-во целей этого навыка на 1.\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
+          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить число целей этого навыка на 1.\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -343,7 +343,7 @@
         {
           "level": 3,
           "name": "Высвобожденная ярость",
-          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить кол-во целей этого навыка на 1 (До 2 раз)\n[DefeatDuel] Теряет 20 СД\nНаносит на 3% больше урона за каждый тип негативного эффекта на цели (До 15%)\n[EnemyKill] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить число целей этого навыка на 1 (До 2 раз)\n[DefeatDuel] Теряет 20 СД\nНаносит на 3% больше урона за каждый тип негативного эффекта на цели (До 15%)\n[EnemyKill] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
         {
           "level": 4,
           "name": "Высвобожденная ярость",
-          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить кол-во целей этого навыка на 1 (До 2 раз)\n[DefeatDuel] Теряет 20 СД\nНаносит на 6% больше урона за каждый тип негативного эффекта на цели (До 30%)\n[EnemyKill] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "desc": "[StartBattle] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить число целей этого навыка на 1 (До 2 раз)\n[DefeatDuel] Теряет 20 СД\nНаносит на 6% больше урона за каждый тип негативного эффекта на цели (До 30%)\n[EnemyKill] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -811,6 +811,193 @@
           "level": 4,
           "name": "Подготовка к охоте",
           "desc": "[WhenUse] Сила монет +7 против целей с 10 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запуск 40Y-3",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Запуск 40Y-3",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на <style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Запуск 40Y-3",
+          "desc": "[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный заряженный поток",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 x (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Если резонанс с этим навыком состоит из 3-ёх грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +([Charge])% урона за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 60%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Обратный заряженный поток",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 x (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Если резонанс с этим навыком состоит из 3-ёх грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +<style=\"highlight\">([Charge] + 3)% урона за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 120%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обратный заряженный поток",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 x (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Если резонанс с этим навыком состоит из 3-ёх грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +<style=\"highlight\">([Charge] + 4)% урона за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 180%)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Заряд 40Y-3",
+          "desc": "Сила монет +2 при 2 и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядах</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] +4)] (До 7)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] +4)] (До 7)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+4% урона при 3 и более Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на (До 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заряд 40Y-3",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждую единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 4)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] + <style=\"highlight\">5</style>)(До <style=\"highlight\">8</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] + <style=\"highlight\">5</style>)(До <style=\"highlight\">8</style>)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "При 3 и более заряда <style=\"highlight\">+8%</style> урона за каждую единицу Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на (До <style=\"highlight\">40%</style>)\n<style=\"highlight\">[OnSucceedAttack] Наносит 1 Уязвимость к Зависти на следующий ход\n- Наносит ещё 1 Уязвимость к Зависти при 2 и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подзарядка",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2 (Дважды за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подзарядка",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на <style=\"highlight\">4</style> (Дважды за ход)",
           "coinlist": [
             {}
           ]

@@ -105,7 +105,7 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе в поединке\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, кол-во целей +1",
+          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе в поединке\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, число целей +1",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе в поединке\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, кол-во целей +1\n[BeforeAttack] При 60% и менее ОЗ тратит 10 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +1 к кол-ву целей",
+          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе в поединке\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, число целей +1\n[BeforeAttack] При 60% и менее ОЗ тратит 10 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +1 к кол-ву целей",
           "coinlist": [
             {
               "coindescs": [

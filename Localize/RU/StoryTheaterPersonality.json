@@ -6,23 +6,23 @@
     },
     {
       "id": "dialog01",
-      "content": "Болтовня №1"
+      "content": "Разговор №1"
     },
     {
       "id": "dialog02",
-      "content": "Болтовня №2"
+      "content": "Разговор №2"
     },
     {
       "id": "dialog03",
-      "content": "Болтовня №3"
+      "content": "Разговор №3"
     },
     {
       "id": "sync_dialog01",
-      "content": "Болтовня после Связи №1"
+      "content": "Разговор после усиления Связи №1"
     },
     {
       "id": "sync_dialog02",
-      "content": "Болтовня после Связи №2"
+      "content": "Разговор после усиления Связи №2"
     },
     {
       "id": "morning_dialog",
@@ -42,7 +42,7 @@
     },
     {
       "id": "synchronization",
-      "content": "Связь"
+      "content": "Усиление Связи"
     },
     {
       "id": "organization",

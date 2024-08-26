@@ -562,7 +562,7 @@
     },
     {
       "id": "targetSlotWeight",
-      "content": "Кол-во целей"
+      "content": "Число целей"
     },
     {
       "id": "EGO_ErodeProbability",
@@ -687,6 +687,26 @@
     {
       "id": "ab_part_cannot_destroy_and_vanish",
       "content": "Повреждение и отсечение невозможны"
+    },
+    {
+      "id": "current_hp",
+      "content": "Текущие ОЗ"
+    },
+    {
+      "id": "break_section_format",
+      "content": "Порог выносливости №[{0}]"
+    },
+    {
+      "id": "no_break_section",
+      "content": "Нет порогов выносливости"
+    },
+    {
+      "id": "correction_based_on_unit_keyword",
+      "content": "Модификатор идентичности {0}: {1}(, )"
+    },
+    {
+      "id": "battle_operation_counter",
+      "content": "Особая контратака"
     }
   ]
 }

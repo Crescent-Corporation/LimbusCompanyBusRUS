@@ -149,7 +149,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Кол-во целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\n[EndSkill] В течение следующих 3-ёх ходов теряет по 10 СД за ход",
+          "desc": "[BeforeAttack] Число целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\n[EndSkill] В течение следующих 3-ёх ходов теряет по 10 СД за ход",
           "coinlist": [
             {
               "coindescs": [
@@ -170,7 +170,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Кол-во целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3-ёх ходов теряет по 9 СД за ход",
+          "desc": "[BeforeAttack] Число целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3-ёх ходов теряет по 9 СД за ход",
           "coinlist": [
             {
               "coindescs": [
@@ -191,7 +191,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Кол-во целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +100% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3-ёх ходов теряет по 8 СД за ход",
+          "desc": "[BeforeAttack] Число целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +100% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3-ёх ходов теряет по 8 СД за ход",
           "coinlist": [
             {
               "coindescs": [
@@ -217,7 +217,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Кол-во целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)",
+          "desc": "[BeforeAttack] Число целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -241,7 +241,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Кол-во целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>",
+          "desc": "[BeforeAttack] Число целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Кол-во целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>",
+          "desc": "[BeforeAttack] Число целей +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -289,6 +289,142 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв измерений",
+          "abName": "Заблудший пассажир",
+          "desc": "[BeforeAttack] Число целей +1 при 4 и более грехов в наибольшем резонансе\n[BeforeAttack] При менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> тратит 15% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10 (Неспособно убить грешницу, десятичные опускаются)\n[BeforeAttack] Тратит до 40 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; +1% урона за каждую потраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 10%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color> (До 1)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает по 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешке</link></u></color> и 1 <sprite name=\"ChargeLoad\"><color=#f8c200><u><link=\"ChargeLoad\">Нагрузке</link></u></color> за каждый [Charge] на следующий ход (До 1 за навык)"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Разрыв измерений",
+          "abName": "Заблудший пассажир",
+          "desc": "[BeforeAttack] Число целей +1 при <style=\"highlight\">3</style> и более грехов в наибольшем резонансе\n[BeforeAttack] При менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> тратит 15% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10 (Неспособно убить грешницу, десятичные опускаются)\n[BeforeAttack] Тратит до 40 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; +1% урона за каждую потраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">20</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color> (До <style=\"highlight\">2</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает по 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешке</link></u></color> и 1 <sprite name=\"ChargeLoad\"><color=#f8c200><u><link=\"ChargeLoad\">Нагрузке</link></u></color> за каждый [Charge] на следующий ход (До <style=\"highlight\">2</style> за навык)"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрыв измерений",
+          "abName": "Заблудший пассажир",
+          "desc": "[BeforeAttack] Число целей <style=\"highlight\">+(число грехов в наибольшем резонансе - 2)</style> <style=\"highlight\">(До 2)</style>\n[BeforeAttack] При менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> тратит <style=\"highlight\">10</style>% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10 (Неспособно убить грешницу, десятичные опускаются)\n[BeforeAttack] Тратит до 40 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; +1% урона за каждую потраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">30</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color> (До 2)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает по 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешке</link></u></color> и 1 <sprite name=\"ChargeLoad\"><color=#f8c200><u><link=\"ChargeLoad\">Нагрузке</link></u></color> за каждый [Charge] на следующий ход (До <style=\"highlight\">3</style> за навык)"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв измерений",
+          "abName": "Заблудший пассажир",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Число целей +1 при 4 и более грехов в наибольшем резонансе\n[BeforeAttack] Если счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> не максимально заполнен, тратит (недостающее число счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> X 1.5)% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до получаемого максимума (Получаемый максимум счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>: 30. Неспособно убить грешницу, десятичные опускаются)\n[BeforeAttack] Тратит до 40 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; +2% урона за каждую потраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 20%) ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color> (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает по 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешке</link></u></color> и 1 <sprite name=\"ChargeLoad\"><color=#f8c200><u><link=\"ChargeLoad\">Нагрузке</link></u></color> за каждый [Charge] на следующий ход (До 2 за навык)"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Разрыв измерений",
+          "abName": "Заблудший пассажир",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Число целей +1 при 4 и более грехов в наибольшем резонансе\n[BeforeAttack] Если счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> не максимально заполнен, тратит (недостающее число счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> X <style=\"highlight\">1.2</style>)% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до получаемого максимума (Получаемый максимум счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>: 30. Неспособно убить грешницу, десятичные опускаются)\n[BeforeAttack] Тратит до 40 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; +2% урона за каждую потраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">40</style>%) ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color> (До 2)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает по 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешке</link></u></color> и 1 <sprite name=\"ChargeLoad\"><color=#f8c200><u><link=\"ChargeLoad\">Нагрузке</link></u></color> за каждый [Charge] на следующий ход (До 2 за навык)"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрыв измерений",
+          "abName": "Заблудший пассажир",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Число целей <style=\"highlight\">+(число грехов в наибольшем резонансе - 2)</style> <style=\"highlight\">(До 2)</style>\n[BeforeAttack] Если счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> не максимально заполнен, тратит <style=\"highlight\">(недостающее число счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)%</style> от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до получаемого максимума (Получаемый максимум счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>: 30. Неспособно убить грешницу, десятичные опускаются)\n[BeforeAttack] Тратит до 40 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; +2% урона за каждую потраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">60</style>%) ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color> (До <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает по 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешке</link></u></color> и 1 <sprite name=\"ChargeLoad\"><color=#f8c200><u><link=\"ChargeLoad\">Нагрузке</link></u></color> за каждый [Charge] на следующий ход (До <style=\"highlight\">3</style> за навык)"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
                 }
               ]
             }

@@ -26,7 +26,7 @@ namespace LimbusLocalizeRUS
                 var rutmp = _languageToggle.GetComponentInChildren<TextMeshProUGUI>(true);
                 rutmp.font = LCB_Cyrillic_Font.GetCyrillicFonts(4);
                 rutmp.fontMaterial = LCB_Cyrillic_Font.GetCyrillicFonts(4).material;
-                rutmp.text = "<size=44><cspace=-4px>Русский</cspace></size>";
+                rutmp.text = "<size=44><cspace=-4px>tiếng Việt</cspace></size>";
                 Russian_Settings = _languageToggle;
                 parent.localPosition = new Vector3(parent.localPosition.x - 306f, parent.localPosition.y, parent.localPosition.z);
                 while (__instance._languageToggles.Count > 3)
@@ -81,7 +81,7 @@ namespace LimbusLocalizeRUS
         {
             if (IsUseRussian.Value)
             {
-                __result = 3;
+                __result = 7;
                 return false;
             }
             return true;
@@ -92,7 +92,7 @@ namespace LimbusLocalizeRUS
         {
             if (IsUseRussian.Value)
             {
-                __result = "MSK";
+                __result = "ICT";
                 return false;
             }
             return true;

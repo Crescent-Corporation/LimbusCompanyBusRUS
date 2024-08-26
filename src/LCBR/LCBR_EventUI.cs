@@ -1,20 +1,25 @@
 ﻿using HarmonyLib;
 using MainUI;
-using UnityEngine.EventSystems;
 using TMPro;
-using static UI.Utility.InfoModels;
 using UnityEngine;
 using UnityEngine.UI;
-using UI;
 using MainUI.Gacha;
 using BattleUI.Typo;
+using UtilityUI;
+using Il2CppSystem;
 
 namespace LimbusLocalizeRUS
 {
     public static class LCBR_EventUI
     {
+        // EVENT DATES
+        public static void Event_Dates()
+        {
+            
+        }
+
         #region Base Things
-        [HarmonyPatch(typeof(BattleResultUIRewardSlot), nameof(BattleResultUIRewardSlot.SetLabelAcive))]
+        [HarmonyPatch(typeof(BattleResultUIRewardSlot), nameof(BattleResultUIRewardSlot.SetRewardState))]
         [HarmonyPostfix]
         private static void ExchangeEffectSprite(BattleResultUIRewardSlot __instance)
         {
@@ -180,7 +185,7 @@ namespace LimbusLocalizeRUS
         }
         #endregion
 
-        #region Walpurgis Nacht 2
+        #region 2nd Walpurgisnacht
         [HarmonyPatch(typeof(DawnOfGreenEventRewardBanner), nameof(DawnOfGreenEventRewardBanner.Init))]
         [HarmonyPostfix]
         private static void RewardBanner_Init (DawnOfGreenEventRewardBanner __instance)
@@ -295,7 +300,7 @@ namespace LimbusLocalizeRUS
         }
         #endregion
 
-        #region Walpurgis Nacht 3
+        #region 3rd Walpurgisnacht
         [HarmonyPatch(typeof(Walpu3SubEventBanner), nameof(Walpu3SubEventBanner.Init))]
         [HarmonyPostfix]
         private static void MissionButton(Walpu3SubEventBanner __instance)
@@ -411,6 +416,114 @@ namespace LimbusLocalizeRUS
             __instance.tmp_eventDate.text = "06:00 13.06.2024(ЧТ) - 04:00 18.07.2024(ЧТ) (МСК)";
             __instance.tmp_eventDate.font = LCB_Cyrillic_Font.tmpcyrillicfonts[2];
             __instance.tmp_eventDate.fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[2].material;
+        }
+        #endregion
+
+        #region Refraction Railway Line 4
+        [HarmonyPatch(typeof(StageInfoWaveButtonListUI), nameof(StageInfoWaveButtonListUI.SetData))]
+        [HarmonyPostfix]
+        private static void StageInfo_WaveButton(StageInfoWaveButtonListUI __instance)
+        {
+            foreach (var wave in __instance._waveButtons)
+            {
+                wave.tmp_buttonText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+                wave.tmp_buttonText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
+                wave.tmp_buttonText.fontSize = 30;
+                var myN = Int32.Parse(wave.tmp_buttonText.text.Substring(5));
+                wave.tmp_buttonText.text = $"{myN}{GetOrdinal(myN)} ВОЛНА";
+            }
+        }
+        public static string GetOrdinal(int number)
+        {
+            int lD = number % 10;
+            int secondLD = (number / 10) % 10;
+            string ending;
+            if (secondLD == 1)
+            {
+                ending = "-АЯ";
+            }
+            else
+            {
+                switch (lD)
+                {
+                    case 0:
+                        ending = "-АЯ";
+                        break;
+                    case 3:
+                        ending = "-ЬЯ";
+                        break;
+                    default:
+                        ending = "-АЯ";
+                        break;
+                }
+            }
+            return ending;
+        }
+        #endregion
+
+        #region Murder on the Warp Express
+        [HarmonyPatch(typeof(MOWEMainEventBanner), nameof(MOWEMainEventBanner.Init))]
+        [HarmonyPostfix]
+        private static void MOWE_MainBanner(MOWEMainEventBanner __instance)
+        {
+            __instance._bannerImage.overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_EventBanner"];
+        }
+        [HarmonyPatch(typeof(MOWESubEventBanner), nameof(MOWESubEventBanner.Init))]
+        [HarmonyPostfix]
+        private static void MOWE_SubBanner(MOWESubEventBanner __instance)
+        {
+            __instance._bannerImage.overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_ExchangeBanner"];
+        }
+
+        [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.UpdateButtonState))]
+        [HarmonyPostfix]
+        private static void MOWE_MainEvent(MOWEEventUIPanel __instance)
+        {
+            var intro = __instance.transform.Find("MOWE_introgroup");
+            Image text = intro.Find("[Image]Typo").GetComponent<Image>();
+            text.m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Intro"];
+
+            Transform logo = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo");
+            if (logo != null)
+            {
+                if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("11"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("7"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("9"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                else
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo_Blood"];
+            }
+            Transform date = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo/tmp_period");
+            if (date != null)
+            {
+                date.GetComponentInChildren<TextMeshProUGUI>(true).text = "06:00 08.08.2024(ЧТ) - 04:00 05.09.2024(ЧТ) (МСК)";
+                date.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[2];
+                date.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[2].material;
+            }
+            __instance.btn_theater.tmp_buttonText.lineSpacing = -30;
+        }
+        [HarmonyPatch(typeof(MOWERewardUIPopup), nameof(MOWERewardUIPopup.SetData))]
+        [HarmonyPostfix]
+        private static void MOWE_RewardUI(MOWERewardUIPopup __instance)
+        {
+            __instance.img_logo.overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+            __instance.tmp_eventDate.text = "06:00 08.08.2024(ЧТ) - 04:00 12.09.2024(ЧТ) (МСК)";
+            __instance.tmp_eventDate.font = LCB_Cyrillic_Font.tmpcyrillicfonts[2];
+            __instance.tmp_eventDate.fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[2].material;
+        }
+        [HarmonyPatch(typeof(MOWERewardButton),nameof(MOWERewardButton.SetData))]
+        [HarmonyPostfix]
+        private static void MOWE_ExchangeButton(MOWERewardButton __instance)
+        {
+            GameObject MOWE = GameObject.Find("[Canvas]RatioMainUI/[Rect]PopupRoot/[UIPopup]MOWE_Reward(Clone)/EventDescriptionPanel/[Image]ItemCounterPanel/tmp_label_itemCounter");
+            MOWE.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
+            MOWE.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
+            MOWE.GetComponentInChildren<TextMeshProUGUI>(true).m_text = "Наборов на руках:";
+            MOWE.GetComponentInChildren<TextMeshProUGUI>(true).text = "Наборов на руках:";
+
+            __instance.transform.Find("Image").GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Exchange"];
         }
         #endregion
     }

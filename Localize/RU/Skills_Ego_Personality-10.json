@@ -258,7 +258,7 @@
           "level": 1,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[BeforeAttack] Если наибольший резонанс равен 4 и более, кол-во целей +1",
+          "desc": "[BeforeAttack] Если наибольший резонанс равен 4 и более, число целей +1",
           "coinlist": [
             {
               "coindescs": [
@@ -282,7 +282,7 @@
           "level": 3,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "<style=\"highlight\">[BeforeAttack] Кол-во целей +(наибольший резонанс - 2) (До 2)</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Число целей +(наибольший резонанс - 2) (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -303,7 +303,7 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[BeforeAttack] Кол-во целей +(наибольший резонанс - 2) (До 2)<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Число целей +(наибольший резонанс - 2) (До 2)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -329,7 +329,7 @@
           "level": 1,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Если наибольший резонанс равен 4 и более, кол-во целей +1\n[BeforeAttack] Этот слот получает 5 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Если наибольший резонанс равен 4 и более, число целей +1\n[BeforeAttack] Этот слот получает 5 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -353,7 +353,7 @@
           "level": 3,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Кол-во целей +(наибольший резонанс - 2) (До 2)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Число целей +(наибольший резонанс - 2) (До 2)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -377,7 +377,7 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Кол-во целей +(наибольший резонанс - 2) (До 2)\n[BeforeAttack] Этот слот получает 10 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Число целей +(наибольший резонанс - 2) (До 2)\n[BeforeAttack] Этот слот получает 10 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [

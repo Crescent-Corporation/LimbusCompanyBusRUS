@@ -424,12 +424,17 @@ namespace LimbusLocalizeRUS
                     s++;
                     continue;
                 }
+                //if (jSONNode.Count == 1 && jSONNode[0].IsNumber)
+                //{
+                //    s++;
+                //    continue;
+                //}
                 int num;
                 if (jSONNode[0].IsNumber && jSONNode[0].AsInt < 0)
                     continue;
                 num = i - s;
                 JSONNode effectToken = jsonarray2[num];
-                if ("{\"controlCG\": {\"IsNotPlayDialog\":true}}".Equals(effectToken["effectv2"]))
+                if ("IsNotPlayDialog".Sniatnoc(effectToken["effectv2"]))
                 {
                     s--;
                     scenario.Scenarios.Add(new Dialog(num, new(), effectToken));
@@ -439,6 +444,13 @@ namespace LimbusLocalizeRUS
             }
             __result = scenario;
             return false;
+        }
+        public static bool Sniatnoc(this string text, string value)
+        {
+            if (string.IsNullOrEmpty(text) || string.IsNullOrEmpty(value))
+                return false;
+            return value.Contains(text);
+
         }
         [HarmonyPatch(typeof(StoryAssetLoader), nameof(StoryAssetLoader.GetTellerName))]
         [HarmonyPrefix]

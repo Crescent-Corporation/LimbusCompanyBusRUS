@@ -471,7 +471,7 @@
         {
           "level": 1,
           "name": "Клинок зарева",
-          "desc": "[WhenUse] В состоянии Нестабильного ЭГО тратит 5 СД\n[BeforeAttack] В состоянии Нестабильного ЭГО кол-во целей +1\n[EndSkill] В состоянии Нестабильного ЭГО тратит 5 СД",
+          "desc": "[WhenUse] В состоянии Нестабильного ЭГО тратит 5 СД\n[BeforeAttack] В состоянии Нестабильного ЭГО число целей +1\n[EndSkill] В состоянии Нестабильного ЭГО тратит 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -499,7 +499,7 @@
         {
           "level": 2,
           "name": "Клинок зарева",
-          "desc": "<style=\"highlight\">Сила в поединке +1 против целей с 4 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color></style>\n[WhenUse] В состоянии Нестабильного ЭГО тратит 5 СД\n[BeforeAttack] В состоянии Нестабильного ЭГО кол-во целей +1\n[EndSkill] В состоянии Нестабильного ЭГО тратит 5 СД",
+          "desc": "<style=\"highlight\">Сила в поединке +1 против целей с 4 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color></style>\n[WhenUse] В состоянии Нестабильного ЭГО тратит 5 СД\n[BeforeAttack] В состоянии Нестабильного ЭГО число целей +1\n[EndSkill] В состоянии Нестабильного ЭГО тратит 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -527,7 +527,7 @@
         {
           "level": 4,
           "name": "Клинок зарева",
-          "desc": "Сила в поединке +1 против целей с 4 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n[WhenUse] В состоянии Нестабильного ЭГО тратит 5 СД\n[BeforeAttack] В состоянии Нестабильного ЭГО кол-во целей +1\n<style=\"highlight\">- При 45 СД меняет эффект: кол-во целей +2</style>\n[EndSkill] В состоянии Нестабильного ЭГО тратит 5 СД",
+          "desc": "Сила в поединке +1 против целей с 4 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n[WhenUse] В состоянии Нестабильного ЭГО тратит 5 СД\n[BeforeAttack] В состоянии Нестабильного ЭГО число целей +1\n<style=\"highlight\">- При 45 СД меняет эффект: число целей +2</style>\n[EndSkill] В состоянии Нестабильного ЭГО тратит 5 СД",
           "coinlist": [
             {
               "coindescs": [

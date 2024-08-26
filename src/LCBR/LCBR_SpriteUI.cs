@@ -9,9 +9,9 @@ using StorySystem;
 using BattleUI.BattleUnit;
 using MainUI.Gacha;
 using Dungeon.Shop;
-using Dungeon.UI.Event;
 using ChoiceEvent;
 using BattleUI.Information;
+using System;
 
 namespace LimbusLocalizeRUS
 {
@@ -36,19 +36,34 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void LoginSceneManager_Init(LoginSceneManager __instance)
         {
-            Transform catchphrase = __instance.transform.Find("[Canvas]/[Image]Catchphrase");
+            Transform catchphrase = __instance._canvas.transform.Find("[Image]Catchphrase");
+            Transform logo = __instance._canvas.transform.Find("[Image]Logo");
             if (catchphrase.GetComponentInChildren<Image>(true).sprite.name == "season_catchphrase")
             {
                 catchphrase.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Catchphrase"];
             }
             __instance.img_touchToStart.sprite = LCBR_ReadmeManager.ReadmeSprites["Start"];
             Transform motto = __instance.transform.Find("[Canvas]/[Image]RedLine/[Image]Phrase");
+            Motto_Changer(catchphrase, logo, motto);
+        }
+
+        public static void Motto_Changer(Transform catchphrase, Transform logo, Transform motto)
+        {
+            DateTime event_start = new DateTime(2024, 8, 8, 3, 0, 0).ToLocalTime();
+            DateTime event_end = new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime();
+
+            DateTime startup = DateTime.Today;
             if (motto != null)
             {
-                if (catchphrase != null)
+                if (logo.gameObject.active == true)
+                {
+                    if (DateTime.Compare(startup, event_end) < 0)
+                        motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Event"];
+                    else
+                        motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Default"];
+                }
+                else if (catchphrase.gameObject.active == true)
                     motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Season"];
-                else
-                    motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Default"];
             }
         }
         #endregion
@@ -310,6 +325,26 @@ namespace LimbusLocalizeRUS
                 __instance._dnateAbilityBtnImage.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["DanteAbility_Active"];
             else
                 __instance._dnateAbilityBtnImage.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["DanteAbility_Inactive"];
+        }
+        [HarmonyPatch(typeof(BattleEvilstockUI), nameof(BattleEvilstockUI.SetActive))]
+        [HarmonyPostfix]
+        private static void EnemySins(BattleEvilstockUI __instance)
+        {
+            Image enemy_sins = __instance.transform.Find("[Image]enemyEvilstockBackground/[Image]EnemyTag").GetComponentInChildren<Image>(true);
+            if (enemy_sins != null)
+            {
+                enemy_sins.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["Battle_EnemySins"];
+            }
+        }
+        [HarmonyPatch(typeof(PassiveUIManager), nameof(PassiveUIManager.SetData))]
+        [HarmonyPostfix]
+        private static void EnemyPassives(PassiveUIManager __instance)
+        {
+            Image enemy_passives = __instance.transform.Find("[Rect]Pivot/[Rect]BattleUnitPassive/[Image]Background/[Image]EnemyTag").GetComponentInChildren<Image>(true);
+            if (enemy_passives != null)
+            {
+                enemy_passives.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["Battle_EnemyPassives"];
+            }
         }
         //[HarmonyPatch(typeof(BattleSkillViewUIOverClock), nameof(BattleSkillViewUIOverClock.SetActiveOverClock))]
         //[HarmonyPostfix]

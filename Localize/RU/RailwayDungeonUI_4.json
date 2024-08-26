@@ -1,0 +1,128 @@
+{
+  "dataList": [
+    {
+      "id": "railway_dungeon_4_reward_condition_special_ticket",
+      "content": "※ Может быть получена за прохождение четвёртой секции Железной дороги преломления, Пути 4 с общим счётом ходов <color=#066386>{0}</color> и ниже до окончания <color=#4e3076>Сезона 4: Очистить Кэти</color>."
+    },
+    {
+      "id": "railway_dungeon_4_banner_reward_condition_1",
+      "content": "Может быть получена за прохождение четвёртой секции Железной дороги преломления, Пути 4."
+    },
+    {
+      "id": "railway_dungeon_4_banner_reward_condition_2",
+      "content": "Может быть получена за прохождение четвёртой секции Железной дороги преломления, Пути 4 с общим счётом ходов {0} и ниже до окончания Сезона 4: Очистить Кэти."
+    },
+    {
+      "id": "formation_waiting_character",
+      "content": "Подмога"
+    },
+    {
+      "id": "railway_dungeon_entrance_warning",
+      "content": "<Рекомендации>\n\n- Идентичности: 4-ый уровень Связи, уровень 45\n- ЭГО: 4-ый уровень Связки."
+    },
+    {
+      "id": "railway_dungeon_formation_must_select_all_alive",
+      "content": "Некоторые грешники не участвуют в команде.\n\nПожалуйста, включите всех грешников в команду."
+    },
+    {
+      "id": "railway_dungeon_lose_battle_exit_title",
+      "content": "В меню выбора этапа"
+    },
+    {
+      "id": "railway_dungeon_lose_battle_exit_content",
+      "content": "Вы можете вернуться в меню выбора этапа.\nТаким образом вы сможете сбросить порядок в команде."
+    },
+    {
+      "id": "railway_dungeon_lose_battle_retry_title",
+      "content": "Попытаемся снова"
+    },
+    {
+      "id": "railway_dungeon_lose_battle_retry_content",
+      "content": "Попробуйте переиграть секцию, начав с первой волны.\nПорядок в команде останется прежним."
+    },
+    {
+      "id": "railway_dungeon_lose_battle_give_up_title",
+      "content": "Сдаюсь (Нельзя сдаваться, удалите потом)"
+    },
+    {
+      "id": "railway_dungeon_lose_battle_give_up_content",
+      "content": "Сдаваясь, вы начинаете в самом начале Пути 4. (Нельзя сдаваться, удалите потом)"
+    },
+    {
+      "id": "formation_participate_battle_label",
+      "content": "Всего в команде"
+    },
+    {
+      "id": "formation_setting_waiting_character",
+      "content": "В подмоге"
+    },
+    {
+      "id": "heal_character_who_does_not_participate_battle",
+      "content": "Здоровье идентичностей, не участвовавших в битве, полностью восстановлено."
+    },
+    {
+      "id": "railway_dungeon_ask_to_go_past_node",
+      "content": "Если вы выберете эту битву, весь прогресс до неё будет сброшен.\n\nЖелаете начать эту битву?"
+    },
+    {
+      "id": "formation_baton_continue",
+      "content": "Цепная"
+    },
+    {
+      "id": "railway_dungeon_lose_battle_all_identity_dead",
+      "content": "Все грешники мертвы. Пожалуйста, примите дальнейшее решение."
+    },
+    {
+      "id": "railway_dungeon_4_unit_inited",
+      "content": "ОЗ и СД были сброшены."
+    },
+    {
+      "id": "railway_dungeon_4_entrance_recommended",
+      "content": "Рекомендации"
+    },
+    {
+      "id": "railway_dungeon_4_entrance_recommended_level",
+      "content": "- Идентичности: 4-ый уровень Связи, уровень 45"
+    },
+    {
+      "id": "railway_dungeon_4_entrance_recommended_gacksung",
+      "content": "- ЭГО: 4-ый уровень Связки"
+    },
+    {
+      "id": "railway_dungeon_4_section_1",
+      "content": "<font=\"BebasKai SDF\">1-АЯ СЕКЦИЯ</font>"
+    },
+    {
+      "id": "railway_dungeon_4_section_2",
+      "content": "<font=\"BebasKai SDF\">2-АЯ СЕКЦИЯ</font>"
+    },
+    {
+      "id": "railway_dungeon_4_section_3",
+      "content": "<font=\"BebasKai SDF\">3-ЬЯ СЕКЦИЯ</font>"
+    },
+    {
+      "id": "railway_dungeon_4_section_4",
+      "content": "<font=\"BebasKai SDF\">4-АЯ СЕКЦИЯ</font>"
+    },
+    {
+      "id": "railway_dungeon_4_section_1_lost_and_found",
+      "content": "1-ая Секция"
+    },
+    {
+      "id": "railway_dungeon_4_section_2_lost_and_found",
+      "content": "2-ая Секция"
+    },
+    {
+      "id": "railway_dungeon_4_section_3_lost_and_found",
+      "content": "3-ья Секция"
+    },
+    {
+      "id": "railway_dungeon_4_section_4_lost_and_found",
+      "content": "4-ая Секция"
+    },
+    {
+      "id": "railway_dungeon_4_formation_reset",
+      "content": "Сбросить команду"
+    }
+  ]
+}

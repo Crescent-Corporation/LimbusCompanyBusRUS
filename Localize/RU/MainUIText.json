@@ -54,7 +54,7 @@
     },
     {
       "id": "mainui_stageinfo_exclearcondition",
-      "content": "EX Задания"
+      "content": "Задания"
     },
     {
       "id": "mainui_stageinfo_statinfo",
@@ -134,7 +134,7 @@
     },
     {
       "id": "mainui_battleresult_exclearreward",
-      "content": "EX Награды"
+      "content": "Награды за задание"
     },
     {
       "id": "mainui_battleresult_statistics",
@@ -302,7 +302,7 @@
     },
     {
       "id": "mainui_gacha_daliynotice",
-      "content": "Обнуляется ежедневно в {0}:00"
+      "content": "Обновляется ежедневно в {0}:00"
     },
     {
       "id": "mainui_gacha_alreadyusedgacha",
@@ -342,7 +342,7 @@
     },
     {
       "id": "mainui_networkingerror_content",
-      "content": "Неустойчивое соединение.\n Проверьте подключение к интернету."
+      "content": "Неустойчивое соединение.\nПроверьте подключение к интернету."
     },
     {
       "id": "mainui_networkingerror_close",
@@ -634,11 +634,11 @@
     },
     {
       "id": "mainui_battle_passsive_addition",
-      "content": "Боевые пассивки разблокируются"
+      "content": "Открываются Боевые пассивки"
     },
     {
       "id": "mainui_support_passsive_addition",
-      "content": "Пассивки Поддержки разблокируются"
+      "content": "Открываются пассивки Поддержки"
     },
     {
       "id": "mainui_check_purchase",
@@ -694,7 +694,7 @@
     },
     {
       "id": "mainui_ex_clear_progress",
-      "content": "EX миссия пройдена"
+      "content": "Пройдено в совершенстве"
     },
     {
       "id": "mainui_notice_spend_free_lunacy_first",
@@ -826,7 +826,7 @@
     },
     {
       "id": "mainui_unlock_condition_by_personality_awaken_level",
-      "content": "Разблокируется на {0} уровне Связи"
+      "content": "Открывается на {0} уровне Связи"
     },
     {
       "id": "skill_growth_value",
@@ -886,7 +886,7 @@
     },
     {
       "id": "gacha_rate_info_intro1",
-      "content": "В связи с「Рекомендациями добровольного ограничения Корейской ассоциации игровой индустрии」, здесь расписаны точные данные шансов извлечения.\n\nИндивидуальные шансы округлены от пятой цифры после запятой. Актуальная сумма применяется к 100%."
+      "content": "В связи с 「Рекомендациями добровольного ограничения Корейской ассоциации игровой индустрии」, здесь расписаны точные данные шансов извлечения.\n\nИндивидуальные шансы округлены от пятой цифры после запятой. Актуальная сумма применяется к 100%."
     },
     {
       "id": "gacha_rate_info_intro2",
@@ -998,7 +998,7 @@
     },
     {
       "id": "cant_receive_mail_all_main",
-      "content": "Нет почты, кторорую можно было бы взять."
+      "content": "Нет почты, которую можно принять."
     },
     {
       "id": "attached_item",
@@ -1166,11 +1166,11 @@
     },
     {
       "id": "gacha_notice_single_season",
-      "content": "Идентичности 2★ и 3★ редкости в этом баннере принадлежат {0} сезону."
+      "content": "Идентичности 2★ и 3★ редкости\nв этом баннере принадлежат {0} сезону."
     },
     {
       "id": "error_and_return_to_main",
-      "content": "Произошла ошибка.\nВозвращамся на главный экран."
+      "content": "Произошла ошибка.\nВозвращаемся на главный экран."
     },
     {
       "id": "to_window",
@@ -1310,7 +1310,7 @@
     },
     {
       "id": "new_season_former_piece_to_thread_desc",
-      "content": "Неперенесённые эгосколки конвертируются в Звенья."
+      "content": "Не перенесённые эгосколки конвертируются в Звенья."
     },
     {
       "id": "new_season_former_box_to_current_box_desc",
@@ -1498,7 +1498,7 @@
     },
     {
       "id": "enable_count_for_battle",
-      "content": "Лимит участников"
+      "content": "Лимит команды"
     },
     {
       "id": "select_for_formation",
@@ -1510,7 +1510,7 @@
     },
     {
       "id": "full_participated",
-      "content": "Максимальное кол-во участников"
+      "content": "Максимальное число участников"
     },
     {
       "id": "select_for_delete_participation",
@@ -1746,7 +1746,11 @@
     },
     {
       "id": "personality_unit_keyword",
-      "content": "Аспект идентичности"
+      "content": "Принадлежность идентичности"
+    },
+    {
+      "id": "formation_ask_clear_selection",
+      "content": "Вы точно желаете сбросить команду?"
     }
   ]
 }

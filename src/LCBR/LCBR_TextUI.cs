@@ -18,6 +18,8 @@ using System;
 using Dungeon.UI;
 using Dungeon.UI.EgoGift;
 using BattleUI.BattleUnit.SkillInfoUI;
+using Dungeon.Shop;
+using BattleStatistics;
 
 namespace LimbusLocalizeRUS
 {
@@ -40,6 +42,7 @@ namespace LimbusLocalizeRUS
             if (connection != null)
             {
                 connection.GetComponentInChildren<TextMeshProUGUI>(true).text = "ПОДКЛЮЧЕНИЕ";
+                connection.GetComponentInChildren<RectTransform>(true).anchoredPosition = new Vector2(10, 0);
                 connection.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[0];
                 connection.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[0].material;
                 connection.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 77f;
@@ -60,6 +63,7 @@ namespace LimbusLocalizeRUS
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("UPDATE", "ОБНОВЛЕНИЯ");
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("Sound", "ЗВУКОВ");
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("Sprite", "СПРАЙТОВ");
+                __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("Retry ЗВГРУЗКА", "ПОПЫТКА ЗАГРУЗКИ");
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[1];
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[1].material;
             }
@@ -83,6 +87,22 @@ namespace LimbusLocalizeRUS
                 No.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[0].material;
             }
         }
+
+        [HarmonyPatch(typeof(UserInfoCard), nameof(UserInfoCard.SetDataMainLobby))]
+        [HarmonyPostfix]
+        private static void Lobby_LevelID(UserInfoCard __instance)
+        {
+            TextMeshProUGUI lv = __instance.transform.Find("[Rect]AspectRatio/[Canvas]Info/[Text]LevelLabel").GetComponentInChildren<TextMeshProUGUI>(true);
+            lv.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            lv.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
+            lv.text = "УР";
+
+            TextMeshProUGUI no = __instance.transform.Find("[Rect]AspectRatio/[Canvas]Info/[Text]IdNumberLabel").GetComponentInChildren<TextMeshProUGUI>(true);
+            no.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            no.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
+            no.text = "№";
+        }
+
         [HarmonyPatch(typeof(NoticeUIPopup), nameof(NoticeUIPopup.Initialize))]
         [HarmonyPostfix]
         private static void NoticeNews(NoticeUIPopup __instance)
@@ -253,14 +273,13 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void NodeSelectUI_RightCorner(StageStoryNodeSelectUI __instance)
         {
-            Transform episode_right = __instance.transform.Find("[Rect]Banner/[Image]PageTitle/[Text]PageTitle");
-            if (episode_right.GetComponentInChildren<TextMeshProUGUI>(true).text.EndsWith("эпизод"))
+            if (__instance._leftStoryNumberText.text != null)
             {
-                string[] parts = episode_right.GetComponentInChildren<TextMeshProUGUI>(true).text.Split(' ');
+                string[] parts = __instance._leftStoryNumberText.text.Split(' ');
                 int number = int.Parse(parts[0]);
                 string episode = parts[1];
                 string numEpi = numberEnding(number);
-                episode_right.GetComponentInChildren<TextMeshProUGUI>(true).text = $"{number}{numEpi} {episode}";
+                __instance._leftStoryNumberText.text = $"{number}{numEpi} {episode}";
             }
         }
 
@@ -418,7 +437,7 @@ namespace LimbusLocalizeRUS
             Transform ego = __instance._userinfoTicketCustomPopup._egoBackgroundBtn.transform.Find("[Text]EGO");
             Transform bg = __instance._userinfoTicketCustomPopup._egoBackgroundBtn.transform.Find("[Text]BG");
             ego.GetComponentInChildren<TextMeshProUGUI>(true).text = "<size=40>Фон\nдля</size>";
-            ego.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -40;
+            ego.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -20;
             bg.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
             bg.GetComponentInChildren<TextMeshProUGUI>(true).text = "<size=70>ЭГО</size>";
         }
@@ -427,7 +446,7 @@ namespace LimbusLocalizeRUS
         private static void TicketChangePopup(UserInfoTicketItem __instance)
         {
             __instance._using_choosingText.text = "Выбран";
-            __instance._using_choosingText.lineSpacing = -40;
+            __instance._using_choosingText.lineSpacing = -20;
         }
         #endregion
 
@@ -582,7 +601,7 @@ namespace LimbusLocalizeRUS
                 id_mainui.GetComponentInChildren<UITextDataLoader>().enabled = false;
                 id_mainui.GetComponentInChildren<TextMeshProUGUI>(true).richText = false;
                 id_mainui.GetComponentInChildren<TextMeshProUGUI>(true).autoSizeTextContainer = true;
-                id_mainui.GetComponentInChildren<TextMeshProUGUI>(true).text = "Идентичности";
+                id_mainui.GetComponentInChildren<TextMeshProUGUI>(true).text = "Идентичность";
             }
         }
         [HarmonyPatch(typeof(UnitInformationTabButton), nameof(UnitInformationTabButton.SetData))]
@@ -643,16 +662,16 @@ namespace LimbusLocalizeRUS
             __instance.tmp_egoHighlight.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(8);
             __instance._skillText._text.fontStyle = FontStyles.Normal | FontStyles.SmallCaps;
             __instance.tmp_skillHighlight.fontStyle = FontStyles.Normal | FontStyles.SmallCaps;
-            __instance._skillText._text.text = "Атаки";
-            __instance.tmp_skillHighlight.text = "Атаки";
+            __instance._skillText._text.text = "Навыки";
+            __instance.tmp_skillHighlight.text = "Навыки";
             __instance.tmp_skillHighlight.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(8);
         }
         [HarmonyPatch(typeof(PersonalityDetailButton), nameof(PersonalityDetailButton.Initialize))]
         [HarmonyPostfix]
         private static void FormationUwa_Init(PersonalityDetailButton __instance)
         {
-            __instance._skillText._text.text = "Атаки";
-            __instance.tmp_skillHighlight.text = "Атаки";
+            __instance._skillText._text.text = "Навыки";
+            __instance.tmp_skillHighlight.text = "Навыки";
         }
         [HarmonyPatch(typeof(FormationUIDeckToggle), nameof(FormationUIDeckToggle.SetText))]
         [HarmonyPostfix]
@@ -667,28 +686,49 @@ namespace LimbusLocalizeRUS
             //SetUpperClickActive, Initialize, SetUpperUIMode, SetData, 
             Color charcoal = new Color(0.016f, 0.016f, 0.016f, 0.91f);
 
-            //__instance._forceParticipation.tmp_label.m_fontAsset = LCB_Cyrillic_Font.tmpcyrillicfonts[0];
-            //__instance._forceParticipation.tmp_label.fontSharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(1);
             __instance._textInfo.txt_level.text = __instance._textInfo.txt_level.text.Replace("Lv.", "Ур.");
             __instance._textInfo.txt_level.font = LCB_Cyrillic_Font.GetCyrillicFonts(2);
             __instance._textInfo.txt_level.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(6);
 
             __instance._textInfo.txt_level.m_sharedMaterial.SetColor("_UnderlayColor", charcoal);
-            __instance._textInfo.txt_level.m_sharedMaterial.SetFloat("_UnderlayOffsetX", 2);
-            __instance._textInfo.txt_level.m_sharedMaterial.SetFloat("_UnderlayOffsetY", -2);
-            __instance._textInfo.txt_level.m_sharedMaterial.SetFloat("_UnderlayDilate", 1.5f);
-
-            TextMeshProUGUI changed = __instance._additionalInfo._hideCanvasGroup.transform.Find("[Script]Changed/[Text]Label").GetComponentInChildren<TextMeshProUGUI>();
-            changed.text = "<voffset=-0.25em><cspace=-1px>Замена</cspace></voffset>";
-            changed.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
-            changed.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
 
             __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
+
             TextMeshProUGUI abstain = __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProUGUI>(true);
             abstain.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
             abstain.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
             abstain.fontSize = 44;
-            
+
+            var sinnerName = __instance.transform.name.Substring(25);
+            __instance._upperPortraitEventUI.tmp_text.text = Declension_sinners(sinnerName, __instance._upperPortraitEventUI.tmp_text.text);
+            __instance._upperPortraitEventUI.tmp_text.lineSpacing = -30;
+        }
+        [HarmonyPatch(typeof(Formation_UpperEventSlotUI), nameof(Formation_UpperEventSlotUI.SetData))]
+        [HarmonyPostfix]
+        private static void FormationLabel_Upper(Formation_UpperEventSlotUI __instance)
+        {
+            var sinnerName = __instance.transform.parent.name.Substring(25);
+            __instance.tmp_text.text = Declension_sinners(sinnerName, __instance.tmp_text.text);
+            __instance.tmp_text.lineSpacing = -30;
+        }
+
+        [HarmonyPatch(typeof(Formation_SelectParticipatedEventSlotUI), nameof(Formation_SelectParticipatedEventSlotUI.SetIsFull))]
+        [HarmonyPostfix]
+        private static void Formation_SelectParticipatedEventSlotUI_Abstain(Formation_SelectParticipatedEventSlotUI __instance)
+        {
+            var sinnerName = __instance.transform.parent.name.Substring(25);
+            __instance._text.enabled = false;
+            __instance._materialSetter._text.text = Declension_sinners(sinnerName, __instance._materialSetter._text.text);
+
+        }
+        static string Declension_sinners(string sinner, string replacing)
+        {
+            switch (sinner)
+            {
+                case "Faust" or "Donqui" or "Ryoshu" or "Ishmael" or "Rodion" or "Outis":
+                    return replacing.Replace("ка", "цу");
+            }
+            return replacing;
         }
 
         [HarmonyPatch(typeof(FormationPersonalityUI_Label), nameof(FormationPersonalityUI_Label.Reload))]
@@ -728,17 +768,47 @@ namespace LimbusLocalizeRUS
                         break;
                 }
             }
+
+            __instance.tmp_text.text = __instance.tmp_text.text.Replace("CHANGED", "<voffset=-0.25em><cspace=-1px>ЗАМЕНА</cspace></voffset>");
         }
 
-        [HarmonyPatch(typeof(FormationPersonalityUI), nameof(FormationPersonalityUI.Initialize))]
+        [HarmonyPatch(typeof(FormationUIDeckToggle),nameof(FormationUIDeckToggle.UpdateScrollAnimation))]
         [HarmonyPostfix]
-        private static void FormationLabel_Abstain(FormationPersonalityUI __instance)
+        private static void TeamName(FormationUIDeckToggle __instance)
         {
-            __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
-            TextMeshProUGUI abstain = __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProUGUI>(true);
-            abstain.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
-            abstain.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
-            abstain.fontSize = 44;
+            __instance.tmp_title.text = __instance.tmp_title.text.Replace("#", "№");
+        }
+
+        [HarmonyPatch(typeof(MirrorDungeonShopItemSlotManager), nameof(MirrorDungeonShopItemSlotManager.SetDataOpen))]
+        [HarmonyPostfix]
+        private static void MirrorDungeonShopItemSlotManager_Init(MirrorDungeonShopItemSlotManager __instance)
+        {
+            var sinner = __instance._changeSkillItem.tmp_title.text.Substring(21);
+            __instance._changeSkillItem.tmp_title.text = "Изменение навыка для " + NameChanger(sinner);
+        }
+        [HarmonyPatch(typeof(MirrorDungeonShopSkillChangePopupUI), nameof(MirrorDungeonShopSkillChangePopupUI.SetDataAndOpen))]
+        [HarmonyPostfix]
+        private static void MirrorDungeonShopSkillChangePopupUI_SetData(MirrorDungeonShopSkillChangePopupUI __instance)
+        {
+            var sinner = __instance.tmp_popupLabel.text.Substring(21);
+            __instance.tmp_popupLabel.text = "Изменение навыка для " + NameChanger(sinner);
+        }
+        public static string NameChanger(string sinnerName)
+        {
+            switch (sinnerName)
+            {
+                case "И Сан":
+                    return "И Сана";
+                case "Хитклиф":
+                    return "Хитклифа";
+                case "Родя":
+                    return "Роди";
+                case "Грегор":
+                    return "Грегора";
+                case "Синклер":
+                    return "Синклера";
+            }
+            return sinnerName;
         }
         #endregion
 
@@ -764,6 +834,13 @@ namespace LimbusLocalizeRUS
             __instance.txt_level.text = __instance.txt_level.text.Replace("Lv", "Ур.");
             __instance.txt_level.font = LCB_Cyrillic_Font.tmpcyrillicfonts[2];
             __instance.txt_level.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(6);
+            if (__instance._participatedObject != null)
+            {
+                TextMeshProUGUI participated = __instance._participatedObject.transform.Find("[Text]Label").GetComponentInChildren<TextMeshProUGUI>();
+                participated.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+                participated.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(3);
+                participated.fontSize = 56;
+            }
         }
         [HarmonyPatch(typeof(UserInfoCard), nameof(UserInfoCard.SetData))]
         [HarmonyPostfix]
@@ -816,6 +893,22 @@ namespace LimbusLocalizeRUS
             exp.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(2);
             exp.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(6);
         }
+
+        [HarmonyPatch(typeof(StageInfoDisplayRenewal), nameof(StageInfoDisplayRenewal.SetChapterUIActive))]
+        [HarmonyPostfix]
+        private static void StageInfo_Level(StageInfoDisplayRenewal __instance)
+        {
+            TextMeshProUGUI level = __instance.tmp_recommendLevel;
+
+            level.GetComponentInChildren<RectTransform>(true).anchoredPosition = new Vector2(5, -20);
+
+            level.m_fontAsset = LCB_Cyrillic_Font.tmpcyrillicfonts[0];
+            level.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(3);
+
+            string[] parts = level.text.Split('.');
+            int lv_number = int.Parse(parts[1]);
+            __instance.tmp_recommendLevel.text = $"<size=82>УР.{lv_number}</size>";
+        }
         #endregion
 
         #region Sinner UI
@@ -838,7 +931,7 @@ namespace LimbusLocalizeRUS
             GameObject skill = GameObject.Find("[Canvas]RatioMainUI/[Rect]PanelRoot/[Script]UnitInformationController(Clone)/[Script]UnitInformationController_Renewal/[Canvas]AboveSpine/[Script]TabContentManager/[Layout]UnitInfoTabList/[Button]UnitInfoTab (1)/[Text]UnitInfoTabName");
             if (skill != null)
             {
-                skill.GetComponentInChildren<TextMeshProUGUI>(true).text = "Атаки";
+                skill.GetComponentInChildren<TextMeshProUGUI>(true).text = "Навыки";
                 skill.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[3];
                 skill.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[3].material;
             }
@@ -859,6 +952,13 @@ namespace LimbusLocalizeRUS
             {
                 __instance.tmp_tabName.text = "ЭГО";
             }
+        }
+        [HarmonyPatch(typeof(UnitInfoBreakSectionTooltipUI), nameof(UnitInfoBreakSectionTooltipUI.SetDataAndOpen))]
+        [HarmonyPostfix]
+        private static void UnitInfoBreakSections(UnitInfoBreakSectionTooltipUI __instance)
+        {
+            __instance.tmp_tooltipContent.font = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            __instance.tmp_tooltipContent.fontSize = 35f;
         }
         #endregion
 
@@ -926,7 +1026,7 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void EnemyUnitInfo_Init(UnitInformationTabButton __instance)
         {
-            __instance.tmp_tabName.text = __instance.tmp_tabName.text.Replace("Атака", "Атаки");
+            __instance.tmp_tabName.text = __instance.tmp_tabName.text.Replace("Атака", "Навыки");
         }
         [HarmonyPatch(typeof(AbnormalityStatUI), nameof(AbnormalityStatUI.UpdateBottomUIScale))]
         [HarmonyPostfix]
@@ -967,15 +1067,15 @@ namespace LimbusLocalizeRUS
         {
             Transform WinRate = __instance.transform.Find("[Rect]ActiveControl/[Rect]Pivot/[Rect]ActionableSlotList/[Layout]SinActionSlotsGrid/[Rect]AutoSelectButton/[Rect]Pivot/[Toggle]WinRate/Background/Text (TMP)");
             WinRate.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 34;
-            WinRate.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -40;
+            WinRate.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -20;
         }
 
         [HarmonyPatch(typeof(SkillAndCoinUI), nameof(SkillAndCoinUI.SetSkillNameUI))]
         [HarmonyPostfix]
         private static void SkillName(SkillAndCoinUI __instance)
         {
-            __instance.rect_skillName.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -40;
-            __instance.tmp_skillName.lineSpacing = -40;
+            __instance.rect_skillName.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -20;
+            __instance.tmp_skillName.lineSpacing = -20;
             if (__instance.tmp_skillName.text.StartsWith("Этика"))
                 __instance.tmp_skillName.text = __instance.tmp_skillName.text.Replace("Этика", "<size=60%><cspace=-2px>Этика");
         }
@@ -983,7 +1083,7 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void AbnormalityResearch(UnitInfoNameTagAbResearchLevelUI __instance)
         {
-            __instance.tmp_storyButton.lineSpacing = -40;
+            __instance.tmp_storyButton.lineSpacing = -20;
         }
         [HarmonyPatch(typeof(UnitInformationSkillSlot), nameof(UnitInformationSkillSlot.UpdateLayout))]
         [HarmonyPostfix]
@@ -1197,8 +1297,8 @@ namespace LimbusLocalizeRUS
         private static void UnitInformationSeasonTagUI_Init(UnitInformationSeasonTagUI __instance)
         {
             string text = __instance.tmp_season.text.Replace("SEASON", "СЕЗОН");
-            __instance.tmp_season.text = text.Replace("WALPURGISNACHT -", "<cspace=-4px>ВАЛЬПУРГИЕВА НОЧЬ -</cspace>");
-            __instance.tmp_season.text = __instance.tmp_season.text.Replace("I", "<cspace=-4px>I</cspace>");
+            __instance.tmp_season.text = text.Replace("WALPURGISNACHT -", "<cspace=-2px>ВАЛЬПУРГИЕВА НОЧЬ -</cspace>");
+            __instance.tmp_season.text = __instance.tmp_season.text.Replace("I", "<cspace=-2px>I</cspace>");
             __instance.tmp_season.font = LCB_Cyrillic_Font.tmpcyrillicfonts[1];
             __instance.tmp_season.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
             float seasonSize = __instance.tmp_season.fontSize;
@@ -1395,8 +1495,8 @@ namespace LimbusLocalizeRUS
                 return "Мерсо";
             else if (sinnerName == " Хон Лу")
                 return "Хон Лу";
-            else if (sinnerName == " Хитклифф")
-                return "Хитклиффа";
+            else if (sinnerName == " Хитклиф")
+                return "Хитклифа";
             else if (sinnerName == " Измаил")
                 return "Измаил";
             else if (sinnerName == " Родя")
@@ -1431,6 +1531,7 @@ namespace LimbusLocalizeRUS
                 string faction = parts[0];
                 string sinner = parts[1];
                 string storyword = "История";
+                string afterward = "(Послесловие)";
                 if (faction.StartsWith("Та"))
                 {
                     faction = "Та, кто держит";
@@ -1442,7 +1543,40 @@ namespace LimbusLocalizeRUS
                     sinner = " Синклер";
                 }
 
-                __instance._storyTitleText.text = $"{faction}: {storyword} {SinnerStory(sinner)}";
+                if (__instance._storyTitleText.text.Contains("(Послесловие)"))
+                    __instance._storyTitleText.text = $"{faction}: {storyword} {SinnerStory(sinner)} {afterward}";
+                else
+                    __instance._storyTitleText.text = $"{faction}: {storyword} {SinnerStory(sinner)}";
+            }
+        }
+
+        [HarmonyPatch(typeof(PersonalityStoryVoiceSectionButton), nameof(PersonalityStoryVoiceSectionButton.Init))]
+        [HarmonyPostfix]
+        private static void ChooseDialogueSet_Button(PersonalityStoryVoiceSectionButton __instance)
+        {
+            String buttons = __instance.tmp_button.text;
+            string[] parts = buttons.Split(' ');
+            string timeplace = parts[0];
+            string number = parts[1];
+            string canto = parts[2];
+            string[] numeral = number.Split('-');
+            int cantoNumber = int.Parse(numeral[0]);
+
+            __instance.tmp_button.text = $"{timeplace} {cantoNumber}{cantoNumEnding(cantoNumber)} {canto}";
+        }
+
+        public static string cantoNumEnding(int number)
+        {
+            int lastDigit = number % 10;
+            int lastTwoDigits = number % 100;
+
+            if (lastDigit == 3 && lastTwoDigits != 13)
+            {
+                return "-ей";
+            }
+            else
+            {
+                return "-ой";
             }
         }
         #endregion
@@ -1480,8 +1614,8 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void EGO_Name_Lines(BattleSkillViewUIInfo __instance)
         {
-            __instance._abnormalNameText.lineSpacing = -40;
-            __instance._egoSkillNameText.lineSpacing = -40;
+            __instance._abnormalNameText.lineSpacing = -20;
+            __instance._egoSkillNameText.lineSpacing = -20;
         }
         #endregion
     }

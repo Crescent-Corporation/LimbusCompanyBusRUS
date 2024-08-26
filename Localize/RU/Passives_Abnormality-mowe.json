@@ -1,0 +1,85 @@
+{
+  "dataList": [
+    {
+      "id": 835001,
+      "name": "Запас крови",
+        "desc": "В начале хода проверяет [KeptBlood].\n- При 5 и менее единиц <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color>, получает по 1 [Binding], 1 [Vulnerable] и 1 [AttackDown] за каждую единицу потерянной <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> на следующий ход.\n- Если же <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> больше 5 единиц, каждый ход получает по 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышениям уровня атаки</link></u></color> и 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениям уровня защиты</link></u></color> за каждую единицу <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> после 5-и."
+    },
+    {
+      "id": 835002,
+      "name": "Надобно сохранять кровь",
+      "desc": "При достижении <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Запаса крови</link></u></color> 0 меняет модель поведения.\nПри использовании навыка 「Я же... принц... сего шествия!..」скорость Кассетти фиксируется на 10."
+    },
+    {
+      "id": 835003,
+      "name": "Беснования принца",
+      "desc": "При достижении 30% от максимальных ОЗ Кассетти предаётся <sprite name=\"BloodyCrave\"><color=#f8c200><u><link=\"BloodyCrave\">Кровавой жажде</link></u></color>."
+    },
+    {
+      "id": 835004,
+      "name": "Глефа из застывшей крови",
+      "desc": "Кассетти выбирает целью противника с наибольшей суммой потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>.\nЕсли на цели есть [Laceration] в момент удара, Кассетти восстанавливает 2% от максимальных ОЗ."
+    },
+    {
+      "id": 835005,
+      "name": "Гематофаг — Свёртка",
+      "desc": "При получении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>:\n- Получает 1 Повышение уровня атаки и 1 Повышение уровня защиты за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 10);\n- Получает 1 Повышение силы в поединке за каждые 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 5);\n- Получает на 50% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (Десятичные опускаются)."
+    },
+    {
+      "id": 9014501,
+      "name": "Застывание крови",
+      "desc": "При получении удара повышает свой счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1.\nВ конце хода теряет 3 единицы из счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> для получения 1 <sprite name=\"HardenedBlood\"><color=#f8c200><u><link=\"HardenedBlood\">Застывшей крови</link></u></color>."
+    },
+    {
+      "id": 9014502,
+      "name": "Жажда крови",
+      "desc": "Выбирает целью противников с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nЕсли кровесосуд не получил урона в течение хода, получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход."
+    },
+    {
+      "id": 9014503,
+      "name": "Высасывание крови",
+      "desc": "Получает на 10% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. (Десятичные опускаются)\nВосстанавливает ОЗ на 10% от урона, нанесённого цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>."
+    },
+    {
+      "id": 9014801,
+      "name": "Упорное высасывание крови",
+      "desc": "Получает на 20% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. (Десятичные опускаются)\nВосстанавливает ОЗ на 15% от урона, нанесённого цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>."
+    },
+    {
+      "id": 9014802,
+      "name": "Утечка энергии",
+      "desc": "Если противник во время атаки повысил свой [Charge], переносит 1 единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> с себя атакующему. \n(Раз за навык, активируется только при наличии <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)"
+    },
+    {
+      "id": 9015101,
+      "name": "Поток крови к мозгу",
+      "desc": "Получает на 30% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. (Десятичные опускаются)\nВосстанавливает ОЗ на 15% от урона, нанесённого цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>."
+    },
+    {
+      "id": 9015102,
+      "name": "Протез модели L37",
+      "desc": "При менее 5 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> в начале хода получает 1 [Reduction].\nПри 5 и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> в начале хода получает 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы в поединке</link></u></color>."
+    },
+    {
+      "id": 9015201,
+      "name": "Новоиспечённый потомок",
+      "desc": "Саша получает на 30% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. (Десятичные опускаются)\nВосстанавливает ОЗ на 25% от урона, нанесённого цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>."
+    },
+    {
+      "id": 9014803,
+      "name": "Упорство",
+      "desc": "Саша не может умереть от урона, наносимого собственными навыками."
+    },
+    {
+      "id": 834801,
+      "name": "Надрывающийся кровесосуд",
+      "desc": "Начинает бой с половиной от максимальных ОЗ."
+    },
+    {
+      "id": 834802,
+      "name": "Потомок седьмого колена",
+      "desc": "+1 слот навыков за каждого союзника с 1 ОЗ (До 2-ух раз)"
+    }
+
+  ]
+}

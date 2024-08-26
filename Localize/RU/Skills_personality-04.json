@@ -798,7 +798,7 @@
         {
           "level": 1,
           "name": "Этика приёма гостей, 7-ая церемония: Захват",
-          "desc": "[StartBattle] Кол-во целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "[StartBattle] Число целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -819,7 +819,7 @@
         {
           "level": 2,
           "name": "Этика приёма гостей, 7-ая церемония: Захват",
-          "desc": "[StartBattle] Кол-во целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "[StartBattle] Число целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -840,7 +840,7 @@
         {
           "level": 4,
           "name": "Этика приёма гостей, 7-ая церемония: Захват",
-          "desc": "<style=\"highlight\">Сила в поединке +1 за каждые 2 единицы разницы в скорости, если основная цель медленнее Рёшу (До 3)</style>\n[StartBattle] Кол-во целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "<style=\"highlight\">Сила в поединке +1 за каждые 2 единицы разницы в скорости, если основная цель медленнее Рёшу (До 3)</style>\n[StartBattle] Число целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [

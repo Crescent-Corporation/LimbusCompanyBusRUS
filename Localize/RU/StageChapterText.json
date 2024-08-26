@@ -68,7 +68,7 @@
       "company": "Корп. U",
       "area": "21-й Район",
       "chapter": "Песнь V",
-      "chapterNumber": "5",
+      "chapterNumber": "05",
       "chaptertitle": "The Evil Defining",
       "timeline": "984/07"
     },
@@ -121,9 +121,18 @@
       "id": "chapter_t_9109",
       "company": "Корп. T",
       "area": "20-й Район",
-      "chapter": "Антракт IV",
+      "chapter": "Антракт IV-1",
       "chapterNumber": "6.5",
       "chaptertitle": "Время, убивающее время",
+      "timeline": "984/11"
+    },
+    {
+      "id": "chapter_t_9110",
+      "company": "Корп. T",
+      "area": "20-й Район",
+      "chapter": "Антракт IV-2",
+      "chapterNumber": "6.5",
+      "chaptertitle": "Убийство в Варп-экспрессе",
       "timeline": "984/11"
     }
   ]

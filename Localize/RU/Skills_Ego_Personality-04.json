@@ -237,7 +237,7 @@
           "level": 1,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[BeforeAttack] Кол-во целей +(число грехов в наибольшем резонансе) (До 2)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
+          "desc": "[BeforeAttack] Число целей +(число грехов в наибольшем резонансе) (До 2)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
           "coinlist": [
             {},
             {
@@ -253,7 +253,7 @@
           "level": 3,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[BeforeAttack] Кол-во целей +(число грехов в наибольшем резонансе) (До <style=\"highlight\">4</style>)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
+          "desc": "[BeforeAttack] Число целей +(число грехов в наибольшем резонансе) (До <style=\"highlight\">4</style>)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
           "coinlist": [
             {},
             {
@@ -269,7 +269,7 @@
           "level": 4,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[BeforeAttack] Кол-во целей +(число грехов в наибольшем резонансе) (До <style=\"highlight\">6</style>)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> <style=\"highlight\">на этот и следующий ход</style> (До 7)\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
+          "desc": "[BeforeAttack] Число целей +(число грехов в наибольшем резонансе) (До <style=\"highlight\">6</style>)\n[BeforeAttack] Наносит (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#e30000><u><link=\"GazePersonality\">Взоров презрения</link></u></color> <style=\"highlight\">на этот и следующий ход</style> (До 7)\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>\n[EndSkill] В конце последующих 2-ух ходов теряет 10 СД",
           "coinlist": [
             {},
             {

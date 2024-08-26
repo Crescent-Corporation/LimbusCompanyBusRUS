@@ -94,12 +94,17 @@ namespace LimbusLocalizeRUS
                 identity = identity.Replace("Расцветшее", "человека, пробудившего Расцветшее");
                 return identity;
             }
+            else if (identity.Contains("Дикая охота"))
+            {
+                identity = identity.Replace("Дикая охота", "короля Дикой охоты");
+                return identity;
+            }
             return identity;
         }
         public static string Personality_MegaList_Gendered(string identity, string sinner)
         {
             if (sinner == "Фауст" || sinner == "Дон Кихот" || sinner == "Рёшу" || sinner == "Измаил" || sinner == "Роди" || sinner == "Отис")
-                identity = identity.Replace("корректировщика", "корректировщицы").Replace("представителя", "представительницы").Replace("носителя", "носительницы");
+                identity = identity.Replace("корректировщика", "корректировщицы").Replace("представителя", "представительницы").Replace("носителя", "носительницы").Replace("сотрудника", "сотрудницы");
             return identity;
         }
     }

@@ -15,8 +15,26 @@ using BattleUI;
 
 namespace LimbusLocalizeRUS
 {
-    internal class LCBR_StoryUI
+    public static class LCBR_StoryUI
     {
+        #region Introduction
+        [HarmonyPatch(typeof(StoryIntroduceCharacterDescription), nameof(StoryIntroduceCharacterDescription.SetData))]
+        [HarmonyPostfix]
+        private static void IntroductionDescription(StoryIntroduceCharacterDescription __instance)
+        {
+            foreach (TextMeshProUGUI desc in __instance._textList)
+            {
+                Color glow = new Color(desc.color.r, desc.color.g, desc.color.b, 0.5f);
+                desc.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(15);
+                desc.m_sharedMaterial.SetFloat("_GlowInner", (float)0.4);
+                desc.m_sharedMaterial.SetFloat("_GlowOuter", (float)0.75);
+                desc.m_sharedMaterial.SetFloat("_GlowPower", 3);
+                desc.m_sharedMaterial.SetColor("_GlowColor", glow);
+            }
+        }
+        #endregion
+
+        #region Walpurgis 2 Kill Count
         [HarmonyPatch(typeof(KillCountUI), nameof(KillCountUI.Init))]
         [HarmonyPostfix]
         private static void KillCount(KillCountUI __instance)
@@ -27,15 +45,65 @@ namespace LimbusLocalizeRUS
             __instance._testkillCountNameText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(4);
             __instance._testkillCountNameText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(17);
         }
+        #endregion
 
+        #region Diary
+        [HarmonyPatch(typeof(StoryNotePage), nameof(StoryNotePage.SetData))]
+        [HarmonyPostfix]
+        private static void Diary_Init(StoryNotePage __instance)
+        {
+            __instance.tmp_title.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
+            __instance.tmp_title.font = LCB_Cyrillic_Font.GetCyrillicFonts(1);
+            __instance.tmp_title.fontMaterial = LCB_Cyrillic_Font.GetCyrillicFonts(1).material;
+
+            __instance.tmp_content.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
+            __instance.tmp_content.font = LCB_Cyrillic_Font.GetCyrillicFonts(1);
+            __instance.tmp_content.fontMaterial = LCB_Cyrillic_Font.GetCyrillicFonts(1).material;
+        }
+        public static void Handwriting(Transform transform)
+        {
+            transform.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
+            transform.GetComponentInChildren<TextMeshProUGUI>(true).m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(1);
+            transform.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicFonts(1).material;
+            transform.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -20;
+            if (transform.GetComponentInChildren<TextMeshProUGUI>(true).fontSize == 30)
+                transform.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 46;
+        }
+        public static void HandwritingStroke(List<Transform> diary)
+        {
+            foreach (Transform stroke in diary)
+            {
+                Handwriting(stroke);
+            }
+        }
+        [HarmonyPatch(typeof(StoryManager), nameof(StoryManager.Init))]
+        [HarmonyPostfix]
+        private static void DiaryHandwriting(StoryManager __instance)
+        {
+            List<Transform> le_diary = new List<Transform>()
+            {
+                __instance._noteEffect._diary.currentLeft.contentParent.transform.Find("[Rect]Content/[Text]Title"),
+                __instance._noteEffect._diary.currentLeft.contentParent.transform.Find("[Rect]Content/[Text]Text"),
+                __instance._noteEffect._diary.currentRight.contentParent.transform.Find("[Rect]Content/[Text]Title"),
+                __instance._noteEffect._diary.currentRight.contentParent.transform.Find("[Rect]Content/[Text]Text")
+            };
+            foreach (Transform stroke in le_diary)
+            {
+                HandwritingStroke(le_diary);
+            }
+        }
+        #endregion
+
+        #region Clear All Cathy Fake Screen
         [HarmonyPatch(typeof(StoryInterEffect_Type1), nameof(StoryInterEffect_Type1.Initialize))]
         [HarmonyPostfix]
         private static void StoryInterEffect_Type1_Init(StoryInterEffect_Type1 __instance)
         {
             //FAKE_TITLE
             Transform title = __instance._title.transform;
-            Image facethe = title.Find("[Canvas]/[Image]RedLine/[Image]Phrase").transform.GetComponentInChildren<Image>();
-            facethe.m_OverrideSprite = LCBR_ReadmeManager.ReadmeSprites["Motto"];
+            Transform motto = title.Find("[Canvas]/[Image]RedLine/[Image]Phrase");
+            Transform logo = title.Find("[Image]Logo");
+            LCBR_SpriteUI.Motto_Changer(null, logo, motto);
             Image donttouch = title.Find("[Canvas]/[Image]TouchToStart").GetComponentInChildren<Image>();
             donttouch.m_OverrideSprite = LCBR_ReadmeManager.ReadmeStorySprites["Don't_Start"];
             Transform goldenbough = title.Find("[Canvas]/[Text]GoldenBoughSynchronized");
@@ -65,6 +133,9 @@ namespace LimbusLocalizeRUS
             clearing_glow.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
             clearing_glow.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(3);
         }
+        #endregion
+
+        #region Heath's Cathy Dialogue Censorship
         [HarmonyPatch(typeof(Util), nameof(Util.GetDlgAfterClearingAllCathy))]
         [HarmonyPrefix]
         private static bool GetDlgAfterClearingAllCathy(string dlgId, string originString, ref string __result)
@@ -99,9 +170,44 @@ namespace LimbusLocalizeRUS
             }
             return true;
         }
+        #endregion
 
+        #region Dante Ability
+        [HarmonyPatch(typeof(DanteAbilitySlot), nameof(DanteAbilitySlot.SetData))]
+        [HarmonyPostfix]
+        private static void DanteAbility_Sefiroth(DanteAbilitySlot __instance)
+        {
+            __instance._nameText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            __instance._nameText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(1);
+            
+            TextMeshProUGUI caution = __instance.transform.Find("[Image]AbilityDesc/[Text]Caution").GetComponentInChildren<TextMeshProUGUI>(true);
+            caution.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            caution.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
+            caution.text = "ОСТОРОЖНО";
+        }
+        [HarmonyPatch(typeof(DanteAbilityUseAnim), nameof(DanteAbilityUseAnim.SetData))]
+        [HarmonyPostfix]
+        private static void DanteAbility_Animation(DanteAbilityUseAnim __instance)
+        {
+            Image durante = __instance.transform.Find("[Image]Durante").GetComponentInChildren<Image>(true);
+            durante.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["DanteAbility_Durante"];
+        }
+        [HarmonyPatch(typeof(EnemyHudToggle), nameof(EnemyHudToggle.SetCurrentState))]
+        [HarmonyPostfix]
+        private static void DanteAbility_KillCount_Enemy(EnemyHudToggle __instance)
+        {
+            __instance._sinButton.tmp_text.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            __instance._sinButton.tmp_text.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
+            __instance._sinButton.tmp_text.text = "ГРЕХИ";
 
+            __instance._enemyPassiveButton.tmp_text.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+            __instance._enemyPassiveButton.tmp_text.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
+            __instance._enemyPassiveButton.tmp_text.text = "<size=70%><nobr>ПАССИВКИ</nobr> ВРАГОВ</size>";
+            __instance._enemyPassiveButton.tmp_text.lineSpacing = 10;
+        }
+        #endregion
 
+        #region Identity Story Text
         [HarmonyPatch(typeof(StoryTheaterUIPopup), nameof(StoryTheaterUIPopup.OpenStoryEnterPopup))]
         [HarmonyPostfix]
         private static void DescriptionChange(StoryTheaterUIPopup __instance)
@@ -129,5 +235,6 @@ namespace LimbusLocalizeRUS
                 __instance._storyEnterPopup._descText.text = $"Желаете ли прочесть историю из жизни {LCBR_TextUI.SinnerStory(sinner)} как{LCBR_Personality_MegaList.Personality_MegaList_Gendered(LCBR_Personality_MegaList.Personality_MegaList(faction), LCBR_TextUI.SinnerStory(sinner))}?";
             }
         }
+        #endregion
     }
 }

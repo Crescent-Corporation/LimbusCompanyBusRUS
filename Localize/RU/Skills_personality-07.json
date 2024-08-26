@@ -429,6 +429,595 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1070901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запуск 40S-2",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Запуск 40S-2",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Запуск 40S-2",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Метка фотоэффекта",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 x (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряду</link></u></color> (До 2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Метка фотоэффекта",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 x (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> при понижении счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [TakeHpHealReduce]</style>\n[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряду</link></u></color> (До <style=\"highlight\">3</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Метка фотоэффекта",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 x (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> при понижении счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> при понижении счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления ОЗ</link></u></color>\n[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряду</link></u></color> (До 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Фотоэлектрический гарпун",
+          "desc": "Сила монет +2 при 2 и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядах</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] x 3) (До 9)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряду</link></u></color> (До 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фотоэлектрический гарпун",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 2 единицы <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 2)</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на <style=\"highlight\">7</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] x 3) (До 9)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряду</link></u></color> (До 3)\n<style=\"highlight\">[OnSucceedAttack] Наносит 1 [HitTakeDamageUp] за каждые 2 единицы <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подзарядка",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 (Раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подзарядка",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3(<style=\"highlight\">Дважды</style> за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+
+
+
+    {
+      "id": 1071001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обезглавливание",
+          "desc": "[WhenUse] Сила в поединке +1 против целей с 8 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>",
+          "coinlist": [
+            { },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Обезглавливание",
+          "desc": "[WhenUse] Сила в поединке +1 против целей с 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более на счётчике <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели</style>",
+          "coinlist": [
+            { },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обезглавливание",
+          "desc": "[WhenUse] Сила в поединке +1 против целей с 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> единицы на счётчике <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            { },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Траурный марш",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[EndSkill] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, теряет 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"WanderingFootsteps\"><color=#e30000><u><link=\"WanderingFootsteps\">Грядущие погибели</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Траурный марш",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n<style=\"highlight\">[WhenUse] При 4 и более <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гробах</link></u></color> на Хитклифе число целей +1\n[WhenUse] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, число целей +1</style>\n[EndSkill] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, теряет 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"WanderingFootsteps\"><color=#e30000><u><link=\"WanderingFootsteps\">Грядущие погибели</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Траурный марш",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Число целей +1 <style=\"highlight\"> за каждые 4</style> <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color> на Хитклифе <style=\"highlight\">(До 2)</style>\n[WhenUse] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, число целей +1\n[EndSkill] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, теряет 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"WanderingFootsteps\"><color=#e30000><u><link=\"WanderingFootsteps\">Грядущие погибели</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Реквием",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] +7% урона а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps], повышает её счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] При убийстве цели переносит треть <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> с цели на 2-ух случайных противников (До 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Реквием",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До <style=\"highlight\">4</style>)\n[WhenUse] +12% урона а каждый [Coffin] на Хитклифе (До 120%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на <style=\"highlight\">4</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps], повышает её счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style><sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> с цели на 2-ух случайных противников (До <style=\"highlight\">5</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "О, Дуллахан!..",
+          "desc": "[DuelCounter]\n[StartBattle] Если с Хитклифом нет <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, седлает <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> на следующий ход (Получает 1 эффект единожды за ход)\n[EndBattle] Если же Хитклиф<sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">в седле</link></u></color>, он спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "О, Дуллахан!..",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> при 15 и более СД, меняет на 「Горе, плач, погибель」(Единожды за ход)</style>\n[StartBattle] Если с Хитклифом нет <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, седлает <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> на следующий ход (Получает 1 эффект единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и боле <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color></style>\n[EndBattle] Если же Хитклиф <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">в седле</link></u></color>, он спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "О, Дуллахан!..",
+          "desc": "[DuelCounter]\n[BeforeUse] Если Хитклиф оседлал <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> при 15 и более СД, меняет на 「Горе, плач, погибель」 (Единожды за ход)\n[StartBattle] Если с Хитклифом нет <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>, седлает <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> на следующий ход (Получает 1 эффект единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Получает (комбо / 3) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход (До 3, единожды за ход)</style>\n[EndBattle] Если же Хитклиф <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">в седле</link></u></color>, он спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color><style=\"highlight\"> и повышает его счётчик на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071005,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Горе, плач, погибель",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +7% урона а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% урона за каждого <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели (До 15)"
+                },
+                {
+                  "desc": "[EnemyKill] При убийстве цели переносит треть <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> с цели на 2-ух случайных противников. (До 4)"
+                },
+                {
+                  "desc": "[EnemyKill] Восстанавливает 15 СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Горе, плач, погибель",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% урона за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% урона за каждого <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на <style=\"highlight\">30</style>% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели (До <style=\"highlight\">30</style>)"
+                },
+                {
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style>)<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
+                },
+                {
+                  "desc": "[EnemyKill] Восстанавливает 15 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071006,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Горе, плач, погибель",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +7% урона а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% урона за каждого <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели (До 15)"
+                },
+                {
+                  "desc": "[EnemyKill] При убийстве цели переносит треть <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> с цели на 2-ух случайных противников. (До 4)"
+                },
+                {
+                  "desc": "[EnemyKill] Восстанавливает 15 СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Горе, плач, погибель",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% урона за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% урона за каждого <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color> (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с <sprite name=\"NightPathfinding\"><color=#f8c200><u><link=\"NightPathfinding\">Дуллахана</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на <style=\"highlight\">30</style>% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели (До <style=\"highlight\">30</style>)"
+                },
+                {
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">2</style>)<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
+                },
+                {
+                  "desc": "[EnemyKill] Восстанавливает 15 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

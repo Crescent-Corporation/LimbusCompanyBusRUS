@@ -36,7 +36,12 @@ namespace LimbusLocalizeRUS
             var loadingText = __instance._loadingText;
             loadingText.font = LCB_Cyrillic_Font.GetCyrillicFonts(0);
             loadingText.fontMaterial = LCB_Cyrillic_Font.GetCyrillicFonts(0).material;
-            loadingText.fontSize = 46;
+            if (loadingText.text.Length > 12 && loadingText.text.Length < 18)
+                loadingText.fontSize = 52;
+            else if (loadingText.text.Length > 18)
+                loadingText.fontSize = 46;
+            else
+                loadingText.fontSize = 56;
             int random = Random.Range(0, 100);
             if (random < 25)
                 loadingText.text = Raw;
