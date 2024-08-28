@@ -14,6 +14,8 @@
 [![Всего загрузок](https://img.shields.io/github/downloads/Crescent-Corporation/LimbusCompanyBusRUS/total?label=%D0%92%D1%81%D0%B5%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BA&color=%23707489)](../../releases)
 [![Группа](https://img.shields.io/badge/LimbusCompany-LimbusCompany-darkred?logo=VK&logoColor=white&label=%D0%9D%D0%B0%D1%88%D0%B0%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0&labelColor=%23870000&color=%23EFB901&link=https%3A%2F%2Fvk.com%2Flimbus_company_ru)](https://vk.com/limbus_company_ru)
 [![Релиз](https://img.shields.io/github/v/release/Crescent-Corporation/LimbusCompanyBusRUS?label=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&labelColor=%23707489&color=%23484f58)](../../releases/latest)
+
+[![Discord](https://img.shields.io/discord/1277645436999438356?logo=Discord&logoSize=auto&label=%D0%9D%D0%B0%D1%88%20Discord&labelColor=49403A&color=cdd5e0)](https://discord.gg/PG7PDrdjey)
 </div>
 
 # Установка
