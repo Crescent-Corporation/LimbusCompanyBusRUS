@@ -194,6 +194,46 @@ namespace LimbusLocalizeRUS
         }
         #endregion
 
+        #region Sinner UI
+        [HarmonyPatch(typeof(UnitInformationPersonalitySkillTypeButton), nameof(UnitInformationPersonalitySkillTypeButton.SetSelectedState))]
+        [HarmonyPostfix]
+        private static void SkillType_Materials(UnitInformationPersonalitySkillTypeButton __instance)
+        {
+            __instance.tmp_skilType.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
+
+            if (__instance.IsFoucused == true)
+            {
+                Color yellowish = new Color(1.0f, 0.306f, 0, 0.502f);
+                __instance.tmp_skilType.color = Color.yellow;
+                __instance.tmp_skilType.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(11);
+                __instance.tmp_skilType.fontMaterial.EnableKeyword("GLOW_ON");
+                __instance.tmp_skilType.fontMaterial.SetColor("_GlowColor", yellowish);
+                __instance.tmp_skilType.fontMaterial.SetFloat("_GlowInner", (float)0.6);
+                __instance.tmp_skilType.fontMaterial.SetFloat("_GlowPower", 0.8f);
+                __instance.tmp_skilType.characterSpacing = 3;
+            }
+            else if (__instance._isEntered == true)
+            {
+                Color yellowish = new Color(1.0f, 0.306f, 0, 0.502f);
+                __instance.tmp_skilType.color = Color.yellow;
+                __instance.tmp_skilType.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(11);
+                __instance.tmp_skilType.fontMaterial.EnableKeyword("GLOW_ON");
+                __instance.tmp_skilType.fontMaterial.SetColor("_GlowColor", yellowish);
+                __instance.tmp_skilType.fontMaterial.SetFloat("_GlowInner", (float)0.6);
+                __instance.tmp_skilType.fontMaterial.SetFloat("_GlowPower", 0.8f);
+                __instance.tmp_skilType.characterSpacing = 3;
+            }
+            else
+            {
+                Color milky = new Color(0.92156863f, 0.7921569f, 0.63529414f, 1.0f);
+                __instance.tmp_skilType.color = milky;
+                __instance.tmp_skilType.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(12);
+                __instance.tmp_skilType.fontMaterial.DisableKeyword("GLOW_ON");
+                __instance.tmp_skilType.characterSpacing = 2;
+            }
+        }
+        #endregion
+
         #region Details
         [HarmonyPatch(typeof(VendingMachineUIPanel), nameof(VendingMachineUIPanel.ClickBannerEvent))]
         [HarmonyPostfix]
@@ -439,10 +479,11 @@ namespace LimbusLocalizeRUS
             Color reddish = new Color(0.686f, 0.003f, 0.003f, 0.251f);
             __instance.tmp_result.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(11);
             __instance.tmp_result.fontMaterial.EnableKeyword("GLOW_ON");
-            __instance.tmp_result.fontMaterial.SetFloat("_GlowInner", 0.4f);
-            __instance.tmp_result.fontMaterial.SetFloat("_GlowOuter", 0.4f);
-            __instance.tmp_result.fontMaterial.SetFloat("_GlowPower", 0.8f);
-            __instance.tmp_result.characterSpacing = 2;
+
+            __instance.tmp_result.fontMaterial.SetFloat("_GlowInner", 0.6f);
+            __instance.tmp_result.fontMaterial.SetFloat("_GlowPower", 3);
+            __instance.tmp_result.characterSpacing = 3;
+
             if (__instance.tmp_result.text.Contains("Победа"))
                 __instance.tmp_result.fontMaterial.SetColor("_GlowColor", yellowish);
             else
@@ -452,8 +493,10 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void GachaGetNewCardTimelineManager_Init(GachaGetNewCardTimelineManager __instance)
         {
-            List<TextMeshProUGUI> subtitles = new List<TextMeshProUGUI> { __instance.rank3Timeline._subtitle.tmp_punchLine, __instance.egoTimeline._subtitle.tmp_punchLine };
+            List<TextMeshProUGUI> subtitles = new List<TextMeshProUGUI> { __instance.rank3Timeline._subtitle.tmp_punchLine, __instance.rank2Timeline._subtitle.tmp_punchLine, __instance.rank1Timeline._subtitle.tmp_punchLine, __instance.egoTimeline._subtitle.tmp_punchLine };
             Color glow_punchline_r3 = new Color(__instance.rank3Timeline._subtitle.tmp_punchLine.color.r, __instance.rank3Timeline._subtitle.tmp_punchLine.color.g, __instance.rank3Timeline._subtitle.tmp_punchLine.color.b, 0.2f);
+            Color glow_punchline_r2 = new Color(__instance.rank2Timeline._subtitle.tmp_punchLine.color.r, __instance.rank2Timeline._subtitle.tmp_punchLine.color.g, __instance.rank2Timeline._subtitle.tmp_punchLine.color.b, 0.2f);
+            Color glow_punchline_r1 = new Color(__instance.rank1Timeline._subtitle.tmp_punchLine.color.r, __instance.rank1Timeline._subtitle.tmp_punchLine.color.g, __instance.rank1Timeline._subtitle.tmp_punchLine.color.b, 0.2f);
             Color glow_punchline_ego = new Color(__instance.egoTimeline._subtitle.tmp_punchLine.color.r, __instance.egoTimeline._subtitle.tmp_punchLine.color.g, __instance.egoTimeline._subtitle.tmp_punchLine.color.b, 0.2f);
             foreach (var subtitle in subtitles)
             {
@@ -462,14 +505,18 @@ namespace LimbusLocalizeRUS
                 subtitle.fontMaterial.SetFloat("_UnderlayDilate", 0.95f);
             }
             __instance.rank3Timeline._subtitle.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_r3);
+            __instance.rank2Timeline._subtitle.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_r2);
+            __instance.rank1Timeline._subtitle.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_r1);
             __instance.egoTimeline._subtitle.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_ego);
         }
         [HarmonyPatch(typeof(GachaGetNewCardTimelineManager), nameof(GachaGetNewCardTimelineManager.Init))]
         [HarmonyPostfix]
         private static void GachaGetNewCardTimelineManager2_Init(GachaGetNewCardTimelineManager __instance)
         {
-            List<TextMeshProUGUI> punchlines = new List<TextMeshProUGUI> { __instance.rank3Timeline._punchline.tmp_punchLine, __instance.egoTimeline._punchline.tmp_punchLine };
+            List<TextMeshProUGUI> punchlines = new List<TextMeshProUGUI> { __instance.rank3Timeline._punchline.tmp_punchLine, __instance.rank2Timeline._punchline.tmp_punchLine, __instance.rank1Timeline._punchline.tmp_punchLine, __instance.egoTimeline._punchline.tmp_punchLine };
             Color glow_punchline_r3 = new Color(__instance.rank3Timeline._punchline.tmp_punchLine.color.r, __instance.rank3Timeline._punchline.tmp_punchLine.color.g, __instance.rank3Timeline._punchline.tmp_punchLine.color.b, 0.2f);
+            Color glow_punchline_r2 = new Color(__instance.rank2Timeline._punchline.tmp_punchLine.color.r, __instance.rank2Timeline._punchline.tmp_punchLine.color.g, __instance.rank2Timeline._punchline.tmp_punchLine.color.b, 0.2f);
+            Color glow_punchline_r1 = new Color(__instance.rank1Timeline._punchline.tmp_punchLine.color.r, __instance.rank1Timeline._punchline.tmp_punchLine.color.g, __instance.rank1Timeline._punchline.tmp_punchLine.color.b, 0.2f);
             Color glow_punchline_ego = new Color(__instance.egoTimeline._punchline.tmp_punchLine.color.r, __instance.egoTimeline._punchline.tmp_punchLine.color.g, __instance.egoTimeline._punchline.tmp_punchLine.color.b, 0.2f);
             foreach (var punchline in punchlines)
             {
@@ -478,6 +525,8 @@ namespace LimbusLocalizeRUS
                 punchline.fontMaterial.SetFloat("_UnderlayDilate", 0.95f);
             }
             __instance.rank3Timeline._punchline.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_r3);
+            __instance.rank2Timeline._punchline.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_r2);
+            __instance.rank1Timeline._punchline.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_r1);
             __instance.egoTimeline._punchline.tmp_punchLine.fontMaterial.SetColor("_GlowColor", glow_punchline_ego);
         }
         [HarmonyPatch(typeof(SalvageGachaCard), nameof(SalvageGachaCard.SetData))]

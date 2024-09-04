@@ -17,6 +17,15 @@ namespace LimbusLocalizeRUS
 {
     public static class LCBR_StoryUI
     {
+        #region Story
+        [HarmonyPatch(typeof(StoryManager), nameof(StoryManager.Init))]
+        [HarmonyPostfix]
+        private static void StoryManager_SetData(StoryManager __instance)
+        {
+            __instance._dialogCon.tmp_name.lineSpacing = -25;
+        }
+        #endregion
+
         #region Introduction
         [HarmonyPatch(typeof(StoryIntroduceCharacterDescription), nameof(StoryIntroduceCharacterDescription.SetData))]
         [HarmonyPostfix]
@@ -24,12 +33,12 @@ namespace LimbusLocalizeRUS
         {
             foreach (TextMeshProUGUI desc in __instance._textList)
             {
-                Color glow = new Color(desc.color.r, desc.color.g, desc.color.b, 0.5f);
+                Color glow = new Color(desc.color.r, desc.color.g, desc.color.b, 0.64f);
+                Color underlay = new Color(desc.color.r - 0.3f, desc.color.g - 0.3f, desc.color.b - 0.3f, 1.0f);
                 desc.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(15);
-                desc.m_sharedMaterial.SetFloat("_GlowInner", (float)0.4);
-                desc.m_sharedMaterial.SetFloat("_GlowOuter", (float)0.75);
-                desc.m_sharedMaterial.SetFloat("_GlowPower", 3);
+                desc.m_sharedMaterial.SetFloat("_GlowPower", 0.4f);
                 desc.m_sharedMaterial.SetColor("_GlowColor", glow);
+                desc.m_sharedMaterial.SetColor("_UnderlayColor", underlay);
             }
         }
         #endregion
@@ -173,13 +182,43 @@ namespace LimbusLocalizeRUS
         #endregion
 
         #region Dante Ability
+        [HarmonyPatch(typeof(DanteAbilityUIController), nameof(DanteAbilityUIController.UpdatePopup))]
+        [HarmonyPostfix]
+        private static void DanteAbilityUI_TitleChanger(DanteAbilityUIController __instance)
+        {
+            Color yellowish = new Color(1.0f, 0.306f, 0, 0.502f);
+            
+            TextMeshProUGUI title = __instance._titleText;
+            title.color = Color.yellow;
+            title.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(11);
+            title.fontMaterial.EnableKeyword("GLOW_ON");
+            title.fontMaterial.SetColor("_GlowColor", yellowish);
+            title.fontMaterial.SetFloat("_GlowInner", (float)0.6);
+            title.fontMaterial.SetFloat("_GlowPower", 0.8f);
+            title.characterSpacing = 2;
+        }
+
+        [HarmonyPatch(typeof(DanteAbilityUIController), nameof(DanteAbilityUIController.SetInteract))]
+        [HarmonyPostfix]
+        private static void DanteAbilityUIController_SetData(DanteAbilityUIController __instance)
+        {
+            foreach (var sin in __instance._danteAbilitySlotList)
+            {
+                if (sin._danteAbilityModel._classInfo._sepira == SEPIRA.HOKMA)
+                {
+                    sin._danteAbilityModel._classInfo.name = "ЛЕНОСТЬ";
+                }
+            }
+        }
+
         [HarmonyPatch(typeof(DanteAbilitySlot), nameof(DanteAbilitySlot.SetData))]
         [HarmonyPostfix]
         private static void DanteAbility_Sefiroth(DanteAbilitySlot __instance)
         {
             __instance._nameText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
             __instance._nameText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(1);
-            
+            __instance._nameText.text = "ЛЕНОСТЬ";
+
             TextMeshProUGUI caution = __instance.transform.Find("[Image]AbilityDesc/[Text]Caution").GetComponentInChildren<TextMeshProUGUI>(true);
             caution.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
             caution.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(2);
@@ -191,6 +230,14 @@ namespace LimbusLocalizeRUS
         {
             Image durante = __instance.transform.Find("[Image]Durante").GetComponentInChildren<Image>(true);
             durante.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["DanteAbility_Durante"];
+            if (__instance._currentSepira == SEPIRA.HOKMA)
+            {
+                __instance._danteAbilityNameText.text = "ЛЕНОСТЬ";
+                __instance._danteAbilityNameText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(0);
+                __instance._danteAbilityNameText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(0);
+                __instance._danteAbilityNameText.fontMaterial.SetColor("_GlowColor", __instance._danteAbilityNameText.color);
+                __instance._danteAbilityNameText.fontMaterial.SetFloat("_GlowPower", 0.1f);
+            }
         }
         [HarmonyPatch(typeof(EnemyHudToggle), nameof(EnemyHudToggle.SetCurrentState))]
         [HarmonyPostfix]

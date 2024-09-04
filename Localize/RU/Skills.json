@@ -496,7 +496,9 @@
                 }
               ]
             },
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -519,7 +521,9 @@
                 }
               ]
             },
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -540,7 +544,8 @@
           "desc": "",
           "keywords": [],
           "coinlist": [
-            {}
+            {
+            }
           ]
         },
         {
@@ -972,7 +977,9 @@
           "name": "Шанс для удара",
           "desc": "Если грешница не получила урон на предыдущем ходе, сила монет +3",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -1063,7 +1070,9 @@
           "coinlist": [
             {},
             {},
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -1170,8 +1179,12 @@
           "name": "Скачок",
           "desc": "",
           "coinlist": [
-            {},
-            {},
+            {
+
+            },
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -1647,8 +1660,12 @@
                 }
               ]
             },
-            {},
-            {}
+            {
+
+            },
+            {
+
+            }
           ]
         }
       ]
@@ -1660,7 +1677,9 @@
           "level": 1,
           "name": "Контратака",
           "desc": "",
-          "coinlist": []
+          "coinlist": [
+
+          ]
         },
         {
           "level": 4,
@@ -1953,9 +1972,15 @@
           "name": "Град ударов",
           "desc": "[WhenUse] Получает 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход",
           "coinlist": [
-            {},
-            {},
-            {},
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -2584,7 +2609,9 @@
           "name": "Вихрь",
           "desc": "Если грешник не получил урон в предыдущий ход, сила монет +2",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -2599,7 +2626,9 @@
           "name": "Вихрь",
           "desc": "Если грешник не получил урон в предыдущий ход, сила монет +2",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -2622,7 +2651,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Блок",
+          "name": "Уворот",
           "desc": "",
           "coinlist": [
             {}
@@ -2852,7 +2881,9 @@
                 }
               ]
             },
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -3214,7 +3245,9 @@
           "name": "Контратака",
           "desc": "",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -3222,7 +3255,9 @@
           "name": "Контратака",
           "desc": "[WhenUse] Теряет 5 ОЗ\nПри 3 и более счётчиках <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, наносит +50% урона",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         }
       ]
@@ -3320,7 +3355,9 @@
                 }
               ]
             },
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -3349,7 +3386,9 @@
                 }
               ]
             },
-            {}
+            {
+
+            }
           ]
         }
       ]
@@ -3463,7 +3502,9 @@
           "name": "Скольжение",
           "desc": "[WinDuel] Наносит 1 Понижение силы защиты",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -3471,7 +3512,9 @@
           "name": "Скольжение",
           "desc": "[WinDuel] Наносит 3 <sprite name=\"Disarming\"><color=#e30000><u><link=\"Disarming\">Понижения силы защиты</link></u></color>",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -3655,7 +3698,7 @@
         {
           "level": 3,
           "name": "Хлыст разума",
-          "desc": "Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли у грешницы менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
+          "desc": "[StartBattle] Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли у грешницы менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3745,7 @@
         {
           "level": 4,
           "name": "Хлыст разума",
-          "desc": "Понижает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8\nЕсли у грешницы менее 8 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
+          "desc": "[StartBattle] Тратит 8 единиц своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли у грешницы менее 8 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -3970,7 +4013,8 @@
           "keywords": [],
           "coinlist": [
             {},
-            {}
+            {
+            }
           ]
         },
         {
@@ -4306,9 +4350,15 @@
           "name": "Наказание",
           "desc": "Если СД грешницы ниже 0, Сила навыка +1",
           "coinlist": [
-            {},
-            {},
-            {},
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -4476,6 +4526,7 @@
           "level": 4,
           "name": "Рассекающий разрез",
           "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\nСила монет +2 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхании</link></u></color>",
+
           "coinlist": [
             {
               "coindescs": [
@@ -4542,7 +4593,9 @@
           "name": "Контратака",
           "desc": "[WhenUse] Получает 1 Защищённость",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -4550,7 +4603,9 @@
           "name": "Контратака",
           "desc": "[WhenUse] Получает 1 Защищённость\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         }
       ]
@@ -4873,7 +4928,9 @@
           "name": "Взмах и прокалывание",
           "desc": "",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -4888,7 +4945,9 @@
           "name": "Взмах и прокалывание",
           "desc": "",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -4903,7 +4962,9 @@
           "name": "Взмах и прокалывание",
           "desc": "Сила монет +1 при 3 и более счётчиках <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -5119,7 +5180,9 @@
           "name": "Усмирение",
           "desc": "",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -5137,7 +5200,9 @@
           "name": "Усмирение",
           "desc": "",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -5155,7 +5220,9 @@
           "name": "Усмирение",
           "desc": "[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[DefeatDuel] Наносит 6 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -5552,7 +5619,9 @@
           "name": "Пронзание",
           "desc": "Если ОЗ цели выше 50%, наносит +20% урона",
           "coinlist": [
-            {}
+            {
+
+            }
           ]
         },
         {
@@ -5639,7 +5708,9 @@
           "name": "Иглоукалывание",
           "desc": "",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -5654,7 +5725,9 @@
           "name": "Иглоукалывание",
           "desc": "[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -5669,7 +5742,9 @@
           "name": "Иглоукалывание",
           "desc": "[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
-            {},
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -6099,8 +6174,12 @@
           "name": "Внезапный рывок",
           "desc": "",
           "coinlist": [
-            {},
-            {},
+            {
+
+            },
+            {
+
+            },
             {
               "coindescs": [
                 {
@@ -7536,7 +7615,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1; увеличивает ещё на 1 при 30+ СД; увеличивает ещё на 2 при 45 и более СД."
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1; увеличивает ещё на 1 при 30+ СД; увеличивает ещё на 2 при 45 и более СД"
                 }
               ]
             }

@@ -80,8 +80,8 @@ namespace LimbusLocalizeRUS
             if (level != null)
             {
                 level.GetComponentInChildren<TextMeshProUGUI>(true).text = "УР";
-                level.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[1];
-                level.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[1].material;
+                level.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[0];
+                level.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[0].material;
                 No.GetComponentInChildren<TextMeshProUGUI>(true).text = "№";
                 No.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[0];
                 No.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[0].material;
@@ -953,6 +953,32 @@ namespace LimbusLocalizeRUS
                 __instance.tmp_tabName.text = "ЭГО";
             }
         }
+        [HarmonyPatch(typeof(UnitInformationPersonalitySkillTypeButton), nameof(UnitInformationPersonalitySkillTypeButton.SetData))]
+        [HarmonyPostfix]
+        private static void SkillTypes_Names(UnitInformationPersonalitySkillTypeButton __instance)
+        {
+            String skills = __instance.tmp_skilType.text;
+            if (skills.StartsWith("Атака"))
+            {
+                string[] parts = skills.Split(' ');
+                int num = int.Parse(parts[1]);
+
+                __instance.tmp_skilType.text = $"{num}{skillNumEnding(num)} Атака";
+            }
+        }
+        public static string skillNumEnding(int num)
+        {
+            int lastDigit = num % 10;
+
+            if (lastDigit == 3)
+            {
+                return "-ья";
+            }
+            else
+            {
+                return "-ая";
+            }
+        }
         [HarmonyPatch(typeof(UnitInfoBreakSectionTooltipUI), nameof(UnitInfoBreakSectionTooltipUI.SetDataAndOpen))]
         [HarmonyPostfix]
         private static void UnitInfoBreakSections(UnitInfoBreakSectionTooltipUI __instance)
@@ -1479,6 +1505,26 @@ namespace LimbusLocalizeRUS
                 episode.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_Cyrillic_Font.tmpcyrillicfonts[1];
                 episode.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[1].material;
             }
+        }
+        [HarmonyPatch(typeof(MirrorStoryNodeSelectUI), nameof(MirrorStoryNodeSelectUI.OnStorySelect))]
+        [HarmonyPostfix]
+        private static void StoryNode_Title(MirrorStoryNodeSelectUI __instance)
+        {
+            __instance._rightStoryNameText.characterSpacing = 1;
+
+            string[] parts = __instance._rightStoryNameText.text.Split(',');
+            string faction = parts[0];
+            string sinner = parts[1];
+            string story = parts[2];
+            string afterwards = null;
+
+            if (story.StartsWith(" (Послесловие)"))
+            {
+                story = parts[3];
+                afterwards = " (Послесловие)";
+            }
+            __instance._rightStoryNameText.text = $"{faction} {sinner}, {story}{afterwards}".Replace("  ", " ");
+
         }
 
         public static string SinnerStory(string sinnerName)

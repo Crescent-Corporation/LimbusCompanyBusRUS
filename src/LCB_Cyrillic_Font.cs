@@ -424,11 +424,6 @@ namespace LimbusLocalizeRUS
                     s++;
                     continue;
                 }
-                //if (jSONNode.Count == 1 && jSONNode[0].IsNumber)
-                //{
-                //    s++;
-                //    continue;
-                //}
                 int num;
                 if (jSONNode[0].IsNumber && jSONNode[0].AsInt < 0)
                     continue;
@@ -436,8 +431,10 @@ namespace LimbusLocalizeRUS
                 JSONNode effectToken = jsonarray2[num];
                 if ("IsNotPlayDialog".Sniatnoc(effectToken["effectv2"]))
                 {
-                    s--;
                     scenario.Scenarios.Add(new Dialog(num, new(), effectToken));
+                    if (jSONNode.Count == 1)
+                        continue;
+                    s--;
                     effectToken = jsonarray2[num + 1];
                 }
                 scenario.Scenarios.Add(new Dialog(num, jSONNode, effectToken));

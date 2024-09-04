@@ -26,7 +26,7 @@ namespace LimbusLocalizeRUS
             LoadingTexts.RemoveAt(0);
         }
         public static T SelectOne<T>(List<T> list)
-            => list.Count == 0 ? default : list[Random.Range(0, list.Count - 1)];
+            => list.Count == 0 ? default : list[Random.Range(0, list.Count)];
         [HarmonyPatch(typeof(LoadingSceneManager), nameof(LoadingSceneManager.Start))]
         [HarmonyPostfix]
         private static void LSM_Start(LoadingSceneManager __instance)
@@ -52,6 +52,11 @@ namespace LimbusLocalizeRUS
             UserDataManager instance = Singleton<UserDataManager>.Instance;
             if (instance._unlockCodeData.CheckUnlockStatus(106))
                 loadingText.text = loadingText.text.Replace("Кэти", "■■■■");
+            if (loadingText.text.StartsWith("Дорогой"))
+            {
+                loadingText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(1);
+                loadingText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(4);
+            }
         }
     }
 }

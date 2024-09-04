@@ -7,6 +7,7 @@ using MainUI.Gacha;
 using BattleUI.Typo;
 using UtilityUI;
 using Il2CppSystem;
+using CustomScriptableObject;
 
 namespace LimbusLocalizeRUS
 {
@@ -475,7 +476,7 @@ namespace LimbusLocalizeRUS
             __instance._bannerImage.overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_ExchangeBanner"];
         }
 
-        [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.UpdateButtonState))]
+        [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.Open))]
         [HarmonyPostfix]
         private static void MOWE_MainEvent(MOWEEventUIPanel __instance)
         {
@@ -483,17 +484,16 @@ namespace LimbusLocalizeRUS
             Image text = intro.Find("[Image]Typo").GetComponent<Image>();
             text.m_OverrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Intro"];
 
-            Transform logo = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo");
-            if (logo != null)
+            foreach (var logo in __instance._logoImages)
             {
-                if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("11"))
-                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
-                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("7"))
-                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
-                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("9"))
-                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                if (logo.sprite.name == "MainUI_MOWE_07_26" || logo.sprite.name == "MainUI_MOWE_07_25" || logo.sprite.name == "MainUI_MOWE_07_24")
+                {
+                    logo.sprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo_Blood"];
+                }
                 else
-                    logo.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo_Blood"];
+                {
+                    logo.sprite = LCBR_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                }
             }
             Transform date = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo/tmp_period");
             if (date != null)
@@ -504,6 +504,7 @@ namespace LimbusLocalizeRUS
             }
             __instance.btn_theater.tmp_buttonText.lineSpacing = -30;
         }
+
         [HarmonyPatch(typeof(MOWERewardUIPopup), nameof(MOWERewardUIPopup.SetData))]
         [HarmonyPostfix]
         private static void MOWE_RewardUI(MOWERewardUIPopup __instance)

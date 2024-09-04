@@ -28,7 +28,17 @@
       "endDate": "2024-12-31T23:00:00.000Z",
       "sprNameList": [],
       "title_KR": "Прочие важные ссылки",
-      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Следить за обновлениями:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/limbus_company_ru>Limbus Company RUS (VK)</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Поддержать проект:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/projmoon?w=app6471849_-132567568>VK Donations</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наши друзья:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://gll-fun.com/ru/>Great Limbus Library</link>\"}]}"
+      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Следить за обновлениями:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/limbus_company_ru>Limbus Company RUS (VK)</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Поддержать проект:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/projmoon?w=app6471849_-132567568>VK Donations</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наш Дискорд-сервер:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://discord.gg/PG7PDrdjey>Discord</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наши друзья:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://gll-fun.com/ru/>Great Limbus Library</link>\"}]}"
+    },
+    {
+      "id": 2921,
+      "version": 0,
+      "type": 0,
+      "startDate": "2024-09-04T00:00:00.000Z",
+      "endDate": "2024-12-31T23:00:00.000Z",
+      "sprNameList": [],
+      "title_KR": "Варп-обновление 2/2 (v0.3.8)",
+      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Теперь с переводом ивента.\\n</size>\"},{\"formatKey\":\"Text\",\"formatValue\":\"№ 0.3.8\\nСейчас будет откровение, которого не будет ни в ВК, ни в Гитхабе, ни даже в Дискорде.\\nНа связи Гид. Я переводил эту главу, и я сожалею, что затянул перевод на месяц, из-за чего обновление увидит свет в последний день ивента. Я знаю, мне говорили, что переводить бесполезно именно по этой причине, но я снова подвёл читателей и своих сокомандников. Мне очень жаль.\\nЯ планирую сделать перерыв от переводов после обновления с переводом Вальпургиевой ночи. Надеюсь, после отдыха я буду переводить быстрее.\\n\\n<b>Изменения:</b>\\n - Исправлены переводы идентичностей,\\n - Исправлены переводы ЭГО,\\n - Сюжет ивента 「Убийство в Варп-экспрессе」,\\n - Исправлены некоторые ранние переводы (но не все),\\n - Обновления спрайтов ивента (я нашёл оригинальный шрифт с английского и сделал кириллицу — Гид)\\n\\n<b><i><size=49>Спасибо за ожидание и поддержку!</b></i></size>\"}]}"
     },
     {
       "id": 2920,

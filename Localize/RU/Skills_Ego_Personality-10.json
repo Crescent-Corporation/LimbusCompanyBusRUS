@@ -25,7 +25,7 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[BeforeAttack] Количество целей +1 при менее 50% ОЗ",
+          "desc": "[BeforeAttack] Число целей +1 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -43,7 +43,7 @@
           "level": 4,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[BeforeAttack] Количество целей +2 при менее 50% ОЗ",
+          "desc": "[BeforeAttack] Число целей +2 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -84,7 +84,7 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей +1 при менее 50% ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Число целей +1 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -105,7 +105,7 @@
           "level": 4,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей +2 при менее 50% ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Число целей +2 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
