@@ -221,6 +221,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2120711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "При подкидывании монеты атакует случайную цель.\n- Первой монетой Грегор всегда атакует основную цель.\n- Все эффекты монеты относятся только к цели, атакуемой на момент её подкидывания..\nВ момент нанесения <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек</link></u></color> монетами этого ЭГО навыка, Грегор наносит бабочек Почивших с шансом выпадения орла. Если же Грегор не смог нанести бабочек Почивших, наносит бабочек Живых. (Каждая <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочка</link></u></color> просчитывается отдельно)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~2 случайных [SinkingWhite]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Теряет 2~6 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Пока СД выше 0, Грегор вновь подкидывает монету (До 5-и раз за ЭГО навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "При подкидывании монеты атакует случайную цель.\n- Первой монетой Грегор всегда атакует основную цель.\n- Все эффекты монеты относятся только к цели, атакуемой на момент её подкидывания..\nВ момент нанесения <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек</link></u></color> монетами этого ЭГО навыка, Грегор наносит бабочек Почивших с шансом выпадения орла. Если же Грегор не смог нанести бабочек Почивших, наносит бабочек Живых. (Каждая <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочка</link></u></color> просчитывается отдельно)\n<style=\"highlight\">[EndSkill] Восстанавливает (2 x число попаданий 3-ьей монеты) СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~2 случайных [SinkingWhite]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Теряет 2~6 СД<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Пока СД выше 0, Грегор вновь подкидывает монету (До 5-и раз за ЭГО навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "При подкидывании монеты атакует случайную цель.\n- Первой монетой Грегор всегда атакует основную цель.\n- Все эффекты монеты относятся только к цели, атакуемой на момент её подкидывания..\nВ момент нанесения <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек</link></u></color> монетами этого ЭГО навыка, Грегор наносит бабочек Почивших с шансом выпадения орла. Если же Грегор не смог нанести бабочек Почивших, наносит бабочек Живых. (Каждая <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочка</link></u></color> просчитывается отдельно)\n[EndSkill] Восстанавливает <style=\"highlight\">(3 x число попаданий 3-ьей монеты)</style>СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~2 случайных [SinkingWhite]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Теряет 2~6 СД<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Пока СД выше 0, Грегор вновь подкидывает монету (До 5-и раз за ЭГО навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, чем ниже СД цели, тем выше процент урона (До 45%)\nЕсли у цели нет СД, +1% урона за каждые 2 единицы <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Живых</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Почивших</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, чем ниже СД цели, тем выше процент урона (До 45%)\nЕсли у цели нет СД, +1% урона за каждые 2 единицы <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 45%)\n<style=\"highlight\">[EnemyKill] Восстанавливает 5 СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Живых</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Почивших</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, чем ниже СД цели, тем выше процент урона (До 45%)\nЕсли у цели нет СД, +1% урона за каждые 2 единицы <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 45%)\n[EnemyKill] Восстанавливает 5 СД<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек Живых</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек Почивших</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у цели менее 50% ОЗ, наносит урон Унынием, равный всем <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочкам</link></u></color> на цели\n- Считается сумма бабочек Живых и Почивших на цели</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -150,7 +150,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "ПППДЛ",
+          "name": "ПРПОД",
           "desc": "[WhenUse] При 7~14 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nТратит весь Заряд,\nИ тратит 3 x (15 - потраченный Заряд)% ОЗ, чтобы получить +3 силы монет\n[WhenUse] Тратит 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +3 силы монет",
           "coinlist": [
             {
@@ -185,7 +185,7 @@
         },
         {
           "level": 4,
-          "name": "ПППДЛ",
+          "name": "ПРПОД",
           "desc": "[WhenUse] При 7~14 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nТратит весь Заряд,\nИ тратит 3 x (15 - потраченный Заряд)% ОЗ чтобы получить +5 силы монет\n[WhenUse] Тратит 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +5 силы монет",
           "coinlist": [
             {
@@ -1185,6 +1185,362 @@
           "desc": "[WhenUse] Получает щит на (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели x 2) ОЗ (До <style=\"highlight\">10</style>)",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "А ну заткнулись оба",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "А ну заткнулись оба",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> на себе\nСила в поединке +1 при 7 и более <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "А ну заткнулись оба",
+          "desc": "Сила монет +1 при 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> на себе\nСила в поединке <style=\"highlight\">+2</style> при 7 и более <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color>\n<style=\"highlight\">[OnSucceedAttackHead] Получает 1 [PenanceFirst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ПБ / ЧП",
+          "desc": "Сила монет +1 при 20 и более в сумме <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ПБ / ЧП",
+          "desc": "Сила монет +1 при 20 и более в сумме <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе\n<style=\"highlight\">Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает ([Laceration] на цели/3) <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ПБ / ЧП",
+          "desc": "Сила монет +1 при <style=\"highlight\">15</style> и более в сумме <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе\nСила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает ([Laceration] на цели/<style=\"highlight\">2</style>) <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> (До <style=\"highlight\">3</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] При 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> Рёшу получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход (Дважды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Череполом",
+          "desc": "[BeforeUse] При 15 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяниях</link></u></color> заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу быстрее цели на 3 и выше очка\n[WhenUse] Сила монет +1 при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/3)% от максимальных ОЗ себе и союзнику с наименьшими ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД (Не менее 0)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Череполом",
+          "desc": "[BeforeUse] При 15 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяниях</link></u></color> заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу <style=\"highlight\">быстрее цели</style>\n[WhenUse] Сила монет +1 и <style=\"highlight\">Сила в поединке +2</style> при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Получает 2 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/<style=\"highlight\">2</style>)% от максимальных ОЗ себе и союзнику с наименьшими ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД (Не менее 0)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пора поесть и на боковую",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color> (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пора поесть и на боковую",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> (Единожды за ход)\n<style=\"highlight\">- Дополнительно получает 1 [RedEyeFirst] при менее 7 <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color> (Единожды за ход)\n<style=\"highlight\">- Дополнительно получает 1 [PenanceFirst]при менее 7 <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041005,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Серьёзный череполом",
+          "desc": "[WhenUse] Использует все [RedEyeFirst] и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color></style> на себе\n- Сила монет +1 за каждые 5 потраченных <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> (До 4)\n- Базовая сила +1 за каждые 5 потраченных <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color></style> (До 4)\n[EndSkill] Рёшу теряет 15 СД и <sprite name=\"Emptiness\"><color=#e30000><u><link=\"Emptiness\">выжигает дотла</link></u></color> своё ЭГО оружие",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (потраченные [RedEyeFirst] - 15) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 5)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+2.5 урона за каждые потраченные [RedEyeFirst] и [PenanceFirst] (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/2)% от максимальных ОЗ себе и союзнику с наименьшими ОЗ\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> и 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color> на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Серьёзный череполом",
+          "desc": "[WhenUse] Использует все [RedEyeFirst] и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color></style> на себе\n- Сила монет +1 за каждые 5 потраченных <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> (До 4)\n- Базовая сила +1 за каждые 5 потраченных <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color></style> (До 4)\n[EndSkill] Рёшу теряет 15 СД и <sprite name=\"Emptiness\"><color=#e30000><u><link=\"Emptiness\">выжигает дотла</link></u></color> своё ЭГО оружие",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (потраченные [RedEyeFirst] - 15) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 5)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+4%</style> урона за каждые потраченные [RedEyeFirst] и [PenanceFirst] (До <style=\"highlight\">160%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает <style=\"highlight\">(потраченные [PenanceFirst])%</style>ОЗ себе и союзнику с наименьшими ОЗ\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - <style=\"highlight\">5</style>) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> и 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color> на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
           ]
         }
       ]

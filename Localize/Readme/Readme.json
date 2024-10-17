@@ -28,7 +28,17 @@
       "endDate": "2024-12-31T23:00:00.000Z",
       "sprNameList": [],
       "title_KR": "Прочие важные ссылки",
-      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Следить за обновлениями:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/limbus_company_ru>Limbus Company RUS (VK)</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Поддержать проект:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/projmoon?w=app6471849_-132567568>VK Donations</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наш Дискорд-сервер:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://discord.gg/PG7PDrdjey>Discord</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наши друзья:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://gll-fun.com/ru/>Great Limbus Library</link>\"}]}"
+      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Следить за обновлениями:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/limbus_company_ru>Limbus Company RUS (VK)</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Поддержать проект:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://vk.com/projmoon?w=app6471849_-132567568>VK Donations</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наш Дискорд-сервер:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://discord.gg/PG7PDrdjey>Discord</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наш Дискорд-сервер:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://boosty.to/crescent_corporation>Boosty</link>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Наши друзья:</size>\"},{\"formatKey\":\"HyperLink\",\"formatValue\":\"<link=https://gll-fun.com/ru/>Great Limbus Library</link>\"}]}"
+    },
+    {
+      "id": 2922,
+      "version": 0,
+      "type": 0,
+      "startDate": "2024-10-17T00:00:00.000Z",
+      "endDate": "2024-12-31T23:00:00.000Z",
+      "sprNameList": [],
+      "title_KR": "Вы получили запрос от Корп. K (v0.4.0)",
+      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Следующая остановка — Гнездо корпорации K.\\n</size>\"},{\"formatKey\":\"Text\",\"formatValue\":\"№ 0.4.0\\nПосле долгого ожидания, мы наконец публикуем перевод четвёртой Песни.\\nНа данный момент публикация её была более первостепенной задачей, нежели перевод двух ЭГО и четырёх Идентичностей нового сезона, так что ожидайте их перевод к следующему обновлению русификатора.\\n\\n<b>Изменения:</b>\\n - Переведена 4-ая Песнь,\\n - Исправлены некоторые переводы,\\n - Исправлены материалы и шрифты,\\n - Добавлен перевод нового сезона в меню запуска игры.\\n\\n<b><i><size=49>Спасибо за ожидание и поддержку!</b></i></size>\"}]}"
     },
     {
       "id": 2921,

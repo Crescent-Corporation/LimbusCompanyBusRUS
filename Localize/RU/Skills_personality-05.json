@@ -713,7 +713,7 @@
         {
           "level": 1,
           "name": "Сосредоточение на учении",
-          "desc": "Получает щит, равный (Откровение x 3% максимальных ОЗ), если этот навык был сброшен\n[WhenUse] <sprite name=\"Discard\"><color=#a16a3b><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех слотах навыков грешника",
+          "desc": "Получает щит, равный (Откровение x 3% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#a16a3b><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех слотах навыков грешника",
           "coinlist": [
             {},
             {
@@ -728,7 +728,7 @@
         {
           "level": 2,
           "name": "Сосредоточение на учении",
-          "desc": "Получает щит, равный (Откровение x <style=\"highlight\">4%</style> максимальных ОЗ), если этот навык был сброшен\n[WhenUse] <sprite name=\"Discard\"><color=#a16a3b><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех слотах навыков грешника\n<style=\"highlight\">[WhenUse] Сила в поединке +1 при 2 и более <sprite name=\"KnowledgeExplored\"><color=#a16a3b><u><link=\"KnowledgeExplored\">Откровений</link></u></color>\n[WinDuel] Получает 2 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалки эрудиции</link></u></color> (Раз за ход)</style>",
+          "desc": "Получает щит, равный (Откровение x <style=\"highlight\">4%</style> максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#a16a3b><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех слотах навыков грешника\n<style=\"highlight\">[WhenUse] Сила в поединке +1 при 2 и более <sprite name=\"KnowledgeExplored\"><color=#a16a3b><u><link=\"KnowledgeExplored\">Откровений</link></u></color>\n[WinDuel] Получает 2 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалки эрудиции</link></u></color> (Раз за ход)</style>",
           "coinlist": [
             {},
             {
@@ -743,7 +743,7 @@
         {
           "level": 4,
           "name": "Сосредоточение на учении",
-          "desc": "Получает щит, равный (Откровение x <style=\"highlight\">5%</style> максимальных ОЗ), если этот навык был сброшен\n[WhenUse] <sprite name=\"Discard\"><color=#a16a3b><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех слотах навыков грешника\n<style=\"highlight\">[WhenUse] Сила в поединке +(Откровение - 1) (До 2)</style>\n[WinDuel] Получает 2 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалки эрудиции</link></u></color> (Раз за ход)",
+          "desc": "Получает щит, равный (Откровение x <style=\"highlight\">5%</style> максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#a16a3b><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех слотах навыков грешника\n<style=\"highlight\">[WhenUse] Сила в поединке +(Откровение - 1) (До 2)</style>\n[WinDuel] Получает 2 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалки эрудиции</link></u></color> (Раз за ход)",
           "coinlist": [
             {},
             {

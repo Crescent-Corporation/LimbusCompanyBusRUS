@@ -295,6 +295,58 @@
     {
       "id": "Choice_90103501",
       "content": "<color=#ebcaa2>Идентичности с</color> <color=#7d4e94>грехом Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
+    },
+    {
+      "id": "Choice_1040301",
+      "content": "<color=#ebcaa2>Выбранный грешник</color> <color=#ebcaa2>получает</color> <color=#e30000>10 Разрывов</color> <color=#ebcaa2>в течение 1 хода во время следующей битвы.</color>"
+    },
+    {
+      "id": "MirrorDungeonAcquireCost",
+      "content": "<color=#ebcaa2>Получено {amount} Стоимости.</color>"
+    },
+    {
+      "id": "MirrorDungeonLossCost",
+      "content": "<color=#ebcaa2>Потеряно {amount} Стоимости.</color>"
+    },
+    {
+      "id": "Choice_90104001",
+      "content": "<color=#ebcaa2>Начните следующую битву с</color> <color=#f8c200>+2</color> <color=#ebcaa2>ко всем эго ресурсам.</color>"
+    },
+    {
+      "id": "Choice_9010400101",
+      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#f8c200>+2 к итоговой силе навыка</color> <color=#ebcaa2>на время следующей битвы.</color>"
+    },
+    {
+      "id": "Choice_90104002",
+      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#f8c200>+1 к силе навыка</color> <color=#ebcaa2>на время следующей битвы.</color>"
+    },
+    {
+      "id": "ChangeEventIllust",
+      "content": ""
+    },
+    {
+      "id": "Choice_90105801",
+      "content": "Все идентичности в команде повышают свой уровень на 2"
+    },
+    {
+      "id": "Choice_90106802",
+      "content": "Все идентичности в команде повышают свой уровень на 3"
+    },
+    {
+      "id": "Choice_90107402",
+      "content": "Все идентичности в команде повышают свой уровень на 2"
+    },
+    {
+      "id": "Choice_90109101",
+      "content": "Все идентичности в команде повышают свой уровень на 2"
+    },
+    {
+      "id": "Choice_90200502",
+      "content": "<color=#ebcaa2>Проваливший проверку грешник теряет</color> <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>12 СД</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_LoseBattle",
+      "content": "<color=#ff0000>Вы не получите награду при поражении.</color>"
     }
   ]
 }

@@ -789,7 +789,7 @@
         {
           "level": 4,
           "name": "Виновный — вы!",
-          "desc": "[WhenUse] Сила в поединке +1 <style=\"highlight\">за каждые 6</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] 자신의 <style=\"highlight\">Если на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> менее 15 единиц,</style> сила монет +2 при трате 10 единиц из собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n<style=\"highlight\">[WhenUse] Сила монет +3 при трате 15 единиц из собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
+          "desc": "[WhenUse] Сила в поединке +1 <style=\"highlight\">за каждые 6</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] <style=\"highlight\">Если на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> менее 15 единиц,</style> сила монет +2 при трате 10 единиц из собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n<style=\"highlight\">[WhenUse] Сила монет +3 при трате 15 единиц из собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [

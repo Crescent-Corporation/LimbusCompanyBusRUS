@@ -304,6 +304,163 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2080711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Число целей +1 при 4 и более грехов в наибольшем резонансе\n[EndSkill] Восстанавливает (5 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшими ОЗ на момент окончания навыка (Восстанавливает до 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Число целей +1 при 4 и более грехов в наибольшем резонансе\n<style=\"highlight\">- Число целей +1, если наибольший резонанс — резонанс Уныния</style>\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшими ОЗ на момент окончания навыка (Восстанавливает до 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+          }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Число целей +1 при 4 и более грехов в наибольшем резонансе\n- Число целей +1, если наибольший резонанс — резонанс Уныния\n[EndSkill] Восстанавливает (10 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшими ОЗ на момент окончания навыка (Восстанавливает до <style=\"highlight\">20</style>%)\n<style=\"highlight\">- При 4 и более грехах в наибольшем резонансе Уныния дополнительно восстанавливает 10% от максимальных ОЗ</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопанием</link></u></color>\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (5 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с наименьшими ОЗ на момент окончания навыка (Кроме себя, до 10%)\n- Если в резонансе 4 и более греха, +1 цель восстановления",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопанием</link></u></color>\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с наименьшими ОЗ на момент окончания навыка (Кроме себя, до  <style=\"highlight\">15</style>%)\n- Если в резонансе 4 и более греха, +1 цель восстановления",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эха особняка</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопанием</link></u></color>\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (10 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшими ОЗ на момент окончания навыка (Восстанавливает до 15%)\n- Если в резонансе 4 и более греха, +1 цель восстановления\n<style=\"highlight\">- Если это резонанс Уныния, повышает восстановление ОЗ на 5%</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp] <style=\"highlight\">за каждые 3</style> греха Утопания в резонансе <style=\"highlight\">(До 2)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эха особняка</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

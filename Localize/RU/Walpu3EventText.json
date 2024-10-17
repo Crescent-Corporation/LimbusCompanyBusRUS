@@ -10,11 +10,11 @@
     },
     {
       "id": "Walpu3_normal_stage",
-      "content": "Обычное"
+      "content": "Обычный"
     },
     {
       "id": "Walpu3_hard_stage",
-      "content": "Усложнённое"
+      "content": "Усложнённый"
     },
     {
       "id": "Walpu3_normal_stage_name",
@@ -38,11 +38,11 @@
     },
     {
       "id": "EVENT_WALPU3_NORMAL",
-      "content": "Обычное"
+      "content": "Обычные"
     },
     {
       "id": "EVENT_WALPU3_HARD",
-      "content": "Усложнённое"
+      "content": "Усложнённые"
     },
     {
       "id": "missionConditionTitle_10009",

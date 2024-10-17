@@ -51,7 +51,7 @@
       "area": "11-й Район",
       "chapter": "Песнь IV",
       "chapterNumber": "04",
-      "chaptertitle": "The Unchanging",
+      "chaptertitle": "Неизменный",
       "timeline": "984/05"
     },
     {
@@ -133,6 +133,15 @@
       "chapter": "Антракт IV-2",
       "chapterNumber": "6.5",
       "chaptertitle": "Убийство в Варп-экспрессе",
+      "timeline": "984/11"
+    },
+    {
+      "id": "chapter_p_9111",
+      "company": "Корп. P",
+      "area": "16-й Район",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "4-ая Вальпургиева ночь",
       "timeline": "984/11"
     }
   ]

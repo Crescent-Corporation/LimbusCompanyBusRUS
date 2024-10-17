@@ -1544,7 +1544,7 @@
     {
       "id": 9056,
       "name": "Четырёхлистник",
-      "desc": "при нанесении союзником критического удара с помощью <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, наносит 5 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2 в начале следующего хода. (Раз за ход)\n\nЕсли же навык был с грехом Чревоугодия, даёт 7 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3 в начале следующего хода.",
+      "desc": "При нанесении союзником критического удара с помощью <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, наносит 5 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2 в начале следующего хода. (Раз за ход)\n\nЕсли же навык был с грехом Чревоугодия, даёт 7 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3 в начале следующего хода.",
       "simpleDesc": [
         {
           "abilityID": 9056,
@@ -1859,7 +1859,7 @@
     {
       "id": 9067,
       "name": "Особый контракт",
-      "desc": "Наносит фиксированный урон в 33% от максимальных ОЗ (у аномалий - ОЗ части) и наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход противникам, которые были оглушены навком союзника. (Раз за столкновение)",
+      "desc": "Наносит фиксированный урон в 33% от максимальных ОЗ (у аномалий - ОЗ части) и наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход противникам, которые были оглушены навыком союзника. (Раз за столкновение)",
       "simpleDesc": [
         {
           "abilityID": 9067,

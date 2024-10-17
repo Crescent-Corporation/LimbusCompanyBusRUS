@@ -378,8 +378,19 @@
     {
       "id": 2110711,
       "name": "Блуждающая",
-      "desc": "Верхняя граница счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> +5.\n([Charge] - 1) по +2% урона при трате счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>. (До 10%)",
+      "desc": "Верхняя граница счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> +5.\nНавыки, что тратят счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносят +(2 x ([Charge] - 1))% урона. (До 10%)",
       "summary": "Повышает урон при трате счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>."
+    },
+    {
+      "id": 2120711,
+      "name": "Скорбь",
+      "desc": "Если в конце хода Грегор имеет негативные эффекты на себе, он получает 1 [Enhancement] на следующий ход.\n+15% урона против целей во время срыва или коррозии ЭГО.",
+      "summary": ""
+    },
+    {
+      "id": 2080711,
+      "name": "Приём незваных гостей",
+      "desc": "Сила в поединке +1 против <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостей</link></u></color> и целей с эффектами, меняющими тип срыва.\nПри ударе этой цели Измаил восстанавливает 5 СД союзнику с наименьшей Силой духа. (Единожды за ход)"
     }
   ]
 }

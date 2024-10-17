@@ -1,0 +1,196 @@
+{
+  "dataList": [
+    {
+      "id": "mission_ui_condition_tags_103001001",
+      "content": "Пройдите {0} этапов 1-ой Песни"
+    },
+
+
+
+    {
+      "id": "mission_ui_condition_tags_103002001",
+      "content": "Пройдите {0} этапов Светодобычи опыта"
+    },
+
+
+
+    {
+      "id": "mission_ui_condition_tags_103003001",
+      "content": "Пройдите {0} этапов Светодобычи звеньев"
+    },
+
+
+
+    {
+      "id": "mission_ui_condition_tags_103004001",
+      "content": "Пройдите {0} этапов Зеркального подземелья (Столкновения)"
+    },
+    {
+      "id": "mission_ui_condition_tags_103004002",
+      "content": "Дойдите до этажа {0} в обычном или усложнённом Подземелье"
+    },
+    {
+      "id": "mission_ui_condition_tags_103004003",
+      "content": "Дойдите до этажа {0} в обычном или усложнённом Подземелье"
+    },
+    {
+      "id": "mission_ui_condition_tags_103004004",
+      "content": "Пройдите обычное или усложнённое Зеркальное подземелье {0} раз\n(Включая босса последнего этажа)"
+    },
+
+
+    {
+      "id": "mission_ui_condition_tags_103005001",
+      "content": "Поднимите {0} идентичности до {1}-го уровня"
+    },
+    {
+      "id": "mission_ui_condition_tags_103005002",
+      "content": "Усильте {0} идентичности (кроме базовых) до {1}-го уровня Связи"
+    },
+    {
+      "id": "mission_ui_condition_tags_103005003",
+      "content": "Усильте {0} идентичности до {1}-го уровня Связи"
+    },
+    {
+      "id": "mission_ui_condition_tags_103005004",
+      "content": "Усильте {0} ЭГО до {1} уровня Связки"
+    },
+
+
+    {
+      "id": "mission_ui_condition_tags_103006001",
+      "content": "Выполните {0} ежедневных миссий"
+    },
+    {
+      "id": "mission_ui_condition_tags_103006002",
+      "content": "Выполните {0} недельных миссий"
+    },
+
+
+    {
+      "id": "mission_ui_condition_tags_103006002",
+      "content": "Выполните {0} недельных миссий"
+    },
+
+    {
+      "id": "mission_condition_ui_group_2",
+      "content": "Сюжет"
+    },
+    {
+      "id": "mission_condition_ui_group_3",
+      "content": "Светодобыча опыта"
+    },
+    {
+      "id": "mission_condition_ui_group_4",
+      "content": "Светодобыча звеньев"
+    },
+    {
+      "id": "mission_condition_ui_group_6",
+      "content": "Зеркальное подземелье"
+    },
+    {
+      "id": "mission_condition_ui_group_8",
+      "content": "Повышения"
+    },
+    {
+      "id": "mission_condition_ui_group_11",
+      "content": "Баттл Пасс"
+    },
+    {
+      "id": "return_user_remain_Luxcavation_bonus",
+      "content": "Время до окончания бонусов Светодобычи:"
+    },
+    {
+      "id": "move_to_luxcavation",
+      "content": "В Светодобычу"
+    },
+    {
+      "id": "move_to_shop",
+      "content": "В Магазин"
+    },
+    {
+      "id": "information_about_luxcavation",
+      "content": "Инфо о бонусе Светодобычи"
+    },
+    {
+      "id": "information_about_returning_user_package",
+      "content": "Инфо о паке вернувшегося менеджера"
+    },
+    {
+      "id": "information_about_returning_user_package_desc",
+      "content": "Во время проведения ивента вы можете\nприобрести пак вернувшегося менеджера в магазине."
+    },
+    {
+      "id": "returning_user_exp_luxcavation_bonus_desc",
+      "content": "На сегодня осталось {0} бонусов Светодобычи опыта"
+    },
+    {
+      "id": "returning_user_thread_luxcavation_bonus_desc",
+      "content": "На сегодня осталось {0} бонусов Светодобычи звеньев"
+    },
+    {
+      "id": "returning_user_luxcavation_bonus_desc",
+      "content": "Во время проведения ивента вы можете получить больше наград в Светодобыче."
+    },
+    {
+      "id": "returning_user_mission",
+      "content": "Задания по возвращении"
+    },
+    {
+      "id": "attendance_check",
+      "content": "Перекличка"
+    },
+    {
+      "id": "welcome_returning_user",
+      "content": "С возвращением на работу, дорогой менеджер!"
+    },
+    {
+      "id": "luxcavation_bonus_and_package",
+      "content": "Бонусы Светодобычи и специальный пак"
+    },
+    {
+      "id": "until_event_finish_date",
+      "content": "До конца ивента {0} дней"
+    },
+    {
+      "id": "event_for_new_user_from_date",
+      "content": "Ивент предназначен для новых менеджеров, чей аккаунт создан до 06:00 <color=#990000>{1}.{0}.2024</color> (МСК)"
+    },
+    {
+      "id": "mission_progress_rate",
+      "content": "Прогресс заданий"
+    },
+    {
+      "id": "welcome_returing_user_title",
+      "content": "Выдача  ресурсов\nпо возвращении"
+    },
+    {
+      "id": "welcome_returing_user_desc",
+      "content": "Добро пожаловать обратно, менеджер."
+    },
+    {
+      "id": "returning_user_attendance_check_title",
+      "content": "Ежедневная перекличка для вернувшегося менеджера."
+    },
+    {
+      "id": "returning_user_attendance_check_desc",
+      "content": "※ Заходите в игру каждый день, чтобы получить награды.\n\n※ Для получения награды заходите в игру после ежедневного сброса. (В 00:00 по МСК)"
+    },
+    {
+      "id": "complete_to_receive",
+      "content": "Получено"
+    },
+    {
+      "id": "already_owned",
+      "content": "Уже на руках"
+    },
+    {
+      "id": "move_shortcut",
+      "content": "Перейти к"
+    },
+    {
+      "id": "warning_about_change_season_item", 
+      "content": "Только половина осколков для Связи и Связки Сезона 4 перенесётся на следующий Сезон.\nЖелаете принять эти осколки?"    
+    }
+  ]
+}

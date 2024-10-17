@@ -650,7 +650,7 @@
     {
       "id": 1050621,
       "name": "Тренировка манёвренности",
-      "desc": "В конце хода союзник с наибольшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>получает +1 к максимальной скорости за каждые 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на следующий ход (До 3)."
+      "desc": "В конце хода союзник с наибольшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> получает +1 к максимальной скорости за каждые 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на следующий ход (До 3)."
     },
     {
       "id": 1090601,
@@ -1609,6 +1609,93 @@
       "name": "Зов Лесного царя",
       "desc": "- +1% урона за каждое [Sinking] на цели. (До 15%)\n\n- При смерти союзника во время битвы тратит 2 <sprite name=\"Coffin\"><color=#f8c200><u><link=\"Coffin\">Гроба</link></u></color>, чтобы воскресить его как <sprite name=\"WildHunt\"><color=#f8c200><u><link=\"WildHunt\">часть Дикой охоты</link></u></color>. (<style=\"highlight\">Дважды</style> за ход)\n\n- <sprite name=\"WildHunt\"><color=#f8c200><u><link=\"WildHunt\">Участник Дикой охоты</link></u></color> получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход.\n- Если воскрешённый союзник из рода Эдгар или Грозового перевала, он дополнительно получает 1 [Enhancement] на следующий ход.",
       "summary": "Повышает урон за [Sinking] на цели."
+    },
+    {
+      "id": 1041001,
+      "name": "Паучья башка / Черепушка",
+      "desc": "При нанесении ударов противнику монетами навыков, дающих [RedEyeFirst]:\n- +([RedEyeFirst]-2)% урона;\n- Получает 1 [RedEyeFirst] против целей с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color> в момент удара (До 3-ёх раз за ход).\n\nПри нанесении ударов противнику монетами навыков, дающих [PenanceFirst]:\n- + ([PenanceFirst]/2)% урона;\n- Получает 1[PenanceFirst] при 20 и более СД в момент удара (До 3-ёх раз за ход)",
+      "summary": "Повышает урон пропорционально <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красным глазам</link></u></color> на Рёшу. Она получает 1 Красные глаза при ударе цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nПовышает урон пропорционально <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаянию</link></u></color> на Рёшу. Она получает 1 Раскаяние при ударе с 20 и более СД."
+    },
+    {
+      "id": 1041011,
+      "name": "Паучья башка / Черепушка",
+      "desc": "При нанесении ударов противнику монетами навыков, дающих [RedEyeFirst]:\n- +([RedEyeFirst]-2)% урона;\n<style=\"highlight\">- Если Рёшу быстрее цели на 3 и более единицы Скорости, +([RedEyeFirst]/2)% урона;</style>\n- Получает 1 [RedEyeFirst] против целей с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color> в момент удара (До 3-ёх раз за ход).\n\nПри нанесении ударов противнику монетами навыков, дающих [PenanceFirst]:\n- + ([PenanceFirst]/2)% урона;\n<style=\"highlight\">- Если СД цели ниже, чем у Рёшу, +([PenanceFirst]/2)% урона (Противники без СД считаются за 0);</style>\n- Получает 1[PenanceFirst] при 20 и более СД в момент удара (До 3-ёх раз за ход);\n\n<style=\"highlight\">Рёшу получает 1 [PenanceFirst], будучи атакованной. (До 3)</style>",
+      "summary": "Повышает урон пропорционально <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красным глазам</link></u></color> на Рёшу. Она получает 1 Красные глаза при ударе цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nПовышает урон пропорционально <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаянию</link></u></color> на Рёшу. Она получает 1 Раскаяние при ударе с 20 и более СД.\nРёшу получает 1 Раскаяние, будучи атакованной. (До 3)"
+    },
+    {
+      "id": 1041002,
+      "name": "Ассимиляция ЭГО",
+      "desc": "При повышении счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> вместо этого получает [RedEyeFirst] или [PenanceFirst].\n- Потенциал <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяния</link></u></color> не может быть изменён потенциалом <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>.",
+      "summary": "Вместо повышения счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> получает Красные глаза или Раскаяние."
+    },
+    {
+      "id": 1041021,
+      "name": "Поели и на боковую",
+      "desc": "В начале боевой фазы:\n- Союзник с наименьшим процентом ОЗ восстанавливает 3 ОЗ;\n- Союзник с наименьшей СД восстанавливает 3 СД.",
+      "summary": "Восстанавливает ОЗ союзнику с наименьшими ОЗ; восстанавливает СД союзнику с наименьшей СД."
+    },
+    {
+      "id": 1011001,
+      "name": "явыстрелю. яточновыстрелю.",
+      "desc": "При получении <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color> И Сан также получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход. (Единожды за ход)",
+      "summary": "При получении особых <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патронов</link></u></color> также получает<sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>."
+    },
+    {
+      "id": 1011002,
+      "name": "созерцаюумирающуюбабочку.",
+      "desc": "В начале хода И Сан получает по 10 <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color>.\n\n При трате <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color> И Сан случайным образом тратит либо бабочек Живых (потенциал), либо бабочек Почивших (счётчик).\n\nНаносит [SinkingWhite] в зависимости от <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color>, потраченных монетой.\n- При трате бабочек Живых, наносит бабочек Живых (потенциал) на цель.\n- При трате бабочек Почивших, наносит бабочек Почивших (счётчик) на цель.\n\nПри нехватке <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color> во время использования навыка, отменяет подкидывание последующих монет и <sprite name=\"ReloadLament\"><color=#a16a3b><u><link=\"ReloadLament\">перезаряжается</link></u></color>.\n\nПри <sprite name=\"ReloadLament\"><color=#a16a3b><u><link=\"ReloadLament\">перезарядке</link></u></color> или получении <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color>, бабочки определяются состоянием Силы духа И Сана.\n- При 0+ СД И Сан с шансом в 30% получит бабочку Живых и с шансом в 70%  — бабочку Почивших.\n- При 0- СД И Сан с шансом в 70% получит бабочку Живых и с шансом в 30%  — бабочку Почивших.\n- Шанс влияет отдельно на каждый патрон.",
+      "summary": "И Сан <sprite name=\"ReloadLament\"><color=#a16a3b><u><link=\"ReloadLament\">перезаряжается</link></u></color>, если в конце навыка у него кончаются патроны."
+    },
+    {
+      "id": 1011011,
+      "name": "явыстрелю. яточновыстрелю.",
+      "desc": "Если к концу атаки И Сана цель умирает, он <sprite name=\"ReloadLament\"><color=#a16a3b><u><link=\"ReloadLament\">перезаряжается</link></u></color>\nПри получении <sprite name=\"BulletLament\"><color=#a16a3b><u><link=\"BulletLament\">Живых и Почивших</link></u></color> И Сан также получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход. (Единожды за ход)",
+      "summary": "При получении особых <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Патронов</link></u></color> также получает<sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>. При убийстве цели <sprite name=\"ReloadLament\"><color=#a16a3b><u><link=\"ReloadLament\">перезаряжается</link></u></color>."
+    },
+    {
+      "id": 1011021,
+      "name": "Рука спасения",
+      "desc": "При получении урона от союзника, противник тратит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, преобразовывая их в 1 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>. (Трижды за ход)",
+      "summary": "Преобразует Утопание на цели в Бабочки."
+    },
+    {
+      "id": 1091001,
+      "name": "Скоростная доставка",
+      "desc": "Если Родя имеет 6+ скорость или <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> в начале хода, она получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ. (До 15%)\n\nПри отступлении Родя даёт 1 [ParryingResultUp] двум союзникам на следующий ход. (В приоритете союзник на замену и первый союзник в команде.)",
+      "summary": "Получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ.\nПри отступлении даёт 1 [ParryingResultUp] двум союзникам."
+    },
+    {
+      "id": 1091011,
+      "name": "Скоростная доставка",
+      "desc": "Если Родя имеет 6+ скорость или <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> в начале хода, она получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ. (До <style=\"highlight\">20%</style>)\n\nПри отступлении Родя даёт 1 [ParryingResultUp] двум союзникам на следующий ход. (В приоритете союзник на замену и первый союзник в команде.)\n<style=\"highlight\">- Если у Роди 15+ на <sprite name=\"DevyatDimensionalSack\"><color=#a16a3b><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, эффект длится ещё 1 ход. (До 2-ух ходов)</style>",
+      "summary": "Получает щит на ([DevyatDimensionalSack])% от максимальных ОЗ.\nПри отступлении даёт 1 [ParryingResultUp] двум союзникам."
+    },
+    {
+      "id": 1091002,
+      "name": "Отпустите разок и я нормально принесу доставку!",
+      "desc": "<В цепных битвах> По возвращении в команду после <sprite name=\"Retreat\"><color=#a16a3b><u><link=\"Retreat\">Стратегического отступления</link></u></color> вполовину снижает число на <sprite name=\"DevyatDimensionalSack\"><color=#a16a3b><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> (Единожды за битву, округляется в большую сторону)",
+      "summary": "Понижает число на <sprite name=\"DevyatDimensionalSack\"><color=#a16a3b><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>"
+    },
+    {
+      "id": 1091021,
+      "name": "Превосходный курьёр",
+      "desc": "Сила в поединке +1 самому быстрому союзнику на навык, наносящий потенциал и счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>.",
+      "summary": "Сила в поединке +1 для навыка, наносящий потенциал и счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>."
+    },
+    {
+      "id": 1081001,
+      "name": "Гасящий тряску двуручный меч",
+      "desc": "В начале битвы Измаил получает [DefenseUp] пропорционально полученному счётчику <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>. (До 5)"
+    },
+    {
+      "id": 1081011,
+      "name": "Гасящий тряску двуручный меч",
+      "desc": "В начале битвы Измаил получает [DefenseUp] пропорционально полученному счётчику <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>. (До 5)\n-Пока Измаил в <sprite name=\"DefensiveStance\"><color=#f8c200><u><link=\"DefensiveStance\">Защитной стойке</link></u></color> получает вдвое больше <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> от эффекта выше."
+    },
+    {
+      "id": 1081021,
+      "name": "Неотложная защита",
+      "desc": "В начале хода союзник с наибольшей разницей в ОЗ от предыдущего хода (в меньшую сторону) получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>."
     }
   ]
 }

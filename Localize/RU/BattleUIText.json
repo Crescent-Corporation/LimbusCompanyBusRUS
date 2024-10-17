@@ -526,7 +526,7 @@
     },
     {
       "id": "battle_operation_offset",
-      "content": "Оффсет"
+      "content": "Отмена навыков"
     },
     {
       "id": "oneside_defense",
@@ -706,7 +706,63 @@
     },
     {
       "id": "battle_operation_counter",
-      "content": "Особая контратака"
+      "content": "Усиленная контратака"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_0",
+      "content": "Рассвет"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_1",
+      "content": "Полдень"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_2",
+      "content": "Сумерки"
+    },
+    {
+      "id": "LOBOTOMY_ORDEAL_TIME_TYPE_3",
+      "content": "Полночь"
+    },
+    {
+      "id": "LobotomyOrdealTypo_QliphothLevel",
+      "content": "Перегрев Клипот — Фаза {0}"
+    },
+    {
+      "id": "SinkingWhite_stack",
+      "content": "Живущие"
+    },
+    {
+      "id": "SinkingWhite_turn",
+      "content": "Почившие"
+    },
+    {
+      "id": "BulletLament_stack",
+      "content": "Живущие (Патрон)"
+    },
+    {
+      "id": "BulletLament_turn",
+      "content": "Почившие (Патрон)"
+    },
+    {
+      "id": "Retreat_Textalram",
+      "content": "! КУРЬЕР ОТСТУПАЕТ !"      
+    },
+    {
+      "id": "Retreat_TextPassive",
+      "content": "При отступлении"
+    },
+    {
+      "id": "battle_operation_defense",
+      "content": "Усиленный блок"
+    },
+    {
+      "id": "battle_operation_defense_TextTypo",
+      "content": "Сила понижается!"
+    },
+    {
+      "id": "battle_StageBuffUI_Stackdesc",
+      "content": "(Текущее число: {0})"
     }
   ]
 }

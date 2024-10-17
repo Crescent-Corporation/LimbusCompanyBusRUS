@@ -39,6 +39,34 @@
     {
       "id": "SUB",
       "content": "Минус"
+    },
+    {
+      "id": "85560101CRIMSON",
+      "content": "Багровый"
+    },
+    {
+      "id": "85560101SCARLET",
+      "content": "Алый"
+    },
+    {
+      "id": "85560101AMBER",
+      "content": "Янтарный"
+    },
+    {
+      "id": "85560101SHAMROCK",
+      "content": "Зелёный трилистника"
+    },
+    {
+      "id": "85560101AZURE",
+      "content": "Лазурный"
+    },
+    {
+      "id": "85560101INDIGO",
+      "content": "Индиго"
+    },
+    {
+      "id": "85560101VIOLET",
+      "content": "Лиловый"
     }
   ]
 }

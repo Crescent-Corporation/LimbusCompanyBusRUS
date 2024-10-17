@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Подождите!",
-          "desc": "Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, если этот навык был сброшен",
+          "desc": "Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3при сбросе этого навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -20,7 +20,7 @@
         {
           "level": 2,
           "name": "Подождите!",
-          "desc": "Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4, если этот навык был сброшен\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\nПри 6+ на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, получает итоговую силу +1",
+          "desc": "Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4при сбросе этого навыка\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\nПри 6+ на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, получает итоговую силу +1",
           "coinlist": [
             {
               "coindescs": [
@@ -34,7 +34,7 @@
         {
           "level": 4,
           "name": "Подождите!",
-          "desc": "Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4, если этот навык был сброшен\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\nПри 6+ на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, получает итоговую силу +2",
+          "desc": "Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4при сбросе этого навыка\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\nПри 6+ на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, получает итоговую силу +2",
           "coinlist": [
             {
               "coindescs": [

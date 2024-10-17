@@ -1,0 +1,184 @@
+{
+  "dataList": [
+    {
+      "id": "UnitKeyword_BLADE_LINEAGE",
+      "content": "Родословная клинка"
+    },
+    {
+      "id": "UnitKeyword_BLACK_CLOUD",
+      "content": "Клан «Курокумо»"
+    },
+    {
+      "id": "UnitKeyword_YURODIVY",
+      "content": "Юродивые"
+    },
+    {
+      "id": "UnitKeyword_MACHINE_BOUND_ORGANISM",
+      "content": "Механизированное существо"
+    },
+    {
+      "id": "UnitKeyword_ON_THE_LAKE",
+      "content": "Озёрная тварь"
+    },
+    {
+      "id": "UnitKeyword_N_CORP",
+      "content": "Корпорация N"
+    },
+    {
+      "id": "UnitKeyword_K_CORP",
+      "content": "Корпорация K"
+    },
+    {
+      "id": "UnitKeyword_G_CORP",
+      "content": "Корпорация G"
+    },
+    {
+      "id": "UnitKeyword_W_CORP",
+      "content": "Корпорация W"
+    },
+    {
+      "id": "UnitKeyword_R_CORP",
+      "content": "Корпорация R"
+    },
+    {
+      "id": "UnitKeyword_T_CORP",
+      "content": "Корпорация T"
+    },
+    {
+      "id": "UnitKeyword_SEVEN",
+      "content": "Ассоциация «Севен»"
+    },
+    {
+      "id": "UnitKeyword_CINQ",
+      "content": "Ассоциация «Сэнк»"
+    },
+    {
+      "id": "UnitKeyword_ZWEI",
+      "content": "Ассоциация «Цвай»"
+    },
+    {
+      "id": "UnitKeyword_LIU",
+      "content": "Ассоциация «Лю»"
+    },    
+    {
+      "id": "UnitKeyword_SHI",
+      "content": "Ассоциация «Си»"
+    },
+    {
+      "id": "UnitKeyword_DIECI",
+      "content": "Ассоциация «Дьечи»"
+    },     
+    {
+      "id": "UnitKeyword_OUFI",
+      "content": "Ассоциация «Эуфи»"
+    },    
+    {
+      "id": "UnitKeyword_TROUBLE_SHOOTER",
+      "content": "Мастерская Ключа и розы"
+    },    
+    {
+      "id": "UnitKeyword_ATL",
+      "content": "Союз технического освобождения"
+    },    
+    {
+      "id": "UnitKeyword_MOLAR",
+      "content": "Офис Коренного"
+    },   
+    {
+      "id": "UnitKeyword_MIDDLE_FINGER",
+      "content": "Средний палец"
+    },   
+    {
+      "id": "UnitKeyword_RING_FINGER",
+      "content": "Безымянный палец"
+    },    
+    {
+      "id": "UnitKeyword_PEQUOD_CREW",
+      "content": "Член команды «Пекода»"
+    },    
+    {
+      "id": "UnitKeyword_WUTHERING_HEIGHTS",
+      "content": "Грозовой перевал"
+    },    
+    {
+      "id": "UnitKeyword_DEAD_RABBITS",
+      "content": "Дэд Рэбитс"
+    },    
+    {
+      "id": "UnitKeyword_WILD_HUNT",
+      "content": "Дикая охота"
+    },
+    {
+      "id": "UnitKeyword_LIMBUS_COMPANY",
+      "content": "Компания «Лимбус»"
+    },
+    {
+      "id": "UnitKeyword_KONG_KONG",
+      "content": "Банда «Бом-боб»"
+    },
+    {
+      "id": "UnitKeyword_MARIACHI",
+      "content": "Марьячи"
+    },
+    {
+      "id": "UnitKeyword_HOOK_OFFICE",
+      "content": "Офис Крюка"
+    },
+    {
+      "id": "UnitKeyword_DUAL_HOOK_PIRATE",
+      "content": "Пираты Двух крюков"
+    },
+    {
+      "id": "UnitKeyword_DAWN",
+      "content": "Офис Рассвета"
+    },
+    {
+      "id": "UnitKeyword_MULTI_CRACK",
+      "content": "Офис «Мультикрэк»"
+    },
+    {
+      "id": "UnitKeyword_BACKSTREET_COOK",
+      "content": "БуР"
+    },
+    {
+      "id": "UnitKeyword_TIEQIU",
+      "content": "Банда Железного шара"
+    },
+    {
+      "id": "UnitKeyword_LINTON",
+      "content": "Род Эдгар"
+    },
+    {
+      "id": "UnitKeyword_LOBOTOMY_HEAD",
+      "content": "Штаб-квартира «Лоботомии»"
+    },
+    {
+      "id": "UnitKeyword_LOBOTOMY_BRANCH",
+      "content": "Филиал «Лоботомии»"
+    },
+    {
+      "id": "UnitKeyword_FIXER",
+      "content": "Корректировщик"
+    },
+    {
+      "id": "UnitKeyword_CLAN",
+      "content": "Член синдиката"
+    },
+    {
+      "id": "UnitKeyword_WHITE_PARASITE",
+      "content": "Обелённый"
+    },
+    {
+      "id": "UnitKeyword_N_CORP_FNATIC",
+      "content": "Фанатик Корп. N"
+    },
+    {
+      "id": "UnitKeyword_BACK_STREET",
+      "content": "Житель Подворотен"
+    },
+    {
+      "id": "UnitKeyword_DEVYAT",
+      "content": "Ассоциация «Девять»"
+    }
+  ]
+}
