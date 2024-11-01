@@ -18,7 +18,8 @@ namespace LimbusLocalizeRUS
         public static string GamePath;
         public const string GUID = "com.Knightey.LocalizeLimbusCompanyRUS";
         public const string NAME = "LimbusLocalizeRUS";
-        public const string VERSION = "0.3.8";
+        public const string VERSION = "0.4.1";
+        public const string VERSION_STATE = "-ALPHA";
         public const string AUTHOR = "Base: Bright\nRUS version: Knightey, abcdcode, Disaer";
         public const string LCBRLink = "https://github.com/Crescent-Corporation/LimbusLocalizeRUS";
         public static Action<string, Action> LogFatalError { get; set; }
@@ -34,8 +35,12 @@ namespace LimbusLocalizeRUS
             LogError = (string log) => { Log.LogError(log); Debug.LogError(log); };
             LogWarning = (string log) => { Log.LogWarning(log); Debug.LogWarning(log); };
             LogFatalError = (string log, Action action) => { LCBR_Manager.FatalErrorlog += log + "\n"; LogError(log); LCBR_Manager.FatalErrorAction = action; LCBR_Manager.CheckModActions(); };
-            ModPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             GamePath = new DirectoryInfo(Application.dataPath).Parent.FullName;
+            var matchingFiles = Directory.EnumerateFiles(GamePath + "\\BepInEx\\plugins", "LimbusCompanyBusRUS_BIE.dll", SearchOption.AllDirectories);
+            foreach (var filePath in matchingFiles)
+            {
+                ModPath = Path.GetDirectoryName(filePath);
+            }
             LCBR_UpdateChecker.StartAutoUpdate();
             try
             {
@@ -71,6 +76,8 @@ namespace LimbusLocalizeRUS
                     LogInfo(LCB_Cyrillic_Font.GetCyrillicMats(i).name + " " + i);
                 }
                 LogInfo("-------------------------\n");
+                LogInfo("Startup" + DateTime.Now);
+                //LogInfo("EventEnd" + new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime());
             }
             catch (Exception e)
             {

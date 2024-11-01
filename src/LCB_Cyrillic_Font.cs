@@ -112,25 +112,6 @@ namespace LimbusLocalizeRUS
         {
             return tmpcyrillicmatsnames.Contains(matAsset.name);
         }
-        public static Texture2D duplicateTexture(Texture2D source)
-        {
-            RenderTexture renderTex = RenderTexture.GetTemporary(
-                        source.width,
-                        source.height,
-                        0,
-                        RenderTextureFormat.Default,
-                        RenderTextureReadWrite.Linear);
-
-            Graphics.Blit(source, renderTex);
-            RenderTexture previous = RenderTexture.active;
-            RenderTexture.active = renderTex;
-            Texture2D readableText = new Texture2D(source.width, source.height);
-            readableText.ReadPixels(new Rect(0, 0, renderTex.width, renderTex.height), 0, 0);
-            readableText.Apply();
-            RenderTexture.active = previous;
-            RenderTexture.ReleaseTemporary(renderTex);
-            return readableText;
-        }
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
         [HarmonyPrefix]
         private static bool set_font(TMP_Text __instance, ref TMP_FontAsset value)
@@ -139,14 +120,11 @@ namespace LimbusLocalizeRUS
             string fontname = __instance.m_fontAsset.name;
             if (GetCyrillicFonts(fontname, out TMP_FontAsset font))
             {
-
-                Debug.Log("Material Name : " + __instance.fontMaterial.name);
-                Debug.Log("Test : " + __instance.text);
-                if (__instance.fontMaterial.name.Contains("Mikodacs SDF UnderLine") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Underline"))
+                if ((__instance.fontMaterial.name.StartsWith("Mikodacs SDF UnderLine") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Underline") || __instance.fontMaterial.name.Contains("Mikodacs SDF InformationEgoTabShadow") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF InfomationEgoTabShadow  Material") && (!__instance.fontMaterial.name.Contains("Mikodacs SDF Burning_ver3") && !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Burnning_ver_3") && !__instance.fontMaterial.name.Contains("Glow"))))
                 {
                     if (__instance.fontMaterial.IsKeywordEnabled("UNDERLAY_ON"))
                     {
-
+                        __instance.GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
                         if (!premat.ContainsKey(__instance))
                         {
                             premat[__instance] = __instance.fontMaterial;
@@ -158,7 +136,6 @@ namespace LimbusLocalizeRUS
             return true;
         }
         public static Dictionary<TMP_Text, Material> premat = new Dictionary<TMP_Text, Material>();
-        public static Dictionary<TMP_Text, Material> prematGlow = new Dictionary<TMP_Text, Material>();
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.fontMaterial), MethodType.Setter)]
         [HarmonyPrefix]
         static void set_fontMaterialUnderlay(TMP_Text __instance, ref Material value)
@@ -173,57 +150,22 @@ namespace LimbusLocalizeRUS
                     {
                         CloneMat = UnityEngine.Object.Instantiate(__instance.m_fontAsset.material);
                     }
-                    value = CloneMat;
-                    Material pre = premat[__instance];
-                    Color f1 = Color.black;
+                    Color f1 = new Color(0.01568628f, 0, 0.003921569f, 1f);
 
                     CloneMat.shader = Shader.Find("TextMeshPro/Distance Field");
-                    CloneMat.SetColor("_UnderlayColor", f1);
-                    CloneMat.SetFloat("_UnderlayOffsetX", 5);
-                    CloneMat.SetFloat("_UnderlayOffsetY", -5);
-                    CloneMat.SetFloat("_UnderlayDilate", 3);
-                    CloneMat.SetFloat("_UnderlaySoftness", 0);
                     CloneMat.EnableKeyword("UNDERLAY_ON");
-
-                    __instance.m_fontAsset.material.shader = Shader.Find("TextMeshPro/Distance Field");
-                    __instance.m_fontAsset.material.SetColor("_UnderlayColor", f1);
-                    __instance.m_fontAsset.material.SetFloat("_UnderlayOffsetX", 0);
-                    __instance.m_fontAsset.material.SetFloat("_UnderlayOffsetY", (float)-0.5);
-                    __instance.m_fontAsset.material.EnableKeyword("UNDERLAY_ON");
+                    CloneMat.SetColor("_UnderlayColor", f1);
+                    CloneMat.SetFloat("_UnderlayOffsetX", 0.75f);
+                    CloneMat.SetFloat("_UnderlayOffsetY", -1f);
+                    CloneMat.SetFloat("_UnderlayDilate", -0.03f);
+                    CloneMat.SetFloat("_UnderlaySoftness", 0);
+                    CloneMat.name = "Mikodacs OG SDF UnderLine Coded";
+                    value = CloneMat;
+                    Material pre = premat[__instance];
                 }
             }
         }
         public static Material CloneMat;
-        static void set_fontMaterialGlow(TMP_Text __instance, ref Material value)
-        {
-            if (IsCyrillicFont(__instance.m_fontAsset))
-            {
-                if (prematGlow.ContainsKey(__instance))
-                {
-                    if (CloneMatGlow == null)
-                    {
-                        CloneMatGlow = UnityEngine.Object.Instantiate(__instance.m_fontAsset.material);
-                    }
-                    value = CloneMatGlow;
-                    Material pre = premat[__instance];
-
-                    CloneMatGlow.shader = Shader.Find("TextMeshPro/Distance Field");
-                    CloneMatGlow.SetFloat("_GlowOffset", 0);
-                    CloneMatGlow.SetFloat("_GlowInner", 0.05f);
-                    CloneMatGlow.SetFloat("_GlowOuter", 1);
-                    CloneMatGlow.SetFloat("_GlowPower", 0.5f);
-                    CloneMatGlow.EnableKeyword("GLOW_ON");
-
-                    __instance.m_fontAsset.material.shader = Shader.Find("TextMeshPro/Distance Field");
-                    __instance.m_fontAsset.material.SetFloat("_GlowOffset", 0);
-                    __instance.m_fontAsset.material.SetFloat("_GlowInner", 0.05f);
-                    __instance.m_fontAsset.material.SetFloat("_GlowOuter", 1);
-                    __instance.m_fontAsset.material.SetFloat("_GlowPower", 0.5f);
-                    __instance.m_fontAsset.material.EnableKeyword("GLOW_ON");
-                }
-            }
-        }
-        public static Material CloneMatGlow;
         [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.UpdateTMP))]
         [HarmonyPrefix]
         private static bool UpdateTMP(TextMeshProLanguageSetter __instance, LOCALIZE_LANGUAGE lang)
@@ -359,6 +301,7 @@ namespace LimbusLocalizeRUS
             tm._iapStickerText.Init(romoteLocalizeFileList.IAPSticker);
             tm._battleSpeechBubbleText.Init(romoteLocalizeFileList.BattleSpeechBubble);
             tm._danteAbilityDataList.Init(romoteLocalizeFileList.DanteAbility);
+            tm._mirrorDungeonThemeList.Init(romoteLocalizeFileList.mirrorDungeonTheme);
 
             tm._abnormalityEventCharDlg.AbEventCharDlgRootInit(romoteLocalizeFileList.abnormalityCharDlgFilePath);
 
@@ -491,7 +434,7 @@ namespace LimbusLocalizeRUS
         private static void SetLoginInfo(LoginSceneManager __instance)
         {
             LoadLocal(LOCALIZE_LANGUAGE.EN);
-            __instance.tmp_loginAccount.text = "Русификатор Limbus Company v" + LCB_LCBRMod.VERSION;
+            __instance.tmp_loginAccount.text = "Русификатор Limbus Company v" + LCB_LCBRMod.VERSION + LCB_LCBRMod.VERSION_STATE;
             __instance.tmp_loginAccount.characterSpacing = -2;
             __instance.tmp_loginAccount.lineSpacing = -20;
         }

@@ -64,7 +64,7 @@ namespace LimbusLocalizeRUS
         {
             __instance.seasonPeriod.font = LCB_Cyrillic_Font.tmpcyrillicfonts[1];
             __instance.seasonPeriod.fontMaterial = LCB_Cyrillic_Font.tmpcyrillicfonts[1].material;
-            __instance.seasonPeriod.text = "(МСК) 06:00 28.03.2024 ~";
+            __instance.seasonPeriod.text = "(МСК) 06:00 10.10.2024 ~";
 
             //FLAGS
             __instance.seasonPeriod.m_isRebuildingLayout = false;

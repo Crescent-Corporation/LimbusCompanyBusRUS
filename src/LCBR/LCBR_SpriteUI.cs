@@ -12,6 +12,9 @@ using Dungeon.Shop;
 using ChoiceEvent;
 using BattleUI.Information;
 using System;
+using BattleStatistics;
+using Utils;
+using BattleUI.EvilStock;
 
 namespace LimbusLocalizeRUS
 {
@@ -52,18 +55,18 @@ namespace LimbusLocalizeRUS
             DateTime event_start = new DateTime(2024, 8, 8, 3, 0, 0).ToLocalTime();
             DateTime event_end = new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime();
 
-            DateTime startup = DateTime.Today;
+            DateTime startup = DateTime.Now;
             if (motto != null)
             {
-                if (logo.gameObject.active == true)
+                if (catchphrase.gameObject.active == true)
+                        motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Season"];
+                else if (logo.gameObject.active == true)
                 {
                     if (DateTime.Compare(startup, event_end) < 0)
                         motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Event"];
                     else
                         motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Default"];
                 }
-                else if (catchphrase.gameObject.active == true)
-                    motto.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Motto_Season"];
             }
         }
         #endregion
@@ -88,6 +91,20 @@ namespace LimbusLocalizeRUS
             {
                 banner.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeSprites["MirrorDungeon_Banner"];
             }
+        }
+
+        [HarmonyPatch(typeof(ElementsSummary), nameof(ElementsSummary.SetHighlight))]
+        [HarmonyPostfix]
+        private static void ElementsSummary_RU(ElementsSummary __instance)
+        {
+            __instance._effectTag.sprite = LCBR_ReadmeManager.ReadmeSprites["UserInfo_Effect"];
+        }
+        [HarmonyPatch(typeof(UserInfoBanner), nameof(UserInfoBanner.SetDataForUserChangePopup))]
+        [HarmonyPostfix]
+        private static void UserInfoBanner_Effect(UserInfoBanner __instance)
+        {
+            __instance._bannerUseEffectTag.sprite = LCBR_ReadmeManager.ReadmeSprites["UserInfo_Effect"];
+            __instance._subBannerEffectTag.sprite = LCBR_ReadmeManager.ReadmeSprites["UserInfo_Effect"];
         }
         #endregion
 
@@ -144,9 +161,9 @@ namespace LimbusLocalizeRUS
             if (__instance.img_label.sprite.name == "New_MainUI_Formation_1_2")
                 __instance.img_label.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["InParty"];
         }
-        [HarmonyPatch(typeof(FormationPersonalityUISettings_Label), nameof(FormationPersonalityUISettings_Label.Convert))]
+        [HarmonyPatch(typeof(PersonalityUILabelScriptable), nameof(PersonalityUILabelScriptable.Convert))]
         [HarmonyPostfix]
-        private static void FormationPersonalityUISettings_Label_Init(FormationPersonalityUISettings_Label __instance)
+        private static void ParticipationLabel_Scriptable(PersonalityUILabelScriptable __instance)
         {
             __instance._participatedLabelSprite = LCBR_ReadmeManager.ReadmeSprites["InParty"];
             __instance._batonSprite = LCBR_ReadmeManager.ReadmeEventSprites["Backup_Label"];
@@ -244,7 +261,10 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void MirrorClear(MirrorDungeonFinishedPanel __instance)
         {
-            __instance. _progressPanel._iconList.transform.Find("[Image]Logo").GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["DungeonClearLogo"];
+            foreach (var clear_logo in __instance._progressPanel._iconList._rewardItemList)
+            {
+                clear_logo.img_clearLogo.sprite = LCBR_ReadmeManager.ReadmeSprites["DungeonClearLogo"];
+            }
         }
         [HarmonyPatch(typeof(MirrorDungeonRewardPopup_Season4), nameof(MirrorDungeonRewardPopup_Season4.SetDataOpenEvent))]
         [HarmonyPostfix]
@@ -291,16 +311,14 @@ namespace LimbusLocalizeRUS
                 start.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeSprites["StartBattle"];
             }
         }
-        [HarmonyPatch(typeof(ActTypoController), nameof(ActTypoController.Init))]
+        [HarmonyPatch(typeof(ActTypoTurnUI), nameof(ActTypoTurnUI.Open))]
         [HarmonyPostfix]
-        private static void PreBattleUI_Init(ActTypoController __instance)
+        private static void PreBattleUI_Init(ActTypoTurnUI __instance)
         {
-            Transform turn = __instance.transform.Find("[Rect]Active/[Script]ActTypoTurnUI/[Image]Turn");
-            if (turn != null)
+            Image turn = __instance.transform.Find("[Image]Turn").GetComponentInChildren<Image>(true);
+            if (turn.enabled)
             {
-                turn.GetComponentInChildren<Image>(true).sprite = LCBR_ReadmeManager.ReadmeSprites["Turn"];
-                turn.GetComponentInChildren<Image>(true).m_Sprite = LCBR_ReadmeManager.ReadmeSprites["Turn"];
-                turn.GetComponentInChildren<Image>(true).overrideSprite = LCBR_ReadmeManager.ReadmeSprites["Turn"];
+                turn.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["Turn"];
             }
         }
         [HarmonyPatch(typeof(UnitInformationAbnormalityNameTag), nameof(UnitInformationAbnormalityNameTag.UpdateLayout))]
@@ -326,13 +344,13 @@ namespace LimbusLocalizeRUS
             else
                 __instance._dnateAbilityBtnImage.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["DanteAbility_Inactive"];
         }
-        [HarmonyPatch(typeof(BattleEvilstockUI), nameof(BattleEvilstockUI.SetActive))]
+        [HarmonyPatch(typeof(EvilStockController), nameof(EvilStockController.UpdateEnemyUIState))]
         [HarmonyPostfix]
-        private static void EnemySins(BattleEvilstockUI __instance)
+        private static void EnemySins(EvilStockController __instance)
         {
-            Image enemy_sins = __instance.transform.Find("[Image]enemyEvilstockBackground/[Image]EnemyTag").GetComponentInChildren<Image>(true);
-            if (enemy_sins != null)
+            if (__instance._enemyEvilstockUI != null)
             {
+                Image enemy_sins = __instance._enemyEvilstockUI.transform.Find("[Image]enemyEvilstockBackground/[Image]EnemyTag").GetComponentInChildren<Image>(true);
                 enemy_sins.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["Battle_EnemySins"];
             }
         }
@@ -340,9 +358,9 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         private static void EnemyPassives(PassiveUIManager __instance)
         {
-            Image enemy_passives = __instance.transform.Find("[Rect]Pivot/[Rect]BattleUnitPassive/[Image]Background/[Image]EnemyTag").GetComponentInChildren<Image>(true);
-            if (enemy_passives != null)
+            if (!__instance._isPlayerUI)
             {
+                Image enemy_passives = __instance.transform.Find("[Rect]Pivot/[Rect]BattleUnitPassive/[Image]Background/[Image]EnemyTag").GetComponentInChildren<Image>(true);
                 enemy_passives.overrideSprite = LCBR_ReadmeManager.ReadmeSprites["Battle_EnemyPassives"];
             }
         }

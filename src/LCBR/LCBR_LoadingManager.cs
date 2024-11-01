@@ -36,12 +36,7 @@ namespace LimbusLocalizeRUS
             var loadingText = __instance._loadingText;
             loadingText.font = LCB_Cyrillic_Font.GetCyrillicFonts(0);
             loadingText.fontMaterial = LCB_Cyrillic_Font.GetCyrillicFonts(0).material;
-            if (loadingText.text.Length > 12 && loadingText.text.Length < 18)
-                loadingText.fontSize = 52;
-            else if (loadingText.text.Length > 18)
-                loadingText.fontSize = 46;
-            else
-                loadingText.fontSize = 56;
+            loadingText.fontSize = 56;
             int random = Random.Range(0, 100);
             if (random < 25)
                 loadingText.text = Raw;
@@ -52,7 +47,7 @@ namespace LimbusLocalizeRUS
             UserDataManager instance = Singleton<UserDataManager>.Instance;
             if (instance._unlockCodeData.CheckUnlockStatus(106))
                 loadingText.text = loadingText.text.Replace("Кэти", "■■■■");
-            if (loadingText.text.StartsWith("Дорогой"))
+            if (loadingText.text.Contains("Дорогой дневник"))
             {
                 loadingText.m_fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(1);
                 loadingText.m_sharedMaterial = LCB_Cyrillic_Font.GetCyrillicMats(4);

@@ -24,7 +24,7 @@ namespace LimbusLocalizeRUS
             // Syndicate
             else if (identity.Contains("пальца"))
             {
-                identity = identity.Replace("Младший брат", "Младшего брата").Replace("Младшая сестра", "Младшей сестры").Replace("Пуантилист", "Пуантилиста").Replace("студент", "студента").Replace("студентака", "студентки");
+                identity = identity.Replace("Младший брат", "Младшего брата").Replace("Младшая сестра", "Младшей сестры").Replace("Пуантилист", "Пуантилиста").Replace("студент", "студента").Replace("студентка", "студентки");
                 return identity;
             }
             else if (identity.Contains("Босс") || identity.Contains("Шеф ") || identity.Contains("Наставник"))
