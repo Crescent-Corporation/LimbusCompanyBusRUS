@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace LimbusLocalizeRUS
 {
-    internal class LCBR_Personality_MegaList
+    public static class Personality_MegaList
     {
-        public static string Personality_MegaList(string identity)
+        public static string Personality_MegaList1(string identity)
         {
             // Fixer
             if (identity.Contains("ассоциации"))
             {
-                identity = identity.Replace("Южная", "Южной").Replace("секция", "секции").Replace("Директор", "директора").Replace("6-ая", "корректировщика 6-ой").Replace("5-ая", "корректировщика 5-ой").Replace("4-ая", "корректировщика 4-ой").Replace("3-ья", "корректировщика 3-ьей").Replace("2-ая", "корректировщика 2-ой").Replace("1-ая", "корректировщика 1-ой");
+                identity = identity.Replace("Южная", "Южной").Replace("Северная", "Северной").Replace("Западная", "Западной").Replace("Восточная", "Восточной").Replace("секция", "секции").Replace("Директор", "директора").Replace("6-ая", "корректировщика 6-ой").Replace("5-ая", "корректировщика 5-ой").Replace("4-ая", "корректировщика 4-ой").Replace("3-ья", "корректировщика 3-ьей").Replace("2-ая", "корректировщика 2-ой").Replace("1-ая", "корректировщика 1-ой");
                 return identity;
             }
-            else if (identity.Contains("Корректировщик") || identity.Contains("Корректировщица") || identity.Contains("Представитель"))
+            else if (identity.Contains("Корректировщик") || identity.Contains("Корректировщица") || identity.Contains("Представитель") || identity.Contains("Директор"))
             {
-                identity = identity.Replace("Корректировщик", "корректировщика").Replace("Корректировщица", "корректировщицы").Replace("Представитель", "представителя");
+                identity = identity.Replace("Корректировщик", "корректировщика").Replace("Корректировщица", "корректировщицы").Replace("Представитель", "представителя").Replace("Директор", "директора");
                 return identity;
             }
             // Syndicate
@@ -97,6 +97,11 @@ namespace LimbusLocalizeRUS
             else if (identity.Contains("Дикая охота"))
             {
                 identity = identity.Replace("Дикая охота", "короля Дикой охоты");
+                return identity;
+            }
+            else if (identity.Contains("Ла-Манчаленда"))
+            {
+                identity = identity.Replace("Цирюльник", "цирюльника").Replace("Священник", "священника".Replace("Княжна", "княжны парада"));
                 return identity;
             }
             return identity;
