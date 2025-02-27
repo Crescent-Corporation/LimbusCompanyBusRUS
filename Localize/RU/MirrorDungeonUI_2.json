@@ -138,11 +138,11 @@
     },
     {
       "id": "mirrordungeon_acquire_rewards_using_chance_desc",
-      "content": "Желаете ли вы получить дополнительные награды, использовав [Недельный бонус] ?"
+      "content": "Желаете ли вы получить дополнительные награды, использовав 「Недельный бонус」 ?"
     },
     {
       "id": "mirrordungeon_acquire_rewards_not_using_chance_desc",
-      "content": "Вы не использовали [Недельный бонус]. Уверены, что желаете получить награды без него?"
+      "content": "Вы не использовали 「Недельный бонус」. Уверены, что желаете получить награды без него?"
     },
     {
       "id": "mirrordungeon_acquire_rewards_no_chance_desc",
@@ -454,7 +454,7 @@
     },
     {
       "id": "mirror_dungeon_hard_require_condition_title",
-      "content": "Рекоммендации"
+      "content": "Рекомендации"
     },
     {
       "id": "mirror_dungeon_hard_require_condition_level",
@@ -586,55 +586,55 @@
     },
     {
       "id": "md3_buffs_summaryDesc_101",
-      "content": "Появление даров III ранга"
+      "content": "Появление Даров Ⅲ ранга"
     },
     {
       "id": "md3_buffs_summaryDesc_1011",
-      "content": "Появление высокоранговых даров с Огнём"
+      "content": "Появление высокоранговых Даров с Огнём"
     },
     {
       "id": "md3_buffs_summaryDesc_1012",
-      "content": "Появление высокоранговых даров с Кровотечением"
+      "content": "Появление высокоранговых Даров с Кровотечением"
     },
     {
       "id": "md3_buffs_summaryDesc_1013",
-      "content": "Появление высокоранговых даров с Тремором"
+      "content": "Появление высокоранговых Даров с Тремором"
     },
     {
       "id": "md3_buffs_summaryDesc_1014",
-      "content": "Появление высокоранговых даров с Разрывом"
+      "content": "Появление высокоранговых Даров с Разрывом"
     },
     {
       "id": "md3_buffs_summaryDesc_1015",
-      "content": "Появление высокоранговых даров с Утопанием"
+      "content": "Появление высокоранговых Даров с Утопанием"
     },
     {
       "id": "md3_buffs_summaryDesc_1016",
-      "content": "Появление высокоранговых даров с Дыханием"
+      "content": "Появление высокоранговых Даров с Дыханием"
     },
     {
       "id": "md3_buffs_summaryDesc_1017",
-      "content": "Появление высокоранговых даров с Зарядом"
+      "content": "Появление высокоранговых Даров с Зарядом"
     },
     {
       "id": "md3_buffs_summaryDesc_1018",
-      "content": "Появление высокоранговых случайных даров"
+      "content": "Появление высокоранговых случайных Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_102",
-      "content": "Появление даров IV+ ранга"
+      "content": "Появление ДаровⅣ+ ранга"
     },
     {
       "id": "md3_buffs_summaryDesc_1021",
-      "content": "Появление высокоранговых даров"
+      "content": "Появление высокоранговых Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_1022",
-      "content": "Появление высокоранговых даров"
+      "content": "Появление высокоранговых Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_1023",
-      "content": "Появление высокоранговых даров"
+      "content": "Появление высокоранговых Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_103",
@@ -678,7 +678,7 @@
     },
     {
       "id": "md3_buffs_summaryDesc_1048",
-      "content": "Случайный дар на выбор +1"
+      "content": "Случайный Дар на выбор +1"
     },
     {
       "id": "md3_buffs_summaryDesc_105",
@@ -698,55 +698,55 @@
     },
     {
       "id": "md3_buffs_summaryDesc_106",
-      "content": "3 новых дара"
+      "content": "3 новых Дара"
     },
     {
       "id": "md3_buffs_summaryDesc_1061",
-      "content": "2 новых дара с Огнём"
+      "content": "2 новых Дара с Огнём"
     },
     {
       "id": "md3_buffs_summaryDesc_1062",
-      "content": "2 новых дара с Кровотечением"
+      "content": "2 новых Дара с Кровотечением"
     },
     {
       "id": "md3_buffs_summaryDesc_1063",
-      "content": "2 новых дара с Тремором"
+      "content": "2 новых Дара с Тремором"
     },
     {
       "id": "md3_buffs_summaryDesc_1064",
-      "content": "2 новых дара с Разрывом"
+      "content": "2 новых Дара с Разрывом"
     },
     {
       "id": "md3_buffs_summaryDesc_1065",
-      "content": "2 новых дара с Утопнием"
+      "content": "2 новых Дара с Утопнием"
     },
     {
       "id": "md3_buffs_summaryDesc_1066",
-      "content": "2 новых дара с Дыханием"
+      "content": "2 новых Дара с Дыханием"
     },
     {
       "id": "md3_buffs_summaryDesc_1067",
-      "content": "2 новых дара с Зрядом"
+      "content": "2 новых Дара с Зрядом"
     },
     {
       "id": "md3_buffs_summaryDesc_107",
-      "content": "Больше стоимости за столкновения"
+      "content": "Больше стоимости за битвы"
     },
     {
       "id": "md3_buffs_summaryDesc_1071",
-      "content": "Больше стоимости за обычные столкновения"
+      "content": "Больше стоимости за обычные битвы"
     },
     {
       "id": "md3_buffs_summaryDesc_1072",
-      "content": "Больше стоимости за фокусированные столкновения"
+      "content": "Больше стоимости за направляемые битвы"
     },
     {
       "id": "md3_buffs_summaryDesc_1073",
-      "content": "Больше стоимости за рискованные столкновения"
+      "content": "Больше стоимости за рискованные битвы"
     },
     {
       "id": "md3_buffs_summaryDesc_1074",
-      "content": "Больше стоимости за столкновение с боссом этажа"
+      "content": "Больше стоимости за битву с боссом этажа"
     },
     {
       "id": "md3_buffs_summaryDesc_108",
@@ -754,11 +754,11 @@
     },
     {
       "id": "md3_buffs_summaryDesc_109",
-      "content": "Скидк н обновление Магазина"
+      "content": "Скидка на обновление магазина"
     },
     {
       "id": "md3_buffs_summaryDesc_1091",
-      "content": "Скидк н обновление Магазина"
+      "content": "Скидка на обновление магазина"
     },
     {
       "id": "md3_buffs_summaryDesc_1092",
@@ -774,7 +774,7 @@
     },
     {
       "id": "md3_buffs_summaryDesc_110",
-      "content": "Скидка на улучшение дара"
+      "content": "Скидка на улучшение Дара"
     },
     {
       "id": "md3_buffs_summaryDesc_1101",
@@ -782,79 +782,79 @@
     },
     {
       "id": "md3_buffs_summaryDesc_1102",
-      "content": "Скидка на улучшение дара с Огнём"
+      "content": "Скидка на улучшение Дара с Огнём"
     },
     {
       "id": "md3_buffs_summaryDesc_1103",
-      "content": "Скидка на улучшение дара с Кровотечением"
+      "content": "Скидка на улучшение Дара с Кровотечением"
 	},
     {
       "id": "md3_buffs_summaryDesc_1104",
-      "content": "Скидка на улучшение дара с Тремором"
+      "content": "Скидка на улучшение Дара с Тремором"
     },
     {
       "id": "md3_buffs_summaryDesc_1105",
-      "content": "Скидка на улучшение дара с Разрывом"
+      "content": "Скидка на улучшение Дара с Разрывом"
     },
     {
       "id": "md3_buffs_summaryDesc_1106",
-      "content": "Скидка на улучшение дара с Утопанием"
+      "content": "Скидка на улучшение Дара с Утопанием"
     },
     {
       "id": "md3_buffs_summaryDesc_1107",
-      "content": "Скидка на улучшение дара с Дыханием"
+      "content": "Скидка на улучшение Дара с Дыханием"
     },
     {
       "id": "md3_buffs_summaryDesc_1108",
-      "content": "Скидка на улучшение дара с Зарядом"
+      "content": "Скидка на улучшение Дара с Зарядом"
     },
     {
       "id": "md3_buffs_summaryDesc_111",
-      "content": "Больше стоимости за продажу даров"
+      "content": "Больше стоимости за продажу Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_1111",
-      "content": "Больше стоимости за продажу даров"
+      "content": "Больше стоимости за продажу Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_112",
-      "content": "Скидка на покупку даров"
+      "content": "Скидка на покупку Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_1121",
-      "content": "Скидка на покупку даров с Огнём"
+      "content": "Скидка на покупку Даров с Огнём"
     },
     {
       "id": "md3_buffs_summaryDesc_1122",
-      "content": "Скидка на покупку даров с Кровотечением"
+      "content": "Скидка на покупку Даров с Кровотечением"
     },
     {
       "id": "md3_buffs_summaryDesc_1123",
-      "content": "Скидка на покупку даров с Тремором"
+      "content": "Скидка на покупку Даров с Тремором"
     },
     {
       "id": "md3_buffs_summaryDesc_1124",
-      "content": "Скидка на покупку даров с Разрывом"
+      "content": "Скидка на покупку Даров с Разрывом"
     },
     {
       "id": "md3_buffs_summaryDesc_1125",
-      "content": "Скидка на покупку даров с Утопанием"
+      "content": "Скидка на покупку Даров с Утопанием"
     },
     {
       "id": "md3_buffs_summaryDesc_1126",
-      "content": "Скидка на покупку даров с Дыханием"
+      "content": "Скидка на покупку Даров с Дыханием"
     },
     {
       "id": "md3_buffs_summaryDesc_1127",
-      "content": "Скидка на покупку даров с Зрядом"
+      "content": "Скидка на покупку Даров с Зарядом"
     },
     {
       "id": "md3_buffs_summaryDesc_1128",
-      "content": "Скидка на покупку даров без категории"
+      "content": "Скидка на покупку Даров без аспекта"
     },
     {
       "id": "md3_buffs_summaryDesc_151",
-      "content": "Выбор даров +1"
+      "content": "Выбор Даров +1"
     },
     {
       "id": "md3_buffs_summaryDesc_152",
@@ -862,23 +862,23 @@
     },
     {
       "id": "md3_buffs_summaryDesc_153",
-      "content": "Случайный дар IV ранга после выбора стартовых даров"
+      "content": "Случайный Дар Ⅳ ранга после выбора стартовых Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_121",
-      "content": "+1 ко всем ЭГО ресурсам"
+      "content": "+1 ко всем ЭГО-ресурсам"
     },
     {
       "id": "md3_buffs_summaryDesc_1211",
-      "content": "+1 ко всем ЭГО ресурсам"
+      "content": "+1 ко всем ЭГО-ресурсам"
     },
     {
       "id": "md3_buffs_summaryDesc_1212",
-      "content": "Макисмальная скорость +1"
+      "content": "Верхняя граница скорости +1"
     },
     {
       "id": "md3_buffs_summaryDesc_1213",
-      "content": "Макисмальная скорость +1"
+      "content": "Верхняя граница скорости +1"
     },
     {
       "id": "md3_buffs_summaryDesc_122",
@@ -898,23 +898,23 @@
     },
     {
       "id": "md3_buffs_summaryDesc_1224",
-      "content": "Наносимый Рубящий урон +4%"
+      "content": "+4% рубящего урона"
     },
     {
       "id": "md3_buffs_summaryDesc_1225",
-      "content": "Наносимый Пронзающий урон +4%"
+      "content": "+4% колющего урона"
     },
     {
       "id": "md3_buffs_summaryDesc_1226",
-      "content": "Наносимый Дробящий урон +4%"
+      "content": "+4% дробящего урона"
     },
     {
       "id": "md3_buffs_summaryDesc_123",
-      "content": "Получаемый урон -3%"
+      "content": "-3% получаемого урона"
     },
     {
       "id": "md3_buffs_summaryDesc_1231",
-      "content": "Получаемый урон -3%"
+      "content": "-3% получаемого урона"
     },
     {
       "id": "md3_buffs_summaryDesc_1232",
@@ -926,15 +926,15 @@
     },
     {
       "id": "md3_buffs_summaryDesc_1234",
-      "content": "Сопротивление Рубящему урону -0.1"
+      "content": "-0.1 к сопротивлению рубящему урону"
     },
     {
       "id": "md3_buffs_summaryDesc_1235",
-      "content": "Сопротивление Пронзающему урону -0.1"
+      "content": "-0.1 к сопротивлению колющему урону"
     },
     {
       "id": "md3_buffs_summaryDesc_1236",
-      "content": "Сопротивление Дробящему урону -0.1"
+      "content": "-0.1 к сопротивлению дробящему урону"
     }
   ]
 }

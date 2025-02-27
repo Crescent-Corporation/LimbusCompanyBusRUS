@@ -22,7 +22,7 @@
           "level": 3,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[BeforeAttack] Количество целей +1 при абсолюте Похоти, равном 4 и более",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -40,7 +40,7 @@
           "level": 4,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[BeforeAttack] Количество целей +1 при абсолюте Похоти, равном 4 и более\nДополнительно +1 цель при абсолюте Похоти, равном 6 и более",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более\nДополнительно +1 цель при абсолюте Похоти, равном 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -81,7 +81,7 @@
           "level": 3,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при абсолюте Похоти, равном 4 и более",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -102,7 +102,7 @@
           "level": 4,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при абсолюте Похоти, равном 4 и более\nДополнительно +1 цель при абсолюте Похоти, равном 6 и более",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более\nДополнительно +1 цель при абсолюте Похоти, равном 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -129,7 +129,7 @@
           "level": 1,
           "name": "Вечность",
           "abName": "Утка времени",
-          "desc": "При атаке более медленной цели урон +(разница между скоростью x 2.5)% (До 25%)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на число грехов в наибольшем резонансе (До 5)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "При атаке более медленной цели урон +(разница между скоростью x 2.5)% (До 25%)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на число грехов в наибольшем резонансе (До 5)\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -171,7 +171,7 @@
           "level": 3,
           "name": "Вечность",
           "abName": "Утка времени",
-          "desc": "При атаке более медленной цели урон +(разница между скоростью x <style=\"highlight\">3.5</style>)% (До <style=\"highlight\">35%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на число грехов в наибольшем резонансе (До 5)\n<style=\"highlight\">- Если грех резонанса — Леность, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на повышенный потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели (До 5)</style>\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "При атаке более медленной цели урон +(разница между скоростью x <style=\"highlight\">3.5</style>)% (До <style=\"highlight\">35%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на число грехов в наибольшем резонансе (До 5)\n<style=\"highlight\">- Если грех резонанса — Леность, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на повышенный потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели (До 5)</style>\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -186,21 +186,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
@@ -213,39 +213,39 @@
           "level": 4,
           "name": "Вечность",
           "abName": "Утка времени",
-          "desc": "При атаке более медленной цели урон +(разница между скоростью x <style=\"highlight\">5</style>)% (До <style=\"highlight\">50%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на (число грехов в наибольшем резонансе <style=\"highlight\">x 2</style>) (До <style=\"highlight\">10</style>)\n- Если грех резонанса — Леность, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на повышенный потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели (До <style=\"highlight\">10</style>)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "При атаке более медленной цели урон +(разница между скоростью x <style=\"highlight\">5</style>)% (До <style=\"highlight\">50%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на (число грехов в наибольшем резонансе <style=\"highlight\">x 2</style>) (До <style=\"highlight\">10</style>)\n- Если грех резонанса — Леность, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на повышенный потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели (До <style=\"highlight\">10</style>)\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на и повышает его счётчик на <style=\"highlight\">10</style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на <style=\"highlight\">10</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"FusionVibration\"><color=#a16a3b><u><link=\"FusionVibration\">Производит наложение амплитуды</link></u></color> с <sprite name=\"VibrationContinue\"><color=#e30000><u><link=\"VibrationContinue\">Тремором — Вечность</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
@@ -263,7 +263,7 @@
           "level": 1,
           "name": "Вечность",
           "abName": "Утка времени",
-          "desc": "[CantIdentify]\nСлучайные цели\nПри атаке с более медленной главной целью +(разница между скоростью x 1.5)% (До 12%)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[CantIdentify]\nСлучайные цели\nПри атаке с более медленной главной целью +(разница между скоростью x 15)% (До 12%)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -301,10 +301,10 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"FusionVibration\"><color=#a16a3b><u><link=\"FusionVibration\">Производит наложение амплитуды</link></u></color> с <sprite name=\"VibrationContinue\"><color=#e30000><u><link=\"VibrationContinue\">Тремором — Вечность</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
@@ -328,16 +328,192 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"FusionVibration\"><color=#a16a3b><u><link=\"FusionVibration\">Производит наложение амплитуды</link></u></color> с <sprite name=\"VibrationContinue\"><color=#e30000><u><link=\"VibrationContinue\">Тремором — Вечность</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1.</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6+ в сумме скорости Фауст и её цели</style>\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n[BeforeAttack] Тяжесть атаки +1 при 4+ грехов в наибольшем резонансе</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 при 6+ в сумме скорости Фауст и её цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n[BeforeAttack] Тяжесть атаки +1 при 4+ грехов в наибольшем резонансе\n<style=\"highlight\">- Если грех резонанса — Чревоугодие, дополнительно получает тяжесть атаки +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайная цель\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Snare]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Сила монет +1 при 6+ в сумме скорости Фауст и её цели</style>\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +2% урона за каждый [Burst] на цели (До 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайная цель\nСила монет +1 при 6+ в сумме скорости Фауст и её цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n<style=\"highlight\">[EndSkill] Фауст получает 1 [ShamrockResultUp] на следующий ход при оглушении или убийстве цели этой атакой</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +2% урона за каждый [Burst] на цели (До 60%)"
                 }
               ]
             }

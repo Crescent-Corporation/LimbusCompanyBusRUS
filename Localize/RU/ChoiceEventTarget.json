@@ -35,6 +35,22 @@
     {
       "id": "LowestMpAlly",
       "content": "Союзники с наименьшей СД"
+    },
+    {
+      "id": "NotFullHpAlly",
+      "content": "Союзники с неполными ОЗ"
+    },
+    {
+      "id": "NotAffectedAlly",
+      "content": "Союзники без предыдущего эффекта"
+    },
+    {
+      "id": "LowestHpRatioAlly",
+      "content": "Союзник с наименьшим процентом ОЗ"
+    },
+    {
+      "id": "Every",
+      "content": "Все"
     }
   ]
 }

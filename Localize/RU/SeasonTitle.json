@@ -39,6 +39,18 @@
     {
       "id": "season_filter_4",
       "content": "Сезон 4"
+    },
+    {
+      "id": "season_title_5",
+      "content": "ЗАБВЕНИЕ"
+    },
+    {
+      "id": "season_title_5_EVENT",
+      "content": "<cspace=-1px>ЗАБВЕНИЕ [ИВЕНТ]</cspace>"
+    },
+    {
+      "id": "season_filter_5",
+      "content": "Сезон 5"
     }
   ]
 }

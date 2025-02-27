@@ -3,30 +3,23 @@
 		<OutputType>Library</OutputType>
 		<PlatformTarget>x64</PlatformTarget>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<AllowedReferenceRelatedFileExtensions>none</AllowedReferenceRelatedFileExtensions>
-		<DebugSymbols>true</DebugSymbols>
-		<RootNamespace>LimbusLocalizeRUS</RootNamespace>
-		<LangVersion>10.0</LangVersion>
-		<Configurations>ML_Cpp_net6_interop</Configurations>
-		<IsPublishable>True</IsPublishable>
+		<LangVersion>latest</LangVersion>
+		<TargetFramework>net6.0</TargetFramework>
 		<Platforms>x64</Platforms>
-		<TargetFramework>net6.0-windows</TargetFramework>
-		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
-	</PropertyGroup>
-	<!-- ~~~~~ CONFIGURATIONS ~~~~~ -->
-	<!-- ML IL2CPP Interop net6 -->
-	<PropertyGroup Condition="'$(Configuration)'=='ML_Cpp_net6_interop'">
-		<TargetFramework>net6</TargetFramework>
-		<OutputPath>..\Release</OutputPath>
-		<AssemblyName>LimbusCompanyBusRUS_BIE</AssemblyName>
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ML_Cpp_net6_interop|x64'">
-		<NoWarn>1701;1702;2211;CA2211;IDE1006;IDE0060</NoWarn>
+		<Configurations>BepInEx</Configurations>
+		<OutputPath>..\Release\</OutputPath>
+		<NoWarn>CA2211;CA1822;IDE0060</NoWarn>
 		<DebugType>none</DebugType>
 		<Optimize>True</Optimize>
+		<AssemblyName>LimbusCompanyBusRUS_BIE</AssemblyName>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="CresCorp\References\Pretendard_Hardcoded.cs" />
+	  <Compile Remove="CresCorp\Utility\Voicelines.cs" />
+	  <Compile Remove="CresCorp\Utility\WavUtility.cs" />
+	</ItemGroup>
+	<!-- ~~~~~ CONFIGURATIONS ~~~~~ -->
 
 	<!-- ~~~~~ NUGET ~~~~~ -->
 	<ItemGroup>
@@ -44,6 +37,9 @@
 	  <Reference Include="BepInEx.Unity.IL2CPP">
 	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Limbus Company\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
 	  </Reference>
+	  <Reference Include="FMODUnity">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Limbus Company\BepInEx\interop\FMODUnity.dll</HintPath>
+	  </Reference>
 	  <Reference Include="Il2Cppmscorlib">
 	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Limbus Company\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
 	  </Reference>
@@ -52,6 +48,9 @@
 	  </Reference>
 	  <Reference Include="Il2CppSystem.Core">
 	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Limbus Company\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ProjectMoon.DelegateCollection">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Limbus Company\BepInEx\interop\ProjectMoon.DelegateCollection.dll</HintPath>
 	  </Reference>
 	  <Reference Include="Unity.TextMeshPro">
 	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Limbus Company\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>

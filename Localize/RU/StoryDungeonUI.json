@@ -42,7 +42,7 @@
     },
     {
       "id": "dungeon_encounter_guide_ab_battle",
-      "content": "Столкновение с аномалией"
+      "content": "<size=29>Направляемое столкновение</size>"
     },
     {
       "id": "dungeon_encounter_guide_hard_battle",

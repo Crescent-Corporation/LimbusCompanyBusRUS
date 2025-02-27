@@ -18,7 +18,7 @@
     },
     {
       "id": "ycgd_storybutton_normal",
-      "content": "В Театр"
+      "content": "В Кинозал"
     },
     {
       "id": "ycgd_rewardShopButton",
@@ -46,7 +46,7 @@
     },
     {
       "id": "ycgd_bonusUI_Title",
-      "content": "к получению"
+      "content": "<size=45><font=\"BebasKai SDF\">к получению</font></size>"
     },
     {
       "id": "ycgd_bonusUI_Title_contain_false",
@@ -63,6 +63,18 @@
     {
       "id": "ycgd_bonus_preview",
       "content": "Персонажи с ивентовым бонусом"
+    },
+    {
+      "id": "ycgd_chapter_map_difficulty_ui_9107",
+      "content": "ОБЫЧНАЯ"
+    },
+    {
+      "id": "ycgd_chapter_map_difficulty_ui_9115",
+      "content": "УСЛОЖНЁННАЯ"
+    },
+    {
+      "id": "ycgd_chapter_map_difficulty_ui_unlock_condition",
+      "content": "Доступ к усложнённой истории откроется после {0}-{1}"
     }
   ]
 }

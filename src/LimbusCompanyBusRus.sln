@@ -7,9 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimbusCompanyBusRus", "Limb
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BepInEx|x64 = BepInEx|x64
 		ML_Cpp_net6_interop|x64 = ML_Cpp_net6_interop|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2165E0CC-28EB-4E2B-ADF2-1E664F23D8A1}.BepInEx|x64.ActiveCfg = BepInEx|x64
+		{2165E0CC-28EB-4E2B-ADF2-1E664F23D8A1}.BepInEx|x64.Build.0 = BepInEx|x64
 		{2165E0CC-28EB-4E2B-ADF2-1E664F23D8A1}.ML_Cpp_net6_interop|x64.ActiveCfg = ML_Cpp_net6_interop|x64
 		{2165E0CC-28EB-4E2B-ADF2-1E664F23D8A1}.ML_Cpp_net6_interop|x64.Build.0 = ML_Cpp_net6_interop|x64
 	EndGlobalSection

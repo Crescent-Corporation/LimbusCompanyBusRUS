@@ -40,7 +40,7 @@
                                     "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2 на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Рубящему урону на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону на следующий ход"
                                 }
                             ]
                         }
@@ -106,7 +106,7 @@
                 {
                     "level": 1,
                     "name": "Краб-отшельник",
-                    "desc": "[StartBattle] Когда получает атаку при наличии щита, наносит 4 Рубящего урона атаковавшему",
+                    "desc": "[StartBattle] Когда получает атаку при наличии щита, наносит 4 рубящего урона атаковавшему",
                     "coinlist": [
                         {}
                     ]
@@ -153,7 +153,7 @@
                                     "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2 на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Пронзающему урону на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к колющему урону на следующий ход"
                                 }
                             ]
                         }
@@ -219,7 +219,7 @@
                 {
                     "level": 1,
                     "name": "Краб-отшельник",
-                    "desc": "[StartBattle] Когда получает атаку при наличии щита, наносит 4 Пронзающего урона атаковавшему",
+                    "desc": "[StartBattle] Когда получает атаку при наличии щита, наносит 4 колющего урона атаковавшему",
                     "coinlist": [
                         {}
                     ]
@@ -266,7 +266,7 @@
                                     "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2 на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Дробящему урону на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к дробящему урону на следующий ход"
                                 }
                             ]
                         }
@@ -332,7 +332,7 @@
                 {
                     "level": 1,
                     "name": "Краб-отшельник",
-                    "desc": "[StartBattle] Когда получает атаку при наличии щита, наносит 4 Дробящего урона атаковавшему",
+                    "desc": "[StartBattle] Когда получает атаку при наличии щита, наносит 4 дробящего урона атаковавшему",
                     "coinlist": [
                         {}
                     ]
@@ -558,7 +558,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к Пронзающему урону</link></u></color> на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к колющему урону</link></u></color> на следующий ход"
                                 }
                             ]
                         }

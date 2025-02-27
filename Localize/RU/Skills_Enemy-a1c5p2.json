@@ -809,7 +809,7 @@
                                     "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Повышает границы выносливости на 8"
+                                    "desc": "[OnSucceedAttackTail] Повышает грани оглушения на 8"
                                 }
                             ]
                         }
@@ -828,7 +828,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает границы выносливости на 30"
+                                    "desc": "[OnSucceedAttack] Повышает грани оглушения на 30"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"
@@ -947,7 +947,7 @@
                                     "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Повышает границы выносливости на 8"
+                                    "desc": "[OnSucceedAttackTail] Повышает грани оглушения на 8"
                                 }
                             ]
                         }
@@ -966,7 +966,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает границы выносливости на 30"
+                                    "desc": "[OnSucceedAttack] Повышает грани оглушения на 30"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"

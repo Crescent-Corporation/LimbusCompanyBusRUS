@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "miracle_stagebutton_not_clear_cp4",
-      "content": "Пройди {0}-ую Песнь!"
+      "content": "Пройди {0}-ю Песнь!"
     },
     {
       "id": "miracle_stagebutton_normal",
@@ -30,15 +30,39 @@
     },
     {
       "id": "miracle_scrap_guide_desc",
-      "content": "Во время прохождения этапов ивента и основной истории\nесть некоторый шанс получить <color=#008d0d>[Огромный мешок декораций]</color>.\n\n<color=#008d0d>[Огромный мешок декораций]</color> равноценнен 20 <color=#008d0d>[Мешкам декораций]</color>."
+      "content": "При прохождении этапов ивента и основной истории\nесть некоторый шанс получить <color=#008d0d>「Огромный мешок декораций」</color>.\n\n<color=#008d0d>「Огромный мешок декораций」</color> равноценен 20 <color=#008d0d>「Мешкам декораций」</color>."
     },
     {
       "id": "miracle_rewardpage_desc",
-      "content": "Во время прохождения этапов ивента и основной истории, а также её подземелий вы получите <color=#008d0d>[Мешки декораций]</color>.\n\nВ зависимости от количества полученных <color=#008d0d>[Мешков декораций]</color>, вы можете получить награды в <color=#008d0d>[Обмене наград]</color>."
+      "content": "При прохождении этапов ивента и основной истории, а также различных подземелий вы получите <color=#008d0d>「Мешки декораций」</color>.\n\nВ зависимости от количества полученных <color=#008d0d>「Мешков декораций」</color>, вы можете получить награды в <color=#008d0d>『Обмене наград』</color>."
     },
     {
       "id": "miracle_scrap_counter_label",
-      "content": "Собрано мешков декораций:"
+      "content": "Собрано декораций:"
+    },
+    {
+      "id": "miracle_chapter_map_difficulty_ui_9105",
+      "content": "ОБЫЧНАЯ"
+    },
+    {
+      "id": "miracle_chapter_map_difficulty_ui_9112",
+      "content": "УСЛОЖНЁННАЯ"
+    },
+    {
+      "id": "miracle_chapter_map_difficulty_ui_hard_chapter_unlock_condition",
+      "content": "Доступ к усложнённой истории откроется после {0}-{1}"
+    },
+    {
+      "id": "miracle_chapter_map_difficulty_ui_event_date_format",
+      "content": "До {1}.{0}"
+    },
+    {
+      "id": "miracle_bonusUI_Desc",
+      "content": "Во время проведения ивента некоторые идентичности и ЭГО увеличивают число получаемых <color=#008d0d>「Мешков декораций」</color>.\nУвеличение не может превысить <color=#008d0d>120%</color>."
+    },
+    {
+      "id": "miracle_bonus_popup_title",
+      "content": "Персонажи с ивентовым бонусом"
     }
   ]
 }

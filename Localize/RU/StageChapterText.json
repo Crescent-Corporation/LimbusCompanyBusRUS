@@ -13,7 +13,7 @@
       "id": "chapter_d_101",
       "company": "Корп. D",
       "area": "4-й Район",
-      "chapter": "Песнь I",
+      "chapter": "ПесньⅠ",
       "chapterNumber": "01",
       "chaptertitle": "Изгой",
       "timeline": "984/01"
@@ -22,7 +22,7 @@
       "id": "chapter_j_102",
       "company": "Корп. J",
       "area": "10-й Район",
-      "chapter": "Песнь II",
+      "chapter": "Песнь Ⅱ",
       "chapterNumber": "02",
       "chaptertitle": "Неспособная любить",
       "timeline": "984/01"
@@ -31,7 +31,7 @@
       "id": "chapter_k_103",
       "company": "Корп. К",
       "area": "11-й Район",
-      "chapter": "Песнь III",
+      "chapter": "Песнь Ⅲ",
       "chapterNumber": "03",
       "chaptertitle": "Непротивостоящий",
       "timeline": "984/02"
@@ -40,7 +40,7 @@
       "id": "chapter_k_9103",
       "company": "Корп. К",
       "area": "11-й Район",
-      "chapter": "Антракт I",
+      "chapter": "АнтрактⅠ",
       "chapterNumber": "3.5",
       "chaptertitle": "Адская куря",
       "timeline": "984/03"
@@ -49,16 +49,16 @@
       "id": "chapter_k_104",
       "company": "Корп. К",
       "area": "11-й Район",
-      "chapter": "Песнь IV",
+      "chapter": "ПесньⅣ",
       "chapterNumber": "04",
-      "chaptertitle": "The Unchanging",
+      "chaptertitle": "Неизменный",
       "timeline": "984/05"
     },
     {
       "id": "chapter_u_9104",
       "company": "Корп. U",
       "area": "21-й Район",
-      "chapter": "Антракт II",
+      "chapter": "Антракт Ⅱ",
       "chapterNumber": "4.5",
       "chaptertitle": "МОРЕ",
       "timeline": "984/05"
@@ -67,8 +67,8 @@
       "id": "chapter_u_105",
       "company": "Корп. U",
       "area": "21-й Район",
-      "chapter": "Песнь V",
-      "chapterNumber": "5",
+      "chapter": "Песнь Ⅴ",
+      "chapterNumber": "05",
       "chaptertitle": "The Evil Defining",
       "timeline": "984/07"
     },
@@ -76,7 +76,7 @@
       "id": "chapter_u_9105",
       "company": "Корп. U",
       "area": "21-й Район",
-      "chapter": "Антракт III-1",
+      "chapter": "Антракт Ⅲ-1",
       "chapterNumber": "5.5",
       "chaptertitle": "Чудо в 20-м Районе",
       "timeline": "984/08"
@@ -87,14 +87,14 @@
       "area": "",
       "chapter": "",
       "chapterNumber": "",
-      "chaptertitle": "2-ая Вальпургиева ночь",
+      "chaptertitle": "2-я Вальпургиева ночь",
       "timeline": "984/09"
     },
     {
       "id": "chapter_t_9107",
       "company": "Корп. T",
       "area": "20-й Район",
-      "chapter": "Антракт III-2",
+      "chapter": "Антракт Ⅲ-2",
       "chapterNumber": "5.5",
       "chaptertitle": "Уступаю плоть, дабы\nзабрать их кости",
       "timeline": "984/10"
@@ -103,7 +103,7 @@
       "id": "chapter_t_106",
       "company": "Корп. T",
       "area": "20-й Район",
-      "chapter": "Песнь VI",
+      "chapter": "Песнь Ⅵ",
       "chapterNumber": "06",
       "chaptertitle": "The Heartbreaking",
       "timeline": "984/11"
@@ -114,16 +114,34 @@
       "area": "20-й Район",
       "chapter": "",
       "chapterNumber": "",
-      "chaptertitle": "3-ья Вальпургиева ночь",
+      "chaptertitle": "3-я Вальпургиева ночь",
       "timeline": "984/11"
     },
     {
       "id": "chapter_t_9109",
       "company": "Корп. T",
       "area": "20-й Район",
-      "chapter": "Антракт IV",
+      "chapter": "АнтрактⅣ-1",
       "chapterNumber": "6.5",
       "chaptertitle": "Время, убивающее время",
+      "timeline": "984/11"
+    },
+    {
+      "id": "chapter_t_9110",
+      "company": "Корп. T",
+      "area": "20-й Район",
+      "chapter": "АнтрактⅣ-2",
+      "chapterNumber": "6.5",
+      "chaptertitle": "Убийство в Варп-экспрессе",
+      "timeline": "984/11"
+    },
+    {
+      "id": "chapter_p_9111",
+      "company": "Корп. P",
+      "area": "16-й Район",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "4-я Вальпургиева ночь",
       "timeline": "984/11"
     }
   ]

@@ -1,0 +1,68 @@
+{
+  "dataList": [
+    {
+      "id": "lcb_checkup_stagebutton_not_clear",
+      "content": "Для открытия пройдите 7-36"
+    },
+    {
+      "id": "lcb_checkup_stagebutton_normal",
+      "content": "Этапы"
+    },
+    {
+      "id": "lcb_checkup_stagebutton_end_event",
+      "content": "Ивент завершён"
+    },
+    {
+      "id": "lcb_checkup_storybutton_before_start",
+      "content": "<size=75%>Для открытия прочтите\nпервую историю ивента</size>"
+    },
+    {
+      "id": "lcb_checkup_storybutton_normal",
+      "content": "В Кинозал"
+    },
+    {
+      "id": "lcb_checkup_rewardShopButton",
+      "content": "Обмен наград"
+    },
+    {
+      "id": "lcb_checkup_scrap_guide_title",
+      "content": "Инфо о валюте"
+    },
+    {
+      "id": "lcb_checkup_scrap_guide_desc",
+      "content": "Во время прохождения этапов и подземелья\n(включая Зеркальное) ивента и основной истории\nесть некоторый шанс получить <color=#ff99e6>[Засекреченные документы]</color>.\n\n<color=#ff99e6>[Засекреченные документы]</color> равноценны 20 <color=#ff99e6>[Материалами исследований]</color>."
+    },
+    {
+      "id": "lcb_checkup_rewardpage_desc",
+      "content": "Во время прохождения этапов и подземелья ивента гарантированно получение <color=#ac1605>[Материалов исследований]</color> в качестве награды. Помимо этого,\n<color=#ac1605>[Материалы исследований]</color> можно получить в основной истории и Зеркальном подземелье, а также во время первого прохождения этапов.\n\nВо время проведения ивента с некоторым шансом возможно получение <color=#ac1605>[Засекреченных документов]</color>, которые, в свою очередь, равноценны 20 <color=#ac1605>[Материалами исследований]</color>.\n\nВы можете приобрести различные предметы за <color=#ac1605>[Материалы исследований]</color> в окне <color=#ac1605>[Обмен наград]</color>."
+    },
+    {
+      "id": "lcb_checkup_reward_popup_desc",
+      "content": "При прохождении ивентовых этапов и подземелий, а так же этапов основной истории и Зеркального подземелья, гарантировано получение <color=#ac1605>[Материалов исследований]</color>.\n\nВы можете приобрести различные предметы за <color=#ac1605>[Материалы исследований]</color> в окне <color=#ac1605>[Обмен наград]</color>."
+    },
+    {
+      "id": "lcb_checkup_reward_popup_num_of_owned_items",
+      "content": "Бумаг на руках:"
+    },
+    {
+      "id": "lcb_checkup_bonusUI_Title",
+      "content": "<size=45><font=\"BebasKai SDF\">к получению</font></size>"
+    },
+    {
+      "id": "lcb_checkup_bonusUI_Title_contain_false",
+      "content": "Нет"
+    },
+    {
+      "id": "lcb_checkup_bonusUI_Desc",
+      "content": "Определённые идентичности и ЭГО в команде увеличивают кол-во получаемых <color=#ac1605>[Материалов исследований]</color>.\nМаксимальное увеличение:  <color=#ac1605>120%</color>."
+    },
+    {
+      "id": "lcb_checkup_bonus_popup_title",
+      "content": "Персонажи с ивентовым бонусом"
+    },
+    {
+      "id": "lcb_checkup_bonus_preview",
+      "content": "Персонажи с ивентовым бонусом"
+    }
+  ]
+}

@@ -9,14 +9,14 @@
     {
       "id": 1018,
       "panicName": "Эхо особняка",
-      "lowMoraleDescription": "Сила в поединке -1. Урон орлом +10%",
-      "panicDescription": "Сила в поединке -2. Получает 1 [AttackDmgUp]"
+      "lowMoraleDescription": "Сила парирований -1. Урон орлом +10%",
+      "panicDescription": "Сила парирований -2. Получает 1 [AttackDmgUp]"
     },
     {
       "id": 1020,
       "panicName": "Раскол",
-      "lowMoraleDescription": "С каждым Комбо в столкновении теряет 2 очка здоровья. В начале хода получает 1 [AttackUp].",
-      "panicDescription": "С каждым Комбо в столкновении теряет 3 очка здоровья. В начале хода получает 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> 2 얻음."
+      "lowMoraleDescription": "С каждым парированием в поединке теряет 2 очка здоровья. В начале хода получает 1 [AttackUp].",
+      "panicDescription": "С каждым парированием в поединке теряет 3 очка здоровья. В начале хода получает 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> 2 얻음."
     }
   ]
 }

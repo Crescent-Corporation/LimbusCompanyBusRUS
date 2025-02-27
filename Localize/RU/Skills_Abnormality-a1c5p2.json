@@ -11,14 +11,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Дробящий урон +3"
+                                    "desc": "[OnSucceedAttack] дробящий урон +3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Дробящий урон +3"
+                                    "desc": "[OnSucceedAttack] дробящий урон +3"
                                 }
                             ]
                         },
@@ -44,14 +44,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Дробящий урон +5"
+                                    "desc": "[OnSucceedAttack] дробящий урон +5"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Дробящий урон +5"
+                                    "desc": "[OnSucceedAttack] дробящий урон +5"
                                 }
                             ]
                         },
@@ -202,7 +202,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает границы выносливости на 30"
+                                    "desc": "[OnSucceedAttack] Повышает грани оглушения на 30"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"

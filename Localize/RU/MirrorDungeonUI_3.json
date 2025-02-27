@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "dungeon_shop_ego_gift_upgrade",
-      "content": "Улучшить Дар"
+      "content": "Усилить Дар"
     },
     {
       "id": "dungeon_shop_ego_gift_composite",
@@ -18,19 +18,19 @@
     },
     {
       "id": "mirror_dungeon_selected_ego_gift",
-      "content": "Выбранный ЭГО Дар"
+      "content": "Выбранные ЭГО Дары"
     },
     {
       "id": "ego_gift_upgrade_ui_title",
-      "content": "Улучшение ЭГО Дара"
+      "content": "Усиление ЭГО Дара"
     },
     {
       "id": "ego_gift_upgrade_confirm_format",
-      "content": "Желаете улучшить ЭГО дар за <color=#F8C200>{0}</color> стоимости?"
+      "content": "Желаете усилить ЭГО дар за <color=#F8C200>{0}</color> стоимости?"
     },
     {
       "id": "ego_gift_upgrade_not_enough_cost_format",
-      "content": "Не хватает <color=#990000>{0}</color> стоимости для улучшения Дара."
+      "content": "Не хватает <color=#990000>{0}</color> стоимости для усиления Дара."
     },
     {
       "id": "ego_gift_combine_ui_title",
@@ -58,7 +58,7 @@
     },
     {
       "id": "mirror_dungeon3_hard_reward_info",
-      "content": "<cspace=-2px>Сложный</cspace>"
+      "content": "<cspace=-2px>Усложнённый</cspace>"
     },
     {
       "id": "mirror_dungeon3_current_explore",
@@ -74,7 +74,7 @@
     },
     {
       "id": "mirror_dungeon3_entrance_hard_hint_before_release",
-      "content": "Пройдите Песнь IV\nдля открытия подземелья"
+      "content": "Пройдите ПесньⅣ\nдля открытия подземелья"
     },
     {
       "id": "mirror_dungeon3_start_buff_summary_detail",
@@ -182,11 +182,11 @@
     },
     {
       "id": "battlepass_progress_reward",
-      "content": "Награда в уровнях Пасса"
+      "content": "Награда в уровнях пропуска"
     },
     {
       "id": "side_title_unable_ego_gift_upgrade",
-      "content": "Улучшение невозможно"
+      "content": "Усиление невозможно"
     },
     {
       "id": "side_content_not_have_any_ego_gift",
@@ -194,11 +194,11 @@
     },
     {
       "id": "side_content_ego_gift_is_not_upgradeable",
-      "content": "Этот ЭГО Дар невозможно улучшить."
+      "content": "Усиление этого ЭГО Дара невозможно."
     },
     {
       "id": "side_content_ego_gift_is_maximum_upgraded",
-      "content": "Этот ЭГО Дар максимально улучшен."
+      "content": "Максимальный порог усиления достигнут."
     },
     {
       "id": "side_title_unable_ego_gift_combine",
@@ -222,7 +222,7 @@
     },
     {
       "id": "mirror_dungeon_already_participated",
-      "content": "В команде"
+      "content": "Бывший\nучастник"
     },
     {
       "id": "mirror_dungeon_acquire_ego_gift_desc",
@@ -234,7 +234,7 @@
     },
     {
       "id": "mirror_dungeon3_entrance_hard_hint_after_release",
-      "content": "<Для открытия>\nПройдите 4-54\nПройдите зеркало Озера\nна обычной сложности"
+      "content": "<b>Для открытия:</b>\nПройдите 4-54\nПройдите зеркало Озера\nна обычной сложности"
     },
     {
       "id": "mirror_dungeon_reload_select_ego_gift_category",
@@ -290,11 +290,15 @@
     },
     {
       "id": "side_content_already_owned_tier_ego_gift",
-      "content": "Вы больше не можетее получить ЭГО Дары этого уровня при соединении Даров на остановках."
+      "content": "Вы больше не можете получить ЭГО Дары этого уровня при соединении Даров на остановках."
+    },
+    {
+      "id": "mirror_dungoen_ego_gift_history_view_desc",
+      "content": "Посмотреть\nописание"
     },
     {
       "id": "side_content_ego_gift_is_unable_combine",
-      "content": "Этот ЭГО Дар нельзя соединить."
+      "content": "Этот ЭГО Дар не подлежит соединению."
     }
   ]
 }

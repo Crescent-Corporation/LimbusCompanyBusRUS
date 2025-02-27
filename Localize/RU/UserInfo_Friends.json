@@ -86,7 +86,7 @@
     },
     {
       "id": "Delete_Friends_Apply",
-      "content": "Вы точно желаете удалить этого игрока из списка своих друзей?"
+      "content": "Вы уверены, что желаете удалить этого игрока из списка своих друзей?"
     },
     {
       "id": "SendSendFriend_1",
@@ -114,7 +114,7 @@
     },
     {
       "id": "SendSendFriend_7",
-      "content": "Случилась непредвиденная ощибка."
+      "content": "Случилась непредвиденная ошибка."
     },
     {
       "id": "SendAcceptReceivedFriend_1",
@@ -142,11 +142,11 @@
     },
     {
       "id": "Day_Ago",
-      "content": "dd/MM"
+      "content": "dd.MM"
     },
     {
       "id": "Change_Introduce",
-      "content": "Изменить интро визитки"
+      "content": "Изменить кредо на билете"
     },
     {
       "id": "Sorting_Level",
@@ -158,7 +158,7 @@
     },
     {
       "id": "Season_0",
-      "content": "Обычный"
+      "content": "Стандартные"
     },
     {
       "id": "Season_1",
@@ -263,6 +263,22 @@
     {
       "id": "IntroduceSort_ABC",
       "content": "В алфавитном порядке"
+      },
+    {
+      "id": "IntroduceSort_Acquisition",
+      "content": "Время добычи"
+    },
+    {
+      "id": "SimilarBanner",
+      "content": "<font=\"BebasKai SDF\">Вариации плашки</font>"
+    },
+    {
+      "id": "SimilarTicket",
+      "content": "<font=\"BebasKai SDF\">Вариации элемента билета</font>"
+    },
+    {
+      "id": "Choosing",
+      "content": "Выбран"
     }
   ]
 }

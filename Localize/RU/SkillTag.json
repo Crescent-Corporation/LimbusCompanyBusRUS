@@ -10,7 +10,7 @@
     },
     {
       "id": "WinDuel",
-      "name": "[Победа в столкновении]"
+      "name": "[Победа в поединке]"
     },
     {
       "id": "BeforeAttack",
@@ -50,7 +50,7 @@
     },
     {
       "id": "SHAMROCK",
-      "name": "Клеверный"
+      "name": "Травяной"
     },
     {
       "id": "AZURE",
@@ -82,15 +82,15 @@
     },
     {
       "id": "DefeatDuel",
-      "name": "[Поражение в столкновении]"
+      "name": "[Поражение в поединке]"
     },
     {
       "id": "OnSucceedAttackHead",
-      "name": "[Выпал орёл]"
+      "name": "[Выпала орлом]"
     },
     {
       "id": "OnSucceedAttackTail",
-      "name": "[Выпала решка]"
+      "name": "[Выпала решкой]"
     },
     {
       "id": "OnSucceedEvade",
@@ -98,11 +98,11 @@
     },
     {
       "id": "AlwaysUse",
-      "name": "[Постоянно]"
+      "name": "[Пассивный эффект]"
     },
     {
       "id": "CantDuel",
-      "name": "[Нельзя столкнуться]"
+      "name": "[Поединок[TabExplain] невозможен]"
     },
     {
       "id": "EnemyKill",
@@ -110,15 +110,15 @@
     },
     {
       "id": "EnemyKillFail",
-      "name": "[При неудачном убийстве]"
+      "name": "[Если цель пережила атаку]"
     },
     {
       "id": "ReUse",
-      "name": "[Повтор]"
+      "name": "[Повторное подкидывание]"
     },
     {
       "id": "ReUseOnSucceedAttackHead",
-      "name": "[Повтор, выпал орёл]"
+      "name": "[Повторное подкидывание, выпала орлом]"
     },
     {
       "id": "CriticalOnSucceedAttack",
@@ -126,7 +126,7 @@
     },
     {
       "id": "StartDuel",
-      "name": "[В начале столкновения]"
+      "name": "[В начале поединка]"
     },
     {
       "id": "EndBattle",
@@ -146,11 +146,11 @@
     },
     {
       "id": "WinDuelAttackHead",
-      "name": "[Орёл после победы в столкновении]"
+      "name": "[Победа в поединке, выпала орлом]"
     },
     {
       "id": "WinDuelAttack",
-      "name": "[После победы в столкновении]"
+      "name": "[После победы в поединке]"
     },
     {
       "id": "CriticalActivated",
@@ -179,6 +179,70 @@
     {
       "id": "StartBattle_Force",
       "name": "<color=#93f13e>[В начале хода]</color>"
+    },
+    {
+      "id": "TargetKill",
+      "name": "[При убийстве цели]"
+    },
+    {
+      "id": "CriticalTargetKill",
+      "name": "[При убийстве критической атакой]"
+    },
+    {
+      "id": "BeforeUse",
+      "name": "[Перед использованием]"
+    },
+    {
+      "id": "DuelCounter",
+      "name": "[Контратака, вызывающая поединок]"
+    },
+    {
+      "id": "CantBreak",
+      "name": "[Вечная монета]"
+    },
+    {
+      "id": "DuelGuard",
+      "name": "[Блок, вызывающий поединок]"
+    },
+    {
+      "id": "WhenUseEvade",
+      "name": "[При увороте]"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[В конце атаки монетой]"
+    },
+    {
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "[Если противник пережил критическую атаку]"
+    },
+    {
+      "id": "CriticalEnemyTargetKill",
+      "name": "[При убийстве противника критической атакой]"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "[Поражение в поединке, при ударе]"
+    },
+    {
+      "id": "TargetKillFail",
+      "name": "[Если цель пережила атаку]"
+    },
+    {
+      "id": "AllyKill",
+      "name": "[При убийстве союзника]"
+    },
+    {
+      "id": "AllyKillFail",
+      "name": "[Если союзник пережил атаку]"
+    },
+    {
+      "id": "TabExplain",
+      "name": ""
+    },
+    {
+      "id": "UnBrokenCoinOnSucceedAttack",
+      "name": "[При ударе, без трещин]"
     }
   ]
 }

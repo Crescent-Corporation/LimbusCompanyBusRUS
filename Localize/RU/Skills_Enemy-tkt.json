@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Грязные цепочки!",
-          "desc": "Сила в поединке +1 за каждые 5 единиц на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)\n[WhenUse] <sprite name=\"Switch_Vibration\"><color=#a16a3b><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> своего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в  [VibrationDistribution]",
+          "desc": "Сила парирований +1 за каждые 5 единиц на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)\n[WhenUse] <sprite name=\"Switch_Vibration\"><color=#a16a3b><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> своего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в  [VibrationDistribution]",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
         {
           "level": 1,
           "name": "Подлые цепочки!",
-          "desc": "Сила в поединке +1 за каждые 5 единиц на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (최대 2)\n[WhenUse] <sprite name=\"Switch_Vibration\"><color=#a16a3b><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> своего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в  [VibrationDistribution]",
+          "desc": "Сила парирований +1 за каждые 5 единиц на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (최대 2)\n[WhenUse] <sprite name=\"Switch_Vibration\"><color=#a16a3b><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> своего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в  [VibrationDistribution]",
           "coinlist": [
             {
               "coindescs": [
@@ -461,7 +461,7 @@
         {
           "level": 1,
           "name": "Остановитесь, пожалуйста.",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WhenUse] Сила в поединке +1 при 4 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WhenUse] Сила парирований +1 при 4 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -496,7 +496,7 @@
         {
           "level": 1,
           "name": "Вынужден произвести изъятие.",
-          "desc": "[WhenUse] Сила в поединке +1 за каждые 5 единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)\n[WhenUse] +10% за каждую единицу на счётчике при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 100%)\n[EndSkill] Тратит весь своё счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Сила парирований +1 за каждые 5 единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)\n[WhenUse] +10% за каждую единицу на счётчике при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 100%)\n[EndSkill] Тратит весь своё счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -623,7 +623,7 @@
         {
           "level": 1,
           "name": "Предъявите свои карманные часы.",
-          "desc": "[WhenUse] Сила в поединке +1 при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WinDuel] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, чтобы повысить свой счётчик <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженного времени</link></u></color> на 1",
+          "desc": "[WhenUse] Сила парирований +1 при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WinDuel] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, чтобы повысить свой счётчик <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженного времени</link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -765,7 +765,7 @@
         {
           "level": 1,
           "name": "Пожалуйста, замрите.",
-          "desc": "[WhenUse] Сила в поединке +1 при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WinDuel] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, чтобы повысить свой счётчик <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженного времени</link></u></color> на 1",
+          "desc": "[WhenUse] Сила парирований +1 при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WinDuel] Понижает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, чтобы повысить свой счётчик <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженного времени</link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [

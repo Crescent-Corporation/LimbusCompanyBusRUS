@@ -26,23 +26,23 @@
     },
     {
       "id": "event-very-high",
-      "content": "Оч. высокий"
+      "content": "Оч. высокая"
     },
     {
       "id": "event-high",
-      "content": "Высокий"
+      "content": "Высокая"
     },
     {
       "id": "event-normal",
-      "content": "Нейтральный"
+      "content": "Средняя"
     },
     {
       "id": "event-low",
-      "content": "Низкий"
+      "content": "Низкая"
     },
     {
       "id": "event-very-low",
-      "content": "Оч. низкий"
+      "content": "Оч. низкая"
     },
     {
       "id": "event-impossible",
