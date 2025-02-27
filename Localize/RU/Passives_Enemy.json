@@ -168,7 +168,7 @@
     {
       "id": 9100902,
       "name": "Удушающий оберег проклятия",
-      "desc": "При 10 <sprite name=\"ReattachedCurseTag\"><color=#e30000><u><link=\"ReattachedCurseTag\">Приклеенных оберега проклятия</link></u></color> повышает грани оглушения на 10, затем убирает этот эффект."
+      "desc": "При 10 <sprite name=\"ReattachedCurseTag\"><color=#e30000><u><link=\"ReattachedCurseTag\">Приклеенных оберега проклятия</link></u></color> повышает границы выносливости на 10, затем убирает этот эффект."
     },
     {
       "id": 9100903,

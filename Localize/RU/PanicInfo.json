@@ -105,8 +105,8 @@
     {
       "id": 1026,
       "panicName": "Погибель",
-      "lowMoraleDescription": "Каждый ход наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, Сила парирований -1",
-      "panicDescription": "Каждый ход наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 3, Сила парирований -2"
+      "lowMoraleDescription": "Каждый ход наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, Сила в поединке -1",
+      "panicDescription": "Каждый ход наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 3, Сила в поединке -2"
     }
   ]
 }

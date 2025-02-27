@@ -10,11 +10,11 @@
     },
     {
       "id": "mainui_reinforce_support_passive",
-      "content": "Пассивка поддержки 「{0}」 улучшена"
+      "content": "Пассивка Поддержки [{0}] улучшена"
     },
     {
       "id": "mainui_reinforce_battle_passive",
-      "content": "Боевая пассивка 「{0}」 улучшена"
+      "content": "Боевая пассивка [{0}] улучшена"
     },
     {
       "id": "mainui_battle_passsive_reinforce",
@@ -22,11 +22,11 @@
     },
     {
       "id": "mainui_support_passsive_reinforce",
-      "content": "Пассивка поддержки улучшена"
+      "content": "Пассивка Подддержки улучшена"
     },
     {
       "id": "mainui_target_num_label",
-      "content": "<font=\"ExcelsiorSans SDF\"><align=\"right\">Тяжесть\nатаки</align></font>"
+      "content": "Число целей"
     },
     {
       "id": "mainui_awaken_requirement_label",

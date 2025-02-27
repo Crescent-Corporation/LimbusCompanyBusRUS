@@ -179,22 +179,6 @@
     {
       "id": "UnitKeyword_DEVYAT",
       "content": "Ассоциация «Девять»"
-    },
-    {
-      "id": "UnitKeyword_LA_MANCHA_LAND",
-      "content": "«Ла-Манчаленд»"
-    },
-    {
-      "id": "UnitKeyword_LIMBUS_COMPANY_LCE",
-      "content": "Отдел LCE"
-    },
-    {
-      "id": "UnitKeyword_LIMBUS_COMPANY_LCC",
-      "content": "Отдел LCC"
-    },
-    {
-      "id": "UnitKeyword_LIMBUS_COMPANY_LCB",
-      "content": "Отдел LCB"
     }
   ]
 }

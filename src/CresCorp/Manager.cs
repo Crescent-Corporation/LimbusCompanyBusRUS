@@ -12,24 +12,24 @@ using UObject = UnityEngine.Object;
 
 namespace LimbusLocalizeRUS
 {
-    public class Manager : MonoBehaviour
+    public class LCBR_Manager : MonoBehaviour
     {
-        static Manager()
+        static LCBR_Manager()
         {
-            ClassInjector.RegisterTypeInIl2Cpp<Manager>();
-            GameObject obj = new(nameof(Manager));
+            ClassInjector.RegisterTypeInIl2Cpp<LCBR_Manager>();
+            GameObject obj = new(nameof(LCBR_Manager));
             DontDestroyOnLoad(obj);
             obj.hideFlags |= HideFlags.HideAndDontSave;
-            Instance = obj.AddComponent<Manager>();
+            Instance = obj.AddComponent<LCBR_Manager>();
         }
-        public static Manager Instance;
-        public Manager(IntPtr ptr) : base(ptr) { }
-        void OnApplicationQuit() => LCB_CresCorpMod.CopyLog();
+        public static LCBR_Manager Instance;
+        public LCBR_Manager(IntPtr ptr) : base(ptr) { }
+        void OnApplicationQuit() => LCB_LCBRMod.CopyLog();
         public static void OpenGlobalPopup(string description, string title = null, string close = "Закрыть", string confirm = "ОК", Action confirmEvent = null, Action closeEvent = null)
         {
             if (!GlobalGameManager.Instance) { return; }
             TextOkUIPopup globalPopupUI = GlobalGameManager.Instance.globalPopupUI;
-            TMP_FontAsset fontAsset = Cyrillics.GetCyrillicFonts(3);
+            TMP_FontAsset fontAsset = LCB_Cyrillic_Font.GetCyrillicFonts(3);
             if (fontAsset)
             {
                 TextMeshProUGUI btn_canceltmp = globalPopupUI.btn_cancel.GetComponentInChildren<TextMeshProUGUI>(true);
@@ -77,26 +77,40 @@ namespace LimbusLocalizeRUS
         public static Action FatalErrorAction;
         public static string FatalErrorlog;
         #region Запрет предупреждений
-        [HarmonyPatch(typeof(UnityEngine.Logger), nameof(UnityEngine.Logger.Log), typeof(LogType), typeof(ILObject))]
-        [HarmonyPrefix]
-        private static bool Log(UnityEngine.Logger __instance, LogType logType, ILObject message)
+        [HarmonyPatch(typeof(Logger), nameof(Logger.Log), new Type[]
         {
-            if (logType != LogType.Warning) return true;
-            var logString = UnityEngine.Logger.GetString(message);
-            if (!logString.StartsWith("<color=#0099bc><b>DOTWEEN"))
-                __instance.logHandler.LogFormat(logType, null, "{0}", logString);
-            return false;
+            typeof(LogType),
+            typeof(ILObject)
+        })]
+        [HarmonyPrefix]
+        private static bool Log(Logger __instance, LogType __0, ILObject __1)
+        {
+            if (__0 == LogType.Warning)
+            {
+                string LogString = Logger.GetString(__1);
+                if (!LogString.Contains("DOTWEEN"))
+                    __instance.logHandler.LogFormat(__0, null, "{0}", new ILObject[] { LogString });
+                return false;
+            }
+            return true;
         }
-
-        [HarmonyPatch(typeof(UnityEngine.Logger), nameof(UnityEngine.Logger.Log), typeof(LogType), typeof(ILObject), typeof(UObject))]
-        [HarmonyPrefix]
-        private static bool Log(UnityEngine.Logger __instance, LogType logType, ILObject message, UObject context)
+        [HarmonyPatch(typeof(Logger), nameof(Logger.Log), new Type[]
         {
-            if (logType != LogType.Warning) return true;
-            var logString = UnityEngine.Logger.GetString(message);
-            if (!logString.StartsWith("Material"))
-                __instance.logHandler.LogFormat(logType, context, "{0}", logString);
-            return false;
+            typeof(LogType),
+            typeof(ILObject),
+            typeof(UObject)
+        })]
+        [HarmonyPrefix]
+        private static bool Log(Logger __instance, LogType logType, ILObject message, UObject context)
+        {
+            if (logType == LogType.Warning)
+            {
+                string LogString = Logger.GetString(message);
+                if (!LogString.Contains("Material"))
+                    __instance.logHandler.LogFormat(logType, context, "{0}", new ILObject[] { LogString });
+                return false;
+            }
+            return true;
         }
         #endregion
         #region Исправление некоторых ошибок
@@ -109,12 +123,12 @@ namespace LimbusLocalizeRUS
         [HarmonyPostfix]
         public static void CheckModActions()
         {
-            if (UpdateChecker.UpdateCall != null)
-                OpenGlobalPopup("Найдено обновление!" + UpdateChecker.Updatelog + "Мы нашли новое обновление русификатора!\nПожалуйста, выйдите из игры и обновите мод." + UpdateChecker.Updatelog + "Распакуйте обновление пжаста", "Мод обновлён!", null, "OK", () =>
+            if (LCBR_UpdateChecker.UpdateCall != null)
+                OpenGlobalPopup("Есть обновление" + LCBR_UpdateChecker.Updatelog + "Есть обновление!\nПожалуйста, выйдите из игры и обновите мод." + LCBR_UpdateChecker.Updatelog + "Распакуйте обновление пжаста", "Мод обновлён!", null, "OK", () =>
                 {
-                    UpdateChecker.UpdateCall.Invoke();
-                    UpdateChecker.UpdateCall = null;
-                    UpdateChecker.Updatelog = string.Empty;
+                    LCBR_UpdateChecker.UpdateCall.Invoke();
+                    LCBR_UpdateChecker.UpdateCall = null;
+                    LCBR_UpdateChecker.Updatelog = string.Empty;
                 });
             else if (FatalErrorAction != null)
                 OpenGlobalPopup(FatalErrorlog, "Произошла фатальная ошибка!", null, "Перейти на Гитхаб", () =>

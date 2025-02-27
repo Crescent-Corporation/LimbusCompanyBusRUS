@@ -249,7 +249,7 @@
         {
           "level": 1,
           "name": "Ко мне!",
-          "desc": "[WhenUse] Повышает <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> самой левой ячейки навыков союзника грешницы с наибольшими ОЗ на (наибольшее число резонанса) на следующий ход (Раз за ход)",
+          "desc": "[WhenUse] Повышает <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> самого левого слота навыков союзника грешницы с наибольшими ОЗ на (наибольшее число резонанса) на следующий ход (Раз за ход)",
           "coinlist": [
             {},
             {
@@ -264,7 +264,7 @@
         {
           "level": 2,
           "name": "Ко мне!",
-          "desc": "[WhenUse] Повышает <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> самой левой ячейки навыков союзника грешницы с наибольшими ОЗ на (наибольшее число резонанса) на следующий ход (Раз за ход)\n- Если наибольшее число абсолюта равно 4-м и выше, дополнительно даёт 1 Защищённость после активации эффекта (Раз за ход)",
+          "desc": "[WhenUse] Повышает <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> самого левого слота навыков союзника грешницы с наибольшими ОЗ на (наибольшее число резонанса) на следующий ход (Раз за ход)\n- Если наибольшее число абсолюта равно 4-м и выше, дополнительно даёт 1 Защищённость после активации эффекта (Раз за ход)",
           "coinlist": [
             {},
             {
@@ -279,7 +279,7 @@
         {
           "level": 4,
           "name": "Ко мне!",
-          "desc": "<style=\"highlight\">[StartBattle] Даёт союзникам, окружающим грешницу на панели управления 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color></style>\n[WhenUse] Повышает <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> самой левой ячейки навыков союзника грешницы с наибольшими ОЗ на (наибольшее число резонанса) на следующий ход (Раз за ход)\n- Если наибольшее число абсолюта равно 4-м и выше, дополнительно даёт 1 Защищённость после активации эффекта (Раз за ход)",
+          "desc": "<style=\"highlight\">[StartBattle] Даёт союзникам, окружающим грешницу на приборной панели 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color></style>\n[WhenUse] Повышает <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> самого левого слота навыков союзника грешницы с наибольшими ОЗ на (наибольшее число резонанса) на следующий ход (Раз за ход)\n- Если наибольшее число абсолюта равно 4-м и выше, дополнительно даёт 1 Защищённость после активации эффекта (Раз за ход)",
           "coinlist": [
             {},
             {
@@ -299,7 +299,7 @@
         {
           "level": 1,
           "name": "Охотимся до конца!",
-          "desc": "[WhenUse] Повышает шанс активации <sprite name=\"CoverAttack\"><color=#a16a3b><u><link=\"CoverAttack\">Вспомогательной атаки</link></u></color> у союзника справа на панели управления от грешницы с шансом в 10% за каждый навык в наибольшем резонансе.",
+          "desc": "[WhenUse] Повышает шанс активации <sprite name=\"CoverAttack\"><color=#a16a3b><u><link=\"CoverAttack\">Вспомогательной атаки</link></u></color> у союзника справа на приборной панели от грешницы с шансом в 10% за каждый навык в наибольшем резонансе.",
           "coinlist": [
             {},
             {
@@ -321,7 +321,7 @@
         {
           "level": 2,
           "name": "Охотимся до конца!",
-          "desc": "[WhenUse] Повышает шанс активации <sprite name=\"CoverAttack\"><color=#a16a3b><u><link=\"CoverAttack\">Вспомогательной атаки</link></u></color> у союзника справа на панели управления от грешницы с шансом в 15% за каждый навык в наибольшем резонансе.\n- Если в наибольшем абсолюте 4 и более греха, этот союзник получает 1 Повышение урона.\n- Если абсолют Гордыни равен 4 и выше, даёт этому союзнику 1 Повышение силы Гордыни",
+          "desc": "[WhenUse] Повышает шанс активации <sprite name=\"CoverAttack\"><color=#a16a3b><u><link=\"CoverAttack\">Вспомогательной атаки</link></u></color> у союзника справа на приборной панели от грешницы с шансом в 15% за каждый навык в наибольшем резонансе.\n- Если в наибольшем абсолюте 4 и более греха, этот союзник получает 1 Повышение урона.\n- Если абсолют Гордыни равен 4 и выше, даёт этому союзнику 1 Повышение силы Гордыни",
           "coinlist": [
             {},
             {
@@ -343,7 +343,7 @@
         {
           "level": 4,
           "name": "Охотимся до конца!",
-          "desc": "[StartBattle] Даёт 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> союзникам, окружающим грешницу на панели управления.\n[WhenUse] Повышает шанс активации <sprite name=\"CoverAttack\"><color=#a16a3b><u><link=\"CoverAttack\">Вспомогательной атаки</link></u></color> у союзника справа на панели управления от грешницы с шансом в 20% за каждый навык в наибольшем резонансе.\n- Если в наибольшем абсолюте 4 и более греха, этот союзник получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color>.\n- Если абсолют Гордыни равен 4 и выше, даёт этому союзнику 2 <sprite name=\"IndigoResultUp\"><color=#f8c200><u><link=\"IndigoResultUp\">Повышения силы Гордыни</link></u></color>",
+          "desc": "[StartBattle] Даёт 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> союзникам, окружающим грешницу на приборной панели.\n[WhenUse] Повышает шанс активации <sprite name=\"CoverAttack\"><color=#a16a3b><u><link=\"CoverAttack\">Вспомогательной атаки</link></u></color> у союзника справа на приборной панели от грешницы с шансом в 20% за каждый навык в наибольшем резонансе.\n- Если в наибольшем абсолюте 4 и более греха, этот союзник получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color>.\n- Если абсолют Гордыни равен 4 и выше, даёт этому союзнику 2 <sprite name=\"IndigoResultUp\"><color=#f8c200><u><link=\"IndigoResultUp\">Повышения силы Гордыни</link></u></color>",
           "coinlist": [
             {},
             {
@@ -433,7 +433,7 @@
         {
           "level": 1,
           "name": "Отбрось страх",
-          "desc": "[WhenUse] Восстанавливает 3 СД союзникам, окружающим грешницу на панели управления (До 2-х раз)",
+          "desc": "[WhenUse] Восстанавливает 3 СД союзникам, окружающим грешницу на приборной панели (До 2-х раз)",
           "coinlist": [
             {
               "coindescs": [
@@ -447,7 +447,7 @@
         {
           "level": 4,
           "name": "Отбрось страх",
-          "desc": "[WhenUse] Восстанавливает 5 СД союзникам, окружающим грешницу на панели управления (До 2-х раз)",
+          "desc": "[WhenUse] Восстанавливает 5 СД союзникам, окружающим грешницу на приборной панели (До 2-х раз)",
           "coinlist": [
             {}
           ]
@@ -712,7 +712,7 @@
         {
           "level": 1,
           "name": "Рыцарское фехтование «Цвай»",
-          "desc": "[WhenUse] Эта ячейка получает 2 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 4 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)",
+          "desc": "[WhenUse] Этот слот получает 2 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 4 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -739,7 +739,7 @@
         {
           "level": 2,
           "name": "Рыцарское фехтование «Цвай»",
-          "desc": "[WhenUse] Эта ячейка получает <style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые <style=\"highlight\">3</style> единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 4+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил</style>",
+          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые <style=\"highlight\">3</style> единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 4+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -766,7 +766,7 @@
         {
           "level": 4,
           "name": "Рыцарское фехтование «Цвай»",
-          "desc": "[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые <style=\"highlight\">2</style> единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">3</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 4</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Этот слот получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые <style=\"highlight\">2</style> единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">3</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 4</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -798,7 +798,7 @@
         {
           "level": 1,
           "name": "Ты не пройдёшь.",
-          "desc": "[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До 3)\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[WhenUse] Этот слот получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До 3)\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -817,7 +817,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе/2) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)"
+                  "desc": "[OnSucceedAttack] Наносит (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе/22) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction] при 10+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>"
@@ -829,7 +829,7 @@
         {
           "level": 2,
           "name": "Ты не пройдёшь.",
-          "desc": "[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color> на Измаил</style>\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[WhenUse] Этот слот получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color> на Измаил</style>\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -848,7 +848,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе/2) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Наносит (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе/22) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">3</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction] при 10+ <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>"
@@ -860,7 +860,7 @@
         {
           "level": 4,
           "name": "Ты не пройдёшь.",
-          "desc": "[WhenUse] Эта ячейка получает <style=\"highlight\">5</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До <style=\"highlight\">5</style>)\n[WhenUse] Сила монет +1 при <style=\"highlight\">4+</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color> на Измаил\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">5</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До <style=\"highlight\">5</style>)\n[WhenUse] Сила монет +1 при <style=\"highlight\">4+</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color> на Измаил\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -879,7 +879,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе/2) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Наносит (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе/22) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">4</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction] при <style=\"highlight\">8+</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color> на Измаил"
@@ -896,7 +896,7 @@
         {
           "level": 3,
           "name": "Хранитель",
-          "desc": "[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До 3)\n[WhenUse] +50% урона, если Измаил приняла <sprite name=\"DefensiveStance\"><color=#f8c200><u><link=\"DefensiveStance\">Защитную стойку</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил (До 2)\n[WhenUse] Эта ячейка получает 8 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До 3)\n[WhenUse] +50% урона, если Измаил приняла <sprite name=\"DefensiveStance\"><color=#f8c200><u><link=\"DefensiveStance\">Защитную стойку</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил (До 2)\n[WhenUse] Этот слот получает 8 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Хранитель",
-          "desc": "[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До <style=\"highlight\">5</style>)\n[WhenUse] +<style=\"highlight\">70</style>%, если Измаил приняла <sprite name=\"DefensiveStance\"><color=#f8c200><u><link=\"DefensiveStance\">Защитную стойку</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил (До <style=\"highlight\">4</style>)\n[WhenUse] Эта ячейка получает <style=\"highlight\">10</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> у Измаил (До <style=\"highlight\">5</style>)\n[WhenUse] +<style=\"highlight\">70</style>%, если Измаил приняла <sprite name=\"DefensiveStance\"><color=#f8c200><u><link=\"DefensiveStance\">Защитную стойку</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на Измаил (До <style=\"highlight\">4</style>)\n[WhenUse] Этот слот получает <style=\"highlight\">10</style> <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WinDuel] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [

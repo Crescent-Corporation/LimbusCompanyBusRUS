@@ -79,7 +79,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 1 Уязвимость к рубящему урону"
+                  "desc": "[OnSucceedAttackHead] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 1 Уязвимость к Рубящему урону"
                 }
               ]
             },
@@ -101,7 +101,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 1 Уязвимость к рубящему урону"
+                  "desc": "[OnSucceedAttack] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 1 Уязвимость к Рубящему урону"
                 }
               ]
             },
@@ -126,7 +126,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к рубящему урону</link></u></color>"
+                  "desc": "[OnSucceedAttack] При 10+ на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к Рубящему урону</link></u></color>"
                 }
               ]
             },
@@ -729,7 +729,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Этика приёма гостей, 1-я церемония: Охота",
+          "name": "Этика приёма гостей, 1-ая церемония: Охота",
           "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
@@ -750,8 +750,8 @@
         },
         {
           "level": 2,
-          "name": "Этика приёма гостей, 1-я церемония: Охота",
-          "desc": "<style=\"highlight\">Сила парирований +1 против целей, чья скорость ниже на 3 и более</style>\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "name": "Этика приёма гостей, 1-ая церемония: Охота",
+          "desc": "<style=\"highlight\">Сила в поединке +1 против целей, чья скорость ниже на 3 и более</style>\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -771,8 +771,8 @@
         },
         {
           "level": 4,
-          "name": "Этика приёма гостей, 1-я церемония: Охота",
-          "desc": "<style=\"highlight\">Сила парирований +1 за каждые 2 единицы разницы в скорости с более медленной целью (До 3)</style>\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "name": "Этика приёма гостей, 1-ая церемония: Охота",
+          "desc": "<style=\"highlight\">Сила в поединке +1 за каждые 2 единицы разницы в скорости с более медленной целью (До 3)</style>\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -797,8 +797,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Этика приёма гостей, 7-я церемония: Захват",
-          "desc": "[StartBattle] Тяжесть атаки +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "name": "Этика приёма гостей, 7-ая церемония: Захват",
+          "desc": "[StartBattle] Число целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -818,8 +818,8 @@
         },
         {
           "level": 2,
-          "name": "Этика приёма гостей, 7-я церемония: Захват",
-          "desc": "[StartBattle] Тяжесть атаки +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "name": "Этика приёма гостей, 7-ая церемония: Захват",
+          "desc": "[StartBattle] Число целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -839,8 +839,8 @@
         },
         {
           "level": 4,
-          "name": "Этика приёма гостей, 7-я церемония: Захват",
-          "desc": "<style=\"highlight\">Сила парирований +1 за каждые 2 единицы разницы в скорости, если основная цель медленнее Рёшу (До 3)</style>\n[StartBattle] Тяжесть атаки +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "name": "Этика приёма гостей, 7-ая церемония: Захват",
+          "desc": "<style=\"highlight\">Сила в поединке +1 за каждые 2 единицы разницы в скорости, если основная цель медленнее Рёшу (До 3)</style>\n[StartBattle] Число целей +2 при трате 6 единиц из счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -868,8 +868,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Этика приёма гостей, 2-я церемония: СШ",
-          "desc": "Сила парирований +1 против целей с [MarkOfButler]\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 7",
+          "name": "Этика приёма гостей, 2-ая церемония: СШ",
+          "desc": "Сила в поединке +1 против целей с [MarkOfButler]\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 7",
           "coinlist": [
             {
               "coindescs": [
@@ -880,7 +880,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает грань оглушения на 20% нанесённого урона"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% нанесённого урона"
                 }
               ]
             },
@@ -898,8 +898,8 @@
         },
         {
           "level": 4,
-          "name": "Этика приёма гостей, 2-я церемония: СШ",
-          "desc": "Сила парирований +1 против целей с [MarkOfButler]\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До) 2)</style>\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 7",
+          "name": "Этика приёма гостей, 2-ая церемония: СШ",
+          "desc": "Сила в поединке +1 против целей с [MarkOfButler]\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До) 2)</style>\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 7",
           "coinlist": [
             {
               "coindescs": [
@@ -910,7 +910,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает грань оглушения на 30% нанесённого урона"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 30% нанесённого урона"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [MarkOfButler]"
@@ -995,7 +995,7 @@
         {
           "level": 2,
           "name": "Слетевшие с катушек тюфяки",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила парирований +2 при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила в поединке +2 при 5 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1016,7 +1016,7 @@
         {
           "level": 4,
           "name": "Слетевшие с катушек тюфяки",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WhenUse] Сила парирований +2 при <style=\"highlight\">4</style> и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WhenUse] Сила в поединке +2 при <style=\"highlight\">4</style> и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1086,7 +1086,7 @@
         {
           "level": 4,
           "name": "Сжатие заводным ключом",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 при 4 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>\nСила монет + 1 при <style=\"highlight\">4</style> и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила в поединке +1 при 4 и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>\nСила монет + 1 при <style=\"highlight\">4</style> и более единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
             {},
             {
@@ -1216,7 +1216,7 @@
         {
           "level": 2,
           "name": "А ну заткнулись оба",
-          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> на себе\nСила парирований +1 при 7 и более <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> на себе\nСила в поединке +1 при 7 и более <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,7 +1240,7 @@
         {
           "level": 4,
           "name": "А ну заткнулись оба",
-          "desc": "Сила монет +1 при 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> на себе\nСила парирований <style=\"highlight\">+2</style> при 7 и более <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе",
+          "desc": "Сила монет +1 при 7 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> на себе\nСила в поединке <style=\"highlight\">+2</style> при 7 и более <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -1395,7 +1395,7 @@
         {
           "level": 4,
           "name": "Череполом",
-          "desc": "[BeforeUse] При 15 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяниях</link></u></color> заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу <style=\"highlight\">быстрее цели</style>\n[WhenUse] Сила монет +1 и <style=\"highlight\">Сила парирований +2</style> при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
+          "desc": "[BeforeUse] При 15 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяниях</link></u></color> заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу <style=\"highlight\">быстрее цели</style>\n[WhenUse] Сила монет +1 и <style=\"highlight\">Сила в поединке +2</style> при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1497,7 +1497,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+2.5% урона за каждые потраченные [RedEyeFirst] и [PenanceFirst] (До 100%)"
+                  "desc": "+2.5 урона за каждые потраченные [RedEyeFirst] и [PenanceFirst] (До 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/2)% от максимальных ОЗ себе и союзнику с наименьшими ОЗ\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"

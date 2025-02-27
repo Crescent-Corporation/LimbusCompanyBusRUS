@@ -26,11 +26,11 @@
     },
     {
       "id": "Before",
-      "content": "<size=120%>Перед битвой</size>"
+      "content": "Перед битвой"
     },
     {
       "id": "After",
-      "content": "<size=120%>После битвы</size>"
+      "content": "После битвы"
     },
     {
       "id": "None",
@@ -174,8 +174,7 @@
     },
     {
       "id": "OTHERSTORY",
-      "content": "Прочие истории",
-      "_comment": "Дорожные истории :D"
+      "content": "Истории поездок"
     },
     {
       "id": "DanteNote_Record",
@@ -271,15 +270,15 @@
     },
     {
       "id": "personality_voice_section_before_clear_chapter_format",
-      "content": "До {0}-й Песни"
+      "content": "До {0}-ой Песни"
     },
     {
       "id": "personality_voice_section_after_clear_chapter_format",
-      "content": "После {0}-й Песни"
+      "content": "После {0}-ой Песни"
     },
     {
       "id": "PersonalityStory_OpenCodition_UnlockCode106",
-      "content": "Пройдите 6-ю Песнь"
+      "content": "Пройдите 6-ую Песнь"
     },
     {
       "id": "PersoanlityStory_After",

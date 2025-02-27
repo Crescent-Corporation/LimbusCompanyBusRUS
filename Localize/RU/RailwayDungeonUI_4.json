@@ -14,7 +14,7 @@
     },
     {
       "id": "formation_waiting_character",
-      "content": "Запас"
+      "content": "Подмога"
     },
     {
       "id": "railway_dungeon_entrance_warning",
@@ -54,7 +54,7 @@
     },
     {
       "id": "formation_setting_waiting_character",
-      "content": "В запасе"
+      "content": "В подмоге"
     },
     {
       "id": "heal_character_who_does_not_participate_battle",
@@ -66,7 +66,7 @@
     },
     {
       "id": "formation_baton_continue",
-      "content": "<font=\"ExcelsiorSans SDF\">Цепная</font>"
+      "content": "Цепная"
     },
     {
       "id": "railway_dungeon_lose_battle_all_identity_dead",
@@ -106,19 +106,19 @@
     },
     {
       "id": "railway_dungeon_4_section_1_lost_and_found",
-      "content": "1-я Секция"
+      "content": "1-ая Секция"
     },
     {
       "id": "railway_dungeon_4_section_2_lost_and_found",
-      "content": "2-я Секция"
+      "content": "2-ая Секция"
     },
     {
       "id": "railway_dungeon_4_section_3_lost_and_found",
-      "content": "3-я Секция"
+      "content": "3-ья Секция"
     },
     {
       "id": "railway_dungeon_4_section_4_lost_and_found",
-      "content": "4-я Секция"
+      "content": "4-ая Секция"
     },
     {
       "id": "railway_dungeon_4_formation_reset",

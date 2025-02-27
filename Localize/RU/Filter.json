@@ -10,7 +10,7 @@
     },
     {
       "id": "number_of_targets",
-      "content": "Тяжесть атаки"
+      "content": "Число целей"
     },
     {
       "id": "SINGLE_TARGET",

@@ -433,13 +433,13 @@
         {
           "level": 1,
           "name": "Проклятый гвоздь",
-          "abName": "Страждущий мишка Тедди",
+          "abName": "Больной мишка Тедди",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к колющему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Пронзающему урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Зависти"
@@ -451,13 +451,13 @@
         {
           "level": 3,
           "name": "Проклятый гвоздь",
-          "abName": "Страждущий мишка Тедди",
+          "abName": "Больной мишка Тедди",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к колющему урону</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к Пронзающему урону</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Зависти"
@@ -472,13 +472,13 @@
         {
           "level": 4,
           "name": "Проклятый гвоздь",
-          "abName": "Страждущий мишка Тедди",
+          "abName": "Больной мишка Тедди",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к колющему урону</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к Пронзающему урону</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Зависти"
@@ -504,13 +504,13 @@
         {
           "level": 1,
           "name": "Проклятый гвоздь",
-          "abName": "Страждущий мишка Тедди",
+          "abName": "Больной мишка Тедди",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к колющему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Пронзающему урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Зависти"
@@ -522,13 +522,13 @@
         {
           "level": 3,
           "name": "Проклятый гвоздь",
-          "abName": "Страждущий мишка Тедди",
+          "abName": "Больной мишка Тедди",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к колющему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Пронзающему урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"VioletTakeDamageUp\"><color=#e30000><u><link=\"VioletTakeDamageUp\">Уязвимости к Зависти</link></u></color>"
@@ -543,13 +543,13 @@
         {
           "level": 4,
           "name": "Проклятый гвоздь",
-          "abName": "Страждущий мишка Тедди",
+          "abName": "Больной мишка Тедди",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к колющему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Пронзающему урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"VioletTakeDamageUp\"><color=#e30000><u><link=\"VioletTakeDamageUp\">Уязвимости к Зависти</link></u></color>"
@@ -1065,7 +1065,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 },
                 {
-                  "desc": "Повышает грань оглушения на 30% от нанесённого урона"
+                  "desc": "Повышает границу выносливости на 30% от нанесённого урона"
                 }
               ]
             }
@@ -1707,7 +1707,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает грань оглушения на 40% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Повышает границу выносливости на 40% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color>"
@@ -1728,7 +1728,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает грань оглушения на 40% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Повышает границу выносливости на 40% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color>"
@@ -1772,7 +1772,7 @@
                   "desc": "[OnSucceedAttack] Наносит двойной резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем противникам"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает грань оглушения на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 60% от нанесённого урона"
                 }
               ]
             }
@@ -1790,7 +1790,7 @@
                   "desc": "[EndSkill] Наносит двойной резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем противникам"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает грань оглушения на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 60% от нанесённого урона"
                 }
               ]
             }
@@ -2390,7 +2390,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[EndSkill] Восстанавливает 18 СД\n[EndSkill] Даёт 1 Повышение силы атаки 2-м случайным союзникам",
+          "desc": "[EndSkill] Восстанавливает 18 СД\n[EndSkill] Даёт 1 Повышение силы атаки 2-ум случайным союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -2431,7 +2431,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Даёт 1 Повышение силы атаки 2-м случайным союзникам",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Даёт 1 Повышение силы атаки 2-ум случайным союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -2854,7 +2854,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Даёт 1 Увеличение силы Зависти и 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> 2-м случайным союзникам на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Даёт 1 Увеличение силы Зависти и 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> 2-ум случайным союзникам на следующий ход"
                 }
               ]
             }
@@ -2919,7 +2919,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> 2-м случайным целям на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> 2-ум случайным целям на следующий ход"
                 }
               ]
             }
@@ -2970,7 +2970,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[BeforeAttack] Усиливает урон в зависимости от количества Похоти на руках (До 50%)",
+          "desc": "[BeforeAttack] Усиливает урон в зависимости от колтчества Похоти на руках (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3051,7 +3051,7 @@
                   "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает 10% максимальных ОЗ носителя"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>; если целью стал союзник, даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО-ресурсов</color></link></u> на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>; если целью стал союзник, даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО ресурсов</color></link></u> на следующий ход"
                 }
               ]
             }
@@ -3066,7 +3066,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 10%",
+          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для усиления урона на 10%",
           "coinlist": [
             {
               "coindescs": [
@@ -3081,7 +3081,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 20%",
+          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для усиления урона на 20%",
           "coinlist": [
             {
               "coindescs": [
@@ -3096,7 +3096,7 @@
           "level": 4,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 30%",
+          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для усиления урона на 30%",
           "coinlist": [
             {
               "coindescs": [
@@ -3307,7 +3307,7 @@
           "level": 1,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы дробящего урона на следующий ход",
+          "desc": "[EndSkill] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы Дробящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3328,7 +3328,7 @@
           "level": 3,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы дробящего урона на следующий ход",
+          "desc": "[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы Дробящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3352,7 +3352,7 @@
           "level": 4,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы дробящего урона на следующий ход",
+          "desc": "[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы Дробящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3381,7 +3381,7 @@
           "level": 1,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы дробящего урона на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы Дробящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3402,7 +3402,7 @@
           "level": 3,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы дробящего урона на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы Дробящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3416,7 +3416,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5-и случайным целям"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провоцирование оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 5-и случайным целям"
                 }
               ]
             }
@@ -3426,7 +3426,7 @@
           "level": 4,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы дробящего урона на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 Повышение силы Гнева, и 1 Повышение силы Дробящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3440,7 +3440,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5-и случайным целям"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провоцирование оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4 5-и случайным целям"
                 }
               ]
             }
@@ -3528,7 +3528,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 15 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 3-м случайным целям"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провоцирование оглушило цель, наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 3-м случайным целям"
                 }
               ]
             }
@@ -3910,7 +3910,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Лености и 1 Уязвимость к колющему урону на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Лености и 1 Уязвимость к Пронзающему урону на этот и следующий ход"
                 }
               ]
             }
@@ -3925,7 +3925,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color> и 2 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к колющему урону</link></u></color> на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color> и 2 <sprite name=\"PenetrateTakeDamageUp\"><color=#e30000><u><link=\"PenetrateTakeDamageUp\">Уязвимости к Пронзающему урону</link></u></color> на этот и следующий ход"
                 }
               ]
             }
@@ -3969,7 +3969,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3+ <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связываний</link></u></color>, наносит 1 Ослабление положительной монеты на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к рубящему урону</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к Рубящему урону</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -3990,7 +3990,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3+ <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связываний</link></u></color>, наносит 1 Ослабление положительной монеты на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к рубящему урону</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 2 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к Рубящему урону</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -4034,7 +4034,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3+ <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связываний</link></u></color>, наносит 2 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабления положительной монеты</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 1-3 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к рубящему урону</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 1-3 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к Рубящему урону</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -4179,7 +4179,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[BeforeAttack] Тяжесть атаки +1 при СД выше 15",
+          "desc": "[BeforeAttack] Число целей +1 при СД выше 15",
           "coinlist": [
             {
               "coindescs": [
@@ -4197,7 +4197,7 @@
           "level": 4,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[BeforeAttack] Тяжесть атаки +2 при СД выше 15",
+          "desc": "[BeforeAttack] Число целей +2 при СД выше 15",
           "coinlist": [
             {
               "coindescs": [
@@ -4241,7 +4241,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тяжесть атаки +1 при СД ниже -15",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Число целей +1 при СД ниже -15",
           "coinlist": [
             {
               "coindescs": [
@@ -4265,7 +4265,7 @@
           "level": 4,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тяжесть атаки +2 при СД ниже -15",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Число целей +2 при СД ниже -15",
           "coinlist": [
             {
               "coindescs": [
