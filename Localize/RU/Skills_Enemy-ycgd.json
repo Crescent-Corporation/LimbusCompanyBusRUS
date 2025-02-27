@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Сосредоточенный удар",
-          "desc": "Сила монет +1 против целей с 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WinDuel] Получает 1 Повышение Рубящего урона на следующий ход",
+          "desc": "Сила монет +1 против целей с 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WinDuel] Получает 1 Повышение рубящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -54,7 +54,7 @@
         {
           "level": 1,
           "name": "Облачный вихрь",
-          "desc": "Сила монет +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WinDuel] Получает 1 Повышение силы Рубящей атаки на следующий ход",
+          "desc": "Сила монет +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -87,7 +87,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Получает 1 Повышение Рубящего урона на следующий ход (Раз за ход)",
+          "desc": "[OnSucceedEvade] Получает 1 Повышение рубящего урона на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -147,7 +147,7 @@
         {
           "level": 1,
           "name": "Острый клинок",
-          "desc": "[WinDuel] Получает 1 Повышение Рубящего урона на следующий ход",
+          "desc": "[WinDuel] Получает 1 Повышение рубящего урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -180,7 +180,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Получает 1 Повышение Рубящего урона на следующий ход (Раз за ход)",
+          "desc": "[OnSucceedEvade] Получает 1 Повышение рубящего урона на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -288,7 +288,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пронзающий разрез",
+          "name": "колющий разрез",
           "desc": "",
           "coinlist": [
             {
@@ -420,7 +420,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Рубящему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
@@ -430,7 +430,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Рубящему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
@@ -480,7 +480,7 @@
         {
           "level": 1,
           "name": "Заточенное острие",
-          "desc": "[StartBattle] Даёт 2 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышения Рубящего урона</link></u></color> всем союзникам (включая себя)\n[StartBattle] Получает 2 <sprite name=\"SlashResultUp\"><color=#f8c200><u><link=\"SlashResultUp\">Повышения силы Рубящей атаки</link></u></color>",
+          "desc": "[StartBattle] Даёт 2 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышения рубящего урона</link></u></color> всем союзникам (включая себя)\n[StartBattle] Получает 2 <sprite name=\"SlashResultUp\"><color=#f8c200><u><link=\"SlashResultUp\">Повышения силы рубящей атаки</link></u></color>",
           "coinlist": [
             {},
             {
@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "Разрез, расчищающий небо",
-          "desc": "[StartBattle] Число целей +1, если у основной цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[StartBattle] Итоговая сила +1 при 5 атакующих навыках в слотах на начало хода\n[WinDuel] Восстанавливает 10 СД всем союзникам\n+30% урона против целей с 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "[StartBattle] Тяжесть атаки +1, если у основной цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[StartBattle] Итоговая сила +1 при 5 атакующих навыках в ячейках на начало хода\n[WinDuel] Восстанавливает 10 СД всем союзникам\n+30% урона против целей с 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [

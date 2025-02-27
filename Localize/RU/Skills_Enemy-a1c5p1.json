@@ -659,7 +659,7 @@
                 {
                     "level": 1,
                     "name": "Слабость обнаружена! Огонь!",
-                    "desc": "Если на цели 5+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</color></link></u></color></link></u>, сила в поединке +2",
+                    "desc": "Если на цели 5+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</color></link></u></color></link></u>, сила парирований +2",
                     "coinlist": [
                         {
                             "coindescs": [

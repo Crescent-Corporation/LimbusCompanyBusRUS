@@ -149,7 +149,7 @@
           "level": 3,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[BeforeAttack] Число целей +1 при менее 50% ОЗ",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -170,7 +170,7 @@
           "level": 4,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[BeforeAttack] Число целей +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -217,7 +217,7 @@
           "level": 3,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nАтакует цели с наименьшими ОЗ\n[BeforeAttack] Число целей +1 при менее 50% ОЗ",
+          "desc": "[CantIdentify]\nАтакует цели с наименьшими ОЗ\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -238,7 +238,7 @@
           "level": 4,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nАтакует цели с наименьшими ОЗ\n[BeforeAttack] Число целей +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
+          "desc": "[CantIdentify]\nАтакует цели с наименьшими ОЗ\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -386,6 +386,244 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6+ в сумме скорости Хон Лу и его цели</style>\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хон Лу / 2) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями этого навыка (До 3)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хон Лу / 2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> между целями этого навыка (До 3)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 при 6+ в сумме скорости Хон Лу и его цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления ОЗ</link></u></color></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет [Laceration], равное скорости Хон Лу, между целями этого навыка (До 7)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>, равные скорости Хон Лу, между целями этого навыка (До 7)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +1% урона за каждое [Laceration] на цели (До 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1% урона за каждый [Burst] на цели (До 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Сила монет +1 при 6+ в сумме скорости Хон Лу и его цели</style>\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +1% урона за каждое [Laceration] на цели <style=\"highlight\">(До 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1% урона за каждый [Burst] на цели <style=\"highlight\">(До 30%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила монет +1 при 6+ в сумме скорости Хон Лу и его цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n<style=\"highlight\">[BeforeAttack] Если резонанс состоит из 4+ грехов Чревоугодия или Похоти, тяжесть атаки +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления ОЗ</link></u></color></style></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +1% урона за каждое [Laceration] на цели (До 30%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1% урона за каждый [Burst] на цели (До 30%)<style=\"highlight\"></style>"
                 }
               ]
             }

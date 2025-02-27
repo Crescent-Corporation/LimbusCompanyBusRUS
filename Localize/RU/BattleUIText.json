@@ -134,7 +134,7 @@
     },
     {
       "id": "low_morale",
-      "content": "Низкий дух"
+      "content": "Потеря духа"
     },
     {
       "id": "panic",
@@ -170,15 +170,15 @@
     },
     {
       "id": "slash",
-      "content": "Рубящий"
+      "content": "рубящий"
     },
     {
       "id": "penetrate",
-      "content": "Пронзающий"
+      "content": "колющий"
     },
     {
       "id": "hit",
-      "content": "Дробящий"
+      "content": "дробящий"
     },
     {
       "id": "action_disable",
@@ -486,7 +486,7 @@
     },
     {
       "id": "penetrate_resistance",
-      "content": "Соп. к пронзающему"
+      "content": "Соп. к колющему"
     },
     {
       "id": "hit_resistance",
@@ -562,7 +562,7 @@
     },
     {
       "id": "targetSlotWeight",
-      "content": "Число целей"
+      "content": "<font=\"ExcelsiorSans SDF\"><align=\"right\">Тяжесть\nатаки</align></font>"
     },
     {
       "id": "EGO_ErodeProbability",
@@ -726,7 +726,7 @@
     },
     {
       "id": "LobotomyOrdealTypo_QliphothLevel",
-      "content": "Перегрев Клипот — Фаза {0}"
+      "content": "Перегрев Клипот: Фаза {0}"
     },
     {
       "id": "SinkingWhite_stack",
