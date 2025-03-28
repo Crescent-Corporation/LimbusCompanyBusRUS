@@ -102,7 +102,7 @@
     },
     {
       "id": "CantDuel",
-      "name": "[Поединок[TabExplain] невозможен]"
+      "name": "[Пое\u200Bдинок невозможен]"
     },
     {
       "id": "EnemyKill",
@@ -243,6 +243,10 @@
     {
       "id": "UnBrokenCoinOnSucceedAttack",
       "name": "[При ударе, без трещин]"
+    },
+    {
+      "id": "BeforeHit",
+      "name": "[Перед принятием атаки]"
     }
   ]
 }

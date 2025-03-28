@@ -210,7 +210,7 @@
     },
     {
       "id": "side_content_need_lower_tier_ego_gift",
-      "content": "Вы можете выбрать ЭГО Дары лишь 3 уровня и ниже."
+      "content": "Вы можете выбрать ЭГО Дары лишь 3 ранга и ниже."
     },
     {
       "id": "side_title_unable_ego_gift_sell",
@@ -290,7 +290,7 @@
     },
     {
       "id": "side_content_already_owned_tier_ego_gift",
-      "content": "Вы больше не можете получить ЭГО Дары этого уровня при соединении Даров на остановках."
+      "content": "Вы больше не можете получить ЭГО Дары этого ранга при соединении Даров на остановках."
     },
     {
       "id": "mirror_dungoen_ego_gift_history_view_desc",

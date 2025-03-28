@@ -362,7 +362,7 @@
     },
     {
       "id": "md4_buffs_summaryDesc_1134",
-      "content": "[Shops]\nTier 4+ E.G.O Gift purchase Cost -7.5%"
+      "content": "[Shops]\nTier 4 и более E.G.O Gift purchase Cost -7.5%"
     },
     {
       "id": "md4_buffs_summaryDesc_114",
@@ -434,7 +434,7 @@
     },
     {
       "id": "md4_buffs_summaryDesc_1164",
-      "content": "[Shops]\nTier 4+ E.G.O Gift sale Cost +20%"
+      "content": "[Shops]\nTier 4 и более E.G.O Gift sale Cost +20%"
     },
     {
       "id": "md4_buffs_summaryDesc_1165",
@@ -462,7 +462,7 @@
     },
     {
       "id": "md4_buffs_summaryDesc_1214",
-      "content": "[Rest Stops]\nTier 4+ E.G.O Gift Enhance Cost -7.5%"
+      "content": "[Rest Stops]\nTier 4 и более E.G.O Gift Enhance Cost -7.5%"
     },
     {
       "id": "md4_buffs_summaryDesc_122",
@@ -842,7 +842,7 @@
     },
     {
       "id": "mirrordungeon_ego_gift_sort_by_tier",
-      "content": "По уровню"
+      "content": "По рангу"
     },
     {
       "id": "mirrordungeon_ego_gift_sort_by_keyword",
@@ -1178,7 +1178,7 @@
     },
     {
       "id": "combine_tooltip_notice",
-      "content": "Если вы заполучили все ожидаемые ЭГО Дары определённого уровня, то соединение Даров невозможно."
+      "content": "Если вы заполучили все ожидаемые ЭГО Дары определённого ранга, то соединение Даров невозможно."
     }
   ]
 }

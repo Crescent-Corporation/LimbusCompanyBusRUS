@@ -11,7 +11,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. Если на цели есть Кровотечение, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 1"
                                 }
                             ]
                         }
@@ -30,14 +30,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                                 }
                             ]
                         }
@@ -51,7 +51,7 @@
                 {
                     "level": 1,
                     "name": "Боль",
-                    "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -70,7 +70,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на цели"
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
                                 }
                             ]
                         }
@@ -84,7 +84,7 @@
                 {
                     "level": 1,
                     "name": "Блок",
-                    "desc": "Если на испытании остался щит, наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при ударе на следующем ходу",
+                    "desc": "Если на испытании остался щит, наносит 2 [Laceration:*Кровотечения*] при ударе на следующем ходу",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -109,7 +109,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. Если на цели есть Кровотечение, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 }
                             ]
                         }
@@ -128,14 +128,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
                                 }
                             ]
                         }
@@ -149,7 +149,7 @@
                 {
                     "level": 1,
                     "name": "Боль",
-                    "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -157,7 +157,7 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
                                 }
                             ]
                         },
@@ -167,14 +167,14 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на цели"
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
                                 }
                             ]
                         }
@@ -213,7 +213,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. Если на цели есть Кровотечение, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 }
                             ]
                         }
@@ -232,14 +232,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
                                 }
                             ]
                         }
@@ -253,7 +253,7 @@
                 {
                     "level": 1,
                     "name": "Боль",
-                    "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.\nПри убийстве этой атакой, использует её снова.",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.\nПри убийстве этой атакой, использует её снова.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -261,7 +261,7 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttack] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
                                 }
                             ]
                         },
@@ -271,17 +271,17 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttack] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на цели"
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, снова подкидывает монету (Один раз)"
+                                    "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:*Кровотечения*], снова подкидывает монету (Один раз)"
                                 }
                             ]
                         }
@@ -320,20 +320,20 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. Если на цели есть Кровотечение, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                                 }
                             ]
                         }
@@ -352,14 +352,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
                                 }
                             ]
                         },
@@ -367,7 +367,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
                                 }
                             ]
                         }
@@ -381,7 +381,7 @@
                 {
                     "level": 1,
                     "name": "Боль",
-                    "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 15 СД.\nПри убийстве этой атакой, использует её снова.",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 15 СД.\nПри убийстве этой атакой, использует её снова.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -389,7 +389,7 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине [Laceration:*Кровотечения*] на ней"
                                 }
                             ]
                         },
@@ -399,7 +399,7 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине [Laceration:*Кровотечения*] на ней"
                                 }
                             ]
                         },
@@ -409,17 +409,17 @@
                                     "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на ней"
+                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине [Laceration:*Кровотечения*] на ней"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на цели"
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
                                 },
                               {
-                                "desc": "[OnSucceedAttack] Если на цели 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, снова подкидывает монету (Один раз)"
+                                "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration:*Кровотечения*], снова подкидывает монету (Один раз)"
                               }
                             ]
                         }

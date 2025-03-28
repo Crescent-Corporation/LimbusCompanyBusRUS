@@ -7,12 +7,12 @@
           "level": 1,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + резонанс Уныния) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + резонанс Уныния) [Sinking:*Утопания*] между целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], наносит 1 Связывание на следующий ход"
                 }
               ]
             }
@@ -22,12 +22,12 @@
           "level": 3,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + резонанс Уныния) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + резонанс Уныния) [Sinking:*Утопания*] между целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], наносит 2 [Binding:*Связывания*] на следующий ход"
                 }
               ]
             }
@@ -37,12 +37,12 @@
           "level": 4,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + <style=\"highlight\">x1.5</style> резонанса Уныния) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + <style=\"highlight\">x1.5</style> резонанса Уныния) [Sinking:*Утопания*] между целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], наносит 2 [Binding:*Связывания*] на следующий ход"
                 }
               ]
             }
@@ -62,10 +62,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>. наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]. наносит 2 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], наносит 1 Связывание на следующий ход"
                 }
               ]
             }
@@ -80,10 +80,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>. наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]. наносит 2 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], наносит 1 Связывание на следующий ход"
                 }
               ]
             }
@@ -98,10 +98,279 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>. наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]. наносит 2 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], наносит 2 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 2010711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "И Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n[BeforeAttack] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только основной цели."
+                },
+                {
+                  "desc": "Если основной целью стал союзник, +8% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 56%)"
+                },
+                {
+                  "desc": "[AllyKill] И Сан и 2 союзника получают 2 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[AllyKillFail] И Сан получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели"
+                },
+                {
+                  "desc": "+2% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] 14%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "И Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n[BeforeAttack] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только основной цели.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, <style=\"highlight\">+10% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 70%)</style>"
+                },
+                {
+                  "desc": "[AllyKill] И Сан и 2 союзника получают 3 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс греха 1-го атакующего навыка убитого союзника</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">3</style> [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+5%</style> критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 35%)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "И Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n<style=\"highlight\">- Если грех резонанса — Гордыня, взамен И Сан получает (наибольший резонанс x 2) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)</style>\n[BeforeAttack] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только основной цели.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, <style=\"highlight\">+15%</style> урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 105%)</style>"
+                },
+                {
+                  "desc": "[AllyKill] И Сан и 2 союзника получают 3 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс грехов 1-го и 2-го атакующих навыков убитого союзника</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">3</style> [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+9%</style> критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 63%)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:*Кровотечения*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[CantIdentify]\nИ Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n[BeforeAttack] +2% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только основной цели."
+                },
+                {
+                  "desc": "Если основной целью стал союзник, +10% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 70%)"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, +2% урона за каждое [Breath] у И Сана (До 50%)"
+                },
+                {
+                  "desc": "[AllyKill] И Сан и 3 союзника получают 2 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[AllyKill] +2% урона на следующую монету за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)"
+                },
+                {
+                  "desc": "[AllyKill] +1 ЭГО-ресурс грехов 1-го и 2-го атакующих навыков убитого союзника"
+                },
+                {
+                  "desc": "[AllyKillFail] И Сан получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели"
+                },
+                {
+                  "desc": "+2% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] 14%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[CantIdentify]\nИ Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n[BeforeAttack] <style=\"highlight\">+3%</style> урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 21%)</style>\n[BeforeAttack] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только основной цели.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, <style=\"highlight\">+12%</style> урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 84%)</style>"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, +2% урона за каждое [Breath] у И Сана (До 50%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[AllyKill] И Сан и 3 союзника получают <style=\"highlight\">3</style> [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[AllyKill] <style=\"highlight\">+5%</style> урона на следующую монету за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 35%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс грехов 1-го, 2-го и 3-го атакующих навыков убитого союзника</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">2</style> [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+3%</style> критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 21%)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[CantIdentify]\nИ Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n<style=\"highlight\">- Если грех резонанса — Гордыня, взамен И Сан получает (наибольший резонанс x 2) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)</style>\n[BeforeAttack] <style=\"highlight\">+4%</style> урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 28%)</style>\n[BeforeAttack] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только основной цели.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, +15%</style> урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 105%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Если основной целью стал союзник, +2% урона за каждое [Breath] у И Сана (До 50%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+30% критического урона</style>"
+                },
+                {
+                  "desc": "[AllyKill] И Сан и 3 союзника получают <style=\"highlight\">4</style> [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[AllyKill] <style=\"highlight\">+7%</style> урона на следующую монету за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 49%)</style>"
+                },
+                {
+                  "desc": "[AllyKill] +1 ЭГО-ресурс грехов 1-го, 2-го и 3-го атакующих навыков убитого союзника<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">3</style> [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+4%</style> критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] <style=\"highlight\">(До 28%)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">5</style> [Laceration:*Кровотечения*]"
                 }
               ]
             }

@@ -25,7 +25,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*]"
                                 }
                             ]
                         }
@@ -58,7 +58,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
                                 }
                             ]
                         }
@@ -92,7 +92,7 @@
                 {
                     "level": 1,
                     "name": "Властность",
-                    "desc": "[StartBattle] Даёт 1 Повышение силы атаки всем союзникам\n[StartBattle] Наносит 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color> двум противникам с наименьшей СД",
+                    "desc": "[StartBattle] Даёт 1 Повышение силы атаки всем союзникам\n[StartBattle] Наносит 2 [Reduction:*Понижения силы атаки*] двум противникам с наименьшей СД",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -111,7 +111,7 @@
               {
                 "level": 1,
                 "name": "Пусть это будет незабываемо",
-                "desc": "[StartBattle] Получает 2 <sprite name=\"AaCePbBi\"><color=#a16a3b><u><link=\"AaCePbBi\">Испытания Среднего брата</link></u></color>. Получает 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связываний</link></u></color> на следующий ход.",
+                "desc": "[StartBattle] Получает 2 [AaCePbBi:*Испытания Среднего брата*]. Получает 5 [Binding:*Связываний*] на следующий ход.",
                 "coinlist": [
                   {
                     "coindescs": [
@@ -138,7 +138,7 @@
                                     "desc": "[OnSucceedAttack] Восстанавливает себе 10 СД"
                                 },
                               {
-                                "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> и 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color> на следующий ход"
+                                "desc": "[OnSucceedAttack] Накладывает 2 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход"
                               }
                             ]
                         },
@@ -178,7 +178,7 @@
               {
                 "level": 1,
                 "name": "Клятва отмщения",
-                "desc": "[StartBattle] Получает 2 <sprite name=\"AaCePbBi\"><color=#a16a3b><u><link=\"AaCePbBi\">Испытания Среднего брата</link></u></color>. Получает 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связываний</link></u></color> и 5 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышений урона</link></u></color> на следующий ход.",
+                "desc": "[StartBattle] Получает 2 [AaCePbBi:*Испытания Среднего брата*]. Получает 5 [Binding:*Связываний*] и 5 [AttackDmgUp:*Повышений урона*] на следующий ход.",
                 "coinlist": [
                   {
                     "coindescs": [
@@ -196,8 +196,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "МОИ ПАРИКМАХЕРСКИЕ КУПОООООООООООНЫ!!!",
-                    "desc": "Если у главной цели менее 0 СД, итоговая сила +5",
+                    "name": "<smallcaps>Мои парикмахерские купо-о-о-о-о-оны!!!</smallcaps>",
+                    "desc": "Если у основной цели менее 0 СД, итоговая сила +5",
                     "coinlist": [
                         {
                             "coindescs": [

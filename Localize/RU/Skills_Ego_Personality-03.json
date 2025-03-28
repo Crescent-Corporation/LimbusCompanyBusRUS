@@ -12,10 +12,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -30,13 +30,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis:*Паралича*]"
                 }
               ]
             }
@@ -51,13 +51,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis:*Паралича*]"
                 }
               ]
             }
@@ -77,16 +77,16 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }
@@ -101,16 +101,16 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 6 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }
@@ -125,16 +125,16 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 8 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }
@@ -149,12 +149,12 @@
           "level": 1,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] При 20 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +30% урона",
+          "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] При 20 и более на счётчике [Charge:*Заряда*], тратит 20 единиц счётчика [Charge:*Заряда*], чтобы получить +30% урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:*Заряда*] на 2"
                 }
               ]
             }
@@ -164,12 +164,12 @@
           "level": 3,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 2)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x 5% (До 15%)\n[BeforeAttack] При 20 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +35% урона",
+          "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 2)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x 5% (До 15%)\n[BeforeAttack] При 20 и более на счётчике [Charge:*Заряда*], тратит 20 единиц счётчика [Charge:*Заряда*], чтобы получить +35% урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:*Заряда*] на 2"
                 }
               ]
             }
@@ -179,12 +179,12 @@
           "level": 4,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 3)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x 10% (До 30%)\n[BeforeAttack] При 20 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +40% урона",
+          "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 3)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x 10% (До 30%)\n[BeforeAttack] При 20 и более на счётчике [Charge:*Заряда*], тратит 20 единиц счётчика [Charge:*Заряда*], чтобы получить +40% урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:*Заряда*] на 2"
                 }
               ]
             }
@@ -199,12 +199,12 @@
           "level": 1,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x 5% (До 15%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату 1.5% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +2.5% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 50%)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x 5% (До 15%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату 1.5% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +2.5% за единицу [Charge:*Заряда*] (До 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:*Заряда*] на 3"
                 }
               ]
             }
@@ -214,12 +214,12 @@
           "level": 3,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x <style=\"highlight\">8</style>% (До <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату 1.5% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +<style=\"highlight\">3.5</style>% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До  <style=\"highlight\">70</style>%)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x <style=\"highlight\">8</style>% (До <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату 1.5% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +<style=\"highlight\">3.5</style>% за единицу [Charge:*Заряда*] (До  <style=\"highlight\">70</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:*Заряда*] на 3"
                 }
               ]
             }
@@ -229,12 +229,12 @@
           "level": 4,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x <style=\"highlight\">12</style>% (До <style=\"highlight\">36</style>%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату <style=\"highlight\">1</style>% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +<style=\"highlight\">5</style>% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До  <style=\"highlight\">100</style>%)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) x <style=\"highlight\">12</style>% (До <style=\"highlight\">36</style>%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату <style=\"highlight\">1</style>% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +<style=\"highlight\">5</style>% за единицу [Charge:*Заряда*] (До  <style=\"highlight\">100</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:*Заряда*] на 3"
                 }
               ]
             }
@@ -250,7 +250,7 @@
           "level": 1,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила парирований +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого банкета</link></u></color> (До 2)\n[BeforeAttack] При 50- единиц <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color> Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] (До 2)\n[BeforeAttack] При менее 50 единиц [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -258,7 +258,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10%)"
+                  "desc": "+0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
                 }
               ]
             },
@@ -268,7 +268,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 100+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10%)"
+                  "desc": "При 100 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
                 }
               ]
             },
@@ -278,7 +278,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 200+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 20%)"
+                  "desc": "При 200 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 20%)"
                 }
               ]
             },
@@ -288,7 +288,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 300+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 30%)"
+                  "desc": "При 300 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 30%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
@@ -301,7 +301,7 @@
           "level": 3,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\n<style=\"highlight\">Сила монет +1 при 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели</style>\nСила парирований +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого банкета</link></u></color> (До <style=\"highlight\">3</style>)\n[BeforeAttack] При <style=\"highlight\">75-</style> <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color> Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\n<style=\"highlight\">Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели</style>\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] (До <style=\"highlight\">3</style>)\n[BeforeAttack] При <style=\"highlight\">75-</style> [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -309,7 +309,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10%)<style=\"highlight\"></style>"
+                  "desc": "+0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -319,7 +319,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 100+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">15</style>%)"
+                  "desc": "При 100 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">15</style>%)"
                 }
               ]
             },
@@ -329,7 +329,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 200+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">25</style>%)"
+                  "desc": "При 200 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">25</style>%)"
                 }
               ]
             },
@@ -339,7 +339,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 300+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">40</style>%)"
+                  "desc": "При 300 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">40</style>%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
@@ -352,7 +352,7 @@
           "level": 4,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет +1 <style=\"highlight\">за каждые 10</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2)</style>\nСила парирований +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого банкета</link></u></color> <style=\"highlight\">(До 5)</style>\n[BeforeAttack] При <style=\"highlight\">100-</style> <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color> Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет +1 <style=\"highlight\">за каждые 10</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2)</style>\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] <style=\"highlight\">(До 5)</style>\n[BeforeAttack] При <style=\"highlight\">100-</style> [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -360,7 +360,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10%)"
+                  "desc": "+0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
                 }
               ]
             },
@@ -370,7 +370,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 100+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">20</style>%)"
+                  "desc": "При 100 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">20</style>%)"
                 }
               ]
             },
@@ -380,7 +380,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 200+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">30</style>%)"
+                  "desc": "При 200 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">30</style>%)"
                 }
               ]
             },
@@ -390,7 +390,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 300+ долях, +0.1% урона за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">50</style>%)"
+                  "desc": "При 300 и более долях, +0.1% урона за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">50</style>%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">4</style>)"
@@ -408,22 +408,22 @@
           "level": 1,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n[BeforeAttack] При 150- <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color> Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает свой счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2",
+          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более [Laceration:*Кровотечения*] на цели\n[BeforeAttack] При 1менее 50 [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 [Laceration:*Кровотечения*] и сразу активирует его эффект; затем она понижает свой счётчик [Laceration:*Кровотечения*] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100+ единиц <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] при 100 и более единиц [BloodDinner:*Кровавого пиршества*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Урон +5% за каждые 100 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 25%)"
+                  "desc": "Урон +5% за каждые 100 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 25%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
@@ -439,22 +439,22 @@
           "level": 3,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n<style=\"highlight\">Сила монет -1 при 200+ единиц <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого банкета</link></u></color></style>\n[BeforeAttack] При 150- <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color> Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает свой счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2",
+          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более [Laceration:*Кровотечения*] на цели\n<style=\"highlight\">Сила монет -1 при 200 и более единиц [BloodDinner_Accumulation:*Испитого пиршества*]</style>\n[BeforeAttack] При 1менее 50 [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 [Laceration:*Кровотечения*] и сразу активирует его эффект; затем она понижает свой счётчик [Laceration:*Кровотечения*] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100+ единиц <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] при 100 и более единиц [BloodDinner:*Кровавого пиршества*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Урон +<style=\"highlight\">10</style>% за каждые 100 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">50</style>%)"
+                  "desc": "Урон +<style=\"highlight\">10</style>% за каждые 100 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">50</style>%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">4</style>)"
@@ -470,22 +470,22 @@
           "level": 4,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\nСила монет -1 при 200+ единиц <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого банкета</link></u></color>\n[BeforeAttack] При 150- <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color> Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает свой счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более [Laceration:*Кровотечения*] на цели\nСила монет -1 при 200 и более единиц [BloodDinner_Accumulation:*Испитого пиршества*]\n[BeforeAttack] При 1менее 50 [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 [Laceration:*Кровотечения*] и сразу активирует его эффект; затем она понижает свой счётчик [Laceration:*Кровотечения*] на 2<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100+ единиц <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого банкета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] при 100 и более единиц [BloodDinner:*Кровавого пиршества*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Урон +<style=\"highlight\">20</style>% за каждые 100 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">100</style>%)"
+                  "desc": "Урон +<style=\"highlight\">20</style>% за каждые 100 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">100</style>%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">5</style>)"

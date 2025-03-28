@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "Тебе страшно?",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +1\n[DefeatDuel] При 75% ОЗ и менее тратит 50 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color>, чтобы получить 1 [Protection] (Раз за ход)",
+          "desc": "Пока [TimeAcceleration:*в ускоренном состоянии*], сила парирований +1\n[DefeatDuel] При 75% ОЗ и менее тратит 50 [LimitedTime:*Украденного времени*], чтобы получить 1 [Protection] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -32,26 +32,26 @@
         {
           "level": 1,
           "name": "Наказание за убийство времени",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +2\n[WhenUse] При 500 и более <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color> повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1\n[WhenUse] При 300 и более<sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color> тратит 25 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color>, чтобы повысить счётчик и потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносимые этим навыком, на 1",
+          "desc": "Пока [TimeAcceleration:*в ускоренном состоянии*], сила парирований +2\n[WhenUse] При 500 и более [LimitedTime:*Украденного времени*] повышает счётчик [Laceration:*Кровотечения*] цели на 1\n[WhenUse] При 300 и более[LimitedTime:*Украденного времени*] тратит 25 [LimitedTime:*Украденного времени*], чтобы повысить счётчик и потенциал [Laceration:*Кровотечения*], наносимые этим навыком, на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             }
@@ -65,33 +65,33 @@
         {
           "level": 1,
           "name": "Добыча",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] При 75% и менее ОЗ тратит 50 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований",
+          "desc": "Пока [TimeAcceleration:*в ускоренном состоянии*], сила монет +1\n[WhenUse] При 75% и менее ОЗ тратит 50 [LimitedTime:*Украденного времени*] для +2 к силе парирований",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             }
@@ -105,19 +105,19 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1",
+          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 [LimitedTime:*Украденного времени*] для +2 к силе парирований\n[BeforeAttack] Пока [TimeAcceleration:*в ускоренном состоянии*], тяжесть атаки +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -131,7 +131,7 @@
         {
           "level": 1,
           "name": "Время спасения",
-          "desc": "[CantDuel]\nВыбирает <sprite name=\"TimeKillerWatch\"><color=#a16a3b><u><link=\"TimeKillerWatch\">целью спасения времени</link></u></color> противника, использовавшего на него атакующий навык, на следующий ход\n[StartBattle] Тратит 200 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color>. Переходит в <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">ускоренное состояние</link></u></color> на следующий ход",
+          "desc": "[CantDuel]\nВыбирает [TimeKillerWatch:*целью спасения времени*] противника, использовавшего на него атакующий навык, на следующий ход\n[StartBattle] Тратит 200 [LimitedTime:*Украденного времени*]. Переходит в [TimeAcceleration:*ускоренное состояние*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -150,7 +150,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 100 <sprite name=\"LimitedTime\"><color=#a16a3b><u><link=\"LimitedTime\">Украденного времени</link></u></color>",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 100 [LimitedTime:*Украденного времени*]",
           "coinlist": [
             {
               "coindescs": [
@@ -169,19 +169,19 @@
         {
           "level": 1,
           "name": "Тебе страшно?",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +1\n[DefeatDuel] При 75% ОЗ и менее тратит 50 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы получить 1 [Protection] (Раз за ход)",
+          "desc": "Пока [TimeAcceleration:*в ускоренном состоянии*], сила парирований +1\n[DefeatDuel] При 75% ОЗ и менее тратит 50 [OwnTime:*Распределённого времени*], чтобы получить 1 [Protection] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -195,26 +195,26 @@
         {
           "level": 1,
           "name": "Наказание за убийство времени",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +2\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей равно 500 и больше, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1\n[WhenUse] При 300 и более <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color>, тратит 25 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы повысить счётчик и потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносимые этим навыком, на 1",
+          "desc": "Пока [TimeAcceleration:*в ускоренном состоянии*], сила парирований +2\n[WhenUse] Если сумма [OwnTime:*Распределённого времени*] всех частей равно 500 и больше, повышает счётчик [Laceration:*Кровотечения*] цели на 1\n[WhenUse] При 300 и более [OwnTime:*Распределённого времени*], тратит 25 [OwnTime:*Распределённого времени*], чтобы повысить счётчик и потенциал [Laceration:*Кровотечения*], наносимые этим навыком, на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             }
@@ -228,33 +228,33 @@
         {
           "level": 1,
           "name": "Добыча",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] При 75% и менее ОЗ тратит 50 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований",
+          "desc": "Пока [TimeAcceleration:*в ускоренном состоянии*], сила монет +1\n[WhenUse] При 75% и менее ОЗ тратит 50 [OwnTime:*Распределённого времени*] для +2 к силе парирований",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             }
@@ -268,19 +268,19 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1\n[BeforeAttack] При 60% и менее ОЗ тратит 10 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +1 к кол-ву целей",
+          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 [OwnTime:*Распределённого времени*] для +2 к силе парирований\n[BeforeAttack] Пока [TimeAcceleration:*в ускоренном состоянии*], тяжесть атаки +1\n[BeforeAttack] При 60% и менее ОЗ тратит 10 [OwnTime:*Распределённого времени*] для +1 к кол-ву целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -294,7 +294,7 @@
         {
           "level": 1,
           "name": "Время спасения",
-          "desc": "[CantDuel]\nВыбирает <sprite name=\"TimeKillerWatch\"><color=#a16a3b><u><link=\"TimeKillerWatch\">целью спасения времени</link></u></color> противника, использовавшего на него атакующий навык, на следующий ход\n[StartBattle] Тратит 200 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color>. Переходит в <sprite name=\"TimeAcceleration\"><color=#a16a3b><u><link=\"TimeAcceleration\">ускоренное состояние</link></u></color> на следующий ход)",
+          "desc": "[CantDuel]\nВыбирает [TimeKillerWatch:*целью спасения времени*] противника, использовавшего на него атакующий навык, на следующий ход\n[StartBattle] Тратит 200 [OwnTime:*Распределённого времени*]. Переходит в [TimeAcceleration:*ускоренное состояние*] на следующий ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -313,7 +313,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] За каждые 100 в сумме <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей базовая сила +1",
+          "desc": "[WhenUse] За каждые 100 в сумме [OwnTime:*Распределённого времени*] всех частей базовая сила +1",
           "coinlist": [
             {
               "coindescs": [
@@ -332,12 +332,12 @@
         {
           "level": 1,
           "name": "Время, убивающее время",
-          "desc": "[CantDuel]\nСкорость Потрошителя времени фиксируется на 12.\nПотрошителя времени нельзя оглушить в этот ход.\n[WhenUse] Тратит 400 <sprite name=\"OwnTime\"><color=#a16a3b><u><link=\"OwnTime\">Распределённого времени</link></u></color>.",
+          "desc": "[CantDuel]\nСкорость Потрошителя времени фиксируется на 12.\nПотрошителя времени нельзя оглушить в этот ход.\n[WhenUse] Тратит 400 [OwnTime:*Распределённого времени*].",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Стирает время цели. Если время цели стёрто, все части полностью восстанавливают [OwnTime], а также получают 10 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 10 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышений силы атаки</link></u></color> на следующий ход."
+                  "desc": "[OnSucceedAttack] Стирает время цели. Если время цели стёрто, все части полностью восстанавливают [OwnTime], а также получают 10 [Agility:*Спешки*] и 10 [Enhancement:*Повышений силы атаки*] на следующий ход."
                 }
               ]
             }
@@ -356,7 +356,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -370,26 +370,26 @@
         {
           "level": 1,
           "name": "Ти-ик",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более [Laceration:*Кровотечения*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             }
@@ -403,22 +403,22 @@
         {
           "level": 1,
           "name": "Ти-ти-тик",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более [Laceration:*Кровотечения*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion:*Огня*]"
                 }
               ]
             }
@@ -456,14 +456,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -482,28 +482,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
                 }
               ]
             }

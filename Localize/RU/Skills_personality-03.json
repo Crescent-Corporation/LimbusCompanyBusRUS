@@ -84,7 +84,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 Понижение урона"
@@ -106,7 +106,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 Понижение урона"
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Понижение урона"
@@ -347,7 +347,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             }
@@ -356,12 +356,12 @@
         {
           "level": 2,
           "name": "Покусаю!",
-          "desc": "[WhenUse] Эта ячейка получает 1 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокацию</link></u></color> на следующий ход",
+          "desc": "[WhenUse] Эта ячейка получает 1 [Aggro:*Провокацию*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             }
@@ -370,12 +370,12 @@
         {
           "level": 4,
           "name": "Покусаю!",
-          "desc": "[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             }
@@ -408,7 +408,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:*Разрыва*]"
                 }
               ]
             }
@@ -417,7 +417,7 @@
         {
           "level": 2,
           "name": "Светящаяся приманка",
-          "desc": "[WhenUse] Эта ячейка получает 2 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "desc": "[WhenUse] Эта ячейка получает 2 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -436,10 +436,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> равен 2-м и менее, повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Если счётчик [Burst:*Разрыва*] равен 2-м и менее, повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             }
@@ -448,7 +448,7 @@
         {
           "level": 4,
           "name": "Светящаяся приманка",
-          "desc": "[WhenUse] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>",
+          "desc": "[WhenUse] Эта ячейка получает 4 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Сила монет +1 против целей с 6-ю и более [Burst:*Разрывами*]",
           "coinlist": [
             {
               "coindescs": [
@@ -467,10 +467,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> равен 2-м и менее, повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Если счётчик [Burst:*Разрыва*] равен 2-м и менее, повышает счётчик [Burst:*Разрыва*] на 3"
                 }
               ]
             }
@@ -484,12 +484,12 @@
         {
           "level": 3,
           "name": "Вжух-вжух ням-ням-ням!",
-          "desc": "[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход ",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрыва*] на 3"
                 }
               ]
             },
@@ -500,7 +500,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 10-и ОЗ."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно восстанавливает ОЗ пропорционально <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывам</link></u></color> на цели (1 ОЗ за 1 Разрыв. До 20)"
+                  "desc": "[OnSucceedAttack] Дополнительно восстанавливает ОЗ пропорционально [Burst:*Разрывам*] на цели (1 ОЗ за 1 Разрыв. До 20)"
                 },
                 {
                   "desc": "Если у грешницы менее 50% ОЗ, подкидывает монету ещё раз"
@@ -512,12 +512,12 @@
         {
           "level": 4,
           "name": "Вжух-вжух ням-ням-ням!",
-          "desc": "[WhenUse] Эта ячейка получает 5 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>",
+          "desc": "[WhenUse] Эта ячейка получает 5 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Сила монет +1 против целей с 6-ю и более [Burst:*Разрывами*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрыва*] на 3"
                 }
               ]
             },
@@ -528,7 +528,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 15 ОЗ. Повышает восстановление ОЗ на 50%, если монета подкидывается снова."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно восстанавливает ОЗ пропорционально <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывам</link></u></color> на цели (2 ОЗ за 1 Разрыв. До 40)"
+                  "desc": "[OnSucceedAttack] Дополнительно восстанавливает ОЗ пропорционально [Burst:*Разрывам*] на цели (2 ОЗ за 1 Разрыв. До 40)"
                 },
                 {
                   "desc": "Если у грешницы менее 50% ОЗ, подкидывает монету ещё раз"
@@ -559,7 +559,7 @@
         {
           "level": 4,
           "name": "Стучащие зубы",
-          "desc": "[WhenUse] Если на цели 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и более, итоговая сила +3\n[EndBattle] Восстанавливает ОЗ в зависимости от числа щитов (Раз за ход. До 10% от максимальных ОЗ)",
+          "desc": "[WhenUse] Если на цели 6 [Burst:*Разрывов*] и более, итоговая сила +3\n[EndBattle] Восстанавливает ОЗ в зависимости от числа щитов (Раз за ход. До 10% от максимальных ОЗ)",
           "coinlist": [
             {
               "coindescs": [
@@ -578,7 +578,7 @@
         {
           "level": 1,
           "name": "Обнажение меча",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -599,7 +599,7 @@
         {
           "level": 2,
           "name": "Обнажение меча",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -620,7 +620,7 @@
         {
           "level": 4,
           "name": "Обнажение меча",
-          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n</style>[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более [Breath:*Дыхания*]\n</style>[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -646,19 +646,19 @@
         {
           "level": 1,
           "name": "Взмах меча",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Получает 2 [Breath:*Дыхания*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Даёт 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> союзнику с наименьшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (или не имеющих этого эффекта)"
+                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)"
                 }
               ]
             }
@@ -667,19 +667,19 @@
         {
           "level": 2,
           "name": "Взмах меча",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Даёт 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> союзнику с наименьшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (или не имеющих этого эффекта)"
+                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)"
                 }
               ]
             }
@@ -688,19 +688,19 @@
         {
           "level": 4,
           "name": "Взмах меча",
-          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n</style>[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более [Breath:*Дыхания*]\n</style>[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Даёт 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> союзнику с наименьшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (или не имеющих этого эффекта)\n<style=\"highlight\">Если союзник — член Родословной клинка, даёт 2 дополнительных <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color></style>"
+                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)\n<style=\"highlight\">Если союзник — член Родословной клинка, даёт 2 дополнительных [Breath:*Дыхания*]</style>"
                 }
               ]
             }
@@ -714,7 +714,7 @@
         {
           "level": 3,
           "name": "Прощайте!",
-          "desc": "[WhenUse] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "[WhenUse] Получает 5 [Breath:*Дыхания*]",
           "coinlist": [
             {
               "coindescs": [
@@ -733,7 +733,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> 2-х союзников с наименьшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (или не имеющих этого эффекта) на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:*Дыхания*] 2-х союзников с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта) на 2"
                 },
                 {
                   "desc": "[EndSkill] Если цель побеждена, получает 1 Повышение рубящего урона"
@@ -745,7 +745,7 @@
         {
           "level": 4,
           "name": "Прощайте!",
-          "desc": "<style=\"highlight\">Сила монет +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n</style>[WhenUse] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "<style=\"highlight\">Сила монет +1 при 10 и более [Breath:*Дыхания*]\n</style>[WhenUse] Получает 5 [Breath:*Дыхания*]",
           "coinlist": [
             {
               "coindescs": [
@@ -767,7 +767,7 @@
                   "desc": "Критический урон +30%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> 2-х союзников с наименьшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (или не имеющих этого эффекта) на 2.\n<style=\"highlight\">Если союзники — члены Родословной клинка, дополнительно повышает их счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2.</style>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:*Дыхания*] 2-х союзников с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта) на 2.\n<style=\"highlight\">Если союзники — члены Родословной клинка, дополнительно повышает их счётчик [Breath:*Дыхания*] на 2.</style>"
                 },
                 {
                   "desc": "[EndSkill] Если цель побеждена, <style=\"highlight\">даёт себе и случайному союзнику 1 Повышение рубящего урона</style>"
@@ -817,7 +817,7 @@
         {
           "level": 1,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
           "coinlist": [
             {},
             {
@@ -832,13 +832,13 @@
         {
           "level": 2,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход</style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -847,19 +847,19 @@
         {
           "level": 4,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 за каждые 6 единиц <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)</style>\n[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#a16a3b><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Эта ячейка получает 4 [Aggro:*Провокации*] на следующий ход</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -873,19 +873,19 @@
         {
           "level": 1,
           "name": "Метод ускоренного разреза Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3-х <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели\nПовышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на потраченный [Vibration] цели"
+                  "desc": "[OnSucceedAttack] Тратит до 3-х [Vibration:*Тремора*] на цели\nПовышает свой счётчик [Vibration:*Тремора*] на потраченный [Vibration] цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -894,26 +894,26 @@
         {
           "level": 2,
           "name": "Метод ускоренного разреза Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 3\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3-х <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели\nПовышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на потраченный [Vibration] цели"
+                  "desc": "[OnSucceedAttack] Тратит до 3-х [Vibration:*Тремора*] на цели\nПовышает свой счётчик [Vibration:*Тремора*] на потраченный [Vibration] цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:*Тремора*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык потратил [Vibration] цели, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык потратил [Vibration] цели, [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
                 }
               ]
             }
@@ -922,26 +922,26 @@
         {
           "level": 4,
           "name": "Метод ускоренного разреза Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)</style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 3\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3-х <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели\nПовышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (потраченный [Vibration] цели <style=\"highlight\">x 2</style>)\n<style=\"highlight\">Наносит (потраченный [Vibration] цели - 1) <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход</style>"
+                  "desc": "[OnSucceedAttack] Тратит до 3-х [Vibration:*Тремора*] на цели\nПовышает свой счётчик [Vibration:*Тремора*] на (потраченный [Vibration] цели <style=\"highlight\">x 2</style>)\n<style=\"highlight\">Наносит (потраченный [Vibration] цели - 1) [Binding:*Связывания*] на следующий ход</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот навык потратил [Vibration] цели <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если этот навык потратил [Vibration] цели [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -955,13 +955,13 @@
         {
           "level": 3,
           "name": "Остановитесь сию же секунду!",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 6 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Сила монет +2 при трате 10 единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]\n[WhenUse] Сила монет +2 при трате 10 единиц на своём счётчике [Vibration:*Тремора*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
                 }
               ]
             },
@@ -969,10 +969,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, тратит 10 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы нанести 2 <sprite name=\"TimeSuspend\"><color=#e30000><u><link=\"TimeSuspend\">Временных моратория</link></u></color>\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, <sprite name=\"Switch_Vibration\"><color=#a16a3b><u><link=\"Switch_Vibration\">преобразует амплитуду Тремора</link></u></color> в [VibrationChainPersonality]"
+                  "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, [Switch_Vibration:*преобразует амплитуду Тремора*] в [VibrationChainPersonality]"
                 }
               ]
             }
@@ -981,33 +981,33 @@
         {
           "level": 4,
           "name": "Остановитесь сию же секунду!",
-          "desc": "[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)</style>\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей со <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связыванием</link></u></color></style>\n[WhenUse] Сила монет +2 при трате 10 единиц на своём счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 [Vibration:*Тремора*] на цели (До 2)</style>\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей со [Binding:*Связыванием*]</style>\n[WhenUse] Сила монет +2 при трате 10 единиц на своём счётчике [Vibration:*Тремора*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, тратит 10 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы нанести 2 <sprite name=\"TimeSuspend\"><color=#e30000><u><link=\"TimeSuspend\">Временных моратория</link></u></color>\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, <sprite name=\"Switch_Vibration\"><color=#a16a3b><u><link=\"Switch_Vibration\">преобразует амплитуду Тремора</link></u></color> в [VibrationChainPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, [Switch_Vibration:*преобразует амплитуду Тремора*] в [VibrationChainPersonality]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1021,7 +1021,7 @@
         {
           "level": 1,
           "name": "Надобно растянуть время",
-          "desc": "[StartBattle] Если на Дон Кихот нет <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color>, в конце хода получает 4 <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color> (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (Дважды за ход)",
+          "desc": "[StartBattle] Если на Дон Кихот нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего 2 [Vibration:*Тремора*] (Дважды за ход)",
           "coinlist": [
             {}
           ]
@@ -1029,7 +1029,7 @@
         {
           "level": 4,
           "name": "Надобно растянуть время",
-          "desc": "[StartBattle] Если на Дон Кихот нет <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color>, в конце хода получает 4 <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color> (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего <style=\"highlight\">3</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (До <style=\"highlight\">6-и</style> раз за ход)",
+          "desc": "[StartBattle] Если на Дон Кихот нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего <style=\"highlight\">3</style> [Vibration:*Тремора*] (До <style=\"highlight\">6-и</style> раз за ход)",
           "coinlist": [
             {}
           ]
@@ -1042,7 +1042,7 @@
         {
           "level": 1,
           "name": "По́лно нам терпеть",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 5 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 5 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 5 [Laceration:*Кровотечения*]",
           "coinlist": [
             {},
             {
@@ -1057,13 +1057,13 @@
         {
           "level": 2,
           "name": "По́лно нам терпеть",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 5 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 5 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 5 [Laceration:*Кровотечения*]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -1072,19 +1072,19 @@
         {
           "level": 4,
           "name": "По́лно нам терпеть",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 5 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2-х)</style>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 5 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 5 [Laceration:*Кровотечения*]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -1098,22 +1098,22 @@
         {
           "level": 1,
           "name": "Претворим же нашу жажду в жизнь",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\nДон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[BeforeAttack] При 10+ долях <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> тяжесть атаки +1",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\nДон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 5 [Laceration:*Кровотечения*]\n[BeforeAttack] При 10 и более долях [BloodArmorPersonalityFirst:*Кристаллизованной крови*] тяжесть атаки +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+2.5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 25%)"
+                  "desc": "+2.5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 25%)"
                 },
                 {
-                  "desc": "+5% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот (До 25%)"
+                  "desc": "+5% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До 25%)"
                 }
               ]
             }
@@ -1122,22 +1122,22 @@
         {
           "level": 2,
           "name": "Претворим же нашу жажду в жизнь",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\nДон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>\n[BeforeAttack] <style=\"highlight\">За каждые 10</style> долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> тяжесть атаки +1 <style=\"highlight\">(До 2-х)</style>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\nДон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 5 [Laceration:*Кровотечения*]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[BeforeAttack] <style=\"highlight\">За каждые 10</style> долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] тяжесть атаки +1 <style=\"highlight\">(До 2-х)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+2.5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 25%)"
+                  "desc": "+2.5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 25%)"
                 },
                 {
-                  "desc": "+<style=\"highlight\">10</style>% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот (До <style=\"highlight\">50</style>%)"
+                  "desc": "+<style=\"highlight\">10</style>% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До <style=\"highlight\">50</style>%)"
                 }
               ]
             }
@@ -1146,22 +1146,22 @@
         {
           "level": 4,
           "name": "Претворим же нашу жажду в жизнь",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\nДон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2-х)</style>\n[BeforeAttack] Тяжесть атаки +1 за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> (До 2-х)",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\nДон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 5 [Laceration:*Кровотечения*]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[BeforeAttack] Тяжесть атаки +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (До 2-х)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+2.5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 25%)"
+                  "desc": "+2.5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 25%)"
                 },
                 {
-                  "desc": "+<style=\"highlight\">15</style>% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот (До <style=\"highlight\">75</style>%)"
+                  "desc": "+<style=\"highlight\">15</style>% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До <style=\"highlight\">75</style>%)"
                 }
               ]
             }
@@ -1175,14 +1175,14 @@
         {
           "level": 3,
           "name": "Да быть тебе исколотым и пронзённым",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n[WhenUse] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] +5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 50%)\n[WhenUse] +10% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот (До 50%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на 30 долей. Также она получает 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>Кристаллизованной крови</link></u></color> (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[WhenUse] +5% урона за каждую единицу [Laceration:*Кровотечения*] (До 50%)\n[WhenUse] +10% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До 50%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на 30 долей. Также она получает 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -1191,14 +1191,14 @@
         {
           "level": 4,
           "name": "Да быть тебе исколотым и пронзённым",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 долей получает 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] +5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 50%)\n[WhenUse]+<style=\"highlight\">20</style>% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот (До <style=\"highlight\">100</style>%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">60</style> долей. Также она получает 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>Кристаллизованной крови</link></u></color> (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[WhenUse] +5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse]+<style=\"highlight\">20</style>% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До <style=\"highlight\">100</style>%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">60</style> долей. Также она получает 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -1212,13 +1212,13 @@
         {
           "level": 1,
           "name": "До́лжно смеху утихнуть",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> для того, чтобы получить 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>Кристаллизованной крови</link></u></color> за каждые десять долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Пиршества</link></u></color>.\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[StartBattle] За 50 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот даёт союзнику с наименьшими ОЗ 1 [SwirlingBloodPersonality] (До 10; единожды за ход)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы получить 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*] за каждые десять долей [BloodDinner:*Пиршества*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[StartBattle] За 50 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот даёт союзнику с самым низким здоровьем 1 [SwirlingBloodPersonality] (До 10; единожды за ход)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2"
                 }
               ]
             }
@@ -1227,13 +1227,13 @@
         {
           "level": 4,
           "name": "До́лжно смеху утихнуть",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот испивает до 50 долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> для того, чтобы получить 1 долю <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>Кристаллизованной крови</link></u></color> за каждые десять долей <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Пиршества</link></u></color>.\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#a16a3b><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[StartBattle] За 50 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> Дон Кихот даёт союзнику с наименьшими ОЗ 1 [SwirlingBloodPersonality] (До <style=\"highlight\">15</style>; единожды за ход)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы получить 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*] за каждые десять долей [BloodDinner:*Пиршества*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[StartBattle] За 50 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот даёт союзнику с самым низким здоровьем 1 [SwirlingBloodPersonality] (До <style=\"highlight\">15</style>; единожды за ход)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2"
                 }
               ]
             }
@@ -1247,7 +1247,7 @@
         {
           "level": 1,
           "name": "Имитация искусства кристаллизации крови Санчо, 6-й стиль: Хлыст",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Дон Кихот наносит на 1 [Laceration] больше за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> (До 2-х). В конце атаки Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Дон Кихот получает 20 [Laceration:*Кровотечения*]\n[WhenUse] Дон Кихот наносит на 1 [Laceration] больше за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (До 2-х). В конце атаки Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1262,7 +1262,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
@@ -1272,7 +1272,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -1281,7 +1281,7 @@
         {
           "level": 2,
           "name": "Имитация искусства кристаллизации крови Санчо, 6-й стиль: Хлыст",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>\n[WhenUse] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Дон Кихот наносит на 1 [Laceration] больше за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> (До 2-х). В конце атаки Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Дон Кихот получает 20 [Laceration:*Кровотечения*]\n[WhenUse] Дон Кихот наносит на 1 [Laceration] больше за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (До 2-х). В конце атаки Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]",
           "coinlist": [
             {},
             {
@@ -1290,7 +1290,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
@@ -1300,7 +1300,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             }
@@ -1309,7 +1309,7 @@
         {
           "level": 4,
           "name": "Имитация искусства кристаллизации крови Санчо, 6-й стиль: Хлыст",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] [BloodArmorPersonalityFirst] 10당 적중시 부여하는 [Laceration] +1 (До 2-х). В конце атаки Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Дон Кихот получает 20 [Laceration:*Кровотечения*]\n[WhenUse] +1 [Laceration] за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (До 2-х). В конце атаки Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]",
           "coinlist": [
             {},
             {
@@ -1318,7 +1318,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
@@ -1328,10 +1328,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Вызывает [Laceration] на цели. Понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Вызывает [Laceration] на цели. Понижает счётчик [Laceration:*Кровотечения*] на 1</style>"
                 }
               ]
             }
@@ -1345,19 +1345,19 @@
         {
           "level": 1,
           "name": "Имитация искусства кристаллизации крови Санчо, 8-й стиль: Рассечение надвое",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Сила монет +1 против целей с 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[BeforeAttack] При 10+ долях <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> тяжесть атаки +1\n[EndSkill] При повышении тяжести атаки Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[BeforeAttack] При 10 и более долях [BloodArmorPersonalityFirst:*Кристаллизованной крови*] тяжесть атаки +1\n[EndSkill] При повышении тяжести атаки Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
@@ -1367,10 +1367,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+2.5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 25%)"
+                  "desc": "+2.5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 25%)"
                 },
                 {
-                  "desc": "+5% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До 25%)"
+                  "desc": "+5% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 25%)"
                 }
               ]
             }
@@ -1379,19 +1379,19 @@
         {
           "level": 2,
           "name": "Имитация искусства кристаллизации крови Санчо, 8-й стиль: Рассечение надвое",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2-х)</style>\n[BeforeAttack] Тяжесть атаки +1 <style=\"highlight\">за каждые 10</style> долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> <style=\"highlight\">(До 2-х)</style>\n[EndSkill] За каждое повышение тяжести атаки Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style>[Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[BeforeAttack] Тяжесть атаки +1 <style=\"highlight\">за каждые 10</style> долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] <style=\"highlight\">(До 2-х)</style>\n[EndSkill] За каждое повышение тяжести атаки Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
@@ -1401,10 +1401,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+2.5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 25%)"
+                  "desc": "+2.5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 25%)"
                 },
                 {
-                  "desc": "+<style=\"highlight\">10</style>% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До <style=\"highlight\">50</style>%)"
+                  "desc": "+<style=\"highlight\">10</style>% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До <style=\"highlight\">50</style>%)"
                 }
               ]
             }
@@ -1413,19 +1413,19 @@
         {
           "level": 4,
           "name": "Имитация искусства кристаллизации крови Санчо, 8-й стиль: Рассечение надвое",
-          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2-х)\n[BeforeAttack] Тяжесть атаки +1 за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> (До 2-х)\n[EndSkill] За каждое повышение тяжести атаки Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color><style=\"highlight\"></style>",
+          "desc": "Дон Кихот восстанавливает до 30% урона в качестве ОЗ при успешной атаке этим навыком (До 10-и ОЗ)\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n[BeforeAttack] Тяжесть атаки +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (До 2-х)\n[EndSkill] За каждое повышение тяжести атаки Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 }
               ]
             },
@@ -1435,10 +1435,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+2.5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 25%)"
+                  "desc": "+2.5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 25%)"
                 },
                 {
-                  "desc": "+<style=\"highlight\">15</style>% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До <style=\"highlight\">75</style>%)"
+                  "desc": "+<style=\"highlight\">15</style>% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До <style=\"highlight\">75</style>%)"
                 }
               ]
             }
@@ -1452,7 +1452,7 @@
         {
           "level": 3,
           "name": "Высшее искусство кристаллизации крови Санчо: Ла Сангре",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> у Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n[WhenUse] +5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 50%)\n[WhenUse] +20% урона 100%)\n[EndSkill] За каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на 50 долей. Также Дон Кихот возвращает половину истраченных долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] у Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели\n[WhenUse] +5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse] +20% урона 100%)\n[EndSkill] За каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на 50 долей. Также Дон Кихот возвращает половину истраченных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1481,10 +1481,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 4"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*] и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[EndSkill] При убийстве цели все противники получают 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышают его счётчик на 1"
+                  "desc": "[EndSkill] При убийстве цели все противники получают 5 [Laceration:*Кровотечения*] и повышают его счётчик на 1"
                 }
               ]
             }
@@ -1493,7 +1493,7 @@
         {
           "level": 4,
           "name": "Высшее искусство кристаллизации крови Санчо: Ла Сангре",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> у Дон Кихот (До <style=\"highlight\">3</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style><sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] +5% урона за каждую единицу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 50%)\n[WhenUse] +20% урона за каждые 100 долей <sprite name=\"BloodDinner_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До 100%)\n[EndSkill] За каждые 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> Дон Кихот теряет 10 долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">100</style> долей. Также Дон Кихот возвращает половину истраченных долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color> (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] у Дон Кихот (До <style=\"highlight\">3</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style>[Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] +5% урона за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse] +20% урона за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 100%)\n[EndSkill] За каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">100</style> долей. Также Дон Кихот возвращает половину истраченных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1522,10 +1522,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дон Кихот наносит <style=\"highlight\">8</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, и повышает его счётчик на 4"
+                  "desc": "[OnSucceedAttack] Дон Кихот наносит <style=\"highlight\">8</style> [Laceration:*Кровотечения*], и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[EndSkill] При убийстве цели все противники получают 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышают его счётчик на 1"
+                  "desc": "[EndSkill] При убийстве цели все противники получают 5 [Laceration:*Кровотечения*] и повышают его счётчик на 1"
                 }
               ]
             }
@@ -1539,7 +1539,7 @@
         {
           "level": 1,
           "name": "Имитация искусства кристаллизации крови Санчо, 15-й стиль: Подготовка к финалу",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst]/15) <sprite name=\"SwirlingBloodPersonality\"><color=#f8c200><u><link=\"SwirlingBloodPersonality\">Мерцания 【Кроваггел】</link></u></color> (3 + наибольший резонанс / 2) союзникам с наименьшими ОЗ за каждые 40 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> и теряет половину накопленных долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>. (Единожды на союзника, десятичные опускаются)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst]/15) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс / 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1548,7 +1548,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дон Кихот повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 3"
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает счётчик [Laceration:*Кровотечения*] цели на 3"
                 }
               ]
             }
@@ -1557,7 +1557,7 @@
         {
           "level": 4,
           "name": "Имитация искусства кристаллизации крови Санчо, 15-й стиль: Подготовка к финалу",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst] / <style=\"highlight\">10</style>) <sprite name=\"SwirlingBloodPersonality\"><color=#f8c200><u><link=\"SwirlingBloodPersonality\">Мерцания 【Кроваггел】</link></u></color> (3 + наибольший резонанс / 2) союзникам с наименьшими ОЗ за каждые 40 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#a16a3b><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> и теряет половину накопленных долей <sprite name=\"BloodArmorPersonalityFirst\"><color=#f8c200><u><link=\"BloodArmorPersonalityFirst\">Кристаллизованной крови</link></u></color>. (Единожды на союзника, десятичные опускаются)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst] / <style=\"highlight\">10</style>) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс / 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1566,10 +1566,278 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дон Кихот повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 3"
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает счётчик [Laceration:*Кровотечения*] цели на 3"
                 }
               ]
             }
+          ]
+        }
+      ]
+    },{
+      "id": 1031101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фа Цзинь",
+          "desc": "Сила монет +1, если Дон Кихот быстрее цели на 3 и более единиц\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Фа Цзинь",
+          "desc": "Сила монет +1, если Дон Кихот быстрее цели на <style=\"highlight\">2</style>+ единиц\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фа Цзинь",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До 2-х)</style>\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на <style=\"highlight\">3</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Combustion:*Огня*] цели на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": 1031102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ладонь, охваченная языками пламени цвета трав",
+          "desc": "Сила монет +1, если Дон Кихот быстрее цели на 3 и более единиц\n[WinDuel] Дон Кихот получает 3 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown] за каждые 6 [Combustion:*Огня*] на цели (До 2-х, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ладонь, охваченная языками пламени цвета трав",
+          "desc": "Сила монет +1, если Дон Кихот быстрее цели на  <style=\"highlight\">2</style>+ единиц\n[WinDuel] Дон Кихот получает 3 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown] за каждые 6 [Combustion:*Огня*] на цели (До <style=\"highlight\">3</style>-х, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ладонь, охваченная языками пламени цвета трав",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До 2-х)</style>\n[WinDuel] Дон Кихот получает 3 [Breath:*Дыхания*]\n<style=\"highlight\">- При наличии [DianxueDonQuixote:*Поражённых нервов*] на цели Дон Кихот дополнительно повышает счётчик [Breath:*Дыхания*] на их число</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown] за каждые 6 [Combustion:*Огня*] на цели (До <style=\"highlight\">5</style>-и, единожды за ход)\n<style=\"highlight\">- Дон Кихот наносит дополнительное [DefenseDown] по числу [DianxueDonQuixote:*Поражённых нервов*] цели</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Не откажите в просьбе, доблестный господин",
+          "desc": "+10% урона за каждый [DianxueDonQuixote:*Поражённый нерв*] цели (До 30%)\n+10% урона за каждый [DianxueDonQuixote:*Поражённый нерв*]Сила монет +1, если Дон Кихот быстрее цели на 2 и более единицolor> цели (До\n[WinDuel] Дон Кихот получает 5 [Breath:*Дыхания*]\n- При наличии [DianxueDonQuixote:*Поражённых нервов*] у цели Дон Кихот дополнительно получает 3 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+([Breath] на Дон Кихот + [Combustion] цели)% критического урона (До 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Не откажите в просьбе, доблестный господин",
+          "desc": "<style=\"highlight\">+15%</style> урона за каждый [DianxueDonQuixote:*Поражённый нерв*] цели (До <style=\"highlight\">45%</style>)\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До 2-х)</style>\n[WinDuel] Дон Кихот получает 5 [Breath:*Дыхания*]\n- При наличии [DianxueDonQuixote:*Поражённых нервов*] у цели Дон Кихот дополнительно получает 3 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+([Breath] на Дон Кихот + [Combustion] цели)% критического урона (До <style=\"highlight\">50%</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При наличии [DianxueDonQuixote:*Поражённых нервов*] на цели Дон Кихот наносит 3 [DefenseDown:*Понижения уровня защиты*]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Надобно вам познать учения манер за банкетным столом!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Надобно вам познать учения манер за банкетным столом!",
+          "desc": "<style=\"highlight\">Если Дон Кихот быстрее нападающего, +1 сила монет за каждые 2 единицы разницы в скорости (До 2-х)</style>",
+          "coinlist": [
+            {}
           ]
         }
       ]

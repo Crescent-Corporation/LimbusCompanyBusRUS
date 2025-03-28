@@ -38,7 +38,7 @@
     },
     {
       "id": "mirror_enemy_buff",
-      "content": "Усиления"
+      "content": "Испытания"
     },
     {
       "id": "mirror_enemy_addenemylevel_desc",
@@ -50,11 +50,11 @@
     },
     {
       "id": "mirror_acquired_random_enemy_buff_popup_title",
-      "content": "Дополнение усиления"
+      "content": "Дополнение испытания"
     },
     {
       "id": "mirror_acquired_enemy_buff_popup_desc",
-      "content": "Усиление добавлено."
+      "content": "Испытание добавлено."
     },
     {
       "id": "mirror_start_buff_purchase_complete_modal_title",
@@ -98,7 +98,7 @@
     },
     {
       "id": "dungeon_shop_heal_desc_one_revive",
-      "content": "Воскресить выбранного грешников"
+      "content": "Воскресить выбранного грешника"
     },
     {
       "id": "dungeon_shop_heal_desc_all_revive",
@@ -266,11 +266,11 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_desc",
-      "content": "При использовании ЭГО Дара в качестве материала, подсчитываются баллы в зависимости от их уровня."
+      "content": "При использовании ЭГО Дара в качестве материала, подсчитываются баллы в зависимости от их ранга."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_header",
-      "content": "Уровни ЭГО Даров"
+      "content": "Ранги ЭГО Даров"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_score_header",
@@ -278,7 +278,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_1",
-      "content": "Уровень 1"
+      "content": "Ранг 1"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_1_score",
@@ -286,7 +286,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_2",
-      "content": "Уровень 2"
+      "content": "Ранг 2"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_2_score",
@@ -294,7 +294,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_3",
-      "content": "Уровень 3"
+      "content": "Ранг 3"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_3_score",
@@ -302,7 +302,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_4",
-      "content": "Уровень 4"
+      "content": "Ранг 4"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_4_score",
@@ -310,7 +310,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_5",
-      "content": "Уровень 5"
+      "content": "Ранг 5"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_tier_5_score",
@@ -318,7 +318,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_label",
-      "content": "При соединении Даров, уровень результатного ЭГО Дара определяется по сумме баллов использованных материалов."
+      "content": "При соединении Даров, ранг результатного ЭГО Дара определяется по сумме баллов использованных материалов."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_total_header",
@@ -326,7 +326,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_tier_header",
-      "content": "Уровень результатного ЭГО Дара"
+      "content": "Ранг результатного ЭГО Дара"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_total_1",
@@ -334,7 +334,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_tier_1",
-      "content": "Уровень 1"
+      "content": "Ранг 1"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_total_2",
@@ -342,7 +342,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_tier_2",
-      "content": "Уровень 2"
+      "content": "Ранг 2"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_total_3",
@@ -350,7 +350,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_tier_3",
-      "content": "Уровень 3"
+      "content": "Ранг 3"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_total_4",
@@ -358,7 +358,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_tier_4",
-      "content": "Уровень 4"
+      "content": "Ранг 4"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_1",
@@ -370,11 +370,11 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_3",
-      "content": "※ Если не можете получить ЭГО Дар нужного уровня и аспекта, то Вам выдают ЭГО Дар другого аспекта но того же уровня."
+      "content": "※ Если не можете получить ЭГО Дар нужного ранга и аспекта, то вам выдают ЭГО Дар другого аспекта но того же ранга."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_4",
-      "content": "※ Если Вам всё же посчастливилось получить \"дубликат\" ЭГО Дара, то он конвертируется в отдельный Дар того же уровня для соединения и продажи."
+      "content": "※ Если Вам всё же посчастливилось получить \"дубликат\" ЭГО Дара, то он конвертируется в отдельный Дар того же ранга для соединения и продажи."
     },
     {
       "id": "mirrordungeon_upgrade_shop_title",
@@ -406,7 +406,7 @@
     },
     {
       "id": "mirrordungeon_level_up_by_long_battle_theme",
-      "content": "Получена награда за длительный бой.\n[Уровни идентичностей +3]"
+      "content": "Получена награда за длительный бой.\n[Уровень идентичностей повысился на 3]"
     },
     {
       "id": "mirror_dungeon_5_buffs_title_100",

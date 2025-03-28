@@ -3,8 +3,8 @@
     {
       "id": 1035,
       "panicName": "Церковь",
-      "lowMoraleDescription": "При получении <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color> или его счётчиков, дополнительно получает ещё 1.\nНачало хода: получает 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>, 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 1 [Endurance].",
-      "panicDescription": "При получении <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color> или его счётчиков, дополнительно получает ещё 2.\nНачало хода: получает 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>, 4 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 2 <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\">Повышения силы защиты</link></u></color>."
+      "lowMoraleDescription": "При получении [Smoke:*Дыма*] или его счётчиков, дополнительно получает ещё 1.\nНачало хода: получает 3 [Vulnerable:*Уязвимости*], 2 [AttackDmgUp:*Повышения урона*] и 1 [Endurance].",
+      "panicDescription": "При получении [Smoke:*Дыма*] или его счётчиков, дополнительно получает ещё 2.\nНачало хода: получает 3 [Vulnerable:*Уязвимости*], 4 [AttackDmgUp:*Повышения урона*] и 2 [Endurance:*Повышения силы защиты*]."
     }
   ]
 }

@@ -90,11 +90,11 @@
     },
     {
       "id": "choice_result_success",
-      "content": "Успех проверки"
+      "content": "Проверка пройдена"
     },
     {
       "id": "choice_result_fail",
-      "content": "Провал проверки"
+      "content": "Проверка провалена"
     },
     {
       "id": "choice_result_skip",
@@ -170,15 +170,15 @@
     },
     {
       "id": "slash",
-      "content": "рубящий"
+      "content": "Рубящий"
     },
     {
       "id": "penetrate",
-      "content": "колющий"
+      "content": "Колющий"
     },
     {
       "id": "hit",
-      "content": "дробящий"
+      "content": "Дробящий"
     },
     {
       "id": "action_disable",
@@ -558,11 +558,11 @@
     },
     {
       "id": "sinking_surge",
-      "content": "Шквал утопания!"
+      "content": "Утопляющий поток!"
     },
     {
       "id": "targetSlotWeight",
-      "content": "<font=\"ExcelsiorSans SDF\"><align=\"right\">Тяжесть\nатаки</align></font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font>"
     },
     {
       "id": "EGO_ErodeProbability",
