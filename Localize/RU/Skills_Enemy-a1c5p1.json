@@ -659,7 +659,7 @@
                 {
                     "level": 1,
                     "name": "Слабость обнаружена! Огонь!",
-                    "desc": "Если на цели 5 и более [Laceration:*[Laceration:*Кровотечений</color>*]</link></u>, сила парирований +2",
+                    "desc": "Если на цели 5 и более [Laceration:*Кровотечений</color>*]</link></u>, сила парирований +2",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -684,7 +684,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3\nНаносит дополнительный урон, равный [Laceration:*[Laceration:*Кровотечения*]м*] на цели"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3\nНаносит дополнительный урон, равный [Laceration:*[Laceration:*Кровотечению*] на цели"
                                 },
                                 {
                                     "desc": "Тратит 1 [Bullet:*Патрон*]"
