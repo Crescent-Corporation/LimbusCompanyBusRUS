@@ -24,7 +24,7 @@
    - Ждите, мы ищем решение сложившейся ситуации.
 
 
-# Установка
+# <s> Установка
 ### 0. 1. Скачайте и установите [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
 ### 1. Установите фреймворк мод
    - Скачайте [BepInEx](https://builds.bepinex.dev/projects/bepinex_be/733/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.733%2B995f049.zip); перенесите содержимое архива в папку игры
@@ -35,7 +35,7 @@
    - Скачайте [архив](../../releases), и скопируйте папку Localize, файл LimbusCompanyBusRUS_BIE.dll и ассет-бандл шрифтов из папки в архиве в папку, **созданную во время 4-го шага**
     
 ## Я всё равно ничего не понял(-а), что мне делать? 
-   - [Молитесь](https://www.youtube.com/watch?v=Wp5L8akgGag)
+   - [Молитесь](https://www.youtube.com/watch?v=Wp5L8akgGag) </s>
 # Примечания
 - Благодарим <b>abcdcode</b> за помощь с кодом для улучшения отображения шрифтов!
 - Также благодарим <b>FanT_o_MaS</b> за помощь в обновлении вызова имён!
