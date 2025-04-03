@@ -7,7 +7,7 @@
    
 # LimbusCompanyBusRUS
 Русификатор для игры "Limbus Company"
-   
+
 <b>Наши друзья</b><br/>
 [简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [Français](https://github.com/Eden-Office/LimbusCompanyBusFR) | [Español](https://github.com/Dreams-Office/LimbusCompanySpanishTranslationTeam)
    
@@ -17,6 +17,12 @@
 
 [![Discord](https://img.shields.io/discord/1277645436999438356?logo=Discord&logoSize=auto&label=%D0%9D%D0%B0%D1%88%20Discord&labelColor=49403A&color=cdd5e0)](https://discord.gg/PG7PDrdjey)
 </div>
+
+   # !!! Внимание !!!
+   - Муны запретили модификацию игры вне их кастомного "помощника". На данный момент не стоит устанавливать версию нашего русификатора на платформе BepInEx по той причине, что есть шанс потери аккаунта в игре.
+   - Помощник крайне плох, и нам нужно время осознать произошедшее.
+   - Ждите, мы ищем решение сложившейся ситуации.
+
 
 # Установка
 ### 0. 1. Скачайте и установите [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
