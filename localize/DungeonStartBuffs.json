@@ -1,0 +1,96 @@
+{
+  "dataList": [
+    {
+      "id": "ADDITIONAL_COST_RATE_ON_CLEAR_FLOOR",
+      "description": "После перехода на следующий этаж <color=#ff6000>весь баланс стоимости</color> увеличится на {0}%. (До 100)"
+    },
+    {
+      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_ONCE",
+      "description": "При продаже повышает <color=#ff6000>стоимость ЭГО Дара</color> на {0}%. (Единожды при посещении магазина)"
+    },
+    {
+      "id": "ADDITIONAL_FLOOR_THEME_SLOT",
+      "description": "<color=#ff6000>Число доступных к выбору наборов</color> увеличится на {0}."
+    },
+    {
+      "id": "ADDITIONAL_FLOOR_THEME_REFRESH",
+      "description": "<color=#ff6000>Число обновлений тематических наборов</color> увеличится на {0}."
+    },
+    {
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_SELECT_NEW_FLOOR_THEME",
+      "description": "При выборе нового тематического набора <color=#ff6000>уровень идентичностей</color> повысится на {0}. (До 9)"
+    },
+    {
+      "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
+      "description": "<color=#ff6000>Число доступных к покупке ЭГО Даров</color> увеличится на {0}."
+    },
+    {
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_1ST_FLOOR",
+      "description": "После входа <color=#ff6000>уровень идентичностей</color> повысится на {0}."
+    },
+    {
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_CLEAR_FLOOR",
+      "description": "После прохождения этажа <color=#ff6000>уровень идентичностей</color> повысится на {0}."
+    },
+    {
+      "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP",
+      "description": "При входе в магазин получите {0} случайный ЭГО Дар уровня 3 или ниже для <color=#ff6000>продажи и соединения Даров</color>."
+    },
+    {
+      "id": "ACQUIRE_3_TIER_RANDOM_EGO_GIFT_ON_ENTER_3RD_FLOOR",
+      "description": "После перехода на 3-й этаж получите {0} случайных <color=#ff6000>ЭГО Дара уровня 3</color>."
+    },
+    {
+      "id": "ACQUIRE_LOWER_TIER_RANDOM_EGO_GIFT_ON_COMBINE",
+      "description": "При соединении Даров получите случайный <color=#ff6000>ЭГО Дар</color> на 2 уровня ниже чем результатный Дар. (Единожды за посещение магазина; применимо только для уровней 3 или выше)"
+    },
+    {
+      "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
+      "description": "Число <color=#ff6000>стартовых ЭГО Даров</color> увеличится на {0}."
+    },
+    {
+      "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
+      "description": "После входа откроется выбор {0} <color=#ff6000>ЭГО Дара уровня 3</color> выбранного ранее аспекта."
+    },
+    {
+      "id": "REVIVE_ONCE_PER_FLOOR",
+      "description": "В конце битвы воскрешает {0} убитых грешников. (Раз за этаж)"
+    },
+    {
+      "id": "FREE_SHOP_REFRESH_EGO_GIFT_ONCE",
+      "description": "В магазине <color=#ff6000>первое обновление</color> бесплатно."
+    },
+    {
+      "id": "ADDITIONAL_START_COST",
+      "description": "+{0} <color=#ff6000>стоимости в начале</color>."
+    },
+    {
+      "id": "ADDITIONAL_COST_AFTER_WIN_BATTLE",
+      "description": "<color=#ff6000>Дополнительная стоимость после завершения битвы</color> увеличится на {0}%."
+    },
+    {
+      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
+      "description": "В магазине увеличится шанс появления <color=#ff6000>высокоуровневых ЭГО Даров</color>."
+    },
+    {
+      "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE",
+      "description": "В магазине <color=#ff6000>первый поиск по аспекту</color> бесплатен."
+    },
+    {
+      "id": "ACQUIRE_2_TIER_RANDOM_EGO_GIFT_ON_ENTER_2ND_FLOOR",
+      "description": "После перехода на 2-й этаж получите {0} случайных <color=#ff6000>ЭГО Дара 2 уровня</color>."
+    },
+    {
+      "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR",
+      "description": "При входе на 1-й этаж получите {0} случайный <color=#ff6000>ЭГО Дар 1 уровня</color>."
+    },
+    {
+      "id": "MaxSpeedUpAdder",
+      "description": "+{0} к максимальной <color=#ff6000>скорости</color>."
+    },
+    {
+      "id": "GiveBuffOnRoundStart",
+      "description": "Все идентичности получают {2} <color=#ff6000>{1}</color>."
+    }
+  ]
+}

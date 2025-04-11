@@ -1,0 +1,1930 @@
+﻿{
+  "dataList": [
+    {
+      "id": 1010501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Спокойно",
+          "desc": "Повышает свой счётчик [Vibration:*Тремора*] на 3 при сбросе этого навыка",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Спокойно",
+          "desc": "Повышает свой счётчик [Vibration:*Тремора*] на 4 при сбросе этого навыка\n[WhenUse] Получает +2 счётчика [Vibration:*Тремора*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Спокойно",
+          "desc": "Повышает свой счётчик [Vibration:*Тремора*] на 4 при сбросе этого навыка\n[WhenUse] Получает +2 счётчика [Vibration:*Тремора*]\nПри 5 и более единицах на счётчике [Vibration:*Тремора*], сила монет +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Риск",
+          "desc": "Повышает свой счётчик [Vibration:*Тремора*] на 3 при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 5 и более единицах на счётчике [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Риск",
+          "desc": "Повышает свой счётчик [Vibration:*Тремора*] на 4 при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 5 и более единицах на счётчике [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Риск",
+          "desc": "Повышает свой счётчик [Vibration:*Тремора*] на 4 при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 5 и более единицах на счётчике [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Зубной скрежет",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника\n[WhenUse] Понижает счётчик [Vibration:*Тремора*] на 10 для получения +1 силу монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если навык понизил счётчик [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown:*Понижения уровня защиты*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если навык понизил счётчик [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Зубной скрежет",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника\n[WhenUse] Понижает счётчик [Vibration:*Тремора*] на 10 для получения +2 силы монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если навык понизил счётчик [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:*Понижения уровня защиты*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если навык понизил счётчик [Vibration:*Тремора*], [VibrationExplosion:*провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блок",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пространственный разрез",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пространственный разрез",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пространственный разрез",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 2\nПри 10 и более счётчике [Charge:*Заряда*], сила монет +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цикл энергии",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Цикл энергии",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 6\nСила монет +1 при 10 и более счётчике [Charge:*Заряда*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 10 и более счётчике [Charge:*Заряда*], наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Цикл энергии",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 7\nСила монет +1 при 10 и более счётчике [Charge:*Заряда*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 10 и более счётчике [Charge:*Заряда*], наносит 3 [Burst:*Разрыва*] и повышает счётчик [Burst:*Разрыва*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пространственный разлом",
+          "desc": "[WhenUse] При счётчике [Charge:*Заряда*] меньшем, чем 15, понижает счётчик [Charge:*Заряда*] на 10 для получения +1 к силе монет\n[WhenUse] Понижает счётчик [Charge:*Заряда*] на 15 для получения +2 к силе монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Разрыв"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Разрыв"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] за каждые 5 единиц счётчика [Charge:*Заряда*], потраченные на этот навык (До 6)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если навык потратил 15 единиц счётчика [Charge:*Заряда*], наносит 2 [DimensionRift:*Пространственных разлома*]"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 [ChargeForceField:*Зарядных барьера*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пространственный разлом",
+          "desc": "[WhenUse] При счётчике [Charge:*Заряда*] меньшем, чем 15, понижает счётчик [Charge:*Заряда*] на 10 для получения +1 к силе монет\n[WhenUse] Понижает счётчик [Charge:*Заряда*] на 15 для получения +2 к силе монет\n[BeforeAttack] Если навык потратил 15 единиц счётчика [Charge:*Заряда*], повышает счётчик [Burst:*Разрыва*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Разрыв"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Разрыв"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*] за каждые 5 единиц счётчика [Charge:*Заряда*], потраченные на этот навык (До 9)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если навык потратил 15 единиц счётчика [Charge:*Заряда*], наносит 2 [DimensionRift:*Пространственных разлома*]"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 5 [ChargeForceField:*Зарядных барьеров*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пустое пространство",
+          "desc": "Базовая сила +1 за каждые 5 единиц счётчика [Charge:*Заряда*] (До 2)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пустое пространство",
+          "desc": "Базовая сила +1 за каждые 5 единиц счётчика [Charge:*Заряда*] (До 2)\n[OnSucceedEvade] +1 к количеству эффекта при первом накладывании [Burst:*Разрывы*] с помощью навыков на следующий ход (До +3 за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нанизывание",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Нанизывание",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Нанизывание",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неустанное пробитие",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\nСила столкновения +2 при 5 и более [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Неустанное пробитие",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\nСила столкновения +2 при 5 и более [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Снова подкидывает монету (Единожды)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Неустанное пробитие",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\nСила столкновения +3 при 5 и более [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Снова подкидывает монету (До 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Налёт",
+          "desc": "[WhenUse] Получает 5 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Налёт",
+          "desc": "[WhenUse] Получает 5 [Breath:*Дыхания*]\nСила монет +1 при 7 и более [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уворот",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Трата знаний",
+          "desc": "Получает щит, равный (Откровение x 2% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Понижает грани оглушения цели на число [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Понижает грани оглушения цели на число [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Трата знаний",
+          "desc": "Получает щит, равный (Откровение x 3% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения цели на число [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения цели на число [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Трата знаний",
+          "desc": "Получает щит, равный (Откровение x 3% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения цели на число [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения цели на число [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сокрытие за печатью",
+          "desc": "Получает щит, равный (Откровение x 4% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Сокрытие за печатью",
+          "desc": "Получает щит, равный (Откровение x 5% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сокрытие за печатью",
+          "desc": "Получает щит, равный (Откровение x 6% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Благословение знания",
+          "desc": "Получает щит, равный (Откровение x 9% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] Эта ячейка получает 8 [Aggro:*Провокаций*] на следующий ход",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Благословение знания",
+          "desc": "Получает щит, равный (Откровение x 12% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] Эта ячейка получает 10 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Сила монет +1 при 50% и менее ОЗ",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Утопание в поиск",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Утопание в поиск",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перекрашивание",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Перекрашивание",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Перекрашивание",
+          "desc": "Сила парирований +1 против целей с 6 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровавая работа в стиле пуантилизма",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] С шансом в 20% вновь подкидывает монету. Шанс повышается на 20% с каждым негативным эффектом на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Кровавая работа в стиле пуантилизма",
+          "desc": "Сила парирований +1 против целей с 6 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] С шансом в 20% вновь подкидывает монету. Шанс повышается на 20% с каждым негативным эффектом на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Кровавая работа в стиле пуантилизма",
+          "desc": "Сила парирований +1 за каждые 3 [Laceration:*Кровотечения*] на цели (До 2)\nСила монет +1 за каждые 3 единицы на счётчике [Laceration:*Кровотечения*] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] С шансом в 40% вновь подкидывает монету. Шанс повышается на 20% с каждым негативным эффектом на цели (Подкидывает вновь до 2-ух раз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Мазки каплями крови",
+          "desc": "Сила парирований +1 против целей с 6 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1. При 4-х и более негативных эффектах на цели, дополнительно повышает счётчик наносимого эффекта на 2."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]. При 4-х и более негативных эффектах на цели, дополнительно наносит 2 единицы нанесённого эффекта"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+15% урона за каждый негативный эффект на цели (До 75%)"
+                },
+                {
+                  "desc": "[EndSkill] При оглушении или убийстве цели наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] случайному противнику"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Мазки каплями крови",
+          "desc": "Сила парирований +1 за каждые 3 [Laceration:*Кровотечения*] на цели (До 2)\nСила монет +1 за каждые 3 единицы на счётчике [Laceration:*Кровотечения*] цели (До 2)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1. При 3-х и более негативных эффектах на цели, дополнительно повышает счётчик наносимого эффекта на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]. При 3-х и более негативных эффектах на цели, дополнительно наносит 2 единицы нанесённого эффекта"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+25% урона за каждый негативный эффект на цели (До 125%)"
+                },
+                {
+                  "desc": "[EndSkill] При оглушении или убийстве цели наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] 2-м случайным противникам"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Набрызг",
+          "desc": "Базовая сила +5 против целей с 6 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Набрызг",
+          "desc": "Базовая сила +1 за каждую единицу [Laceration:*Кровотечения*] на цели (До 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поздравления ушедшим в мир иной",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Поздравления ушедшим в мир иной",
+          "desc": "Сила монет +1 против целей с суммой [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Поздравления ушедшим в мир иной",
+          "desc": "<style=\"highlight\">Сила парирований +1 при 10 и более [BulletLament:*бабочках Живых и Почивших*] у И Сана на руках</style>\nСила монет +1 против целей с суммой [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оставшимся с нами же — торжественные соболезнования",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 5 [BulletLament:*случайных бабочек Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Оставшимся с нами же — торжественные соболезнования",
+          "desc": "Сила монет +1 против целей с суммой [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 1\n[EndSkill] Получает [BulletLament:*бабочки Живых и Почивших*] в запас по числу грехов в наибольшем резонансе (До 6)\n- Если наибольший резонанс является абсолютом, вместо этого получает (число грехов в абсолюте x 2) [BulletLament:*бабочек Живых и Почивших*] в запас (До 12)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 5 [BulletLament:*случайных бабочек Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Оставшимся с нами же — торжественные соболезнования",
+          "desc": "Сила парирований +1 при 10 и более [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках\nСила монет +1 <style=\"highlight\">за каждые 6 единиц</style> в сумме [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 1\n[EndSkill] Получает [BulletLament:*бабочки Живых и Почивших*] в запас по числу грехов в наибольшем резонансе (До 6)\n- Если наибольший резонанс является абсолютом, вместо этого получает (число грехов в абсолюте x 2) [BulletLament:*бабочек Живых и Почивших*] в запас (До 12)\n- Если в наибольшем абсолюте 4 и более греха, заменяет на [ReloadLament:*Перезарядку*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 5 [BulletLament:*случайных бабочек Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "И скорби акме нашей, словно альвеолы наполнив, испарись",
+          "desc": "Базовая сила +1 за каждые 10 [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 3\n[EndSkill] [ReloadLament:*Перезаряжается*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 6 [BulletLament:*случайных бабочек Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит все оставшиеся [BulletLament:*бабочки Живых и Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +2% урона за каждую [BulletLament:*бабочку Живых и Почивших*], потраченную этим навыком"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием, равный <b>всем</b> [SinkingWhite:*Бабочкам*] на цели\n- Учитывается сумма Живых и Почивших"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "И скорби акме нашей, словно альвеолы наполнив, испарись",
+          "desc": "Базовая сила +1 за каждые <style=\"highlight\">5</style> [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках <style=\"highlight\">(До 4)</style>\nСила монет +1 за каждые 6 единиц в сумме [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 3\n[EndSkill] [ReloadLament:*Перезаряжается*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletLament:*случайную бабочку Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 6 [BulletLament:*случайных бабочек Живых или Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит все оставшиеся [BulletLament:*бабочки Живых и Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [SinkingWhite] по числу потраченных [BulletLament:*бабочек Живых и Почивших*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +4% урона за каждую [BulletLament:*бабочку Живых и Почивших*], потраченную этим навыком"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием, равный <b>всем</b> [SinkingWhite:*Бабочкам*] на цели\n- Учитывается сумма Живых и Почивших"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ивыпорхнетбабочкаизгроба",
+          "desc": "[StartBattle] [ReloadLament:*Перезаряжается*] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ивыпорхнетбабочкаизгроба",
+          "desc": "[StartBattle] [ReloadLament:*Перезаряжается*] (Единожды за ход)\n[StartBattle] Получает щит на (число всех [SinkingWhite:*Бабочек*] на цели)% от максимальных ОЗ. (До 20% за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Несмотря на то, что ЭГО-снаряжение кажется весьма стандартизированным,",
+          "desc": "[WhenUse] И Сан получает 2 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*] на цели с 15 и более [Burst:*Разрывами*] и 3 и более единицами на их счётчике.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Несмотря на то, что ЭГО-снаряжение кажется весьма стандартизированным,",
+          "desc": "[StartBattle] При поражении в поединке итоговая сила +(число нацеленных на И Сана навыков) (До 2)\n[WhenUse] И Сан получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*] на цели с 15 и более [Burst:*Разрывами*] и 3 и более единицами на их счётчике.\n[DefeatDuel] Этот навык наносит +1 [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Несмотря на то, что ЭГО-снаряжение кажется весьма стандартизированным,",
+          "desc": "[StartBattle] При поражении в поединке итоговая сила +(число нацеленных на И Сана навыков) (До 3)\n[WhenUse] И Сан получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*] на цели с 15 и более [Burst:*Разрывами*] и 3 и более единицами на их счётчике.\n[DefeatDuel] Этот навык наносит 2 дополнительных [Burst:*Разрыва*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В отличие от ЭГО-снаряжения, извлечённого из аномалий со времён корпорации «Лоботомия»,",
+          "desc": "[WhenUse] И Сан получает 2 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Этот навык не повышает счётчик [Burst:*Разрывов*] целей с 15 и более [Burst:*Разрывами*] и 3 и более единицами на их счётчике",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "В отличие от ЭГО-снаряжения, извлечённого из аномалий со времён корпорации «Лоботомия»,",
+          "desc": "[StartBattle] При поражении в поединке итоговая сила +(число нацеленных на И Сана навыков) (До 3)\n[WhenUse] И Сан получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Этот навык не повышает счётчик [Burst:*Разрывов*] целей с 15 и более [Burst:*Разрывами*] и 3 и более единицами на их счётчике\n[DefeatDuel] Этот навык дополнительно повышает счётчик [Burst:*Разрывов*] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "В отличие от ЭГО-снаряжения, извлечённого из аномалий со времён корпорации «Лоботомия»,",
+          "desc": "[StartBattle] <style=\"highlight\">При поражении в поединке итоговая сила +(число нацеленных на И Сана навыков x 2) (До 6)</style>\n[WhenUse] И Сан получает 4 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Этот навык не повышает счётчик [Burst:*Разрывов*] целей с 15 и более [Burst:*Разрывами*] и 3 и более единицами на их счётчике\n[DefeatDuel] Этот навык дополнительно повышает счётчик [Burst:*Разрывов*] цели на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Наши версии ЭГО с бо́льшим потенциалом проявляют тонкости аномалий в зависимости от настройки.",
+          "desc": "+0.5% урона за каждый 1% потерянных ОЗ И Сана\n[StartBattle] Итоговая сила +(число нацеленных на И Сана навыков) (До 2)\n[WhenUse] И Сан получает 2 [GlowingLantern:*Феи-приманки*] (Единожды за ход)\n[WhenUse] И Сан получает 6 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*], как и не повышает их счётчик против целей с 15 и более [Aggro:*Разрывами*] или 3 и более единицами на их счётчике, но против них навык И Сана получает +1 к итоговой силе\n[EndSkill] И Сан восстанавливает 30 ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан наносит цели 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Наши версии ЭГО с бо́льшим потенциалом проявляют тонкости аномалий в зависимости от настройки.",
+          "desc": "+0.8% урона за каждый 1% потерянных ОЗ\n[StartBattle] Итоговая сила +(число нацеленных на И Сана навыков) (До 3)\n[WhenUse] И Сан получает 3 [GlowingLantern:*Феи-приманки*] (Единожды за ход)\n[WhenUse] Также И Сан получает 8 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*], как и не повышает их счётчик против целей с 15 и более [Aggro:*Разрывами*] или 3 и более единицами на их счётчике, но против них навык И Сана получает +1 к итоговой силе\n[EndSkill] И Сан восстанавливает 30 ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан наносит цели 2 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Однако же избыточная настройка и синхронизация носителя со снаряжением может запросто поглотить первого без возможности восстановления.",
+          "desc": "[StartBattle] И Сан получает 2 [GlowingLantern:*Феи-приманки*] (Единожды за ход)\n[WhenUse] И Сан получает 6 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*], как и не повышает их счётчик против целей с 15 и более [Aggro:*Разрывами*] или 3 и более единицами на их счётчике, но против них навык И Сана получает +1 к базовой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Однако же избыточная настройка и синхронизация носителя со снаряжением может запросто поглотить первого без возможности восстановления.",
+          "desc": "[StartBattle] И Сан получает 3 [GlowingLantern:*Феи-приманки*] (Единожды за ход)\n[WhenUse] Также И Сан получает 8 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Этот навык не наносит [Burst:*Разрывы*], как и не повышает их счётчик против целей с 15 и более [Aggro:*Разрывами*] или 3 и более единицами на их счётчике, но против них навык И Сана получает +1 к базовой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение огнём",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Рассечение огнём",
+          "desc": "Сила монет +1 против целей c <style=\"highlight\">3</style>+ [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рассечение огнём",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 3</style> [Combustion:*Огня*] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">+10% урона за каждые 10 [Combustion:*Огня*] на цели (До 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Лобовая атака",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 6 и более [Combustion:*Огня*] на цели дополнительно повышает её счётчик [Combustion:*Огня*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Лобовая атака",
+          "desc": "Сила монет +1 за каждые 6 [Combustion:*Огня*] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+2.5% урона за каждую единицу [Combustion:*Огня*] на цели (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 6 и более [Combustion:*Огня*] на цели дополнительно повышает её счётчик [Combustion:*Огня*] на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Лобовая атака",
+          "desc": "Сила монет +1 за каждые 6 [Combustion:*Огня*] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">5</style>% урона за каждую единицу [Combustion:*Огня*] на цели (До  <style=\"highlight\">60</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 6 и более [Combustion:*Огня*] на цели дополнительно повышает её счётчик [Combustion:*Огня*] на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Течение клинка",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]\n+10% урона за каждые 6 единиц [Combustion:*Огня*] на цели (До 30%)\n[EndSkill] И Сан восстанавливает 10 СД союзнику с самой низкой силой духа (кроме себя)\n- При убийстве цели или успешной атаке цели с 10 и более [Combustion:*Огня*] И Сан восстанавливает СД ещё одному союзнику",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+2% урона за каждую единицу [Combustion:*Огня*] на цели (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан наносит (потенциал [Combustion:*Огня*]) урона Гневом (До 30). После цель теряет 2 единицы на счётчике [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Течение клинка",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6</style> [Combustion:*Огня*] на цели <style=\"highlight\">(До 2)</style>\n+10% урона за каждые 6 единиц [Combustion:*Огня*] на цели (До 30%)\n[EndSkill] И Сан восстанавливает <style=\"highlight\">15</style>  СД союзнику с самой низкой силой духа (кроме себя)\n- При убийстве цели или успешной атаке цели с 10 и более [Combustion:*Огня*] И Сан восстанавливает СД ещё одному союзнику",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+2% урона за каждую единицу [Combustion:*Огня*] на цели (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан наносит (потенциал [Combustion:*Огня*]) урона Гневом (До 30). После цель теряет 2 единицы на счётчике [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенная контратака",
+          "desc": "[BeforeHit] И Сан получает ([Combustion] на цели) щита (До 10, единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если на И Сане остался щит, повышает нанесение  [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если на И Сане остался щит, повышает нанесение  [Combustion:*Огня*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенная контратака",
+          "desc": "[BeforeHit] И Сан получает ([Combustion] на цели) щита (До 15, единожды за ход)\n[WhenUse] +10 урона против целей с 10 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если на И Сане остался щит, повышает нанесение  [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если на И Сане остался щит, повышает нанесение  [Combustion:*Огня*] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

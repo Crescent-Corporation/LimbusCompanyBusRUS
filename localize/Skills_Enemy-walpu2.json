@@ -1,0 +1,444 @@
+{
+    "dataList": [
+        {
+            "id": 814701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прокол",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прикалывание к полу",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Боль",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% урона"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% урона"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Блок",
+                    "desc": "Если на испытании остался щит, наносит 2 [Laceration:*Кровотечения*] при ударе на следующем ходу",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": 814801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прокол",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прикалывание к полу",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Боль",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Уворот",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "id": 814901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прокол",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прикалывание к полу",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Боль",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.\nПри убийстве этой атакой, использует её снова.",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет СД пропорционально [Laceration:*Кровотечению*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:*Кровотечения*], снова подкидывает монету (Один раз)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 814904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Контратака",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": 815001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прокол",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]. Если на цели есть Кровотечение, повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прикалывание к полу",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                }
+                            ]
+                        },
+                        
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Боль",
+                    "desc": "Предпочитает выбирать цели с [Laceration:*Кровотечением*]\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 15 СД.\nПри убийстве этой атакой, использует её снова.",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине [Laceration:*Кровотечения*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине [Laceration:*Кровотечения*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% урона"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет СД, равную половине [Laceration:*Кровотечения*] на ней"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                },
+                              {
+                                "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration:*Кровотечения*], снова подкидывает монету (Один раз)"
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 815004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Контратака",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

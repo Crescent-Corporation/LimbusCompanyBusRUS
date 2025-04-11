@@ -1,0 +1,28 @@
+{
+  "dataList": [
+    {
+      "id": "UnitKeyword_BLOODBAG",
+      "content": "Кровесосуд"
+    },
+    {
+      "id": "UnitKeyword_BLOODFIEND",
+      "content": "Кроваггел"
+    },
+    {
+      "id": "UnitKeyword_THIRD_DEPENDENT",
+      "content": "Третий потомок"
+    },
+    {
+      "id": "UnitKeyword_DEPENDENT",
+      "content": "Потомок"
+    },
+    {
+      "id": "UnitKeyword_FANG_HUNT",
+      "content": "Офис Охотников за клыками"
+    },
+    {
+      "id": "UnitKeyword_FULL_STOP",
+      "content": "Офис Точки"
+    }
+  ]
+}

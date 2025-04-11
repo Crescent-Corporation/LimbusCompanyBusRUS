@@ -1,0 +1,56 @@
+{
+  "dataList": [
+    {
+      "id": "Ally",
+      "content": "Союзники"
+    },
+    {
+      "id": "RandomAlly",
+      "content": "Случайные союзники"
+    },
+    {
+      "id": "EveryAlly",
+      "content": "Каждый из союзников"
+    },
+    {
+      "id": "EveryEnemy",
+      "content": "Все противники"
+    },
+    {
+      "id": "ChosenPersonality",
+      "content": "Выбранная идентичность"
+    },
+    {
+      "id": "HighestHpAlly",
+      "content": "Союзники с самым высоким здоровьем"
+    },
+    {
+      "id": "LowestHpAlly",
+      "content": "Союзники с самым низким здоровьем"
+    },
+    {
+      "id": "HighestMpAlly",
+      "content": "Союзники с наибольшей СД"
+    },
+    {
+      "id": "LowestMpAlly",
+      "content": "Союзники с наименьшей СД"
+    },
+    {
+      "id": "NotFullHpAlly",
+      "content": "Союзники с неполными ОЗ"
+    },
+    {
+      "id": "NotAffectedAlly",
+      "content": "Союзники без предыдущего эффекта"
+    },
+    {
+      "id": "LowestHpRatioAlly",
+      "content": "Союзник с наименьшим процентом ОЗ"
+    },
+    {
+      "id": "Every",
+      "content": "Все"
+    }
+  ]
+}

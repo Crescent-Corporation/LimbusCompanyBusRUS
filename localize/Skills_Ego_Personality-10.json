@@ -1,0 +1,587 @@
+{
+  "dataList": [
+    {
+      "id": 2100411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фонарь",
+          "abName": "Фонарь фей",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ 10% от максимальных ОЗ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Фонарь",
+          "abName": "Фонарь фей",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ 12% от максимальных ОЗ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фонарь",
+          "abName": "Фонарь фей",
+          "desc": "[BeforeAttack] Тяжесть атаки +2 при менее 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ 15% от максимальных ОЗ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фонарь",
+          "abName": "Фонарь фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:*Разрыва*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Фонарь",
+          "abName": "Фонарь фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:*Разрыва*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:*Понижения уровня защиты*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фонарь",
+          "abName": "Фонарь фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\n[BeforeAttack] Тяжесть атаки +2 при менее 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:*Разрыва*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [DefenseDown:*Понижений уровня защиты*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:*Огня*], наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:*Огня*], наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более\n[BeforeAttack] Дополнительно +1 цель при абсолюте Похоти, равном 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:*Огня*], наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:*Огня*], наносит 1 Понижение силы атаки и 1 Понижение силы защиты на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:*Огня*], наносит 6 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:*Огня*], наносит 6 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:*Огня*], наносит 1 Уязвимость к Похоти на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более\n[BeforeAttack] Дополнительно +1 цель при абсолюте Похоти, равном 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:*Огня*], наносит 6 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:*Огня*], наносит 2 [ScarletTakeDamageUp:*Уязвимости к Похоти*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[BeforeAttack] Если наибольший резонанс равен 4 и более, тяжесть атаки +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Даёт себе и союзнику с самым низким здоровьем щит на 10% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]"
+                },
+                {
+                  "desc": "- Если наибольший резонанс равен 4 и более, +1 союзник получает щит и [ShieldManagerCryingToad:*Слезинку*] "
+                },
+                {
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2"
+                },
+                {
+                  "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 [ShieldManagerCryingToad:*Слезинки*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +(наибольший резонанс - 2) (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Даёт себе и <style=\"highlight\">(1 +(наибольший резонанс - 2))</style> союзникам с самым низким здоровьем щит на <style=\"highlight\">14%</style> от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*] <style=\"highlight\">(До 3-х союзников)</style>"
+                },
+                {
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 [ShieldManagerCryingToad:*Слезинки*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[BeforeAttack] Тяжесть атаки +(наибольший резонанс - 2) (До 2)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Даёт себе и (1 +(наибольший резонанс - 2))</style> союзникам с самым низким здоровьем щит на <style=\"highlight\">20%</style> от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*] (До 3-х союзников)"
+                },
+                {
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 [ShieldManagerCryingToad:*Слезинки*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Если наибольший резонанс равен 4 и более, тяжесть атаки +1\n[BeforeAttack] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на цель"
+                },
+                {
+                  "desc": "[EndSkill] Синклер получает щит на (15 + наибольший резонанс x 2.5)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До 25%)"
+                },
+                {
+                  "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 "
+                },
+                {
+                  "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 [ShieldManagerCryingToad:*Слезинки*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Тяжесть атаки +(наибольший резонанс - 2) (До 2)</style>\n[BeforeAttack] Эта ячейка получает <style=\"highlight\">10</style> [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на цель<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">18</style> + наибольший резонанс x <style=\"highlight\">3</style>)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 <style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 [ShieldManagerCryingToad:*Слезинки*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс - 2) (До 2)\n[BeforeAttack] Эта ячейка получает 10 [Aggro:*Провокации*] на следующий ход<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на цель и<style=\"highlight\">повышает её счётчик на 3</style>"
+                },
+                {
+                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">20</style> + наибольший резонанс x <style=\"highlight\">5</style>)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 <style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 [ShieldManagerCryingToad:*Слезинки*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Если наибольший абсолют Уныния равен 4 или более, Синклер получает щит на дополнительные 10% от максимальных ОЗ</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проклятый гвоздь",
+          "abName": "Страждущий мишка Тедди",
+          "desc": "[EndSkill] При наличии [Curse:*Проклятия*] на цели активирует его эффект дважды и тратит 2 [Curse:*Проклятия*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:*Проклятия*]\n- Наносит дополнительное [Curse] за каждые 3 негативных эффекта на цели кроме [Curse:*Проклятия*] и [NailPersonality:*Гвоздей*] (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NailPersonality:*Гвоздя*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Проклятый гвоздь",
+          "abName": "Страждущий мишка Тедди",
+          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах Зависти в резонансе (включая этот навык)</style>\n[EndSkill] При наличии [Curse:*Проклятия*] на цели активирует его эффект дважды и тратит 2 [Curse:*Проклятия*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:*Проклятия*]\n- Наносит дополнительное [Curse] за каждые 3 негативных эффекта на цели кроме [Curse:*Проклятия*] и [NailPersonality:*Гвоздей*] (До 2)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:*Гвоздя*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Проклятый гвоздь",
+          "abName": "Страждущий мишка Тедди",
+          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1 за каждые 3 греха Зависти в резонансе (включая этот навык) (До 2)</style>\n[EndSkill] При наличии [Curse:*Проклятия*] на цели активирует его эффект дважды и тратит 2 [Curse:*Проклятия*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:*Проклятия*]\n- Наносит дополнительное [Curse] за каждые <style=\"highlight\">2</style> негативных эффекта на цели кроме [Curse:*Проклятия*] и [NailPersonality:*Гвоздей*] (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:*Гвоздя*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более [Curse:*Проклятиях*] на цели</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проклятый гвоздь",
+          "abName": "Страждущий мишка Тедди",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] При наличии [Curse:*Проклятия*] на цели активирует его эффект дважды и тратит 2 [Curse:*Проклятия*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:*Проклятия*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NailPersonality:*Гвоздя*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Проклятый гвоздь",
+          "abName": "Страждущий мишка Тедди",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] При наличии [Curse:*Проклятия*] на цели активирует его эффект дважды и тратит 2 [Curse:*Проклятия*]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3</style> [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:*Проклятия*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:*Гвоздя*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Проклятый гвоздь",
+          "abName": "Страждущий мишка Тедди",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] При наличии [Curse:*Проклятия*] на цели активирует его эффект дважды и тратит 2 [Curse:*Проклятия*]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 3 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:*Проклятия*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:*Гвоздя*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более грехах Зависти в резонансе (включая этот навык) (Единожды за ход)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [DefenseDown:*Понижения уровня защиты*] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

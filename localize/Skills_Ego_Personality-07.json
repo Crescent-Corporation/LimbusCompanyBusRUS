@@ -1,0 +1,578 @@
+{
+  "dataList": [
+    {
+      "id": 2070511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Праздник",
+          "abName": "Сан-дольф",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь, Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Праздник",
+          "abName": "Сан-дольф",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь, Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
+                },
+                {
+                  "desc": "[EnemyKill] Даёт 2-м случайным союзникам 1 счётчик [Breath:*Дыхания*], счётчик [Charge:*Заряда*], [Agility:*Спешку*], Повышение уровня атаки или Повышение уровня защиты на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Праздник",
+          "abName": "Сан-дольф",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь, Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                },
+                {
+                  "desc": "[EnemyKill] Даёт 2-м случайным союзникам 2 счётчика [Breath:*Дыхания*], счётчика [Charge:*Заряда*], [Agility:*Спешки*], [AttackUp:*Повышения уровня атаки*] или [DefenseUp:*Повышения уровня защиты*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Праздник",
+          "abName": "Сан-дольф",
+          "desc": "[CantIdentify]\nАтакует цели с наибольшей СД\n[BeforeAttack] Цели теряют 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь, Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Праздник",
+          "abName": "Сан-дольф",
+          "desc": "[CantIdentify]\nАтакует цели с наибольшей СД\n[BeforeAttack] Цели теряют 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь, Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Праздник",
+          "abName": "Сан-дольф",
+          "desc": "[CantIdentify]\nАтакует цели с наибольшей СД\nЕсли у основной цели 15 и выше СД, количество целей +1\n[BeforeAttack] Цели теряют 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь, Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Узы",
+          "abName": "Связанный король",
+          "desc": "[EndSkill] В течение 3-х ходов теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Узы",
+          "abName": "Связанный король",
+          "desc": "[EndSkill] В течение 3-х ходов теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Узы",
+          "abName": "Связанный король",
+          "desc": "[EndSkill] В течение 3-х ходов теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheBoundKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack]  Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Узы",
+          "abName": "Связанный король",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Связываний*] и 3 [Enhancement:*Повышения силы атаки*] на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До 2-ух)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Узы",
+          "abName": "Связанный король",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Связываний*], 3 [Enhancement:*Повышения силы атаки*] и 1 <style=\"highlight\">[AzureDamageUp]</style> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">3</style>-ёх)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Узы",
+          "abName": "Связанный король",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 3 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Связываний*], 3 [Enhancement:*Повышения силы атаки*] и <style=\"highlight\">2</style> [AzureDamageUp:*Повышения урона Унынием*] на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">4</style>-ёх)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*] \n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 3-х)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+5% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 35%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet:*Патрон*] (До 2-ух раз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">4</style>)\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">10</style>% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet:*Патрон*] (До 2-ух раз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">7</style>)\n[BeforeAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">15</style>% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">105</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet:*Патрон*] (До 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+            "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] +2% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 3)\n[BeforeAttack] +3% урона за каждые 5 [Breath:*Дыхания*] на себе (До 15%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и 2 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n<style=\"highlight\">[BeforeAttack] При 3 и более [BoseProjektil:*Разорванных воспоминаниях*], тяжесть атаки +1</style>\n[BeforeAttack] +2% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">4</style>)\n[BeforeAttack] +<style=\"highlight\">4</style>% урона за каждые 5 [Breath:*Дыхания*] на себе (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Роковая пуля",
+          "abName": "Проклятый стрелок",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Тяжесть атаки +1 <style=\"highlight\">за каждые 3</style> [BoseProjektil:*Разорванных воспоминаниях*] <style=\"highlight\">(До 2)</style>\n[BeforeAttack] +<style=\"highlight\">3</style>% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">21</style>%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">7</style>)\n[BeforeAttack] +<style=\"highlight\">5</style>%  (До <style=\"highlight\">25</style>%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крен инерции",
+          "abName": "Заводная неваляшка времени",
+          "desc": "[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс) (До 6-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] целей на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:*Тремора*] целей на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если наибольшим резонансом является абсолют из 4 и более Лености, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Крен инерции",
+          "abName": "Заводная неваляшка времени",
+          "desc": "[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (<style=\"highlight\">2 +</style> наибольший резонанс) (До <style=\"highlight\">8</style>-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] целей на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:*Тремора*] целей на 2"
+                }
+              ]  
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если наибольшим резонансом является <style=\"highlight\">абсолют из Лености</style>, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Крен инерции",
+          "abName": "Заводная неваляшка времени",
+          "desc": "[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (<style=\"highlight\">4 +</style> наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] целей на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 5 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:*Тремора*] целей на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крен инерции",
+          "abName": "Заводная неваляшка времени",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на  (2 + наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] целей на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:*Тремора*] целей на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1."
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если наибольший резонанс — абсолют из 4 и более Лености, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Крен инерции",
+          "abName": "Заводная неваляшка времени",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (<style=\"highlight\">4 +</style> наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] целей на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 5 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:*Тремора*] целей на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1."
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если наибольший резонанс —  <style=\"highlight\">абсолют Лености</style>, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Крен инерции",
+          "abName": "Заводная неваляшка времени",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (4 + наибольший резонанс) (До <style=\"highlight\">10</style>-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] целей на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 6 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:*Тремора*] целей на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1."
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

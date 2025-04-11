@@ -1,0 +1,227 @@
+{
+  "dataList": [
+    {
+      "id": 835001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Преклонитесь передо мной",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 4 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жалкие людишки",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 4 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ступайте вон... Вон!..",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 4 и более [Laceration:*Кровотечения*]\n[WhenUse] +5% урона за каждую единицу счётчика [Laceration:*Кровотечения*] (До 20%)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration:*Кровотечения*]. Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Принц парада",
+          "desc": "[StartBattle] Тяжесть атаки +(число целей с [Laceration:*Кровотечением*]) (До 5)\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration:*Кровотечения*]\n[WhenUse] Сила монет +1 против целей с 3 и выше на счётчике [Laceration:*Кровотечения*]\n[DefeatDuel] Тратит 1 единицу [KeptBlood:*Крови из запаса*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровь... Крови... Крови!..",
+          "desc": "[WhenUse] Сила монет +1 против целей с 8 и более [Laceration:*Кровотечения*]\n[DefeatDuel] Тратит 1 [KeptBlood:*единицу Крови из запаса*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*] и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +20% урона следующей монеты против целей с 10 и более [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 единицу [KeptBlood:*Крови в запас*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оставьте меня!..",
+          "desc": "[WhenUse] Базовая сила +1 за каждую единицу счётчика [Laceration:*Кровотечения*] на цели (До 4)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я же... принц... сего шествия!..",
+          "desc": "[CantDuel]\n[WhenUse] Удваивает восстановление ОЗ от пассивки 「Глефа из застывшей крови」\n[WhenUse] Обновляет СД до 0\n[EndSkill] Получает 10 единиц [KeptBlood:*Крови в запас*]\nКассетти не может быть оглушён в этот ход; завершает ход после использования этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я не вернусь... во веки веков!..",
+          "desc": "[WhenUse] Сила парирований +1 за каждые 5 [Laceration:*Кровотечения*]Кровотечения*] на цели (До 3)\n[WhenUse] Сила монет +1 против целей с 4 и более на счётчике [Laceration:*Кровотечения*]\n[WhenUse] +5% урона за каждую единицу счётчика [Laceration:*Кровотечения*] (До 20%)\n[WhenUse] Удваивает восстановление ОЗ от пассивки 「Глефа из застывшей крови」\n[EndSkill] Получает 10 единиц [KeptBlood:*Крови в запас*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1333 @@
+{
+  "dataList": [
+    {
+      "id": 1090701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Озари незнание своё",
+          "desc": "Получает щит, равный (Откровение x 3% максимальных ОЗ)при сбросе этого навыка",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грань оглушения грешницы на 5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Озари незнание своё",
+          "desc": "Получает щит, равный (Откровение x 4% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] Если у грешницы 2 и более Откровение, сила монет +(Откровение - 1)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грань оглушения грешницы на 8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Озари незнание своё",
+          "desc": "Получает щит, равный (Откровение x 5% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] Если у грешницы 2 и более [KnowledgeExplored:*Откровений*], сила монет +(Откровение - 1)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает грань оглушения грешницы на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тяжесть знаний",
+          "desc": "Получает щит, равный (Откровение x 5% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 2 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Тяжесть знаний",
+          "desc": "Получает щит, равный (Откровение x 8% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Тяжесть знаний",
+          "desc": "Получает щит, равный (Откровение x 10% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Сила столкновения +2 против целей с 5 и более [Sinking:*Утопания*]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Болезненное просвещение",
+          "desc": "Получает щит, равный (Откровение x 15% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 4"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Болезненное просвещение",
+          "desc": "Получает щит, равный (Откровение x 20% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*]*] 2 навыка низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:*Утопания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 4"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090704,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Погружённость в познания",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 2 [Aggro:*Провокации*] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Погружённость в познания",
+          "desc": "[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 1090801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удары огнём",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Удары огнём",
+          "desc": "Сила монет +1 против целей с 3 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Удары огнём",
+          "desc": "Сила монет +1 за каждые 3 [Combustion:*Огня*] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенная тегатана — Всполохи",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:*Огня*] цели равен 6 и более, наносит 3 [Combustion:*Огня*] 2-м противникам с наименьшим счётчиком [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пламенная тегатана — Всполохи",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:*Огня*] цели равен 6 и более, наносит 3 [Combustion:*Огня*] 2-м противникам с наименьшим счётчиком [Combustion:*Огня*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенная тегатана — Всполохи",
+          "desc": "Сила монет +1 за каждые 6 [Combustion:*Огня*] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:*Огня*] цели равен 6 и более, наносит 3 [Combustion:*Огня*] 2-м противникам с наименьшим счётчиком [Combustion:*Огня*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Молниеносное пронзание",
+          "desc": "+30% урона против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит половину потенциала [Combustion:*Огня*] на цели уроном Гневом.(До 20) Понижает счётчик [Combustion:*Огня*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Молниеносное пронзание",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Combustion:*Огня*]</style>\n+30% урона против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит потенциал [Combustion:*Огня*] на цели уроном Гневом.(До 30) Понижает счётчик [Combustion:*Огня*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Готовность взимать",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Готовность взимать",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Готовность взимать",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n[WhenUse]Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рукопашное подавление Корп. T",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Рукопашное подавление Корп. T",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 2</style>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рукопашное подавление Корп. T",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Связывания*] на цели (До 15%)</style>\n[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Binding] на следующий ход</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 6 и более [Vibration:*Тремора*], наносит 1 [Binding] на следующий ход</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Исполнение взысканий",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 8 и более [Vibration:*Тремора*]\n[WhenUse] Сила монет +1 при трате 8 единиц из своего счётчика [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на Роде есть [TimeRentalTwoPersonality], наносит 2 [TimeSuspend:*Временных моратория*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Исполнение взысканий",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Связывания*] на цели (До 20%)</style>\n[WhenUse] Сила парирований +<style=\"highlight\">2</style> против целей с 8 и более [Vibration:*Тремора*]\n[WhenUse] Сила монет +1 при трате 8 единиц из своего счётчика [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык понизил счётчик [Vibration:*Тремора*] Роди, наносит 2 [Binding:*Связывания*] на следующий ход</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на Роде есть [TimeRentalTwoPersonality], наносит 2 [TimeSuspend:*Временных моратория*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Одолженное время",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[StartBattle] Если на Роде нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 3 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 [Vibration:*Тремора*] на атакующего (Дважды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Одолженное время",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[StartBattle] Если на Роде нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 3 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 [Vibration:*Тремора*] на атакующего (До <style=\"highlight\">6-и</style>раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Курьерская сумка: Разлагающее лезвие",
+          "desc": "[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, Родя не наносит [Burst] этим навыком, но и не тратит счётчик этого эффекта при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Курьерская сумка: Разлагающее лезвие",
+          "desc": "<style=\"highlight\">Сила монет +1 при 10 и более на [DevyatDimensionalSack:*Курьерской сумке*] или 6 и более [Burst:*Разрывов*] на цели</style>\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, Родя не наносит [Burst] этим навыком, но и не тратит счётчик этого эффекта при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 1\n<style=\"highlight\">- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Курьерская сумка: Разлагающее лезвие",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] Роди или 6 [Burst:*Разрывов*] на цели (До 2)</style>\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, Родя не наносит [Burst] этим навыком, но и не тратит счётчик этого эффекта при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 1\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Курьерская сумка: Выпуск гаджетов",
+          "desc": "Сила монет +1 при 10 и более на [DevyatDimensionalSack:*Курьерской сумке*] или 6 и более [Burst:*Разрывов*] на цели\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, этот навык не тратит счётчик [Burst:*Разрывов*] при ударе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит по 1 [DefenseDown:*Понижению уровня защиты*] за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] или 5 <style=\"highlight\">3</style> [Burst:*Разрывах*] на цели (До 2, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Курьерская сумка: Выпуск гаджетов",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] Роди или 6 [Burst:*Разрывов*] на цели (До 2)</style>\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, этот навык не тратит счётчик [Burst:*Разрывов*] при ударе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 1\n<style=\"highlight\">- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит по 1 [DefenseDown:*Понижению уровня защиты*] за каждые  <style=\"highlight\">5</style> единиц на [DevyatDimensionalSack:*Курьерской сумке*] или 5 <style=\"highlight\">3</style> [Burst:*Разрывах*] на цели (До <style=\"highlight\">4</style>, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Курьерская сумка: Выпуск гаджетов",
+          "desc": "<style=\"highlight\">+2% урона за каждую единицу на [DevyatDimensionalSack:*Курьерской сумке*] (До 40%)</style>\nСила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] Роди или 6 [Burst:*Разрывов*] на цели (До 2)\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, этот навык не тратит счётчик [Burst:*Разрывов*] при ударе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 1\n- Если у Роди 15- на [DevyatDimensionalSack:*Курьерской сумке*], она дополнительно повышает число эффекта на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)\n<style=\"highlight\">- Если у Роди 15 и более на [DevyatDimensionalSack:*Курьерской сумке*], она дополнительно получает ещё 1 [Agility:*Спешку*]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит по 1 [DefenseDown:*Понижению уровня защиты*] за каждые 5 единиц на [DevyatDimensionalSack:*Курьерской сумке*] или 5 <style=\"highlight\">3</style> [Burst:*Разрывах*] на цели (До <style=\"highlight\">6</style>, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Давай, Полуденька!",
+          "desc": "+2% урона за каждую единицу на [DevyatDimensionalSack:*Курьерской сумке*] (До 40%)\nСила монет +1 при 10 и более на [DevyatDimensionalSack:*Курьерской сумке*] или 6 и более [Burst:*Разрывов*] на цели\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, не тратит счётчик [Burst:*Разрывов*] на цели и снова подкидывает монету",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3 (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +15% урона при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*]"
+                },
+                {
+                  "desc": "[EndSkill] При оглушении или убийстве цели получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Давай, Полуденька!",
+          "desc": "<style=\"highlight\">+4%</style> урона за каждую единицу на урона при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*](До <style=\"highlight\">80%</style>)\n<style=\"highlight\">Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] Роди или 6 [Burst:*Разрывов*] на цели (До 2)</style>\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, не тратит счётчик [Burst:*Разрывов*] на цели и снова подкидывает монету",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3 (Единожды за ход)\n<style=\"highlight\">- Дополнительно повышает счётчик [Burst:*Разрывов*] на 1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] (До 2)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">+25%</style> урона при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*]"
+                },
+                {
+                  "desc": "[EndSkill] При оглушении или убийстве цели получает <style=\"highlight\">2</style> [Agility:*Спешки*] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Помощь в доставке и последовательный контроль",
+          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSack:*Курьерской сумке*] заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Единожды за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Единожды за ход)\n[WhenUse] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 2 (Единожды за ход)\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Помощь в доставке и последовательный контроль",
+          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSack:*Курьерской сумке*] заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Единожды за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Единожды за ход)\n[WhenUse] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 2 (Единожды за ход)\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Это... Всего лишь тактическая пауза!",
+          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Единожды за ход)\n[EndBattle] [Retreat:*Тактически отступает*]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Это... Всего лишь тактическая пауза!",
+          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Единожды за ход)\n[EndBattle] [Retreat:*Тактически отступает*]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прочь с пути моего…",
+          "desc": "[StartBattle] Испивает до 20 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы дать по одному [BloomingThornsRodionFirst:*Цветущему тёрну*] себе и союзнику с самым высоким здоровьем  за каждые 10 долей [BloodDinner:*Кровавого пиршества*] (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [BloomingThornsRodionFirst:*Цветущий тёрн*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Прочь с пути моего…",
+          "desc": "[StartBattle] Испивает до 20 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы дать по одному [BloomingThornsRodionFirst:*Цветущему тёрну*] себе и союзнику с самым высоким здоровьем  за каждые 10 долей [BloodDinner:*Кровавого пиршества*] (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [BloomingThornsRodionFirst:*Цветущий тёрн*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
+          "coinlist": [
+            {
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прочь с пути моего…",
+          "desc": "[StartBattle] Испивает до 20 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы дать по одному [BloomingThornsRodionFirst:*Цветущему тёрну*] себе и союзнику с самым высоким здоровьем  за каждые 10 долей [BloodDinner:*Кровавого пиршества*]. (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [BloomingThornsRodionFirst:*Цветущий тёрн*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*].\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2)</style>",
+          "coinlist": [
+            {
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разлетись по ветру",
+          "desc": "[StartBattle] Испивает до 30 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 испитых долей даёт по 1 [BloomingThornsRodionFirst:*Цветущему тёрну*] и, независимо от долей [BloodDinner:*Пиршества*], 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 [BloomingThornsRodionFirst:*Цветущей тернии*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            },
+            {
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Разлетись по ветру",
+          "desc": "[StartBattle] Испивает до 30 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 испитых долей даёт по 1 [BloomingThornsRodionFirst:*Цветущему тёрну*] и, независимо от долей [BloodDinner:*Пиршества*], 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 [BloomingThornsRodionFirst:*Цветущей тернии*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*].\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разлетись по ветру",
+          "desc": "[StartBattle] Испивает до 30 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 испитых долей даёт по 1 [BloomingThornsRodionFirst:*Цветущему тёрну*] и, независимо от долей [BloodDinner:*Пиршества*], 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 [BloomingThornsRodionFirst:*Цветущей тернии*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*].\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 5 [Laceration:*Кровотечения*] на цели (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пора закончить этот карнавал",
+          "desc": "[BeforeUse] При достижении 25 [BloomingThornsRodionFirst:*Цветущих терний*] и выше использует навык 「Высшее искусство кристаллизации крови Дон Кихота: Финал」\n[WhenUse] Даёт себе и (наибольший резонанс) союзникам (3 + (1 за каждые 50 долей [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавальных пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Родя даёт себе и (наибольший резонанс) 3 [BloomingThornsRodionFirst:*Цветущие тернии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пора закончить этот карнавал",
+          "desc": "[BeforeUse] При достижении 25 [BloomingThornsRodionFirst:*Цветущих терний*] и выше использует навык 「Высшее искусство кристаллизации крови Дон Кихота: Финал」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Даёт себе и (наибольший резонанс) союзникам (3 + (1 за каждые 50 долей [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавальных пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Родя даёт себе и (наибольший резонанс) 3 [BloomingThornsRodionFirst:*Цветущие тернии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Зонтик",
+          "desc": "[DuelCounter]\n[WhenUse] Понижает счётчик [Laceration:*Кровотечения*] на 3 2-м союзникам (кроме себя) с наибольшим ([Laceration] x счётчик [Laceration:*Кровотечения*]) и наполняет [BloodDinner] на ([Laceration] x счётчик [Laceration:*Кровотечения*] до понижения)\n - Если при понижении счётчик [Laceration:*Кровотечения*] достигает 0, [Laceration] прекращает своё действие\n[WinDuel] Родя получает 4 [BloomingThornsRodionFirst:*Цветущие тернии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Зонтик",
+          "desc": "[DuelCounter]\n[WhenUse] Понижает счётчик [Laceration:*Кровотечения*] на 3 2-м союзникам (кроме себя) с наибольшим ([Laceration] x счётчик [Laceration:*Кровотечения*]) и наполняет [BloodDinner] на ([Laceration] x счётчик [Laceration:*Кровотечения*] до понижения)\n - Если при понижении счётчик [Laceration:*Кровотечения*] достигает 0, [Laceration] прекращает своё действие\n<style=\"highlight\"> - Если выбранный союзник — <b>кроваггел</b>, дополнительно снимает ещё 2 единицы со счётчика [Laceration:*Кровотечения*]</style>\n[WinDuel] Родя получает 4 [BloomingThornsRodionFirst:*Цветущие тернии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
+          "desc": "[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% урона за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% урона за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

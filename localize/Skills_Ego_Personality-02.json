@@ -1,0 +1,667 @@
+{
+  "dataList": [
+    {
+      "id": 2020511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Меняет 2 [Combustion:*Огня*] на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Меняет 2 [Combustion:*Огня*] на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более\nДополнительно +1 цель при абсолюте Похоти, равном 6 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Меняет 2 [Combustion:*Огня*] на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Меняет 2 [Combustion:*Огня*] на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Меняет 2 [Combustion:*Огня*] на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Завет, 9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при абсолюте Похоти, равном 4 и более\nДополнительно +1 цель при абсолюте Похоти, равном 6 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Меняет 2 [Combustion:*Огня*] на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 2020611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вечность",
+          "abName": "Утка времени",
+          "desc": "При атаке более медленной цели урон +(разница между скоростью x 2.5)% (До 25%)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал [Vibration:*Тремора*] цели на число грехов в наибольшем резонансе (До 5)\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration:*Производит наложение амплитуды*] с [VibrationContinue:*Тремором — Вечность*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Вечность",
+          "abName": "Утка времени",
+          "desc": "При атаке более медленной цели урон +(разница между скоростью x <style=\"highlight\">3.5</style>)% (До <style=\"highlight\">35%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал [Vibration:*Тремора*] цели на число грехов в наибольшем резонансе (До 5)\n<style=\"highlight\">- Если грех резонанса — Леность, повышает счётчик [Vibration:*Тремора*] на повышенный потенциал [Vibration:*Тремора*] цели (До 5)</style>\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration:*Производит наложение амплитуды*] с [VibrationContinue:*Тремором — Вечность*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вечность",
+          "abName": "Утка времени",
+          "desc": "При атаке более медленной цели урон +(разница между скоростью x <style=\"highlight\">5</style>)% (До <style=\"highlight\">50%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал [Vibration:*Тремора*] цели на (число грехов в наибольшем резонансе <style=\"highlight\">x 2</style>) (До <style=\"highlight\">10</style>)\n- Если грех резонанса — Леность, повышает счётчик [Vibration:*Тремора*] на повышенный потенциал [Vibration:*Тремора*] цели (До <style=\"highlight\">10</style>)\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Vibration:*Тремора*] и повышает его счётчик на <style=\"highlight\">10</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration:*Производит наложение амплитуды*] с [VibrationContinue:*Тремором — Вечность*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вечность",
+          "abName": "Утка времени",
+          "desc": "[CantIdentify]\nСлучайные цели\nПри атаке с более медленной главной целью +(разница между скоростью x 15)% (До 12%)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*] и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration:*Производит наложение амплитуды*] с [VibrationContinue:*Тремором — Вечность*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Вечность",
+          "abName": "Утка времени",
+          "desc": "[CantIdentify]\nСлучайные цели\nПри атаке с более медленной главной целью +(разница между скоростью x <style=\"highlight\">2</style>)% (До <style=\"highlight\">16%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал [Vibration:*Тремора*] цели на число грехов в наибольшем резонансе (До 4)\n<style=\"highlight\">- [BeforeAttack] Если грех резонанса — Леность, повышает счётчик [Vibration:*Тремора*] на 2</style>",
+         "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*] и повышает его счётчик на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration:*Производит наложение амплитуды*] с [VibrationContinue:*Тремором — Вечность*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вечность",
+          "abName": "Утка времени",
+          "desc": "[CantIdentify]\nСлучайные цели\nПри атаке с более медленной главной целью +(разница между скоростью x <style=\"highlight\">2.5</style>)% (До <style=\"highlight\">20%</style>)\n[BeforeAttack] При наибольшем резонансе, равном 3 или более, повышает потенциал [Vibration:*Тремора*] на число грехов в наибольшем резонансе (До <style=\"highlight\">5</style>)\n- [BeforeAttack] Если грех резонанса — Леность, <style=\"highlight\">повышает счётчик [Vibration:*Тремора*] на повышенный потенциал [Vibration:*Тремора*] цели (До 5)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Vibration:*Тремора*] и повышает его счётчик на <style=\"highlight\">5</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration:*Производит наложение амплитуды*] с [VibrationContinue:*Тремором — Вечность*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает максимальную скорость цели вдвое на следующий ход.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 за каждые 7 [Burst:*Разрывов*] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более в сумме скорости Фауст и её цели</style>\nСила монет +1 за каждые 7 [Burst:*Разрывов*] на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 [Agility:*Спешки*] на следующий ход\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 при 6 и более в сумме скорости Фауст и её цели\nСила монет +1 за каждые 7 [Burst:*Разрывов*] на цели (До 2)\n[BeforeAttack] Получает 2 [Agility:*Спешки*] на следующий ход\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n<style=\"highlight\">- Если грех резонанса — Чревоугодие, дополнительно получает тяжесть атаки +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайная цель\nСила монет +1 за каждые 7 [Burst:*Разрывов*] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Snare]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Сила монет +1 при 6 и более в сумме скорости Фауст и её цели</style>\nСила монет +1 за каждые 7 [Burst:*Разрывов*] на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 [Agility:*Спешки*] на следующий ход</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +2% урона за каждый [Burst] на цели (До 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайная цель\nСила монет +1 при 6 и более в сумме скорости Фауст и её цели\nСила монет +1 за каждые 7 [Burst:*Разрывов*] на цели (До 2)\n[BeforeAttack] Получает 2 [Agility:*Спешки*] на следующий ход\n<style=\"highlight\">[EndSkill] Фауст получает 1 [ShamrockResultUp] на следующий ход при оглушении или убийстве цели этой атакой</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Snare:*Силков*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +2% урона за каждый [Burst] на цели (До 60%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[BeforeAttack] Все союзники получают (наибольший резонанс) [Breath:*Дыхания*] (До 4-х)\n- При 3 и более Гордыни в резонансе Фауст также повышает их счётчик [Breath:*Дыхания*] на 1 и даёт 1 [ReleaseBreath] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[BeforeAttack] Все союзники получают (наибольший резонанс) [Breath:*Дыхания*] (До <style=\"highlight\">6-и</style>)\n- При 3 и более Гордыни в резонансе Фауст также повышает их счётчик <style=\"highlight\">4</style> [Breath:*Дыхания*] на 1 и даёт 1 [ReleaseBreath] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До 20%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[BeforeAttack] Все союзники получают (наибольший резонанс) [Breath:*Дыхания*] (До 6-и)\n- При 3 и более Гордыни в резонансе Фауст также повышает их счётчик <style=\"highlight\">4</style> [Breath:*Дыхания*] на 1 и даёт 1 [ReleaseBreath] на следующий ход<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До <style=\"highlight\">40%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] При менее 20 [Breath:*Дыхания*] Фауст добирает его потенциал до 20, взамен теряя (полученное [Breath] x 2)% ОЗ\n- Этот эффект не может оглушить или убить её\n[BeforeAttack] Все союзники получают (наибольший резонанс) <style=\"highlight\">4</style> [Breath:*Дыхания*] (До 4-х)\n- При 3 и более Гордыни в резонансе, Фауст повышает счётчик [Breath:*Дыхания*] на 1 и даёт всем 1 [ReleaseBreath] и 1 [IndigoDamageUp] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] При менее 20 [Breath:*Дыхания*] Фауст добирает его потенциал до 20, взамен теряя (полученное [Breath] x 2)% ОЗ\n- Этот эффект не может оглушить или убить её\n[BeforeAttack] Все союзники получают (наибольший резонанс) <style=\"highlight\">4</style> [Breath:*Дыхания*] (До <style=\"highlight\">6-и</style>)\n- При 3 и более Гордыни в резонансе, Фауст повышает счётчик [Breath:*Дыхания*] на 1 и даёт всем 1 [ReleaseBreath] и 1 [IndigoDamageUp] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До 20%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] При менее 20 [Breath:*Дыхания*] Фауст добирает его потенциал до 20, взамен теряя (полученное [Breath] x 2)% ОЗ\n- Этот эффект не может оглушить или убить её\n[BeforeAttack] Все союзники получают (наибольший резонанс) <style=\"highlight\">4</style> [Breath:*Дыхания*] (До 6-и)\n- При 3 и более Гордыни в резонансе, Фауст повышает счётчик [Breath:*Дыхания*] на 1 и даёт всем 1 [ReleaseBreath] и 1 [IndigoDamageUp] на следующий ход<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До <style=\"highlight\">40%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

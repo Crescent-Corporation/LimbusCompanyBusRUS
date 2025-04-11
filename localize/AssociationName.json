@@ -1,0 +1,16 @@
+{
+  "dataList": [
+    {
+      "id": "associationName_BLADE_LINEAGE",
+      "content": "Родословная клинка"
+    },
+    {
+      "id": "associationName_BLACK_CLOUD",
+      "content": "Клан «Курокумо»"
+    },
+    {
+      "id": "associationName_YURODIVY",
+      "content": "Юродивый"
+    }
+  ]
+}

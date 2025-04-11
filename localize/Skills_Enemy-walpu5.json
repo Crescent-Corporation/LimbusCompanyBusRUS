@@ -1,0 +1,311 @@
+{
+  "dataList": [
+    {
+      "id": 9017801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Учение шестерней",
+          "desc": "[WhenUse] Получает 2 [Smoke:*Дыма*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Smoke:*Дыма*] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясная шестеренка: Остановка",
+          "desc": "[WhenUse] Получает 4 [Smoke:*Дыма*] и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Smoke:*Дыма*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Smoke:*Дыма*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пар",
+          "desc": "Сила столкновения +1 за каждые 3 [Smoke:*Дыма*] на цели (до 2)\n+10% урона за каждые 3 [Smoke:*Дыма*] на себе (до 20%)\n[WhenUse] Сила монет +2 при 10-и единицах [Smoke:*Дыма*]\n[EndSkill] Тратит весь имеющийся [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Smoke:*Дыма*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету за каждые 3[Smoke:*Дыма*]на цели (до 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приказ на уклонении",
+          "desc": "[OnSucceedEvade] Получает 3 [Smoke:*Дыма*] и повышает его счётчик на 1\n[OnSucceedEvade] При 10-и единицах[Smoke:*Дыма*]получает 1 [ParryingResultUp] и 3 [Protection:*Защищённости*] на следующий ход (раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Следуя шестерням",
+          "desc": "[WhenUse] Получает 2 [Smoke:*Дыма*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Smoke:*Дыма*] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясная шестеренка: Схватить",
+          "desc": "[WhenUse] Получает 4 [Smoke:*Дыма*] и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:*Дыма*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:*Дыма*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приказ атаковать",
+          "desc": "Сила столкновения +1 за каждые 3 [Smoke:*Дыма*] на цели (до 2)\n+10% урона за каждые 3 [Smoke:*Дыма*] на себе (до 20%)\n[WhenUse] Сила монет +2 при 10-и единицах [Smoke:*Дыма*]\n[EndSkill] Тратит весь имеющийся [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:*Дыма*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету за каждые 3[Smoke:*Дыма*]на цели (до 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9017904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приказ на уклонении",
+          "desc": "[OnSucceedEvade] Получает 3 [Smoke:*Дыма*] и повышает его счётчик на 1\n[OnSucceedEvade] При 10-и единицах[Smoke:*Дыма*]получает 1 [ParryingResultUp] и 3 [Protection:*Защищённости*] на следующий ход (раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясная шестеренка: Указ",
+          "desc": "[WhenUse] Получает 3 [Smoke:*Дыма*] и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Smoke:*Дыма*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мыслящая шестеренка: Приём",
+          "desc": "[WhenUse] Получает 4 [Smoke:*Дыма*] и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Smoke:*Дыма*] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясная шестеренка: Предел",
+          "desc": "Сила монет +1 за каждые 3 [Smoke:*Дыма*] на цели\n+10% урона за каждые 3 [Smoke:*Дыма*] на себе\nConsume 3 [Smoke] on self every time this Skill Reuses Coin\n[WhenUse] Сила монет +1 при 10-и единицах [Smoke:*Дыма*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:*Дыма*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету за каждые 5[Smoke:*Дыма*]на цели (до 2-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мыслящая шестеренка: Зачистка",
+          "desc": "Сила столкновения +1 за каждые 3 [Smoke:*Дыма*] на цели\n+20% урона за каждые 3 [Smoke:*Дыма*] на себе\n[WhenUse] Сила монет +2 при 10-и единицах [Smoke:*Дыма*]\n[EndSkill] Тратит весь имеющийся [Smoke]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Smoke:*Дыма*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:*Дыма*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету за каждые 3[Smoke:*Дыма*]на цели (до 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мыслящая шестеренка: Пар",
+          "desc": "[WhenUse] Получает 5 [Smoke:*Дыма*] и повышает его счётчик на 2\n[WhenUse] При 10-и единицах [Smoke:*Дыма*] получает 2 [PlusCoinValueUp:*Усиления положительной монеты*] и 3 [Protection:*Защищённости*] на следующий ход (раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+    "dataList": [
+        {
+            "id": 851001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Плачущий шлепок",
+                    "desc": "[WhenUse] Цель теряет 15 СД",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 5 [Sinking:*Утопания*] и +5 счётчиков [Sinking:*Утопания*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Печальный шлепок",
+                    "desc": "[StartDuel] Цель восстанавливает 5 СД",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[AlwaysUse] Наносит урон по СД, равный половине от нанесённого урона"
+                                },
+                                {
+                                    "desc": "[AlwaysUse] Не наносит урон по ОЗ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Расплавленный глаз",
+                    "desc": "[WhenUse] Цель теряет 5 СД\nЕсли СД цели ниже 0, +10% урона",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Утопание на цели"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Утопание на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Льющаяся печаль",
+                    "desc": "[WhenUse] Цель теряет 5 СД\nНацеливается на противника с наибольшим Утопание",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Утопание на цели"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Утопание на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851005,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Глазная тяжесть",
+                    "desc": "[DefeatDuel] Отменяет все навыки\n[DefeatDuel] Получает 3 Уязвимость\nЕсли СД цели ниже 0, +10% урона",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Удваивает Утопание и его счётчик на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851006,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Расплавленный глаз",
+                    "desc": "[WhenUse] Цель теряет 5 СД\nЕсли СД цели ниже 0, +10% урона",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Утопание на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851007,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Расплавленный глаз",
+                    "desc": "[WhenUse] Цель теряет 5 СД\nЕсли СД цели ниже 0, +10% урона",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Утопание на цели"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851008,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Квак-плак",
+                    "desc": "[StartBattle] Получает 2 [Protection:*Защищённости*]",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Экскурсия по городу",
+                    "desc": "[WhenUse] Получает +4 счётчика [Charge:*Заряда*]",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Добро пожаловать в тур",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 Ослабление положительной монеты на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Пожалуйста, не расходитесь!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 Паралич на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Передача обработанных отчётов",
+                    "desc": "[WhenUse] Тратит весь Заряд",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Отправляет цель в Захват"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Рад знакомству, дорогой сосед",
+                    "desc": "[CantDuel]\nАтакует цель в Захвате",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 10 [Combustion:*Огня*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Системная ошибка обнаружена",
+                    "desc": "Становится оглушён на следующий ход",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Тратит 2 Заряд и наносит 5 [Combustion:*Огня*]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Тратит 2 Заряд и наносит 5 [Combustion:*Огня*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851907,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Вычислительные процессы",
+                    "desc": "[WhenUse] Получает 5 Защищённость",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851908,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Перезагрузка…",
+                    "desc": "",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851909,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Передача обработанных отчётов",
+                    "desc": "[CantDuel]\nНацеливается на персонажа с самым высоким здоровьем\n[WhenUse] Тратит весь Заряд",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Отправляет цель в Захват"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Не входить",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 Разрыв"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Подчинение",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:*Разрыва*]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит +3 счётчика Разрыв"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Вход запрещён",
+                    "desc": "[DefeatDuel] Восстанавливает 10 ОЗ",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрыва*] на 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                              {
+                                "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный [Burst:*Разрывам*] на цели, умноженным на их счётчик\nУбирает весь Разрыв с цели"
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Подозрительные лица",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:*Разрыва*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Задержание",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:*Разрыва*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Посторонним вход воспрещён",
+                    "desc": "Нацеливается на персонажа с самым высоким здоровьем",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "+10% урона при выпадении предыдущей монеты орлом"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "+10% урона при выпадении предыдущей монеты орлом"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "+30% урона при выпадении предыдущих двух монет орлом"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Пожертвование",
+                    "desc": "[WhenUse] Даёт 2 [Protection:*Защищённости*] случайному союзнику",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 Понижение урона на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Излагаемые сутры",
+                    "desc": "[WhenUse] Даёт 2 Повышения силы атаки случайному союзнику",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Даёт 2 Повышения силы атаки случайному союзнику на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Духовный наставник",
+                    "desc": "[WhenUse] Даёт 3 [Protection:*Защищённости*] на следующий ход",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852704,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Сваха́",
+                "desc": "[WhenUse] Даёт 3 Повышения урона на следующий ход",
+                "coinlist": []
+              }
+            ]
+        },
+        {
+            "id": 852705,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Совершенная мудрость",
+                    "desc": "[CantIdentify] Нацеливается на персонажа с наибольшей Карма\nНаносит больше урона в зависимости от Карма на цели (+2% за каждый счётчик)\nЕсли на цели нет Карма, -50% урона",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Если на цели есть Карма, наносит 50 Карма"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852706,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Созерцание",
+                    "desc": "[WinDuel] Уменьшает вдвое негативные эффекты у персонажа",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 Понижение силы атаки на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852707,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Вынужденная жертва",
+                    "desc": "[DefeatDuel] Наносит 20 Карма случайному союзнику на следующий ход",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 20 Карма"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852708,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ленивое пробуждение",
+                    "desc": "[DefeatDuel] Наносит 20 Карма случайному союзнику на следующий ход",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 10 Карма"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 10 Карма"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852709,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Мантра",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Убирает 3 ЭГО-ресурса случайного греха"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Убирает 3 ЭГО-ресурса случайного греха"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852710,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ленивое пробуждение",
+                    "desc": "[CantDuel]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 1 Сансара"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 3 Паралич на следующий ход"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Наносит 3 [Vulnerable:*Уязвимости*] на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852711,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Бодхи, Сваха́",
+                "desc": "[WhenUse] Получает 10 Повышение урона\nПриоритет на оглушённых противников",
+                "coinlist": []
+              }
+            ]
+        },
+        {
+            "id": 852801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Наступление",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 Понижение урона на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "…Очистить это",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Истребление ереси",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 Паралич на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rápidamente~",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 Ослабление положительной монеты на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pañata Party!~",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [PlusCoinValueDown:*Ослабления положительной монеты*] на следующий ход"
+                                }
+                            ]
+                        },
+                        {},
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 1 Уязвимость на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 853001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Выброс плоти",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 2 Паралич на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 853002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Подчинить разум",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 1 Понижение урона на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

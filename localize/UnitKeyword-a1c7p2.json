@@ -1,0 +1,16 @@
+{
+  "dataList": [
+    {
+      "id": "UnitKeyword_SECOND_DEPENDENT",
+      "content": "Второй потомок"
+    },
+    {
+      "id": "UnitKeyword_FAMILY_GA",
+      "content": "Род Цзя"
+    },
+    {
+      "id": "UnitKeyword_FAMILY_GA_CANDIDATE",
+      "content": "Одна из наследников рода Цзя"
+    }
+  ]
+}

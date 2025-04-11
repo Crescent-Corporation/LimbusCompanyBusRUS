@@ -1,0 +1,16 @@
+[project]
+name = "LimbusCompany RUS by CresCorp"
+version = "0.4.4"
+description = "Русификатор на компанию «Лимбус», сделанный ручками с корейского."
+requires-python = ">=3.12"
+dependencies = [
+    "jsonpath-ng>=1.7.0",
+    "loguru>=0.7.3",
+    "msgspec>=0.19.0",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.4",
+]

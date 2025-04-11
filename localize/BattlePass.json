@@ -1,0 +1,264 @@
+{
+  "dataList": [
+    {
+      "id": "battlepass_battlepass",
+      "content": "Боевой пропуск"
+    },
+    {
+      "id": "battlepass_passmission",
+      "content": "Задания"
+    },
+    {
+      "id": "battlepass_dailymission",
+      "content": "Ежедневные"
+    },
+    {
+      "id": "battlepass_weeklymission",
+      "content": "Недельные"
+    },
+    {
+      "id": "battlepass_seasonmission",
+      "content": "Сезонные"
+    },
+    {
+      "id": "battlepass_freeandpaid",
+      "content": "Бесплатно {0}, платно {1}"
+    },
+    {
+      "id": "battlepass_mission_tag_normal",
+      "content": "Обычный"
+    },
+    {
+      "id": "battlepass_mission_tag_battle",
+      "content": "Боевой пропуск"
+    },
+    {
+      "id": "battlepass_remain_time",
+      "content": "Днейчасов:{0} {1}"
+    },
+    {
+      "id": "battlepass_ask_purchase_limbus_pass",
+      "content": "Когда вы купите пропуск «Лимбуса»,\nвы сможете насладиться следующим на время {0}."
+    },
+    {
+      "id": "battlepass_limbus_pass_benefit_reward",
+      "content": "Награды за уровни пропуска «Лимбуса»"
+    },
+    {
+      "id": "battlepass_limbus_pass_benefit_ex_reward",
+      "content": "Получение наград при пересечении предельного уровня"
+    },
+    {
+      "id": "battlepass_level_up",
+      "content": "Уровень пропуска повышен!"
+    },
+    {
+      "id": "battlepass_level_up_ask",
+      "content": "Желаете ли купить уровни пропуска за 「платное Безумство」?"
+    },
+    {
+      "id": "battlepass_level_upgrade",
+      "content": "Повышение уровня пропуска"
+    },
+    {
+      "id": "battlepass_level_max",
+      "content": "Достигнут <color=#f8c200>предельный уровень</color> пропуска"
+    },
+    {
+      "id": "battlepass_purchase_level_up_failed",
+      "content": "Платное повышение уровня невозможно"
+    },
+    {
+      "id": "lack_if_paid_lunacy",
+      "content": "Недостаточно платного Безумства."
+    },
+    {
+      "id": "remain_days_with_label",
+      "content": "Дней:{0}"
+    },
+    {
+      "id": "remain_hours_with_label",
+      "content": "Часов:{0}"
+    },
+    {
+      "id": "remain_minutes_with_label",
+      "content": "Минут:{0}"
+    },
+    {
+      "id": "update_progress",
+      "content": "Прогресс обновлён"
+    },
+    {
+      "id": "able_to_acquire_ex_pass_level_reward",
+      "content": "Доступны дополнительные награды за уровень"
+    },
+    {
+      "id": "ask_to_use_paid_lunacy_to_level_up_pass",
+      "content": "Желаете потратить {0} платного Безумства для повышения уровня?"
+    },
+    {
+      "id": "battlepass_purchase_level_up",
+      "content": "Платно повысить уровень"
+    },
+    {
+      "id": "lack_of_paid_lunacy",
+      "content": "Недостаточно платного Безумства."
+    },
+    {
+      "id": "only_paid_lunacy_for_battlepass_levelup",
+      "content": "※ Стоимость уровня боевого пропуска:\n- 300 платного Безумства."
+    },
+    {
+      "id": "buy_battlepass_word",
+      "content": "<cspace=-2px>Пробить</cspace>"
+    },
+    {
+      "id": "battlepass_level_ex_reward",
+      "content": "Пропуск достиг предела.\nПолучите и распишитесь, менеджер."
+    },
+    {
+      "id": "battlepass_progress",
+      "content": "Прогресс"
+    },
+    {
+      "id": "battlepass_free",
+      "content": "<size=80%>Обычный"
+    },
+    {
+      "id": "battlepass_limbuspass",
+      "content": "<size=90%>Пропуск\n«Лимбуса»"
+    },
+    {
+      "id": "battlepass_unable_levelup_by_level",
+      "content": "Достигнут предельный уровень."
+    },
+    {
+      "id": "battlepass_reward_opened_at",
+      "content": "Станет доступна после обновления на {0}"
+    },
+    {
+      "id": "battlepass_package_purchase",
+      "content": "Пак для пропуска «Лимбуса»"
+    },
+    {
+      "id": "battlepass_package_desc_level",
+      "content": "Содержит различные награды, включая 「Особые плашки из пака для пропуска «Лимбуса»」"
+    },
+    {
+      "id": "battlepass_package_desc_banner",
+      "content": "+ Активация 『Пропуска «Лимбуса»』"
+    },
+    {
+      "id": "battlepass_package_ask_purchase",
+      "content": "Потратить {0} платного Безумства на покупку этого пака?"
+    },
+    {
+      "id": "battlepass_package_warning",
+      "content": "※ Товар активируется при покупке; возврат может быть невозможен."
+    },
+    {
+      "id": "battlepass_limbus_pass_benefit_ex_box_reward",
+      "content": "Получите следующие награды за максимальный уровень пропуска при покупке:"
+    },
+    {
+      "id": "battlepass_limbus_pass_benefit_ex_box_reward_count",
+      "content": "<style=\"highlightConverted\">{1}</style> [Сезон {0}] Именные ящики эгосколков"
+    },
+    {
+      "id": "battlepass_select_product_popup_title",
+      "content": "Выберите пропуск/пак для пропуска «Лимбуса»"
+    },
+    {
+      "id": "only_paid_lunacy_for_battlepass_levelup_with_number",
+      "content": "※ Повышение уровня пропуска стоит {0} платного Безумства."
+    },
+    {
+      "id": "battle_pass_package_button_desc",
+      "content": "Различные награды,\nвключая особые плашки."
+    },
+    {
+      "id": "battle_pass_select_popup_package_desc",
+      "content": "Различные награды,\nвключая особые плашки."
+    },
+    {
+      "id": "battle_pass_select_popup_limbus_desc",
+      "content": "◆ Открывает доступ к наградам за пропуск «Лимбуса»;\n◆ Повышает число наград после достижения предельного уровня."
+    },
+    {
+      "id": "battle_pass_package_purchase_popup_desc",
+      "content": "◆ Повышает боевой пропуск на 10 уровней после покупки.\n◆ Открывает доступ к наградам за 10 уровней."
+    },
+    {
+      "id": "battle_pass_limbus_purchase_popup_desc",
+      "content": "◆ Открытие доступа к большему числу наград боевого пропуска.\n◆ Получайте 3 [Сезон 5] Именных ящика эгосколков вместо 1 после достижения предельного уровня боевого пропуска."
+    },
+    {
+      "id": "battle_pass_package_button_desc_with_limbus",
+      "content": "Различные награды,\nвключая особые плашки!\n<b>+ 『Пропуск «Лимбуса»』</b>"
+    },
+    {
+      "id": "battle_pass_package_purchase_popup_desc_in_box",
+      "content": "- Особые плашки из пака для пропуска «Лимбуса»;\n- Билет скачка уровня V."
+    },
+    {
+      "id": "until_season_4_start",
+      "content": "~ До обновления с 4 Сезоном"
+    },
+    {
+      "id": "until_season_5_start",
+      "content": "До обновления с 6 Сезоном"
+    },
+    {
+      "id": "battlepass_ask_purchase_limbus_pass_package",
+      "content": "При покупке пропуска «Лимбуса»,\nна время {0} для вас станут доступны:"
+    },
+    {
+      "id": "battlepass_purchase_desc_pass",
+      "content": "Различные награды за пропуск «Лимбуса»;"
+    },
+    {
+      "id": "battlepass_purchase_desc_ex",
+      "content": "Получение <style=\"highlightConverted\">{1}</style> Именных ящиков эгосколков в награду после достижения предельного уровня боевого пропуска вместо <style=\"highlightConverted\">{0}</style>;"
+    },
+    {
+      "id": "battlepass_purchase_desc_pass_level",
+      "content": "Немедленное получение 10 уровней боевого пропуска;"
+    },
+    {
+      "id": "battlepass_purchase_desc_level_ticket",
+      "content": "Билет скачка уровня V;"
+    },
+    {
+      "id": "battlepass_purchase_desc_special_banner",
+      "content": "Баннеры из пака для пропуска «Лимбуса»."
+    },
+    {
+      "id": "battlepass_purchase_desc_policy",
+      "content": "※ Пропуск «Лимбуса» будет активирован сразу после покупки; возможность вернуть деньги за него ограничена.\n\n※ Боевой пропуск будет длиться <b>не менее 90 дней после начала Сезона</b>.\nТочная дата окончания боевого пропуска будет указана после появления следующего 「Гайда по предстоящему Сезону」.\nИмейте в виду, что дата покупки пропуска «Лимбуса» не влияет на длительность самого боевого пропуска."
+    },
+    {
+      "id": "owned_count",
+      "content": "{0} на руках"
+    },
+    {
+      "id": "battle_pass_package_button_desc_with_limbus_2",
+      "content": "◆ Немедленное получение 10 уровней пропуска при покупке;\n◆ Получение 2-х особых плашек;\n◆ Получение Билета скачка уровня V."
+    },
+    {
+      "id": "battle_pass_product_limbus_desc_summary",
+      "content": "◆ Откройте доступ к наградам пропуска «Лимбуса»;\n◆ Повысьте число наград после достижения предельного уровня пропуска."
+    },
+    {
+      "id": "battle_pass_product_package_with_limbus_desc_summary",
+      "content": "◆ Активация пропуска «Лимбуса» Сезона 5:\n◆ Немедленное получение 10 уровней пропуска при покупке;\n◆ Получение Билета скачка уровня V;\n◆ Получение 2-х особых плашек из пака."
+    },
+    {
+      "id": "battle_pass_product_package_without_limbus_desc_summary",
+      "content": "◆ Немедленное получение 10 уровней пропуска при покупке;\nПолучение Билета скачка уровня V;\n◆ Получение 2-х особых плашек из пака."
+    },
+    {
+      "id": "battle_pass_sale_10",
+      "content": "Скидка 10%"
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "dataList": [
+    {
+      "id": 2080511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[EndSkill] Восстанавливает 15 СД 4-м союзникам с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:*Заряда*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 1 Дыхание случайному союзнику"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[EndSkill] Восстанавливает 20 CД 4-м союзникам с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:*Заряда*] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 1 Дыхание случайному союзнику"
+                },
+                {
+                  "desc": "[EndSkillHead] Даёт 1 Повышение силы колющей атаки и 1 Повышение урона 4-ём союзникам с наибольшей СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[EndSkill] Восстанавливает 25 СД 4-м союзникам с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 6"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 2 [Breath:*Дыхания*] случайному союзнику"
+                },
+                {
+                  "desc": "[EndSkill] Даёт 2 [PenetrateResultUp:*Повышения силы колющей атаки*] и 2 [AttackDmgUp:*Повышения урона*] 4-ём союзникам с наибольшей СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IndigoTakeDamageUp:*Уязвимости к Гордыне*] на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает 3% от максимальных ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IndigoTakeDamageUp:*Уязвимости к Гордыне*] на этот и следующий ход"
+                },
+                {
+                  "desc": "[EndSkillTail] Даёт 2 [AttackDmgUp:*Повышения урона*] 4-ём союзникам с наименьшей СД на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 3% от максимальных ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [IndigoTakeDamageUp:*Уязвимости к Гордыне*] на этот и следующий ход"
+                },
+                {
+                  "desc": "[EndSkill] Даёт 2 [AttackDmgUp:*Повышения урона*] 4-ём союзникам с наименьшей СД на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 15% от максимальных ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 4~8% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~3 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "Если восстановление превышает необходимое число ОЗ для максимального значения, переносит число восстановленных ОЗ на союзника с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">18</style>% от максимальных ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">6~10</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~3 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "Если восстановление превышает необходимое число ОЗ для максимального значения, переносит число восстановленных ОЗ на союзника с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">20</style>%  от максимальных ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">8~12</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~<style=\"highlight\">4</style> [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым низким здоровьем\n[BeforeAttack] До 5-и случайных союзников (кроме Измаил) теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников.\n- Получает 2 [Enhancement:*Повышения силы атаки*] и 2 [Agility:*Спешки*] при нанесении урона союзникам.\n(Активируется раз за ход. Может нанести урон по щиту. Может убить союзников.)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на 10% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 1~4 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым низким здоровьем\n<style=\"highlight\">[BeforeAttack] Тяжесть атаки +(Наибольший резонанс - 2) (До 1)</style>\n[BeforeAttack] До 5-и случайных союзников (кроме Измаил) теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников.\n- Получает 2 [Enhancement:*Повышения силы атаки*] и 2 [Agility:*Спешки*] при нанесении урона союзникам.\n(Активируется раз за ход. Может нанести урон по щиту. Может убить союзников.)\n<style=\"highlight\">[EndSkill] Если восстановление от эффекта этого навыка превышает необходимое число ОЗ для максимального значения, Измаил получает (превышенное восстановление / максимальные ОЗ) x 10 [AttackUp:*Повышений уровня атаки*] на следующий ход. (До 3-х раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на <style=\"highlight\">15</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">2~5</style> [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым низким здоровьем\n[BeforeAttack] Тяжесть атаки +(Наибольший резонанс - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] До 5-и случайных союзников (кроме Измаил) теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников.\n- Получает 2 [Enhancement:*Повышения силы атаки*] и 2 [Agility:*Спешки*] при нанесении урона союзникам.\n(Активируется раз за ход. Может нанести урон по щиту. Может убить союзников.)\n[EndSkill] Если восстановление от эффекта этого навыка превышает необходимое число ОЗ для максимального значения, Измаил получает (превышенное восстановление / максимальные ОЗ) x 10 [AttackUp:*Повышений уровня атаки*] на следующий ход. (До <style=\"highlight\">6-и</style> раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на <style=\"highlight\">20</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3~6</style> [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 1 [Enhancement] на следующий ход (До 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n[EndSkill] Восстанавливает (5 + (Сумма [Sinking:*Утопания*] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:*Незваных гостя*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n<style=\"highlight\">- Тяжесть атаки +1, если наибольший резонанс — резонанс Уныния</style>\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма [Sinking:*Утопания*] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:*Незваных гостя*]<style=\"highlight\"></style>"
+                }
+              ]
+          }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n- Тяжесть атаки +1, если наибольший резонанс — резонанс Уныния\n[EndSkill] Восстанавливает (10 + (Сумма [Sinking:*Утопания*] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до <style=\"highlight\">20</style>%)\n<style=\"highlight\">- При 4 и более грехах в наибольшем резонансе Уныния дополнительно восстанавливает 10% от максимальных ОЗ</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Curse:*Проклятия*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:*Незваных гостя*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим [Sinking:*Утопанием*]\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (5 + (Сумма [Sinking:*Утопания*] и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с самым низким здоровьем на момент окончания навыка (Кроме себя, до 10%)\n- Если в резонансе 4 и более греха, +1 цель восстановления",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:*Незваных гостя*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим [Sinking:*Утопанием*]\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма [Sinking:*Утопания*] и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с самым низким здоровьем на момент окончания навыка (Кроме себя, до  <style=\"highlight\">15</style>%)\n- Если в резонансе 4 и более греха, +1 цель восстановления",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:*Проклятия*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:*Незваных гостя*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EchoOfMansion:*Эха особняка*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим [Sinking:*Утопанием*]\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (10 + (Сумма [Sinking:*Утопания*] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до 15%)\n- Если в резонансе 4 и более греха, +1 цель восстановления\n<style=\"highlight\">- Если это резонанс Уныния, повышает восстановление ОЗ на 5%</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:*Проклятия*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp] <style=\"highlight\">за каждые 3</style> греха Утопания в резонансе <style=\"highlight\">(До 2)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:*Незваных гостя*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EchoOfMansion:*Эха особняка*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[BeforeAttack] Измаил повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс + 5) (До 10-и)\n[EndSkill] Если цель оглушена, в состоянии пониженного духа или срыва, Измаил восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "<style=\"highlight\">Если СД цели ниже 0, +1% урона за каждую единицу СД до 0 (До 45%)</style>\n[BeforeAttack] Измаил повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс + 5) (До 10-и)\n[EndSkill] Если цель оглушена, в состоянии пониженного духа или срыва, Измаил восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "Если СД цели ниже 0, +1% урона за каждую единицу СД цели до 0 (До 45%)\n[BeforeAttack] Измаил повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс + 5) (До 10-и)\n[EndSkill] Если цель оглушена, в состоянии пониженного духа или срыва, Измаил восстанавливает 10 СД<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 [Sinking:*Утопания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, <style=\"highlight\">дважды</style> [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Измаил повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс + 5) (До 10-и)\n[BeforeAttack] Измаил восстанавливает 10 ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Базовая сила +1, если основная цель атаки оглушена, в состоянии пониженного духа или срыва</style>\n[BeforeAttack] Измаил повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс + 5) (До 10-и)\n[BeforeAttack] Измаил восстанавливает 10 ОЗ\n<style=\"highlight\">[EndSkill] Измаил восстанавливает 5 СД за каждого противника в состоянии оглушения, пониженного духа или срыва</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 [Sinking:*Утопания*]и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\nБазовая сила +<style=\"highlight\">2</style>, если основная цель атаки оглушена, в состоянии пониженного духа или срыва\n[BeforeAttack] Измаил повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс + 5) (До 10-и)\n[BeforeAttack] Измаил восстанавливает 10 ОЗ\n[EndSkill] Измаил восстанавливает 5 СД за каждого противника в состоянии оглушения, пониженного духа или срыва<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 [Sinking:*Утопания*]и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

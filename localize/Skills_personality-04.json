@@ -1,0 +1,1549 @@
+{
+  "dataList": [
+    {
+      "id": 1040501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ПЭ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ПЭ",
+          "desc": "При 10 и более на счётчике [Charge:*Заряда*], наносит +10% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ПЭ",
+          "desc": "При 10 и более на счётчике [Charge:*Заряда*], наносит +10% урона\nПри 15 и более на счётчике [Charge:*Заряда*], наносит дополнительные +10% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачок",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] При 10 и более на счётчике [Charge:*Заряда*], наносит 1 Уязвимость к рубящему урону"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если ОЗ цели ниже 30%, наносит +15% урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Скачок",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 6\nСила монет +1 при 10 и более на счётчике [Charge:*Заряда*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 10 и более на счётчике [Charge:*Заряда*], наносит 1 Уязвимость к рубящему урону"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если ОЗ цели ниже 30%, наносит +20% урона"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 1 [Agility:*Спешку*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Скачок",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 7\nСила монет +1 при 10 и более на счётчике [Charge:*Заряда*]\nПри 15 и более на счётчике [Charge:*Заряда*], получает дополнительную +1 силу монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 10 и более на счётчике [Charge:*Заряда*], наносит 2 [SlashTakeDamageUp:*Уязвимости к рубящему урону*]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если ОЗ цели ниже 30%, наносит +30% урона"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 [Agility:*Спешки*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "ПРПОД",
+          "desc": "[WhenUse] При 7~14 на счётчике [Charge:*Заряда*]\nТратит весь Заряд,\nИ тратит 3 x (15 - потраченный Заряд)% ОЗ, чтобы получить +3 силы монет\n[WhenUse] Тратит 15 на счётчике [Charge:*Заряда*], чтобы получить +3 силы монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +5% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +5% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +5% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Если эта атака потратила 15 на счётчике [Charge:*Заряда*] при использовании, она и любой союзник получают 5 [ChargeForceField:*Зарядных барьеров*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ПРПОД",
+          "desc": "[WhenUse] При 7~14 на счётчике [Charge:*Заряда*]\nТратит весь Заряд,\nИ тратит 3 x (15 - потраченный Заряд)% ОЗ чтобы получить +5 силы монет\n[WhenUse] Тратит 15 на счётчике [Charge:*Заряда*], чтобы получить +5 силы монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +10% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +10% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Последняя монета нанесёт +10% урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Если эта атака потратила 15 на счётчике [Charge:*Заряда*] при использовании, она и любой союзник получают 7 [ChargeForceField:*Зарядных барьеров*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заряженный уворот",
+          "desc": "Базовая сила +1 за 5 счётчиков [Charge:*Заряда*] (До 2)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заряженный уворот",
+          "desc": "Базовая сила +1 за 5 счётчиков [Charge:*Заряда*] (До 3)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Толчок",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания</color>*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Понижает СД цели на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Толчок",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания</color>*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Понижает СД цели на 6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Толчок",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания</color>*] на 2\n<style=\"highlight\">Сила монет +1 при 7 и более [Breath:*Дыхании</color>*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Понижает СД цели на 8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ОЦ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Понижение уровня атаки"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Понижение уровня атаки"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ОЦ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания</color>*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Понижение уровня атаки"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Понижение уровня атаки"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ОЦ",
+          "desc": "Сила монет +1 при 7 и более [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания</color>*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [AttackDown:*Понижения уровня атаки*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Понижение уровня атаки"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "РГ",
+          "desc": "[WhenUse] Получает 4 [Breath:*Дыхания</color>*]\nСила монет +1 при 10 и более [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество [Vibration:*Тремора*] и [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*], повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*], повышает счётчик [Burst:*Разрыва*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "РГ",
+          "desc": "[WhenUse] Получает 4 [Breath:*Дыхания</color>*]\nСила монет +1 за каждые 7 [Breath:*Дыхания</color>*] (До 2-х раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество [Vibration:*Тремора*] и [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*], повышает счётчик [Vibration:*Тремора*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*], повышает счётчик [Burst:*Разрыва*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блок",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 1040701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тотальная война",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Тотальная война",
+          "desc": "Сила столкновения +1 против целей с 6 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Тотальная война",
+          "desc": "Сила столкновения +1 против целей с 6 и более [Combustion:*Огня*]\n<style=\"highlight\">Сила монет +1 против целей с 10 и более [Combustion:*Огня*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь <style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенная тегатана",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +20% урона против целей с 6 и более [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пламенная тегатана",
+          "desc": "Сила столкновения +1 против целей с 6 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +30% урона против целей с 6 и более [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенная тегатана",
+          "desc": "Сила столкновения +1 против целей с 6 и более [Combustion:*Огня*]\n<style=\"highlight\">Сила монет +1 против целей с 6 и более [Combustion:*Огня*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +50% урона против целей с 6 и более [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Прорезание огнём",
+          "desc": "Сила столкновения +1 против целей с 6 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +20% урона против целей с 10 и более [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прорезание огнём",
+          "desc": "Сила столкновения +1 против целей с 6 и более [Combustion:*Огня*]\n<style=\"highlight\">Сила монет +1 против целей с 6 и более [Combustion:*Огня*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +40% урона против целей с 10 и более [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блок",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Этика приёма гостей, 1-я церемония: Охота",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Этика приёма гостей, 1-я церемония: Охота",
+          "desc": "<style=\"highlight\">Сила парирований +1 против целей, чья скорость ниже на 3 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Этика приёма гостей, 1-я церемония: Охота",
+          "desc": "<style=\"highlight\">Сила парирований +1 за каждые 2 единицы разницы в скорости с более медленной целью (До 3)</style>\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Этика приёма гостей, 7-я церемония: Захват",
+          "desc": "[StartBattle] Тяжесть атаки +2 при трате 6 единиц из счётчика [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Этика приёма гостей, 7-я церемония: Захват",
+          "desc": "[StartBattle] Тяжесть атаки +2 при трате 6 единиц из счётчика [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Этика приёма гостей, 7-я церемония: Захват",
+          "desc": "<style=\"highlight\">Сила парирований +1 за каждые 2 единицы разницы в скорости, если основная цель медленнее Рёшу (До 3)</style>\n[StartBattle] Тяжесть атаки +2 при трате 6 единиц из счётчика [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [MarkOfButler]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Этика приёма гостей, 2-я церемония: СШ",
+          "desc": "Сила парирований +1 против целей с [MarkOfButler]\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 7",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает грань оглушения на 20% нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, критический урон +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Этика приёма гостей, 2-я церемония: СШ",
+          "desc": "Сила парирований +1 против целей с [MarkOfButler]\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До) 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 7",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает грань оглушения на 30% нанесённого урона"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [MarkOfButler]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, критический урон +40% "
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkOfButler]"
+                },
+                {
+                  "desc": "[EnemyKill] Использует этот навык снова на случайной цели с [MarkOfButler]\n(Только 1 раз. Не активируется, если на поле нет целей с [MarkOfButler])"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Столь жалки",
+          "desc": "[OnSucceedEvade] Восстанавливает 3 СД (До 3-х раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Столь жалки",
+          "desc": "[OnSucceedEvade] Восстанавливает 3 СД (До <style=\"highlight\">5-и</style> раз за ход)\n<style=\"highlight\">[OnSucceedEvade] Повышает свой счётчик [Breath:*Дыхания*] на 1 (До 5-и раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 1040901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слетевшие с катушек тюфяки",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на половину счётчика [Vibration:*Тремора*] цели (До 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Слетевшие с катушек тюфяки",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +2 при 5 и более единиц на своём счётчике [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на половину счётчика [Vibration:*Тремора*] цели (До <style=\"highlight\">3</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Слетевшие с катушек тюфяки",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила парирований +2 при <style=\"highlight\">4</style> и более единиц на своём счётчике [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на счётчик [Vibration:*Тремора*] цели (До <style=\"highlight\">4</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на <style=\"highlight\">2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сжатие заводным ключом",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Vibration:*Тремора*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит свой счётчик [Vibration:*Тремора*] для повышения счётчика [Vibration:*Тремора*] цели (До 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Сжатие заводным ключом",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">Сила монет +1 при 5 и более единиц на своём счётчике [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Vibration:*Тремора*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит свой счётчик [Vibration:*Тремора*] для повышения счётчика [Vibration:*Тремора*] цели (До 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сжатие заводным ключом",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 при 4 и более единиц на своём счётчике [Vibration:*Тремора*]</style>\nСила монет + 1 при <style=\"highlight\">4</style> и более единиц на своём счётчике [Vibration:*Тремора*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит свой счётчик [Vibration:*Тремора*] для повышения счётчика [Vibration:*Тремора*] цели (До 5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Херани, и заработает как милый",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\nСила монет +1 при трате 10 единиц из счётчика [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Херани, и заработает как милый",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила монет +1 при трате <style=\"highlight\">8</style> единиц из своего счётчика [Vibration:*Тремора*]\n<style=\"highlight\">Сила монет +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на <style=\"highlight\">1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] Получает щит на (счётчик [Vibration:*Тремора*] цели x 2) ОЗ (До 5)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блок",
+          "desc": "[WhenUse] Получает щит на (счётчик [Vibration:*Тремора*] цели x 2) ОЗ (До <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "А ну заткнулись оба",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [PenanceFirst:*Раскаяния*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "А ну заткнулись оба",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более [RedEyeFirst:*Красных глаз*] на себе\nСила парирований +1 при 7 и более [PenanceFirst:*Раскаяний*] на себе</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [PenanceFirst:*Раскаяния*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "А ну заткнулись оба",
+          "desc": "Сила монет +1 при 7 и более [RedEyeFirst:*Красных глаз*] на себе\nСила парирований <style=\"highlight\">+2</style> при 7 и более [PenanceFirst:*Раскаяний*] на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [PenanceFirst:*Раскаяния*]\n<style=\"highlight\">[OnSucceedAttackHead] Получает 1 [PenanceFirst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ПБ / ЧП",
+          "desc": "Сила монет +1 при 20 и более в сумме [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяний*] на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [PenanceFirst:*Раскаяния*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [RedEyeFirst:*Красных глаз*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ПБ / ЧП",
+          "desc": "Сила монет +1 при 20 и более в сумме [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяний*] на себе\n<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [PenanceFirst:*Раскаяния*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [RedEyeFirst:*Красных глаз*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает ([Laceration] на цели/3) [RedEyeFirst:*Красных глаз*] (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ПБ / ЧП",
+          "desc": "Сила монет +1 при <style=\"highlight\">15</style> и более в сумме [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяний*] на себе\nСила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [PenanceFirst:*Раскаяния*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [RedEyeFirst:*Красных глаз*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает ([Laceration] на цели/<style=\"highlight\">2</style>) [RedEyeFirst:*Красных глаз*] (До <style=\"highlight\">3</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] При 7 и более [RedEyeFirst:*Красных глаз*] Рёшу получает 1 [Agility:*Спешку*] на следующий ход (Дважды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Череполом",
+          "desc": "[BeforeUse] При 15 и более [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяниях*] заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу быстрее цели на 3 и выше очка\n[WhenUse] Сила монет +1 при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 [RedEyeFirst:*Красных глаз*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 [PenanceFirst:*Раскаяний*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/3)% от максимальных ОЗ себе и союзнику с самым низким здоровьем"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД (Не менее 0)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Череполом",
+          "desc": "[BeforeUse] При 15 и более [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяниях*] заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу <style=\"highlight\">быстрее цели</style>\n[WhenUse] Сила монет +1 и <style=\"highlight\">Сила парирований +2</style> при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 [RedEyeFirst:*Красных глаз*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 7 [PenanceFirst:*Раскаяний*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Получает 2 [PenanceFirst:*Раскаяния*]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/<style=\"highlight\">2</style>)% от максимальных ОЗ себе и союзнику с самым низким здоровьем"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД (Не менее 0)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пора поесть и на боковую",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*] (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [PenanceFirst:*Раскаяния*] (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пора поесть и на боковую",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*] (Единожды за ход)\n<style=\"highlight\">- Дополнительно получает 1 [RedEyeFirst] при менее 7 [RedEyeFirst:*Красных глаз*]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [PenanceFirst:*Раскаяния*] (Единожды за ход)\n<style=\"highlight\">- Дополнительно получает 1 [PenanceFirst]при менее 7 [PenanceFirst:*Раскаяний*]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041005,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Серьёзный череполом",
+          "desc": "[WhenUse] Использует все [RedEyeFirst] и [PenanceFirst:*Раскаяния*]</style> на себе\n- Сила монет +1 за каждые 5 потраченных [RedEyeFirst:*Красных глаз*] (До 4)\n- Базовая сила +1 за каждые 5 потраченных [PenanceFirst:*Раскаяний*]</style> (До 4)\n[EndSkill] Рёшу теряет 15 СД и [Emptiness:*выжигает дотла*] своё ЭГО оружие",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (потраченные [RedEyeFirst] - 15) [Laceration:*Кровотечения*] (До 5)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+2.5% урона за каждые потраченные [RedEyeFirst] и [PenanceFirst] (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst]/2)% от максимальных ОЗ себе и союзнику с самым низким здоровьем\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Серьёзный череполом",
+          "desc": "[WhenUse] Использует все [RedEyeFirst] и [PenanceFirst:*Раскаяния*]</style> на себе\n- Сила монет +1 за каждые 5 потраченных [RedEyeFirst:*Красных глаз*] (До 4)\n- Базовая сила +1 за каждые 5 потраченных [PenanceFirst:*Раскаяний*]</style> (До 4)\n[EndSkill] Рёшу теряет 15 СД и [Emptiness:*выжигает дотла*] своё ЭГО оружие",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (потраченные [RedEyeFirst] - 15) [Laceration:*Кровотечения*] (До 5)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+4%</style> урона за каждые потраченные [RedEyeFirst] и [PenanceFirst] (До <style=\"highlight\">160%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает <style=\"highlight\">(потраченные [PenanceFirst])%</style>ОЗ себе и союзнику с самым низким здоровьем\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - <style=\"highlight\">5</style>) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

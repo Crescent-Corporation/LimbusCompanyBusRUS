@@ -1,0 +1,544 @@
+{
+  "dataList": [
+    {
+      "id": 2050511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[BeforeAttack] Снимает с себя 1 случайный снимаемый негативный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2;\nДополнительно повышает счётчик [Vibration:*Тремора*] на (Абсолют Гнева /3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[BeforeAttack] Снимает с себя 1 случайный снимаемый негативный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2; Дополнительно повышает счётчик [Vibration:*Тремора*] на (Абсолют Гнева /3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nЕсли после провокации [Vibration:*Тремора*] цель не имеет границ выносливости,\nНаносит (6 + 2x(Абсолют Гнева.))% последней поднятой грани оглушения уроном Гнева"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[BeforeAttack] Снимает с себя 2 случайных снимаемых негативных эффекта",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 3; Дополнительно повышает счётчик [Vibration:*Тремора*] на (Абсолют Гнева /3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nЕсли после провокации [Vibration:*Тремора*] цель не имеет границ выносливости,\nНаносит (12 + 3x(Абсолют Гнева.))% последней поднятой грани оглушения уроном Гнева"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Если на грешнике есть негативные эффекты, количество целей +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*].\nПри провокации тремора дополнительно повышает грани оглушения на 30% [Vibration:*Тремора*] на цели.\nПонижает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[EndSkill] Получает 3 [Binding:*Связывания*] и 1 Повышение силы дробящей атаки на следующий ход."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Если на грешнике есть негативные эффекты, количество целей +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nПри провокации тремора дополнительно повышает грани оглушения на 40% [Vibration:*Тремора*] на цели.\nЕсли после провокации [Vibration:*Тремора*] цель не имеет границ выносливости,\nНаносит (6 + 2x(Абсолют Гнева.))% последней поднятой грани оглушения уроном Гнева\nПонижает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[EndSkill] Получает 3 [Binding:*Связывания*] и 1 Повышение силы дробящей атаки на следующий ход."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Если на грешнике есть негативные эффекты, количество целей +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nПри провокации тремора дополнительно повышает грани оглушения на 50% [Vibration:*Тремора*] на цели.\nЕсли после провокации [Vibration:*Тремора*] цель не имеет границ выносливости,\nНаносит (12 + 3x(Абсолют Гнева.))% последней поднятой грани оглушения уроном Гнева\nПонижает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[EndSkill] Получает 3 [Binding:*Связывания*] и 1 Повышение силы дробящей атаки на следующий ход."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:*Заряда*] на 8\n[EndSkill] Повышает счётчик [Charge:*Заряда*] союзника с наименьшим счётчиком [Charge:*Заряда*] (кроме себя) на 8\n- Повышает число целей, получающих эффект, на (верхняя граница в резонансе Зависти - 2) (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:*Заряда*] на 8\n[EndSkill] Повышает счётчик [Charge:*Заряда*] союзника с наименьшим счётчиком [Charge:*Заряда*] (кроме себя) на 8\n- Повышает число целей, получающих эффект, на (верхняя граница в резонансе Зависти - 2) (До 4)\n- При резонансе Зависти, равном 4 и более, даёт целям-союзникам 1 [VioletDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:*Заряда*] на 12\n[EndSkill] Повышает счётчик [Charge:*Заряда*] союзника с наименьшим счётчиком [Charge:*Заряда*] (кроме себя) на 8\n- Повышает число целей, получающих эффект, на (верхняя граница в резонансе Зависти - 2) (До <style=\"highlight\">5</style>)\n- При резонансе Зависти, равном 4 и более, даёт целям-союзникам 1 [VioletDamageUp]\n<style=\"highlight\">- При резонансе Зависти, равном 6 и более, даёт себе и целям-союзникам 1 дополнительное [VioletDamageUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До 2)\n[BeforeAttack] При 10 и более единиц на счётчике [Charge:*Заряда*], тратит до 20 [Charge:*Заряда*], чтобы получить +2% урона за единицу потраченного [Charge:*Заряда*] (До 40%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] При 10 и более единиц на счётчике [Charge:*Заряда*], тратит до 20 [Charge:*Заряда*], чтобы получить +<style=\"highlight\">2.5</style>% урона за единицу потраченного [Charge:*Заряда*] (До <style=\"highlight\">50</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До 3)\n<style=\"highlight\">[BeforeAttack] При 10 и более единиц на счётчике [Charge:*Заряда*] на 8\n[EndSkill] Повышает счётчик [Charge:*Заряда*], удваивает эффекты, наносимые монетами.</style>\n[BeforeAttack] При 10 и более единиц на счётчике [Charge:*Заряда*], тратит до 20 [Charge:*Заряда*], чтобы получить +<style=\"highlight\">3</style>% урона за единицу потраченного [Charge:*Заряда*] (До <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Разово активирует [Laceration] на цели (Счётчик [Laceration:*Кровотечения*] цели понижается на 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик [Laceration:*Кровотечения*] цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик [Laceration:*Кровотечения*] цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе / 2) раз. (До 3-х раз. Каждая активация понижает счётчик [Laceration:*Кровотечения*] цели)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2)</style>\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик [Laceration:*Кровотечения*] цели понижается на 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик [Laceration:*Кровотечения*] цели понижается на 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе / 2) раз. (До 3-х раз. Каждая активация понижает счётчик [Laceration:*Кровотечения*] цели)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Тратит 10% от максимальных ОЗ для нанесения (потраченные ОЗ / 2) урона всем врагам и союзникам\n- При менее 50% ОЗ Мерсо наносит на всех союзников 5 [Laceration:*Кровотечения*] и разово активирует его (Понижая счётчик [Laceration:*Кровотечения*] союзников на 1). Урон, нанесённый союзникам, восполняет ОЗ Мерсо",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 1"
+                },
+                {
+                  "desc": "- При атаке цели без [RoseWedge:*Шипов роз*]</u></color>, наносит 4 [RoseWedge:*Шипа роз*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Разово активирует [Laceration] на цели (Счётчик [Laceration:*Кровотечения*] цели понижается на 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Сила монет +1 при 6 и более в сумме [Laceration:*Кровотечения*] у Мерсо и его цели</style>\n[WhenUse] Тратит 10% от максимальных ОЗ для нанесения (потраченные ОЗ / 2) урона всем врагам и союзникам\n- При менее 50% ОЗ Мерсо наносит на всех союзников 5 [Laceration:*Кровотечения*] и разово активирует его (Понижая счётчик [Laceration:*Кровотечения*] союзников на 1). Урон, нанесённый союзникам, восполняет ОЗ Мерсо",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:*Кровотечения*] себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:*Кровотечения*] себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- При атаке цели без [RoseWedge:*Шипов роз*]</u></color>, наносит 4 [RoseWedge:*Шипа роз*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе / 2) раз. (До 3-х раз. Каждая активация понижает счётчик [Laceration:*Кровотечения*] цели)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 3)</style>\n[WhenUse] Тратит 10% от максимальных ОЗ для нанесения (потраченные ОЗ / 2) урона всем врагам и союзникам\n- При менее 50% ОЗ Мерсо наносит на всех союзников 5 [Laceration:*Кровотечения*] и разово активирует его (Понижая счётчик [Laceration:*Кровотечения*] союзников на 1). Урон, нанесённый союзникам, восполняет ОЗ Мерсо",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] себе и цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Разово активирует [Laceration] на себе и цели (Счётчик [Laceration:*Кровотечения*] Мерсо и цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] себе и цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Разово активирует [Laceration] на себе и цели (Счётчик [Laceration:*Кровотечения*] Мерсо и цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [RoseWedge:*Шипов роз*]</u></color> на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "- При атаке цели без [RoseWedge:*Шипов роз*]</u></color>, наносит 4 [RoseWedge:*Шипа роз*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели 1 + (число грехов в наибольшем резонансе / 2) раз. (До 3-х раз. Каждая активация понижает счётчик [Laceration:*Кровотечения*] цели)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

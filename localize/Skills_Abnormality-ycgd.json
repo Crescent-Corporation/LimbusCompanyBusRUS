@@ -1,0 +1,477 @@
+{
+  "dataList": [
+    {
+      "id": 815101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Протыкание",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion:*Огня*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар хвостом",
+          "desc": "[WinDuel] Базовая сила +2 против целей с [Combustion:*Огнём*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion:*Огня*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вдох",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Уязвимость к Гневу на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Уязвимость к Гневу на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "[WhenUse] Сила монет +2 против целей с 5 и более [Combustion:*Огня*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение урона по уязвимости"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наскок",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отстрел",
+          "desc": "[WinDuel] Базовая сила +2 против целей с [Sinking:*Утопанием*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*] и повышает его счётчик на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Водяная бомба",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [AzureTakeDamageUp:*Уязвимости к Унынию*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Наносит 2 [Sinking:*Утопания*] на атакующего",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обнажение меча",
+          "desc": "[WhenUse] Получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перерезание глотки",
+          "desc": "[WhenUse] Получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение урона на следующей ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Умерщвление",
+          "desc": "[WinDuel] Повышает свой счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение рубящего урона на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [SlashResistDown:*Понижения сопротивления к рубящему урону*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Низвержение",
+          "desc": "[WinDuel] Повышает свой счётчик [Breath:*Дыхания*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:*Дыхания*] и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [SlashDamageUp:*Повышения рубящего урона*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [SlashResistDown:*Понижения сопротивления рубящему урону*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:*Паралича*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы забрать их кости",
+          "desc": "[StartBattle] Получает 50 щита\n[WhenUse] Сила столкновения +5 с оставшимся щитом",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [SlashResistDown:*Понижения сопротивления рубящему урону*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+100% критического урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если щит не был снят, разделяет [Grudge:*Растущую горечь*] между целями атаки фиксированным уроном."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Получает 4 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уступаю плоть",
+          "desc": "Получает [Grudge:*Растущую горечь*] в количестве урона, полученного во время навыка, вызвавшего контратаку",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы забрать их кости",
+          "desc": "[StartBattle] Получает 200 щита\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 3\n[WhenUse] Сила столкновения +10 с оставшимся щитом",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [SlashResistDown:*Понижения сопротивления рубящему урону*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+100% критического урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:*Паралича*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если щит не был снят, разделяет [Grudge:*Растущую горечь*] между целями атаки фиксированным уроном."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Танец с мечом",
+          "desc": "[EnemyKill] Получает 3 [AttackUp:*Повышения уровня атаки*] и 3 [DefenseUp:*Повышения уровня защиты*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы забрать их кости",
+          "desc": "[CantChangeTarget]\nАтакует цель с самым низким здоровьем\n[EnemyKill] Удваивает [Grudge:*Растущую горечь*]\n[EnemyKill] Восстанавливает ОЗ на число [Grudge:*Растущей горечи*]",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Grudge:*Растущую горечь*] фиксированным уроном"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "dataList": [
+    {
+      "id": "very-high",
+      "content": "Доминирующий"
+    },
+    {
+      "id": "high",
+      "content": "Предпочтительный"
+    },
+    {
+      "id": "normal",
+      "content": "Нейтральный"
+    },
+    {
+      "id": "low",
+      "content": "Едва сможет"
+    },
+    {
+      "id": "very-low",
+      "content": "Безнадёжный"
+    },
+    {
+      "id": "impossible",
+      "content": "Нельзя выбрать"
+    },
+    {
+      "id": "event-very-high",
+      "content": "Оч. высокая"
+    },
+    {
+      "id": "event-high",
+      "content": "Высокая"
+    },
+    {
+      "id": "event-normal",
+      "content": "Средняя"
+    },
+    {
+      "id": "event-low",
+      "content": "Низкая"
+    },
+    {
+      "id": "event-very-low",
+      "content": "Оч. низкая"
+    },
+    {
+      "id": "event-impossible",
+      "content": "Нельзя выбрать"
+    }
+  ]
+}

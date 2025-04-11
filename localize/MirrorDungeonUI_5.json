@@ -1,0 +1,544 @@
+{
+  "dataList": [
+    {
+      "id": "mirror_dungeon_get_ego_gift_with_enemy_buff_less_count",
+      "content": "Остались доступные ЭГО Дары для выбора.\n\nЖелаете продолжить, пропустив выбор ЭГО Даров?\n\n(※ Случайные усиления будут выбраны в зависимости от количества пропущенных ЭГО Даров)"
+    },
+    {
+      "id": "mirror_dungeon_easy_difficulty",
+      "content": "Обычное"
+    },
+    {
+      "id": "mirror_dungeon_hard_difficulty",
+      "content": "Усложнённое"
+    },
+    {
+      "id": "mirror_dungeon_start_bonus_formation_rest_point",
+      "content": "Бонус отдыха"
+    },
+    {
+      "id": "mirror_dungeon_start_bonus_formation_total",
+      "content": "Бонус\nотдыха"
+    },
+    {
+      "id": "mirror_dungeon_start_buff_Panel_reset_selection",
+      "content": "Отменить выбор эффектов"
+    },
+    {
+      "id": "mirror_dungeon_start_buff_Panel_applied_effect",
+      "content": "Активированные эффекты"
+    },
+    {
+      "id": "mirror_dungeon_reward_popup_rest_bonus_guide",
+      "content": "Незадействованные идентичности повышают свой бонус отдыха на 1"
+    },
+    {
+      "id": "mirror_user_start_buff",
+      "content": "<size=43>За бонусы отдыха</size>"
+    },
+    {
+      "id": "mirror_enemy_buff",
+      "content": "Испытания"
+    },
+    {
+      "id": "mirror_enemy_addenemylevel_desc",
+      "content": "<size=22>Уровень противников +{0}</size>"
+    },
+    {
+      "id": "mirror_card_pack",
+      "content": "Тематический набор"
+    },
+    {
+      "id": "mirror_acquired_random_enemy_buff_popup_title",
+      "content": "Дополнение испытания"
+    },
+    {
+      "id": "mirror_acquired_enemy_buff_popup_desc",
+      "content": "Испытание добавлено."
+    },
+    {
+      "id": "mirror_start_buff_purchase_complete_modal_title",
+      "content": "Завершить выбор благословений звёзд"
+    },
+    {
+      "id": "mirror_start_buff_purchase_complete_modal_desc",
+      "content": "Выбор благословений звёзд завершён."
+    },
+    {
+      "id": "mirror_recovered_unit_status",
+      "content": "Павшие грешники воскресли, а остальные полностью восстановили ОЗ"
+    },
+    {
+      "id": "mirror_start_buff_cannot_purchase_side_popup_title",
+      "content": "Нельзя продолжить"
+    },
+    {
+      "id": "mirror_start_buff_cannot_purchase_side_popup_desc",
+      "content": "Недостаток бонуса отдыха"
+    },
+    {
+      "id": "user_enemy_buff_empty_list",
+      "content": "Эффекты отсутствуют"
+    },
+    {
+      "id": "mirror_start_set_buff_type",
+      "content": "Благословение звёзд"
+    },
+    {
+      "id": "mirror_start_buff_type",
+      "content": "Неисчисляемые благословения звёзд"
+    },
+    {
+      "id": "mirror_start_buff_purchase_button",
+      "content": "Вход"
+    },
+    {
+      "id": "user_enemy_buff_select_event_buff",
+      "content": "Эффект выбора"
+    },
+    {
+      "id": "dungeon_shop_heal_desc_one_revive",
+      "content": "Воскресить выбранного грешника"
+    },
+    {
+      "id": "dungeon_shop_heal_desc_all_revive",
+      "content": "Воскресить всех грешников"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_hard_ab_battle",
+      "content": "Столкновение с аномалией"
+    },
+    {
+      "id": "dungeon_shop_heal_enter",
+      "content": "Можем воскресить или восстановить ОЗ кому-нибудь из грешников.\nЧто мне нужно сделать?"
+    },
+    {
+      "id": "dungeon_shop_heal_select_one",
+      "content": "Восстановлены ОЗ и СД для грешника {0}."
+    },
+    {
+      "id": "dungeon_shop_heal_all",
+      "content": "Все грешники восстановят ОЗ и СД."
+    },
+    {
+      "id": "dungeon_shop_heal_revive_select_one",
+      "content": "Грешник {0} воскрешён и готов к бою."
+    },
+    {
+      "id": "mirrordungeon_revive_log",
+      "content": "Благословение звёзд активировано\nВоскресили [{0}]"
+    },
+    {
+      "id": "mirror_start_buff_unlock_condition_needs_held_buff_points",
+      "content": "Нужен бонус отдыха {0} или выше"
+    },
+    {
+      "id": "mirror_start_buff_purchase_modal_after_selected_bonus",
+      "content": "Избыточный бонус отдыха"
+    },
+    {
+      "id": "mirror_start_buff_purchase_modal_exchanged_cost",
+      "content": "Стоимости"
+    },
+    {
+      "id": "mirror_start_buff_purchase_modal_title",
+      "content": "<size=49>Выбор благословений звезд</size>"
+    },
+    {
+      "id": "mirror_start_buff_purchase_modal_description",
+      "content": "Вы уверены в своём выборе эффектов?"
+    },
+    {
+      "id": "mirror_start_buff_purchase_modal_purchase_description",
+      "content": "Избыточный бонус отдыха преобразуется в стоимость"
+    },
+    {
+      "id": "mirror_start_buff_applied_passive",
+      "content": "Пассивное благословение звёзд"
+    },
+    {
+      "id": "mirror_dungeon_start_buff_Panel_title",
+      "content": "<size=38>Благословения мечтающей звезды</size>"
+    },
+    {
+      "id": "mirror_shop_purchase_complete",
+      "content": "Покупка\nзавершена"
+    },
+    {
+      "id": "mirror_start_buff_purchase_modal_not_selected_any_buff",
+      "content": "Нет выбранных"
+    },
+    {
+      "id": "dungeon_shop_heal_title_all_season5",
+      "content": "Каждый грешник понемногу восстановится."
+    },
+    {
+      "id": "dungeon_shop_heal_title_one_season5",
+      "content": "Один грешник значительно восстановится."
+    },
+    {
+      "id": "dungeon_shop_revive_title_one_season5",
+      "content": "Воскресить одного грешника."
+    },
+    {
+      "id": "dungeon_shop_revive_one_select_ask",
+      "content": "Какого грешника воскресить"
+    },
+    {
+      "id": "mirror_dungeon_block_to_click_hard_theme_list",
+      "content": "Пройдите Песнь Ⅵ\nдля открытия подземелья"
+    },
+    {
+      "id": "mirrordungeon_theme_hard_blocked",
+      "content": "Пройдите Песнь Ⅵ\nдля открытия набора"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_title",
+      "content": "Вылечить грешников"
+    },
+    {
+      "id": "mirrordungeon_shop_title",
+      "content": "Магазин"
+    },
+    {
+      "id": "mirror_dungeon_progress_text_5",
+      "content": "Зеркало мечтаний - {0}-й этаж'"
+    },
+    {
+      "id": "mirror_dungeon_progress_awaiting_reward_claim",
+      "content": "Награды готовы к выдаче"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_bonus_gift",
+      "content": "Благословение звёзд активировано\nПолучены Дары для продажи и соединения"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_0_1",
+      "content": "В ОБЫЧНОМ РЕЖИМЕ"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_0_2",
+      "content": "В УСЛОЖНЁННОМ РЕЖИМЕ"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_1_1",
+      "content": "Обычное столкновение : 7.5%\nСосредоточенное столкновение : -\nЭлитное столкновение : -\nСтолкновение с аномалией : -\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_1_2",
+      "content": "Обычное столкновение : 7.5%\nСосредоточенное столкновение : -\nЭлитное столкновение : -\nСтолкновение с аномалией : -\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_2_1",
+      "content": "Обычное столкновение : 10%\nСосредоточенное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией : -\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_2_2",
+      "content": "Обычное столкновение : 10%\nСосредоточенное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией : -\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_3_1",
+      "content": "Обычное столкновение : 10%\nСосредоточенное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией : 100%\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_3_2",
+      "content": "Обычное столкновение : 10%\nСосредоточенное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией : 100%\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_4_1",
+      "content": "Обычное столкновение : 12.5%\nСосредоточенное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией : 100%\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_4_2",
+      "content": "Обычное столкновение : 12.5%\nСосредоточенное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией : 100%\nСтолкновение с боссом : 100%"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_5_1",
+      "content": "Обычное столкновение : 12.5%\nСосредоточенное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией : 100%\nСтолкновение с боссом : -"
+    },
+    {
+      "id": "mirror_5_battle_reward_card_guide_table_1_desc_5_2",
+      "content": "Обычное столкновение : 12.5%\nСосредоточенное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией : 100%\nСтолкновение с боссом : -"
+    },
+    {
+      "id": "mirrordungeon_additional_cost_by_start_bonus",
+      "content": "Благословение звёзд активировано\nПолучена стоимость"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_desc",
+      "content": "При использовании ЭГО Дара в качестве материала, подсчитываются баллы в зависимости от их ранга."
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_header",
+      "content": "Ранги ЭГО Даров"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_score_header",
+      "content": "Баллы"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_1",
+      "content": "Ранг 1"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_1_score",
+      "content": "3"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_2",
+      "content": "Ранг 2"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_2_score",
+      "content": "6"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_3",
+      "content": "Ранг 3"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_3_score",
+      "content": "10"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_4",
+      "content": "Ранг 4"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_4_score",
+      "content": "15"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_5",
+      "content": "Ранг 5"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_score_tier_5_score",
+      "content": "30"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_label",
+      "content": "При соединении Даров, ранг результатного ЭГО Дара определяется по сумме баллов использованных материалов."
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_header",
+      "content": "Сумма баллов"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_tier_header",
+      "content": "Ранг результатного ЭГО Дара"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_1",
+      "content": "10 баллов или менее"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_tier_1",
+      "content": "Ранг 1"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_2",
+      "content": "11 ~ 16 баллов"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_tier_2",
+      "content": "Ранг 2"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_3",
+      "content": "17 ~ 24 баллов"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_tier_3",
+      "content": "Ранг 3"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_4",
+      "content": "25 баллов или более"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_tier_4",
+      "content": "Ранг 4"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_season_5_etc_1",
+      "content": "※ Имеющиеся ЭГО Дары на руках исключают возможность повторного получения этих же ЭГО Даров через соединение."
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_season_5_etc_2",
+      "content": "※ ЭГО Дар, используемый как материал в соединении, не может появится как результатный Дар в этом же соединении. Однако, уже в следующих соединениях, этот ЭГО Дар вновь будет доступен как результатный Дар."
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_season_5_etc_3",
+      "content": "※ Если не можете получить ЭГО Дар нужного ранга и аспекта, то вам выдают ЭГО Дар другого аспекта, но того же ранга."
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_season_5_etc_4",
+      "content": "※ Если вам всё же посчастливилось получить “дубликат” ЭГО Дара, то он конвертируется в отдельный Дар того же ранга для соединения и продажи."
+    },
+    {
+      "id": "mirrordungeon_upgrade_shop_title",
+      "content": "<color=#990000>Особый магазин</color>"
+    },
+    {
+      "id": "mirrordungeon_upgrade_shop_rate_in_next_floor",
+      "content": "<size=23>Вероятность появления\nособого магазина\nна следующем этаже</size>"
+    },
+    {
+      "id": "mirror_start_buff_unlock_condition_lack_of_current_point",
+      "content": "Недостаток бонуса отдыха"
+    },
+    {
+      "id": "mirror_theme_pack_baton",
+      "content": "Длительный бой"
+    },
+    {
+      "id": "mirrordungeon_theme_hard_no_pool",
+      "content": "Выполнены все условия для разблокировки усложнённого режима. Вы сможете изменить уровень сложности при следующем выборе тематических наборов."
+    },
+    {
+      "id": "new_ego_gift_combine_guide_table_1_desc_3_0",
+      "content": "Более 4-х"
+    },
+    {
+      "id": "new_ego_gift_combine_guide_table_1_desc_3_1",
+      "content": "99%"
+    },
+    {
+      "id": "mirrordungeon_level_up_by_long_battle_theme",
+      "content": "Получена награда за длительный бой.\n[Уровень идентичностей повысился на 3]"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_100",
+      "content": "Звезда начала"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_101",
+      "content": "Нарастающее скопление звёзд"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_102",
+      "content": "Межзвёздное путешествие"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_103",
+      "content": "Звездопад"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_104",
+      "content": "Магазин двойной звезды"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_105",
+      "content": "Магазин-спутник"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_106",
+      "content": "Благоволение туманности"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_107",
+      "content": "Путеводная звезда"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_108",
+      "content": "Случайная комета"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_title_109",
+      "content": "Идеальная возможность"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_over10",
+      "content": "На руках [10] и более бонусов отдыха"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_over20",
+      "content": "На руках [20] и более бонусов отдыха"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_over30",
+      "content": "На руках [30] и более бонусов отдыха"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs_over40",
+      "content": "На руках [40] и более бонусов отдыха"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs__over50",
+      "content": "На руках [50] и более бонусов отдыха"
+    },
+    {
+      "id": "mirror_dungeon_5_buffs__over60",
+      "content": "На руках [60] и более бонусов отдыха"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_label_upgrade",
+      "content": "Применяется особая корректировка к сумме баллов в случае соединения Даров в особом магазине."
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_1_upgrade",
+      "content": "9 баллов или менее"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_2_upgrade",
+      "content": "10 ~ 14 баллов"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_3_upgrade",
+      "content": "15 ~ 21 баллов"
+    },
+    {
+      "id": "mirrordungeon_egogift_combine_guide_result_total_4_upgrade",
+      "content": "22 балла или более"
+    },
+    {
+      "id": "mirrordungeon_start_bonus_personality_title",
+      "content": "Нерасходуемый бонус отдыха"
+    },
+    {
+      "id": "mirrordungeon_start_bonus_personality_desc",
+      "content": "Бонус отдыха не будет израсходован при прохождении Зеркального подземелья этой идентичностью на время периода сохранения."
+    },
+    {
+      "id": "mirrordungeon_start_bonus_personality_label",
+      "content": "Идентичности\nс эффектом"
+    },
+    {
+      "id": "mirrordungeon_start_bonus_personality_button_label",
+      "content": "Идентичности с\nнерасходуемым\nбонусом отдыха"
+    },
+    {
+      "id": "mirrordungeon_start_bonus_personality_period",
+      "content": "До {0}"
+    },
+    {
+      "id": "mirrordungeon_purchase_achievement_level_using_lunacy_desc",
+      "content": "※ Для получения {0} прогресса достижений израсходуется {1} платного Безумства."
+    },
+    {
+      "id": "mirrordungeon_purchase_achievement_level_ask_using_lunacy",
+      "content": "Желаете приобрести прогресса достижений за {0} платного Безумства?"
+    },
+    {
+      "id": "mirrordungeon_purchase_achievement_title",
+      "content": "Покупка прогресса достижений"
+    },
+    {
+      "id": "mirrordungeon_achievement_progress",
+      "content": "<font=\"ExcelsiorSans SDF\">Прогресс\nдостижений</font>"
+    },
+    {
+      "id": "mirrordungeon_purchase_achievement_block_by_max_level",
+      "content": "Вы больше не можете приобрести прогресс достижений"
+    },
+    {
+      "id": "mirrordungeon_achievement_max_level",
+      "content": "Достигнут максимальный уровень достижений"
+    },
+    {
+      "id": "lack_of_point_for_shop_without_new_line",
+      "content": "Не хватает стоимости"
+    }
+  ]
+}

@@ -1,0 +1,1257 @@
+{
+  "dataList": [
+    {
+      "id": 1080701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Готовность разрушать",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Готовность разрушать",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Готовность разрушать",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ярый взрыв",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown:*Понижения уровня защиты*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ярый взрыв",
+          "desc": "Сила монет +1 при 5 и более на счётчике [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:*Понижения уровня защиты*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ярый взрыв",
+          "desc": "Сила монет +1 при 5 и более на счётчике [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [DefenseDown:*Понижений уровня защиты*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Опасное решение",
+          "desc": "Сила монет +1 при 5 и более на счётчике [Vibration:*Тремора*]\nЕсли на цели 6 и более [Sinking:*Утопания*], наносит +20% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает счётчик [Vibration:*Тремора*] на 5, чтобы нанести 1 Уязвимость на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает счётчик [Vibration:*Тремора*] на 5, чтобы нанести 2 [Vulnerable:*Уязвимости*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Опасное решение",
+          "desc": "Сила монет +1 за каждые 5 счётчиков [Vibration:*Тремора*] на себе (До 2)\nЕсли на цели 6 и более [Sinking:*Утопания*], наносит +40% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает счётчик [Vibration:*Тремора*] на 5, чтобы нанести 1 Уязвимость на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает счётчик [Vibration:*Тремора*] на 5, чтобы нанести 2 [Vulnerable:*Уязвимости*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проворность",
+          "desc": "[WhenUse] Получает 2 [BurstProtection:*Защищённости от Разрывов*] (До 6 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ко мне!",
+          "desc": "[WhenUse] Повышает [Aggro:*Провокацию*] самой левой ячейки навыков союзника грешницы с самым высоким здоровьем на (наибольшее число резонанса) на следующий ход (Раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ко мне!",
+          "desc": "[WhenUse] Повышает [Aggro:*Провокацию*] самой левой ячейки навыков союзника грешницы с самым высоким здоровьем на (наибольшее число резонанса) на следующий ход (Раз за ход)\n- Если наибольшее число абсолюта равно 4-м и выше, дополнительно даёт 1 Защищённость после активации эффекта (Раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ко мне!",
+          "desc": "<style=\"highlight\">[StartBattle] Даёт союзникам, окружающим грешницу на панели управления 2 [DefenseUp:*Повышения уровня защиты*]</style>\n[WhenUse] Повышает [Aggro:*Провокацию*] самой левой ячейки навыков союзника грешницы с самым высоким здоровьем на (наибольшее число резонанса) на следующий ход (Раз за ход)\n- Если наибольшее число абсолюта равно 4-м и выше, дополнительно даёт 1 Защищённость после активации эффекта (Раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Охотимся до конца!",
+          "desc": "[WhenUse] Повышает шанс активации [CoverAttack:*Вспомогательной атаки*] у союзника справа на панели управления от грешницы с шансом в 10% за каждый навык в наибольшем резонансе.",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Охотимся до конца!",
+          "desc": "[WhenUse] Повышает шанс активации [CoverAttack:*Вспомогательной атаки*] у союзника справа на панели управления от грешницы с шансом в 15% за каждый навык в наибольшем резонансе.\n- Если в наибольшем абсолюте 4 и более греха, этот союзник получает 1 Повышение урона.\n- Если абсолют Гордыни равен 4 и выше, даёт этому союзнику 1 Повышение силы Гордыни",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Охотимся до конца!",
+          "desc": "[StartBattle] Даёт 3 [AttackUp:*Повышения уровня атаки*] союзникам, окружающим грешницу на панели управления.\n[WhenUse] Повышает шанс активации [CoverAttack:*Вспомогательной атаки*] у союзника справа на панели управления от грешницы с шансом в 20% за каждый навык в наибольшем резонансе.\n- Если в наибольшем абсолюте 4 и более греха, этот союзник получает 2 [AttackDmgUp:*Повышения урона*].\n- Если абсолют Гордыни равен 4 и выше, даёт этому союзнику 2 [IndigoResultUp:*Повышения силы Гордыни*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Гарпун одержимости",
+          "desc": "Наносит +0.2% урона за каждый 1% потерянных ОЗ (До 20%)\n[EndSkill] Если цель оглушена или побеждена, восстанавливает (1 + (наибольший абсолют/2)) союзникам 10 СД, даёт 2 [Breath:*Дыхания*] и повышает его счётчик на 4 (До 2-х раз. До 4-х союзников)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гарпун одержимости",
+          "desc": "Наносит +0.3% урона за каждый 1% потерянных ОЗ (До 30%)\n +1 сила монет за каждые 5 [Laceration:*Кровотечения*] на цели. (До 2)\n[EndSkill] Если цель оглушена или побеждена, восстанавливает (1 + (наибольший абсолют/2)) союзникам 10 СД, даёт 2 [Breath:*Дыхания*] и повышает его счётчик на 4 (До 4-х раз. До 4-х союзников)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отбрось страх",
+          "desc": "[WhenUse] Восстанавливает 3 СД союзникам, окружающим грешницу на панели управления (До 2-х раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отбрось страх",
+          "desc": "[WhenUse] Восстанавливает 5 СД союзникам, окружающим грешницу на панели управления (До 2-х раз)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смести прочь",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Смести прочь",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смести прочь",
+          "desc": "Сила монет +1 против более медленных целей\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 1 [Agility:*Спешку*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уборка",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility:*Спешку*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:*Понижения уровня защиты*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Уборка",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\n[WinDuel] Получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility:*Спешку*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:*Понижения уровня защиты*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уборка",
+          "desc": "Сила монет +1 против более медленных целей\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\n[WinDuel] Получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility:*Спешку*] на следующий ход"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 1 [Binding] на следующий ход</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:*Понижения уровня защиты*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Искусство сдерживания",
+          "desc": "[WhenUse] Получает 6 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Искусство сдерживания",
+          "desc": "Сила монет +1 против более медленных целей\n[WhenUse] Получает 6 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Восстанавливает 5 СД (Раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 1081001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рыцарское фехтование «Цвай»",
+          "desc": "[WhenUse] Эта ячейка получает 2 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 4 единицы на счётчике [Vibration:*Тремора*] (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [DefenseUp] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [DefenseUp] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Рыцарское фехтование «Цвай»",
+          "desc": "[WhenUse] Эта ячейка получает <style=\"highlight\">3</style> [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые <style=\"highlight\">3</style> единицы на счётчике [Vibration:*Тремора*] (До 2)\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 4 и более [DefenseUp:*Повышения уровня защиты*] на Измаил</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [DefenseUp:*Повышения уровня защиты*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [DefenseUp:*Повышения уровня защиты*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рыцарское фехтование «Цвай»",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые <style=\"highlight\">2</style> единицы на счётчике [Vibration:*Тремора*] (До <style=\"highlight\">3</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 4</style> [DefenseUp:*Повышения уровня защиты*] на Измаил <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp:*Повышения уровня защиты*] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp:*Повышения уровня защиты*] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты не пройдёшь.",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике [Vibration:*Тремора*] у Измаил (До 3)\n[WinDuel] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [DefenseUp:*Повышения уровня защиты*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (счётчик [Vibration:*Тремора*] на себе/2) [Vibration:*Тремора*] (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] при 10 и более [DefenseUp:*Повышениях уровня защиты*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ты не пройдёшь.",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике [Vibration:*Тремора*] у Измаил (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [DefenseUp:*Повышениях уровня защиты*] на Измаил</style>\n[WinDuel] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [DefenseUp:*Повышения уровня защиты*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (счётчик [Vibration:*Тремора*] на себе/2) [Vibration:*Тремора*] (До <style=\"highlight\">3</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] при 10 и более [DefenseUp:*Повышениях уровня защиты*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ты не пройдёшь.",
+          "desc": "[WhenUse] Эта ячейка получает <style=\"highlight\">5</style> [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике [Vibration:*Тремора*] у Измаил (До <style=\"highlight\">5</style>)\n[WhenUse] Сила монет +1 при <style=\"highlight\">4 и более</style> [DefenseUp:*Повышениях уровня защиты*] на Измаил\n[WinDuel] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">4</style> [DefenseUp:*Повышения уровня защиты*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (счётчик [Vibration:*Тремора*] на себе/2) [Vibration:*Тремора*] (До <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] при <style=\"highlight\">8 и более</style> [DefenseUp:*Повышениях уровня защиты*] на Измаил"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Хранитель",
+          "desc": "[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике [Vibration:*Тремора*] у Измаил (До 3)\n[WhenUse] +50% урона, если Измаил приняла [DefensiveStance:*Защитную стойку*]\n[WhenUse] Сила монет +1 за каждые 4 [DefenseUp:*Повышения уровня защиты*] на Измаил (До 2)\n[WhenUse] Эта ячейка получает 8 [Aggro:*Провокаций*] на следующий ход\n[WinDuel] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До 10)\n- +(Лишний [Vibration] x 1.5)% урона (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack][VibrationExplosion:*Провоцирует Тремор*] во время [DefensiveStance:*Защитной стойки*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Хранитель",
+          "desc": "[WhenUse] Получает 1 [DefenseUp] за каждые 2 единицы на счётчике [Vibration:*Тремора*] у Измаил (До <style=\"highlight\">5</style>)\n[WhenUse] +<style=\"highlight\">70</style>%, если Измаил приняла [DefensiveStance:*Защитную стойку*]\n[WhenUse] Сила монет +1 за каждые 4 [DefenseUp:*Повышения уровня защиты*] на Измаил (До <style=\"highlight\">4</style>)\n[WhenUse] Эта ячейка получает <style=\"highlight\">10</style> [Aggro:*Провокаций*] на следующий ход\n[WinDuel] Повышает свой счётчик [Vibration:*Тремора*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До <style=\"highlight\">20</style>)\n- +(Лишний [Vibration] x <style=\"highlight\">5</style>)% урона (До <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*] во время [DefensiveStance:*Защитной стойки*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ваш щит",
+          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:*Защитную стойку*] на 2 хода. (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 10 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ваш щит",
+          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:*Защитную стойку*] на 2 хода. (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 10 (Единожды за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:*провоцирует Тремор*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прощение при чистке",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Прощение при чистке",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прощение при чистке",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n+10% урона за каждый негативный эффект на цели 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заточенное лезвие",
+          "desc": "[StartBattle] Измаил даёт 1 [AttackDmgUp] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Единожды за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 2 [AttackDmgUp:*Повышения урона*] 5-и союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Заточенное лезвие",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[StartBattle] Измаил даёт <style=\"highlight\">2</style> [AttackDmgUp:*Повышения урона*] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Единожды за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт <style=\"highlight\">3</style> [AttackDmgUp:*Повышения урона*] 5-и союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Единожды за ход)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Измаил получает 1 [SlashResultUp] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заточенное лезвие",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n+10% урона за каждый негативный эффект на цели 50%)</style>\n[StartBattle] Измаил даёт 2 [AttackDmgUp:*Повышения урона*] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Единожды за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 4 [AttackDmgUp:*Повышения урона*] 5-и союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Единожды за ход)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Если в команде 6 и более членов клана «Курокумо», наносит 2 [Vulnerable:*Уязвимости*]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Измаил получает 1 [SlashResultUp] на следующий ход (<style=\"highlight\">Дважды</style> за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Чернение тушью",
+          "desc": "Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Трижды вызывает [Laceration] на цели. Понижает счётчик [Laceration:*Кровотечения*] цели на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Чернение тушью",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n[EnemyKill] Измаил получает 2 [SlashResultUp:*Повышения силы рубящей атаки*] на следующий ход (Единожды за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+10% урона за каждый негативный эффект на цели 100%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Трижды вызывает [Laceration] на цели. Понижает счётчик [Laceration:*Кровотечения*] цели на 3<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассекающий разрез",
+          "desc": "[StartBattle] Измаил получает 1 [Protection] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рассекающий разрез",
+          "desc": "[StartBattle] Измаил получает 1 [Protection] (Единожды за ход)\n<style=\"highlight\">[StartBattle] Измаил даёт 2 [Endurance:*Повышения силы защиты*] (2 + наибольший резонанс) наиболее быстрым союзникам из клана «Курокумо», включая себя (Единожды за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

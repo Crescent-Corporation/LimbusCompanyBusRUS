@@ -1,0 +1,260 @@
+{
+  "dataList": [
+    {
+      "id": "OnSucceedAttack",
+      "name": "[При ударе]"
+    },
+    {
+      "id": "WhenUse",
+      "name": "[При использовании]"
+    },
+    {
+      "id": "WinDuel",
+      "name": "[Победа в поединке]"
+    },
+    {
+      "id": "BeforeAttack",
+      "name": "[Перед атакой]"
+    },
+    {
+      "id": "Wide",
+      "name": "[Масс-атака]"
+    },
+    {
+      "id": "nxPostLine",
+      "name": "[{n} в авангарде]"
+    },
+    {
+      "id": "nxCenterLine",
+      "name": "[{n} в центре]"
+    },
+    {
+      "id": "nxBackLine",
+      "name": "[{n} в арьергарде]"
+    },
+    {
+      "id": "CantIdentify",
+      "name": "[Неуправляемый]"
+    },
+    {
+      "id": "CRIMSON",
+      "name": "Багровый"
+    },
+    {
+      "id": "SCARLET",
+      "name": "Алый"
+    },
+    {
+      "id": "AMBER",
+      "name": "Янтарный"
+    },
+    {
+      "id": "SHAMROCK",
+      "name": "Травяной"
+    },
+    {
+      "id": "AZURE",
+      "name": "Лазурный"
+    },
+    {
+      "id": "INDIGO",
+      "name": "Индиго"
+    },
+    {
+      "id": "VIOLET",
+      "name": "Фиолет"
+    },
+    {
+      "id": "WHITE",
+      "name": "Белый"
+    },
+    {
+      "id": "BLACK",
+      "name": "Чёрный"
+    },
+    {
+      "id": "EndSkill",
+      "name": "[В конце атаки]"
+    },
+    {
+      "id": "StartBattle",
+      "name": "[В начале хода]"
+    },
+    {
+      "id": "DefeatDuel",
+      "name": "[Поражение в поединке]"
+    },
+    {
+      "id": "OnSucceedAttackHead",
+      "name": "[Выпала орлом]"
+    },
+    {
+      "id": "OnSucceedAttackTail",
+      "name": "[Выпала решкой]"
+    },
+    {
+      "id": "OnSucceedEvade",
+      "name": "[Успешный уворот]"
+    },
+    {
+      "id": "AlwaysUse",
+      "name": "[Пассивный эффект]"
+    },
+    {
+      "id": "CantDuel",
+      "name": "[Пое\u200Bдинок невозможен]"
+    },
+    {
+      "id": "EnemyKill",
+      "name": "[При убийстве]"
+    },
+    {
+      "id": "EnemyKillFail",
+      "name": "[Если цель пережила атаку]"
+    },
+    {
+      "id": "ReUse",
+      "name": "[Подкинута вновь]"
+    },
+    {
+      "id": "ReUseOnSucceedAttackHead",
+      "name": "[Подкинута вновь, выпала орлом]"
+    },
+    {
+      "id": "CriticalOnSucceedAttack",
+      "name": "[Критическая атака]"
+    },
+    {
+      "id": "StartDuel",
+      "name": "[В начале поединка]"
+    },
+    {
+      "id": "EndBattle",
+      "name": "[В конце хода]"
+    },
+    {
+      "id": "OnDefeatEvade",
+      "name": "[Неудачный уворот]"
+    },
+    {
+      "id": "EndSkillHead",
+      "name": "[Конец атаки орлом]"
+    },
+    {
+      "id": "EndSkillTail",
+      "name": "[Конец атаки решкой]"
+    },
+    {
+      "id": "WinDuelAttackHead",
+      "name": "[Победа в поединке, выпала орлом]"
+    },
+    {
+      "id": "WinDuelAttack",
+      "name": "[После победы в поединке]"
+    },
+    {
+      "id": "CriticalActivated",
+      "name": "[Начало критической атаки]"
+    },
+    {
+      "id": "CriticalEndSkill",
+      "name": "[Конец критической атаки]"
+    },
+    {
+      "id": "CantChangeTarget",
+      "name": "[Цель неизменна]"
+    },
+    {
+      "id": "TurnStartBattle",
+      "name": "[В начале хода]"
+    },
+    {
+      "id": "EndSkillAll",
+      "name": "[Окончание навыка]"
+    },
+    {
+      "id": "WhenUse_Force",
+      "name": "<color=#26cfff>[При использовании]</color>"
+    },
+    {
+      "id": "StartBattle_Force",
+      "name": "<color=#93f13e>[В начале хода]</color>"
+    },
+    {
+      "id": "TargetKill",
+      "name": "[При убийстве цели]"
+    },
+    {
+      "id": "CriticalTargetKill",
+      "name": "[При убийстве критической атакой]"
+    },
+    {
+      "id": "BeforeUse",
+      "name": "[Перед использованием]"
+    },
+    {
+      "id": "DuelCounter",
+      "name": "[Контратака, вызывающая поединок]"
+    },
+    {
+      "id": "CantBreak",
+      "name": "[Вечная монета]"
+    },
+    {
+      "id": "DuelGuard",
+      "name": "[Блок, вызывающий поединок]"
+    },
+    {
+      "id": "WhenUseEvade",
+      "name": "[При увороте]"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[В конце атаки монетой]"
+    },
+    {
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "[Если противник пережил критическую атаку]"
+    },
+    {
+      "id": "CriticalEnemyTargetKill",
+      "name": "[При убийстве противника критической атакой]"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "[Поражение в поединке, при ударе]"
+    },
+    {
+      "id": "TargetKillFail",
+      "name": "[Если цель пережила атаку]"
+    },
+    {
+      "id": "AllyKill",
+      "name": "[При убийстве союзника]"
+    },
+    {
+      "id": "AllyKillFail",
+      "name": "[Если союзник пережил атаку]"
+    },
+    {
+      "id": "TabExplain",
+      "name": ""
+    },
+    {
+      "id": "UnBrokenCoinOnSucceedAttack",
+      "name": "[При ударе, без трещин]"
+    },
+    {
+      "id": "BeforeHit",
+      "name": "[Перед принятием атаки]"
+    },
+    {
+      "id": "OnDirectAttack",
+      "name": "[При односторонней атаке]"
+    },
+    {
+      "id": "ReUseOnSucceedAttack",
+      "name": "[Подкинута вновь, при ударе]"
+    }
+  ]
+}

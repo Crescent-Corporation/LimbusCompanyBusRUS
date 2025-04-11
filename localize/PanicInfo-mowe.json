@@ -1,0 +1,10 @@
+{
+  "dataList": [
+    {
+      "id": 1025,
+      "panicName": "Гнетущая жажда крови",
+      "lowMoraleDescription": "В начале хода получает 1 [Vulnerable] и 1 [AttackDmgUp].",
+      "panicDescription": "В начале хода получает 2 [Vulnerable:*Уязвимости*] и 2 [AttackDmgUp:*Повышения урона*]."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+    "dataList": [
+        {
+            "id": 809901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Пробивание",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] дробящий урон +3"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] дробящий урон +3"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Швырок",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] дробящий урон +5"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] дробящий урон +5"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Расплата",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет 5 СД"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Властность",
+                    "desc": "[StartBattle] Даёт 1 Повышение силы атаки всем союзникам\n[StartBattle] Наносит 2 [Reduction:*Понижения силы атаки*] двум противникам с наименьшей СД",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809905,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Пусть это будет незабываемо",
+                "desc": "[StartBattle] Получает 2 [AaCePbBi:*Испытания Среднего брата*]. Получает 5 [Binding:*Связываний*] на следующий ход.",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 809906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прикрывайте спины!",
+                    "desc": "Если у цели менее 0 СД, сила монет +3",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает себе 10 СД"
+                                },
+                              {
+                                "desc": "[OnSucceedAttack] Накладывает 2 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход"
+                              }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Цель теряет 20 СД"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809907,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Общий сбор",
+                    "desc": "[StartBattle] Призывает двух союзников на следующий ход",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 809908,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Клятва отмщения",
+                "desc": "[StartBattle] Получает 2 [AaCePbBi:*Испытания Среднего брата*]. Получает 5 [Binding:*Связываний*] и 5 [AttackDmgUp:*Повышений урона*] на следующий ход.",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 809909,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "<smallcaps>Мои парикмахерские купо-о-о-о-о-оны!!!</smallcaps>",
+                    "desc": "Если у основной цели менее 0 СД, итоговая сила +5",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает грани оглушения на 30"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+  "dataList": [
+    {
+      "id": "loginui_sign_in_with_google",
+      "content": "Войти через Google"
+    },
+    {
+      "id": "loginui_sign_in_with_apple",
+      "content": "Войти через Apple"
+    },
+    {
+      "id": "loginui_sign_in_with_steam",
+      "content": "Войти через Steam"
+    },
+    {
+      "id": "loginui_sign_in_with_guest",
+      "content": "Войти как гость"
+    },
+    {
+      "id": "loginui_sign_out_current_account",
+      "content": "Выйти из аккаунта"
+    },
+    {
+      "id": "loginui_sign_out_current_account_desc",
+      "content": "Вы уверены, что желаете выйти?\nГостевой аккаунт может быть утерян."
+    },
+    {
+      "id": "loginui_sign_out_switch_account_desc",
+      "content": "Выйти из текущего аккаунта и\nсменить на другой?\nГостевой аккаунт может быть утерян."
+    },
+    {
+      "id": "switch_account",
+      "content": "Сменить аккаунт"
+    },
+    {
+      "id": "user_agreements",
+      "content": "Пользовательское соглашение"
+    },
+    {
+      "id": "title_game_data_download",
+      "content": "Начать загрузку"
+    },
+    {
+      "id": "content_game_data_download",
+      "content": "Загружается {0}"
+    },
+    {
+      "id": "content_game_data_download_description",
+      "content": "Если на устройстве недостаточно места, загрузка вернётся на главный экран"
+    },
+    {
+      "id": "content_game_data_download_recommend",
+      "content": "Желательно начать загрузку, будучи подключенным к Wi-Fi"
+    },
+    {
+      "id": "switch_allcacheclear",
+      "content": "Очистить кэш"
+    },
+    {
+      "id": "switch_oldcacheclear",
+      "content": "Очистить\nстарый кэш"
+    },
+    {
+      "id": "networkingerror_content",
+      "content": "Неустойчивое соединение.\nПроверьте подключение к интернету."
+    },
+    {
+      "id": "networkingerror_close",
+      "content": "Закрыть"
+    },
+    {
+      "id": "networkingerror_retry",
+      "content": "Повторить"
+    },
+    {
+      "id": "loginui_ok",
+      "content": "ОК"
+    },
+    {
+      "id": "login_cancel",
+      "content": "Отменить"
+    },
+    {
+      "id": "loginui_loading_battlehint",
+      "content": "Подсказка"
+    },
+    {
+      "id": "servererror_content",
+      "content": "Произошла серверная ошибка.\nПопробуйте снова."
+    },
+    {
+      "id": "forcequit_content",
+      "content": "Не удаётся подключиться.\nИгра закрывается."
+    },
+    {
+      "id": "serverstate_openpreparation",
+      "content": "Технические работы ещё идут.\nЗагляните позже!"
+    },
+    {
+      "id": "serverstate_regularcheck",
+      "content": "На данный момент на сервере проходят обычные тех. работы."
+    },
+    {
+      "id": "serverstate_temporary_check",
+      "content": "На данный момент на сервере проходят временные тех. работы."
+    },
+    {
+      "id": "serverstate_verify_invaliduser",
+      "content": "Аккаунт не существует или был удалён."
+    },
+    {
+      "id": "serverstate_verify_ban",
+      "content": "Игра на этом аккаунте запрещена."
+    },
+    {
+      "id": "serverstate_verify_invalidauth",
+      "content": "Произошла ошибка.\nПожалуйста, войдите в аккаунт снова."
+    },
+    {
+      "id": "guestlogin_failed_try_newguest",
+      "content": "На устройстве не найден гостевой аккаунт.\nЖелаете создать?"
+    },
+    {
+      "id": "secession_remain_days",
+      "content": "Аккаунт на этапе удаления.\nОсталось {0} дней {1} часов и {2} минут.\n\nВы можете восстановить аккаунт, войдя в него.\nЖелаете произвести вход?"
+    },
+    {
+      "id": "secession_canceled",
+      "content": "Аккаунт успешно восстановлен."
+    },
+    {
+      "id": "serverstate_verify_invalidclientversion",
+      "content": "Необходимо обновить клиент."
+    },
+    {
+      "id": "create_guest",
+      "content": "Создать гостевой аккаунт"
+    },
+    {
+      "id": "ask_to_remove_all_cache",
+      "content": "Очистить кэш?"
+    },
+    {
+      "id": "networkingerror_update",
+      "content": "Перейти в магазин"
+    },
+    {
+      "id": "speed_hack_warning",
+      "content": "Замечено использование сторонней программы."
+    },
+    {
+      "id": "serverstate_verify_ban_startdate",
+      "content": "Дата"
+    },
+    {
+      "id": "serverstate_verify_ban_reason",
+      "content": "Причина"
+    },
+    {
+      "id": "serverstate_verify_ban_reason_refund",
+      "content": "Злоупотребление системы оплаты “авансом”."
+    },
+    {
+      "id": "serverstate_verify_ban_reason_cheat",
+      "content": "Запись о подозрительной активности на аккаунте.\n(Читерство)"
+    },
+    {
+      "id": "serverstate_blocking_endpoint",
+      "content": "В данный момент происходит проверка функций."
+    },
+    {
+      "id": "serverstate_verify_invaliduuid",
+      "content": "Запрос обработан.\nПожалуйста, перезапустите игру для синхронизации."
+    },
+    {
+      "id": "login_scene_mini_story_warning_spoiler_format",
+      "content": "Данный эпизод происходит после событий {0}-й Песни. Желаете прочесть его?"
+    },
+    {
+      "id": "login_scene_mini_story_unlock_code_105",
+      "content": "5"
+    },
+    {
+      "id": "login_scene_mini_story_unlock_code_9105",
+      "content": "5.5"
+    },
+    {
+      "id": "switch_clearcatalog",
+      "content": "Очистить каталог"
+    },
+    {
+      "id": "panel_clearcatalog",
+      "content": "Это полностью очистит каталог. Желаете продолжить?"
+    },{
+      "id": "serverstate_error_thirdparty_api",
+      "content": "Возникла ошибка при попытке связи с внешним сервером, повторите попытку позже."
+    },
+    {
+      "id": "servererror_invalid_purchasing_package",
+      "content": "Не удалось совершить покупку."
+    },
+    {
+      "id": "forcequit_cache_initialize_fail",
+      "content": "Произошла ошибка при попытке запустить игровой клиент.\nПроверьте соединение с интернетом и повторите попытку.\nЕсли ошибка остаётся, почта для сообщений об ошибках: limbussupport+bug@projmoon.com"
+    },
+    {
+      "id": "push_notification_message_full_stamina_default_title",
+      "content": "Компания «Лимбус»"
+    },
+    {
+      "id": "push_notification_message_full_stamina_default_text",
+      "content": "Запас Энкефалина заполнен до краёв."
+    },
+    {
+      "id": "push_notification_message_full_stamina_1_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_1_text",
+      "content": "Оказался я в вашем офисе, как бы чуднó ни было, по надобности оповестить вас о заполнении запасов Энкефалина… Вот и всё."
+    },
+    {
+      "id": "push_notification_message_full_stamina_2_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_2_text",
+      "content": "Запас Энкефалина заполнен до краёв, менеджер. Я рекомендую конвертировать его в модули для повышения эффективности в использовании."
+    },
+    {
+      "id": "push_notification_message_full_stamina_3_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_3_text",
+      "content": "<b>Сосуд, в коем хранятся запасы Энкефалина наши, переполнен!!! Менеджер, милорд, куда ж вы запропастились во взывающий в приключения час???!!!</b>"
+    },
+    {
+      "id": "push_notification_message_full_stamina_4_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_4_text",
+      "content": "ЗЭП.\n<i>(Запасы Энкефалина переполнены.)</i>"
+    },
+    {
+      "id": "push_notification_message_full_stamina_5_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_5_text",
+      "content": "Энкефалин полностью заполнен, менеджер."
+    },
+    {
+      "id": "push_notification_message_full_stamina_6_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_6_text",
+      "content": "Ва-а!~ Похоже, запас Энкефалина полон!~ Не желаете проверить?"
+    },
+    {
+      "id": "push_notification_message_full_stamina_7_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_7_text",
+      "content": "Э, ну, Энке… То зеленоватое топливо, чёрт бы его побрал, уже заполнено до краёв. Проверь его, а?"
+    },
+    {
+      "id": "push_notification_message_full_stamina_8_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_8_text",
+      "content": "Запасы Энкефалина заполнены до краёв… М-м, автобус готов отправляться в путь. Начнём же новый вояж."
+    },
+    {
+      "id": "push_notification_message_full_stamina_9_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_9_text",
+      "content": "Данте!~ Энкефалин переполнен. Пока не сделаешь новые модули из запаса, заполняться он больше не будет!~"
+    },
+    {
+      "id": "push_notification_message_full_stamina_11_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_11_text",
+      "content": "Менеджер… Вы заняты? Н-ничего такого… Просто Энкефалин сейчас перельётся…"
+    },
+    {
+      "id": "push_notification_message_full_stamina_12_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_12_text",
+      "content": "Рапорт подготовлен, менеджер. Энкефалин заполнен. В дальнейшем рекомендуется конвертация в модули."
+    },
+    {
+      "id": "push_notification_message_full_stamina_13_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_13_text",
+      "content": "Э-э, друже наш, менеджер! Ну, это, бак автобуса переполнен… Кажись, стоит проверить его?"
+    },
+    {
+      "id": "push_notification_message_full_stamina_14_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_14_text",
+      "content": "Перерыв окончен. Менеджер Данте. Не покидайте автобус на долгое время."
+    },
+    {
+      "id": "push_notification_message_full_stamina_15_title",
+      "content": "Энкефалин заполнен"
+    },
+    {
+      "id": "push_notification_message_full_stamina_15_text",
+      "content": "Харон хочет сказать, что животик Мефи полон. Пора бы немного врум-врум."
+    },
+    {
+      "id": "custom_localize_button",
+      "content": "Выбрать язык"
+    },
+    {
+      "id": "custom_localize_title",
+      "content": "Выбор перевода сообщества"
+    },
+    {
+      "id": "custom_localize_desc",
+      "content": "※ Смена языка происходит после перезапуска игры."
+    },
+    {
+      "id": "steam_overlay_cannot_activate_title",
+      "content": "Ошибка оверлея Steam"
+    },
+    {
+      "id": "steam_overlay_cannot_activate_text",
+      "content": "Перейдите в библиотеку Steam,\nпереключите 「Включить оверлей Steam в игре」\nи перезайдите в клиент."
+    },
+    {
+      "id": "servererror_remain_restore_purchasing",
+      "content": "Вы не завершили предыдущую покупку.\nНажмите кнопку 「Восстановить покупки」 и попытайтесь снова."
+    }
+  ]
+}

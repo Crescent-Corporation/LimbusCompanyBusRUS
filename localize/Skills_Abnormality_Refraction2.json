@@ -1,0 +1,2198 @@
+{
+  "dataList": [
+    {
+      "id": 853901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пасмурный стон",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нескончаемое утопание",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Утопания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачок печали",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поток печали",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Плач в поисках чего-то",
+          "desc": "Сила столкновения +2 за каждый Старый зонт на поле боя\nНаносит на 25% больше урона за каждый Старый зонт на поле боя\nВ конце хода все Старые зонты исчезают\nВ конце хода получает [WaveFoxUmbrella:*Защитный зонт*], равный количеству [WaveFoxUmbrella:*Защитных зонтов*], полученных на первом ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ожидание",
+          "desc": "[StartBattle] Все противники теряют 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Резкий ответ",
+          "desc": "[StartBattle] Получает [Thorn:*Шип*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Резкая реакция",
+          "desc": "[StartBattle] Получает [Thorn:*Шип*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 853909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крик о помощи",
+          "desc": "Сила столкновения +2 за каждый живой Старый зонт\nНаносит на 25% больше урона за каждый Старый зонт на поле боя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассеивающаяся грусть",
+          "desc": "[EndSkill] Наносит +3 счётчика [Burst:*Разрыва*] и +3 счётчика [Sinking:*Утопания*] всем противникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическая нагрузка",
+          "desc": "[StartBattle] Получает 2 [SelfCharge:*Подзаряда*]\n[DefeatDuel] Теряет 2 [SelfCharge:*Подзаряда*]\nНаносит на 10% больше урона целям с [Paralysis:*Параличом*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выпуск электричества",
+          "desc": "[StartBattle] Получает 2 [SelfCharge:*Подзаряда*]\n[DefeatDuel] Теряет 2 [SelfCharge:*Подзаряда*]\nНаносит на 10% больше урона целям с [Paralysis:*Параличом*]",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрический разряд",
+          "desc": "[StartBattle] Получает 2 [SelfCharge:*Подзаряда*]\n[DefeatDuel] Теряет 2 [SelfCharge:*Подзаряда*]\nНаносит на 10% больше урона целям с [Paralysis:*Параличом*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:*Уязвимости*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Высоковольтный электрический разряд",
+          "desc": "[WhenUse] При 5 и более [SelfCharge:*Подзарядах*] наносит на 20% больше урона за каждый счётчик [SelfCharge:*Подзаряда*] более 5-ти\n[WhenUse] Сила столкновения +1 за каждый Подзаряд\n[WhenUse] Тратит весь Подзаряд",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable:*Уязвимости*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свернуться",
+          "desc": "Если этот навык находится на ячейке, голова получает 50 ОЗ Щита за каждый Подзаряд.\nЕсли голова повреждена, вместо этого получает 25 ОЗ Щита за каждый Подзаряд.\nПри потере того количества ОЗ щита, на который был потрачен 1 Подзаряд, тратит ещё один дополнительный Подзаряд",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Извивающаяся голова",
+          "desc": "Нацеливается на противника с самым низким здоровьем\n[WhenUse] Тратит 1 Подзаряд\n[DefeatDuel] Теряет 1 Подзаряд",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Извивающийся хвост",
+          "desc": "Нацеливается на противника с самым низким здоровьем\n[WhenUse] Тратит 1 Подзаряд\n[DefeatDuel] Теряет 2 [SelfCharge:*Подзаряда*]",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хочешь выпить?",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выпьем вместе!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 5% от максимальных ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "На этом у меня всё!",
+          "desc": "Приоритет нацеливания на противников с [Vibration:*Тремором*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*] по числу на счётчике [Vibration:*Тремора*] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Тратит весь Тремор цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьму-ка это!",
+          "desc": "Если на цели нет [TipsinessRail:*Опьянения*], сила столкновения +8 \n[WhenUse] Если на цели нет [TipsinessRail:*Опьянения*], наносит на 150% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [TipsinessRail:*Опьянения*], наносит 0 урона.\nФея-джентльмен будет оглушён на следующем ходе."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Убирает все [TipsinessRail:*Опьянение*]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нравится это пойло?",
+          "desc": "[WhenUse] Получает 3 [Binding:*Связывания*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сделай глоточек!",
+          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 70% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сладкое вино феи",
+          "desc": "Когда убито идентичностью, даёт 5 [TipsinessRail:*Опьянения*] всем идентичностям на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приклеенный оберег",
+          "desc": "[WhenUse] Наносит 3 [WrappedCurseTag:*Приклеенных оберега проклятия*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] и +2 счётчика [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Накапливающееся проклятие",
+          "desc": "[WhenUse] Наносит столько [WrappedCurseTag:*Приклеенных оберегов проклятия*], сколько [WrappedCurseTag:*Приклеенных оберегов проклятия*] на цели",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*] и +2 счётчика [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] и +2 счётчика [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чтобы никто не плакал",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:*Переклеенный оберег проклятия*]\n[WhenUse] При 10 и более [ReattachedCurseTag:*Переклеенных оберегах проклятия*] сила монет -1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:*Паралича*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Передача оберега",
+          "desc": "[WhenUse] Убирает все [WrappedCurseTag:*Приклеенные обереги проклятия*] с цели.\nПолучает [ReattachedCurseTag:*Переклеенные обереги проклятия*], равные кол-ву убранных [WrappedCurseTag:*Приклеенных оберегов проклятия*]\n[StartBattle] Все части получают 3 [Protection:*Защищённости*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растущее проклятие",
+          "desc": "[WhenUse] Наносит [WrappedCurseTag:*Приклеенные обереги проклятия*] в кол-ве [WrappedCurseTag:*Приклеенных оберегов проклятия*] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Беглые раны",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на счётчике цели 2 и более единиц [Laceration:*Кровотечения*], наносит 5 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на счётчике цели 2 и более единиц [Laceration:*Кровотечения*], наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тянущаяся травма",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели Кровотечение, наносит 1 Связывание на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Измазанное тело",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели Кровотечение, восстанавливает 25 ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более счётчика [Laceration:*Кровотечения*], наносит 5 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели Кровотечение, восстанавливает 25 ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отбрасывающий тень",
+          "desc": "[StartBattle] Призывает Преломлённый клевер на следующем ходе.\n[DefeatDuel] Преломлённый клевер призывается с 50% ОЗ.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 5% больше урона за каждое Кровотечение на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Тратит все Кровотечение цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поглощение",
+          "desc": "[StartBattle] Все части получают 3 [Protection:*Защищённости*].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальные ОЗ за каждое Кровотечение на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Тратит 1 счётчик [Laceration:*Кровотечения*] цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальные ОЗ за каждое Кровотечение на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Тратит 1 счётчик [Laceration:*Кровотечения*] цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хочешь выпить?",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выпьем вместе!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 5% от максимальных ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "На этом у меня всё!",
+          "desc": "Приоритет нацеливания на противников с [Vibration:*Тремором*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*] по числу на счётчике [Vibration:*Тремора*] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Тратит весь Тремор цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьму-ка это!",
+          "desc": "Если на цели нет [TipsinessRail:*Опьянения*], сила столкновения +8 \n[WhenUse] Если на цели нет [TipsinessRail:*Опьянения*], наносит на 150% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [TipsinessRail:*Опьянения*], наносит 0 урона.\nФея-джентльмен будет оглушён на следующем ходе."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Убирает все <color=#a16a3b><u><link=\"TipsinessRail\">Опьянение*]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нравится это пойло?",
+          "desc": "[WhenUse] Получает 3 [Binding:*Связывания*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сделай глоточек!",
+          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сладкое вино феи",
+          "desc": "Когда убито идентичностью, даёт 5 [TipsinessRail:*Опьянения*] всем идентичностям на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пойманная наживка",
+          "desc": "[CantDuel] +1 к количеству целей за каждый ход с живой Феей.\nПриоритет нацеливания на идентичности с эффектом [FairyCharm:*Зачарованный*].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ядро и тело восстанавливают 15 ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Роющие корни",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растущие корни",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Покушающиеся стебли",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 5% больше урона за каждые 5 счётчиков [Burst:*Разрыва*] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Незакрытая бездна",
+          "desc": "Наносит на 100% больше урона целям с 5 и более [Burst:*Разрывами*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зачарованное сознание",
+          "desc": "При атаке Фонаря фей наносится 0 урона.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение пространства",
+          "desc": "[WhenUse] Получает +3 счётчика [Charge:*Заряда*]\n[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Непрерывные рассечения пространства",
+          "desc": "[WhenUse] Получает +3 счётчика [Charge:*Заряда*]\n[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:*Пространственный разлом*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:*Пространственный разлом*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Побочный выброс",
+          "desc": "[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв пространства",
+          "desc": "При 10 и более счётчиках [Charge:*Заряда*] тратит 10 счётчиков [Charge:*Заряда*] и получает силу столкновения +5 и наносит на 100% больше урона\nПри 10- счётчиках [Charge:*Заряда*] тратит 100 ОЗ ядра и наносит на 80% больше урона\nЭтот навык не понижает ОЗ персонажа до 0.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает+2 счётчика [Charge:*Заряда*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:*Пространственных разлома*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает +2 счётчика [Charge:*Заряда*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:*Пространственных разлома*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Спланированная месть",
+          "desc": "[WhenUse] Получает +1 счётчик [Charge:*Заряда*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Побочное извержение",
+          "desc": "[WhenUse] Если на цели есть Пространственный разлом, наносит на 10% больше урона\n[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [DimensionRift:*Пространственных разломов*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Высокоскоростной разрыв пространства",
+          "desc": "Получает силу столкновения, равную наибольшему кол-ву [DimensionRift:*Пространственных разломов*] на цели\nНаносит на 10% больше урона за каждый Пространственный разлом на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Найдена возможность",
+          "desc": "[WhenUse] Если на цели есть Пространственный разлом, наносит на 20% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:*Пространственных разлома*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855009,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Атака из разлома",
+          "desc": "[WhenUse] Если на цели есть Пространственный разлом, наносит на 10% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:*Пространственных разлома*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Остановленный момент",
+          "desc": "[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTime:*Остановку времени*]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Paralysis:*Паралича*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Забранное время",
+          "desc": "Сила навыка +1 за каждые 3 счётчика [Charge:*Заряда*]\n[WhenUse] Получает +4 счётчика [Charge:*Заряда*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [TimeRental:*Одолженных времени*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Момент ускорения",
+          "desc": "Сила навыка +1 за каждое Одолженное время\n[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [InterlockingTime:*Остановки времени*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 20% больше урона за каждое Одолженное время"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает +4 счётчика [Charge:*Заряда*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зарядная защита",
+          "desc": "[StartBattle] Получает +1 счётчик [Charge:*Заряда*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6463",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:*Накопленного прошлого*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6753",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:*Накопленного прошлого*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "853",
+          "desc": "При 5 и более [Breath:*Дыхания*] сила столкновения +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает грани оглушения на 50% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое Накопленное прошлое (До 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "5384",
+          "desc": "[WhenUse] Все части получают 3 Дыхание и +3 счётчика [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает грани оглушения на кол-во [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает на 20% больше урона за каждые 3 [Breath:*Дыхания*] (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Все части получают 4 [Breath:*Дыхания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6475384",
+          "desc": "При 7 и более [Breath:*Дыхания*] сила монет +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 5 и более [Breath:*Дыхании*] повышает грани оглушения на 50% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Все части получают 8 [Breath:*Дыхания*] и +4 счётчика [Breath:*Дыхания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "974569A",
+          "desc": "При 10 и более [Breath:*Дыхания*] сила навыка +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое Накопленное прошлое (До 200%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В сад вечности",
+          "desc": "[CantDuel]\n[WhenUse] Получает Терновый венец и снимает с себя все эффекты\nЕсли у Ядра менее 40% ОЗ, Розы будут призываться в Усиленном состоянии",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хватит",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*] и 2 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*] и 2 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пленение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшими в процентном соотношении ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нескончаемое цветение",
+          "desc": "Приоритет нацеливания на противников без Терновый венец",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич и 1 Связывание на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Даёт Терновый венец"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ядро восстанавливает 30 ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стена отдаления",
+          "desc": "Сила +2 за каждую живую Розу\nЕсли на поле боя не осталось живых Роз, получает 2 [Vulnerable:*Уязвимости*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Ядро восстанавливает 30 ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мечты о нескончаемости",
+          "desc": "[StartBattle] Даёт 1 Повышение силы атаки одной случайной Розе на следующий ход\nПри получении атаки, при этом имея щит, наносит 1 Утопание атаковавшему",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 855607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Здесь, с тобой",
+          "desc": "[StartBattle] Даёт 1 Повышение силы защиты одной случайной Розе на следующий ход\nПри получении атаки, при этом имея щит, наносит 1 Утопание атаковавшему",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сжигающий гнев",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вездесущий гнев",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нарастающая похоть",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения этого персонажа на 50% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения этого персонажа на 50% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает грани оглушения этого персонажа на 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронизывающая похоть",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Парализующая лень",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Vibration:*Тремора*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Несподручная лень",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] [VibrationExplosion:*Провоцирует Тремор*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усыпляющая лень",
+          "desc": "Если получает атаку, при этом имея щит, провоцирует[VibrationExplosion:*провоцирует Тремор*] у себя и у атаковавшего",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ненасытное чревоугодие",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Превосходящее чревоугодие",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +4 счётчика [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неугасимое чревоугодие",
+          "desc": "[WhenUse] Если на цели есть Разрыв, повышает восстановление ОЗ на 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Переполняющее уныние",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растущее уныние",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Всеобъемлющее уныние",
+          "desc": "Если получает атаку, при этом имея щит, наносит +1 счётчик [Sinking:*Утопания*] себе и атаковавшему",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фонтанирующая гордыня",
+          "desc": "[WhenUse] Даёт 3 [Breath:*Дыхания*] всем союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возвышенная гордыня",
+          "desc": "[WhenUse] Даёт +2 счётчика [Breath:*Дыхания*] всем союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Breath:*Дыхания*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чуткая гордыня",
+          "desc": "При 5 и более [Breath:*Дыхания*] сила монет +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взваленная зависть",
+          "desc": "[WhenUse] Получает +3 счётчика [Charge:*Заряда*]\n[DefeatDuel] Понижает свой счётчик [Charge:*Заряда*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Charge:*Заряда*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Charge:*Заряда*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растущая зависть",
+          "desc": "[WhenUse] Тратит 10 [Charge:*Зарядов*] и получает +4 к силе монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом остался, наносит на 10% больше урона",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом остался, максимальные ОЗ +20%",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом остался, получает 1 скорость",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 856301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом остался, сила монет +1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 854406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чтобы никто не плакал",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:*Переклеенные обереги проклятия*]\n[WhenUse] При 10 и более [ReattachedCurseTag:*Переклеенных оберегах проклятия*] сила монет -1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:*Паралича*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Связывания*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

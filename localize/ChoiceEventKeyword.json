@@ -1,0 +1,72 @@
+{
+  "dataList": [
+    {
+      "id": "EGO_GIFT",
+      "content": "ЭГО Дар"
+    },
+    {
+      "id": "OnStageStart",
+      "content": "В начале этапа"
+    },
+    {
+      "id": "IncludeSkillAttribute",
+      "content": "(имеется)"
+    },
+    {
+      "id": "NotIncludeSkillAttribute",
+      "content": "(отсутствует)"
+    },
+    {
+      "id": "NextBattle",
+      "content": "в следующей битве"
+    },
+    {
+      "id": "LowestMp",
+      "content": "с меньшей СД"
+    },
+    {
+      "id": "FAILURE",
+      "content": "после провала проверки"
+    },
+    {
+      "id": "SUCCESS",
+      "content": "после пройденной проверки"
+    },
+    {
+      "id": "ADD",
+      "content": "Плюс"
+    },
+    {
+      "id": "SUB",
+      "content": "Минус"
+    },
+    {
+      "id": "85560101CRIMSON",
+      "content": "Багровый"
+    },
+    {
+      "id": "85560101SCARLET",
+      "content": "Алый"
+    },
+    {
+      "id": "85560101AMBER",
+      "content": "Янтарный"
+    },
+    {
+      "id": "85560101SHAMROCK",
+      "content": "Зелёный трилистника"
+    },
+    {
+      "id": "85560101AZURE",
+      "content": "Лазурный"
+    },
+    {
+      "id": "85560101INDIGO",
+      "content": "Индиго"
+    },
+    {
+      "id": "85560101VIOLET",
+      "content": "Лиловый"
+    }
+  ]
+}
