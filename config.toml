@@ -38,6 +38,10 @@ singular_keywords = [
   "sprite"
 ]
 
+[[font_rules."SeasonTitle.json"]]
+font = "bebas"
+path = '$.dataList[*].content'
+
 [[font_rules."MainUIText.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'

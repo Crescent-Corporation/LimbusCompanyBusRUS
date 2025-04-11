@@ -118,7 +118,7 @@ def load_keyword_colors() -> dict[str, str]:
         if line == "":
             continue
 
-        def color = "#ebcaa2"
+        color = "#ebcaa2"
         keyword_id, type = line.split(" ¤ ")
         if type == "buff":
             color = "#f8c200"
@@ -378,6 +378,7 @@ def main():
     if not args.no_include_font and config.font.font_path is not None:
         asset_path = Path(config.font.font_path)
         font_path = dist_path / "Font" / asset_path.name
+        font_path.parent.mkdir(parents=True, exist_ok=True)
         
         download_font(config.font, font_path)
 

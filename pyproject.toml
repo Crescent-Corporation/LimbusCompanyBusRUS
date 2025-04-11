@@ -1,5 +1,5 @@
 [project]
-name = "LimbusCompany RUS by CresCorp"
+name = "LimbusCompanyRUS-by-CresCorp"
 version = "0.4.4"
 description = "Русификатор на компанию «Лимбус», сделанный ручками с корейского."
 requires-python = ">=3.12"
