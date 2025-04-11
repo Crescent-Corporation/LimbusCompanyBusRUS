@@ -9,8 +9,7 @@
 Русификатор для игры "Limbus Company"
 
 <b>Наши друзья</b><br/>
-[简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [Français](https://github.com/Eden-Office/LimbusCompanyBusFR) | [Español](https://github.com/Dreams-Office/LimbusCompanySpanishTranslationTeam)
-[Tiếng Việt](https://github.com/thuanmoc/LimbusCompanyTheCityVN/tree/TEST)
+[简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [Français](https://github.com/Eden-Office/LimbusCompanyBusFR) | [Español](https://github.com/Dreams-Office/LimbusCompanySpanishTranslationTeam) | [Tiếng Việt](https://github.com/thuanmoc/LimbusCompanyTheCityVN/tree/TEST)
 
 <b>Русификаторы компании «Лимбус»</b><br/>
 <b>Crescent Corporation (CresCorp)</b> | [MTL](https://github.com/kimght/LimbusCompanyRuMTL) | [Divine Company](https://github.com/Divine-Company/DivineCompany_RussianTranslationDepartment)
