@@ -431,7 +431,7 @@
     },
     {
       "id": "mainui_synchronization",
-      "content": "<align=center>Усиление Связи</align=center>"
+      "content": "<align=\"center\">Усиление\nСвязи</align>"
     },
     {
       "id": "mainui_personality_synchronization_level",
@@ -1471,7 +1471,7 @@
     },
     {
       "id": "level_up",
-      "content": "<size=30><align=center>Повышение\nуровня</align=center></size>"
+      "content": "<size=30><align=\"center\">Повышение\nуровня</align></size>"
     },
     {
       "id": "summary",
