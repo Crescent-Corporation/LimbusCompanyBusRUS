@@ -35,7 +35,7 @@ jobs:
       - name: Make assets
         run: |
           cd ./dist/localize
-          zip -r ../localize_files.zip .
+          zip -r ../localization.zip .
           cd ../..
 
       - name: Make README.md
