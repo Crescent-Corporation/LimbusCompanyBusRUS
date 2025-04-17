@@ -271,7 +271,7 @@
                                     "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 1 Утопание"
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
                                 }
                             ]
                         },
@@ -281,7 +281,7 @@
                                     "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 1 Утопание"
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
                                 }
                             ]
                         }

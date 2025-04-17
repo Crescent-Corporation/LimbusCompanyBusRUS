@@ -35,116 +35,23 @@ apply_for = [
 
 [xml_escape]
 singular_keywords = [
-  "sprite"
+  "sprite",
+  "style",
+  "align",
+  "size"
 ]
 
 [[font_rules."SeasonTitle.json"]]
 font = "bebas"
 path = '$.dataList[*].content'
 
-[[font_rules."MainUIText.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."UserInfo_Friends.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."kr_settings-ui-donttranslate.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."MirrorDungeonUI.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."MirrorDungeonName.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."MirrorDungeonUI_3.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."MirrorDungeonUI_4.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."BattleUIText.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."RailwayDungeonUI.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."Announcer*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
-[[font_rules."BattleKeywords*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
-[[font_rules."Bufs*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
-[[font_rules."Characters.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
-[[font_rules."EGOgift_*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
 [[font_rules."EgoGiftCategory.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
-[[font_rules."Egos.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].name'
-
-[[font_rules."Items*.json"]]
-font = "mikodacs"
+font = "bebas"
 path = '$.dataList.[*].name'
 
 [[font_rules."Enemies*.json"]]
-font = "mikodacs"
+font = "bebas"
 path = '$.dataList.[*].name'
-
-[[font_rules."Enemies*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].desc'
-
-[[font_rules."Skills*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].levelList.[*].name'
-
-[[font_rules."Skills*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].levelList.[*].abName'
-
-[[font_rules."DungeonArea*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].content'
-
-[[font_rules."DungeonNode*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].stageList.[*].title'
-
-[[font_rules."FormationNameFilterUI*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].content'
-
-[[font_rules."RewardDungeonUI.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].content'
-
-[[font_rules."LoginUIText.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].content'
 
 [[font_rules."SuccessRate.json"]]
 font = "mikodacs"
@@ -185,3 +92,59 @@ path = "$.dataList.[*].place"
 [[font_rules."BgmLyrics/*.json"]]
 font = "mikodacs"
 path = "$.dataList.[*].content"
+
+[[font_rules."Characters.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].name'
+
+[[font_rules."EGOgift_*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].name'
+
+[[font_rules."Egos.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].name'
+
+[[font_rules."Enemies*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].desc'
+
+[[font_rules."FormationNameFilterUI.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].content'
+
+[[font_rules."Passive*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].name'
+
+[[font_rules."Passives*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].name'
+
+[[font_rules."Skills*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].levelList.[*].name'
+
+[[font_rules."Skills*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].levelList.[*].abName'
+
+[[font_rules."DungeonArea*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].content'
+
+[[font_rules."DungeonNode*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].stageList.[*].title'
+
+[[font_rules."FormationNameFilterUI*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].content'
+
+[[font_rules."RewardDungeonUI.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].content'
+
+[[font_rules."MirrorDungeonName.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'

@@ -62,7 +62,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит Кровотечение, равное 1/4 от счётчика [Laceration:*Кровотечения*] на цели (До 10-и)"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на число, равное 1/4 от его потенциала (До 10-и)"
                 }
               ]
             },
@@ -78,7 +78,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит Кровотечение, равное 1/4 от счётчика [Laceration:*Кровотечения*] на цели (До 10-и)"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на число, равное 1/4 от его потенциала (До 10-и)"
                 }
               ]
             },
@@ -94,7 +94,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит Кровотечение, равное 1/3 от счётчика [Laceration:*Кровотечения*] на цели (До 10-и)"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на число, равное 1/3 от его потенциала (До 10-и)"
                 }
               ]
             },
@@ -114,20 +114,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] при менее 50% ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] при менее 50% ОЗ"
                 }
               ]
             },
@@ -149,26 +149,26 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение при менее 75% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] при менее 75% ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] при менее 50% ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение при менее 75% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] при менее 75% ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] при менее 50% ОЗ"
                 }
               ]
             },
@@ -555,7 +555,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [TakeHpHealReduce:*Понижения восстановления ОЗ*]\n[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному [Charge:*Заряду*] (До 3)"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [TakeHpHealReduce:*Ослабления лечения здоровья*]\n[OnSucceedAttack] Наносит [PhotoElectricity], равный собственному [Charge:*Заряду*] (До 3)"
                 }
               ]
             }

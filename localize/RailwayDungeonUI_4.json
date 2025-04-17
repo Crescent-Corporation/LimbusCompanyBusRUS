@@ -66,7 +66,7 @@
     },
     {
       "id": "formation_baton_continue",
-      "content": "<font=\"ExcelsiorSans SDF\">Цепная</font>"
+      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Цепная</font>"
     },
     {
       "id": "railway_dungeon_lose_battle_all_identity_dead",
@@ -90,19 +90,19 @@
     },
     {
       "id": "railway_dungeon_4_section_1",
-      "content": "<font=\"BebasKai SDF\">1-АЯ СЕКЦИЯ</font>"
+      "content": "[font=bebas]<font=\"BebasKai SDF\">1-Я СЕКЦИЯ</font>"
     },
     {
       "id": "railway_dungeon_4_section_2",
-      "content": "<font=\"BebasKai SDF\">2-АЯ СЕКЦИЯ</font>"
+      "content": "[font=bebas]<font=\"BebasKai SDF\">2-Я СЕКЦИЯ</font>"
     },
     {
       "id": "railway_dungeon_4_section_3",
-      "content": "<font=\"BebasKai SDF\">3-ЬЯ СЕКЦИЯ</font>"
+      "content": "[font=bebas]<font=\"BebasKai SDF\">3-Я СЕКЦИЯ</font>"
     },
     {
       "id": "railway_dungeon_4_section_4",
-      "content": "<font=\"BebasKai SDF\">4-АЯ СЕКЦИЯ</font>"
+      "content": "[font=bebas]<font=\"BebasKai SDF\">4-Я СЕКЦИЯ</font>"
     },
     {
       "id": "railway_dungeon_4_section_1_lost_and_found",

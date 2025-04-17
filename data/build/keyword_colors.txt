@@ -777,3 +777,4 @@ CandyForCharon ¤ debuff
 VengeanceBookSinclair ¤ buff
 VendettaMark ¤ debuff
 RetaliationBookFamily ¤ debuff
+BirdCage ¤ debuff

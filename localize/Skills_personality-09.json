@@ -193,14 +193,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -214,14 +214,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -235,14 +235,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -356,14 +356,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -391,14 +391,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -431,7 +431,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -445,7 +445,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -1208,7 +1208,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Зонтик",
+          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Парасоль",
           "desc": "[DuelCounter]\n[WhenUse] Понижает счётчик [Laceration:*Кровотечения*] на 3 2-м союзникам (кроме себя) с наибольшим ([Laceration] x счётчик [Laceration:*Кровотечения*]) и наполняет [BloodDinner] на ([Laceration] x счётчик [Laceration:*Кровотечения*] до понижения)\n - Если при понижении счётчик [Laceration:*Кровотечения*] достигает 0, [Laceration] прекращает своё действие\n[WinDuel] Родя получает 4 [BloomingThornsRodionFirst:*Цветущие тернии*]",
           "coinlist": [
             {
@@ -1229,7 +1229,7 @@
         },
         {
           "level": 4,
-          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Зонтик",
+          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Парасоль",
           "desc": "[DuelCounter]\n[WhenUse] Понижает счётчик [Laceration:*Кровотечения*] на 3 2-м союзникам (кроме себя) с наибольшим ([Laceration] x счётчик [Laceration:*Кровотечения*]) и наполняет [BloodDinner] на ([Laceration] x счётчик [Laceration:*Кровотечения*] до понижения)\n - Если при понижении счётчик [Laceration:*Кровотечения*] достигает 0, [Laceration] прекращает своё действие\n<style=\"highlight\"> - Если выбранный союзник — <b>кроваггел</b>, дополнительно снимает ещё 2 единицы со счётчика [Laceration:*Кровотечения*]</style>\n[WinDuel] Родя получает 4 [BloomingThornsRodionFirst:*Цветущие тернии*]",
           "coinlist": [
             {

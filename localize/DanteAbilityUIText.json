@@ -2,19 +2,19 @@
   "dataList": [
     {
       "id": "danteAbility_UIPopup_Title",
-      "content": "Выберите способность саженца Света"
+      "content": "[font=mikodacs]Выберите способность саженца Света"
     },
     {
       "id": "danteAbility_UIPopup_Remain",
-      "content": "Осталось раз"
+      "content": "[font=excelsior]Осталось раз"
     },
     {
       "id": "dnateAbiltiy_Unlock_GoldenBranch_Resonance",
-      "content": "Резонанс с Золотой ветвью"
+      "content": "[font=mikodacs]Резонанс с Золотой ветвью"
     },
     {
       "id": "tutorial_battle_danteAbility_title",
-      "content": "Способности саженца Света"
+      "content": "[font=mikodacs]Способности саженца Света"
     },
     {
       "id": "tutorial_battle_danteAbility_01_desc_01",
@@ -30,7 +30,7 @@
     },
     {
       "id": "ui_activated",
-      "content": "Активировать"
+      "content": "[font=mikodacs]Активировать"
     }
   ]
 }

@@ -1259,7 +1259,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Olé!",
+          "name": "Оле!",
           "desc": "[OnSucceedEvade] Цель теряет 5 СД",
           "coinlist": [
             {}
@@ -1272,7 +1272,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Danza de Emoción",
+          "name": "Страстный танец",
           "desc": "[WhenUse] Получает 1 Повышение силы атаки на следующий ход",
           "coinlist": [
             {}
@@ -1285,7 +1285,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pasos Pasionales",
+          "name": "Пылкие движения",
           "desc": "[WhenUse] Восстанавливает 5 СД",
           "coinlist": [
             {
@@ -1325,7 +1325,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¿Eso es todo?",
+          "name": "И это всё?",
           "desc": "[WinDuel] Наносит 10 урона по СД",
           "coinlist": [
             {
@@ -1344,7 +1344,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Bruscamente!",
+          "name": "Как тонко!",
           "desc": "",
           "coinlist": [
             {},
@@ -1364,7 +1364,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rápidamente~",
+          "name": "Быстрее~",
           "desc": "",
           "coinlist": [
             {},
@@ -1384,7 +1384,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pañata Party!~",
+          "name": "Вечеринка с паньятой!~",
           "desc": "[WhenUse] Если СД цели ниже 0, вероятность критического урона повышается пропорционально СД цели",
           "coinlist": [
             {
@@ -1403,7 +1403,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Excelente!",
+          "name": "¡Эксельенте!",
           "desc": "[OnSucceedEvade] Понижает грани оглушения персонажа на 5; Наносит 5 урона по СД",
           "coinlist": [
             {}
@@ -1416,7 +1416,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Порву тебя на части",
+          "name": "На куски порву",
           "desc": "Если СД цели меньше, чем у персонажа, Силы навыка +1",
           "coinlist": [
             {
@@ -1500,7 +1500,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Чего зыришь?",
+          "name": "Чё зыришь?",
           "desc": "",
           "coinlist": [
             {}
@@ -1605,7 +1605,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Активация ОЗ пули",
+          "name": "Активация HP-пули",
           "desc": "[WhenUse] Восстанавливает 10 ОЗ",
           "coinlist": [
             {}
@@ -3094,7 +3094,7 @@
         {
           "level": 1,
           "name": "Обрушение.",
-          "desc": "Приоритет на противников с Тремор",
+          "desc": "Ставит в приоритет противников с [Vibration:*Тремором*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3116,7 +3116,7 @@
         {
           "level": 1,
           "name": "ВНИМАНИЕ, ВНИМАНИЕ: Тряска",
-          "desc": "Приоритет на противников с Тремор",
+          "desc": "Ставит в приоритет противников с [Vibration:*Тремором*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3743,7 +3743,7 @@
         {
           "level": 1,
           "name": "Арест!",
-          "desc": "Приоритет на противников с Тремор",
+          "desc": "Ставит в приоритет противников с [Vibration:*Тремором*]",
           "coinlist": [
             {
               "coindescs": [

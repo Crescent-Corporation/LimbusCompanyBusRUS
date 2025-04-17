@@ -46,7 +46,7 @@
     },
     {
       "id": "lcb_checkup_bonusUI_Title",
-      "content": "<size=45><font=\"BebasKai SDF\">к получению</font></size>"
+      "content": "[font=bebas]<size=45><font=\"BebasKai SDF\">к получению</font></size>"
     },
     {
       "id": "lcb_checkup_bonusUI_Title_contain_false",

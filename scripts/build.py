@@ -60,9 +60,7 @@ def prepare_reference(reference: Reference, target_path: Path) -> None:
 
 @lru_cache()
 def get_release_assets(repo: str) -> list[ReleaseAsset]:
-    response = requests.get(
-        f"https://api.github.com/repos/{repo}/releases/latest"
-    )
+    response = requests.get(f"https://api.github.com/repos/{repo}/releases/latest")
     response.raise_for_status()
     release_data = response.json()
     return release_data["assets"]
@@ -77,7 +75,7 @@ def download_release_asset(repo: str, path: str) -> io.BytesIO:
         response = requests.get(asset["browser_download_url"])
         response.raise_for_status()
         return io.BytesIO(response.content)
-        
+
     raise FileNotFoundError(f"Asset '{path}' not found in latest release of '{repo}'")
 
 
@@ -131,18 +129,173 @@ def load_keyword_colors() -> dict[str, str]:
     return result
 
 
+def is_in_range(pos: int, ranges: list[tuple[int, int]]) -> bool:
+    if not ranges:
+        return False
+
+    index = bisect.bisect_left(ranges, (pos + 1,)) - 1
+    if index >= 0 and ranges[index][0] <= pos <= ranges[index][1]:
+        return True
+
+    return False
+
+
+def get_markup_positions(
+    text: str,
+    singular_keywords: list[str],
+    escape_short: bool = True,
+    escape_keywords: bool = True,
+) -> list[tuple[int, int]]:
+    if not escape_keywords:
+        return []
+
+    keyword_regex = re.compile(r"<(?P<keyword_id>[A-z]+)[^>]*>")
+    keyword_short = re.compile(r"\[(?P<keyword_id>[A-z]+)\]")
+    format_placeholder = re.compile(r"\{\d*\}")
+
+    to_escape = []
+
+    for match in keyword_regex.finditer(text):
+        keyword_id = match.group("keyword_id")
+        close_tag = re.compile(rf"</{re.escape(keyword_id)}\s*>")
+
+        if (
+            close_tags := list(close_tag.finditer(text, match.end()))
+        ) or keyword_id.lower() in singular_keywords:
+            to_escape.append((match.start(), match.end() - 1))
+            to_escape.extend((tag.start(), tag.end() - 1) for tag in close_tags)
+
+    if escape_short:
+        for match in keyword_short.finditer(text):
+            to_escape.append((match.start(), match.end() - 1))
+
+    for match in format_placeholder.finditer(text):
+        to_escape.append((match.start(), match.end() - 1))
+
+    if not to_escape:
+        return []
+
+    to_escape.sort(key=lambda x: x[0])
+
+    merged = []
+    current_start, current_end = to_escape[0]
+
+    for next_start, next_end in to_escape[1:]:
+        if next_start <= current_end + 1:
+            current_end = max(current_end, next_end)
+        else:
+            merged.append((current_start, current_end))
+            current_start, current_end = next_start, next_end
+
+    merged.append((current_start, current_end))
+    return merged
+
+
+def convert_font(
+    text: str,
+    replacements: dict[str, str],
+    singular_keywords: list[str],
+    escape_short: bool = True,
+    escape_keywords: bool = True,
+) -> str:
+    markup_positions = get_markup_positions(
+        text, singular_keywords, escape_short, escape_keywords
+    )
+
+    result = ""
+    for i, char in enumerate(text):
+        if is_in_range(i, markup_positions) or char not in replacements:
+            result += char
+        else:
+            result += replacements[char]
+
+    return result
+
+
+class FontConverter:
+    rules: dict[str, list[FontRule]]
+    replacements_map: dict[str, dict[str, str]]
+    xml_escape: XmlEscape
+    updated: set[tuple[str, str]]
+
+    def __init__(
+        self,
+        rules: dict[str, list[FontRule]],
+        replacements_map: dict[str, dict[str, str]],
+        xml_escape: XmlEscape,
+    ):
+        self.rules = rules
+        self.replacements_map = replacements_map
+        self.xml_escape = xml_escape
+        self.updated = set()
+
+    def process(self, data: collections.OrderedDict, file: Path) -> None:
+        font_macro_regex = re.compile(r"^\[font=(?P<font>[^\]]+)\]")
+        file_path = file.absolute().as_posix()
+
+        for match in parse("$..*").find(data):
+            if not isinstance(match.value, str):
+                continue
+
+            re_match = font_macro_regex.match(match.value)
+            if re_match is None:
+                continue
+
+            font = re_match.group("font")
+            if font not in self.replacements_map:
+                logger.warning(f"Font {font} not found in replacements map!")
+                continue
+
+            updated = convert_font(
+                match.value[re_match.end() :].lstrip(),
+                self.replacements_map[font],
+                self.xml_escape.singular_keywords,
+            )
+
+            match.full_path.update(data, updated)
+            self.updated.add((file_path, str(match.full_path)))
+
+        for file_pattern, rules in self.rules.items():
+            if not fnmatch.fnmatch(file.as_posix(), file_pattern):
+                continue
+
+            for rule in rules:
+                if rule.font not in self.replacements_map:
+                    logger.warning(f"Font {rule.font} not found in replacements map!")
+                    continue
+
+                for match in parse(rule.path).find(data):
+                    if not isinstance(match.value, str):
+                        continue
+
+                    current_location = (file_path, str(match.full_path))
+                    if current_location in self.updated:
+                        continue
+
+                    updated = convert_font(
+                        match.value,
+                        self.replacements_map[rule.font],
+                        self.xml_escape.singular_keywords,
+                    )
+
+                    match.full_path.update(data, updated)
+                    self.updated.add(current_location)
+
+
 def escape_links(text: str) -> str:
     escape_keyword = "[TabExplain]"
 
     return " ".join(
-        word + escape_keyword if not word.endswith(escape_keyword) and word.strip() else word
+        word + escape_keyword
+        if not word.endswith(escape_keyword) and word.strip()
+        else word
         for word in text.split(" ")
     )
 
 
 def replace_shorthands(
-    text: str, 
-    keyword_colors: dict[str, str], 
+    text: str,
+    keyword_colors: dict[str, str],
     keyword_regex: re.Pattern,
 ) -> str:
     def make_replacement(match: re.Match) -> str:
@@ -186,113 +339,6 @@ def convert_keywords(
             convert_keywords(value, keyword_colors, keyword_regex)
         elif isinstance(value, str):
             data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
-
-
-def is_in_range(pos: int, ranges: list[tuple[int, int]]) -> bool:
-    if not ranges:
-        return False
-
-    index = bisect.bisect_left(ranges, (pos + 1,)) - 1
-    if index >= 0 and ranges[index][0] <= pos <= ranges[index][1]:
-        return True
-
-    return False
-
-
-def get_markup_positions(
-    text: str,
-    singular_keywords: list[str],
-    escape_short: bool = True,
-    escape_keywords: bool = True,
-) -> list[tuple[int, int]]:
-    if not escape_keywords:
-        return []
-
-    keyword_regex = re.compile(r"<(?P<keyword_id>[A-z]+)[^>]*>")
-    keyword_short = re.compile(r"\[(?P<keyword_id>[A-z]+)\]")
-    format_placeholder = re.compile(r"\{\d*\}")
-
-    to_escape = []
-
-    for match in keyword_regex.finditer(text):
-        keyword_id = match.group("keyword_id")
-        if keyword_id.lower() in singular_keywords:
-            to_escape.append((match.start(), match.end() - 1))
-            continue
-
-        close_tag = re.compile(rf"</{re.escape(keyword_id)}\s*>")
-        if close_tags := list(close_tag.finditer(text, match.end())):
-            to_escape.append((match.start(), match.end() - 1))
-            to_escape.extend((tag.start(), tag.end() - 1) for tag in close_tags)
-
-    if escape_short:
-        for match in keyword_short.finditer(text):
-            to_escape.append((match.start(), match.end() - 1))
-
-    for match in format_placeholder.finditer(text):
-        to_escape.append((match.start(), match.end() - 1))
-
-    if not to_escape:
-        return []
-
-    to_escape.sort(key=lambda x: x[0])
-
-    merged = []
-    current_start, current_end = to_escape[0]
-
-    for next_start, next_end in to_escape[1:]:
-        if next_start <= current_end + 1:
-            current_end = max(current_end, next_end)
-        else:
-            merged.append((current_start, current_end))
-            current_start, current_end = next_start, next_end
-
-    merged.append((current_start, current_end))
-    return merged
-
-
-def apply_font_rule(
-    data: collections.OrderedDict,
-    rule: FontRule,
-    replacements: dict[str, str],
-    singular_keywords: list[str],
-) -> None:
-    def do_update(value: typing.Any, *_) -> str:
-        if not isinstance(value, str):
-            return value
-
-        markup_positions = get_markup_positions(
-            value, singular_keywords, rule.escape_short_keywords, rule.escape_keywords
-        )
-
-        result = ""
-        for i, char in enumerate(value):
-            if is_in_range(i, markup_positions) or char not in replacements:
-                result += char
-            else:
-                result += replacements[char]
-        return result
-
-    parse(rule.path).update(data, do_update)
-
-
-def apply_font_rules(
-    data: collections.OrderedDict,
-    rules: list[FontRule],
-    replacements_map: dict[str, dict[str, str]],
-    xml_escape: XmlEscape,
-) -> None:
-    for rule in rules:
-        if rule.font not in replacements_map:
-            logger.warning(f"Font {rule.font} not found in replacements map!")
-            continue
-
-        apply_font_rule(
-            data,
-            rule,
-            replacements_map[rule.font],
-            xml_escape.singular_keywords,
-        )
 
 
 def merge_by_id(
@@ -379,8 +425,14 @@ def main():
         asset_path = Path(config.font.font_path)
         font_path = dist_path / "Font" / asset_path.name
         font_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
         download_font(config.font, font_path)
+
+    font_converter = FontConverter(
+        config.font_rules,
+        replacements_map,
+        config.xml_escape,
+    )
 
     localization_path = Path("./localize")
     for file in reference_path.glob("**/*.json"):
@@ -415,7 +467,7 @@ def main():
                 continue
 
             # no_link = any(
-            #     fnmatch.fnmatch(relative_path.as_posix(), pattern) 
+            #     fnmatch.fnmatch(relative_path.as_posix(), pattern)
             #     for pattern in config.keyword_shorthands.no_link
             # )
 
@@ -426,17 +478,6 @@ def main():
             )
 
             break
-
-        for file_pattern, rules in config.font_rules.items():
-            if not fnmatch.fnmatch(relative_path.as_posix(), file_pattern):
-                continue
-
-            apply_font_rules(
-                localize,
-                rules,
-                replacements_map,
-                config.xml_escape,
-            )
 
         data_reference = reference["dataList"]
         data_localize = localize["dataList"]
@@ -455,6 +496,8 @@ def main():
             **copy.deepcopy(reference),
             "dataList": result,
         }
+
+        font_converter.process(result, relative_path)
 
         with open(dist_file, "w", encoding="utf-8-sig") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)

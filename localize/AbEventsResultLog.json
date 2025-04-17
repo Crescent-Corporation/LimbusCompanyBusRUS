@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "800101_whitesnow_success_1_1",
-      "content": "<color=#ebcaa2>Эффект [{0}]</color> <color=#e30000>прекратил своё действие</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Эффект 「{0}」</color> <color=#e30000>прекратил своё действие</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800101_whitesnow_failure_1_1",
@@ -10,11 +10,11 @@
     },
     {
       "id": "800105_whitesnow_success_1_1",
-      "content": "<color=#ebcaa2>[{0}]</color> <color=#f8c200>повреждён!</color>"
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#f8c200>повреждён!</color>"
     },
     {
       "id": "800105_whitesnow_success_1_2",
-      "content": "<color=#ebcaa2>[{0}] оглушено!</color>"
+      "content": "<color=#ebcaa2>「{0}」оглушено!</color>"
     },
     {
       "id": "800105_whitesnow_failure_1_1",
@@ -38,67 +38,67 @@
     },
     {
       "id": "800201_aztec_circle_1_1",
-      "content": "<color=#ebcaa2>Все части аномалии [{0}] получают</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все части аномалии 「{0}」получают</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "800202_aztec_circle_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800202_aztec_circle_success_1_2",
-      "content": "<color=#ebcaa2>Все части аномалии [{0}] получают</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все части аномалии 「{0}」получают</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "800202_aztec_circle_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800202_aztec_circle_failure_1_2",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800202_aztec_circle_failure_1_3",
-      "content": "<color=#ebcaa2>Все части аномалии [{0}] получают</color> %{2} [{1}], {4} [{3}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все части аномалии 「{0}」получают</color> %{2} [{1}], {4} [{3}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "800203_aztec_circle_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800203_aztec_circle_1_2",
-      "content": "<color=#ebcaa2>Эффект [{1}] аномалии [{0}] </color> <color=#e30000>прекратил своё действие</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Эффект [{1}] аномалии 「{0}」</color> <color=#e30000>прекратил своё действие</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_success_1_2",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000> {1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000> {1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_success_1_3",
-      "content": "<color=#ebcaa2>Эффект [{1}] аномалии [{0}]</color> <color=#e30000>прекратил своё действие</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Эффект [{1}] аномалии 「{0}」</color> <color=#e30000>прекратил своё действие</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_failure_1_2",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_failure_1_3",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_failure_1_4",
-      "content": "<color=#ebcaa2>Все грешники получают</color> %{1} [{0}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все грешники получают</color> %{1} 「{0}」/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "800206_aztec_circle_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800206_aztec_circle_success_1_2",
@@ -110,7 +110,7 @@
     },
     {
       "id": "800206_aztec_circle_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800206_aztec_circle_failure_1_2",
@@ -118,7 +118,7 @@
     },
     {
       "id": "800206_aztec_circle_failure_1_3",
-      "content": "<color=#ebcaa2>Все части аномалии [{0}] получают</color> %{2} [{1}], {4} [{3}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все части аномалии 「{0}」получают</color> %{2} [{1}], {4} [{3}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "801201_reinforcedHuman_1_1",
@@ -150,11 +150,11 @@
     },
     {
       "id": "801502_pinkshoe_success_1_1",
-      "content": "<color=#ebcaa2>На оставшуюся битву противники получают</color> %{1} [{0}] и {3} [{2}]/% <color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>На оставшуюся битву противники получают</color> %{1} 「{0}」и {3} [{2}]/% <color=#ebcaa2>.</color>"
     },
     {
       "id": "801502_pinkshoe_success_1_2",
-      "content": "<color=#ebcaa2>Все противники больше не могут почувствовать [{0}].</color>"
+      "content": "<color=#ebcaa2>Все противники больше не могут почувствовать 「{0}」.</color>"
     },
     {
       "id": "801502_pinkshoe_failure_1_1",
@@ -162,11 +162,11 @@
     },
     {
       "id": "801502_pinkshoe_failure_1_2",
-      "content": "<color=#ebcaa2>Все грешники получают</color> %{1} [{0}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все грешники получают</color> %{1} 「{0}」/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "801502_pinkshoe_failure_1_3",
-      "content": "<color=#ebcaa2>В противниках пробуждается %[{0}]/%.</color>"
+      "content": "<color=#ebcaa2>В противниках пробуждается %「{0}」/%.</color>"
     },
     {
       "id": "102001_action_4_1",
@@ -190,11 +190,11 @@
     },
     {
       "id": "1020201_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] восстанавливает</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」восстанавливает</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "1020201_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "1020203_success_1_1",
@@ -206,7 +206,7 @@
     },
     {
       "id": "1020203_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "acquire_ego_gift",
@@ -222,23 +222,23 @@
     },
     {
       "id": "chracter_mp_decrease",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "chracter_mp_increase",
-      "content": "<color=#ebcaa2>[{0}] восстанавливает</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」восстанавливает</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "chracter_hp_increase",
-      "content": "<color=#ebcaa2>[{0}] восстанавливает</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」восстанавливает</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "chracter_hp_decrease",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "chracter_hp_mp_decrease",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#e30000>{1} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "all_ally_hp_decrease",
@@ -270,7 +270,7 @@
     },
     {
       "id": "character_apply_buff_during_next_n_battle",
-      "content": "<color=#ebcaa2>[{0}] получает</color> %{3} {2}/%<color=#ebcaa2>на следующие {1} битвы.</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{3} {2}/%<color=#ebcaa2>на следующие {1} битвы.</color>"
     },
     {
       "id": "battle_occurrence",
@@ -290,11 +290,11 @@
     },
     {
       "id": "803001_cromer_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] оглушена!</color>"
+      "content": "<color=#ebcaa2>「{0}」оглушена!</color>"
     },
     {
       "id": "803001_cromer_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "all_ally_mp_increase",
@@ -334,67 +334,191 @@
     },
     {
       "id": "852701_statue_success_1_1",
-      "content": "Аномалия <color=#ebcaa2>[{0}] оглушена!</color>"
+      "content": "Аномалия <color=#ebcaa2>「{0}」оглушена!</color>"
     },
     {
       "id": "852701_statue_failure_1_1",
-      "content": "<color=#ebcaa2>Аномалия [{0}] избавляется от кармы.</color>"
+      "content": "<color=#ebcaa2>Аномалия 「{0}」избавляется от кармы.</color>"
     },
     {
       "id": "852701_statue_failure_1_2",
-      "content": "Карма переносится к грешникам и распределяется случайно."
+      "content": "Карма случайным образом настигает каждого грешника."
     },
     {
       "id": "852701_statue_failure_1_3",
-      "content": "<color=#ebcaa2>[{0}] в оглушении.</color>"
+      "content": "<color=#ebcaa2>「{0}」в оглушении.</color>"
     },
     {
       "id": "851901_kqe_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] тратит все</color> %[{0}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」тратит все</color> %「{0}」/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "851901_kqe_success_1_2",
-      "content": "<color=#ebcaa2>[{0}] оглушён!</color>"
+      "content": "<color=#ebcaa2>「{0}」оглушён!</color>"
     },
     {
       "id": "851901_kqe_success_1_3",
-      "content": "<color=#ebcaa2>[{0}] получает</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "851901_kqe_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] получает</color> %{2} [{1}], {4} [{3}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{2} [{1}], {4} [{3}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "851901_kqe_failure_1_2",
-      "content": "<color=#ebcaa2>[{0}] получает</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "851001_cryingtoad_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] оглушена!</color>"
+      "content": "<color=#ebcaa2>「{0}」оглушена!</color>"
     },
     {
       "id": "851001_cryingtoad_success_1_2",
-      "content": "<color=#ebcaa2>[{0}] восстанавливает</color> <color=#80c9ff>{1} СД</color>"
+      "content": "<color=#ebcaa2>「{0}」восстанавливает</color> <color=#80c9ff>{1} СД</color>"
     },
     {
       "id": "851001_cryingtoad_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] теряет</color> <color=#fe4b48>{1} СД</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#fe4b48>{1} СД</color>"
     },
     {
       "id": "803101_waterFish_success_1_1",
-      "content": "<color=#ebcaa2>Тело [{0}] теряет</color> <color=#e30000>{1} ОЗ</color>"
+      "content": "<color=#ebcaa2>Тело 「{0}」теряет</color> <color=#e30000>{1} ОЗ</color>"
     },
     {
       "id": "803101_waterFish_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] использует атаку</color> <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」использует атаку</color> <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "803201_lightningBeast_success_1_1",
-      "content": "<color=#ebcaa2>[{0}] получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "803201_lightningBeast_failure_1_1",
-      "content": "<color=#ebcaa2>[{0}] использует</color> атаку <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」использует</color> атаку <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804501_electriccentipede_success_1_1",
+      "content": "<color=#ebcaa2>「{0}」теряет</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+    },
+    {
+      "id": "804501_electriccentipede_success_1_2",
+      "content": "<color=#ebcaa2>Все части аномалии 「{0}」получают</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+    },
+    {
+      "id": "804501_electriccentipede_failure_1_1",
+      "content": "<color=#ebcaa2>+ </color>%{2} [{1}]/%<color=#ebcaa2> на счётчике аномалии 「{0}」.</color>"
+    },
+    {
+      "id": "804501_electriccentipede_failure_1_2",
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{2} [{1}]/%<color=#ebcaa2>.</color>"
+    },
+    {
+      "id": "804801_gentlefairy_success_1_1",
+      "content": "<color=#ebcaa2>「{0}」восстанавливает</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804801_gentlefairy_success_1_2",
+      "content": "<color=#ebcaa2>「{0}」получает </color> %{2} [{1}], {4} [{3}]  и {6} [{5}]/%<color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804801_gentlefairy_failure_1_1",
+      "content": "<color=#ebcaa2>「{0}」восстанавливает</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804801_gentlefairy_failure_1_2",
+      "content": "<color=#ebcaa2>「{0}」получает </color> %{2} [{1}], {4} [{3}]  и {6} [{5}]/%<color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804601_umbrellafox_success_1_1",
+      "content": "<color=#ebcaa2>Каждый 「{0}」</color> <color=#00ff9c>получает {1} урона</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804601_umbrellafox_success_1_2",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#00ff9c>теряет {1} Силы духа.</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804601_umbrellafox_failure_1_1",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#00ff9c>теряет {1} Силы духа</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "804701_nobodygonnacry_success_1_1",
+      "content": "<color=#ebcaa2>Аномалия 「Чтобы никто не плакал」</color> получает 5 Переклеенных оберега проклятия<color=#ebcaa2>.</color>"
+    },
+    {
+      "id": "804701_nobodygonnacry_success_1_2",
+      "content": "「{0}」получает <color=#00ff9c>{2} {1} </color> на следующий ход."
+    },
+    {
+      "id": "804701_nobodygonnacry_failure_1_1",
+      "content": "<color=#ebcaa2>「{0}」</color>  теряет каждый <color=#ebcaa2>{1} на себе .</color>"
+    },
+    {
+      "id": "805002_egoawakendongrang_success_1_1",
+      "content": "<color=#ebcaa2>「{0}」 получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805002_egoawakendongrang_success_1_2",
+      "content": "<color=#ebcaa2>「{0}」 получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805002_egoawakendongrang_failure_1_1",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#e30000>теряет {1} здоровья</color> и <color=#fe4b48>{2} силы духа</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805002_egoawakendongrang_failure_1_2",
+      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#e30000>{1} [{0}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805004_egoawakendongrang_success_2_1",
+      "content": "<color=#ebcaa2>「{0}」 получает</color> <color=#e30000>{2} [{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805004_egoawakendongrang_success_2_2",
+      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#e30000> {1} [{0}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805004_egoawakendongrang_success_2_3",
+      "content": "<color=#ebcaa2>「{0}」 получает</color>  {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805004_egoawakendongrang_failure_2_1",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#e30000>теряет {1} здоровья</color> и <color=#fe4b48>{2} силы духа</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805004_egoawakendongrang_failure_2_2",
+      "content": "<color=#ebcaa2>「{0}」 получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805006_egoawakendongrang_success_3_1",
+      "content": "Мы пресекли Донрана."
+    },
+    {
+      "id": "805006_egoawakendongrang_failure_3_1",
+      "content": "Мы пресекли Донрана."
+    },
+    {
+      "id": "805801_success_1_1",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#e30000>теряет {1} здоровья</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805801_failure_1_1",
+      "content": "<color=#ebcaa2>「{0}」 получает</color>  {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805801_failure_1_2",
+      "content": "<color=#ebcaa2>「{0}」 получает</color>  {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805901_success_1_1",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#e30000>теряет {1} здоровья</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805901_success_1_2",
+      "content": "<color=#ebcaa2>「{0}」получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "805901_failure_1_1",
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#e30000>теряет {1} здоровья</color><color=#ebcaa2>!</color>"
     }
   ]
 }

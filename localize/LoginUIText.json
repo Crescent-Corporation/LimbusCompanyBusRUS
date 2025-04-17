@@ -150,11 +150,11 @@
     },
     {
       "id": "serverstate_verify_ban_startdate",
-      "content": "Дата"
+      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Дата</font>"
     },
     {
       "id": "serverstate_verify_ban_reason",
-      "content": "Причина"
+      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Причина</font>"
     },
     {
       "id": "serverstate_verify_ban_reason_refund",
@@ -217,7 +217,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_1_text",
-      "content": "Оказался я в вашем офисе, как бы чуднó ни было, по надобности оповестить вас о заполнении запасов Энкефалина… Вот и всё."
+      "content": "Оказался я в вашем офисе, как бы чудно́ ни было, по надобности оповестить вас о заполнении запасов Энкефалина… Вот и всё."
     },
     {
       "id": "push_notification_message_full_stamina_2_title",

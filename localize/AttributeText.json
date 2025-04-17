@@ -2,39 +2,39 @@
   "dataList": [
     {
       "id": "CRIMSON",
-      "name": "<nobr>Гнев</nobr>"
+      "name": "[font=mikodacs]<nobr>Гнев</nobr>"
     },
     {
       "id": "SCARLET",
-      "name": "<nobr>Похоть</nobr>"
+      "name": "[font=mikodacs]<nobr>Похоть</nobr>"
     },
     {
       "id": "AMBER",
-      "name": "<nobr>Леность</nobr>"
+      "name": "[font=mikodacs]<nobr>Леность</nobr>"
     },
     {
       "id": "SHAMROCK",
-      "name": "<nobr>Чревоугодие</nobr>"
+      "name": "[font=mikodacs]<nobr>Чревоугодие</nobr>"
     },
     {
       "id": "AZURE",
-      "name": "<nobr>Уныние</nobr>"
+      "name": "[font=mikodacs]<nobr>Уныние</nobr>"
     },
     {
       "id": "INDIGO",
-      "name": "<nobr>Гордыня</nobr>"
+      "name": "[font=mikodacs]<nobr>Гордыня</nobr>"
     },
     {
       "id": "VIOLET",
-      "name": "<nobr>Зависть</nobr>"
+      "name": "[font=mikodacs]<nobr>Зависть</nobr>"
     },
     {
       "id": "WHITE",
-      "name": "<nobr>Безумие</nobr>"
+      "name": "[font=mikodacs]<nobr>Безумие</nobr>"
     },
     {
       "id": "BLACK",
-      "name": "<nobr>Горечь</nobr>"
+      "name": "[font=mikodacs]<nobr>Горечь</nobr>"
     }
   ]
 }

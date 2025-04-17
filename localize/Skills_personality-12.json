@@ -444,7 +444,7 @@
         {
           "level": 1,
           "name": "Облачный разрез",
-          "desc": "[WinDuel] Наносит 1 Кровотечение",
+          "desc": "[WinDuel] Наносит 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -458,7 +458,7 @@
         {
           "level": 2,
           "name": "Облачный разрез",
-          "desc": "<style=\"highlight\">[WhenUse] Сила столкновения +1 против целей с 7 и более [Laceration:*Кровотечения*]</style>\n[WinDuel] Наносит 1 Кровотечение",
+          "desc": "<style=\"highlight\">[WhenUse] Сила столкновения +1 против целей с 7 и более [Laceration:*Кровотечения*]</style>\n[WinDuel] Наносит 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -472,7 +472,7 @@
         {
           "level": 3,
           "name": "Облачный разрез",
-          "desc": "[WhenUse_Force] <color=#EBCAA2>Сила столкновения +1 против целей с 7 и более [Laceration:*Кровотечения*]</color>\n[WinDuel] Наносит 1 Кровотечение",
+          "desc": "[WhenUse_Force] <color=#EBCAA2>Сила столкновения +1 против целей с 7 и более [Laceration:*Кровотечения*]</color>\n[WinDuel] Наносит 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -486,7 +486,7 @@
         {
           "level": 4,
           "name": "Облачный разрез",
-          "desc": "[WhenUse] Сила столкновения +<style=\"highlight\">2</style> против целей с 7 и более [Laceration:*Кровотечения*]\n[WinDuel] Наносит 1 Кровотечение",
+          "desc": "[WhenUse] Сила столкновения +<style=\"highlight\">2</style> против целей с 7 и более [Laceration:*Кровотечения*]\n[WinDuel] Наносит 1 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -800,21 +800,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
               }
             ]
           },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },
@@ -835,21 +835,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
               }
             ]
           },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },

@@ -70,7 +70,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                    "desc": "[OnSucceedAttack] Наносит [Laceration], равное [Laceration:*Кровотечению*] на цели"
                                 }
                             ]
                         }
@@ -174,7 +174,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                    "desc": "[OnSucceedAttack] Наносит [Laceration], равное [Laceration:*Кровотечению*] на цели"
                                 }
                             ]
                         }
@@ -278,7 +278,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                    "desc": "[OnSucceedAttack] Наносит [Laceration], равное [Laceration:*Кровотечению*] на цели"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:*Кровотечения*], снова подкидывает монету (Один раз)"
@@ -416,7 +416,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит Кровотечение, равное [Laceration:*Кровотечению*] на цели"
+                                    "desc": "[OnSucceedAttack] Наносит [Laceration], равное [Laceration:*Кровотечению*] на цели"
                                 },
                               {
                                 "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration:*Кровотечения*], снова подкидывает монету (Один раз)"

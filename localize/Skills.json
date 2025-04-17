@@ -42,7 +42,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
                 }
               ]
             }
@@ -109,7 +109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание; Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]; Повышает счётчик [Sinking:*Утопания*] на 1"
                 }
               ]
             }
@@ -169,7 +169,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },
@@ -1083,14 +1083,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -2051,14 +2051,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -2072,14 +2072,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -2093,7 +2093,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -2126,7 +2126,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -2150,7 +2150,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -2174,7 +2174,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -2544,7 +2544,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
                 }
               ]
             },
@@ -2565,7 +2565,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },
@@ -2721,7 +2721,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -2743,7 +2743,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -2772,7 +2772,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -3337,21 +3337,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -3368,21 +3368,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -3576,14 +3576,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
                 }
               ]
             }
@@ -3597,7 +3597,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:*Заряда*] на 2"
@@ -3607,7 +3607,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:*Заряда*] на 2"
@@ -3624,7 +3624,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
@@ -3634,7 +3634,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
@@ -3703,7 +3703,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 40% от нанесённого урона"
@@ -3713,7 +3713,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 30% от нанесённого урона"
@@ -3723,7 +3723,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 20% от нанесённого урона"
@@ -3733,7 +3733,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 10% от нанесённого урона"
@@ -3750,7 +3750,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 40% от нанесённого урона"
@@ -3760,7 +3760,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 30% от нанесённого урона"
@@ -3770,7 +3770,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 20% от нанесённого урона"
@@ -3780,7 +3780,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает грань оглушения на 10% от нанесённого урона"
@@ -4376,21 +4376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -4479,7 +4479,7 @@
                   "desc": "[OnSucceedAttackHead] Получает 1 Дыхание"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -5368,14 +5368,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 }
               ]
             }
@@ -6103,14 +6103,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -6124,14 +6124,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -6145,20 +6145,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -6197,14 +6197,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -6228,14 +6228,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -6264,21 +6264,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -6299,21 +6299,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -6777,14 +6777,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -6798,14 +6798,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -6819,7 +6819,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели Гвозди, наносит 1 [NailPersonality:*Гвоздь*]"
@@ -6829,7 +6829,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели Гвозди, наносит 1 [NailPersonality:*Гвоздь*]"
@@ -6902,7 +6902,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -6925,7 +6925,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -6985,7 +6985,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -7182,14 +7182,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackTail] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -7206,14 +7206,14 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 [NailPersonality:*Гвоздь*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackTail] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -7230,14 +7230,14 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 [NailPersonality:*Гвоздь*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackTail] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:*Гвоздь*]"
@@ -7553,7 +7553,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -7568,7 +7568,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -7587,7 +7587,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь; если на цели уже был Огонь, наносит ещё 1"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]; если на цели уже был Огонь, наносит ещё 1"
                 }
               ]
             },
@@ -7608,7 +7608,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь; если на цели уже был Огонь, наносит ещё 1"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]; если на цели уже был Огонь, наносит ещё 1"
                 }
               ]
             },
@@ -7629,7 +7629,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь; если на цели уже был Огонь, наносит ещё 1"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]; если на цели уже был Огонь, наносит ещё 1"
                 }
               ]
             },
@@ -7655,7 +7655,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь; если на цели уже был Огонь, наносит +1 счётчик [Combustion:*Огня*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]; если на цели уже был Огонь, наносит +1 счётчик [Combustion:*Огня*]"
                 }
               ]
             },
@@ -7679,7 +7679,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь; если на цели уже был Огонь, наносит +1 счётчик [Combustion:*Огня*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]; если на цели уже был Огонь, наносит +1 счётчик [Combustion:*Огня*]"
                 }
               ]
             },
@@ -7796,7 +7796,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -7831,7 +7831,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели Кровотечение или Паралич, наносит 3 [TakeHpHealReduce:*Понижения восстановления ОЗ*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели Кровотечение или Паралич, наносит 3 [TakeHpHealReduce:*Ослабления лечения здоровья*] на следующий ход"
                 }
               ]
             }
@@ -7859,7 +7859,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели Кровотечение или Паралич, наносит 4 [TakeHpHealReduce:*Понижения восстановления ОЗ*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели Кровотечение или Паралич, наносит 4 [TakeHpHealReduce:*Ослабления лечения здоровья*] на следующий ход"
                 }
               ]
             }
@@ -7906,7 +7906,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Св. ин. в поле зрения",
+          "name": "СвИн в поле зрения",
           "desc": "[OnSucceedEvade] Получает 1 [Agility:*Спешку*] на следующий ход",
           "coinlist": [
             {}
@@ -7932,7 +7932,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -7953,7 +7953,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -7974,7 +7974,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -8040,7 +8040,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -8075,7 +8075,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -8185,14 +8185,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackTail] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackTail] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -8217,7 +8217,7 @@
                   "desc": "[OnSucceedAttackTail] Наносит 2 [Combustion:*Огня*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -8227,7 +8227,7 @@
                   "desc": "[OnSucceedAttackTail] Наносит 2 [Combustion:*Огня*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -9184,7 +9184,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Утопания*] на 1"
@@ -9647,7 +9647,7 @@
         {
           "level": 1,
           "name": "Рассеивающийся аромат",
-          "desc": "[OnSucceedEvade] Наносит 1 Утопание",
+          "desc": "[OnSucceedEvade] Наносит 1 [Sinking]",
           "coinlist": [
             {}
           ]
@@ -10219,14 +10219,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -10240,14 +10240,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -10261,14 +10261,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -10287,14 +10287,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -10315,14 +10315,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -10343,14 +10343,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -10376,14 +10376,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
@@ -10411,14 +10411,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             },

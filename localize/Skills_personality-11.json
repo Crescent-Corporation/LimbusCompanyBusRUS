@@ -458,7 +458,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Огонь пропорционально [DarkFlame:*Тёмному пламени*] на цели"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально [DarkFlame:*Тёмному пламени*] на цели"
                 }
               ]
             }
@@ -479,7 +479,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Огонь пропорционально [DarkFlame:*Тёмному пламени*] на цели"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально [DarkFlame:*Тёмному пламени*] на цели"
                 }
               ]
             }
@@ -500,7 +500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Огонь пропорционально [DarkFlame:*Тёмному пламени*] на цели"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально [DarkFlame:*Тёмному пламени*] на цели"
                 }
               ]
             }
@@ -526,7 +526,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит Огонь пропорционально [DarkFlame:*Тёмному пламени*] на цели"
+                  "desc": "[OnSucceedAttackHead] Наносит [Combustion] пропорционально [DarkFlame:*Тёмному пламени*] на цели"
                 }
               ]
             }
@@ -547,7 +547,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Огонь пропорционально [DarkFlame:*Тёмному пламени*] на цели"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально [DarkFlame:*Тёмному пламени*] на цели"
                 }
               ]
             }
@@ -568,7 +568,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Огонь пропорционально [DarkFlame:*Тёмному пламени*] на цели"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально [DarkFlame:*Тёмному пламени*] на цели"
                 }
               ]
             }
@@ -803,7 +803,7 @@
         {
           "level": 1,
           "name": "Как бесцеремонно!..",
-          "desc": "[OnSucceedEvade] Наносит 1 Утопание (До 3-х раз за ход)",
+          "desc": "[OnSucceedEvade] Наносит 1 [Sinking] (До 3-х раз за ход)",
           "coinlist": [
             {}
           ]
@@ -811,7 +811,7 @@
         {
           "level": 4,
           "name": "Как бесцеремонно!..",
-          "desc": "[OnSucceedEvade] Наносит 1 Утопание (До 6-и раз за ход)",
+          "desc": "[OnSucceedEvade] Наносит 1 [Sinking] (До 6-и раз за ход)",
           "coinlist": [
             {}
           ]
@@ -1549,6 +1549,264 @@
             ]
           }
         ]
+      },
+  
+      {
+        "id": 1111201,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Молниеносная поступь",
+            "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Burst:*Разрывами*]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "name": "Молниеносная поступь",
+            "desc": "[WhenUse] Сила монет +1 против целей с <style=\"highlight\">4</style> и более [Burst:*Разрывами*]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  },
+                  {
+                    "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 12 и выше Отис вновь подкидывает эту монету (Единожды за навык)</style>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "name": "Молниеносная поступь",
+            "desc": "<style=\"highlight\">Сила монет +1, если Отис быстрее цели на 3 и более единиц</style>\n[WhenUse] Сила монет +1 против целей с 4 и более [Burst:*Разрывами*]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] При скорости <style=\"highlight\">10</style> и выше Отис вновь подкидывает эту монету (Единожды за навык)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1111202,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Заказное убийство",
+            "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Burst:*Разрывами*]",
+            "coinlist": [
+              {},
+              {
+                "coindescs": [
+                  {
+                    "desc": "+10% урона при 10 единицах скорости и выше"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "name": "Заказное убийство",
+            "desc": "[WhenUse] Сила монет +1 против целей с <style=\"highlight\">4</style> и более [Burst:*Разрывами*]\n<style=\"highlight\">[OnDirectAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "+<style=\"highlight\">20</style>% урона при 10 единицах скорости и выше"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "name": "Заказное убийство",
+            "desc": "<style=\"highlight\">Сила монет +1, если Отис быстрее цели на 3 и более единиц</style>\n[WhenUse] Сила монет +1 против целей с 4 и более [Burst:*Разрывами*]\n[OnDirectAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                  },
+                  {
+                    "desc": "<style=\"highlight\">[OnSucceedAttack] Отис получает 1 [Agility:*Спешку*] на следующий ход (Дважды за ход)</style>"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "+<style=\"highlight\">30</style>% урона при 10 урона при 10 единицах скорости и выше"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1111203,
+        "levelList": [
+          {
+            "level": 3,
+            "name": "Смерть от клинка с высеченными проклятиями",
+            "desc": "Если Отис быстрее цели, +(разница в скорости x потенциал [Burst:*Разрывов*] на цели)% урона (До 50%)\nСила монет +1, если Отис быстрее цели на 2 единицы и выше\n[WhenUse] Отис получает 3 [LegStrength:*Усиления ног*]\n[OnDirectAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] [BurstAgility:*Покушается на жертву*]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] При скорости 10 и выше Отис вновь подкидывает эту монету (Единожды за навык)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "name": "Смерть от клинка с высеченными проклятиями",
+            "desc": "Если Отис быстрее цели, +(разница в скорости x потенциал [Burst:*Разрывов*] на цели)% урона (До 50%)\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы в скорости, когда Отис быстрее цели(До 2-х)\n[WhenUse] Сила монет +1 при 15 ии более [Burst:*Разрывах*] на цели</style>\n[WhenUse] Отис получает 3 [LegStrength:*Усиления ног*]\n[OnDirectAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] [BurstAgility:*Покушается на жертву*]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] При скорости 10 и выше Отис вновь подкидывает эту монету (Единожды за навык)"
+                  },
+                  {
+                    "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] [BurstAgility:*Покушается на жертву*]</style>"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1111204,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Частичные мутации «Хэйшоу»",
+            "desc": "[DuelCounter]\n[WhenUse] Отис получает 3 [LegStrength:*Усиления ног*]\n[WhenUse] Базовая сила +1 за каждые 2 единицы в разнице скорости, когда Отис быстрее цели",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "name": "Частичные мутации «Хэйшоу»",
+            "desc": "[DuelCounter]\n[WhenUse] Отис получает 3 [LegStrength:*Усиления ног*]\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы разницы в скорости, когда Отис быстрее цели (До 2-х)</style>",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
-  ]
-}
+    ]
+  }

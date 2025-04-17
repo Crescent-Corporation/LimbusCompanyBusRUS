@@ -497,7 +497,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [TakeHpHealReduce:*Понижения восстановления ОЗ*]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [TakeHpHealReduce:*Ослабления лечения здоровья*]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)<style=\"highlight\"></style>"
@@ -607,7 +607,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [TakeHpHealReduce:*Понижения восстановления ОЗ*]</style></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [TakeHpHealReduce:*Ослабления лечения здоровья*]</style></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2<style=\"highlight\"></style>"

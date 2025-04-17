@@ -206,7 +206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 1"
@@ -224,7 +224,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 1"
@@ -242,7 +242,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] на 1"
@@ -264,14 +264,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -292,14 +292,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -320,14 +320,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -361,7 +361,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -390,7 +390,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -987,7 +987,7 @@
                       "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
                     },
                     {
-                      "desc": "[OnSucceedAttack] Наносит 2 [TakeHpHealReduce:*Понижения восстановления ОЗ*] на следующий ход"
+                      "desc": "[OnSucceedAttack] Наносит 2 [TakeHpHealReduce:*Ослабления лечения здоровья*] на следующий ход"
                     }
                   ]
                 }

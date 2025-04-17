@@ -480,7 +480,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -501,7 +501,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Снова подкидывает монету (Единожды)"
@@ -525,7 +525,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Снова подкидывает монету (До 3-х раз)"
@@ -702,14 +702,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                  "desc": "[OnSucceedAttackHead] Наносит [Sinking], равное числу [KnowledgeExplored:*Откровений*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                  "desc": "[OnSucceedAttackHead] Наносит [Sinking], равное числу [KnowledgeExplored:*Откровений*]"
                 }
               ]
             }
@@ -724,14 +724,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                  "desc": "[OnSucceedAttackHead] Наносит [Sinking], равное числу [KnowledgeExplored:*Откровений*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                  "desc": "[OnSucceedAttackHead] Наносит [Sinking], равное числу [KnowledgeExplored:*Откровений*]"
                 }
               ]
             }
@@ -746,14 +746,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                  "desc": "[OnSucceedAttack] Наносит [Sinking], равное числу [KnowledgeExplored:*Откровений*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Утопание, равное числу [KnowledgeExplored:*Откровений*]"
+                  "desc": "[OnSucceedAttack] Наносит [Sinking], равное числу [KnowledgeExplored:*Откровений*]"
                 }
               ]
             }

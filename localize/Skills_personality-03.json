@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -32,14 +32,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -53,14 +53,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
@@ -150,21 +150,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -185,21 +185,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -272,21 +272,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -307,21 +307,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -700,7 +700,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)\n<style=\"highlight\">Если союзник — член Родословной клинка, даёт 2 дополнительных [Breath:*Дыхания*]</style>"
+                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)\n<style=\"highlight\">Если союзник — член «Родословной клинка», даёт 2 дополнительных [Breath:*Дыхания*]</style>"
                 }
               ]
             }
@@ -767,7 +767,7 @@
                   "desc": "Критический урон +30%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:*Дыхания*] 2-х союзников с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта) на 2.\n<style=\"highlight\">Если союзники — члены Родословной клинка, дополнительно повышает их счётчик [Breath:*Дыхания*] на 2.</style>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:*Дыхания*] 2-х союзников с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта) на 2.\n<style=\"highlight\">Если союзники — члены «Родословной клинка», дополнительно повышает их счётчик [Breath:*Дыхания*] на 2.</style>"
                 },
                 {
                   "desc": "[EndSkill] Если цель побеждена, <style=\"highlight\">даёт себе и случайному союзнику 1 Повышение рубящего урона</style>"

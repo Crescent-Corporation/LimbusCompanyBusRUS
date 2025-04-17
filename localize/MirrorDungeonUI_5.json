@@ -526,7 +526,7 @@
     },
     {
       "id": "mirrordungeon_achievement_progress",
-      "content": "<font=\"ExcelsiorSans SDF\">Прогресс\nдостижений</font>"
+      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Прогресс\nдостижений</font>"
     },
     {
       "id": "mirrordungeon_purchase_achievement_block_by_max_level",

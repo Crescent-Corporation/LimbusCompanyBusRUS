@@ -305,14 +305,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -327,14 +327,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
@@ -356,7 +356,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
                 }
               ]
             }
