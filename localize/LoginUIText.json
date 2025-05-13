@@ -150,11 +150,11 @@
     },
     {
       "id": "serverstate_verify_ban_startdate",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Дата</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Дата</font>"
     },
     {
       "id": "serverstate_verify_ban_reason",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Причина</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Причина</font>"
     },
     {
       "id": "serverstate_verify_ban_reason_refund",
@@ -191,7 +191,8 @@
     {
       "id": "panel_clearcatalog",
       "content": "Это полностью очистит каталог. Желаете продолжить?"
-    },{
+    },
+    {
       "id": "serverstate_error_thirdparty_api",
       "content": "Возникла ошибка при попытке связи с внешним сервером, повторите попытку позже."
     },

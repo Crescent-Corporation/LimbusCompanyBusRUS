@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "battle_battleunit_guard",
-      "content": "[font=mikodacs]Блок"
+      "content": "Блок"
     },
     {
       "id": "popup_message_ego_seat_lack",
@@ -14,31 +14,31 @@
     },
     {
       "id": "option_title",
-      "content": "[font=mikodacs]Настройки"
+      "content": "Настройки"
     },
     {
       "id": "option_btn_exit",
-      "content": "[font=mikodacs]Выйти"
+      "content": "Выйти"
     },
     {
       "id": "option_btn_statistical",
-      "content": "[font=mikodacs]Информация о битве"
+      "content": "Информация о битве"
     },
     {
       "id": "creature_destroy_notice",
-      "content": "[font=mikodacs]Часть повреждена"
+      "content": "Часть повреждена"
     },
     {
       "id": "oneside_attack",
-      "content": "[font=mikodacs]Односторонняя\nатака"
+      "content": "Односторонняя\nатака"
     },
     {
       "id": "guard",
-      "content": "[font=mikodacs]Блок"
+      "content": "Блок"
     },
     {
       "id": "power",
-      "content": "[font=mikodacs]Потенциал"
+      "content": "Потенциал"
     },
     {
       "id": "require",
@@ -90,75 +90,75 @@
     },
     {
       "id": "choice_result_success",
-      "content": "[font=mikodacs]Прохождение проверки"
+      "content": "Прохождение проверки"
     },
     {
       "id": "choice_result_fail",
-      "content": "[font=mikodacs]Провал проверки"
+      "content": "Провал проверки"
     },
     {
       "id": "choice_result_skip",
-      "content": "[font=mikodacs]Проверка пропущена"
+      "content": "Проверка пропущена"
     },
     {
       "id": "info_button_detailinfo",
-      "content": "[font=mikodacs]Детали"
+      "content": "Детали"
     },
     {
       "id": "info_button_skill",
-      "content": "[font=mikodacs]Навыки"
+      "content": "Навык"
     },
     {
       "id": "info_button_awakenskill",
-      "content": "[font=mikodacs]<size=34>Пробуждение</size>"
+      "content": "<size=34>Пробуждение</size>"
     },
     {
       "id": "info_button_erosionskill",
-      "content": "[font=mikodacs]Коррозия"
+      "content": "Коррозия"
     },
     {
       "id": "resonance",
-      "content": "[font=mikodacs]Резонанс"
+      "content": "Резонанс"
     },
     {
       "id": "perfect_resonance",
-      "content": "[font=mikodacs]Абсолют"
+      "content": "Абсолют"
     },
     {
       "id": "break",
-      "content": "[font=mikodacs]ОГЛУШЕНИЕ"
+      "content": "ОГЛУШЕНИЕ"
     },
     {
       "id": "mental_break",
-      "content": "[font=mikodacs]СРЫВ"
+      "content": "СРЫВ"
     },
     {
       "id": "low_morale",
-      "content": "[font=mikodacs]Падение духа"
+      "content": "Падение духа"
     },
     {
       "id": "panic",
-      "content": "[font=mikodacs]Паника"
+      "content": "Паника"
     },
     {
       "id": "status",
-      "content": "[font=mikodacs]Статус"
+      "content": "Статус"
     },
     {
       "id": "status_abnormal",
-      "content": "[font=mikodacs]Эффект"
+      "content": "Эффект"
     },
     {
       "id": "immunity_information",
-      "content": "[font=mikodacs]Слабости"
+      "content": "Слабости"
     },
     {
       "id": "awaken_ego_skill",
-      "content": "[font=mikodacs]Пробуждение"
+      "content": "Пробуждение"
     },
     {
       "id": "erosion_ego_skill",
-      "content": "[font=mikodacs]Коррозия"
+      "content": "Коррозия"
     },
     {
       "id": "turnplace_test_name",
@@ -166,35 +166,35 @@
     },
     {
       "id": "death",
-      "content": "[font=bebas]СМЕРТЬ"
+      "content": "СМЕРТЬ"
     },
     {
       "id": "slash",
-      "content": "[font=mikodacs]Рубящий"
+      "content": "Рубящий"
     },
     {
       "id": "penetrate",
-      "content": "[font=mikodacs]Колющий"
+      "content": "Колющий"
     },
     {
       "id": "hit",
-      "content": "[font=mikodacs]Дробящий"
+      "content": "Дробящий"
     },
     {
       "id": "action_disable",
-      "content": "[font=mikodacs]Обездвижен"
+      "content": "Обездвижен"
     },
     {
       "id": "ab_event_select_character",
-      "content": "[font=mikodacs]Выбрать грешника"
+      "content": "Выбрать грешника"
     },
     {
       "id": "ab_event_select_desc",
-      "content": "[font=mikodacs]Инфо"
+      "content": "Инфо"
     },
     {
       "id": "ab_event_rate",
-      "content": "[font=mikodacs]Шанс успеха"
+      "content": "Шанс успеха"
     },
     {
       "id": "formet_event_rate",
@@ -202,7 +202,7 @@
     },
     {
       "id": "ab_event_decision",
-      "content": "[font=mikodacs]Принять решение"
+      "content": "Принять решение"
     },
     {
       "id": "ab_event_need",
@@ -210,23 +210,23 @@
     },
     {
       "id": "ab_battle_resume",
-      "content": "[font=mikodacs]Продолжить битву"
+      "content": "Продолжить битву"
     },
     {
       "id": "info_button_choice_log",
-      "content": "[font=mikodacs]Лог выборов"
+      "content": "Лог выборов"
     },
     {
       "id": "info_button_story",
-      "content": "[font=mikodacs]История"
+      "content": "История"
     },
     {
       "id": "info_button_ego",
-      "content": "[font=mikodacs]ЭГО"
+      "content": "ЭГО"
     },
     {
       "id": "dungeon_encounter_start",
-      "content": "[font=mikodacs]Начнём"
+      "content": "Начнём"
     },
     {
       "id": "dungeon_encounter_battle",
@@ -254,23 +254,23 @@
     },
     {
       "id": "bottom_winrate",
-      "content": "[font=mikodacs]Шанс\nуспеха"
+      "content": "Шанс\nуспеха"
     },
     {
       "id": "bottom_dmg",
-      "content": "[font=mikodacs]Урон"
+      "content": "Урон"
     },
     {
       "id": "ab_event_next",
-      "content": "[font=mikodacs]Дальше"
+      "content": "Дальше"
     },
     {
       "id": "explanatory",
-      "content": "[font=mikodacs]Легенда"
+      "content": "Легенда"
     },
     {
       "id": "get_ego_gift",
-      "content": "[font=mikodacs]Получен ЭГО Дар"
+      "content": "Получен ЭГО Дар"
     },
     {
       "id": "get_ego_gift_desc",
@@ -278,19 +278,19 @@
     },
     {
       "id": "selection",
-      "content": "[font=mikodacs]Выборы"
+      "content": "Выборы"
     },
     {
       "id": "result",
-      "content": "[font=mikodacs]Результат"
+      "content": "Результат"
     },
     {
       "id": "choice_total_rate",
-      "content": "[font=mikodacs]Общий шанс на успех"
+      "content": "Общий шанс на успех"
     },
     {
       "id": "enter",
-      "content": "[font=mikodacs]Войти"
+      "content": "Войти"
     },
     {
       "id": "recommend_level",
@@ -298,15 +298,15 @@
     },
     {
       "id": "enemy_info",
-      "content": "[font=mikodacs]Информация\nо врагах"
+      "content": "Информация\nо врагах"
     },
     {
       "id": "enter_clear_requirement",
-      "content": "[font=mikodacs]Задание"
+      "content": "Задание"
     },
     {
       "id": "choice_event_resume",
-      "content": "[font=mikodacs]Продолжить"
+      "content": "Продолжить"
     },
     {
       "id": "crime_state_judgment",
@@ -318,19 +318,19 @@
     },
     {
       "id": "success_result",
-      "content": "[font=mikodacs]<size=26>Необходимо</size>"
+      "content": "<size=26>Необходимо</size>"
     },
     {
       "id": "expectation_result",
-      "content": "[font=mikodacs]Ожидается"
+      "content": "Ожидается"
     },
     {
       "id": "outcome_result",
-      "content": "[font=mikodacs]<size=30>Результат</size>"
+      "content": "<size=30>Результат</size>"
     },
     {
       "id": "choice_event_percent",
-      "content": "[font=mikodacs]Шанс"
+      "content": "Шанс"
     },
     {
       "id": "skill_expectition_value",
@@ -338,7 +338,7 @@
     },
     {
       "id": "skill_expectition_or_value",
-      "content": "Ожидаемый итог: {0} / {1}"
+      "content": "Ожидаемый итог: {0} ÷ {1}"
     },
     {
       "id": "skill_correction_value",
@@ -358,15 +358,15 @@
     },
     {
       "id": "action_choice_event_result_example_resume",
-      "content": "[font=mikodacs]Продолжить"
+      "content": "Продолжить"
     },
     {
       "id": "areaatk_attack",
-      "content": "[font=mikodacs]AoE навык"
+      "content": "AoE навык"
     },
     {
       "id": "enter_battle",
-      "content": "[font=mikodacs]В бой!"
+      "content": "В бой!"
     },
     {
       "id": "choice_event_five_percent",
@@ -378,11 +378,11 @@
     },
     {
       "id": "skillinfo_passivetitle",
-      "content": "[font=mikodacs]Пассивка"
+      "content": "Пассивка"
     },
     {
       "id": "skillinfo_coinabilitytitle",
-      "content": "[font=mikodacs]<size=38>Эффект навыка</size>"
+      "content": "<size=38>Эффект навыка</size>"
     },
     {
       "id": "dungeon_save_desc",
@@ -390,15 +390,15 @@
     },
     {
       "id": "battle_battleunit_evade",
-      "content": "[font=mikodacs]Уворот"
+      "content": "Уворот"
     },
     {
       "id": "battle_battleunit_counter",
-      "content": "[font=mikodacs]Контратака"
+      "content": "Контратака"
     },
     {
       "id": "battle_operation_defence",
-      "content": "[font=mikodacs]Защита"
+      "content": "Защита"
     },
     {
       "id": "battle_increase_mp",
@@ -410,7 +410,7 @@
     },
     {
       "id": "dungeon_encounter_type_start",
-      "content": "[font=mikodacs]Начнём"
+      "content": "Начнём"
     },
     {
       "id": "dungeon_encounter_type_battle",
@@ -438,7 +438,7 @@
     },
     {
       "id": "battle_mp",
-      "content": "[font=mikodacs]<size=32>Сила духа</size>"
+      "content": "<size=32>Сила духа</size>"
     },
     {
       "id": "abnormality_part_hp",
@@ -446,7 +446,7 @@
     },
     {
       "id": "abnormality_research_level",
-      "content": "[font=mikodacs]Уровень изучения"
+      "content": "Уровень изучения"
     },
     {
       "id": "abnormality_no_research_level",
@@ -458,7 +458,7 @@
     },
     {
       "id": "skillinfo_keyword",
-      "content": "[font=mikodacs]<size=42>Ключевые слова</size>"
+      "content": "<size=42>Ключевые слова</size>"
     },
     {
       "id": "ability_turn",
@@ -466,7 +466,7 @@
     },
     {
       "id": "ego_erosion",
-      "content": "[font=mikodacs]Коррозия ЭГО"
+      "content": "Коррозия ЭГО"
     },
     {
       "id": "continuous_turn",
@@ -474,7 +474,7 @@
     },
     {
       "id": "status_buff_list",
-      "content": "[font=mikodacs]Эффекты"
+      "content": "Эффекты"
     },
     {
       "id": "stack",
@@ -494,31 +494,31 @@
     },
     {
       "id": "Lack_Buff",
-      "content": "[font=mikodacs]{0}ов нет!"
+      "content": "{0}ов нет!"
     },
     {
       "id": "received_the_golden_bough",
-      "content": "[font=bebas]Золотая ветвь получена"
+      "content": "Золотая ветвь получена"
     },
     {
       "id": "destroyable",
-      "content": "[font=mikodacs]Можно повредить"
+      "content": "Можно повредить"
     },
     {
       "id": "resumption",
-      "content": "[font=mikodacs]Продолжить"
+      "content": "Продолжить"
     },
     {
       "id": "stage_GiveUp",
-      "content": "[font=mikodacs]Сдаюсь"
+      "content": "Сдаюсь"
     },
     {
       "id": "show_skillTool",
-      "content": "[font=mikodacs]Показать окна навыков"
+      "content": "Показать окна навыков"
     },
     {
       "id": "auto_coinToss",
-      "content": "[font=mikodacs]Автоматический\nбросок монет"
+      "content": "Автоматический\nбросок монет"
     },
     {
       "id": "babayaga_alert",
@@ -526,11 +526,11 @@
     },
     {
       "id": "battle_operation_offset",
-      "content": "[font=mikodacs]Отмена навыков"
+      "content": "Отмена навыков"
     },
     {
       "id": "oneside_defense",
-      "content": "[font=mikodacs]Односторонняя защита"
+      "content": "Односторонняя защита"
     },
     {
       "id": "cantIdentify",
@@ -542,31 +542,31 @@
     },
     {
       "id": "stock",
-      "content": "[font=mikodacs]Получено"
+      "content": "Получено"
     },
     {
       "id": "stable",
-      "content": "[font=mikodacs]Стабильное"
+      "content": "Стабильное"
     },
     {
       "id": "un_stable",
-      "content": "[font=mikodacs]Нестабильное"
+      "content": "Нестабильное"
     },
     {
       "id": "vibration_explosion",
-      "content": "[font=mikodacs]Тремор спровоцирован!"
+      "content": "Тремор спровоцирован!"
     },
     {
       "id": "sinking_surge",
-      "content": "[font=mikodacs]Утопляющий поток!"
+      "content": "Утопляющий поток!"
     },
     {
       "id": "targetSlotWeight",
-      "content": "[font=excelsior]<size=250%><font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font></size>"
+      "content": "<size=250%><font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font></size>"
     },
     {
       "id": "EGO_ErodeProbability",
-      "content": "[font=mikodacs]<size=17>Шанс коррозии</size>"
+      "content": "<size=17>Шанс коррозии</size>"
     },
     {
       "id": "EGOSelectUI_resources_lack",
@@ -574,19 +574,19 @@
     },
     {
       "id": "EGOSelectUI_DetailInfo",
-      "content": "[font=mikodacs]Детали"
+      "content": "Детали"
     },
     {
       "id": "ab_part_destroyable",
-      "content": "[font=mikodacs]Можно повредить"
+      "content": "Можно повредить"
     },
     {
       "id": "ab_part_destroyable_and_can_vanish",
-      "content": "[font=mikodacs]Можно повредить и\n<line-height=75%><color=#ffffff>отсечь</color>"
+      "content": "Можно повредить и\n<line-height=75%><color=#ffffff>отсечь</color>"
     },
     {
       "id": "ab_guidebook_view",
-      "content": "[font=mikodacs]Просмотреть\nзаписи"
+      "content": "Просмотреть\nзаписи"
     },
     {
       "id": "show_BattleAblityUI",
@@ -594,27 +594,27 @@
     },
     {
       "id": "Ahab_NotTarget_Onece",
-      "content": "[font=bebas]На самом деле, моя цель…"
+      "content": "На самом деле, моя цель…"
     },
     {
       "id": "Ahab_NotTarget_Twice",
-      "content": "[font=bebas]…Не всегда нужно смотреть лишь вперёд…"
+      "content": "…Не всегда нужно смотреть лишь вперёд…"
     },
     {
       "id": "Ahab_NotTarget_Thrice",
-      "content": "[font=bebas]Порой, чтобы жить дальше…\n…Стоит оглянуться вокруг и взглянуть на то,\nчто всегда было рядом…"
+      "content": "Порой, чтобы жить дальше…\n…Стоит оглянуться вокруг и взглянуть на то,\nчто всегда было рядом…"
     },
     {
       "id": "show_BattleUnitAblityUI",
-      "content": "[font=mikodacs]Показывать активные эффекты в фазе Битвы"
+      "content": "Показывать активные эффекты в фазе Битвы"
     },
     {
       "id": "LobotomyStartTypo_Title_1",
-      "content": "[font=mikodacs]Зелёный рассвет"
+      "content": "Зелёный рассвет"
     },
     {
       "id": "LobotomyStartTypo_Name_1",
-      "content": "[font=mikodacs]Сомнение"
+      "content": "Сомнение"
     },
     {
       "id": "LobotomyStartTypo_Desc_1",
@@ -622,15 +622,15 @@
     },
     {
       "id": "LobotomyStartTypo_KillCountTitle_1",
-      "content": "[font=mikodacs]Статус усмирения"
+      "content": "Статус усмирения"
     },
     {
       "id": "LobotomyClearTypo_Title_1",
-      "content": "[font=mikodacs]Зелёный рассвет"
+      "content": "Зелёный рассвет"
     },
     {
       "id": "LobotomyClearTypo_Name_1",
-      "content": "[font=mikodacs]Сомнение"
+      "content": "Сомнение"
     },
     {
       "id": "LobotomyClearTypo_Desc_1",
@@ -638,7 +638,7 @@
     },
     {
       "id": "LobotomyEndTypo_Title",
-      "content": "[font=mikodacs]Время усмирения вышло"
+      "content": "Время усмирения вышло"
     },
     {
       "id": "LobotomyEndTypo_Desc",
@@ -646,15 +646,15 @@
     },
     {
       "id": "abnormality_all_part",
-      "content": "[font=mikodacs]Все части"
+      "content": "Все части"
     },
     {
       "id": "applying_buff_format",
-      "content": "[font=mikodacs]Активируется {0}"
+      "content": "Активируется {0}"
     },
     {
       "id": "level_number_UNDEF",
-      "content": "[font=bebas]Не определён"
+      "content": "Не определён"
     },
     {
       "id": "level_number_HYPHEN",
@@ -666,31 +666,31 @@
     },
     {
       "id": "vibration_fusion",
-      "content": "[font=mikodacs]Произошло наложение амплитуд!"
+      "content": "Произошло наложение амплитуд!"
     },
     {
       "id": "BatonPassUIText",
-      "content": "[font=bebas]Запас"
+      "content": "Запас"
     },
     {
       "id": "perfect",
-      "content": "[font=mikodacs]Абсолют"
+      "content": "Абсолют"
     },
     {
       "id": "ab_part_destroyed",
-      "content": "[font=mikodacs]Часть повреждена!"
+      "content": "Часть повреждена!"
     },
     {
       "id": "ab_part_vanished",
-      "content": "[font=mikodacs]Часть повреждена и отсечена!"
+      "content": "Часть повреждена и отсечена!"
     },
     {
       "id": "ab_part_cannot_destroy_and_vanish",
-      "content": "[font=mikodacs]Повреждение и отсечение невозможны"
+      "content": "Повреждение и отсечение невозможны"
     },
     {
       "id": "current_hp",
-      "content": "[font=mikodacs]Текущие ОЗ"
+      "content": "Текущие ОЗ"
     },
     {
       "id": "break_section_format",
@@ -706,23 +706,23 @@
     },
     {
       "id": "battle_operation_counter",
-      "content": "[font=mikodacs]Усиленная контратака"
+      "content": "Усиленная контратака"
     },
     {
       "id": "LOBOTOMY_ORDEAL_TIME_TYPE_0",
-      "content": "[font=mikodacs]Рассвет"
+      "content": "Рассвет"
     },
     {
       "id": "LOBOTOMY_ORDEAL_TIME_TYPE_1",
-      "content": "[font=mikodacs]Полдень"
+      "content": "Полдень"
     },
     {
       "id": "LOBOTOMY_ORDEAL_TIME_TYPE_2",
-      "content": "[font=mikodacs]Сумерки"
+      "content": "Сумерки"
     },
     {
       "id": "LOBOTOMY_ORDEAL_TIME_TYPE_3",
-      "content": "[font=mikodacs]Полночь"
+      "content": "Полночь"
     },
     {
       "id": "LobotomyOrdealTypo_QliphothLevel",
@@ -730,23 +730,23 @@
     },
     {
       "id": "SinkingWhite_stack",
-      "content": "[font=mikodacs]Живущие"
+      "content": "Живущие"
     },
     {
       "id": "SinkingWhite_turn",
-      "content": "[font=mikodacs]Почившие"
+      "content": "Почившие"
     },
     {
       "id": "BulletLament_stack",
-      "content": "[font=mikodacs]Живущие (Патрон)"
+      "content": "Живущие (Патрон)"
     },
     {
       "id": "BulletLament_turn",
-      "content": "[font=mikodacs]Почившие (Патрон)"
+      "content": "Почившие (Патрон)"
     },
     {
       "id": "Retreat_Textalram",
-      "content": "[font=mikodacs]! КУРЬЕР ОТСТУПАЕТ !"      
+      "content": "! КУРЬЕР ОТСТУПАЕТ !"      
     },
     {
       "id": "Retreat_TextPassive",
@@ -754,11 +754,11 @@
     },
     {
       "id": "battle_operation_defense",
-      "content": "[font=mikodacs]Усиленный блок"
+      "content": "Усиленный блок"
     },
     {
       "id": "battle_operation_defense_TextTypo",
-      "content": "[font=mikodacs]Сила понижена!"
+      "content": "Сила понижена!"
     },
     {
       "id": "battle_StageBuffUI_Stackdesc",
@@ -771,19 +771,19 @@
     },
     {
       "id": "laceration_surge",
-      "content": "[font=mikodacs]Поток кровотечения!"
+      "content": "Поток кровотечения!"
     },
     {
       "id": "QTE_Notice",
-      "content": "[font=bebas]<smallcaps>Так понесёмся же вскачь, вместе!</smallcaps>"
+      "content": "<smallcaps>Так понесёмся же вскачь, вместе!</smallcaps>"
     },
     {
       "id": "septempeccata_classification",
-      "content": "[font=mikodacs]{0}-й ранг"
+      "content": "{0}-й ранг"
     },
     {
       "id": "run_forBattlePortraitStateText",
-      "content": "[font=bebas]В бегах"
+      "content": "В бегах"
     }
   ]
 }

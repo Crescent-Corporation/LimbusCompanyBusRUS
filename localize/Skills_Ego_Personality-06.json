@@ -465,10 +465,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хун Лу / 2) [Laceration:*Кровотечения*] между целями этого навыка (До 3)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хун Лу ÷ 2) [Laceration:*Кровотечения*] между целями этого навыка (До 3)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хун Лу / 2) [Burst:*Разрывов*] между целями этого навыка (До 3)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хун Лу ÷ 2) [Burst:*Разрывов*] между целями этого навыка (До 3)</style>"
                 }
               ]
             }

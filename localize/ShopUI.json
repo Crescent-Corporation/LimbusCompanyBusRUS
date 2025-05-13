@@ -82,7 +82,7 @@
     },
     {
       "id": "mainui_shop_limit_purchase_periodic",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\"><size=35>Остался {0}\nна прилавке</size></font>"
+      "content": "<font=\"ExcelsiorSans SDF\"><size=35>Остался {0}\nна прилавке</size></font>"
     },
     {
       "id": "mainui_shop_acquire_at_mailbox",

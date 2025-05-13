@@ -2,23 +2,23 @@
   "dataList": [
     {
       "id": "battlepass_battlepass",
-      "content": "[font=mikodacs]Боевой пропуск"
+      "content": "Боевой пропуск"
     },
     {
       "id": "battlepass_passmission",
-      "content": "[font=mikodacs]Задания"
+      "content": "Задания"
     },
     {
       "id": "battlepass_dailymission",
-      "content": "[font=mikodacs]Ежедневные"
+      "content": "Ежедневные"
     },
     {
       "id": "battlepass_weeklymission",
-      "content": "[font=mikodacs]Недельные"
+      "content": "Недельные"
     },
     {
       "id": "battlepass_seasonmission",
-      "content": "[font=mikodacs]Сезонные"
+      "content": "Сезонные"
     },
     {
       "id": "battlepass_freeandpaid",
@@ -26,11 +26,11 @@
     },
     {
       "id": "battlepass_mission_tag_normal",
-      "content": "[font=mikodacs]Обычный"
+      "content": "Обычный"
     },
     {
       "id": "battlepass_mission_tag_battle",
-      "content": "[font=mikodacs]Боевой пропуск"
+      "content": "Боевой пропуск"
     },
     {
       "id": "battlepass_remain_time",
@@ -110,7 +110,7 @@
     },
     {
       "id": "buy_battlepass_word",
-      "content": "[font=bebas]<font=\"BebasKai SDF\"><cspace=-2px>Пробить</cspace></font>"
+      "content": "<font=\"BebasKai SDF\"><cspace=-2px>Пробить</cspace></font>"
     },
     {
       "id": "battlepass_level_ex_reward",
@@ -118,15 +118,15 @@
     },
     {
       "id": "battlepass_progress",
-      "content": "[font=mikodacs]Прогресс"
+      "content": "Прогресс"
     },
     {
       "id": "battlepass_free",
-      "content": "[font=mikodacs]<size=80%>Обычный"
+      "content": "<size=80%>Обычный"
     },
     {
       "id": "battlepass_limbuspass",
-      "content": "[font=mikodacs]<size=90%>Пропуск\n«Лимбуса»"
+      "content": "<size=90%>Пропуск\n«Лимбуса»"
     },
     {
       "id": "battlepass_unable_levelup_by_level",
@@ -138,7 +138,7 @@
     },
     {
       "id": "battlepass_package_purchase",
-      "content": "[font=bebas]Пак для пропуска «Лимбуса»"
+      "content": "Пак для пропуска «Лимбуса»"
     },
     {
       "id": "battlepass_package_desc_level",
@@ -146,7 +146,7 @@
     },
     {
       "id": "battlepass_package_desc_banner",
-      "content": "[font=excelsior]+ Активация 『Пропуска «Лимбуса»』"
+      "content": "+ Активация 『Пропуска «Лимбуса»』"
     },
     {
       "id": "battlepass_package_ask_purchase",
@@ -166,7 +166,7 @@
     },
     {
       "id": "battlepass_select_product_popup_title",
-      "content": "[font=mikodacs]Выберите пропуск/пак для пропуска «Лимбуса»"
+      "content": "Выберите пропуск/пак для пропуска «Лимбуса»"
     },
     {
       "id": "only_paid_lunacy_for_battlepass_levelup_with_number",
@@ -202,11 +202,11 @@
     },
     {
       "id": "until_season_4_start",
-      "content": "[font=mikodacs]~ До обновления с 4 Сезоном"
+      "content": "~ До обновления с 4 Сезоном"
     },
     {
       "id": "until_season_5_start",
-      "content": "[font=mikodacs]До обновления с 6 Сезоном"
+      "content": "До обновления с 6 Сезоном"
     },
     {
       "id": "battlepass_ask_purchase_limbus_pass_package",
@@ -258,7 +258,7 @@
     },
     {
       "id": "battle_pass_sale_10",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Скидка 10%</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Скидка 10%</font>"
     }
   ]
 }

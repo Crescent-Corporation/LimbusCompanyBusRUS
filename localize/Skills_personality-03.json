@@ -225,14 +225,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою грань оглушения на 3"
+                  "desc": "[OnSucceedAttack] Понижает свою порог оглушения на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою грань оглушения на 3"
+                  "desc": "[OnSucceedAttack] Понижает свою порог оглушения на 3"
                 }
               ]
             }
@@ -246,14 +246,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою грань оглушения на 5"
+                  "desc": "[OnSucceedAttack] Понижает свою порог оглушения на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою грань оглушения на 5"
+                  "desc": "[OnSucceedAttack] Понижает свою порог оглушения на 5"
                 }
               ]
             }
@@ -1539,7 +1539,7 @@
         {
           "level": 1,
           "name": "Имитация искусства кристаллизации крови Санчо, 15-й стиль: Подготовка к финалу",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst]/15) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс / 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst]/15) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс ÷ 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1557,7 +1557,7 @@
         {
           "level": 4,
           "name": "Имитация искусства кристаллизации крови Санчо, 15-й стиль: Подготовка к финалу",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst] / <style=\"highlight\">10</style>) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс / 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst] ÷ <style=\"highlight\">10</style>) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс ÷ 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
           "coinlist": [
             {},
             {

@@ -2,47 +2,47 @@
   "dataList": [
     {
       "id": "Combustion",
-      "name": "[font=mikodacs]Огонь"
+      "name": "Огонь"
     },
     {
       "id": "Laceration",
-      "name": "[font=mikodacs]Кровотечение"
+      "name": "Кровотечение"
     },
     {
       "id": "Vibration",
-      "name": "[font=mikodacs]Тремор"
+      "name": "Тремор"
     },
     {
       "id": "Burst",
-      "name": "[font=mikodacs]Разрыв"
+      "name": "Разрыв"
     },
     {
       "id": "Sinking",
-      "name": "[font=mikodacs]Утопание"
+      "name": "Утопание"
     },
     {
       "id": "Breath",
-      "name": "[font=mikodacs]Дыхание"
+      "name": "Дыхание"
     },
     {
       "id": "Charge",
-      "name": "[font=mikodacs]Заряд"
+      "name": "Заряд"
     },
     {
       "id": "Random",
-      "name": "[font=mikodacs]Случайный"
+      "name": "Случайный"
     },
     {
       "id": "Slash",
-      "name": "[font=mikodacs]Рубящий"
+      "name": "Рубящий"
     },
     {
       "id": "Penetrate",
-      "name": "[font=mikodacs]Колющий"
+      "name": "Колющий"
     },
     {
       "id": "Hit",
-      "name": "[font=mikodacs]Дробящий"
+      "name": "Дробящий"
     }
   ]
 }

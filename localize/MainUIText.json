@@ -2,128 +2,128 @@
   "dataList": [
     {
       "id": "mainui_main_button0",
-      "content": "[font=mikodacs]Окно"
+      "content": "Окно"
     },
     {
       "id": "mainui_main_button1",
-      "content": "[font=mikodacs]Грешники"
+      "content": "Грешники"
     },
     {
       "id": "mainui_main_button2",
-      "content": "[font=mikodacs]Кинозал"
+      "content": "Кинозал"
     },
     {
       "id": "mainui_main_button3",
-      "content": "[font=mikodacs]Водитель",
+      "content": "Водитель",
       "_comment": "Водительское сидение"
     },
     {
       "id": "mainui_main_button4",
-      "content": "[font=mikodacs]Извлечение"
+      "content": "Извлечение"
     },
     {
       "id": "mainui_main_button5",
-      "content": "[font=mikodacs]Автомат"
+      "content": "Автомат"
     },
     {
       "id": "mainui_main_exp",
-      "content": "[font=mikodacs]Опыт"
+      "content": "Опыт"
     },
     {
       "id": "mainui_main_stamina",
-      "content": "[font=mikodacs]Выносливость"
+      "content": "Выносливость"
     },
     {
       "id": "mainui_main_enkephalin",
-      "content": "[font=mikodacs]Энкефалин"
+      "content": "Энкефалин"
     },
     {
       "id": "mainui_main_madness",
-      "content": "[font=mikodacs]Безумство"
+      "content": "Безумство"
     },
     {
       "id": "mainui_battleselection_everydungeon",
-      "content": "[font=mikodacs]Зеркальные подземелья"
+      "content": "Зеркальные подземелья"
     },
     {
       "id": "mainui_stageinfo_recommendlevel",
-      "content": "[font=mikodacs]Сложность"
+      "content": "Сложность"
     },
     {
       "id": "mainui_stageinfo_enemyinfo",
-      "content": "[font=mikodacs]<size=80%>Противники</size>"
+      "content": "<size=80%>Противники</size>"
     },
     {
       "id": "mainui_stageinfo_exclearcondition",
-      "content": "[font=mikodacs]Задания"
+      "content": "Задания"
     },
     {
       "id": "mainui_stageinfo_statinfo",
-      "content": "[font=mikodacs]Статус"
+      "content": "Статус"
     },
     {
       "id": "mainui_stageinfo_resistinfo",
-      "content": "[font=mikodacs]<size=80%>Слабости</size>"
+      "content": "<size=80%>Слабости</size>"
     },
     {
       "id": "mainui_stageinfo_enterbutton",
-      "content": "[font=mikodacs]Начнём"
+      "content": "Начнём"
     },
     {
       "id": "mainui_stageinfo_dungeonclear",
-      "content": "[font=mikodacs]Главная задача"
+      "content": "Главная задача"
     },
     {
       "id": "mainui_sinners_battleannouncer",
-      "content": "[font=mikodacs]Комментатор"
+      "content": "Комментатор"
     },
     {
       "id": "mainui_sinners_dante",
-      "content": "[font=mikodacs]Данте"
+      "content": "Данте"
     },
     {
       "id": "mainui_sinners_decklist",
-      "content": "[font=mikodacs]СПИСОК"
+      "content": "СПИСОК"
     },
     {
       "id": "mainui_sinners_deck",
-      "content": "[font=mikodacs]Выбор"
+      "content": "Выбор"
     },
     {
       "id": "mainui_sinners_passive",
-      "content": "[font=mikodacs]ПАССИВКИ"
+      "content": "ПАССИВКИ"
     },
     {
       "id": "mainui_sinners_egoresource",
-      "content": "[font=mikodacs]ГРЕХИ"
+      "content": "ГРЕХИ"
     },
     {
       "id": "mainui_sinners_participant",
-      "content": "[font=mikodacs]Выбрать участников"
+      "content": "Выбрать участников"
     },
     {
       "id": "mainui_sinners_startbattle",
-      "content": "[font=mikodacs]В битву!"
+      "content": "В битву!"
     },
     {
       "id": "mainui_common_personality",
-      "content": "[font=mikodacs]<size=70%>Идентичности</size>"
+      "content": "<size=70%>Идентичности</size>"
     },
     {
       "id": "mainui_common_filter",
-      "content": "[font=mikodacs]Фильтр"
+      "content": "Фильтр"
     },
     {
       "id": "mainui_common_state",
-      "content": "[font=bebas]Выбран"
+      "content": "Выбран"
     },
     {
       "id": "mainui_common_sort",
-      "content": "[font=mikodacs]Сортировать"
+      "content": "Сортировать"
     },
     {
       "id": "mainui_sinners_unequipego",
-      "content": "[font=bebas]Не надето"
+      "content": "Не надето"
     },
     {
       "id": "mainui_skip_desc",
@@ -131,35 +131,35 @@
     },
     {
       "id": "mainui_battleresult_reward",
-      "content": "[font=mikodacs]Награды"
+      "content": "Награды"
     },
     {
       "id": "mainui_battleresult_exclearreward",
-      "content": "[font=mikodacs]Награды за задание"
+      "content": "Награды за задание"
     },
     {
       "id": "mainui_battleresult_statistics",
-      "content": "[font=mikodacs]Статистика"
+      "content": "Статистика"
     },
     {
       "id": "mainui_ok",
-      "content": "[font=mikodacs]ОК"
+      "content": "ОК"
     },
     {
       "id": "mainui_battleresult_victory",
-      "content": "[font=mikodacs]Победа"
+      "content": "Победа"
     },
     {
       "id": "mainui_battleresult_defeat",
-      "content": "[font=mikodacs]Поражение"
+      "content": "Поражение"
     },
     {
       "id": "mainui_battleresult_return",
-      "content": "[font=mikodacs]Возврат"
+      "content": "Возврат"
     },
     {
       "id": "mainui_battleresult_hint",
-      "content": "[font=mikodacs]Подсказки"
+      "content": "Подсказки"
     },
     {
       "id": "mainui_page",
@@ -167,15 +167,15 @@
     },
     {
       "id": "mainui_cancel",
-      "content": "[font=mikodacs]Отмена"
+      "content": "Отмена"
     },
     {
       "id": "mainui_select",
-      "content": "[font=mikodacs]Выбрать"
+      "content": "Выбрать"
     },
     {
       "id": "mainui_select_finished",
-      "content": "[font=mikodacs]Завершить"
+      "content": "Завершить"
     },
     {
       "id": "mainui_grade",
@@ -187,11 +187,11 @@
     },
     {
       "id": "mainui_main_enkephalin_Box",
-      "content": "[font=mikodacs]Ячейка Энкефалина"
+      "content": "Ячейка Энкефалина"
     },
     {
       "id": "mainui_main_own_count",
-      "content": "[font=mikodacs]На руках"
+      "content": "На руках"
     },
     {
       "id": "mainui_mirror_entrance_entry",
@@ -219,35 +219,35 @@
     },
     {
       "id": "mainui_proress",
-      "content": "[font=mikodacs]Продолжим"
+      "content": "Продолжим"
     },
     {
       "id": "mainui_stop",
-      "content": "[font=mikodacs]С меня хватит"
+      "content": "С меня хватит"
     },
     {
       "id": "mainui_next",
-      "content": "[font=mikodacs]Далее"
+      "content": "Далее"
     },
     {
       "id": "mainui_ego_list",
-      "content": "[font=mikodacs]Список ЭГО"
+      "content": "Список ЭГО"
     },
     {
       "id": "mainui_personality_list",
-      "content": "[font=mikodacs]Список идентичностей"
+      "content": "Список идентичностей"
     },
     {
       "id": "mainui_acquired_reward",
-      "content": "[font=mikodacs]Награда"
+      "content": "Награда"
     },
     {
       "id": "mainui_dungeon_finished",
-      "content": "[font=mikodacs]Приостановить исследование"
+      "content": "Приостановить исследование"
     },
     {
       "id": "mainui_category",
-      "content": "[font=mikodacs]Легенда"
+      "content": "Легенда"
     },
     {
       "id": "mainui_stats_hp",
@@ -263,63 +263,63 @@
     },
     {
       "id": "mainui_upgrade",
-      "content": "[font=mikodacs]Усиление"
+      "content": "Усиление"
     },
     {
       "id": "mainui_mirror_select_ego",
-      "content": "[font=mikodacs]Выбрать ЭГО"
+      "content": "Выбрать ЭГО"
     },
     {
       "id": "mainui_mirror_opening",
-      "content": "[font=mikodacs]Открыто"
+      "content": "Открыто"
     },
     {
       "id": "mainui_simulation",
-      "content": "[font=mikodacs]Симуляция"
+      "content": "Симуляция"
     },
     {
       "id": "mainui_untill",
-      "content": "[font=mikodacs]До"
+      "content": "До"
     },
     {
       "id": "mainui_free",
-      "content": "[font=mikodacs]Бесплатное"
+      "content": "Бесплатное"
     },
     {
       "id": "mainui_paid",
-      "content": "[font=mikodacs]Платное"
+      "content": "Платное"
     },
     {
       "id": "mainui_support",
-      "content": "[font=mikodacs]<size=75%>Поддержка</size>"
+      "content": "<size=75%>Поддержка</size>"
     },
     {
       "id": "mainui_gacha_rateinfo",
-      "content": "[font=mikodacs]Шанс выпадения"
+      "content": "Шанс выпадения"
     },
     {
       "id": "mainui_gacha_history",
-      "content": "[font=mikodacs]История извлечений"
+      "content": "История извлечений"
     },
     {
       "id": "mainui_gacha_daliynotice",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\"><size=29>Обновляется ежедневно в {0}:00</size></font>"
+      "content": "<font=\"ExcelsiorSans SDF\"><size=29>Обновляется ежедневно в {0}:00</size></font>"
     },
     {
       "id": "mainui_gacha_alreadyusedgacha",
-      "content": "[font=mikodacs]Дневная квота израсходована"
+      "content": "Дневная квота израсходована"
     },
     {
       "id": "mainui_gacha_extract1",
-      "content": "[font=mikodacs]Извлечь 1"
+      "content": "Извлечь 1"
     },
     {
       "id": "mainui_gacha_extract10",
-      "content": "[font=mikodacs]Извлечь 10"
+      "content": "Извлечь 10"
     },
     {
       "id": "mainui_open_battlepass",
-      "content": "[font=mikodacs]Боевой пропуск разблокирован!"
+      "content": "Боевой пропуск разблокирован!"
     },
     {
       "id": "mainui_grade_without_space",
@@ -327,7 +327,7 @@
     },
     {
       "id": "mainui_type",
-      "content": "Т[font=mikodacs]ип"
+      "content": "Тип"
     },
     {
       "id": "mainui_level_unit",
@@ -335,7 +335,7 @@
     },
     {
       "id": "mainui_Change_lobby_illust",
-      "content": "[font=mikodacs]Сменить иллюстрацию в лобби"
+      "content": "Сменить иллюстрацию в лобби"
     },
     {
       "id": "mainui_lobby_illust_acquisition_method",
@@ -347,39 +347,39 @@
     },
     {
       "id": "mainui_networkingerror_close",
-      "content": "[font=mikodacs]Закрыть"
+      "content": "Закрыть"
     },
     {
       "id": "mainui_networkingerror_retry",
-      "content": "[font=mikodacs]Попытаться снова"
+      "content": "Попытаться снова"
     },
     {
       "id": "mainui_event_notice",
-      "content": "[font=mikodacs]Новости\nоб ивентах"
+      "content": "Новости\nоб ивентах"
     },
     {
       "id": "mainui_system_notice",
-      "content": "[font=mikodacs]Новости\nсистемы"
+      "content": "Новости\nсистемы"
     },
     {
       "id": "mainui_team",
-      "content": "[font=mikodacs]Команда"
+      "content": "Команда"
     },
     {
       "id": "mainui_cost",
-      "content": "[font=mikodacs]Стоимость"
+      "content": "Стоимость"
     },
     {
       "id": "mainui_dungeon_progress_rate",
-      "content": "[font=mikodacs]Прогресс подземелья"
+      "content": "Прогресс подземелья"
     },
     {
       "id": "mainui_guaranteed_reward",
-      "content": "[font=mikodacs]Награда"
+      "content": "Награда"
     },
     {
       "id": "mainui_select_reward",
-      "content": "[font=mikodacs]Награда на выбор"
+      "content": "Награда на выбор"
     },
     {
       "id": "mainui_battle_pass_exp",
@@ -399,47 +399,47 @@
     },
     {
       "id": "mainui_manaUsage",
-      "content": "[font=mikodacs]Цена ЭГО"
+      "content": "Цена ЭГО"
     },
     {
       "id": "mainui_abnormality_analysis_level",
-      "content": "[font=mikodacs]Уровень Связки"
+      "content": "Уровень Связки"
     },
     {
       "id": "mainui_analysis",
-      "content": "[font=mikodacs]Связка"
+      "content": "Связка"
     },
     {
       "id": "mainui_abnormality_analysis",
-      "content": "[font=mikodacs]Связка ЭГО"
+      "content": "Связка ЭГО"
     },
     {
       "id": "mainui_receive",
-      "content": "[font=mikodacs]Взять"
+      "content": "Взять"
     },
     {
       "id": "mainui_dungeon_finished_reward",
-      "content": "[font=mikodacs]Награда за экспедицию"
+      "content": "Награда за экспедицию"
     },
     {
       "id": "mainui_passive",
-      "content": "[font=mikodacs]Пассивки"
+      "content": "Пассивки"
     },
     {
       "id": "mainui_support_passive",
-      "content": "[font=mikodacs]Поддержка"
+      "content": "Поддержка"
     },
     {
       "id": "mainui_synchronization",
-      "content": "[font=mikodacs]<align=\"center\">Усиление\nСвязи</align>"
+      "content": "<align=\"center\">Усиление\nСвязи</align>"
     },
     {
       "id": "mainui_personality_synchronization_level",
-      "content": "[font=mikodacs]Уровень Связи"
+      "content": "Уровень Связи"
     },
     {
       "id": "mainui_owned",
-      "content": "[font=mikodacs]На руках"
+      "content": "На руках"
     },
     {
       "id": "mainui_growth_level_limited",
@@ -447,15 +447,15 @@
     },
     {
       "id": "mainui_stats_attack",
-      "content": "[font=mikodacs]Атака"
+      "content": "Атака"
     },
     {
       "id": "mainui_mailbox_receive_all",
-      "content": "[font=mikodacs]Взять всё"
+      "content": "Взять всё"
     },
     {
       "id": "mainui_mailbox_receive_history",
-      "content": "[font=mikodacs]История"
+      "content": "История"
     },
     {
       "id": "mainui_remain_days",
@@ -463,7 +463,7 @@
     },
     {
       "id": "mainui_mail_remains_count",
-      "content": "[font=mikodacs]Почта"
+      "content": "Почта"
     },
     {
       "id": "mainui_mail_warning",
@@ -475,35 +475,35 @@
     },
     {
       "id": "main_information",
-      "content": "[font=mikodacs]Инфо"
+      "content": "Инфо"
     },
     {
       "id": "main_until",
-      "content": "[font=excelsior]Срок хранения"
+      "content": "Срок хранения"
     },
     {
       "id": "mainui_synchronization_grade",
-      "content": "[font=mikodacs]Уровень Связи"
+      "content": "Уровень Связи"
     },
     {
       "id": "mainui_organization",
-      "content": "[font=mikodacs]Команда"
+      "content": "Команда"
     },
     {
       "id": "story_ui_log_popup",
-      "content": "[font=mikodacs]Лог"
+      "content": "Лог"
     },
     {
       "id": "mail_box_attachments",
-      "content": "[font=excelsior]Вложения"
+      "content": "Вложения"
     },
     {
       "id": "mail_box_unseal_result",
-      "content": "[font=mikodacs]Почта получена"
+      "content": "Почта получена"
     },
     {
       "id": "item_use_result",
-      "content": "[font=mikodacs]Предмет использован"
+      "content": "Предмет использован"
     },
     {
       "id": "giving_up_story_dungeon_title",
@@ -515,39 +515,39 @@
     },
     {
       "id": "mainui_all",
-      "content": "[font=mikodacs]Всё"
+      "content": "Всё"
     },
     {
       "id": "mainui_opened",
-      "content": "[font=mikodacs]Открыть"
+      "content": "Открыть"
     },
     {
       "id": "mainui_not_opened",
-      "content": "[font=mikodacs]Закрыто"
+      "content": "Закрыто"
     },
     {
       "id": "mainui_buy",
-      "content": "[font=mikodacs]Подтвердить"
+      "content": "Подтвердить"
     },
     {
       "id": "mainui_use",
-      "content": "[font=mikodacs]Использовать"
+      "content": "Использовать"
     },
     {
       "id": "mainui_consume",
-      "content": "[font=mikodacs]Расходники"
+      "content": "Расходники"
     },
     {
       "id": "mainui_currencies",
-      "content": "[font=mikodacs]Валюта"
+      "content": "Валюта"
     },
     {
       "id": "mainui_inventory",
-      "content": "[font=mikodacs]Инвентарь"
+      "content": "Инвентарь"
     },
     {
       "id": "mainui_awaken_requirement_amount",
-      "content": "[font=mikodacs]Цена в звеньях"
+      "content": "Цена в звеньях"
     },
     {
       "id": "mainui_passive_skill_addition",
@@ -563,15 +563,15 @@
     },
     {
       "id": "mainui_lack_of_material_amount",
-      "content": "[font=mikodacs]Недостаточно звеньев."
+      "content": "Недостаточно звеньев."
     },
     {
       "id": "mainui_move",
-      "content": "[font=mikodacs]Перейти"
+      "content": "Перейти"
     },
     {
       "id": "mainui_move_to_twine_store",
-      "content": "[font=mikodacs]В Обменник"
+      "content": "В Обменник"
     },
     {
       "id": "mainui_move_to_twine_store_question",
@@ -587,11 +587,11 @@
     },
     {
       "id": "mainui_personality_awaken_completion",
-      "content": "[font=mikodacs]Идентичность связана"
+      "content": "Идентичность связана"
     },
     {
       "id": "mainui_ego_awaken_completion",
-      "content": "[font=mikodacs]ЭГО связано"
+      "content": "ЭГО связано"
     },
     {
       "id": "mainui_new_skill_acquisition",
@@ -643,19 +643,19 @@
     },
     {
       "id": "mainui_check_purchase",
-      "content": "[font=mikodacs]Подтвердить покупку"
+      "content": "Подтвердить покупку"
     },
     {
       "id": "mainui_acquire_banner",
-      "content": "[font=mikodacs]Получена плашка"
+      "content": "Получена плашка"
     },
     {
       "id": "mainui_purchase_complete",
-      "content": "[font=mikodacs]Продано"
+      "content": "Продано"
     },
     {
       "id": "mainui_activation",
-      "content": "[font=bebas]<font=\"BebasKai SDF\">АКТИВИРОВАН</font>"
+      "content": "<font=\"BebasKai SDF\">АКТИВИРОВАН</font>"
     },
     {
       "id": "mainui_ask_purchase_enkephalin",
@@ -667,35 +667,35 @@
     },
     {
       "id": "mainui_rewatching-stage-story",
-      "content": "[font=mikodacs]Пересмотреть историю"
+      "content": "Пересмотреть историю"
     },
     {
       "id": "mainui_before_battle",
-      "content": "[font=bebas]Перед битвой"
+      "content": "Перед битвой"
     },
     {
       "id": "mainui_after_battle",
-      "content": "[font=bebas]После битвы"
+      "content": "После битвы"
     },
     {
       "id": "mainui_story",
-      "content": "[font=mikodacs]История"
+      "content": "История"
     },
     {
       "id": "Get_Reward",
-      "content": "[font=mikodacs]Награда"
+      "content": "Награда"
     },
     {
       "id": "mainui_user_exp",
-      "content": "[font=mikodacs]Опыт менеджера"
+      "content": "Опыт менеджера"
     },
     {
       "id": "mainui_chapter_progress",
-      "content": "[font=mikodacs]Прогресс"
+      "content": "Прогресс"
     },
     {
       "id": "mainui_ex_clear_progress",
-      "content": "[font=mikodacs]Пройдено в совершенстве"
+      "content": "Пройдено в совершенстве"
     },
     {
       "id": "mainui_notice_spend_free_lunacy_first",
@@ -711,7 +711,7 @@
     },
     {
       "id": "game_setting",
-      "content": "[font=mikodacs]Настройки"
+      "content": "Настройки"
     },
     {
       "id": "level",
@@ -731,23 +731,23 @@
     },
     {
       "id": "outstanding_staff",
-      "content": "[font=mikodacs]Лучший сотрудник"
+      "content": "Лучший сотрудник"
     },
     {
       "id": "total_damage_contribution",
-      "content": "[font=mikodacs]Нанесено урона"
+      "content": "Нанесено урона"
     },
     {
       "id": "deal_damage",
-      "content": "[font=excelsior]Нанесено"
+      "content": "Нанесено"
     },
     {
       "id": "taken_damage",
-      "content": "[font=excelsior]Получено"
+      "content": "Получено"
     },
     {
       "id": "user_level_up_notice",
-      "content": "[font=mikodacs]Повышен уровень менеджера!"
+      "content": "Повышен уровень менеджера!"
     },
     {
       "id": "increase_maxium_enkephalin",
@@ -759,15 +759,15 @@
     },
     {
       "id": "gacha_extract_multiple",
-      "content": "[font=mikodacs]Извлечь {0}"
+      "content": "Извлечь {0}"
     },
     {
       "id": "number_of_times",
-      "content": "[font=mikodacs]Раз(а)"
+      "content": "Раз(а)"
     },
     {
       "id": "number_of_remain_extract_times",
-      "content": "[font=mikodacs]Осталось извлечений"
+      "content": "Осталось извлечений"
     },
     {
       "id": "notice_of_remain_extract_chance",
@@ -775,39 +775,39 @@
     },
     {
       "id": "mainui_settings",
-      "content": "[font=mikodacs]Настройки"
+      "content": "Настройки"
     },
     {
       "id": "mainui_environment_settings",
-      "content": "[font=mikodacs]Настройки"
+      "content": "Настройки"
     },
     {
       "id": "mainui_back",
-      "content": "[font=mikodacs]Назад"
+      "content": "Назад"
     },
     {
       "id": "mainui_quit_game",
-      "content": "[font=mikodacs]Выйти из игры"
+      "content": "Выйти из игры"
     },
     {
       "id": "mainui_acquisition",
-      "content": "[font=mikodacs]Получено"
+      "content": "Получено"
     },
     {
       "id": "mainui_not_acquisition",
-      "content": "[font=mikodacs]Не получено"
+      "content": "Не получено"
     },
     {
       "id": "mainui_no_record",
-      "content": "[font=excelsior]Нет записей"
+      "content": "Нет записей"
     },
     {
       "id": "resume",
-      "content": "[font=mikodacs]Продолжить"
+      "content": "Продолжить"
     },
     {
       "id": "mainui_entering",
-      "content": "[font=mikodacs]Войти"
+      "content": "Войти"
     },
     {
       "id": "mainui_open_after_clear",
@@ -815,15 +815,15 @@
     },
     {
       "id": "mainui_organization_sharp",
-      "content": "[font=mikodacs]<size=50%>Команда №{0}</size>"
+      "content": "<size=50%>Команда №{0}</size>"
     },
     {
       "id": "mainui_participant_count",
-      "content": "[font=mikodacs]Изменить команду"
+      "content": "Изменить команду"
     },
     {
       "id": "mainui_edit",
-      "content": "[font=mikodacs]Изменить"
+      "content": "Изменить"
     },
     {
       "id": "mainui_unlock_condition_by_personality_awaken_level",
@@ -831,7 +831,7 @@
     },
     {
       "id": "skill_growth_value",
-      "content": "[font=mikodacs]Рост"
+      "content": "Рост"
     },
     {
       "id": "gacha_history_notice",
@@ -839,19 +839,19 @@
     },
     {
       "id": "gacha_history_empty",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">История извлечений пуста.</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">История извлечений пуста.</font>"
     },
     {
       "id": "own",
-      "content": "[font=mikodacs]Получено"
+      "content": "Получено"
     },
     {
       "id": "gacha_category",
-      "content": "[font=mikodacs]Категория"
+      "content": "Категория"
     },
     {
       "id": "gacha_time",
-      "content": "[font=excelsior]Дата"
+      "content": "Дата"
     },
     {
       "id": "used_currencies",
@@ -863,27 +863,27 @@
     },
     {
       "id": "list",
-      "content": "[font=mikodacs]Список"
+      "content": "Список"
     },
     {
       "id": "rank",
-      "content": "[font=mikodacs]Редкость"
+      "content": "Редкость"
     },
     {
       "id": "probability",
-      "content": "[font=mikodacs]Шансы"
+      "content": "Шансы"
     },
     {
       "id": "gacha_rate_label",
-      "content": "[font=mikodacs]Шансы извлечения"
+      "content": "Шансы извлечения"
     },
     {
       "id": "gacha_rate_title_ten1",
-      "content": "[font=mikodacs]「10 Извлечений (С 1-го по 9-е)」: Шансы равны 「1 Извлечению」"
+      "content": "「10 Извлечений (С 1-го по 9-е)」: Шансы равны 「1 Извлечению」"
     },
     {
       "id": "gacha_rate_title_ten2",
-      "content": "[font=mikodacs]「10 Извлечений (10-е)」"
+      "content": "「10 Извлечений (10-е)」"
     },
     {
       "id": "gacha_rate_info_intro1",
@@ -927,67 +927,67 @@
     },
     {
       "id": "personality_preview_notice",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">Здесь показаны максимальные уровень и Связь идентичности.</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Здесь показаны максимальные уровень и Связь идентичности.</font>"
     },
     {
       "id": "ego_preview_notice",
-      "content": "[font=excelsior]<font=\"ExcelsiorSans SDF\">ЭГО показано с максимальным уровнем Связки.</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">ЭГО показано с максимальным уровнем Связки.</font>"
     },
     {
       "id": "season_1",
-      "content": "[font=bebas] Сезон 1"
+      "content": " Сезон 1"
     },
     {
       "id": "commonly",
-      "content": "[font=bebas]Обычный"
+      "content": "Обычный"
     },
     {
       "id": "notice_external_website",
-      "content": "[font=mikodacs]Переход в браузер."
+      "content": "Переход в браузер."
     },
     {
       "id": "pass_level",
-      "content": "[font=mikodacs]<size=150%>Уровень</size>"
+      "content": "<size=150%>Уровень</size>"
     },
     {
       "id": "normal_reward",
-      "content": "[font=mikodacs]Обычная награда"
+      "content": "Обычная награда"
     },
     {
       "id": "limbus_pass_reward",
-      "content": "[font=mikodacs]Награда пропуска «Лимбуса»"
+      "content": "Награда пропуска «Лимбуса»"
     },
     {
       "id": "loading_battlehint",
-      "content": "[font=mikodacs]Подсказки"
+      "content": "Подсказки"
     },
     {
       "id": "status_up",
-      "content": "[font=mikodacs]Повышение характеристик"
+      "content": "Повышение характеристик"
     },
     {
       "id": "active_skill_acquired",
-      "content": "[font=mikodacs]Разблокировка навыка"
+      "content": "Разблокировка навыка"
     },
     {
       "id": "active_skill_reinforcement",
-      "content": "[font=mikodacs]Усиление навыков"
+      "content": "Усиление навыков"
     },
     {
       "id": "progress_ego_gacksung",
-      "content": "[font=mikodacs]Связать"
+      "content": "Связать"
     },
     {
       "id": "skill_with_index",
-      "content": "[font=mikodacs]Атака {0}"
+      "content": "Атака {0}"
     },
     {
       "id": "mail_date",
-      "content": "[font=excelsior]Дата"
+      "content": "Дата"
     },
     {
       "id": "mail_sender",
-      "content": "[font=excelsior]Отправитель"
+      "content": "Отправитель"
     },
     {
       "id": "mail_history_notice",
@@ -995,7 +995,7 @@
     },
     {
       "id": "cant_receive_mail_all_tilte",
-      "content": "[font=mikodacs]Произошла ошибка при получении."
+      "content": "Произошла ошибка при получении."
     },
     {
       "id": "cant_receive_mail_all_main",
@@ -1003,31 +1003,31 @@
     },
     {
       "id": "attached_item",
-      "content": "[font=excelsior]Вложение"
+      "content": "Вложение"
     },
     {
       "id": "inventory_category_all",
-      "content": "[font=mikodacs]Всё"
+      "content": "Всё"
     },
     {
       "id": "inventory_category_normal",
-      "content": "[font=mikodacs]Обычное"
+      "content": "Обычное"
     },
     {
       "id": "inventory_category_consumable",
-      "content": "[font=mikodacs]Расходники"
+      "content": "Расходники"
     },
     {
       "id": "inventory_category_pieces",
-      "content": "[font=mikodacs]Эгосколки"
+      "content": "Эгосколки"
     },
     {
       "id": "enkephalin_injection_complete",
-      "content": "[font=mikodacs]Энкефалин заполнен"
+      "content": "Энкефалин заполнен"
     },
     {
       "id": "purchase_impossible",
-      "content": "[font=mikodacs]Приобретение невозможно"
+      "content": "Приобретение невозможно"
     },
     {
       "id": "notice_not_enough_pieces",
@@ -1035,11 +1035,11 @@
     },
     {
       "id": "buy_personaliy",
-      "content": "[font=mikodacs]Купить идентичность"
+      "content": "Купить идентичность"
     },
     {
       "id": "buy_ego",
-      "content": "[font=mikodacs]Купить ЭГО"
+      "content": "Купить ЭГО"
     },
     {
       "id": "not_enough_pieces",
@@ -1047,11 +1047,11 @@
     },
     {
       "id": "basis",
-      "content": "[font=mikodacs]База"
+      "content": "База"
     },
     {
       "id": "skip_tutorial",
-      "content": "[font=mikodacs]Пропустить обучение"
+      "content": "Пропустить обучение"
     },
     {
       "id": "skip_tutorial_description",
@@ -1071,43 +1071,43 @@
     },
     {
       "id": "mailbox",
-      "content": "[font=mikodacs]Почтовый ящик"
+      "content": "Почтовый ящик"
     },
     {
       "id": "remain_days_label",
-      "content": "[font=excelsior]Срок получения"
+      "content": "Срок получения"
     },
     {
       "id": "extract_again",
-      "content": "[font=mikodacs]Извлечь снова"
+      "content": "Извлечь снова"
     },
     {
       "id": "ego_gift",
-      "content": "[font=mikodacs]ЭГО Дары"
+      "content": "ЭГО Дары"
     },
     {
       "id": "classification",
-      "content": "[font=mikodacs]Категория"
+      "content": "Категория"
     },
     {
       "id": "quantity",
-      "content": "[font=mikodacs]Количество"
+      "content": "Количество"
     },
     {
       "id": "appearance_probability",
-      "content": "[font=mikodacs]Шанс"
+      "content": "Шанс"
     },
     {
       "id": "Individual_appearance_probability",
-      "content": "[font=mikodacs]Индивидуальный шанс"
+      "content": "Индивидуальный шанс"
     },
     {
       "id": "notice_sold_out",
-      "content": "[font=mikodacs]Прилавок пуст"
+      "content": "Прилавок пуст"
     },
     {
       "id": "select_piece",
-      "content": "[font=mikodacs]Выбрать эгосколок"
+      "content": "Выбрать эгосколок"
     },
     {
       "id": "mail_item_warning",
@@ -1119,15 +1119,15 @@
     },
     {
       "id": "empty_mailbox_notice",
-      "content": "[font=mikodacs]Почтовый ящик пуст."
+      "content": "Почтовый ящик пуст."
     },
     {
       "id": "gacha_rate_detail",
-      "content": "[font=mikodacs]Информация о шансах"
+      "content": "Информация о шансах"
     },
     {
       "id": "gacha_alarm_title",
-      "content": "[font=mikodacs]Продолжаем Извлечение"
+      "content": "Продолжаем Извлечение"
     },
     {
       "id": "clear_specific_stage",
@@ -1139,7 +1139,7 @@
     },
     {
       "id": "ingredients",
-      "content": "[font=mikodacs]Предметы"
+      "content": "Предметы"
     },
     {
       "id": "remote_download_return_title",
@@ -1147,7 +1147,7 @@
     },
     {
       "id": "battle_skip",
-      "content": "[font=mikodacs]Пропустить"
+      "content": "Пропустить"
     },
     {
       "id": "ask_battle_skip",
@@ -1155,7 +1155,7 @@
     },
     {
       "id": "notice_consumption_multiples",
-      "content": " Стоимость {0} x {1}"
+      "content": " Стоимость {0} × {1}"
     },
     {
       "id": "notice_additional_rewards",
@@ -1175,19 +1175,19 @@
     },
     {
       "id": "to_window",
-      "content": "[font=mikodacs]К окну"
+      "content": "К окну"
     },
     {
       "id": "completion",
-      "content": "[font=mikodacs]Завершено"
+      "content": "Завершено"
     },
     {
       "id": "event_in_progress",
-      "content": "[font=mikodacs]Ивент открыт!"
+      "content": "Ивент открыт!"
     },
     {
       "id": "end_of_event",
-      "content": "[font=mikodacs]Ивент завершён"
+      "content": "Ивент завершён"
     },
     {
       "id": "gacha_rate_info_intro1_1a",
@@ -1211,11 +1211,11 @@
     },
     {
       "id": "acquired_quantity",
-      "content": "[font=mikodacs]Количество"
+      "content": "Количество"
     },
     {
       "id": "name_of_currencies",
-      "content": "[font=mikodacs]Валюта"
+      "content": "Валюта"
     },
     {
       "id": "package_info_title",
@@ -1223,19 +1223,19 @@
     },
     {
       "id": "used_once",
-      "content": "[font=mikodacs]Одноразовый"
+      "content": "Одноразовый"
     },
     {
       "id": "probability_details",
-      "content": "[font=mikodacs]Шансы"
+      "content": "Шансы"
     },
     {
       "id": "be_in_use",
-      "content": "[font=bebas]<font=\"BebasKai SDF\"><cspace=-1px>Пробит</cspace></font>"
+      "content": "<font=\"BebasKai SDF\"><cspace=-1px>Пробит</cspace></font>"
     },
     {
       "id": "season_information",
-      "content": "[font=mikodacs]Сезоны?"
+      "content": "Сезоны?"
     },
     {
       "id": "announcer_selection_description",
@@ -1243,27 +1243,27 @@
     },
     {
       "id": "panic_type",
-      "content": "[font=mikodacs]Тип срыва"
+      "content": "Тип срыва"
     },
     {
       "id": "mental_strength",
-      "content": "[font=mikodacs]Сила духа"
+      "content": "Сила духа"
     },
     {
       "id": "mental_increase_condition",
-      "content": "[font=mikodacs]Повышение Силы духа"
+      "content": "Повышение Силы духа"
     },
     {
       "id": "mental_decrease_condition",
-      "content": "[font=mikodacs]Понижение Силы духа"
+      "content": "Понижение Силы духа"
     },
     {
       "id": "mental_low_morale_effect",
-      "content": "[font=mikodacs]Эффекты потери духа"
+      "content": "Эффекты потери духа"
     },
     {
       "id": "mental_panic_effect",
-      "content": "[font=mikodacs]Эффекты срыва"
+      "content": "Эффекты срыва"
     },
     {
       "id": "open_scheduled_date_month_day",
@@ -1275,35 +1275,35 @@
     },
     {
       "id": "last_battlepass_season_level",
-      "content": "[font=mikodacs]Уровень пропуска"
+      "content": "Уровень пропуска"
     },
     {
       "id": "season_end_notification",
-      "content": "[font=mikodacs]Оповещение о конце сезона"
+      "content": "Оповещение о конце сезона"
     },
     {
       "id": "season_start_notification",
-      "content": "[font=mikodacs]Оповещение о начале сезона"
+      "content": "Оповещение о начале сезона"
     },
     {
       "id": "new_story_appeared_by_new_season",
-      "content": "[font=mikodacs]Новый контент в основной истории"
+      "content": "Новый контент в основной истории"
     },
     {
       "id": "collection_rate",
-      "content": "[font=mikodacs]Шанс получения коллекции"
+      "content": "Шанс получения коллекции"
     },
     {
       "id": "season_n_personality",
-      "content": "[font=mikodacs]Идентичность {0} сезона"
+      "content": "Идентичность {0} сезона"
     },
     {
       "id": "season_n_ego",
-      "content": "[font=mikodacs]ЭГО {0} сезона"
+      "content": "ЭГО {0} сезона"
     },
     {
       "id": "season_n",
-      "content": "[font=mikodacs] Сезон {0}"
+      "content": " Сезон {0}"
     },
     {
       "id": "new_season_former_piece_to_current_piece_desc",
@@ -1323,11 +1323,11 @@
     },
     {
       "id": "new_pass_appeared",
-      "content": "[font=mikodacs]Доступен новый пропуск!"
+      "content": "Доступен новый пропуск!"
     },
     {
       "id": "get_not_acquired_rewards",
-      "content": "[font=mikodacs]Отправлены неполученные награды"
+      "content": "Отправлены неполученные награды"
     },
     {
       "id": "items_changed_by_season_changed_desc",
@@ -1335,7 +1335,7 @@
     },
     {
       "id": "exchange",
-      "content": "[font=mikodacs]Обмен"
+      "content": "Обмен"
     },
     {
       "id": "notice_of_pity_system",
@@ -1343,15 +1343,15 @@
     },
     {
       "id": "twine_store",
-      "content": "[font=mikodacs]Обменник эгосколков"
+      "content": "Обменник эгосколков"
     },
     {
       "id": "pass",
-      "content": "[font=mikodacs]Пропуск"
+      "content": "Пропуск"
     },
     {
       "id": "event",
-      "content": "[font=mikodacs]Ивент"
+      "content": "Ивент"
     },
     {
       "id": "notice_of_pity_point_expiration",
@@ -1411,11 +1411,11 @@
     },
     {
       "id": "formation_force_participation_on",
-      "content": "[font=bebas]<font=\"BebasKai SDF\"><voffset=-0.25em><cspace=-1px>Ключевой</cspace></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0.25em><cspace=-1px>Ключевой</cspace></voffset></font>"
     },
     {
       "id": "formation_force_participation_off",
-      "content": "[font=bebas]<font=\"BebasKai SDF\"><voffset=-0.25em><size=56><cspace=-1px>Необходим</cspace></size></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0.25em><size=56><cspace=-1px>Необходим</cspace></size></voffset></font>"
     },
     {
       "id": "formation_must_participate_specific_character",
@@ -1447,15 +1447,15 @@
     },
     {
       "id": "cannot_enter",
-      "content": "[font=mikodacs]Вход воспрещён"
+      "content": "Вход воспрещён"
     },
     {
       "id": "lack_of_item_amount",
-      "content": "[font=mikodacs]Недостаточно {0}"
+      "content": "Недостаточно {0}"
     },
     {
       "id": "required_count",
-      "content": "[font=mikodacs]Необходимо"
+      "content": "Необходимо"
     },
     {
       "id": "on_event_reward_grace_period",
@@ -1475,7 +1475,7 @@
     },
     {
       "id": "summary",
-      "content": "[font=mikodacs]Вкратце"
+      "content": "Вкратце"
     },
     {
       "id": "abnormality_part_skill",
@@ -1483,47 +1483,47 @@
     },
     {
       "id": "awaken",
-      "content": "[font=mikodacs]Пробуждение"
+      "content": "Пробуждение"
     },
     {
       "id": "erosion",
-      "content": "[font=mikodacs]Коррозия"
+      "content": "Коррозия"
     },
     {
       "id": "formation_panel_detail",
-      "content": "[font=mikodacs]Вкратце"
+      "content": "Вкратце"
     },
     {
       "id": "ego_cost",
-      "content": "[font=mikodacs]Ресурсы для ЭГО"
+      "content": "Ресурсы для ЭГО"
     },
     {
       "id": "enable_count_for_battle",
-      "content": "[font=mikodacs]Лимит команды"
+      "content": "Лимит команды"
     },
     {
       "id": "select_for_formation",
-      "content": "[font=mikodacs]Выбрать грешника"
+      "content": "Выбрать грешника"
     },
     {
       "id": "edit_for_formation",
-      "content": "[font=mikodacs]Изменить\nгрешника"
+      "content": "Изменить\nгрешника"
     },
     {
       "id": "full_participated",
-      "content": "[font=mikodacs]Лимит участников"
+      "content": "Лимит участников"
     },
     {
       "id": "select_for_delete_participation",
-      "content": "[font=mikodacs]Отозвать\nгрешника"
+      "content": "Отозвать\nгрешника"
     },
     {
       "id": "clear_reward",
-      "content": "[font=mikodacs]Награда"
+      "content": "Награда"
     },
     {
       "id": "event_information",
-      "content": "[font=mikodacs]Детали ивента"
+      "content": "Детали ивента"
     },
     {
       "id": "notice_not_on_sales_period",
@@ -1531,19 +1531,19 @@
     },
     {
       "id": "pc_shortcut",
-      "content": "[font=mikodacs]Горячие клавиши для ПК"
+      "content": "Горячие клавиши для ПК"
     },
     {
       "id": "shortcut_manual_popup_title",
-      "content": "[font=mikodacs]Подсказки к горячим клавишам"
+      "content": "Подсказки к горячим клавишам"
     },
     {
       "id": "new_dungeon_update_alarm",
-      "content": "[font=mikodacs]ЗАМЕЧЕНА НЕУСТОЙЧИВОСТЬ ЗА ГРАНЬЮ ЗАДНЕЙ ДВЕРИ"
+      "content": "ЗАМЕЧЕНА НЕУСТОЙЧИВОСТЬ ЗА ГРАНЬЮ ЗАДНЕЙ ДВЕРИ"
     },
     {
       "id": "buy_announcer",
-      "content": "[font=mikodacs]Приобретение комментатора"
+      "content": "Приобретение комментатора"
     },
     {
       "id": "label_require_paid_lunacy",
@@ -1555,7 +1555,7 @@
     },
     {
       "id": "mainui_original",
-      "content": "[font=mikodacs]Назад"
+      "content": "Назад"
     },
     {
       "id": "open_after_clear_node",
@@ -1563,11 +1563,11 @@
     },
     {
       "id": "effect_list_to_applied_level",
-      "content": "[font=mikodacs]Активные эффекты уровня"
+      "content": "Активные эффекты уровня"
     },
     {
       "id": "choice_event_effect",
-      "content": "[font=mikodacs]Эффект выбора"
+      "content": "Эффект выбора"
     },
     {
       "id": "ego_gift_effect_format",
@@ -1575,15 +1575,15 @@
     },
     {
       "id": "mainui_previous",
-      "content": "[font=mikodacs]Назад"
+      "content": "Назад"
     },
     {
       "id": "formation_force_abstain",
-      "content": "[font=bebas]<font=\"BebasKai SDF\"><voffset=-0.25em><cspace=-1px>Недоступен</cspace></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0.25em><cspace=-1px>Недоступен</cspace></voffset></font>"
     },
     {
       "id": "formation_view_detail",
-      "content": "[font=mikodacs]Инфо"
+      "content": "Инфо"
     },
     {
       "id": "only_hyphen",
@@ -1591,15 +1591,15 @@
     },
     {
       "id": "first_time",
-      "content": "[font=mikodacs]Впервые"
+      "content": "Впервые"
     },
     {
       "id": "formation_Announcer_fixed",
-      "content": "[font=bebas]<font=\"BebasKai SDF\"><cspace=-2px><nobr>Фиксированный</nobr></cspace></font>"
+      "content": "<font=\"BebasKai SDF\"><cspace=-2px><nobr>Фиксированный</nobr></cspace></font>"
     },
     {
       "id": "gacha_rate_info_wa1",
-      "content": "[font=mikodacs]★ Ящик звеньев"
+      "content": "★ Ящик звеньев"
     },
     {
       "id": "gacha_rate_info_wa2",
@@ -1619,35 +1619,35 @@
     },
     {
       "id": "mainui_battleresult_ordeal_victory",
-      "content": "[font=mikodacs]Усмирение завершено"
+      "content": "Усмирение завершено"
     },
     {
       "id": "mainui_battleresult_ordeal_defeat",
-      "content": "[font=mikodacs]Усмирение провалено"
+      "content": "Усмирение провалено"
     },
     {
       "id": "remain_exchange_count",
-      "content": "[font=excelsior]На прилавке"
+      "content": "На прилавке"
     },
     {
       "id": "remains",
-      "content": "[font=excelsior]Осталось"
+      "content": "Осталось"
     },
     {
       "id": "everyday",
-      "content": "[font=bebas]Ежедневно"
+      "content": "Ежедневно"
     },
     {
       "id": "for_n_days",
-      "content": "[font=bebas]{0}-й день"
+      "content": "{0}-й день"
     },
     {
       "id": "all_personalities",
-      "content": "[font=mikodacs]Все идентичности"
+      "content": "Все идентичности"
     },
     {
       "id": "leap_up_ticket_title",
-      "content": "[font=mikodacs]Выберите идентичность для скачка в усилении"
+      "content": "Выберите идентичность для скачка в усилении"
     },
     {
       "id": "leap_up_able_uptie_tier_and_level",
@@ -1663,7 +1663,7 @@
     },
     {
       "id": "leap_up_confim_title",
-      "content": "[font=mikodacs]Выбор идентичности"
+      "content": "Выбор идентичности"
     },
     {
       "id": "leap_up_confim_main",
@@ -1683,19 +1683,19 @@
     },
     {
       "id": "expiration_date",
-      "content": "[font=excelsior]Годен до"
+      "content": "Годен до"
     },
     {
       "id": "unlink_account_title",
-      "content": "[font=mikodacs]Выберите аккаунт для отвязки"
+      "content": "Выберите аккаунт для отвязки"
     },
     {
       "id": "unlink_account_current_account",
-      "content": "[font=mikodacs]Текущий аккаунт"
+      "content": "Текущий аккаунт"
     },
     {
       "id": "unlink_account_linked_account",
-      "content": "[font=mikodacs]Привязанный аккаунт"
+      "content": "Привязанный аккаунт"
     },
     {
       "id": "unlink_account_desc",
@@ -1707,7 +1707,7 @@
     },
     {
       "id": "unlink_account_complete_title",
-      "content": "[font=mikodacs]Аккаунт отвязан"
+      "content": "Аккаунт отвязан"
     },
     {
       "id": "unlink_account_complete_desc",
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "personality_level_limit_release_title",
-      "content": "[font=mikodacs]Порог уровня идентичностей увеличен"
+      "content": "Порог уровня идентичностей увеличен"
     },
     {
       "id": "personality_level_limit_release_desc",
@@ -1727,15 +1727,15 @@
     },
     {
       "id": "mainui_sinners_startSuppress",
-      "content": "[font=mikodacs]Начнём усмирение!"
+      "content": "Начнём усмирение!"
     },
     {
       "id": "mainui_battleresult_AbnormalitySuppress_victory",
-      "content": "[font=mikodacs]Аномалия успешно усмирена"
+      "content": "Аномалия успешно усмирена"
     },
     {
       "id": "mainui_battleresult_AbnormalitySuppress_defeat",
-      "content": "[font=mikodacs]Не удалось усмирить аномалию"
+      "content": "Не удалось усмирить аномалию"
     },
     {
       "id": "ui_text_unknown",
@@ -1747,7 +1747,7 @@
     },
     {
       "id": "unit_keyword",
-      "content": "[font=mikodacs]Принадлежность"
+      "content": "Принадлежность"
     },
     {
       "id": "formation_ask_clear_selection",
@@ -1771,7 +1771,7 @@
     },
     {
       "id": "mainui_exp_dungeon_7_title",
-      "content": "[font=mikodacs]Светодобыча опыта №7 (Рубящий)"
+      "content": "Светодобыча опыта №7 (Рубящий)"
     },
     {
       "id": "mainui_exp_dungeon_7_open_day",
@@ -1779,7 +1779,7 @@
     },
     {
       "id": "mainui_exp_dungeon_8_title",
-      "content": "[font=mikodacs]Светодобыча опыта №7 (Колющий)"
+      "content": "Светодобыча опыта №7 (Колющий)"
     },
     {
       "id": "mainui_exp_dungeon_8_open_day",
@@ -1787,7 +1787,7 @@
     },
     {
       "id": "mainui_exp_dungeon_9_title",
-      "content": "[font=mikodacs]Светодобыча опыта №7 (Дробящий)"
+      "content": "Светодобыча опыта №7 (Дробящий)"
     },
     {
       "id": "mainui_exp_dungeon_9_open_day",
@@ -1795,7 +1795,7 @@
     },
     {
       "id": "mainui_default_personality_blocked",
-      "content": "[font=bebas]Базовый грешник недоступен"
+      "content": "Базовый грешник недоступен"
     },
     {
       "id": "mainui_change_personality_of_character",
@@ -1803,7 +1803,7 @@
     },
     {
       "id": "caution",
-      "content": "[font=mikodacs]! ВНИМАНИЕ !"
+      "content": "! ВНИМАНИЕ !"
     },
     {
       "id": "announcer_spoiler_caution",
@@ -1815,15 +1815,15 @@
     },
     {
       "id": "select_all",
-      "content": "[font=mikodacs]Выбрать всё"
+      "content": "Выбрать всё"
     },
     {
       "id": "deselect_all",
-      "content": "[font=mikodacs]Отменить выбор"
+      "content": "Отменить выбор"
     },
     {
       "id": "story_voice_setting_ui_title",
-      "content": "[font=mikodacs]Настройки озвучки историй"
+      "content": "Настройки озвучки историй"
     },
     {
       "id": "story_voice_setting_ui_desc",
@@ -1855,7 +1855,7 @@
     },
     {
       "id": "paid_lunacy_ui",
-      "content": "[font=mikodacs]Платное Безумство"
+      "content": "Платное Безумство"
     },
     {
       "id": "story_unable_to_skip",

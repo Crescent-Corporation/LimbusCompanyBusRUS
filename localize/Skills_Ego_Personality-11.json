@@ -524,7 +524,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу [FreischutzShotCount:*Магических пуль*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на (число [FreischutzShotCount:*Магических пуль*] / <style=\"highlight\">3</style>) (десятичные опускаются)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на (число [FreischutzShotCount:*Магических пуль*] ÷ <style=\"highlight\">3</style>) (десятичные опускаются)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит [DarkFlame:*Тёмное пламя*] пропорционально числу [FreischutzShotCount:*Магических пуль*] (Единожды за ход для каждого противника)<style=\"highlight\"></style>"
@@ -545,7 +545,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу [FreischutzShotCount:*Магических пуль*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на (число [FreischutzShotCount:*Магических пуль*] / <style=\"highlight\">2</style>) (десятичные опускаются)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] на (число [FreischutzShotCount:*Магических пуль*] ÷ <style=\"highlight\">2</style>) (десятичные опускаются)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит [DarkFlame:*Тёмное пламя*] пропорционально числу [FreischutzShotCount:*Магических пуль*] (Единожды за ход для каждого противника)<style=\"highlight\"></style>"

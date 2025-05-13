@@ -915,7 +915,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До 10)\n- +(Лишний [Vibration] x 1.5)% урона (До 30%)"
+                  "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До 10)\n- +(Лишний [Vibration] × 1.5)% урона (До 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
@@ -949,7 +949,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До <style=\"highlight\">20</style>)\n- +(Лишний [Vibration] x <style=\"highlight\">5</style>)% урона (До <style=\"highlight\">50</style>%)"
+                  "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До <style=\"highlight\">20</style>)\n- +(Лишний [Vibration] × <style=\"highlight\">5</style>)% урона (До <style=\"highlight\">50</style>%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"

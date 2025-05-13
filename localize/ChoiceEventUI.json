@@ -2,11 +2,11 @@
   "dataList": [
     {
       "id": "event_judgement_above",
-      "content": "[font=mikodacs]высокий шанс"
+      "content": "высокий шанс"
     },
     {
       "id": "event_judgement_below",
-      "content": "[font=mikodacs]низкий шанс"
+      "content": "низкий шанс"
     },
     {
       "id": "event_select_personality_to_proceed_judgement",
@@ -14,7 +14,7 @@
     },
     {
       "id": "event_expected_success_rate_format",
-      "content": "[font=mikodacs]Вероятность: {0}"
+      "content": "Вероятность: {0}"
     }
   ]
 }

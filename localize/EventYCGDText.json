@@ -46,7 +46,7 @@
     },
     {
       "id": "ycgd_bonusUI_Title",
-      "content": "[font=bebas]<size=45><font=\"BebasKai SDF\">к получению</font></size>"
+      "content": "<size=45><font=\"BebasKai SDF\">к получению</font></size>"
     },
     {
       "id": "ycgd_bonusUI_Title_contain_false",

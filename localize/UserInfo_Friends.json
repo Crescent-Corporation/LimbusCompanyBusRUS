@@ -270,11 +270,11 @@
     },
     {
       "id": "SimilarBanner",
-      "content": "[font=bebas]<font=\"BebasKai SDF\">Вариации плашки</font>"
+      "content": "<font=\"BebasKai SDF\">Вариации плашки</font>"
     },
     {
       "id": "SimilarTicket",
-      "content": "[font=bebas]<font=\"BebasKai SDF\">Вариации элемента билета</font>"
+      "content": "<font=\"BebasKai SDF\">Вариации элемента билета</font>"
     },
     {
       "id": "Choosing",

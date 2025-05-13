@@ -337,7 +337,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на цель"
                 },
                 {
-                  "desc": "[EndSkill] Синклер получает щит на (15 + наибольший резонанс x 2.5)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До 25%)"
+                  "desc": "[EndSkill] Синклер получает щит на (15 + наибольший резонанс × 2.5)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До 25%)"
                 },
                 {
                   "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 "
@@ -361,7 +361,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на цель<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">18</style> + наибольший резонанс x <style=\"highlight\">3</style>)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До <style=\"highlight\">30%</style>)"
+                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">18</style> + наибольший резонанс × <style=\"highlight\">3</style>)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До <style=\"highlight\">30%</style>)"
                 },
                 {
                   "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 <style=\"highlight\"></style>"
@@ -385,7 +385,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на цель и<style=\"highlight\">повышает её счётчик на 3</style>"
                 },
                 {
-                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">20</style> + наибольший резонанс x <style=\"highlight\">5</style>)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До <style=\"highlight\">40%</style>)"
+                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">20</style> + наибольший резонанс × <style=\"highlight\">5</style>)% от максимальных ОЗ и 2 [ShieldManagerCryingToad:*Слезинки*]. (До <style=\"highlight\">40%</style>)"
                 },
                 {
                   "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 <style=\"highlight\"></style>"

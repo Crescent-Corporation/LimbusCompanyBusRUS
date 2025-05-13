@@ -2,11 +2,11 @@
   "dataList": [
     {
       "id": "move_to_inventory",
-      "content": "[font=mikodacs]В инвентарь"
+      "content": "В инвентарь"
     },
     {
       "id": "progress_personality_gacksung",
-      "content": "[font=mikodacs]Связать"
+      "content": "Связать"
     },
     {
       "id": "mainui_reinforce_support_passive",
@@ -26,11 +26,11 @@
     },
     {
       "id": "mainui_target_num_label",
-      "content": "[font=excelsior]<size=250%><font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font></size>"
+      "content": "<size=250%><font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font></size>"
     },
     {
       "id": "mainui_awaken_requirement_label",
-      "content": "[font=mikodacs]Необходимо"
+      "content": "Необходимо"
     }
   ]
 }
