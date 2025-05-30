@@ -170,7 +170,7 @@
     },
     {
       "id": "PersonalityStory_OpenCodition",
-      "content": "Открывается на {0} уровне Связи"
+      "content": "Открывается на\n{0} уровне Связи"
     },
     {
       "id": "OTHERSTORY",

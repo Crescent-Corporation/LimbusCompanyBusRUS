@@ -481,7 +481,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Snare]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +2% урона за каждый [Burst] на цели (До 30%)"
+                  "desc": "[OnSucceedAttack] +2% к урону за каждый [Burst] на цели (До 30%)"
                 }
               ]
             }
@@ -513,7 +513,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Snare:*Силков*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +2% урона за каждый [Burst] на цели (До 60%)"
+                  "desc": "[OnSucceedAttack] +2% к урону за каждый [Burst] на цели (До 60%)"
                 }
               ]
             }
@@ -555,14 +555,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До 20%)</style>"
+                  "desc": "<style=\"highlight\">+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% к критическому урону (До 20%)</style>"
                 }
               ]
             }
@@ -577,14 +577,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До <style=\"highlight\">40%</style>)"
+                  "desc": "+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% к критическому урону (До <style=\"highlight\">40%</style>)"
                 }
               ]
             }
@@ -626,14 +626,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До 20%)</style>"
+                  "desc": "<style=\"highlight\">+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% к критическому урону (До 20%)</style>"
                 }
               ]
             }
@@ -648,14 +648,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Фауст повышает свой счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% критического урона (До <style=\"highlight\">40%</style>)"
+                  "desc": "+(потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*])% к критическому урону (До <style=\"highlight\">40%</style>)"
                 }
               ]
             }

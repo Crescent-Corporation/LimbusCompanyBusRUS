@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Слежка за добычей",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\n[WhenUse] Эта ячейка получает 2 [Aggro:*Провокации*] на следующий ход",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2\n[WhenUse] Эта ячейка получает 2 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {},
             {
@@ -21,7 +21,7 @@
         {
           "level": 2,
           "name": "Слежка за добычей",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 3\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 3\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {},
             {
@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Слежка за добычей",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 4\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 4\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход",
           "coinlist": [
             {},
             {
@@ -135,7 +135,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] +30% критического урона"
+                  "desc": "[CriticalOnSucceedAttack] +30% к критическому урону"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] +50% критического урона"
+                  "desc": "[CriticalOnSucceedAttack] +50% к критическому урону"
                 }
               ]
             }
@@ -403,7 +403,7 @@
         {
           "level": 1,
           "name": "Препятствие запрещено",
-          "desc": "При ударе по щиту, атакующий повышает свой счётчик [Vibration:*Тремора*] на 1 (Эффект этого навыка не суммируется)",
+          "desc": "При ударе по щиту, атакующий повышает собственный счётчик [Vibration:*Тремора*] на 1 (Эффект этого навыка не суммируется)",
           "coinlist": [
             {
               "coindescs": [
@@ -417,7 +417,7 @@
         {
           "level": 4,
           "name": "Препятствие запрещено",
-          "desc": "При ударе по щиту, атакующий повышает свой счётчик [Vibration:*Тремора*] на 1 (Эффект этого навыка не суммируется)",
+          "desc": "При ударе по щиту, атакующий повышает собственный счётчик [Vibration:*Тремора*] на 1 (Эффект этого навыка не суммируется)",
           "coinlist": [
             {
               "coindescs": [
@@ -442,7 +442,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 2"
                 }
               ]
             }
@@ -456,14 +456,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 2</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -477,14 +477,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 2<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -575,14 +575,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на 5"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на ([Charge] × 3) (До 9)"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на ([Charge] × 3) (До 9)"
                 }
               ]
             },
@@ -604,14 +604,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на <style=\"highlight\">7</style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на <style=\"highlight\">7</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:*Заряда*] на ([Charge] × 3) (До 9)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на ([Charge] × 3) (До 9)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -632,7 +632,7 @@
         {
           "level": 1,
           "name": "Подзарядка",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 3 (Раз за ход)",
+          "desc": "[WhenUse] Повышает собственный счётчик [Charge:*Заряда*] на 3 (Раз за ход)",
           "coinlist": [
             {}
           ]
@@ -640,7 +640,7 @@
         {
           "level": 4,
           "name": "Подзарядка",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:*Заряда*] на 3(<style=\"highlight\">Дважды</style> за ход)",
+          "desc": "[WhenUse] Повышает собственный счётчик [Charge:*Заряда*] на 3(<style=\"highlight\">Дважды</style> за ход)",
           "coinlist": [
             {}
           ]
@@ -786,7 +786,7 @@
         {
           "level": 3,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] +7% урона а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
           "coinlist": [
             {
               "coindescs": [
@@ -813,7 +813,7 @@
         {
           "level": 4,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] +12% урона а каждый [Coffin] на Хитклифе (До 120%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] +12% к урону а каждый [Coffin] на Хитклифе (До 120%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
           "coinlist": [
             {
               "coindescs": [
@@ -844,7 +844,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "О, Дуллахан!..",
+          "name": "О Дуллахан!..",
           "desc": "[DuelCounter]\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n[EndBattle] Если же Хитклиф[NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
@@ -859,7 +859,7 @@
         },
         {
           "level": 3,
-          "name": "О, Дуллахан!..",
+          "name": "О Дуллахан!..",
           "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」(Единожды за ход)</style>\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и боле [Sinking:*Утопания*]</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
@@ -874,7 +874,7 @@
         },
         {
           "level": 4,
-          "name": "О, Дуллахан!..",
+          "name": "О Дуллахан!..",
           "desc": "[DuelCounter]\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」 (Единожды за ход)\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Утопания*] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Получает (серия парирований ÷ 3) [AttackUp:*Повышений уровня атаки*] на следующий ход (До 3, единожды за ход)</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
@@ -895,7 +895,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +7% урона а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% урона за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -925,7 +925,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% урона за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% урона за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -960,7 +960,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +7% урона а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% урона за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -990,7 +990,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% урона за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% урона за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% урона за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1025,7 +1025,7 @@
         {
           "level": 1,
           "name": "Ответный огонь",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1053,7 +1053,7 @@
         {
           "level": 2,
           "name": "Ответный огонь",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\n<style=\"highlight\">[WhenUse] Получает 1 [Agility] на следующий ход (Раз за ход)</style>",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2\n<style=\"highlight\">[WhenUse] Получает 1 [Agility] на следующий ход (Раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,7 +1061,7 @@
                   "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1</style>"
                 }
               ]
             },
@@ -1084,7 +1084,7 @@
         {
           "level": 4,
           "name": "Ответный огонь",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2\n[WhenUse] Получает <style=\"highlight\">2</style> [Agility:*Спешки*] на следующий ход (Раз за ход)",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2\n[WhenUse] Получает <style=\"highlight\">2</style> [Agility:*Спешки*] на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1092,7 +1092,7 @@
                   "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1137,7 +1137,7 @@
         {
           "level": 2,
           "name": "В голову!",
-          "desc": "<style=\"highlight\"> Если цель медленнее Хитклифа, +10% урона за каждую единицу разницы в скорости (До 30%)</style>\n[WhenUse] Получает 3 [Breath:*Дыхания*] и повышает его счётчик на 1\n<style=\"highlight\">[WhenUse] Получает 2 [Agility:*Спешки*] на следующий ход (Раз за ход)</style>",
+          "desc": "<style=\"highlight\"> Если цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 30%)</style>\n[WhenUse] Получает 3 [Breath:*Дыхания*] и повышает его счётчик на 1\n<style=\"highlight\">[WhenUse] Получает 2 [Agility:*Спешки*] на следующий ход (Раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1145,7 +1145,7 @@
                   "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">+30% критического урона</style>"
+                  "desc": "<style=\"highlight\">+30% к критическому урону</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp] (До 2-х раз за ход)<style=\"highlight\"></style>"
@@ -1160,7 +1160,7 @@
         {
           "level": 4,
           "name": "В голову!",
-          "desc": "Если цель медленнее Хитклифа, +10% урона за каждую единицу разницы в скорости <style=\"highlight\">(До 50%)</style>\n[WhenUse] Получает 3 [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">2</style>\n[WhenUse] Получает 2 [Agility:*Спешки*] на следующий ход (Раз за ход)",
+          "desc": "Если цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости <style=\"highlight\">(До 50%)</style>\n[WhenUse] Получает 3 [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">2</style>\n[WhenUse] Получает 2 [Agility:*Спешки*] на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1188,7 +1188,7 @@
         {
           "level": 3,
           "name": "Прямо в яблочко",
-          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% урона за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12.5)% урона",
+          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12.5)% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -1196,10 +1196,10 @@
                   "desc": "Тратит 1 [Bullet:*Патрон*]"
                 },
                 {
-                  "desc": "+50% критического урона"
+                  "desc": "+50% к критическому урону"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% урона"
+                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% к урону"
                 }
               ]
             }
@@ -1208,7 +1208,7 @@
         {
           "level": 4,
           "name": "Прямо в яблочко",
-          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% урона за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12.5)% урона\n<style=\"highlight\">[EndSkill] Повышает свой счётчик [Breath:*Дыхания*] на 2</style>",
+          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12.5)% к урону\n<style=\"highlight\">[EndSkill] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1219,10 +1219,10 @@
                   "desc": "<style=\"highlight\">+80%</style> критического урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">+(сопротивление цели к колющему урону × 50)% критического урона</style>"
+                  "desc": "<style=\"highlight\">+(сопротивление цели к колющему урону × 50)% к критическому урону</style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% урона<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% к урону<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1261,7 +1261,7 @@
         {
           "level": 3,
           "name": "Ателье Логик: Высокоскоростной пробивной патрон",
-          "desc": "Если цель медленнее Хитклифа, +10% урона за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 25)% урона",
+          "desc": "Если цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 25)% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -1269,10 +1269,10 @@
                   "desc": "Тратит [Bullet_LogicAtelier]"
                 },
                 {
-                  "desc": "+100% критического урона"
+                  "desc": "+100% к критическому урону"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% урона"
+                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% к урону"
                 }
               ]
             }
@@ -1281,7 +1281,7 @@
         {
           "level": 4,
           "name": "Ателье Логик: Высокоскоростной пробивной патрон",
-          "desc": "Если цель медленнее Хитклифа, +10% урона за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 25)% урона\n<style=\"highlight\">[EndSkill] Повышает свой счётчик [Breath:*Дыхания*] на 5</style>",
+          "desc": "Если цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 25)% к урону\n<style=\"highlight\">[EndSkill] Повышает собственный счётчик [Breath:*Дыхания*] на 5</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1292,10 +1292,10 @@
                   "desc": "<style=\"highlight\">+130%</style> критического урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">+(сопротивление цели к колющему урону × 50)% критического урона</style>"
+                  "desc": "<style=\"highlight\">+(сопротивление цели к колющему урону × 50)% к критическому урону</style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% урона<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Если потенциал [Breath:*Дыхания*] превышает 30-и, то тратит до 10 [Breath:*Дыхания*] из избытка для +(потраченного [Breath:*Дыхания*] × 10)% к урону<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1510,7 +1510,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +10% урона последней монетой"
+                  "desc": "[OnSucceedAttack] +10% к урону последней монетой"
                 }
               ]
             },
@@ -1520,14 +1520,14 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +10% урона последней монетой"
+                  "desc": "[OnSucceedAttack] +10% к урону последней монетой"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+10% урона за каждый негативный эффект на цели (До 30%)"
+                  "desc": "+10% к урону за каждый негативный эффект на цели (До 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 6 [Laceration:*Кровотечения*]"
@@ -1547,7 +1547,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +10% урона последней монетой<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] +10% к урону последней монетой<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1557,14 +1557,14 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +10% урона последней монетой<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] +10% к урону последней монетой<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+10% урона за каждый негативный эффект на цели <style=\"highlight\">(До 100%)</style>"
+                  "desc": "+10% к урону за каждый негативный эффект на цели <style=\"highlight\">(До 100%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 6 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
@@ -1601,7 +1601,7 @@
         {
           "level": 4,
           "name": "Правила Подворотен",
-          "desc": "[DuelCounter]\n<b>При наличии на поле Вакагасиры клана «Курокумо» Измаил:</b>\n- Все монеты этого навыка становятся [SuperCoin:*Вечными*]\n- Итоговая сила <style=\"highlight\">+4 при победе в поединке\n+10% урона за каждый негативный эффект на цели (До 100%)</style>\n[WhenUse] При наличии [CloudWall:*Кучевых преград*] Хитклиф подкидывает монеты на этом навыке без особых условий",
+          "desc": "[DuelCounter]\n<b>При наличии на поле Вакагасиры клана «Курокумо» Измаил:</b>\n- Все монеты этого навыка становятся [SuperCoin:*Вечными*]\n- Итоговая сила <style=\"highlight\">+4 при победе в поединке\n+10% к урону за каждый негативный эффект на цели (До 100%)</style>\n[WhenUse] При наличии [CloudWall:*Кучевых преград*] Хитклиф подкидывает монеты на этом навыке без особых условий",
           "coinlist": [
             {
               "coindescs": [
@@ -1646,7 +1646,7 @@
         {
           "level": 4,
           "name": "Правила Подворотен",
-          "desc": "Сила монет +1 при 6 и более [Laceration:*Кровотечения*] на цели\n+10% урона за каждый негативный эффект на цели (До 100%)\n[WhenUse] При наличии [CloudWall:*Кучевых преград*] Хитклиф подкидывает монеты на этом навыке без особых условий",
+          "desc": "Сила монет +1 при 6 и более [Laceration:*Кровотечения*] на цели\n+10% к урону за каждый негативный эффект на цели (До 100%)\n[WhenUse] При наличии [CloudWall:*Кучевых преград*] Хитклиф подкидывает монеты на этом навыке без особых условий",
           "coinlist": [
             {
               "coindescs": [

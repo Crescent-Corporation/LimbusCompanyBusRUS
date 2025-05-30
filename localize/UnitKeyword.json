@@ -102,7 +102,7 @@
     },    
     {
       "id": "UnitKeyword_DEAD_RABBITS",
-      "content": "Дэд Рэбитс"
+      "content": "«Дэд Рэбитс»"
     },    
     {
       "id": "UnitKeyword_WILD_HUNT",
@@ -138,7 +138,7 @@
     },
     {
       "id": "UnitKeyword_BACKSTREET_COOK",
-      "content": "БуР"
+      "content": "«БуР»"
     },
     {
       "id": "UnitKeyword_TIEQIU",
@@ -186,15 +186,27 @@
     },
     {
       "id": "UnitKeyword_LIMBUS_COMPANY_LCE",
-      "content": "Отдел LCE"
+      "content": "Отдел «LCE»"
     },
     {
       "id": "UnitKeyword_LIMBUS_COMPANY_LCC",
-      "content": "Отдел LCC"
+      "content": "Отдел «LCC»"
     },
     {
       "id": "UnitKeyword_LIMBUS_COMPANY_LCB",
-      "content": "Отдел LCB"
+      "content": "Отдел «LCB»"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_RABBIT",
+      "content": "Мао из «Хэйшоу»"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST",
+      "content": "«Хэйшоу»"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_SNAKE",
+      "content": "Сы из «Хэйшоу»"
     }
   ]
 }

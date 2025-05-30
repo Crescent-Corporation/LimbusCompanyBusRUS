@@ -351,7 +351,7 @@
         {
           "level": 3,
           "name": "Молниеносное пронзание",
-          "desc": "+30% урона против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
+          "desc": "+30% к урону против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -386,7 +386,7 @@
         {
           "level": 4,
           "name": "Молниеносное пронзание",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Combustion:*Огня*]</style>\n+30% урона против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Combustion:*Огня*]</style>\n+30% к урону против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -459,7 +459,7 @@
         {
           "level": 1,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -471,7 +471,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Vibration:*Тремора*] на 1"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 1"
@@ -483,7 +483,7 @@
         {
           "level": 2,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -495,7 +495,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
@@ -507,7 +507,7 @@
         {
           "level": 4,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n[WhenUse]Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n[WhenUse]Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -519,7 +519,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 1<style=\"highlight\"></style>"
@@ -536,12 +536,12 @@
         {
           "level": 1,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             },
@@ -551,12 +551,12 @@
         {
           "level": 2,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Vibration:*Тремора*] на 2<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на 2</style>"
@@ -569,12 +569,12 @@
         {
           "level": 4,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Связывания*] на цели (До 15%)</style>\n[WhenUse] Повышает свой счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Связывания*] на цели (До 15%)</style>\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:*Тремора*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Vibration:*Тремора*] на 2<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>"
@@ -846,7 +846,7 @@
         {
           "level": 4,
           "name": "Курьерская сумка: Выпуск гаджетов",
-          "desc": "<style=\"highlight\">+2% урона за каждую единицу на [DevyatDimensionalSack:*Курьерской сумке*] (До 40%)</style>\nСила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] Роди или 6 [Burst:*Разрывов*] на цели (До 2)\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, этот навык не тратит счётчик [Burst:*Разрывов*] при ударе",
+          "desc": "<style=\"highlight\">+2% к урону за каждую единицу на [DevyatDimensionalSack:*Курьерской сумке*] (До 40%)</style>\nСила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] Роди или 6 [Burst:*Разрывов*] на цели (До 2)\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, этот навык не тратит счётчик [Burst:*Разрывов*] при ударе",
           "coinlist": [
             {
               "coindescs": [
@@ -879,7 +879,7 @@
         {
           "level": 3,
           "name": "Давай, Полуденька!",
-          "desc": "+2% урона за каждую единицу на [DevyatDimensionalSack:*Курьерской сумке*] (До 40%)\nСила монет +1 при 10 и более на [DevyatDimensionalSack:*Курьерской сумке*] или 6 и более [Burst:*Разрывов*] на цели\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, не тратит счётчик [Burst:*Разрывов*] на цели и снова подкидывает монету",
+          "desc": "+2% к урону за каждую единицу на [DevyatDimensionalSack:*Курьерской сумке*] (До 40%)\nСила монет +1 при 10 и более на [DevyatDimensionalSack:*Курьерской сумке*] или 6 и более [Burst:*Разрывов*] на цели\n[WhenUse] Если на цели более 15 [Burst:*Разрывов*] и 3 счётчиков этого эффекта, не тратит счётчик [Burst:*Разрывов*] на цели и снова подкидывает монету",
           "coinlist": [
             {},
             {
@@ -892,7 +892,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +15% урона при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*]"
+                  "desc": "[OnSucceedAttack] +15% к урону при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*]"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)"
@@ -1256,7 +1256,7 @@
         {
           "level": 1,
           "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
-          "desc": "[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% урона за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "desc": "[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% к урону за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1293,7 +1293,7 @@
         {
           "level": 4,
           "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% урона за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% к урону за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1322,6 +1322,272 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Змеиный перелив",
+          "desc": "[WhenUse] Родя повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Змеиный перелив",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма потенциалов [Breath:*Дыхания*] Роди и [Burst:*Разрывов*] цели равно 10-и и более</style>\n[WhenUse] Родя повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если Родя развернула свои [SnakeStance], она наносит 1 [Burst] на цель</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Змеиный перелив",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов [Breath:*Дыхания*] Роди и [Burst:*Разрывов*] цели (До 2-х)</style>\n[WhenUse] Родя повышает собственный счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если Родя развернула свои [SnakeStance], она наносит <style=\"highlight\">2</style> [Burst:*Разрыва*] на цель"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Змеиные клыки",
+          "desc": "[WinDuel] Родя повышает счётчик [Burst:*Разрывов*] цели на 2\n[WinDuel] Родя повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Змеиные клыки",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма потенциалов [Breath:*Дыхания*] Роди и [Burst:*Разрывов*] цели равно 10-и и более</style>\n[WinDuel] Родя повышает счётчик [Burst:*Разрывов*] цели на 2\n[WinDuel] Родя повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Роди 30 и более [Breath:*Дыхания*], она тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Змеиные клыки",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов [Breath:*Дыхания*] Роди и [Burst:*Разрывов*] цели (До 2-х)</style>\n[WinDuel] Родя повышает счётчик [Burst:*Разрывов*] цели на 2\n[WinDuel] Родя повышает собственный счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если у Роди 30 и более [Breath:*Дыхания*], она тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Родя разворачивает свои [SnakeStance]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Смертоносная хаотичность змей",
+          "desc": "[WideAreaRampage]\n[WhenUse] Сила монет +1, если сумма потенциалов [Breath:*Дыхания*] Роди и [Burst:*Разрывов*] основной цели данного навыка равен 10-и и более единиц\n[WhenUse] Родя повышает силу парирований на число [SnakeStance:*Усилений змееподобных рук*] на себе\n[WhenUse] Родя получает 3 [SnakeStance:*Усиления змееподобных рук*]\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] всех целей на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя повышает собственный счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Родя снимает 1 [BurstPoison] с цели"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает эту монету (До 2-х раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смертоносная хаотичность змей",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов [Breath:*Дыхания*] Роди и [Burst:*Разрывов*] основной цели данного навыка (До 2-х)</style>\n[WhenUse] Родя повышает силу парирований на число [SnakeStance:*Усилений змееподобных рук*] на себе\n[WhenUse] Родя получает 3 [SnakeStance:*Усиления змееподобных рук*]\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] всех целей на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя повышает собственный счётчик [Breath:*Дыхания*] на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Родя снимает 1 [BurstPoison] с цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает эту монету (До 2-х раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный толчок",
+          "desc": "[CanDuelGuard]\n[StartBattle] Родя получает 3 [SnakeStance:*Усиления змееподобных рук*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обратный толчок",
+          "desc": "[CanDuelGuard]\n[StartBattle] Родя получает 3 [SnakeStance:*Усиления змееподобных рук*] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более единицах [Breath:*Дыхания*] у Роди</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 }
               ]
             }

@@ -555,7 +555,7 @@
     },
     {
       "id": "mainui_ego_awaken_skill_reinforcement",
-      "content": "Пробуждение ЭГО обновлено"
+      "content": "Проявление ЭГО обновлено"
     },
     {
       "id": "mainui_ego_erosion_skill_reinforcement",
@@ -619,7 +619,7 @@
     },
     {
       "id": "mainui_ego_awaken_skill_name_reinforcement",
-      "content": "Пробуждение ЭГО 『{0}』 усилено"
+      "content": "Проявление ЭГО 『{0}』 усилено"
     },
     {
       "id": "mainui_ego_erosion_skill_name_reinforcement",
@@ -827,7 +827,7 @@
     },
     {
       "id": "mainui_unlock_condition_by_personality_awaken_level",
-      "content": "Открывается на {0} уровне Связи"
+      "content": "Открывается на\n{0} уровне Связи"
     },
     {
       "id": "skill_growth_value",
@@ -1115,7 +1115,7 @@
     },
     {
       "id": "mainui_unlock_condition_by_ego_awaken_level",
-      "content": "Открывается на {0} уровне Связи"
+      "content": "Открывается на\n{0} уровне Связи"
     },
     {
       "id": "empty_mailbox_notice",

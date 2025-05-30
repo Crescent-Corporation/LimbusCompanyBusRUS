@@ -547,10 +547,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за каждое [Laceration] на цели (До 20%)"
+                  "desc": "[OnSucceedAttack] +1% к урону за каждое [Laceration] на цели (До 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за каждый [Burst] на цели (До 20%)"
+                  "desc": "[OnSucceedAttack] +1% к урону за каждый [Burst] на цели (До 20%)"
                 }
               ]
             }
@@ -582,10 +582,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за каждое [Laceration] на цели <style=\"highlight\">(До 30%)</style>"
+                  "desc": "[OnSucceedAttack] +1% к урону за каждое [Laceration] на цели <style=\"highlight\">(До 30%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за каждый [Burst] на цели <style=\"highlight\">(До 30%)</style>"
+                  "desc": "[OnSucceedAttack] +1% к урону за каждый [Burst] на цели <style=\"highlight\">(До 30%)</style>"
                 }
               ]
             }
@@ -620,10 +620,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за каждое [Laceration] на цели (До 30%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] +1% к урону за каждое [Laceration] на цели (До 30%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за каждый [Burst] на цели (До 30%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] +1% к урону за каждый [Burst] на цели (До 30%)<style=\"highlight\"></style>"
                 }
               ]
             }

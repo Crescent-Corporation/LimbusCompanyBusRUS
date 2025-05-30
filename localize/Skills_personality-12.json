@@ -76,7 +76,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "При 6 и более [DefenseUp:*Повышениях уровня защиты*], наносит +20% урона"
+                  "desc": "При 6 и более [DefenseUp:*Повышениях уровня защиты*], наносит +20% к урону"
                 }
               ]
             }
@@ -105,7 +105,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "При 6 и более [DefenseUp:*Повышениях уровня защиты*], наносит +30% урона"
+                  "desc": "При 6 и более [DefenseUp:*Повышениях уровня защиты*], наносит +30% к урону"
                 }
               ]
             }
@@ -134,7 +134,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "При 6 и более [DefenseUp:*Повышениях уровня защиты*], наносит +40% урона"
+                  "desc": "При 6 и более [DefenseUp:*Повышениях уровня защиты*], наносит +40% к урону"
                 }
               ]
             }
@@ -148,7 +148,7 @@
         {
           "level": 3,
           "name": "Защитник",
-          "desc": "[WhenUse] Даёт всем союзникам 2 [Endurance:*Повышения силы защиты*] и 3 [DefenseUp:*Повышения уровня защиты*]\nСила монет +1 при 6 и более [DefenseUp:*Повышениях уровня защиты*]\n+30% урона при 10 и более [DefenseUp:*Повышениях уровня защиты*]",
+          "desc": "[WhenUse] Даёт всем союзникам 2 [Endurance:*Повышения силы защиты*] и 3 [DefenseUp:*Повышения уровня защиты*]\nСила монет +1 при 6 и более [DefenseUp:*Повышениях уровня защиты*]\n+30% к урону при 10 и более [DefenseUp:*Повышениях уровня защиты*]",
           "coinlist": [
             {},
             {},
@@ -164,7 +164,7 @@
         {
           "level": 4,
           "name": "Защитник",
-          "desc": "[WhenUse] Даёт всем союзникам 2 [Endurance:*Повышения силы защиты*] и 3 [DefenseUp:*Повышения уровня защиты*]\nСила монет +1 за каждые 6 [DefenseUp:*Повышений уровня защиты*] (До 3)\n+50% урона при 10 и более [DefenseUp:*Повышениях уровня защиты*]",
+          "desc": "[WhenUse] Даёт всем союзникам 2 [Endurance:*Повышения силы защиты*] и 3 [DefenseUp:*Повышения уровня защиты*]\nСила монет +1 за каждые 6 [DefenseUp:*Повышений уровня защиты*] (До 3)\n+50% к урону при 10 и более [DefenseUp:*Повышениях уровня защиты*]",
           "coinlist": [
             {},
             {},
@@ -216,7 +216,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:*Дыхания*] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает собственный счётчик [Breath:*Дыхания*] на 1"
                 }
               ]
             }
@@ -230,7 +230,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
@@ -254,7 +254,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "Односторонний бизнес",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 2",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -302,7 +302,7 @@
         {
           "level": 2,
           "name": "Односторонний бизнес",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 3",
+          "desc": "[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -323,7 +323,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "+30% урона, если удар был критическим"
+                  "desc": "+30% к урону, если удар был критическим"
                 }
               ]
             }
@@ -332,7 +332,7 @@
         {
           "level": 4,
           "name": "Односторонний бизнес",
-          "desc": "Сила монет +1 за каждые 7 [Laceration:*Кровотечения*] на цели (До 2 раз)\n[WhenUse] Повышает свой счётчик [Breath:*Дыхания*] на 3",
+          "desc": "Сила монет +1 за каждые 7 [Laceration:*Кровотечения*] на цели (До 2 раз)\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -353,7 +353,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "+50% урона, если удар был критическим"
+                  "desc": "+50% к урону, если удар был критическим"
                 }
               ]
             }
@@ -382,7 +382,7 @@
                   "desc": "Тратит 1 [Bullet:*Патрон*]"
                 },
                 {
-                  "desc": "+50% урона, если удар был критическим"
+                  "desc": "+50% к урону, если удар был критическим"
                 }
               ]
             }
@@ -406,7 +406,7 @@
                   "desc": "Тратит 1 [Bullet:*Патрон*]"
                 },
                 {
-                  "desc": "+100% урона, если удар был критическим"
+                  "desc": "+100% к урону, если удар был критическим"
                 },
                 {
                   "desc": "[EnemyKill] Получает 1 Усиление положительной монеты на следующий ход"
@@ -906,7 +906,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [BloodyHandGregFirst:*Обагрённую кровью руку*]"
+                  "desc": "[OnSucceedAttack] Получает 1 [BloodyHandGregFirst:*УсилениеОбагрённой кровью руки*]"
                 }
               ]
             }
@@ -930,7 +930,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [BloodyHandGregFirst:*Обагрённые кровью руки*]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]"
                 }
               ]
             }
@@ -954,7 +954,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [BloodyHandGregFirst:*Обагрённые кровью руки*]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]"
                 }
               ]
             }
@@ -968,7 +968,7 @@
         {
           "level": 1,
           "name": "Растущая вина",
-          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[WhenUse] При 5 и более единицах [WornHeartGreg:*Истощённого сердца*] тратит до 60 долей [BloodDinner:*Кровавого пиршества*], и за каждые 6 потраченных долей получает по 1 [BloodyHandGregFirst:*Обагрённой кровью руке*]\n- Если же у Грегора менее 5 единиц на [WornHeartGreg:*Истощённом сердце*], он получает 2 [BloodyHandGregFirst:*Обагрённой кровью руки*] и 10 [Laceration:*Кровотечения*]",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[WhenUse] При 5 и более единицах [WornHeartGreg:*Истощённого сердца*] тратит до 60 долей [BloodDinner:*Кровавого пиршества*], и за каждые 6 потраченных долей получает по 1 [BloodyHandGregFirst:*Усилению Обагрённой кровью руки*]\n- Если же у Грегора менее 5 единиц на [WornHeartGreg:*Истощённом сердце*], он получает 2 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] и 10 [Laceration:*Кровотечения*]",
           "coinlist": [
             {
               "coindescs": [
@@ -983,7 +983,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [BloodyHandGregFirst:*Обагрённую кровью руку*]"
+                  "desc": "[OnSucceedAttack] Получает 1 [BloodyHandGregFirst:*Усиление Обагрённой кровью руки*]"
                 }
               ]
             }
@@ -992,7 +992,7 @@
         {
           "level": 2,
           "name": "Растущая вина",
-          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[WhenUse] При 5 и более единицах [WornHeartGreg:*Истощённого сердца*] тратит до 60 долей [BloodDinner:*Кровавого пиршества*] и за каждые 6 затраченных долей получает по 1 [BloodyHandGregFirst:*Обагрённую кровью руку*]\n- Если же у Грегора менее 5 единиц на [WornHeartGreg:*Истощённом сердце*], он получает 10 [Laceration:*Кровотечения*] и 2 [BloodyHandGregFirst:*Обагрённой кровью руки*]",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[WhenUse] При 5 и более единицах [WornHeartGreg:*Истощённого сердца*] тратит до 60 долей [BloodDinner:*Кровавого пиршества*] и за каждые 6 затраченных долей получает по 1 [BloodyHandGregFirst:*Усилению Обагрённой кровью руки*]\n- Если же у Грегора менее 5 единиц на [WornHeartGreg:*Истощённом сердце*], он получает 10 [Laceration:*Кровотечения*] и 2 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1006,7 +1006,7 @@
         {
           "level": 4,
           "name": "Растущая вина",
-          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2)</style>\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[WhenUse] При 5 и более единицах [WornHeartGreg:*Истощённого сердца*] тратит до 60 долей [BloodDinner:*Кровавого пиршества*] и за каждые 6 затраченных долей получает по 1 [BloodyHandGregFirst:*Обагрённую кровью руку*]\n- Если же у Грегора менее 5 единиц на [WornHeartGreg:*Истощённом сердце*], он получает 10 [Laceration:*Кровотечения*] и <style=\"highlight\">3</style> [BloodyHandGregFirst:*Обагрённой кровью руки*]",
+          "desc": "[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2)</style>\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[WhenUse] При 5 и более единицах [WornHeartGreg:*Истощённого сердца*] тратит до 60 долей [BloodDinner:*Кровавого пиршества*] и за каждые 6 затраченных долей получает по 1 [BloodyHandGregFirst:*Усилению Обагрённой кровью руки*]\n- Если же у Грегора менее 5 единиц на [WornHeartGreg:*Истощённом сердце*], он получает 10 [Laceration:*Кровотечения*] и <style=\"highlight\">3</style> [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1021,7 +1021,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [BloodyHandGregFirst:*Обагрённых кровью руки*]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]"
                 }
               ]
             }
@@ -1035,12 +1035,12 @@
         {
           "level": 3,
           "name": "Несмываемый грех",
-          "desc": "При успешной атаке этим навыком Грегор способен восполнить до 50% собственных ОЗ (До 100 ОЗ за навык)\n[WhenUse] +1% урона за каждый 1% потерянных ОЗ (До 60%)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[WhenUse] Понижает число [BloodyHandGregFirst:*Обагрённые кровью руки*]Обагрённых кровью рук*] на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных [BloodyHandGregFirst:*Рук*]) ОЗ\n- Сила монет +1 при трате 10 и более [BloodyHandGregFirst:*Рук*]\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
+          "desc": "При успешной атаке этим навыком Грегор способен восполнить до 50% собственных ОЗ (До 100 ОЗ за навык)\n[WhenUse] +1% к урону за каждый 1% потерянных ОЗ (До 60%)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[WhenUse] Понижает число [BloodyHandGregFirst:*Усилений Обагрённой кровью руки*] на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных [BloodyHandGregFirst:*Рук*]) ОЗ\n- Сила монет +1 при трате 10 и более [BloodyHandGregFirst:*Рук*]\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [BloodyHandGregFirst:*Обагрённые кровью руки*]"
+                  "desc": "[OnSucceedAttack] Получает 2 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]"
                 }
               ]
             },
@@ -1069,12 +1069,12 @@
         {
           "level": 4,
           "name": "Несмываемый грех",
-          "desc": "При успешной атаке этим навыком Грегор способен восполнить до 50% собственных ОЗ (До 100 ОЗ за навык)\n[WhenUse] <style=\"highlight\">+1.5% за каждый 1% потерянных ОЗ (До 90%)</style>\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[WhenUse] Понижает число [BloodyHandGregFirst:*Обагрённые кровью руки*]Обагрённых кровью рук*] на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных [BloodyHandGregFirst:*Рук*]) ОЗ\n- Сила монет +1 при трате 10 и более [BloodyHandGregFirst:*Рук*]\n<style=\"highlight\">- При трате 20 [BloodyHandGregFirst:*Рук*] Грегор вновь подкидывает последнюю монету</style>\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
+          "desc": "При успешной атаке этим навыком Грегор способен восполнить до 50% собственных ОЗ (До 100 ОЗ за навык)\n[WhenUse] <style=\"highlight\">+1.5% за каждый 1% потерянных ОЗ (До 90%)</style>\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[WhenUse] Понижает число [BloodyHandGregFirst:*Усилений Обагрённой кровью руки*] на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных [BloodyHandGregFirst:*Рук*]) ОЗ\n- Сила монет +1 при трате 10 и более [BloodyHandGregFirst:*Рук*]\n<style=\"highlight\">- При трате 20 [BloodyHandGregFirst:*Рук*] Грегор вновь подкидывает последнюю монету</style>\n[WhenUse] Получает 10 [Laceration:*Кровотечения*]\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [BloodyHandGregFirst:*Обагрённые кровью руки*]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*]"
                 }
               ]
             },
@@ -1108,7 +1108,7 @@
         {
           "level": 1,
           "name": "Иссякающее терпение",
-          "desc": "[StartBattle] Получает 3 [BloodyHandGregFirst:*Обагрённые кровью руки*] (Единожды за ход)",
+          "desc": "[StartBattle] Получает 3 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1122,7 +1122,7 @@
         {
           "level": 4,
           "name": "Иссякающее терпение",
-          "desc": "<style=\"highlight\">[StartBattle] При 40%+ ОЗ Грегор получает 5 [Laceration:*Кровотечения*] и активирует его до 3-х раз (Единожды за ход. Каждая активация понижает счётчик [Laceration:*Кровотечения*])\n[StartBattle] Если ОЗ Грегора менее 40%, он потребляет до 20 долей [BloodDinner:*Кровавого пиршества*], восстанавливая им равное число ОЗ (Единожды за ход)</style>\n[StartBattle] Получает 3 [BloodyHandGregFirst:*Обагрённые кровью руки*] (Единожды за ход)",
+          "desc": "<style=\"highlight\">[StartBattle] При 40%+ ОЗ Грегор получает 5 [Laceration:*Кровотечения*] и активирует его до 3-х раз (Единожды за ход. Каждая активация понижает счётчик [Laceration:*Кровотечения*])\n[StartBattle] Если ОЗ Грегора менее 40%, он потребляет до 20 долей [BloodDinner:*Кровавого пиршества*], восстанавливая им равное число ОЗ (Единожды за ход)</style>\n[StartBattle] Получает 3 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1210,7 +1210,7 @@
         {
           "level": 1,
           "name": "Я выжгу каждую каплю их гнусной крови",
-          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]\nВ состоянии [FirePunchFuelOverheated:*Перегретого топлива*], +10% урона монетами при трате [FirePunchFuel:*Топлива*]",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]\nВ состоянии [FirePunchFuelOverheated:*Перегретого топлива*], +10% к урону монетами при трате [FirePunchFuel:*Топлива*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1237,7 +1237,7 @@
         {
           "level": 2,
           "name": "Я выжгу каждую каплю их гнусной крови",
-          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]\n+10% урона монетами при трате [FirePunchFuel:*Топлива*]\n<style=\"highlight\">- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] взамен наносит +20% урона</style>",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]\n+10% к урону монетами при трате [FirePunchFuel:*Топлива*]\n<style=\"highlight\">- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] взамен наносит +20% к урону</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1264,7 +1264,7 @@
         {
           "level": 4,
           "name": "Я выжгу каждую каплю их гнусной крови",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6</style>[Combustion:*Огня*] на цели <style=\"highlight\">(До 2-х)</style>\n+<style=\"highlight\">15</style>% урона монет при трате [FirePunchFuel:*Топлива*]\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] взамен наносит +<style=\"highlight\">30</style>% урона",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6</style>[Combustion:*Огня*] на цели <style=\"highlight\">(До 2-х)</style>\n+<style=\"highlight\">15</style>% к урону монет при трате [FirePunchFuel:*Топлива*]\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] взамен наносит +<style=\"highlight\">30</style>% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -1296,7 +1296,7 @@
         {
           "level": 3,
           "name": "Пламенные кулаки",
-          "desc": "Сила монет +1 против целей с 3 и более на счётчике [Combustion:*Огня*]\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:*Огня*] на цели (До 2)\n[WhenUse] Грегор тратит до 25 долей [FirePunchFuel:*Топлива*]Топлива и за каждую долю наносит +1% урона (До 25%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] при трате [FirePunchFuel:*Топлива*] +3% урона (До 75%)\n[EndSkill] При убийстве цели или трате [FirePunchFuel:*Топлива*] этим навыком Грегор получает 1 [HitDamageUp] на следующий ход",
+          "desc": "Сила монет +1 против целей с 3 и более на счётчике [Combustion:*Огня*]\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:*Огня*] на цели (До 2)\n[WhenUse] Грегор тратит до 25 долей [FirePunchFuel:*Топлива*]Топлива и за каждую долю наносит +1% к урону (До 25%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] при трате [FirePunchFuel:*Топлива*] +3% к урону (До 75%)\n[EndSkill] При убийстве цели или трате [FirePunchFuel:*Топлива*] этим навыком Грегор получает 1 [HitDamageUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1315,7 +1315,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1% урона за трату каждой доли [FirePunchFuel:*Топлива*] этим навыком (До 25%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] при трате [FirePunchFuel:*Топлива*] +3% урона (До 75%)"
+                  "desc": "[OnSucceedAttack] +1% к урону за трату каждой доли [FirePunchFuel:*Топлива*] этим навыком (До 25%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] при трате [FirePunchFuel:*Топлива*] +3% к урону (До 75%)"
                 }
               ]
             }
@@ -1324,7 +1324,7 @@
         {
           "level": 4,
           "name": "Пламенные кулаки",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 3 единицы</style> на счётчике [Combustion:*Огня*] <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:*Огня*] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Грегор тратит до 25 долей [FirePunchFuel:*Топлива*] и за каждую долю наносит +<style=\"highlight\">2</style>% (До <style=\"highlight\">50</style>%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] взамен наносит +<style=\"highlight\">4</style>% урона за каждую долю [FirePunchFuel:*Топлива*] (До <style=\"highlight\">100</style>%)\n[EndSkill] При убийстве цели или трате [FirePunchFuel:*Топлива*] Грегор получает <style=\"highlight\">2</style> [HitDamageUp:*Повышения дробящего урона*] на следующий ход",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 3 единицы</style> на счётчике [Combustion:*Огня*] <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:*Огня*] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Грегор тратит до 25 долей [FirePunchFuel:*Топлива*] и за каждую долю наносит +<style=\"highlight\">2</style>% (До <style=\"highlight\">50</style>%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*] взамен наносит +<style=\"highlight\">4</style>% к урону за каждую долю [FirePunchFuel:*Топлива*] (До <style=\"highlight\">100</style>%)\n[EndSkill] При убийстве цели или трате [FirePunchFuel:*Топлива*] Грегор получает <style=\"highlight\">2</style> [HitDamageUp:*Повышения дробящего урона*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1343,7 +1343,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При трате [FirePunchFuel:*Топлива*] этим навыком наносит +<style=\"highlight\">2</style>% урона за каждую долю (До <style=\"highlight\">50</style>%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*], взамен наносит +<style=\"highlight\">4</style>% урона за долю [FirePunchFuel:*Топлива*] (До <style=\"highlight\">100</style>%)"
+                  "desc": "[OnSucceedAttack] При трате [FirePunchFuel:*Топлива*] этим навыком наносит +<style=\"highlight\">2</style>% к урону за каждую долю (До <style=\"highlight\">50</style>%)\n- В состоянии [FirePunchFuelOverheated:*Перегретого топлива*], взамен наносит +<style=\"highlight\">4</style>% к урону за долю [FirePunchFuel:*Топлива*] (До <style=\"highlight\">100</style>%)"
                 }
               ]
             }
@@ -1356,7 +1356,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Старшая сестрёнка, я буду держаться, ради тебя",
+          "name": "Сестрица, я буду держаться, ради тебя",
           "desc": "[DuelCounter]\n[StartBattle] Получает полный бак из 100 долей [FirePunchFuel:*Топлива*]",
           "coinlist": [
             {
@@ -1370,13 +1370,287 @@
         },
         {
           "level": 4,
-          "name": "Старшая сестрёнка, я буду держаться, ради тебя",
+          "name": "Сестрица, я буду держаться, ради тебя",
           "desc": "[DuelCounter]\n[StartBattle] Получает полный бак из 100 долей [FirePunchFuel:*Топлива*]",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Змеиные клыки",
+          "desc": "[WhenUse] Грегор повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Змеиные клыки",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] основной цели данного навыка равен 10-и и более единиц</style>\n[WhenUse] Грегор повышает собственный счётчик [Burst:*Дыхания*] на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Пока [SnakeStance] раскрыты, Грегор повышает счётчик [Burst:*Разрывов*] на 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Змеиные клыки",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] основной цели данного навыка (До 2-х)</style>\n[WhenUse] Грегор повышает собственный счётчик [Burst:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Пока [SnakeStance] раскрыты, Грегор повышает счётчик [Burst:*Разрывов*] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение во тьме",
+          "desc": "[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на 1\n[WinDuel] Грегор повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Рассечение во тьме",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] основной цели данного навыка равен 10-и и более единиц</style>\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на 1\n[WinDuel] Грегор повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Грегора 30 и более [Breath:*Дыхания*], он тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рассечение во тьме",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] основной цели данного навыка (До 2-х)</style>\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на <style=\"highlight\">2</style>\n[WinDuel] Грегор повышает собственный счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Burst] 2 부여<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у Грегора 30 и более [Breath:*Дыхания*], он тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Грегор разворачивает свои [SnakeStance]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Конечное пронзание змееруками",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] на цели (До 4-х)\n- Пока [SnakeStance] раскрыты, сила монет +1 за каждые 5 единиц в сумме потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] на цели (До 6-и) \n[WhenUse] Грегор получает 3 [SnakeStance:*Усиления змееподобных рук*]\n[WinDuel] Грегор получает 5 [Breath:*Дыхания*] при атаке цели с 5-ю и более [Burst:*Разрывами*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "+5% к урону за каждую сумму потенциалов ([Burst] на цели + [Breath] у Грегора) (До 150%)"
+                },
+                {
+                  "desc": "+75% к критическому урону, если Грегор развернул свои [SnakeStance]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор снимает 2 [BurstPoison:*Порчи 【Яд】*] с цели"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Грегор снимает ещё 3 [BurstPoison:*Порчи 【Яд】*] с цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конечное пронзание змееруками",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] на цели (До 4-х)\n- Пока [SnakeStance] раскрыты, сила монет +1 за каждые 5 единиц в сумме потенциалов [Breath:*Дыхания*] Грегора и [Burst:*Разрывов*] на цели (До 6-и) \n[WhenUse] Грегор получает 3 [SnakeStance:*Усиления змееподобных рук*]\n[WinDuel] Грегор получает 5 [Breath:*Дыхания*] при атаке цели с 5-ю и более [Burst:*Разрывами*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+10%</style> к урону за каждую сумму потенциалов ([Burst] на цели + [Breath] у Грегора) <style=\"highlight\">(До 200%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+100%</style> к критическому урону, если Грегор развернул свои [SnakeStance]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор снимает 2 [BurstPoison:*Порчи 【Яд】*] с цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Грегор снимает ещё 3 [BurstPoison:*Порчи 【Яд】*] с цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Грегор повышает счётчик [Burst:*Разрывов*] цели на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный толчок",
+          "desc": "[CanDuelGuard]\n[StartBattle] Грегор получает 3 [SnakeStance:*Усиления змееподобных рук*] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обратный толчок",
+          "desc": "[CanDuelGuard]\n[StartBattle] Грегор получает 3 [SnakeStance:*Усиления змееподобных рук*] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более единицах [Breath:*Дыхания*] у Грегора</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 }
               ]
             }

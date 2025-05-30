@@ -646,7 +646,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+1% урона по основной цели за каждую единицу [Combustion:*Огня*] на ней (До 50%)"
+                  "desc": "+1% к урону по основной цели за каждую единицу [Combustion:*Огня*] на ней (До 50%)"
                 },
                 {
                   "desc": "[EnemyKill] Родя даёт 1 [CrimsonResultUp] и 1 [CrimsonDamageUp] (1 + наибольший резонанс) союзникам с самым низким здоровьем (До 4-х человек, единожды за навык)"
@@ -680,7 +680,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+1% урона по основной цели за каждую единицу [Combustion:*Огня*] на ней (До 50%)"
+                  "desc": "+1% к урону по основной цели за каждую единицу [Combustion:*Огня*] на ней (До 50%)"
                 },
                 {
                   "desc": "[EnemyKill] Родя даёт 1 [CrimsonResultUp] и 1 [CrimsonDamageUp] (1 + наибольший резонанс) союзникам с самым низким здоровьем (До <style=\"highlight\">5</style>-и человек, единожды за навык)"
@@ -717,7 +717,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+<style=\"highlight\">2</style>% урона по основной цели за каждую единицу [Combustion:*Огня*] на ней (До <style=\"highlight\">100</style>%)"
+                  "desc": "+<style=\"highlight\">2</style>% к урону по основной цели за каждую единицу [Combustion:*Огня*] на ней (До <style=\"highlight\">100</style>%)"
                 },
                 {
                   "desc": "[EnemyKill] Родя даёт 1 [CrimsonResultUp] и 1 [CrimsonDamageUp] (1 + наибольший резонанс) союзникам с самым низким здоровьем (До <style=\"highlight\">6</style>-и человек, единожды за навык)"

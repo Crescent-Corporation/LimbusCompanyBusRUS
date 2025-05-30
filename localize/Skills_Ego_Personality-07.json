@@ -270,7 +270,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+5% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 35%)"
+                  "desc": "+5% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 35%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
@@ -295,7 +295,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "+<style=\"highlight\">10</style>% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">70</style>%)"
+                  "desc": "+<style=\"highlight\">10</style>% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">70</style>%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
@@ -314,13 +314,13 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">7</style>)\n[BeforeAttack] Повышает свой счётчик [Breath:*Дыхания*] на 1\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">7</style>)\n[BeforeAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "+<style=\"highlight\">15</style>% критического урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">105</style>%)"
+                  "desc": "+<style=\"highlight\">15</style>% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">105</style>%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
@@ -344,7 +344,7 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-            "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] +2% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 3)\n[BeforeAttack] +3% урона за каждые 5 [Breath:*Дыхания*] на себе (До 15%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
+            "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] +2% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 3)\n[BeforeAttack] +3% к урону за каждые 5 [Breath:*Дыхания*] на себе (До 15%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -359,7 +359,7 @@
           "level": 3,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n<style=\"highlight\">[BeforeAttack] При 3 и более [BoseProjektil:*Разорванных воспоминаниях*], тяжесть атаки +1</style>\n[BeforeAttack] +2% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">4</style>)\n[BeforeAttack] +<style=\"highlight\">4</style>% урона за каждые 5 [Breath:*Дыхания*] на себе (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n<style=\"highlight\">[BeforeAttack] При 3 и более [BoseProjektil:*Разорванных воспоминаниях*], тяжесть атаки +1</style>\n[BeforeAttack] +2% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 14%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">4</style>)\n[BeforeAttack] +<style=\"highlight\">4</style>% к урону за каждые 5 [Breath:*Дыхания*] на себе (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -374,7 +374,7 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Тяжесть атаки +1 <style=\"highlight\">за каждые 3</style> [BoseProjektil:*Разорванных воспоминаниях*] <style=\"highlight\">(До 2)</style>\n[BeforeAttack] +<style=\"highlight\">3</style>% урона за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">21</style>%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">7</style>)\n[BeforeAttack] +<style=\"highlight\">5</style>%  (До <style=\"highlight\">25</style>%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) [BoseProjektil:*Разорванных воспоминаний*] (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) [BoseProjektil:*Разорванных воспоминаний*]\n[BeforeAttack] Тяжесть атаки +1 <style=\"highlight\">за каждые 3</style> [BoseProjektil:*Разорванных воспоминаниях*] <style=\"highlight\">(До 2)</style>\n[BeforeAttack] +<style=\"highlight\">3</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">21</style>%)\n[BeforeAttack] Получает [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">7</style>)\n[BeforeAttack] +<style=\"highlight\">5</style>%  (До <style=\"highlight\">25</style>%)\n[BeforeAttack] Тратит 5 [Breath:*Дыхания*] на себе\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -394,7 +394,7 @@
           "level": 1,
           "name": "Крен инерции",
           "abName": "Заводная неваляшка времени",
-          "desc": "[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (наибольший резонанс) (До 6-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "desc": "[BeforeAttack] Хитклиф повышает собственный счётчик [Vibration:*Тремора*] на (наибольший резонанс) (До 6-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -422,7 +422,7 @@
           "level": 3,
           "name": "Крен инерции",
           "abName": "Заводная неваляшка времени",
-          "desc": "[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (<style=\"highlight\">2 +</style> наибольший резонанс) (До <style=\"highlight\">8</style>-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "desc": "[BeforeAttack] Хитклиф повышает собственный счётчик [Vibration:*Тремора*] на (<style=\"highlight\">2 +</style> наибольший резонанс) (До <style=\"highlight\">8</style>-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -450,7 +450,7 @@
           "level": 4,
           "name": "Крен инерции",
           "abName": "Заводная неваляшка времени",
-          "desc": "[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (<style=\"highlight\">4 +</style> наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "desc": "[BeforeAttack] Хитклиф повышает собственный счётчик [Vibration:*Тремора*] на (<style=\"highlight\">4 +</style> наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -483,7 +483,7 @@
           "level": 1,
           "name": "Крен инерции",
           "abName": "Заводная неваляшка времени",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на  (2 + наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает собственный счётчик [Vibration:*Тремора*] на  (2 + наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -514,7 +514,7 @@
           "level": 3,
           "name": "Крен инерции",
           "abName": "Заводная неваляшка времени",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (<style=\"highlight\">4 +</style> наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает собственный счётчик [Vibration:*Тремора*] на (<style=\"highlight\">4 +</style> наибольший резонанс) (До 8-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
@@ -545,7 +545,7 @@
           "level": 4,
           "name": "Крен инерции",
           "abName": "Заводная неваляшка времени",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает свой счётчик [Vibration:*Тремора*] на (4 + наибольший резонанс) (До <style=\"highlight\">10</style>-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Хитклиф повышает собственный счётчик [Vibration:*Тремора*] на (4 + наибольший резонанс) (До <style=\"highlight\">10</style>-и; до 20-и за ход)\n- [Switch_Vibration:*Преобразует амплитуду*] своего [Vibration:*Тремора*] в [VibrationSpring]",
           "coinlist": [
             {
               "coindescs": [
