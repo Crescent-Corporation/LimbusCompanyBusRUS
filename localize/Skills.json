@@ -3273,14 +3273,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             },
@@ -3301,7 +3301,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": ""
@@ -3311,7 +3311,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             },
@@ -3337,21 +3337,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -3368,21 +3368,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
@@ -3404,14 +3404,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 2 [Vulnerable:*Уязвимости*]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 2 [Vulnerable:*Уязвимости*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 2 [Vulnerable:*Уязвимости*]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 2 [Vulnerable:*Уязвимости*]"
                 }
               ]
             },
@@ -4099,14 +4099,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -4127,14 +4127,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 8 [Vibration:*Тремора*]; Повышает счётчик [Vibration:*Тремора*] на 2"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 8 [Vibration:*Тремора*]; Повышает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 8 [Vibration:*Тремора*]; Повышает счётчик [Vibration:*Тремора*] на 2"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 8 [Vibration:*Тремора*]; Повышает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }
@@ -4160,21 +4160,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 5 [Vulnerable:*Уязвимостей*]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 5 [Vulnerable:*Уязвимостей*]"
                 }
               ]
             }
@@ -4195,21 +4195,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]; Повышает счётчик [Burst:*Разрыва*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]\n[OnSucceedAttack] Наносит 5 [Vulnerable:*Уязвимостей*]"
+                  "desc": "Тратит 1 [Bullet]\n[OnSucceedAttack] Наносит 5 [Vulnerable:*Уязвимостей*]"
                 }
               ]
             }
@@ -5476,7 +5476,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает грани оглушения грешника на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Понижает черты оглушения грешника на 50% от нанесённого урона"
                 }
               ]
             }
@@ -8903,8 +8903,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nПри провокации [Vibration:*Тремора*], снижает счётчик [Vibration:*Тремора*] на 3, затем Тратит все единицы на счётчике [Charge:*Заряда*] на повышение грани оглушения на (счётчик [Charge:*Заряда*] × 5)% (До 50%)",
-                  "summary": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*], затем снижает счётчик [Vibration:*Тремора*] на 3; Тратит Заряд на повышение грани оглушения"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nПри провокации [Vibration:*Тремора*], снижает счётчик [Vibration:*Тремора*] на 3, затем Тратит все единицы на счётчике [Charge:*Заряда*] на повышение черты оглушения на (счётчик [Charge:*Заряда*] × 5)% (До 50%)",
+                  "summary": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*], затем снижает счётчик [Vibration:*Тремора*] на 3; Тратит Заряд на повышение черты оглушения"
                 }
               ]
             }
@@ -8948,8 +8948,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nПри провокации [Vibration:*Тремора*], снижает счётчик [Vibration:*Тремора*] на 3, затем Тратит все единицы на счётчике [Charge:*Заряда*] на повышение грани оглушения на (счётчик [Charge:*Заряда*] × 5)% (До 50%)",
-                  "summary": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*], затем снижает счётчик [Vibration:*Тремора*] на 3; Тратит Заряд на повышение грани оглушения"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]\nПри провокации [Vibration:*Тремора*], снижает счётчик [Vibration:*Тремора*] на 3, затем Тратит все единицы на счётчике [Charge:*Заряда*] на повышение черты оглушения на (счётчик [Charge:*Заряда*] × 5)% (До 50%)",
+                  "summary": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*], затем снижает счётчик [Vibration:*Тремора*] на 3; Тратит Заряд на повышение черты оглушения"
                 }
               ]
             }

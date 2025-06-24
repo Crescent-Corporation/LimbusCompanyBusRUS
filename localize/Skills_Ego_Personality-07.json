@@ -279,7 +279,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet:*Патрон*] (До 2-ух раз)"
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet] (До 2-ух раз)"
                 }
               ]
             }
@@ -304,7 +304,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet:*Патрон*] (До 2-ух раз)"
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet] (До 2-ух раз)"
                 }
               ]
             }
@@ -329,7 +329,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet:*Патрон*] (До 3-х раз)"
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet] (До 3-х раз)"
                 }
               ]
             }
@@ -412,7 +412,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если наибольшим резонансом является абсолют из 4 и более Лености, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если наибольшим резонансом является абсолют из 4 и более Лености, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
                 }
               ]
             }
@@ -440,7 +440,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если наибольшим резонансом является <style=\"highlight\">абсолют из Лености</style>, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если наибольшим резонансом является <style=\"highlight\">абсолют из Лености</style>, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
                 }
               ]
             }
@@ -468,7 +468,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 1 [AmberTakeDamageUp]\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 1 [AmberTakeDamageUp] и на следующий ход"
                 }
               ]
             }
@@ -501,10 +501,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1."
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1."
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если наибольший резонанс — абсолют из 4 и более Лености, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если наибольший резонанс — абсолют из 4 и более Лености, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
                 }
               ]
             }
@@ -532,10 +532,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1."
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1."
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если наибольший резонанс —  <style=\"highlight\">абсолют Лености</style>, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если наибольший резонанс —  <style=\"highlight\">абсолют Лености</style>, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
                 }
               ]
             }
@@ -563,10 +563,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1."
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1."
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] целей на 1.\n- При [VibrationExplosion:*провокации Тремора*] Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*]\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 2 [AmberTakeDamageUp:*Уязвимости к Лености*] и на следующий ход"
                 }
               ]
             }

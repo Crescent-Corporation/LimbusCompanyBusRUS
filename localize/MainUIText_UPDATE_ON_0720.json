@@ -26,7 +26,7 @@
     },
     {
       "id": "mainui_target_num_label",
-      "content": "<size=250%><font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font></size>"
+      "content": "<font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font>"
     },
     {
       "id": "mainui_awaken_requirement_label",

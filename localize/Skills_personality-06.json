@@ -1094,14 +1094,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 1 [Breath]"
@@ -1111,7 +1111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 1 [Breath]"
@@ -1128,14 +1128,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:*Дыхания*]"
@@ -1145,7 +1145,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:*Дыхания*]"
@@ -1162,14 +1162,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
@@ -1179,7 +1179,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
@@ -1196,7 +1196,7 @@
         {
           "level": 1,
           "name": "Цель определена",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то повышает шанс активации [CoveringFire] этим грешником на 20% за каждый навык в наибольшем резонансе\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то повышает шанс активации [CoveringFire] этим грешником на 20% за каждый навык в наибольшем резонансе\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 2,
           "name": "Цель определена",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то повышает шанс активации [CoveringFire] этим грешником на 20% за каждый навык в наибольшем резонансе\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">2</style>",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то повышает шанс активации [CoveringFire] этим грешником на 20% за каждый навык в наибольшем резонансе\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1261,7 +1261,7 @@
         {
           "level": 4,
           "name": "Цель определена",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то повышает шанс активации [CoveringFire] этим грешником на 25% за каждый навык в наибольшем резонансе\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">3</style>",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то повышает шанс активации [CoveringFire] этим грешником на 25% за каждый навык в наибольшем резонансе\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1306,12 +1306,12 @@
         {
           "level": 3,
           "name": "Ставлю точку на жизни твоей",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то активирует [CoveringFire]\n[WhenUse] Получает 5 [Breath:*Дыхания*]",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то активирует [CoveringFire]\n[WhenUse] Получает 5 [Breath:*Дыхания*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "+(потраченных [Bullet:*Патронов*] × 10)% к урону"
@@ -1352,12 +1352,12 @@
         {
           "level": 4,
           "name": "Ставлю точку на жизни твоей",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то активирует [CoveringFire]\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n<style=\"highlight\">[WinDuel] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Если Хитклиф, корректировщик Офиса Точки на поле боя, то активирует [CoveringFire]\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n<style=\"highlight\">[WinDuel] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "+(потраченных [Bullet:*Патронов*] × <style=\"highlight\">15</style>)% к урону"
@@ -1436,7 +1436,7 @@
         {
           "level": 2,
           "name": "Синергия: Цель определена",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2\n[DefeatDuel] Итоговая сила навыка +5",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на 2\n[DefeatDuel] Итоговая сила навыка +5",
           "coinlist": [
             {
               "coindescs": [
@@ -1480,7 +1480,7 @@
         {
           "level": 4,
           "name": "Синергия: Цель определена",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">3</style>\n[DefeatDuel] Итоговая сила навыка +5",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">3</style>\n[DefeatDuel] Итоговая сила навыка +5",
           "coinlist": [
             {
               "coindescs": [
@@ -1535,12 +1535,12 @@
         {
           "level": 3,
           "name": "Синергия: Ставлю точку на жизни твоей",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[DefeatDuel] Итоговая сила навыка +5",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[DefeatDuel] Итоговая сила навыка +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "+(потраченных [Bullet:*Патронов*] × 10)% к урону"
@@ -1594,12 +1594,12 @@
         {
           "level": 4,
           "name": "Синергия: Ставлю точку на жизни твоей",
-          "desc": "Базовая сила +1 за каждый [Bullet:*Патрон*], который потратит этот навык\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n<style=\"highlight\">[WinDuel] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>\n[DefeatDuel] Итоговая сила навыка +5",
+          "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n<style=\"highlight\">[WinDuel] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>\n[DefeatDuel] Итоговая сила навыка +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "+(потраченных [Bullet:*Патронов*] × <style=\"highlight\">15</style>)% к урону"

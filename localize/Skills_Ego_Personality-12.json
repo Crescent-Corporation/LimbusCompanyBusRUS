@@ -415,7 +415,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             },
@@ -443,7 +443,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             },
@@ -474,7 +474,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             },
@@ -510,7 +510,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             },
@@ -538,7 +538,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             },
@@ -569,7 +569,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             },

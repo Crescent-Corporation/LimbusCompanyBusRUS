@@ -51,6 +51,18 @@
     {
       "id": "season_filter_5",
       "content": "Сезон 5"
+    },
+    {
+      "id": "season_filter_6",
+      "content": "Сезон 6"
+    },
+    {
+      "id": "season_title_6",
+      "content": "<cspace=-1px>ПОХОРОНЫ ЦВЕТОВ</cspace>"
+    },
+    {
+      "id": "season_title_6_EVENT",
+      "content": "<cspace=-2px>ПОХОРОНЫ ЦВЕТОВ [ИВЕНТ]</cspace>"
     }
   ]
 }

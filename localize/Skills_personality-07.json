@@ -1030,21 +1030,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 }
               ]
             }
@@ -1058,7 +1058,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1</style>"
@@ -1068,14 +1068,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1089,7 +1089,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает собственный счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
@@ -1099,14 +1099,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1125,7 +1125,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp] (До 2-х раз за ход)"
@@ -1142,7 +1142,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+30% к критическому урону</style>"
@@ -1165,7 +1165,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+50%</style> критического урона"
@@ -1193,7 +1193,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "+50% к критическому урону"
@@ -1213,7 +1213,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+80%</style> критического урона"

@@ -809,7 +809,7 @@
                                     "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:*Паралича*] на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Повышает грани оглушения на 8"
+                                    "desc": "[OnSucceedAttackTail] Повышает черты оглушения на 8"
                                 }
                             ]
                         }
@@ -828,7 +828,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает грани оглушения на 30"
+                                    "desc": "[OnSucceedAttack] Повышает черты оглушения на 30"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"
@@ -947,7 +947,7 @@
                                     "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:*Паралича*] на следующий ход"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Повышает грани оглушения на 8"
+                                    "desc": "[OnSucceedAttackTail] Повышает черты оглушения на 8"
                                 }
                             ]
                         }
@@ -966,7 +966,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает грани оглушения на 30"
+                                    "desc": "[OnSucceedAttack] Повышает черты оглушения на 30"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"

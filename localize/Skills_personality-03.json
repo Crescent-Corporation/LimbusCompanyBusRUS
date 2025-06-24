@@ -913,7 +913,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык потратил [Vibration] цели, [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык потратил [Vibration] цели, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }
@@ -941,7 +941,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот навык потратил [Vibration] цели [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если этот навык потратил [Vibration] цели [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1004,7 +1004,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, [Switch_Vibration:*преобразует амплитуду Тремора*] в [VibrationChainPersonality]<style=\"highlight\"></style>"

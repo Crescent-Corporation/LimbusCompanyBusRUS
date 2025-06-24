@@ -1147,6 +1147,478 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойной разрез: Треск",
+          "_comment": "Бао",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Двойной разрез: Треск",
+          "_comment": "Бао",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Vibration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Двойной разрез: Треск",
+          "_comment": "Бао",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели (До <style=\"highlight\">3-х</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Огня*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройной раскол: Треск",
+          "_comment": "Бао",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Тройной раскол: Треск",
+          "_comment": "Бао",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Vibration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у цели ещё 3 и более единицы на счётчике [Vibration:*Тремора*], Мерсо [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] понижается на 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Тройной раскол: Треск",
+          "_comment": "Бао",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели (До <style=\"highlight\">4-х</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели ещё 3 и более единицы на счётчике [Vibration:*Тремора*], Мерсо [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Рубим Гордиев узел",
+          "_comment": "Куань дао луань ма",
+          "desc": "Если у Мерсо есть [BulletPropellantSpecialAlly], взамен используется навык 「Хаотично-убойные разрезы убийцы ужасных тигров」\n- [BeforeUse] Без [BulletPropellantSpecialAlly:*Убойных патронов «Тигр-марка»*] замена не происходит\nСила монет +1 при 8-и и более единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "+20% к наносимому урону, если эта монета потратила [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Амплитуда Тремора преобразуется*] в [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1\n- При трате [BulletPropellantAlly:*Патрона «Тигр-марка»*] повторяет [VibrationExplosion:*провокацию Тремора*] и последующий за ней эффект"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рубим Гордиев узел",
+          "_comment": "Куань дао луань ма",
+          "desc": "Если у Мерсо есть [BulletPropellantSpecialAlly], взамен используется навык 「Хаотично-убойные разрезы убийцы ужасных тигров」\n- [BeforeUse] Без [BulletPropellantSpecialAlly:*Убойных патронов «Тигр-марка»*] замена не происходит\nСила монет +1 <style=\"highlight\">за каждые 8 единиц</style> в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели <style=\"highlight\">(До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantAlly:*Патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+50%</style> к наносимому урону, если эта монета потратила [BulletPropellantAlly:*Патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Амплитуда Тремора преобразуется*] в [VibrationIgnition]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1\n- При трате [BulletPropellantAlly:*Патрона «Тигр-марка»*] <style=\"highlight\">дважды</style> повторяет [VibrationExplosion:*провокацию Тремора*] и последующий за ней эффект"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ярость бурлит во мне.",
+          "desc": "[DuelCounter]\nИтоговая сила +1 при 4-х и более единицах в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели\nСила парирований +1, если у Мерсо не осталось ни [BulletPropellantAlly:*Патронов «Тигр-марка»*], ни [BulletPropellantSpecialAlly:*Убойных патронов «Тигр-марка»*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на 1 (Дважды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ярость бурлит во мне.",
+          "desc": "[DuelCounter]\nИтоговая сила +1 <style=\"highlight\">за каждые 4 единицы</style> в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели <style=\"highlight\">(До 2-х)</style>\nСила парирований <style=\"highlight\">+2</style>, если у Мерсо не осталось ни [BulletPropellantAlly:*Патронов «Тигр-марка»*], ни [BulletPropellantSpecialAlly:*Убойных патронов «Тигр-марка»*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Vibration] (Дважды за ход)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на 1 (Дважды за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Хаотично-убойные разрезы убийцы ужасных тигров",
+          "_comment": "Чао цзюэ мэн ху ша цзи луань чжань",
+          "desc": "Сила монет +1 при 8-и и более единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantSpecialAlly:*Убойный патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantSpecialAlly:*Убойный патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantSpecialAlly:*Убойный патрон «Тигр-марка»*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Амплитуда Тремора преобразуется*] в [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1\n- При трате [BulletPropellantSpecialAlly:*Убойного патрона «Тигр-марка»*] повторяет [VibrationExplosion:*провокацию Тремора*] и последующий за ней эффект"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Хаотично-убойные разрезы убийцы ужасных тигров",
+          "_comment": "Чао цзюэ мэн ху ша цзи луань чжань",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 8 единиц</style> в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на основной цели <style=\"highlight\">(До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Vibration:*Тремора*] цели на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantSpecialAlly:*Убойный патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantSpecialAlly:*Убойный патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Мерсо тратит 1 [BulletPropellantSpecialAlly:*Убойный патрон «Тигр-марка»*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Амплитуда Тремора преобразуется*] в [VibrationIgnition]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1\n- При трате [BulletPropellantSpecialAlly:*Убойного патрона «Тигр-марка»*] <style=\"highlight\">дважды</style> повторяет [VibrationExplosion:*провокацию Тремора*] и последующий за ней эффект"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

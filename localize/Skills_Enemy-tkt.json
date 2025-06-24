@@ -83,7 +83,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }
@@ -193,7 +193,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }
@@ -290,10 +290,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 10 и более единицах на своём счётчике [Vibration:*Тремора*] [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] При 10 и более единицах на своём счётчике [Vibration:*Тремора*] [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 15 и более единицах на потенциале [Vibration:*Тремора*] цели [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] При 15 и более единицах на потенциале [Vibration:*Тремора*] цели [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }
@@ -412,13 +412,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает собственный счётчик [Vibration:*Тремора*] на 3, затем [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] Понижает собственный счётчик [Vibration:*Тремора*] на 3, затем [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает собственный счётчик [Vibration:*Тремора*] на 3, затем [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] Понижает собственный счётчик [Vibration:*Тремора*] на 3, затем [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает собственный счётчик [Vibration:*Тремора*] на 3, затем [VibrationExplosion:*провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "[OnSucceedAttack] Понижает собственный счётчик [Vibration:*Тремора*] на 3, затем [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }

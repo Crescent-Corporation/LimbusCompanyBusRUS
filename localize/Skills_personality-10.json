@@ -849,7 +849,7 @@
                   "desc": "[OnSucceedAttack] Тратит до 8-и единиц на своём счётчике [Vibration:*Тремора*], перенося его на счётчик [Vibration:*Тремора*] цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             }
@@ -880,7 +880,7 @@
                   "desc": "[OnSucceedAttack] Тратит до 8-и единиц на своём счётчике [Vibration:*Тремора*], перенося его на счётчик [Vibration:*Тремора*] цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             }
@@ -1444,6 +1444,314 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Соблюдая нормы приличия.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Соблюдая нормы приличия.",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Соблюдая нормы приличия.",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n<style=\"highlight\">[WhenUse] Если на цели <b>особый вид</b> [Vibration:*Тремора*], сила парирований +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Почтение «Большому пальцу».",
+          "desc": "[WhenUse] Сила монет +1 при 6-и и более единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 6-и и более единиц [Vibration:*Тремора*] на цели Синклер [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Почтение «Большому пальцу».",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [VibrationIgnition:*Тремора: Накал*], Синклер повышает счётчик [Combustion:*Огня*] цели на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 6-и и более единиц [Vibration:*Тремора*] на цели Синклер [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Почтение «Большому пальцу».",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n<style=\"highlight\">[WhenUse] +10% к наносимому урону за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 30%)\n[WhenUse] Базовая сила +2 против целей с 10 и более единиц <b>особого</b> [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [VibrationIgnition:*Тремора: Накал*], Синклер повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 6-и и более единиц [Vibration:*Тремора*] на цели Синклер [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Сосредоточение силы тяги",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n[WhenUse] Базовая сила +1, если у Синклера осталось 3 и более [FireBulletPropellant:*Накалённых зажигательных патрона*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:*Накалённый зажигательный патрон*]"
+                },
+                {
+                  "desc": "+20% к наносимому урону, если эта монета растратила [FireBulletPropellant:*Зажигательный патрон*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Combustion:*Огня*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Амплитуда Тремора преобразуется*] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:*Накалённый зажигательный патрон*]"
+                },
+                {
+                  "desc": "+20% к наносимому урону, если эта монета растратила [FireBulletPropellant:*Зажигательный патрон*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:*Накалённый зажигательный патрон*]"
+                },
+                {
+                  "desc": "+20% к наносимому урону, если эта монета растратила [FireBulletPropellant:*Зажигательный патрон*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При трате [FireBulletPropellant:*Зажигательного патрона*] снова [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сосредоточение силы тяги",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n[WhenUse] <style=\"highlight\">Базовая сила +3, +30% к наносимому урону и все монеты становятся [SuperCoin:*вечными*]</style>, если у Синклера осталось 3 и более [FireBulletPropellant:*Накалённых зажигательных патрона*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:*Накалённый зажигательный патрон*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+25%</style> к наносимому урону, если эта монета растратила [FireBulletPropellant:*Зажигательный патрон*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Амплитуда Тремора преобразуется*] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:*Накалённый зажигательный патрон*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+25%</style> к наносимому урону, если эта монета растратила [FireBulletPropellant:*Зажигательный патрон*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:*Накалённый зажигательный патрон*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+25%</style> к наносимому урону, если эта монета растратила [FireBulletPropellant:*Зажигательный патрон*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Синклер повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При трате [FireBulletPropellant:*Зажигательного патрона*] снова [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык потратил 3 [FireBulletPropellant:*Зажигательных патрона*], снова [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Железная оборона",
+          "desc": "При ударе по щиту Синклер наносит атакующему 1 [Vibration] (Активируется до 3-х раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Железная оборона",
+          "desc": "При ударе по щиту Синклер наносит атакующему <style=\"highlight\">2</style> [Vibration:*Тремора*] (Активируется до <style=\"highlight\">4-х</style> раз за ход)",
+          "coinlist": [
+            {}
           ]
         }
       ]

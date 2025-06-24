@@ -86,7 +86,7 @@
                   "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }
@@ -110,7 +110,7 @@
                   "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }
@@ -134,7 +134,7 @@
                   "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После понижает счётчик [Vibration:*Тремора*] на 2"
                 }
               ]
             }

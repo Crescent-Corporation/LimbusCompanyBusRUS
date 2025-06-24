@@ -918,7 +918,7 @@
                   "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До 10)\n- +(Лишний [Vibration] × 1.5)% к урону (До 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack][VibrationExplosion:*Провоцирует Тремор*] во время [DefensiveStance:*Защитной стойки*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
@@ -952,7 +952,7 @@
                   "desc": "[OnSucceedAttack] Измаил тратит весь счётчик [Vibration:*Тремора*] и наносит [Vibration] пропорционально потраченному счётчику. (До <style=\"highlight\">20</style>)\n- +(Лишний [Vibration] × <style=\"highlight\">5</style>)% к урону (До <style=\"highlight\">50</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*] во время [DefensiveStance:*Защитной стойки*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
@@ -1246,6 +1246,375 @@
               "coindescs": [
                 {
                   "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенно-алая атака",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5-ю и более негативными эффектами\n[WinDuel] Измаил получает 1 [Breath] и повышает его счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пламенно-алая атака",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5-ю и более негативными эффектами\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 3-мя и более [Burst:*Разрывами*]</style>\n[WinDuel] Измаил получает 2 [Breath:*Дыхания*] и повышает его счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенно-алая атака",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5-ю и более негативными эффектами\n[WhenUse] Сила монет +1<style=\"highlight\">за каждые 3</style> [Burst:*Разрыва*] на цели <style=\"highlight\">(До 2-х)</style>\n[WinDuel] Измаил получает <style=\"highlight\">3</style> [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (<style=\"highlight\">Дважды</style> за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенно-алый феникс",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5-ю и более негативными эффектами",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил получает [Breath], равное числу [Burst:*Разрывов*] на цели (До 5-и)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Измаил повышает собственный счётчик [Breath:*Дыхания*], равный счётчику [Burst:*Разрывов*] на цели (До 3-х)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+(20 + [Breath] на Измаил + [Burst] цели)% к критическому урону (До 50%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пламенно-алый феникс",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5-ю и более негативными эффектами",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [DefenseDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [DefenseDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил получает [Breath], равное числу [Burst:*Разрывов*] на цели (До 5-и)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Измаил повышает собственный счётчик [Breath:*Дыхания*], равный счётчику [Burst:*Разрывов*] на цели (До 3-х)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+(20 + [Breath] на Измаил + [Burst] цели)% к критическому урону (До 50%)"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Измаил получает 3 [AttackUp:*Повышения уровня атаки*] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенно-алый феникс",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5-ю и более негативными эффектами\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 4-мя и более [Burst:*Разрывами*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> [DefenseDown:*Понижения уровня атаки*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> [DefenseDown:*Понижения уровня атаки*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Измаил получает [Breath], равное числу [Burst:*Разрывов*] на цели (До 5-и)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Измаил повышает собственный счётчик [Breath:*Дыхания*], равный счётчику [Burst:*Разрывов*] на цели (До 3-х)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+(20 + [Breath] на Измаил + [Burst] цели)% к критическому урону (До 50%)"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Измаил получает 3 [AttackUp:*Повышения уровня атаки*] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пламенно-алая весна",
+          "desc": "[BeforeAttack] Тяжесть атаки +1, если на основной цели 6 и более негативных эффектов\n[WhenUse] Сила монет +2 за каждые 3 негативных эффекта на основной цели (До 4-х)\n[WhenUse] Сила монет +1 за каждые 7 единиц в сумме ([Burst:*Разрывы*] + счётчики [Burst:*Разрывов*]) основной цели (До 3-х)\n[WinDuel] Измаил получает 4 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+(20 + [Breath] Измаил + [Burst:*Разрывы*] на основной цели)% к урону (До 40%)"
+                },
+                {
+                  "desc": "+(45 + [Breath] Измаил + [Burst:*Разрывы*] на основной цели)% к критическому урону (До 65%)"
+                },
+                {
+                  "desc": "+5% к критическому урону за каждый [StartXichun:*ход с Измаил в “готовности”*] (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 2 [Breath:*Дыхания*] и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Измаил повышает собственный счётчик [Breath:*Дыхания*] на 2 (До 3-х раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенно-алая весна",
+          "desc": "[BeforeAttack] Тяжесть атаки +1, если на основной цели 5 и более негативных эффектов\n<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1, если Измаил [StartXichun:*провела “в готовности”*] 3 и более ходов</style>\n[WhenUse] Сила монет +2 за каждые 3 негативных эффекта на основной цели (До <style=\"highlight\">6-и</style>)\n[WhenUse] Сила монет +1 за каждые 7 единиц в сумме ([Burst:*Разрывы*] + счётчики [Burst:*Разрывов*]) основной цели (До <style=\"highlight\">5-и</style>)\n[WinDuel] Измаил получает 4 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">50</style> + [Breath] Измаил + [Burst:*Разрывы*] на основной цели)% к урону (До <style=\"highlight\">75</style>%)"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">80</style> + [Breath] Измаил + [Burst:*Разрывы*] на основной цели)% к критическому урону (До <style=\"highlight\">105</style>%)"
+                },
+                {
+                  "desc": "+5% к критическому урону за каждый [StartXichun:*ход с Измаил в “готовности”*] (До 30%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Измаил повышает счётчик [Burst:*Разрывов*] цели на 1</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 2 [Breath:*Дыхания*] и повышает его счётчик на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Измаил повышает собственный счётчик [Breath:*Дыхания*] на 2 (До 3-х раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Превосходные увороты",
+          "desc": "[StartBattle] Если Измаил [StartXichun:*провела “в готовности”*] 3 и более ходов, она [RetreatForCommon:*отступает*] с поля боя\n- Измаил отступает на первый номер запаса (возвращается в битву раньше остальных грешников в запасе)\n[OnSucceedEvade] Измаил получает 2 [Breath:*Дыхания*] (До 2-х раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Превосходные увороты",
+          "desc": "[StartBattle] Если Измаил [StartXichun:*провела “в готовности”*] 3 и более ходов, она [RetreatForCommon:*отступает*] с поля боя\n- Измаил отступает на первый номер запаса (возвращается в битву раньше остальных грешников в запасе)\n<style=\"highlight\">[WhenUse] Измаил повышает собственный счётчик [Breath:*Дыхания*] на 1 (До 2-х раз за ход)</style>\n[OnSucceedEvade] Измаил получает 2 [Breath:*Дыхания*] (До 2-х раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенно-алая атака: Из ожидания",
+          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик наа 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пламенно-алая атака: Из ожидания",
+          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик наа 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более [WaitingXichun:*проведённых в ожидании ходах*]</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенно-алая атака: Из ожидания",
+          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик наа 2\n[WhenUse] Сила монет +<style=\"highlight\">2</style> при 3 и более [WaitingXichun:*проведённых в ожидании ходах*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 }
               ]
             }

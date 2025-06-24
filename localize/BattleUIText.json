@@ -562,7 +562,7 @@
     },
     {
       "id": "targetSlotWeight",
-      "content": "<size=250%><font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font></size>"
+      "content": "<font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font>"
     },
     {
       "id": "EGO_ErodeProbability",
@@ -690,7 +690,7 @@
     },
     {
       "id": "current_hp",
-      "content": "Текущие ОЗ"
+      "content": "Текущее здоровье"
     },
     {
       "id": "break_section_format",

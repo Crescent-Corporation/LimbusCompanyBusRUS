@@ -675,7 +675,7 @@
                   "desc": "[OnSucceedAttack] Если на Роде есть [TimeRentalTwoPersonality], наносит 2 [TimeSuspend:*Временных моратория*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }

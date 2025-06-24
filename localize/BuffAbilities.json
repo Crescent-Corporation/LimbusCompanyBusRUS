@@ -16,7 +16,7 @@
     },
     {
       "id": "MaxHpMultiplierRail",
-      "desc": "{0}% максимальных ОЗ"
+      "desc": "{0}% здоровья"
     },
     {
       "id": "SlotWeightAdder",
@@ -48,7 +48,7 @@
     },
     {
       "id": "TakeHpHealMultiplier",
-      "desc": "Восстановление ОЗ от эффектов навыков {0}%"
+      "desc": "Восстановление здоровья от эффектов навыков {0}%"
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
@@ -60,7 +60,7 @@
     },
     {
       "id": "MaxHpMultiplier",
-      "desc": "{0}% максимальных ОЗ"
+      "desc": "{0}% здоровья"
     },
     {
       "id": "AtkAndDefAdder",

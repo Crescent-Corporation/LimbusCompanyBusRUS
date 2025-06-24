@@ -272,7 +272,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             }
@@ -293,7 +293,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationEcho]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -314,7 +314,7 @@
                   "desc": "[OnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationEcho]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -337,7 +337,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*] и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
                 }
               ]
             }
@@ -358,10 +358,10 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationEcho]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1.<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
                 }
               ]
             }
@@ -382,10 +382,10 @@
                   "desc": "[OnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationEcho]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
                 }
               ]
             }

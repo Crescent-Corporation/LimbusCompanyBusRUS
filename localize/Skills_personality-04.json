@@ -395,7 +395,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество [Vibration:*Тремора*] и [Burst:*Разрыва*]"
@@ -435,7 +435,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:*Патрон*]"
+                  "desc": "Тратит 1 [Bullet]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество [Vibration:*Тремора*] и [Burst:*Разрыва*]"
@@ -1132,7 +1132,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2"
                 }
               ]
             }
@@ -1160,7 +1160,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. Понижает счётчик [Vibration:*Тремора*] цели на <style=\"highlight\">1</style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на <style=\"highlight\">1</style>"
                 }
               ]
             }

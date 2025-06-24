@@ -348,21 +348,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 20% от повышения последней грани оглушения [VibrationExplosion:*провокацией Тремора*] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 20% от повышения последней черты оглушения [VibrationExplosion:*провокацией Тремора*] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 20% от повышения последней грани оглушения [VibrationExplosion:*провокацией Тремора*] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 20% от повышения последней черты оглушения [VibrationExplosion:*провокацией Тремора*] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 20% от повышения последней грани оглушения [VibrationExplosion:*провокацией Тремора*]. (До 13)\nПонижает счётчик [Vibration:*Тремора*] на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 20% от повышения последней черты оглушения [VibrationExplosion:*провокацией Тремора*]. (До 13)\nПонижает счётчик [Vibration:*Тремора*] на 3"
                 }
               ]
             }
@@ -376,21 +376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 30% от повышения последней грани оглушения [VibrationExplosion:*провокацией Тремора*]. (Max 20)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 30% от повышения последней черты оглушения [VibrationExplosion:*провокацией Тремора*]. (Max 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 30% от повышения последней грани оглушения [VibrationExplosion:*провокацией Тремора*]. (Max 20)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 30% от повышения последней черты оглушения [VibrationExplosion:*провокацией Тремора*]. (Max 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 30% от повышения последней грани оглушения [VibrationExplosion:*провокацией Тремора*]. (Max 20)\nПонижает счётчик [Vibration:*Тремора*] на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*],\nПосле наносит урон Гневом на 30% от повышения последней черты оглушения [VibrationExplosion:*провокацией Тремора*]. (Max 20)\nПонижает счётчик [Vibration:*Тремора*] на 3"
                 }
               ]
             }
@@ -1634,7 +1634,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [BurstZilu]"
+                  "desc": "[OnSucceedAttack] Фауст наносит [BurstZilu:*Порчу 【Расщелина】*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Фауст наносит [BurstAgility:*Порчу 【Спешка】*] на цель"
@@ -1660,7 +1660,7 @@
                   "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Единожды за навык)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Наносит [BurstZilu]"
+                  "desc": "[ReUseOnSucceedAttack] Фауст наносит [BurstZilu:*Порчу 【Расщелина】*]"
                 }
               ]
             }
@@ -1677,7 +1677,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [BurstZilu]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Фауст наносит [BurstZilu:*Порчу 【Расщелина】*]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Фауст наносит [BurstAgility:*Порчу 【Спешка】*] на цель<style=\"highlight\"></style>"
@@ -1703,7 +1703,7 @@
                   "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Наносит [BurstZilu]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Фауст наносит [BurstZilu:*Порчу 【Расщелина】*]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Фауст наносит [BurstAgility:*Порчу 【Спешка】*] на цель</style>"
