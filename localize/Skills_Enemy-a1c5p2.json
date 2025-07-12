@@ -114,14 +114,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                                 }
                             ]
                         }
@@ -140,10 +140,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 3"
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 3"
                                 }
                             ]
                         }
@@ -191,14 +191,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                                 }
                             ]
                         }
@@ -217,10 +217,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                                 }
                             ]
                         }
@@ -263,7 +263,7 @@
                 {
                     "level": 1,
                     "name": "-... .…",
-                    "desc": "Если на цели есть Утопание, то эффект лечения также действует на одного Обелённого союзника с наименьшей СД",
+                    "desc": "Если на цели есть Погружение, то эффект лечения также действует на одного Обелённого союзника с наименьшей СД",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -295,7 +295,7 @@
                 {
                     "level": 1,
                     "name": ".--- .",
-                    "desc": "Если на цели есть Утопание, то эффект лечения также действует на одного Обелённого союзника с наименьшей СД",
+                    "desc": "Если на цели есть Погружение, то эффект лечения также действует на одного Обелённого союзника с наименьшей СД",
                     "coinlist": [
                         {
                             "coindescs": [

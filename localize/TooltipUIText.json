@@ -1,0 +1,72 @@
+{
+  "dataList": [
+    {
+      "id": "unit_info_tooltip_status_0",
+      "content": "Максимальное здоровье"
+    },
+    {
+      "id": "unit_info_tooltip_status_1",
+      "content": "Диапазон скорости"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_0",
+      "content": "Сопротивление к рубящему урону (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_1",
+      "content": "Сопротивление к колющему урону (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_2",
+      "content": "Сопротивление к дробящему урону (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_0",
+      "content": "Сопротивление к Гневу (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_1",
+      "content": "Сопротивление к Похоти (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_2",
+      "content": "Сопротивление к Лености (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_3",
+      "content": "Сопротивление к Чревоугодию (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_4",
+      "content": "Сопротивление к Унынию (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_5",
+      "content": "Сопротивление к Гордыне (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_6",
+      "content": "Сопротивление к Зависти (Множитель урона)"
+    },
+    {
+      "id": "unit_info_tooltip_skill_count",
+      "content": "Число навыков"
+    },
+    {
+      "id": "unit_info_tooltip_targetting_count",
+      "content": "Тяжесть атаки"
+    },
+    {
+      "id": "unit_info_tooltip_targetting_count_desc",
+      "content": "Число атакуемых ячеек навыков."
+    },
+    {
+      "id": "unit_info_tooltip_ego_resource",
+      "content": "Число ЭГО-ресурсов, необходимых для использования навыка."
+    },
+    {
+      "id": "tooltip_ego_resource_ui",
+      "content": "Число ЭГО-ресурсов на руках."
+    }
+  ]
+}

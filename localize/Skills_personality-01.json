@@ -670,7 +670,7 @@
         {
           "level": 4,
           "name": "Трата знаний",
-          "desc": "Получает щит, равный (Откровение × 3% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]",
+          "desc": "Получает щит, равный (Откровение × 3% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
@@ -740,7 +740,7 @@
         {
           "level": 4,
           "name": "Сокрытие за печатью",
-          "desc": "Получает щит, равный (Откровение × 6% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
+          "desc": "Получает щит, равный (Откровение × 6% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {},
             {
@@ -775,7 +775,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -792,7 +792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -805,7 +805,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Утопание в поиск",
+          "name": "Погружение в поиск",
           "desc": "[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника\n[WhenUse] Эта ячейка получает 3 [Aggro:*Провокации*] на следующий ход",
           "coinlist": [
             {
@@ -819,7 +819,7 @@
         },
         {
           "level": 4,
-          "name": "Утопание в поиск",
+          "name": "Погружение в поиск",
           "desc": "[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника\n[WhenUse] Эта ячейка получает 5 [Aggro:*Провокаций*] на следующий ход",
           "coinlist": [
             {
@@ -845,7 +845,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 2"
                 }
               ]
             },
@@ -867,7 +867,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 2"
                 }
               ]
             },
@@ -889,7 +889,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 2"
                 }
               ]
             },
@@ -921,7 +921,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -941,7 +941,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -961,7 +961,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -984,7 +984,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1. При 4-х и более негативных эффектах на цели, дополнительно повышает счётчик наносимого эффекта на 2."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 3"
                 }
               ]
             },
@@ -994,7 +994,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]. При 4-х и более негативных эффектах на цели, дополнительно наносит 2 единицы нанесённого эффекта"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -1004,7 +1004,7 @@
                   "desc": "+15% к урону за каждый негативный эффект на цели (До 75%)"
                 },
                 {
-                  "desc": "[EndSkill] При оглушении или убийстве цели наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] случайному противнику"
+                  "desc": "[EndSkill] При оглушении или убийстве цели наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] случайному противнику"
                 }
               ]
             }
@@ -1022,7 +1022,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 1. При 3-х и более негативных эффектах на цели, дополнительно повышает счётчик наносимого эффекта на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] на 3"
                 }
               ]
             },
@@ -1032,7 +1032,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]. При 3-х и более негативных эффектах на цели, дополнительно наносит 2 единицы нанесённого эффекта"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -1042,7 +1042,7 @@
                   "desc": "+25% к урону за каждый негативный эффект на цели (До 125%)"
                 },
                 {
-                  "desc": "[EndSkill] При оглушении или убийстве цели наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*] 2-м случайным противникам"
+                  "desc": "[EndSkill] При оглушении или убийстве цели наносит 2 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*] 2-м случайным противникам"
                 }
               ]
             }
@@ -1116,7 +1116,7 @@
         {
           "level": 2,
           "name": "Поздравления ушедшим в мир иной",
-          "desc": "Сила монет +1 против целей с суммой [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 2",
+          "desc": "Сила монет +1 против целей с суммой [Sinking:*Погружения*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1143,7 +1143,7 @@
         {
           "level": 4,
           "name": "Поздравления ушедшим в мир иной",
-          "desc": "<style=\"highlight\">Сила парирований +1 при 10 и более [BulletLament:*бабочках Живых и Почивших*] у И Сана на руках</style>\nСила монет +1 против целей с суммой [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 2",
+          "desc": "<style=\"highlight\">Сила парирований +1 при 10 и более [BulletLament:*бабочках Живых и Почивших*] у И Сана на руках</style>\nСила монет +1 против целей с суммой [Sinking:*Погружения*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1202,7 +1202,7 @@
         {
           "level": 2,
           "name": "Оставшимся с нами же — торжественные соболезнования",
-          "desc": "Сила монет +1 против целей с суммой [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 1\n[EndSkill] Получает [BulletLament:*бабочки Живых и Почивших*] в запас по числу грехов в наибольшем резонансе (До 6)\n- Если наибольший резонанс является абсолютом, вместо этого получает (число грехов в абсолюте × 2) [BulletLament:*бабочек Живых и Почивших*] в запас (До 12)",
+          "desc": "Сила монет +1 против целей с суммой [Sinking:*Погружения*] и всех [SinkingWhite:*Бабочек*] на цели равен или более 6\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 1\n[EndSkill] Получает [BulletLament:*бабочки Живых и Почивших*] в запас по числу грехов в наибольшем резонансе (До 6)\n- Если наибольший резонанс является абсолютом, вместо этого получает (число грехов в абсолюте × 2) [BulletLament:*бабочек Живых и Почивших*] в запас (До 12)",
           "coinlist": [
             {
               "coindescs": [
@@ -1229,7 +1229,7 @@
         {
           "level": 4,
           "name": "Оставшимся с нами же — торжественные соболезнования",
-          "desc": "Сила парирований +1 при 10 и более [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках\nСила монет +1 <style=\"highlight\">за каждые 6 единиц</style> в сумме [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 1\n[EndSkill] Получает [BulletLament:*бабочки Живых и Почивших*] в запас по числу грехов в наибольшем резонансе (До 6)\n- Если наибольший резонанс является абсолютом, вместо этого получает (число грехов в абсолюте × 2) [BulletLament:*бабочек Живых и Почивших*] в запас (До 12)\n- Если в наибольшем абсолюте 4 и более греха, заменяет на [ReloadLament:*Перезарядку*]",
+          "desc": "Сила парирований +1 при 10 и более [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках\nСила монет +1 <style=\"highlight\">за каждые 6 единиц</style> в сумме [Sinking:*Погружения*] и всех [SinkingWhite:*Бабочек*] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 1\n[EndSkill] Получает [BulletLament:*бабочки Живых и Почивших*] в запас по числу грехов в наибольшем резонансе (До 6)\n- Если наибольший резонанс является абсолютом, вместо этого получает (число грехов в абсолюте × 2) [BulletLament:*бабочек Живых и Почивших*] в запас (До 12)\n- Если в наибольшем абсолюте 4 и более греха, заменяет на [ReloadLament:*Перезарядку*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1261,7 +1261,7 @@
         {
           "level": 3,
           "name": "И скорби акме нашей, словно альвеолы наполнив, испарись",
-          "desc": "Базовая сила +1 за каждые 10 [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 3\n[EndSkill] [ReloadLament:*Перезаряжается*]",
+          "desc": "Базовая сила +1 за каждые 10 [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 3\n[EndSkill] [ReloadLament:*Перезаряжается*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1308,7 +1308,7 @@
         {
           "level": 4,
           "name": "И скорби акме нашей, словно альвеолы наполнив, испарись",
-          "desc": "Базовая сила +1 за каждые <style=\"highlight\">5</style> [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках <style=\"highlight\">(До 4)</style>\nСила монет +1 за каждые 6 единиц в сумме [Sinking:*Утопания*] и всех [SinkingWhite:*Бабочек*] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 3\n[EndSkill] [ReloadLament:*Перезаряжается*]",
+          "desc": "Базовая сила +1 за каждые <style=\"highlight\">5</style> [BulletLament:*бабочек Живых и Почивших*] у И Сана на руках <style=\"highlight\">(До 4)</style>\nСила монет +1 за каждые 6 единиц в сумме [Sinking:*Погружения*] и всех [SinkingWhite:*Бабочек*] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 3\n[EndSkill] [ReloadLament:*Перезаряжается*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1919,6 +1919,343 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если на И Сане остался щит, повышает нанесение  [Combustion:*Огня*] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 1011301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Осознание ахиллесовой пяты",
+          "desc": "[WhenUse] +7% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 49%)\n[WhenUse] И Сан получает 1 [BoseProjektil:*Разорванное воспоминание*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Осознание ахиллесовой пяты",
+          "desc": "[WhenUse] +<style=\"highlight\">10</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">70</style>%)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:*Дыхания*] у И Сана\n[WhenUse] Базовая сила +1 при 3 и более единицах на счётчике [Breath:*Дыхания*] И Сана</style>\n[WhenUse] <style=\"highlight\">И Сан повышает собственный счётчик [Breath:*Дыхания*] на 1</style> и получает 1 [BoseProjektil:*Разорванное воспоминание*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан повышает собственный счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] цели на 1</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] И Сан получает 1 [BoseProjektil:*Разорванное воспоминание*]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Осознание ахиллесовой пяты",
+          "desc": "[WhenUse] +<style=\"highlight\">15</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">105</style>%)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 5 [Breath:*Дыхания*] у И Сана <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые</style> 3 единицы счётчика [Breath:*Дыхания*] И Сана <style=\"highlight\">(До 2-х)</style>\n[WhenUse] И Сан повышает собственный счётчик [Breath:*Дыхания*] на <style=\"highlight\">2</style> и получает 1 [BoseProjektil:*Разорванное воспоминание*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан повышает собственный счётчик [Breath:*Дыхания*] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack]</style> Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack]</style> И Сан получает 1 [BoseProjektil:*Разорванное воспоминание*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пробитие",
+          "desc": "[WhenUse] +10% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 70%)\n[WhenUse] И Сан получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 1 [BoseProjektil:*Разорванное воспоминание*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] И Сан получает 2 [BoseProjektil:*Разорванных воспоминания*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пробитие",
+          "desc": "[WhenUse] +10% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 70%)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:*Дыхания*] у И Сана</style>\n[WhenUse] И Сан получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 1 [BoseProjektil:*Разорванное воспоминание*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] [Laceration] 1 부여</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] И Сан получает 2 [BoseProjektil:*Разорванных воспоминания*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пробитие",
+          "desc": "[WhenUse] +<style=\"highlight\">15</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">105</style>%)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 5 [Breath:*Дыхания*] у И Сана <style=\"highlight\">(До 2-х)</style>\n[WhenUse] И Сан получает 2 [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack]</style> Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 1 [BoseProjektil:*Разорванное воспоминание*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] И Сан получает 2 [BoseProjektil:*Разорванных воспоминания*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Регулируемый огонь по цели",
+          "desc": "[StartBattle] <b>Выбирает цель с самым низким здоровьем</b>\n- При 7-и [BoseProjektil:*Разорванных воспоминаниях*] выбирает основной целью союзника\n[StartBattle] Тяжесть атаки +1 за каждые 3 [BoseProjektil:*Разорванных воспоминания*] у И Сана (До 2-х)\n[WhenUse] Сила монет +1 при 5 и более [Breath:*Дыхания*] у И Сана\n[WhenUse] Базовая сила +1 при 3 и более единицах на счётчике [Breath:*Дыхания*] И Сана\n[WhenUse] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] И Сан теряет ([BoseProjektil] × 2) СД (До 14 теряемой СД)\n[EndSkill] При 7-и [BoseProjektil:*Разорванных воспоминаниях*] в начале боевой фазы уничтожает их все\n- При уничтожении всех 7-и [BoseProjektil:*Разорванных воспоминаний*] или убийстве союзника И Сан восстанавливает 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон лишь основной цели"
+                },
+                {
+                  "desc": "<b>При атаке союзника:</b>\n- На время атаки данной монетой союзник становится <b>фатальным</b> к колющему урону"
+                },
+                {
+                  "desc": "- +5% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 35%)"
+                },
+                {
+                  "desc": "- +2% к критическому урону за каждое [Breath] у И Сана (До 40%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон только по вторичным целям"
+                },
+                {
+                  "desc": "- Если же основной целью был противник, взамен снова наносит урон только по ней"
+                },
+                {
+                  "desc": "- При неудачном убийстве союзника урон получает лишь <b>одна</b> случайная вторичная цель\n"
+                },
+                {
+                  "desc": "+15% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 105%)"
+                },
+                {
+                  "desc": "- При успешном убийстве союзника первой монетой взамен +30% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 210%)\n"
+                },
+                {
+                  "desc": "+2.5% к критическому урону за каждую единицу потенциала [Breath:*Дыхания*] (До 25%)"
+                },
+                {
+                  "desc": "+7% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 49%)"
+                },
+                {
+                  "desc": "+(Процент потерянного основной целью здоровья при атаке первой монетой)% к урону (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                },
+                {
+                  "desc": "- При убийстве союзника первой монетой взамен наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Регулируемый огонь по цели",
+          "desc": "[StartBattle] <b>Выбирает цель с самым низким здоровьем</b>\n- При 7-и [BoseProjektil:*Разорванных воспоминаниях*] выбирает основной целью союзника\n[StartBattle] Тяжесть атаки +1 за каждые 3 [BoseProjektil:*Разорванных воспоминания*] у И Сана (До 2-х)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 5 [Breath:*Дыхания*] у И Сана <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые</style> 3 единицы счётчика [Breath:*Дыхания*] И Сана <style=\"highlight\">(До 2-х)</style>\n[WhenUse] И Сан получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] (До 7-и)\n[EndSkill] И Сан теряет ([BoseProjektil] × 2) СД (До 14 теряемой СД)\n[EndSkill] При 7-и [BoseProjektil:*Разорванных воспоминаниях*] в начале боевой фазы уничтожает их все\n- При уничтожении всех 7-и [BoseProjektil:*Разорванных воспоминаний*] или убийстве союзника И Сан восстанавливает 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон лишь основной цели"
+                },
+                {
+                  "desc": "<b>При атаке союзника:</b>\n- На время атаки данной монетой союзник становится <b>фатальным</b> к колющему урону"
+                },
+                {
+                  "desc": "- +7% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 49%)"
+                },
+                {
+                  "desc": "- +3% к критическому урону за каждое [Breath] у И Сана (До 60%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон только по вторичным целям"
+                },
+                {
+                  "desc": "- Если же основной целью был противник, взамен снова наносит урон только по ней"
+                },
+                {
+                  "desc": "- При неудачном убийстве союзника урон получает лишь <b>одна</b> случайная вторичная цель\n"
+                },
+                {
+                  "desc": "+<style=\"highlight\">20</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">140</style>%)"
+                },
+                {
+                  "desc": "- При успешном убийстве союзника первой монетой взамен +<style=\"highlight\">40</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">280</style>%)\n"
+                },
+                {
+                  "desc": "+<style=\"highlight\">5</style>% к критическому урону за каждую единицу потенциала [Breath:*Дыхания*] (До <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">10</style>% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "+(Процент потерянного основной целью здоровья при атаке первой монетой)% к урону (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration] <style=\"highlight\">3</style> 부여"
+                },
+                {
+                  "desc": "- При убийстве союзника первой монетой взамен наносит <style=\"highlight\">5</style> [Laceration:*Кровотечения*] и повышает его счётчик на <style=\"highlight\">2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поддержка на передовой",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 2 [Breath:*Дыхания*] у И Сана (До 2-х)\n[WhenUse] И Сан получает 2 [BoseProjektil:*Разорванных воспоминания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан повышает собственный счётчик [Breath:*Дыхания*] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Поддержка на передовой",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 2 [Breath:*Дыхания*] у И Сана (До 3-х)\n[WhenUse] И Сан получает 2 [BoseProjektil:*Разорванных воспоминания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] И Сан получает 2 [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] И Сан повышает собственный счётчик [Breath:*Дыхания*] на 2"
                 }
               ]
             }

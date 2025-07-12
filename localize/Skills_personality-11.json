@@ -643,7 +643,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -652,13 +652,13 @@
         {
           "level": 2,
           "name": "Стук",
-          "desc": "[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:*Погружения*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -667,13 +667,13 @@
         {
           "level": 4,
           "name": "Стук",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -687,20 +687,20 @@
         {
           "level": 1,
           "name": "Уборка пыли",
-          "desc": "[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 1",
+          "desc": "[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 1",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -709,20 +709,20 @@
         {
           "level": 2,
           "name": "Уборка пыли",
-          "desc": "[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 2",
+          "desc": "[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 2",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -731,20 +731,20 @@
         {
           "level": 4,
           "name": "Уборка пыли",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 2",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 2",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -758,7 +758,7 @@
         {
           "level": 3,
           "name": "Как пожелаете, миледи",
-          "desc": "[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 3",
+          "desc": "[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 3",
           "coinlist": [
             {},
             {},
@@ -769,7 +769,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [EchoOfMansion:*Эха особняка*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цели с [EchoOfMansion:*Эхом особняка*] получают урон Унынием, равный половине потенциала [Sinking:*Утопания*] (До 20)"
+                  "desc": "[OnSucceedAttack] Цели с [EchoOfMansion:*Эхом особняка*] получают урон Унынием, равный половине потенциала [Sinking:*Погружения*] (До 20)"
                 }
               ]
             }
@@ -778,7 +778,7 @@
         {
           "level": 4,
           "name": "Как пожелаете, миледи",
-          "desc": "[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:*Утопания*]\n[WinDuel] Повышает счётчик [Sinking:*Утопания*] на 3",
+          "desc": "[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:*Погружения*]\n[WinDuel] Повышает счётчик [Sinking:*Погружения*] на 3",
           "coinlist": [
             {},
             {},
@@ -789,7 +789,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [EchoOfMansion:*Эха особняка*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цели с [EchoOfMansion:*Эхом особняка*] получают урон Унынием, равный потенциалу [Sinking:*Утопания*] (До 30)"
+                  "desc": "[OnSucceedAttack] Цели с [EchoOfMansion:*Эхом особняка*] получают урон Унынием, равный потенциалу [Sinking:*Погружения*] (До 30)"
                 }
               ]
             }
@@ -961,7 +961,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели даёт 1 [PenetrateDamageUp] на следующий ход союзнику с наибольшей СД (кроме себя)"
@@ -982,7 +982,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели даёт 1 [PenetrateDamageUp] на следующий ход союзнику с наибольшей СД (кроме себя). <style=\"highlight\">Если союзник — член Безымянного пальца, дополнительно наносит ещё 1 [PenetrateDamageUp]</style>"

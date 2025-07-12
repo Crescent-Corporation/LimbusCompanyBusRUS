@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
                 }
               ]
             }
@@ -27,7 +27,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
                 },
                 {
                   "desc": "[EnemyKill] Даёт 2-м случайным союзникам 1 счётчик [Breath:*Дыхания*], счётчик [Charge:*Заряда*], [Agility:*Спешку*], Повышение уровня атаки или Повышение уровня защиты на следующий ход"
@@ -45,7 +45,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
                 },
                 {
                   "desc": "[EnemyKill] Даёт 2-м случайным союзникам 2 счётчика [Breath:*Дыхания*], счётчика [Charge:*Заряда*], [Agility:*Спешки*], [AttackUp:*Повышения уровня атаки*] или [DefenseUp:*Повышения уровня защиты*] на следующий ход"
@@ -68,7 +68,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
                 }
               ]
             }
@@ -83,7 +83,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
                 }
               ]
             }
@@ -98,7 +98,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Утопание на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
                 }
               ]
             }
@@ -118,7 +118,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -142,7 +142,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -166,7 +166,7 @@
                   "desc": "[OnSucceedAttack]  Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -195,7 +195,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -219,7 +219,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -243,7 +243,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -276,7 +276,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet] (До 2-ух раз)"
@@ -301,7 +301,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet] (До 2-ух раз)"
@@ -326,7 +326,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать [Bullet:*Патроны*], получает 1 [Bullet] (До 3-х раз)"
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*] и 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -364,7 +364,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -379,7 +379,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и 3 [Sinking:*Погружения*]"
                 }
               ]
             }

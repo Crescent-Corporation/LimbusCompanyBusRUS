@@ -63,7 +63,7 @@
     },
     {
       "id": "mainui_stageinfo_resistinfo",
-      "content": "<size=80%>Слабости</size>"
+      "content": "<size=80%>Сопротивления</size>"
     },
     {
       "id": "mainui_stageinfo_enterbutton",
@@ -727,7 +727,7 @@
     },
     {
       "id": "tolerance",
-      "content": "Слабости"
+      "content": "Сопротивления"
     },
     {
       "id": "outstanding_staff",

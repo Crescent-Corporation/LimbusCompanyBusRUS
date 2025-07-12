@@ -651,7 +651,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -666,7 +666,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -675,13 +675,13 @@
         {
           "level": 4,
           "name": "Конфискация",
-          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:*Погружения*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -701,7 +701,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -710,13 +710,13 @@
         {
           "level": 2,
           "name": "Приём незваных гостей",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более [Sinking:*Погружения*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -725,13 +725,13 @@
         {
           "level": 4,
           "name": "Приём незваных гостей",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более [Sinking:*Утопания*]\n[WhenUse] Сила монет +1 против целей с 3 и более на счётчике [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более [Sinking:*Погружения*]\n[WhenUse] Сила монет +1 против целей с 3 и более на счётчике [Sinking:*Погружения*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -750,7 +750,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             },
@@ -762,7 +762,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [EchoOfMansion:*Эха особняка*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] цели с [EchoOfMansion:*Эхом особняка*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели с [EchoOfMansion:*Эхом особняка*] на 3"
                 }
               ]
             }
@@ -771,12 +771,12 @@
         {
           "level": 4,
           "name": "Этика приёма гостей, 4-я церемония: Печать на сердце",
-          "desc": "[WhenUse] Сила монет +2 против целей с 5 и более на счётчике [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +2 против целей с 5 и более на счётчике [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             },
@@ -788,7 +788,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [EchoOfMansion:*Эха особняка*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] цели с [EchoOfMansion:*Эхом особняка*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели с [EchoOfMansion:*Эхом особняка*] на 3"
                 }
               ]
             }
@@ -802,7 +802,7 @@
         {
           "level": 1,
           "name": "Подготовка к охоте",
-          "desc": "[WhenUse] Сила монет +3 против целей с 10 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +3 против целей с 10 и более [Sinking:*Погружения*]",
           "coinlist": [
             {}
           ]
@@ -810,7 +810,7 @@
         {
           "level": 4,
           "name": "Подготовка к охоте",
-          "desc": "[WhenUse] Сила монет +7 против целей с 10 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +7 против целей с 10 и более [Sinking:*Погружения*]",
           "coinlist": [
             {}
           ]

@@ -498,6 +498,181 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2030811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Алые записи",
+          "abName": "Чтобы никто не плакал",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (4 + резонанс Чревоугодия) [EntangledCurseTalisman:*Полных проклятий амулетов*] (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 2) [Burst:*Разрывов*] (До 3-х, десятичные опускаются)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 4) (До 2-х, десятичные опускаются)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Алые записи",
+          "abName": "Чтобы никто не плакал",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (4 + резонанс Чревоугодия) [EntangledCurseTalisman:*Полных проклятий амулетов*] (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+3% к наносимому урону за каждый [EntangledCurseTalisman] на цели (До 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 2) [Burst:*Разрывов*] (До 3-х, десятичные опускаются)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 4) (До 2-х, десятичные опускаются)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Алые записи",
+          "abName": "Чтобы никто не плакал",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (4 + резонанс Чревоугодия) [EntangledCurseTalisman:*Полных проклятий амулетов*] (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">5</style>% к наносимому урону за каждый [EntangledCurseTalisman] на цели (До <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 2) [Burst:*Разрывов*] (До <style=\"highlight\">4-х</style>, десятичные опускаются)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 4) (До 2-х, десятичные опускаются)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Алые записи",
+          "abName": "Чтобы никто не плакал",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) [EntangledCurseTalisman:*Полных проклятий амулетов*] (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+5% к наносимому урону за каждый [EntangledCurseTalisman] на цели (До 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 2) [Burst:*Разрывов*] (До 3-х, десятичные опускаются)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 3) (До 2-х, десятичные опускаются)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Алые записи",
+          "abName": "Чтобы никто не плакал",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) [EntangledCurseTalisman:*Полных проклятий амулетов*] (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">10</style>% к наносимому урону за каждый [EntangledCurseTalisman] на цели (До <style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 2) [Burst:*Разрывов*] (До 3-х, десятичные опускаются)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 3) (До 2-х, десятичные опускаются)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Алые записи",
+          "abName": "Чтобы никто не плакал",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) [EntangledCurseTalisman:*Полных проклятий амулетов*] (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+10% к наносимому урону за каждый [EntangledCurseTalisman] на цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 2) [Burst:*Разрывов*] (До <style=\"highlight\">4-х</style>, десятичные опускаются)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на ([EntangledCurseTalisman:*Полные проклятий амулеты*] на цели ÷ 3) (До 2-х, десятичные опускаются)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

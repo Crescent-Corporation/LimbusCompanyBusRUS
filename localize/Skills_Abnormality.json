@@ -905,7 +905,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 Утопание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 Погружение на следующий ход"
                 }
               ]
             }
@@ -2426,7 +2426,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 7 ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 Утопание"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 Погружение"
                 }
               ]
             }
@@ -2649,7 +2649,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 Утопание"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 Погружение"
                 }
               ]
             }
@@ -2747,7 +2747,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -2917,7 +2917,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 Бурлящие эмоции"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -2939,7 +2939,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 Бурлящие эмоции"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -2949,7 +2949,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 Бурлящие эмоции"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -3242,7 +3242,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 3 Погружение"
                 }
               ]
             }
@@ -3261,14 +3261,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 3 Погружение"
                 }
               ]
             }
@@ -3342,7 +3342,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит +15% к урону за каждый Старый зонт"
@@ -3371,8 +3371,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Приклеенный оберег",
-          "desc": "[WhenUse] Наносит 2 Приклеенный оберег проклятия",
+          "name": "Приклеенный амулет",
+          "desc": "[WhenUse] Наносит 2 Приклеенный амулет проклятия",
           "coinlist": [
             {
               "coindescs": [
@@ -3391,12 +3391,12 @@
         {
           "level": 1,
           "name": "Накапливающееся проклятие",
-          "desc": "[WhenUse] Наносит 1 Приклеенный оберег проклятия",
+          "desc": "[WhenUse] Наносит 1 Приклеенный амулет проклятия",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Приклеенный оберег проклятия в кол-ве, равном Приклеенный оберег проклятия на цели"
+                  "desc": "[OnSucceedAttack] Наносит Приклеенный амулет проклятия в кол-ве, равном Приклеенный амулет проклятия на цели"
                 }
               ]
             },
@@ -3424,7 +3424,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все Переклеенный оберег проклятия",
+          "desc": "[EndBattle] Убирает все Переклеенный амулет проклятия",
           "coinlist": [
             {},
             {},
@@ -3449,8 +3449,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Передача оберега",
-          "desc": "[WhenUse] Убирает все Приклеенный оберег проклятия с цели; Получает то же самое кол-во Переклеенный оберег проклятия",
+          "name": "Передача амулета",
+          "desc": "[WhenUse] Убирает все Приклеенный амулет проклятия с цели; Получает то же самое кол-во Переклеенный амулет проклятия",
           "coinlist": [
             {}
           ]
@@ -3463,7 +3463,7 @@
         {
           "level": 1,
           "name": "Растущее проклятие",
-          "desc": "[WhenUse] Наносит Приклеенный оберег проклятия в кол-ве, равном Приклеенный оберег проклятия на цели",
+          "desc": "[WhenUse] Наносит Приклеенный амулет проклятия в кол-ве, равном Приклеенный амулет проклятия на цели",
           "coinlist": [
             {}
           ]
@@ -3629,7 +3629,7 @@
         {
           "level": 1,
           "name": "Рассеивающаяся грусть",
-          "desc": "[EndSkill] Наносит +2 счётчика Разрыв и +2 счётчика [Sinking:*Утопания*] всем противникам",
+          "desc": "[EndSkill] Наносит +2 счётчика Разрыв и +2 счётчика [Sinking:*Погружения*] всем противникам",
           "coinlist": [
             {}
           ]
@@ -3647,21 +3647,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и 2 [Burst:*Разрыва*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] и 2 [Burst:*Разрыва*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и 2 [Burst:*Разрыва*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] и 2 [Burst:*Разрыва*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и 2 [Burst:*Разрыва*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] и 2 [Burst:*Разрыва*] на следующий ход"
                 }
               ]
             }
@@ -3680,7 +3680,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -3701,7 +3701,7 @@
         {
           "level": 1,
           "name": "Самозащита",
-          "desc": "[DefeatDuel] Теряет 8 СД и получает 3 Утопание",
+          "desc": "[DefeatDuel] Теряет 8 СД и получает 3 Погружение",
           "coinlist": [
             {
               "coindescs": [
@@ -3749,7 +3749,7 @@
         {
           "level": 1,
           "name": "Зарыть всё это",
-          "desc": "[WhenUse] Теряет 30 СД и получает 5 [Sinking:*Утопания*]; Получает Разрушенный разум на следующий ход",
+          "desc": "[WhenUse] Теряет 30 СД и получает 5 [Sinking:*Погружения*]; Получает Разрушенный разум на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3757,7 +3757,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 15 СД."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 Утопание и 8 Яд на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 8 Погружение и 8 Яд на следующий ход"
                 }
               ]
             }
@@ -4928,7 +4928,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 Утопание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 Погружение на следующий ход"
                 }
               ]
             }

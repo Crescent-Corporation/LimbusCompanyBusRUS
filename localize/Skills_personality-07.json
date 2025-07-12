@@ -656,13 +656,13 @@
         {
           "level": 1,
           "name": "Голову с плеч",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 8 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 8 и более [Sinking:*Погружения*]",
           "coinlist": [
             { },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -671,13 +671,13 @@
         {
           "level": 2,
           "name": "Голову с плеч",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 6 и более [Sinking:*Утопания*]\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более на счётчике [Sinking:*Утопания*] цели</style>",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 6 и более [Sinking:*Погружения*]\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более на счётчике [Sinking:*Погружения*] цели</style>",
           "coinlist": [
             { },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -686,13 +686,13 @@
         {
           "level": 4,
           "name": "Голову с плеч",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 6 и более [Sinking:*Утопания*]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> единицы на счётчике [Sinking:*Утопания*] цели <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 6 и более [Sinking:*Погружения*]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> единицы на счётчике [Sinking:*Погружения*] цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             { },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -706,20 +706,20 @@
         {
           "level": 1,
           "name": "Траурный марш",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], теряет 10 СД",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], теряет 10 СД",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [WanderingFootsteps:*Грядущие погибели*] на следующий ход"
@@ -731,20 +731,20 @@
         {
           "level": 2,
           "name": "Траурный марш",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]\n<style=\"highlight\">[WhenUse] При 4 и более [Coffin:*Гробах*] на Хитклифе тяжесть атаки +1\n[WhenUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], тяжесть атаки +1</style>\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], теряет 10 СД",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]\n<style=\"highlight\">[WhenUse] При 4 и более [Coffin:*Гробах*] на Хитклифе тяжесть атаки +1\n[WhenUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], тяжесть атаки +1</style>\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], теряет 10 СД",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [WanderingFootsteps:*Грядущие погибели*] на следующий ход"
@@ -756,20 +756,20 @@
         {
           "level": 4,
           "name": "Траурный марш",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Sinking:*Утопания*] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Тяжесть атаки +1 <style=\"highlight\"> за каждые 4</style> [Coffin:*Гроба*] на Хитклифе <style=\"highlight\">(До 2)</style>\n[WhenUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], тяжесть атаки +1\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], теряет 10 СД",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Sinking:*Погружения*] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Тяжесть атаки +1 <style=\"highlight\"> за каждые 4</style> [Coffin:*Гроба*] на Хитклифе <style=\"highlight\">(До 2)</style>\n[WhenUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], тяжесть атаки +1\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], теряет 10 СД",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [WanderingFootsteps:*Грядущие погибели*] на следующий ход"
@@ -786,25 +786,25 @@
         {
           "level": 3,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps], повышает её счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps], повышает её счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит треть [Sinking:*Утопания*] с цели на 2-ух случайных противников (До 3)"
+                  "desc": "[EnemyKill] При убийстве цели переносит треть [Sinking:*Погружения*] с цели на 2-ух случайных противников (До 3)"
                 }
               ]
             }
@@ -813,25 +813,25 @@
         {
           "level": 4,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] +12% к урону а каждый [Coffin] на Хитклифе (До 120%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*], меняет на 「Горе, плач, погибель」\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] +12% к урону а каждый [Coffin] на Хитклифе (До 120%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на <style=\"highlight\">4</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на <style=\"highlight\">4</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps], повышает её счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps], повышает её счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style>[Sinking:*Утопания*] с цели на 2-ух случайных противников (До <style=\"highlight\">5</style>)"
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style>[Sinking:*Погружения*] с цели на 2-ух случайных противников (До <style=\"highlight\">5</style>)"
                 }
               ]
             }
@@ -851,7 +851,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -860,13 +860,13 @@
         {
           "level": 3,
           "name": "О Дуллахан!..",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」(Единожды за ход)</style>\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и боле [Sinking:*Утопания*]</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」(Единожды за ход)</style>\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и боле [Sinking:*Погружения*]</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -875,13 +875,13 @@
         {
           "level": 4,
           "name": "О Дуллахан!..",
-          "desc": "[DuelCounter]\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」 (Единожды за ход)\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Утопания*] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Получает (серия парирований ÷ 3) [AttackUp:*Повышений уровня атаки*] на следующий ход (До 3, единожды за ход)</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[DuelCounter]\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」 (Единожды за ход)\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Погружения*] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Получает (серия парирований ÷ 3) [AttackUp:*Повышений уровня атаки*] на следующий ход (До 3, единожды за ход)</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]<style=\"highlight\"> и повышает его счётчик на 1</style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]<style=\"highlight\"> и повышает его счётчик на 1</style>"
                 }
               ]
             }
@@ -895,12 +895,12 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*] и повышает его счётчик на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на 20% от нанесённого урона"
@@ -910,10 +910,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Утопания*] цели (До 15)"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Погружения*] цели (До 15)"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит треть [Sinking:*Утопания*] с цели на 2-ух случайных противников. (До 4)"
+                  "desc": "[EnemyKill] При убийстве цели переносит треть [Sinking:*Погружения*] с цели на 2-ух случайных противников. (До 4)"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 15 СД"
@@ -925,12 +925,12 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:*Утопания*] и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:*Погружения*] и повышает его счётчик на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на <style=\"highlight\">30</style>% от нанесённого урона"
@@ -940,10 +940,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Утопания*] цели (До <style=\"highlight\">30</style>)"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Погружения*] цели (До <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style>)[Sinking:*Утопания*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style>)[Sinking:*Погружения*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 15 СД"
@@ -960,12 +960,12 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*] и повышает его счётчик на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на 20% от нанесённого урона"
@@ -975,10 +975,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Утопания*] цели (До 15)"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Погружения*] цели (До 15)"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит треть [Sinking:*Утопания*] с цели на 2-ух случайных противников. (До 4)"
+                  "desc": "[EnemyKill] При убийстве цели переносит треть [Sinking:*Погружения*] с цели на 2-ух случайных противников. (До 4)"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 15 СД"
@@ -990,12 +990,12 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Утопания*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:*Утопания*] и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:*Погружения*] и повышает его счётчик на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на <style=\"highlight\">30</style>% от нанесённого урона"
@@ -1005,10 +1005,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Утопания*] цели (До <style=\"highlight\">30</style>)"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Погружения*] цели (До <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">2</style>)[Sinking:*Утопания*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">2</style>)[Sinking:*Погружения*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 15 СД"

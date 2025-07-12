@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -30,14 +30,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -111,7 +111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -187,7 +187,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -201,7 +201,7 @@
         {
           "level": 1,
           "name": "Рассеивающаяся грусть",
-          "desc": "[EndSkill] Наносит +3 счётчика [Burst:*Разрыва*] и +3 счётчика [Sinking:*Утопания*] всем противникам",
+          "desc": "[EndSkill] Наносит +3 счётчика [Burst:*Разрыва*] и +3 счётчика [Sinking:*Погружения*] всем противникам",
           "coinlist": [
             {
               "coindescs": [
@@ -515,8 +515,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Приклеенный оберег",
-          "desc": "[WhenUse] Наносит 3 [WrappedCurseTag:*Приклеенных оберега проклятия*]",
+          "name": "Приклеенный амулет",
+          "desc": "[WhenUse] Наносит 3 [WrappedCurseTag:*Приклеенных амулета проклятия*]",
           "coinlist": [
             {
               "coindescs": [
@@ -535,7 +535,7 @@
         {
           "level": 1,
           "name": "Накапливающееся проклятие",
-          "desc": "[WhenUse] Наносит столько [WrappedCurseTag:*Приклеенных оберегов проклятия*], сколько [WrappedCurseTag:*Приклеенных оберегов проклятия*] на цели",
+          "desc": "[WhenUse] Наносит столько [WrappedCurseTag:*Приклеенных амулетов проклятия*], сколько [WrappedCurseTag:*Приклеенных амулетов проклятия*] на цели",
           "coinlist": [
             {},
             {
@@ -562,7 +562,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:*Переклеенный оберег проклятия*]\n[WhenUse] При 10 и более [ReattachedCurseTag:*Переклеенных оберегах проклятия*] сила монет -1",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:*Переклеенный амулет проклятия*]\n[WhenUse] При 10 и более [ReattachedCurseTag:*Переклеенных амулетах проклятия*] сила монет -1",
           "coinlist": [
             {
               "coindescs": [
@@ -611,8 +611,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Передача оберега",
-          "desc": "[WhenUse] Убирает все [WrappedCurseTag:*Приклеенные обереги проклятия*] с цели.\nПолучает [ReattachedCurseTag:*Переклеенные обереги проклятия*], равные кол-ву убранных [WrappedCurseTag:*Приклеенных оберегов проклятия*]\n[StartBattle] Все части получают 3 [Protection:*Защищённости*]",
+          "name": "Передача амулета",
+          "desc": "[WhenUse] Убирает все [WrappedCurseTag:*Приклеенные амулеты проклятия*] с цели.\nПолучает [ReattachedCurseTag:*Переклеенные амулеты проклятия*], равные кол-ву убранных [WrappedCurseTag:*Приклеенных амулетов проклятия*]\n[StartBattle] Все части получают 3 [Protection:*Защищённости*]",
           "coinlist": [
             {
               "coindescs": [
@@ -631,7 +631,7 @@
         {
           "level": 1,
           "name": "Растущее проклятие",
-          "desc": "[WhenUse] Наносит [WrappedCurseTag:*Приклеенные обереги проклятия*] в кол-ве [WrappedCurseTag:*Приклеенных оберегов проклятия*] на цели",
+          "desc": "[WhenUse] Наносит [WrappedCurseTag:*Приклеенные амулеты проклятия*] в кол-ве [WrappedCurseTag:*Приклеенных амулетов проклятия*] на цели",
           "coinlist": [
             {
               "coindescs": [
@@ -1930,7 +1930,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -1949,14 +1949,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Погружения*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -1970,7 +1970,7 @@
         {
           "level": 1,
           "name": "Всеобъемлющее уныние",
-          "desc": "Если получает атаку, при этом имея щит, наносит +1 счётчик [Sinking:*Утопания*] себе и атаковавшему",
+          "desc": "Если получает атаку, при этом имея щит, наносит +1 счётчик [Sinking:*Погружения*] себе и атаковавшему",
           "coinlist": [
             {
               "coindescs": [
@@ -2150,7 +2150,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:*Переклеенные обереги проклятия*]\n[WhenUse] При 10 и более [ReattachedCurseTag:*Переклеенных оберегах проклятия*] сила монет -1",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:*Переклеенные амулеты проклятия*]\n[WhenUse] При 10 и более [ReattachedCurseTag:*Переклеенных амулетах проклятия*] сила монет -1",
           "coinlist": [
             {
               "coindescs": [

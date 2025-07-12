@@ -11,7 +11,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 5 [Sinking:*Утопания*] и +5 счётчиков [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttackHead] Наносит 5 [Sinking:*Погружения*] и +5 счётчиков [Sinking:*Погружения*]"
                                 }
                             ]
                         }
@@ -52,14 +52,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Утопание на цели"
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Погружение на цели"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Утопание на цели"
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Погружение на цели"
                                 }
                             ]
                         }
@@ -73,26 +73,26 @@
                 {
                     "level": 1,
                     "name": "Льющаяся печаль",
-                    "desc": "[WhenUse] Цель теряет 5 СД\nНацеливается на противника с наибольшим Утопание",
+                    "desc": "[WhenUse] Цель теряет 5 СД\nНацеливается на противника с наибольшим Погружение",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:*Погружения*]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Утопание на цели"
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Погружение на цели"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Утопание на цели"
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Погружение на цели"
                                 }
                             ]
                         }
@@ -111,7 +111,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Удваивает Утопание и его счётчик на цели"
+                                    "desc": "[OnSucceedAttackHead] Удваивает Погружение и его счётчик на цели"
                                 }
                             ]
                         }
@@ -130,7 +130,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Утопание на цели"
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон по СД, равный Погружение на цели"
                                 }
                             ]
                         }
@@ -149,7 +149,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Утопание на цели"
+                                    "desc": "[OnSucceedAttackHead] Наносит дополнительный урон, равный Погружение на цели"
                                 }
                             ]
                         }

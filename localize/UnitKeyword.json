@@ -126,7 +126,7 @@
     },
     {
       "id": "UnitKeyword_DUAL_HOOK_PIRATE",
-      "content": "Пираты Двух крюков"
+      "content": "Пираты «Двух крюков»"
     },
     {
       "id": "UnitKeyword_DAWN",
@@ -207,6 +207,22 @@
     {
       "id": "UnitKeyword_BLACK_BEAST_SNAKE",
       "content": "Сы из «Хэйшоу»"
+    },
+    {
+      "id": "UnitKeyword_THUMB_LEVEL_CAPO_FOUR",
+      "content": "Капо IIII"
+    },
+    {
+      "id": "UnitKeyword_THUMB_LEVEL_SOLDATO_TWO",
+      "content": "Солдато II"
+    },
+    {
+      "id": "UnitKeyword_THUMB_LEVEL_SOLDATO_THREE",
+      "content": "Солдато III"
+    },
+    {
+      "id": "UnitKeyword_EGO_EQUIPMENT",
+      "content": "ЭГО Снаряжение"
     }
   ]
 }

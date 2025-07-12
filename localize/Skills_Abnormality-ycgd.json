@@ -100,14 +100,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -121,12 +121,12 @@
         {
           "level": 1,
           "name": "Отстрел",
-          "desc": "[WinDuel] Базовая сила +2 против целей с [Sinking:*Утопанием*]",
+          "desc": "[WinDuel] Базовая сила +2 против целей с [Sinking:*Погружением*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*] и повышает его счётчик на 3"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*] и повышает его счётчик на 3"
                 }
               ]
             }
@@ -140,12 +140,12 @@
         {
           "level": 1,
           "name": "Водяная бомба",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 2 [AzureTakeDamageUp:*Уязвимости к Унынию*] на следующий ход"
@@ -162,7 +162,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Наносит 2 [Sinking:*Утопания*] на атакующего",
+          "desc": "[OnSucceedEvade] Наносит 2 [Sinking:*Погружения*] на атакующего",
           "coinlist": [
             {
               "coindescs": [

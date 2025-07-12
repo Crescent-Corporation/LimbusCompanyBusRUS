@@ -11,14 +11,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                                 }
                             ]
                         }
@@ -32,7 +32,7 @@
                 {
                     "level": 1,
                     "name": "Цапнуть",
-                    "desc": "Если на цели 5 и более [Sinking:*Утопания*], наносит на 20% больше урона.",
+                    "desc": "Если на цели 5 и более [Sinking:*Погружения*], наносит на 20% больше урона.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -63,7 +63,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 5"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 5"
                                 }
                             ]
                         }
@@ -478,14 +478,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                                    "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                                 }
                             ]
                         }
@@ -504,7 +504,7 @@
                         {
                             "coindescs": [
                               {
-                                "desc": "[OnSucceedAttack] Наносит 2 [SinkingVulnerable:*Уязвимости к Утопанию*]"
+                                "desc": "[OnSucceedAttack] Наносит 2 [SinkingVulnerable:*Уязвимости к Погружению*]"
                               },
                                 {
                                     "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 3"
@@ -529,7 +529,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]"
@@ -539,7 +539,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:*Кровотечения*]"
@@ -556,12 +556,12 @@
                 {
                     "level": 1,
                     "name": "Завывающие волны",
-                    "desc": "Урон +20% за каждые 5 [Sinking:*Утопания*] на цели\nЕсли СД цели ниже 0, наносит на 10% больше урона",
+                    "desc": "Урон +20% за каждые 5 [Sinking:*Погружения*] на цели\nЕсли СД цели ниже 0, наносит на 10% больше урона",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Утопляющий поток"
+                                    "desc": "[OnSucceedAttack] Полное погружение"
                                 }
                             ]
                         }

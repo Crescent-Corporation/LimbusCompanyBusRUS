@@ -719,7 +719,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -734,7 +734,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -749,7 +749,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -778,7 +778,7 @@
         {
           "level": 2,
           "name": "Час учений",
-          "desc": "<style=\"highlight\">+3% к урону за каждое [KnowledgeExplored] на себе (До 9%)</style>\n<style=\"highlight\">[StartBattle] Он и случайный союзник</style> получает [KnowledgeTraining:*Закалку эрудиции*], равную [KnowledgeExplored:*Откровению*] на Мерсо. <style=\"highlight\">(В приоритете союзники, использующие [Discard] с наименьшим числом [KnowledgeTraining:*Закалки эрудиции*])</style>\n[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника (начиная с самого низшего)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:*Утопания*]</style>",
+          "desc": "<style=\"highlight\">+3% к урону за каждое [KnowledgeExplored] на себе (До 9%)</style>\n<style=\"highlight\">[StartBattle] Он и случайный союзник</style> получает [KnowledgeTraining:*Закалку эрудиции*], равную [KnowledgeExplored:*Откровению*] на Мерсо. <style=\"highlight\">(В приоритете союзники, использующие [Discard] с наименьшим числом [KnowledgeTraining:*Закалки эрудиции*])</style>\n[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника (начиная с самого низшего)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:*Погружения*]</style>",
           "coinlist": [
             {},
             {
@@ -793,7 +793,7 @@
         {
           "level": 4,
           "name": "Час учений",
-          "desc": "<style=\"highlight\">+5%</style> урона за каждое [KnowledgeExplored] на себе (До <style=\"highlight\">15%</style>)\n[StartBattle] Он и <style=\"highlight\">два</style> случайных союзника получают [KnowledgeTraining:*Закалку эрудиции*], равную [KnowledgeExplored:*Откровению*] на Мерсо. (В приоритете союзники, использующие [Discard] с наименьшим числом [KnowledgeTraining:*Закалки эрудиции*])\n[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника (начиная с самого низшего)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Утопания*] на цели (До 2)</style>",
+          "desc": "<style=\"highlight\">+5%</style> урона за каждое [KnowledgeExplored] на себе (До <style=\"highlight\">15%</style>)\n[StartBattle] Он и <style=\"highlight\">два</style> случайных союзника получают [KnowledgeTraining:*Закалку эрудиции*], равную [KnowledgeExplored:*Откровению*] на Мерсо. (В приоритете союзники, использующие [Discard] с наименьшим числом [KnowledgeTraining:*Закалки эрудиции*])\n[WhenUse] [Discard:*Сбрасывает*] 2 навыка низшего ранга во всех ячейках навыков грешника (начиная с самого низшего)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Погружения*] на цели (До 2)</style>",
           "coinlist": [
             {},
             {
@@ -813,14 +813,14 @@
         {
           "level": 3,
           "name": "Сожжение познаний",
-          "desc": "+3% к урону за каждое [KnowledgeExplored] на себе (До 18%)\n[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:*Утопания*]\n[BeforeAttack] Тратит свою [KnowledgeTraining:*Закалку эрудиции*] и получает дополнительное [KnowledgeExplored], равное половине потраченного числа (Округление в меньшую сторону)\n[EndSkill] В конце хода [KnowledgeExplored] сбрасывается до 1 (до 3 при убийстве противника с помощью этого навыка)",
+          "desc": "+3% к урону за каждое [KnowledgeExplored] на себе (До 18%)\n[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:*Погружения*]\n[BeforeAttack] Тратит свою [KnowledgeTraining:*Закалку эрудиции*] и получает дополнительное [KnowledgeExplored], равное половине потраченного числа (Округление в меньшую сторону)\n[EndSkill] В конце хода [KnowledgeExplored] сбрасывается до 1 (до 3 при убийстве противника с помощью этого навыка)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик и потенциал [Sinking:*Утопания*] случайным образом так, что суммарно они становятся равны [KnowledgeExplored:*Откровению*] на Мерсо"
+                  "desc": "[OnSucceedAttack] Повышает счётчик и потенциал [Sinking:*Погружения*] случайным образом так, что суммарно они становятся равны [KnowledgeExplored:*Откровению*] на Мерсо"
                 }
               ]
             }
@@ -829,14 +829,14 @@
         {
           "level": 4,
           "name": "Сожжение познаний",
-          "desc": "<style=\"highlight\">+5%</style> урона за каждое [KnowledgeExplored] на себе (До <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Утопания*] на цели (До 2)</style>\n[BeforeAttack] Тратит свою [KnowledgeTraining:*Закалку эрудиции*] и получает дополнительное [KnowledgeExplored], равное <style=\"highlight\">потраченному числу</style>\n[EndSkill] В конце хода [KnowledgeExplored] сбрасывается до 1 (до 3 при убийстве противника с помощью этого навыка)",
+          "desc": "<style=\"highlight\">+5%</style> урона за каждое [KnowledgeExplored] на себе (До <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Sinking:*Погружения*] на цели (До 2)</style>\n[BeforeAttack] Тратит свою [KnowledgeTraining:*Закалку эрудиции*] и получает дополнительное [KnowledgeExplored], равное <style=\"highlight\">потраченному числу</style>\n[EndSkill] В конце хода [KnowledgeExplored] сбрасывается до 1 (до 3 при убийстве противника с помощью этого навыка)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик и потенциал [Sinking:*Утопания*] случайным образом так, что суммарно они становятся равны [KnowledgeExplored:*Откровению*] на Мерсо<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик и потенциал [Sinking:*Погружения*] случайным образом так, что суммарно они становятся равны [KnowledgeExplored:*Откровению*] на Мерсо<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -849,7 +849,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Утопание в поиск",
+          "name": "Погружение в поиск",
           "desc": "[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника",
           "coinlist": [
             {
@@ -863,7 +863,7 @@
         },
         {
           "level": 4,
-          "name": "Утопание в поиск",
+          "name": "Погружение в поиск",
           "desc": "[WhenUse] [Discard:*Сбрасывает*] навык высшего ранга во всех ячейках навыков грешника\n<style=\"highlight\">[WhenUse] Эта ячейка получает 6 [Aggro:*Провокаций*] на следующий ход</style>",
           "coinlist": [
             {

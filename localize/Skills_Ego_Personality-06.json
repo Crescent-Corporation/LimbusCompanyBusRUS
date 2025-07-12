@@ -630,6 +630,318 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2060811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пролитые слёзы нечестивой крови: Зарождение",
+          "_comment": "Ши",
+          "abName": "Инлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки цели\nДанный навык <b>не наносит урон</b> противникам\n[EndSkill] Хун Лу получает [DragonLance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Хун Лу получает фиксированный урон, равный итоговой силе данного навыка\n- При получении урона от этого навыка он не может быть оглушён, и здоровье Хун Лу не падает ниже 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пролитые слёзы нечестивой крови: Зарождение",
+          "_comment": "Ши",
+          "abName": "Инлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки цели\nДанный навык <b>не наносит урон</b> противникам\n[EndSkill] Хун Лу получает [DragonLance]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Хун Лу получает фиксированный урон, равный итоговой силе данного навыка\n- При получении урона от этого навыка он не может быть оглушён, и здоровье Хун Лу не падает ниже 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пролитые слёзы нечестивой крови: Зарождение",
+          "_comment": "Ши",
+          "abName": "Инлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки цели\nДанный навык <b>не наносит урон</b> противникам\n[EndSkill] Хун Лу получает [DragonLance]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Хун Лу получает фиксированный урон, равный итоговой силе данного навыка\n- При получении урона от этого навыка он не может быть оглушён, и здоровье Хун Лу не падает ниже 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060812,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пролитые слёзы нечестивой крови: Кончина",
+          "_comment": "Чжун",
+          "abName": "Инлун",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n+2% к наносимому урону за каждый [DragonLance] на Хун Лу (До 6%)\n+4% к наносимому урону за каждую единицу [CondensedBlood:*Нечестивой крови*] на Хун Лу (До 20%)\n[WhenUse] Сила монет +1, если на основной цели 5 и более [Burst:*Разрывов*]\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах [CondensedBlood:*Нечестивой крови*] на Хун Лу\n[EndSkill] Хун Лу теряет [DragonLance:*Клинья для погребения цветов*] и всю [CondensedBlood:*Нечестивую кровь*], а затем <b>умирает</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пролитые слёзы нечестивой крови: Кончина",
+          "_comment": "Чжун",
+          "abName": "Инлун",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n<style=\"highlight\">+3%</style> к наносимому урону за каждый [DragonLance] на Хун Лу (До <style=\"highlight\">9%</style>)\n<style=\"highlight\">+6%</style> к наносимому урону за каждую единицу [CondensedBlood:*Нечестивой крови*] на Хун Лу (До <style=\"highlight\">30%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 5 [Burst:*Разрывов*] на основной цели (До 2-х)</style>\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах [CondensedBlood:*Нечестивой крови*] на Хун Лу\n<style=\"highlight\">- При 4-х и более единицах взамен итоговая сила +2 и тяжесть атаки +2</style>\n[EndSkill] Хун Лу теряет [DragonLance:*Клинья для погребения цветов*] и всю [CondensedBlood:*Нечестивую кровь*], а затем <b>умирает</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 3<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пролитые слёзы нечестивой крови: Кончина",
+          "_comment": "Чжун",
+          "abName": "Инлун",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n+3% к наносимому урону за каждый [DragonLance] на Хун Лу (До 9%)\n+6% к наносимому урону за каждую единицу [CondensedBlood:*Нечестивой крови*] на Хун Лу (До 30%)\n[WhenUse] Сила монет +1 за каждые 5 [Burst:*Разрывов*] на основной цели (До <style=\"highlight\">3-х</style>)\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах [CondensedBlood:*Нечестивой крови*] на Хун Лу\n- При 4-х и более единицах взамен итоговая сила +2 и тяжесть атаки +2\n<style=\"highlight\">- При 5-и и более единицах взамен итоговая сила +3 и тяжесть атаки +3</style>\n[EndSkill] Хун Лу теряет [DragonLance:*Клинья для погребения цветов*] и всю [CondensedBlood:*Нечестивую кровь*], а затем <b>умирает</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 3<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пролитые слёзы нечестивой крови: Зарождение",
+          "_comment": "Ши",
+          "abName": "Инлун",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Базовая сила каждой треснувшей монеты -2 (До -8-и)\n[EndSkill] Хун Лу получает [DragonLance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пролитые слёзы нечестивой крови: Зарождение",
+          "_comment": "Ши",
+          "abName": "Инлун",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Базовая сила каждой треснувшей монеты -2 (До -8-и)\n[EndSkill] Хун Лу получает [DragonLance]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пролитые слёзы нечестивой крови: Зарождение",
+          "_comment": "Ши",
+          "abName": "Инлун",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах в наибольшем резонансе\n<style=\"highlight\">- При 6-и и более грехах в наибольшем резонансе взамен тяжесть атаки +2</style>\n[BeforeAttack] Базовая сила каждой треснувшей монеты -2 (До -8-и)\n[EndSkill] Хун Лу получает [DragonLance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

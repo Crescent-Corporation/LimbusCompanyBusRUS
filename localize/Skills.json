@@ -57,7 +57,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -72,7 +72,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -93,7 +93,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             }
@@ -109,7 +109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]; Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]; Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             }
@@ -125,7 +125,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]; Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]; Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             }
@@ -162,7 +162,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -2511,7 +2511,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -2525,7 +2525,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -2586,7 +2586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -2635,7 +2635,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 [Reduction:*Понижения силы атаки*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
@@ -3656,7 +3656,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -3670,7 +3670,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -3684,7 +3684,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -5311,7 +5311,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -5326,7 +5326,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -5336,12 +5336,12 @@
         {
           "level": 4,
           "name": "Основа танца",
-          "desc": "Сила монет +1 против целей с 4 и более [Sinking:*Утопания*]",
+          "desc": "Сила монет +1 против целей с 4 и более [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -5399,17 +5399,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -5418,7 +5418,7 @@
         {
           "level": 4,
           "name": "Страстный танец",
-          "desc": "Сила монет +2 против целей с 6-ю и более [Sinking:*Утопания*]",
+          "desc": "Сила монет +2 против целей с 6-ю и более [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
@@ -5433,17 +5433,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -5846,7 +5846,7 @@
         {
           "level": 4,
           "name": "Руководство",
-          "desc": "Сила монет +2 против целей с 5 и более [Sinking:*Утопания*]",
+          "desc": "Сила монет +2 против целей с 5 и более [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
@@ -5917,7 +5917,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Reduction:*Понижения силы атаки*]"
@@ -5934,13 +5934,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Reduction:*Понижения силы атаки*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -7495,7 +7495,7 @@
                   "desc": "[OnSucceedAttack] Наносит дополнительный рубящий урон на 15% от прошедшего урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Обнаружение слабости на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит [WeaknessAnalysis] на следующий ход"
                 }
               ]
             }
@@ -7520,7 +7520,7 @@
                   "desc": "[OnSucceedAttack] Наносит дополнительный рубящий урон на 15% от прошедшего урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Обнаружение слабости на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит [WeaknessAnalysis] на следующий ход"
                 }
               ]
             }
@@ -9177,7 +9177,7 @@
         {
           "level": 1,
           "name": "Хлобысь зонтом",
-          "desc": "[WhenUse] Повышает собственный счётчик [Sinking:*Утопания*] на 1",
+          "desc": "[WhenUse] Повышает собственный счётчик [Sinking:*Погружения*] на 1",
           "coinlist": [
             {},
             {},
@@ -9187,7 +9187,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             }
@@ -9196,17 +9196,17 @@
         {
           "level": 2,
           "name": "Хлобысь зонтом",
-          "desc": "[WhenUse] Повышает собственный счётчик [Sinking:*Утопания*] на 1",
+          "desc": "[WhenUse] Повышает собственный счётчик [Sinking:*Погружения*] на 1",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -9215,17 +9215,17 @@
         {
           "level": 4,
           "name": "Хлобысь зонтом",
-          "desc": "[WhenUse] Повышает собственный счётчик [Sinking:*Утопания*] на 1\n[DefeatDuel] Получает 3 [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Повышает собственный счётчик [Sinking:*Погружения*] на 1\n[DefeatDuel] Получает 3 [Sinking:*Погружения*]",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -9288,7 +9288,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 5 [Sinking:*Утопания*] для нанесения +20% к урону"
+                  "desc": "Тратит 5 [Sinking:*Погружения*] для нанесения +20% к урону"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
@@ -9320,7 +9320,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 5 [Sinking:*Утопания*], чтобы нанести +20% к урону"
+                  "desc": "Тратит 5 [Sinking:*Погружения*], чтобы нанести +20% к урону"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] [VibrationExplosion:*Провоцирует Тремор*]"
@@ -9337,7 +9337,7 @@
         {
           "level": 1,
           "name": "Раскройся!",
-          "desc": "[WhenUse] Получает 6 [Sinking:*Утопания*] и повышает собственный счётчик [Sinking:*Утопания*] на 3",
+          "desc": "[WhenUse] Получает 6 [Sinking:*Погружения*] и повышает собственный счётчик [Sinking:*Погружения*] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -9367,7 +9367,7 @@
         {
           "level": 1,
           "name": "Предупреждение",
-          "desc": "[WhenUse] Получает 3 [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Получает 3 [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
@@ -9379,7 +9379,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
@@ -9391,7 +9391,7 @@
         {
           "level": 4,
           "name": "Предупреждение",
-          "desc": "[WhenUse] Получает 5 [Sinking:*Утопания*]",
+          "desc": "[WhenUse] Получает 5 [Sinking:*Погружения*]",
           "coinlist": [
             {
               "coindescs": [
@@ -9403,7 +9403,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
@@ -9426,14 +9426,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1 на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1 на следующий ход"
                 }
               ]
             }
@@ -9448,14 +9448,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1 на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1 на следующий ход"
                 }
               ]
             }
@@ -9470,14 +9470,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1 на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2 на следующий ход"
                 }
               ]
             }
@@ -9496,21 +9496,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             }
@@ -9524,21 +9524,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             }
@@ -9547,26 +9547,26 @@
         {
           "level": 4,
           "name": "Мимолётный расцвет",
-          "desc": "[StartBattle] Понижает собственный счётчик [Vibration:*Тремора*] на 6, чтобы сделать эту атаку массовой с 3-мя целями\nСила монет +1, если счётчик [Sinking:*Утопания*] основной цели равен 6 и более",
+          "desc": "[StartBattle] Понижает собственный счётчик [Vibration:*Тремора*] на 6, чтобы сделать эту атаку массовой с 3-мя целями\nСила монет +1, если счётчик [Sinking:*Погружения*] основной цели равен 6 и более",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] на следующий ход"
                 }
               ]
             }
@@ -9585,21 +9585,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], провоцирует Утопляющий поток"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Погружения*], провоцирует Полное погружение"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 10 и более единиц на счётчике [Vibration:*Тремора*] грешника, дополнительно наносит 30% от прошедшего урона"
@@ -9616,21 +9616,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Утопания*], провоцирует Утопляющий поток"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:*Погружения*], провоцирует Полное погружение"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 10 и более единиц на счётчике [Vibration:*Тремора*] грешника, дополнительно наносит 40% от прошедшего урона"
@@ -10052,7 +10052,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Больше оберегов",
+          "name": "Больше амулетов",
           "desc": "",
           "coinlist": [
             {
@@ -10080,7 +10080,7 @@
         },
         {
           "level": 2,
-          "name": "Больше оберегов",
+          "name": "Больше амулетов",
           "desc": "",
           "coinlist": [
             {
@@ -10111,7 +10111,7 @@
         },
         {
           "level": 4,
-          "name": "Больше оберегов",
+          "name": "Больше амулетов",
           "desc": "",
           "coinlist": [
             {
@@ -11346,7 +11346,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Burst:*Разрывов*], наносит Обнаружение слабости на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Burst:*Разрывов*], наносит [WeaknessAnalysis] на следующий ход"
                 }
               ]
             }
@@ -11368,7 +11368,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Burst:*Разрывов*], наносит Обнаружение слабости на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Burst:*Разрывов*], наносит [WeaknessAnalysis] на следующий ход"
                 }
               ]
             }
@@ -11390,7 +11390,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Burst:*Разрывов*], наносит Обнаружение слабости на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Burst:*Разрывов*], наносит [WeaknessAnalysis] на следующий ход"
                 }
               ]
             }

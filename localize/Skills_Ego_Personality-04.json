@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EnemyKill] Получает 3 ЭГО-ресурса случайного Греха, имеющегося на данный момент"
@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EnemyKill] Получает 3 ЭГО-ресурса случайного Греха, имеющегося на данный момент; все союзники восстанавливают 3 СД"
@@ -48,7 +48,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EnemyKill] Получает 3 ЭГО-ресурса случайного Греха, имеющегося на данный момент; все союзники восстанавливают 3 СД"
@@ -71,7 +71,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EndSkill] Все союзники получают 1 [GainSinStockAdder:*Множитель ЭГО-ресурсов*]"
@@ -89,7 +89,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EndSkill] Все союзники получают 1 [GainSinStockAdder:*Множитель ЭГО-ресурсов*]"
@@ -107,7 +107,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EndSkill] Все союзники получают 1 [GainSinStockAdder:*Множитель ЭГО-ресурсов*], даёт 1 [Agility:*Спешку*] на следующий ход"

@@ -685,7 +685,7 @@
                   "desc": "Если цель оглушена, падает духом или подверглась срыву, дополнительно наносит 30% прошедшего урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -708,7 +708,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -726,7 +726,7 @@
                   "desc": "[OnSucceedAttack] Наносит 7 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 7 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 7 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "Дополнительно наносит 50% прошедшего урона, если цель <b>не</b> оглушена, <b>не</b> падает духом и <b>не</b> подверглась срыву."
@@ -747,7 +747,7 @@
                   "desc": "[OnSucceedAttack] Наносит 10 [Vibration:*Тремора*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "Дополнительно наносит 50% прошедшего урона, если цель <b>не</b> оглушена, <b>не</b> падает духом и <b>не</b> подверглась срыву."
@@ -1155,7 +1155,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -1170,7 +1170,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -1185,7 +1185,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[EndSkill] Все союзники получают -2 к [MentalSystemResultDecrease_Typo:*Эффективности потери СД*]; -2 к потере СД во время использования ЭГО"
@@ -1945,7 +1945,7 @@
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -1963,7 +1963,7 @@
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -1981,7 +1981,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Утопания*]\n[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 5"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:*Погружения*]\n[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 5"
                 }
               ]
             }
@@ -2004,7 +2004,7 @@
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 4"
                 }
               ]
             }
@@ -2022,7 +2022,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 6"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 6"
                 }
               ]
             }
@@ -2040,7 +2040,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 [Sinking:*Утопания*]\n[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 8"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Sinking:*Погружения*]\n[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 8"
                 }
               ]
             }
@@ -2462,7 +2462,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрыва*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрыва*], или [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -2477,7 +2477,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -2492,7 +2492,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion:*Огня*], [Laceration:*Кровотечения*], [Vibration:*Тремора*], [Burst:*Разрывов*], или [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -3566,13 +3566,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчик [Sinking:*Утопания*] на 2"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчик [Sinking:*Погружения*] на 2"
                 }
               ]
             }
@@ -3587,13 +3587,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчик [Sinking:*Погружения*] на 3"
                 }
               ]
             }
@@ -3631,7 +3631,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]"
@@ -3640,7 +3640,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчики [Sinking:*Утопания*] и [Burst:*Разрыва*] на 2"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчики [Sinking:*Погружения*] и [Burst:*Разрыва*] на 2"
                 }
               ]
             }
@@ -3655,7 +3655,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 6 [Burst:*Разрывов*]"
@@ -3664,7 +3664,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчики [Sinking:*Утопания*] и [Burst:*Разрыва*] на 3"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчики [Sinking:*Погружения*] и [Burst:*Разрыва*] на 3"
                 }
               ]
             }

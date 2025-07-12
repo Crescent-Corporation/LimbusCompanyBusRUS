@@ -437,7 +437,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1"
                 }
               ]
             }
@@ -451,7 +451,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 3-х и более [KnowledgeExplored:*Откровениях*], подкидывает монету ещё раз"
@@ -468,7 +468,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Утопания*] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:*Погружения*] на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Подкидывает монету ещё (Откровение - 1) раз"
@@ -492,7 +492,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -508,7 +508,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -524,7 +524,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
                 }
               ]
             }
@@ -538,14 +538,14 @@
         {
           "level": 3,
           "name": "Круговорот знаний",
-          "desc": "[WhenUse] При 2-х и более [KnowledgeExplored:*Откровениях*] повышает силу монет на число [KnowledgeExplored:*Откровений*]\n[WhenUse] +1.5% к урону за каждое Утопание на цели (До 15%)",
+          "desc": "[WhenUse] При 2-х и более [KnowledgeExplored:*Откровениях*] повышает силу монет на число [KnowledgeExplored:*Откровений*]\n[WhenUse] +1.5% к урону за каждое Погружение на цели (До 15%)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 3"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 СД"
@@ -557,14 +557,14 @@
         {
           "level": 4,
           "name": "Круговорот знаний",
-          "desc": "[WhenUse] При 2-х и более [KnowledgeExplored:*Откровениях*] повышает силу монет на число [KnowledgeExplored:*Откровений*]\n[WhenUse] +3% к урону за каждое Утопание на цели (До 30%)",
+          "desc": "[WhenUse] При 2-х и более [KnowledgeExplored:*Откровениях*] повышает силу монет на число [KnowledgeExplored:*Откровений*]\n[WhenUse] +3% к урону за каждое Погружение на цели (До 30%)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] на 4"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 СД"
@@ -1814,7 +1814,7 @@
         {
           "level": 1,
           "name": "Хлыст разума",
-          "desc": "[WhenUse] <b>Если счётчик [Charge:*Заряда*] Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает 15 [Sinking:*Утопания*] и повышает собственный счётчик [Charge:*Заряда*] на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1\n[WhenUse] Сила монет +1 при трате Хун Лу 10 единиц счётчика [Charge:*Заряда*]",
+          "desc": "[WhenUse] <b>Если счётчик [Charge:*Заряда*] Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает 15 [Sinking:*Погружения*] и повышает собственный счётчик [Charge:*Заряда*] на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1\n[WhenUse] Сила монет +1 при трате Хун Лу 10 единиц счётчика [Charge:*Заряда*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1840,7 +1840,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] цели на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
                 }
               ]
             }
@@ -1849,7 +1849,7 @@
         {
           "level": 2,
           "name": "Хлыст разума",
-          "desc": "<style=\"highlight\">+2% к урону за каждую единицу потенциала [Charge:*Заряда*] (До 10%)</style>\n[WhenUse] <b>Если счётчик [Charge:*Заряда*] Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает 15 [Sinking:*Утопания*] и повышает собственный счётчик [Charge:*Заряда*] на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1\n[WhenUse] Сила монет +1 при трате Хун Лу 10 единиц счётчика [Charge:*Заряда*]",
+          "desc": "<style=\"highlight\">+2% к урону за каждую единицу потенциала [Charge:*Заряда*] (До 10%)</style>\n[WhenUse] <b>Если счётчик [Charge:*Заряда*] Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает 15 [Sinking:*Погружения*] и повышает собственный счётчик [Charge:*Заряда*] на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1\n[WhenUse] Сила монет +1 при трате Хун Лу 10 единиц счётчика [Charge:*Заряда*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1884,7 +1884,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] цели на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона</style>"
@@ -1896,7 +1896,7 @@
         {
           "level": 4,
           "name": "Хлыст разума",
-          "desc": "<style=\"highlight\">+4%</style> урона за каждую единицу потенциала [Charge:*Заряда*] (До <style=\"highlight\">20%</style>)\n[WhenUse] <b>Если счётчик [Charge:*Заряда*] Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает<style=\"highlight\">10</style> [Sinking:*Утопания*] и повышает собственный счётчик [Charge:*Заряда*] на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1;\n<style=\"highlight\">- [BeforeUse] При 5 и более [Charge:*Заряда*] у Хун Лу этот навык перестаёт быть <color=#e30000>⁅Неуправляемым⁆</color></style>\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате Хун Лу 10 единиц счётчика [Charge:*Заряда*]\n<style=\"highlight\">[BeforeAttack] Если после траты счётчика [Charge:*Заряда*] осталось 8 и более единиц, Хун Лу дополнительно тратит ещё 8 единиц счётчика [Charge:*Заряда*] для +40% к урону</style>",
+          "desc": "<style=\"highlight\">+4%</style> урона за каждую единицу потенциала [Charge:*Заряда*] (До <style=\"highlight\">20%</style>)\n[WhenUse] <b>Если счётчик [Charge:*Заряда*] Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает<style=\"highlight\">10</style> [Sinking:*Погружения*] и повышает собственный счётчик [Charge:*Заряда*] на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1;\n<style=\"highlight\">- [BeforeUse] При 5 и более [Charge:*Заряда*] у Хун Лу этот навык перестаёт быть <color=#e30000>⁅Неуправляемым⁆</color></style>\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате Хун Лу 10 единиц счётчика [Charge:*Заряда*]\n<style=\"highlight\">[BeforeAttack] Если после траты счётчика [Charge:*Заряда*] осталось 8 и более единиц, Хун Лу дополнительно тратит ещё 8 единиц счётчика [Charge:*Заряда*] для +40% к урону</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1931,7 +1931,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Утопания*] цели на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона<style=\"highlight\"></style>"
@@ -1959,7 +1959,7 @@
                   "desc": "[OnSucceedAttack] Хун Лу повышает собственный счётчик [Charge:*Заряда*] на (потенциал [Charge:*Заряда*] + 1) (До 6)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*] и повышает его счётчик на цели на 2"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*] и повышает его счётчик на цели на 2"
                 }
               ]
             }
@@ -1982,7 +1982,7 @@
                   "desc": "[OnSucceedAttack] Хун Лу повышает собственный счётчик [Charge:*Заряда*] на (потенциал [Charge:*Заряда*] + <style=\"highlight\">3</style>) (До <style=\"highlight\">8-и</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Утопания*] и повышает его счётчик на цели на <style=\"highlight\">4</style>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*] и повышает его счётчик на цели на <style=\"highlight\">4</style>"
                 }
               ]
             }
