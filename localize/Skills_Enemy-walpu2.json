@@ -135,7 +135,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
                                 }
                             ]
                         }
@@ -239,7 +239,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
                                 }
                             ]
                         }
@@ -359,7 +359,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
                                 }
                             ]
                         },
@@ -367,7 +367,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечений*]"
+                                    "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*]"
                                 }
                             ]
                         }

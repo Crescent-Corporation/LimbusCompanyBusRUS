@@ -860,7 +860,7 @@
         {
           "level": 3,
           "name": "О Дуллахан!..",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」(Единожды за ход)</style>\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и боле [Sinking:*Погружения*]</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」(Раз за ход)</style>\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и боле [Sinking:*Погружения*]</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
             {
@@ -875,7 +875,7 @@
         {
           "level": 4,
           "name": "О Дуллахан!..",
-          "desc": "[DuelCounter]\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」 (Единожды за ход)\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Погружения*] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Получает (серия парирований ÷ 3) [AttackUp:*Повышений уровня атаки*] на следующий ход (До 3, единожды за ход)</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[DuelCounter]\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:*Дуллахана*] при 15 и более СД, отбивается навыком 「Горе, плач, погибель」 (Раз за ход)\n[StartBattle] Если с Хитклифом нет [NightPathfinding:*Дуллахана*], седлает [NightPathfinding:*Дуллахана*] на следующий ход (Получает 1 эффект единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Sinking:*Погружения*] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Получает (серия парирований ÷ 3) [AttackUp:*Повышений уровня атаки*] на следующий ход (До 3, единожды за ход)</style>\n[EndBattle] Если же Хитклиф [NightPathfinding:*в седле*], он спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {},
             {
@@ -1342,7 +1342,7 @@
         {
           "level": 1,
           "name": "Облачный разрез",
-          "desc": "[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1366,7 +1366,7 @@
         {
           "level": 2,
           "name": "Облачный разрез",
-          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более [Laceration:*Кровотечения*] на цели</style>\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более [Laceration:*Кровотечения*] на цели</style>\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1390,7 +1390,7 @@
         {
           "level": 4,
           "name": "Облачный разрез",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)</style>\n[WhenUse] Хитклиф получает <style=\"highlight\">2</style> [Endurance:*Повышения силы защиты*] на следующий ход (Единожды за ход)",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)</style>\n[WhenUse] Хитклиф получает <style=\"highlight\">2</style> [Endurance:*Повышения силы защиты*] на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1434,7 +1434,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] (Раз за ход)"
                 }
               ]
             }
@@ -1461,7 +1461,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1470,7 +1470,7 @@
         {
           "level": 4,
           "name": "Облачный ураган",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Единожды за ход)</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1502,7 +1502,7 @@
         {
           "level": 3,
           "name": "Грозовой разрез",
-          "desc": "Сила монет +1 при 6 и более [Laceration:*Кровотечения*] на цели\n[StartBattle] Хитклиф получает 1 [CloudWall] на следующий ход\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "Сила монет +1 при 6 и более [Laceration:*Кровотечения*] на цели\n[StartBattle] Хитклиф получает 1 [CloudWall] на следующий ход\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1539,7 +1539,7 @@
         {
           "level": 4,
           "name": "Грозовой разрез",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)</style>\n[StartBattle] Хитклиф получает 1 [CloudWall] на следующий ход\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Единожды за ход)\n<style=\"highlight\">[WinDuel] Хитклиф получает 1 [BlackCloudBlade] на следующий ход (Единожды за ход)</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)</style>\n[StartBattle] Хитклиф получает 1 [CloudWall] на следующий ход\n[WhenUse] Хитклиф получает 1 [Endurance] на следующий ход (Раз за ход)\n<style=\"highlight\">[WinDuel] Хитклиф получает 1 [BlackCloudBlade] на следующий ход (Раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1589,10 +1589,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Раз за навык)"
                 }
               ]
             }
@@ -1609,10 +1609,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1634,10 +1634,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Раз за навык)"
                 }
               ]
             }
@@ -1654,10 +1654,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При наличии [BlackCloudBlade:*Лезвия тёмных облаков*] Хитклиф вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] [EngageToBattle:*Будучи в боеготовности*], Хитклиф вновь подкидывает эту монету (Раз за навык)"
                 }
               ]
             }

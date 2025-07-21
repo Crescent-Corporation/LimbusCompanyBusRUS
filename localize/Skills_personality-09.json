@@ -284,7 +284,7 @@
         {
           "level": 2,
           "name": "Пламенная тегатана — Всполохи",
-          "desc": "Сила монет +1 против целей с 6 и более [Combustion:*Огня*]",
+          "desc": "Сила монет +1 против целей с 6-ю и более [Combustion:*Огня*]",
           "coinlist": [
             {
               "coindescs": [
@@ -386,7 +386,7 @@
         {
           "level": 4,
           "name": "Молниеносное пронзание",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Combustion:*Огня*]</style>\n+30% к урону против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-ю и более [Combustion:*Огня*]</style>\n+30% к урону против целей, чей Огонь и счётчик [Combustion:*Огня*] равен 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -483,7 +483,7 @@
         {
           "level": 2,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6-ю и более [Vibration:*Тремора*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -551,7 +551,7 @@
         {
           "level": 2,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6 и более [Vibration:*Тремора*]</style>",
+          "desc": "[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6-ю и более [Vibration:*Тремора*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -802,7 +802,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Раз за ход)"
                 }
               ]
             },
@@ -830,7 +830,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -858,7 +858,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)\n<style=\"highlight\">- Если у Роди 15 и более на [DevyatDimensionalSack:*Курьерской сумке*], она дополнительно получает ещё 1 [Agility:*Спешку*]</style>"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:*Спешку*] на следующий ход (Раз за ход)\n<style=\"highlight\">- Если у Роди 15 и более на [DevyatDimensionalSack:*Курьерской сумке*], она дополнительно получает ещё 1 [Agility:*Спешку*]</style>"
                 }
               ]
             },
@@ -885,7 +885,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3 (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3 (Раз за ход)"
                 }
               ]
             },
@@ -895,7 +895,7 @@
                   "desc": "[OnSucceedAttack] +15% к урону при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*]"
                 },
                 {
-                  "desc": "[EndSkill] При оглушении или убийстве цели получает 1 [Agility:*Спешку*] на следующий ход (Единожды за ход)"
+                  "desc": "[EndSkill] При оглушении или убийстве цели получает 1 [Agility:*Спешку*] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -910,7 +910,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3 (Единожды за ход)\n<style=\"highlight\">- Дополнительно повышает счётчик [Burst:*Разрывов*] на 1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] (До 2)</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 3 (Раз за ход)\n<style=\"highlight\">- Дополнительно повышает счётчик [Burst:*Разрывов*] на 1 за каждые 10 единиц на [DevyatDimensionalSack:*Курьерской сумке*] (До 2)</style>"
                 }
               ]
             },
@@ -920,7 +920,7 @@
                   "desc": "[OnSucceedAttack] <style=\"highlight\">+25%</style> урона при 15 и более на [DevyatDimensionalSack:*Курьерской сумке*]"
                 },
                 {
-                  "desc": "[EndSkill] При оглушении или убийстве цели получает <style=\"highlight\">2</style> [Agility:*Спешки*] на следующий ход (Единожды за ход)"
+                  "desc": "[EndSkill] При оглушении или убийстве цели получает <style=\"highlight\">2</style> [Agility:*Спешки*] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -934,7 +934,7 @@
         {
           "level": 1,
           "name": "Помощь в доставке и последовательный контроль",
-          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSack:*Курьерской сумке*] заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Единожды за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Единожды за ход)\n[WhenUse] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 2 (Единожды за ход)\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1",
+          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSack:*Курьерской сумке*] заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Раз за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Раз за ход)\n[WhenUse] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 2 (Раз за ход)\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1",
           "coinlist": [
             {}
           ]
@@ -942,7 +942,7 @@
         {
           "level": 4,
           "name": "Помощь в доставке и последовательный контроль",
-          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSack:*Курьерской сумке*] заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Единожды за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Единожды за ход)\n[WhenUse] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 2 (Единожды за ход)\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1",
+          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSack:*Курьерской сумке*] заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Раз за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Раз за ход)\n[WhenUse] Повышает число [DevyatDimensionalSack:*Курьерской сумки*] на 2 (Раз за ход)\n- Если у Роди менее 15 на [DevyatDimensionalSack:*Курьерской сумке*], дополнительно повышает её число на 1",
           "coinlist": [
             {}
           ]
@@ -955,7 +955,7 @@
         {
           "level": 1,
           "name": "Это... Всего лишь тактическая пауза!",
-          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Единожды за ход)\n[EndBattle] [Retreat:*Тактически отступает*]",
+          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Раз за ход)\n[EndBattle] [Retreat:*Тактически отступает*]",
           "coinlist": [
             {}
           ]
@@ -963,7 +963,7 @@
         {
           "level": 4,
           "name": "Это... Всего лишь тактическая пауза!",
-          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Единожды за ход)\n[EndBattle] [Retreat:*Тактически отступает*]",
+          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Раз за ход)\n[EndBattle] [Retreat:*Тактически отступает*]",
           "coinlist": [
             {}
           ]
@@ -995,7 +995,7 @@
         {
           "level": 2,
           "name": "Прочь с пути моего…",
-          "desc": "[StartBattle] Испивает до 20 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы дать по одному [BloomingThornsRodionFirst:*Цветущему тёрну*] себе и союзнику с самым высоким здоровьем  за каждые 10 долей [BloodDinner:*Кровавого пиршества*] (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [BloomingThornsRodionFirst:*Цветущий тёрн*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
+          "desc": "[StartBattle] Испивает до 20 долей [BloodDinner:*Кровавого пиршества*] для того, чтобы дать по одному [BloomingThornsRodionFirst:*Цветущему тёрну*] себе и союзнику с самым высоким здоровьем  за каждые 10 долей [BloodDinner:*Кровавого пиршества*] (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [BloomingThornsRodionFirst:*Цветущий тёрн*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более [Laceration:*Кровотечения*]</style>",
           "coinlist": [
             {
             },
@@ -1067,7 +1067,7 @@
         {
           "level": 2,
           "name": "Разлетись по ветру",
-          "desc": "[StartBattle] Испивает до 30 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 испитых долей даёт по 1 [BloomingThornsRodionFirst:*Цветущему тёрну*] и, независимо от долей [BloodDinner:*Пиршества*], 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 [BloomingThornsRodionFirst:*Цветущей тернии*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*].\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
+          "desc": "[StartBattle] Испивает до 30 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 испитых долей даёт по 1 [BloomingThornsRodionFirst:*Цветущему тёрну*] и, независимо от долей [BloodDinner:*Пиршества*], 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 [BloomingThornsRodionFirst:*Цветущей тернии*].\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Родя получает 5 [Laceration:*Кровотечения*].\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более [Laceration:*Кровотечения*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1167,7 +1167,7 @@
         {
           "level": 4,
           "name": "Пора закончить этот карнавал",
-          "desc": "[BeforeUse] При достижении 25 [BloomingThornsRodionFirst:*Цветущих терний*] и выше использует навык 「Высшее искусство кристаллизации крови Дон Кихота: Финал」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Даёт себе и (наибольший резонанс) союзникам (3 + (1 за каждые 50 долей [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавальных пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Родя даёт себе и (наибольший резонанс) 3 [BloomingThornsRodionFirst:*Цветущие тернии*]",
+          "desc": "[BeforeUse] При достижении 25 [BloomingThornsRodionFirst:*Цветущих терний*] и выше использует навык 「Высшее искусство кристаллизации крови Дон Кихота: Финал」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Даёт себе и (наибольший резонанс) союзникам (3 + (1 за каждые 50 долей [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавальных пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Родя даёт себе и (наибольший резонанс) 3 [BloomingThornsRodionFirst:*Цветущие тернии*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1293,7 +1293,7 @@
         {
           "level": 4,
           "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% к урону за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 [BloodDinner_Accumulation:*Испитого пиршества*])) [FestivalFeverRodion:*Карнавального пыла*] на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 [BloomingThornsRodionFirst:*Цветущих терний*]\n[WhenUse] Родя получает +1% к урону за каждые 5 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1444,7 +1444,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Роди 30 и более [Breath:*Дыхания*], она тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Роди 30 и более [Breath:*Дыхания*], она тратит 10 единиц, чтобы вновь подкинуть эту монету (Раз за навык)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель<style=\"highlight\"></style>"
@@ -1475,7 +1475,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у Роди 30 и более [Breath:*Дыхания*], она тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если у Роди 30 и более [Breath:*Дыхания*], она тратит 10 единиц, чтобы вновь подкинуть эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель<style=\"highlight\"></style>"
@@ -1588,6 +1588,508 @@
               "coindescs": [
                 {
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Покровительство рыцаря",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [BlackTearsAlly:*Чёрные слезы*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Покровительство рыцаря",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-ю и более [Sinking:*Погружения*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [BlackTearsAlly:*Чёрные слезы*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Покровительство рыцаря",
+          "desc": "Сила монет +1 против целей с 6-ю и более [Sinking:*Погружения*]\n<style=\"highlight\">Сила парирований +1 при 3-х и более [ProtectiveSword:*Оберегающих рапирах*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [BlackTearsAlly:*Чёрные слезы*]<style=\"highlight\">\n- Также она получает по дополнительной [BlackTearsAlly:*Чёрной слезе*] за каждые 2 [ProtectiveSword:*Оберегающие рапиры*] (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С силой справедливости",
+          "desc": "[WhenUse] При 15-и и более [BlackTearsAlly:*Чёрных слезах*] тратит 5 [BlackTearsAlly:*Слёз*] для получения +15% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "С силой справедливости",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-ю и более [Sinking:*Погружения*]</style>\n[WhenUse] При 15-и и более [BlackTearsAlly:*Чёрных слезах*] тратит 5 [BlackTearsAlly:*Слёз*] для получения +15% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*]\n<style=\"highlight\">- Также она получает по дополнительной [BlackTearsAlly:*Чёрной слезе*] за каждые 2 [ProtectiveSword:*Оберегающие рапиры*] (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С силой справедливости",
+          "desc": "Сила монет +1 против целей с 6-ю и более [Sinking:*Погружения*]\n<style=\"highlight\">Сила парирований +1 за каждые 2 [ProtectiveSword:*Оберегающие рапиры*] (До 2-х)</style>\n[WhenUse] При 15-и и более [BlackTearsAlly:*Чёрных слезах*] тратит 5 [BlackTearsAlly:*Слёз*] для получения +15% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*]\n- Также она получает дополнительные [BlackTearsAlly] <style=\"highlight\">по числу</style> [ProtectiveSword:*Оберегающих рапир*] (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пронзание Арканы",
+          "desc": "Сила монет +1 против целей с 6-ю и более [Sinking:*Погружения*]\nСила парирований +1 за каждые 2 [ProtectiveSword:*Оберегающие рапиры*] (До 2-х)\n[WhenUse] При 10 и более [BlackTearsAlly:*Чёрных слезах*] расходует до 20-и [BlackTearsAlly:*Слёз*]\n- +(Потраченные [BlackTearsAlly] × 1.5)% к урону после действия выше\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык [BlackTearsAlly:*Чёрных слёз*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Sinking], равное числу [ProtectiveSword:*Оберегающих рапир*] (До 3-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Аркана Пирс",
+          "_comment": "Пронзание Арканы",
+          "desc": "Сила монет +1 против целей с 6-ю и более [Sinking:*Погружения*]\nСила парирований +1 <style=\"highlight\">за каждую</style> [ProtectiveSword:*Оберегающую рапиру*] (До <style=\"highlight\">5-и</style>)\n[WhenUse] При 10 и более [BlackTearsAlly:*Чёрных слезах*] расходует до 20-и [BlackTearsAlly:*Слёз*]\n- +(Потраченные [BlackTearsAlly] × 1.5)% к урону после действия выше\n<style=\"highlight\">- Базовая сила +1 за каждые 5 потраченных [BlackTearsAlly:*Слёз*]</style>\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык [BlackTearsAlly:*Чёрных слёз*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+20% к урону при наличии или трате данной монетой силы [SwordCutwithTear:*Заточки слезами*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Sinking], равное числу [ProtectiveSword:*Оберегающих рапир*] (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вера рыцаря",
+          "desc": "[CanDuelGuard]\n[StartBattle] Родя получает щит на (сила духа ÷ 5)% здоровья (Раз за ход)\n[WhenUse] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*] (Дважды за ход)\n[EndBattle] При менее 3-й силы [SwordCutwithTear:*Заточки слезами*] грешница тратит 15 СД, дабы [SwordCutwithTear:*заточить меч собственными слезами*] (Раз за ход)\n- Если в Роде уже есть [SwordCutwithTear:*Заточенные мечи*], она теряет ещё (сила [SwordCutwithTear:*заточки*] × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вера рыцаря",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Сила монет +1 за каждые 2 [ProtectiveSword:*Оберегающие рапиры*] (До 2-х)</style>\n[StartBattle] Родя получает щит на (сила духа ÷ <style=\"highlight\">3</style>)% здоровья (Раз за ход)\n[WhenUse] Родя получает <style=\"highlight\">5</style> [BlackTearsAlly:*Чёрных слёз*] (Дважды за ход)\n[EndBattle] При менее 3-й силы [SwordCutwithTear:*Заточки слезами*] грешница тратит 15 СД, дабы [SwordCutwithTear:*заточить меч собственными слезами*] (Раз за ход)\n- Если в Роде уже есть [SwordCutwithTear:*Заточенные мечи*], она теряет ещё (сила [SwordCutwithTear:*заточки*] × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Увядшая вера",
+          "desc": "[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [BlackTearsAlly:*Чёрные слезы*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Увядшая вера",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 3 [Sinking:*Погружения*] на цели (До 2-х)</style>\n[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [BlackTearsAlly:*Чёрные слезы*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Увядшая вера",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:*Погружения*] на цели (До <style=\"highlight\">3</style>-х)\n[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 [BlackTearsAlly:*Чёрные слезы*]<style=\"highlight\">\n- В начале боевой фазы грешница получает по дополнительной [BlackTearsAlly:*Чёрной слезе*] за каждые 2 [PenetratingSword:*Пронзающие рапиры*] с собой (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С точёным слезами мечом",
+          "desc": "[WhenUse] Теряет 10 СД\n[WhenUse] При 15-и и более [BlackTearsAlly:*Чёрных слезах*] тратит 5 [BlackTearsAlly:*Слёз*] для получения +20% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "С точёным слезами мечом",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 3 [Sinking:*Погружения*] на цели (До 2-х)</style>\n[WhenUse] Теряет 10 СД\n[WhenUse] При 15-и и более [BlackTearsAlly:*Чёрных слезах*] тратит 5 [BlackTearsAlly:*Слёз*] для получения +20% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*]\n<style=\"highlight\">- В начале боевой фазы грешница получает по дополнительной [BlackTearsAlly:*Чёрной слезе*] за каждые 2 [PenetratingSword:*Пронзающие рапиры*] с собой (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С точёным слезами мечом",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:*Погружения*] на цели (До <style=\"highlight\">3</style>-х)\n[WhenUse] Теряет 10 СД\n[WhenUse] При 15-и и более [BlackTearsAlly:*Чёрных слезах*] тратит 5 [BlackTearsAlly:*Слёз*] для получения +20% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Наносит 2 [Sinking:*Погружения*],</style> Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*]\n- Также она получает дополнительные [BlackTearsAlly] <style=\"highlight\">по числу</style> [PenetratingSword:*Пронзающих рапир*] (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091307,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Разрыв и пронзание Арканы",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:*Погружения*] на цели (До 2-х)\n[WhenUse] Теряет 15 СД\n[WhenUse] При 10 и более [BlackTearsAlly:*Чёрных слезах*] расходует до 20-и [BlackTearsAlly:*Слёз*]\n- +(Потраченные [BlackTearsAlly] × 3)% к урону после действия выше\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык [BlackTearsAlly:*Чёрных слёз*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:*Погружения*] (Раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот навык потратил [SwordCutwithTear:*Заточку слезами*], Родя вновь подкидывает эту монету (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрыв и пронзание Арканы",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4-х</style>)\n[WhenUse] Теряет 15 СД\n[WhenUse] При 10 и более [BlackTearsAlly:*Чёрных слезах*] расходует до 20-и [BlackTearsAlly:*Слёз*]\n- +(Потраченные [BlackTearsAlly] × 3)% к урону после действия выше\n<style=\"highlight\">- Базовая сила +1 за каждые 5 потраченных [BlackTearsAlly:*Слёз*]</style>\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык [BlackTearsAlly:*Чёрных слёз*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на <style=\"highlight\">4</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style>[Sinking:*Погружения*] (Раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот навык потратил [SwordCutwithTear:*Заточку слезами*], Родя вновь подкидывает эту монету (Раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Измождённая гордость",
+          "desc": "[DuelCounter]\n[WhenUse] Родя получает 3 [BlackTearsAlly:*Чёрные слезы*] (Дважды за ход)\n[EndBattle] При менее 3-й силы [SwordCutwithTear:*Заточки слезами*] грешница тратит 15 СД, дабы [SwordCutwithTear:*заточить меч собственными слезами*] (Раз за ход)\n- Если в Роде уже есть [SwordCutwithTear:*Заточенные мечи*], она теряет ещё (сила [SwordCutwithTear:*заточки*] × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Измождённая гордость",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Итоговая сила +1 за каждые две [PenetratingSword:*Пронзающие рапиры*] (До 2-х)</style>\n[WhenUse] Родя получает <style=\"highlight\">5</style> [BlackTearsAlly:*Чёрных слёз*] (Дважды за ход)\n[EndBattle] При менее 3-й силы [SwordCutwithTear:*Заточки слезами*] грешница тратит 15 СД, дабы [SwordCutwithTear:*заточить меч собственными слезами*] (Раз за ход)\n- Если в Роде уже есть [SwordCutwithTear:*Заточенные мечи*], она теряет ещё (сила [SwordCutwithTear:*заточки*] × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 }
               ]
             }

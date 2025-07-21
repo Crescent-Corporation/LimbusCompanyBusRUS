@@ -1268,7 +1268,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ПБ / ЧП",
+          "name": "ПБ | ЧП",
           "desc": "Сила монет +1 при 20 и более в сумме [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяний*] на себе",
           "coinlist": [
             {
@@ -1293,7 +1293,7 @@
         },
         {
           "level": 2,
-          "name": "ПБ / ЧП",
+          "name": "ПБ | ЧП",
           "desc": "Сила монет +1 при 20 и более в сумме [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяний*] на себе\n<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>",
           "coinlist": [
             {
@@ -1324,7 +1324,7 @@
         },
         {
           "level": 4,
-          "name": "ПБ / ЧП",
+          "name": "ПБ | ЧП",
           "desc": "Сила монет +1 при <style=\"highlight\">15</style> и более в сумме [RedEyeFirst:*Красных глаз*] и [PenanceFirst:*Раскаяний*] на себе\nСила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]",
           "coinlist": [
             {
@@ -1442,14 +1442,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*] (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*] (Раз за ход)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [PenanceFirst:*Раскаяния*] (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Получает 2 [PenanceFirst:*Раскаяния*] (Раз за ход)"
                 }
               ]
             }
@@ -1463,14 +1463,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*] (Единожды за ход)\n<style=\"highlight\">- Дополнительно получает 1 [RedEyeFirst] при менее 7 [RedEyeFirst:*Красных глаз*]</style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [RedEyeFirst:*Красных глаз*] (Раз за ход)\n<style=\"highlight\">- Дополнительно получает 1 [RedEyeFirst] при менее 7 [RedEyeFirst:*Красных глаз*]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [PenanceFirst:*Раскаяния*] (Единожды за ход)\n<style=\"highlight\">- Дополнительно получает 1 [PenanceFirst]при менее 7 [PenanceFirst:*Раскаяний*]</style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [PenanceFirst:*Раскаяния*] (Раз за ход)\n<style=\"highlight\">- Дополнительно получает 1 [PenanceFirst]при менее 7 [PenanceFirst:*Раскаяний*]</style>"
                 }
               ]
             }
@@ -1506,7 +1506,7 @@
                   "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -1537,7 +1537,7 @@
                   "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - <style=\"highlight\">5</style>) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1587,7 +1587,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Раз за навык)</style>"
                 }
               ]
             }
@@ -1611,7 +1611,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1646,7 +1646,7 @@
         {
           "level": 2,
           "name": "Как высечено",
-          "desc": "Если Рёшу быстрее цели, +(разница в скорости × потенциал [Burst:*Разрывов*] на цели)% к урону (До 50%)\n[WhenUse] Сила монет +1 против целей с <style=\"highlight\">4</style> и более [Burst:*Разрывами*]\n<style=\"highlight\">[WhenUse] Рёшу получает 2 [Agility:*Спешки*] на следующий ход (Единожды за ход)\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>",
+          "desc": "Если Рёшу быстрее цели, +(разница в скорости × потенциал [Burst:*Разрывов*] на цели)% к урону (До 50%)\n[WhenUse] Сила монет +1 против целей с <style=\"highlight\">4</style> и более [Burst:*Разрывами*]\n<style=\"highlight\">[WhenUse] Рёшу получает 2 [Agility:*Спешки*] на следующий ход (Раз за ход)\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1670,7 +1670,7 @@
         {
           "level": 4,
           "name": "Как высечено",
-          "desc": "Если Рёшу быстрее цели, +(разница в скорости × потенциал [Burst:*Разрывов*] на цели)% к урону (До 50%)\n<style=\"highlight\">Сила монет +1, если Рёшу быстрее цели на 3 и выше единиц</style>\n[WhenUse] Сила монет +1 против целей с 4 и более [Burst:*Разрывами*]\n[WhenUse] Рёшу получает 2 [Agility:*Спешки*] на следующий ход (Единожды за ход)\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на 1",
+          "desc": "Если Рёшу быстрее цели, +(разница в скорости × потенциал [Burst:*Разрывов*] на цели)% к урону (До 50%)\n<style=\"highlight\">Сила монет +1, если Рёшу быстрее цели на 3 и выше единиц</style>\n[WhenUse] Сила монет +1 против целей с 4 и более [Burst:*Разрывами*]\n[WhenUse] Рёшу получает 2 [Agility:*Спешки*] на следующий ход (Раз за ход)\n[WinDuel] Повышает счётчик [Burst:*Разрывов*] цели на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1731,7 +1731,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Раз за навык)"
                 }
               ]
             }
@@ -1768,7 +1768,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше Рёшу вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] [BurstAgility:*Покушается на жертву*]</style>"

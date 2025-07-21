@@ -607,7 +607,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:*Кровотечения*], наносит 1 Ослабление положительной монеты на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:*Кровотечения*], наносит 1 [PlusCoinValueDown] на следующий ход"
                 }
               ]
             }
@@ -644,7 +644,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Laceration:*Кровотечения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели <style=\"highlight\">7</style> и более [Laceration:*Кровотечения*], наносит 1 Ослабление положительной монеты на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели <style=\"highlight\">7</style> и более [Laceration:*Кровотечения*], наносит 1 [PlusCoinValueDown] на следующий ход"
                 }
               ]
             }
@@ -1108,7 +1108,7 @@
         {
           "level": 1,
           "name": "Иссякающее терпение",
-          "desc": "[StartBattle] Получает 3 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] (Единожды за ход)",
+          "desc": "[StartBattle] Получает 3 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1122,7 +1122,7 @@
         {
           "level": 4,
           "name": "Иссякающее терпение",
-          "desc": "<style=\"highlight\">[StartBattle] При 40%+ ОЗ Грегор получает 5 [Laceration:*Кровотечения*] и активирует его до 3-х раз (Единожды за ход. Каждая активация понижает счётчик [Laceration:*Кровотечения*])\n[StartBattle] Если ОЗ Грегора менее 40%, он потребляет до 20 долей [BloodDinner:*Кровавого пиршества*], восстанавливая им равное число ОЗ (Единожды за ход)</style>\n[StartBattle] Получает 3 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] (Единожды за ход)",
+          "desc": "<style=\"highlight\">[StartBattle] При 40%+ ОЗ Грегор получает 5 [Laceration:*Кровотечения*] и активирует его до 3-х раз (Раз за ход. Каждая активация понижает счётчик [Laceration:*Кровотечения*])\n[StartBattle] Если ОЗ Грегора менее 40%, он потребляет до 20 долей [BloodDinner:*Кровавого пиршества*], восстанавливая им равное число ОЗ (Раз за ход)</style>\n[StartBattle] Получает 3 [BloodyHandGregFirst:*Усиления Обагрённой кровью руки*] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1517,7 +1517,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Грегора 30 и более [Breath:*Дыхания*], он тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Грегора 30 и более [Breath:*Дыхания*], он тратит 10 единиц, чтобы вновь подкинуть эту монету (Раз за навык)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель<style=\"highlight\"></style>"
@@ -1551,7 +1551,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у Грегора 30 и более [Breath:*Дыхания*], он тратит 10 единиц, чтобы вновь подкинуть эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если у Грегора 30 и более [Breath:*Дыхания*], он тратит 10 единиц, чтобы вновь подкинуть эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Грегор наносит [BurstPoison] на цель<style=\"highlight\"></style>"

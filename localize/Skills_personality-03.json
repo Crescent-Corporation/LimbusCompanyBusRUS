@@ -1175,7 +1175,7 @@
         {
           "level": 3,
           "name": "Да быть тебе исколотым и пронзённым",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] (До 50%)\n[WhenUse] +10% к урону за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До 50%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на 30 долей. Также она получает 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] (До 50%)\n[WhenUse] +10% к урону за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До 50%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на 30 долей. Также она получает 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Раз за ход)",
           "coinlist": [
             {},
             {},
@@ -1191,7 +1191,7 @@
         {
           "level": 4,
           "name": "Да быть тебе исколотым и пронзённым",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse]+<style=\"highlight\">20</style>% к урону за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До <style=\"highlight\">100</style>%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">60</style> долей. Также она получает 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% нанесённого урона в качестве ОЗ (До 10-и ОЗ)\n[WhenUse] Сила парирований +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] на Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Дон Кихот испивает до 50 долей [BloodDinner:*Кровавого пиршества*] и за каждые 10 долей получает 1 долю [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n- При невозможности испить из [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 10 [Laceration:*Кровотечения*]\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse]+<style=\"highlight\">20</style>% к урону за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] Дон Кихот (До <style=\"highlight\">100</style>%)\n[EndSkill] При убийстве цели этим навыком Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">60</style> долей. Также она получает 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Раз за ход)",
           "coinlist": [
             {},
             {},
@@ -1452,7 +1452,7 @@
         {
           "level": 3,
           "name": "Высшее искусство кристаллизации крови Санчо: Ла Сангре",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] у Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse] +20% к урону 100%)\n[EndSkill] За каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на 50 долей. Также Дон Кихот возвращает половину истраченных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] у Дон Кихот (До 2-х)\n[WhenUse] Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse] +20% к урону 100%)\n[EndSkill] За каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на 50 долей. Также Дон Кихот возвращает половину истраченных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1493,7 +1493,7 @@
         {
           "level": 4,
           "name": "Высшее искусство кристаллизации крови Санчо: Ла Сангре",
-          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] у Дон Кихот (До <style=\"highlight\">3</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style>[Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse] +20% к урону за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 100%)\n[EndSkill] За каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">100</style> долей. Также Дон Кихот возвращает половину истраченных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Единожды за ход)",
+          "desc": "При успешной атаке этим навыком Дон Кихот восстанавливает до 50% от нанесённого урона в качестве ОЗ (До 20 ОЗ)\n[WhenUse] Базовая сила +1 за каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] у Дон Кихот (До <style=\"highlight\">3</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style>[Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2-х)</style>\n[WhenUse] +5% к урону за каждую единицу [Laceration:*Кровотечения*] на цели (До 50%)\n[WhenUse] +20% к урону за каждые 100 долей [BloodDinner_Accumulation:*Испитого пиршества*] (До 100%)\n[EndSkill] За каждые 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] Дон Кихот теряет 10 долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]\n[EndSkill] При убийстве цели Дон Кихот заполняет [BloodDinner] на <style=\"highlight\">100</style> долей. Также Дон Кихот возвращает половину истраченных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1539,7 +1539,7 @@
         {
           "level": 1,
           "name": "Имитация искусства кристаллизации крови Санчо, 15-й стиль: Подготовка к финалу",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst]/15) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс ÷ 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst]/15) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс ÷ 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Раз на союзника, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1557,7 +1557,7 @@
         {
           "level": 4,
           "name": "Имитация искусства кристаллизации крови Санчо, 15-й стиль: Подготовка к финалу",
-          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst] ÷ <style=\"highlight\">10</style>) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс ÷ 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Единожды на союзника, десятичные опускаются)",
+          "desc": "[DuelCounter]\n[StartBattle] Дон Кихот даёт (1 + [BloodArmorPersonalityFirst] ÷ <style=\"highlight\">10</style>) [SwirlingBloodPersonality:*Мерцания 【Кроваггел】*] (3 + наибольший резонанс ÷ 2) союзникам с самым низким здоровьем за каждые 40 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] и теряет половину накопленных долей [BloodArmorPersonalityFirst:*Кристаллизованной крови*]. (Раз на союзника, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1838,6 +1838,487 @@
           "desc": "<style=\"highlight\">Если Дон Кихот быстрее нападающего, +1 сила монет за каждые 2 единицы разницы в скорости (До 2-х)</style>",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Являюсь по приказанию управляющего, лорда моего!",
+          "desc": "[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Являюсь по приказанию управляющего, лорда моего!",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при трате 5 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">3</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Являюсь по приказанию управляющего, лорда моего!",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы [ThePowerOfLoveAndHate:*Любви и ненависти*] (До 2-х)</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С любовью! Хоп!",
+          "desc": "[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "С любовью! Хоп!",
+          "desc": "<style=\"highlight\">[WhenUse] +6% к урону за каждую единицу [ThePowerOfLoveAndHate:*Любви и ненависти*] (До 30%)\n[WhenUse] Сила монет +1 при трате 6 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">4</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:*Разрыва*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С любовью! Хоп!",
+          "desc": "[WhenUse] +<style=\"highlight\">10</style>% к урону за каждую единицу [ThePowerOfLoveAndHate:*Любви и ненависти*] (До <style=\"highlight\">50</style>%)\n[WhenUse] Сила монет +1 при трате 6 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">5</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 4<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "<smallcaps>Аркана Бит! | Младшая Аркана Слэйв!!!</smallcaps>",
+          "_comment": "Удар Арканы! Раб младшей Арканы!!!",
+          "desc": "+15% к урону за каждую [ArcanaQueenOfHate:*Магическую Аркану*] Дон Кихот (До 45%)\n[WhenUse] +([ThePowerOfLoveAndHate] × 15)% к урону, если потенциал [ThePowerOfLoveAndHate:*Любви и ненависти*] Дон Кихот равен 3-м и выше (До 75%)\n[WhenUse] Базовая сила +1, если потенциал [ThePowerOfLoveAndHate:*Любви и ненависти*] Дон Кихот равен 3-м и выше\n[WhenUse] Сила монет +1 за трату 5-и единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*] (До 2-х)\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 6\n[EndSkill] Также Дон Кихот получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "<smallcaps>Аркана Бит! | Младшая Аркана Слэйв!!!</smallcaps>",
+          "_comment": "Удар Арканы! Раб младшей Арканы!!!",
+          "desc": "+<style=\"highlight\">30</style>% к урону за каждую [ArcanaQueenOfHate:*Магическую Аркану*] Дон Кихот (До <style=\"highlight\">90</style>%)\n[WhenUse] +([ThePowerOfLoveAndHate] × <style=\"highlight\">20</style>)% к урону, если потенциал [ThePowerOfLoveAndHate:*Любви и ненависти*] Дон Кихот равен 3-м и выше <style=\"highlight\">(До 100%)</style>\n[WhenUse] Базовая сила +<style=\"highlight\">2</style>, если потенциал [ThePowerOfLoveAndHate:*Любви и ненависти*] Дон Кихот равен 3-м и выше\n[WhenUse] Сила монет +1 за трату 5-и единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*] <style=\"highlight\">(До 4-х)</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 6\n[EndSkill] Также Дон Кихот получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скорочитка заклинаний",
+          "desc": "[CanDuelGuard]\n[WhenUse] Базовая сила +1 за каждую единицу [HystericGauge:*Истерии*] (До 2-х)\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2 (Дважды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Скорочитка заклинаний",
+          "desc": "[CanDuelGuard]\n[WhenUse] Базовая сила +1 за каждую единицу [HystericGauge:*Истерии*] <style=\"highlight\">(До 3-х)</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">4</style> (Дважды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Где же... лиходеи?..",
+          "desc": "+3% к урону за каждую единицу [HystericGauge:*Истерии*] Дон Кихот (До 9%)\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2\n[WhenUse] Дон Кихот теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Где же... лиходеи?..",
+          "desc": "<style=\"highlight\">+4<style=\"highlight\">% к урону за каждую единицу [HystericGauge:*Истерии*] Дон Кихот <style=\"highlight\">(До 12%)</style>\n<style=\"highlight\">[WhenUse] Базовая сила +1 при трате 5 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">3</style>\n[WhenUse] Дон Кихот теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Где же... лиходеи?..",
+          "desc": "<style=\"highlight\">+5<style=\"highlight\">% к урону за каждую единицу [HystericGauge:*Истерии*] Дон Кихот <style=\"highlight\">(До 15%)</style>\n[WhenUse] Базовая сила +1 при трате 5 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы потенциала [ThePowerOfLoveAndHate:*Любви и ненависти*] (До 2-х)</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3\n[WhenUse] Дон Кихот теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прочь из моей головы…",
+          "desc": "Сила парирований +1 в состоянии [HystericGauge:*Истерии*]\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3\n[WhenUse] Дон Кихот теряет 8 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Прочь из моей головы…",
+          "desc": "<style=\"highlight\">Базовая сила +1</style> в состоянии [HystericGauge:*Истерии*]\n<style=\"highlight\">[WhenUse] Базовая сила +1 при трате 6 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]</style>\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3\n[WhenUse] Дон Кихот теряет 8 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прочь из моей головы…",
+          "desc": "<style=\"highlight\">Базовая сила +1 за каждую единицу [HystericGauge:*Истерии*] Дон Кихот (До 2-х)\n- Если [HystericGauge] достигла 3-х единиц, тяжесть атаки +1\n- -50% к урону по вторичным целям</style>\n[WhenUse] Базовая сила +1 при трате 6 единиц счётчика [ThePowerOfLoveAndHate:*Любви и ненависти*]\n[WhenUse] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на <style=\"highlight\">5</style>\n[WhenUse] Дон Кихот теряет 8 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [ThePowerOfLoveAndHate:*Любви и ненависти*] на 3<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031207,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Реверсивный Бит | Реверсивная Аркана Слэйв",
+          "_comment": "Реверсивный удар. Раб реверсивной Арканы.",
+          "desc": "-50% к урону по вторичным целям данного навыка\n\n[WhenUse] Дон Кихот использует всю [HystericGauge:*Истерию*] для получения +1 к силе парирований\n[WhenUse] Сила парирований +1 за трату 8 единиц [ThePowerOfLoveAndHate:*Любви и ненависти*] (До 2-х)\n[WhenUse] +12% к урону за каждую единицу потенциала [ThePowerOfLoveAndHate:*Любви и ненависти*] (До 60%)\n[BeforeAttack] Дон Кихот расходует всю [ArcanaQueenOfHate:*Магическую Аркану*] для получения +1 к тяжести атаки\n[BeforeAttack] +20% к урону, если Дон Кихот атакует две и более ячейки, направляя данный навык <b>только в одну цель</b> (В направляемых битвах учитывается только часть)\n[BeforeAttack] Базовая сила -6 за каждую треснувшую монету (До -18-и)\n[EndBattle] При силе духа в диапазоне от -44 до 0 Дон Кихот восстанавливает 10 СД. Дополнительно восстанавливает по 2 СД за каждую единицу отрицательной силы духа (До 50-и)\n[WhenUse] Дон Кихот теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Реверсивный Бит | Реверсивная Аркана Слэйв",
+          "_comment": "Реверсивный удар. Раб реверсивной Арканы.",
+          "desc": "-50% к урону по вторичным целям данного навыка\n\n[WhenUse] Дон Кихот использует всю [HystericGauge:*Истерию*]<style=\"highlight\">и за каждую её единицу получает +1 к силе парирований (До 3-х)</style>\n[WhenUse] Сила парирований +1 за трату <style=\"highlight\"> 5-и</style> единиц [ThePowerOfLoveAndHate:*Любви и ненависти*] <style=\"highlight\">(До 4-х)</style>\n[WhenUse] +<style=\"highlight\">24</style>% к урону за каждую единицу потенциала [ThePowerOfLoveAndHate:*Любви и ненависти*] (До <style=\"highlight\">120</style>%)\n[BeforeAttack] Дон Кихот расходует всю [ArcanaQueenOfHate:*Магическую Аркану*] <style=\"highlight\">и за каждую её единицу получает +1 к тяжести атаки (До 3-х)\n- Если использованная навыком [HystericGauge] достигала 3-х единиц, тяжесть атаки +1</style>\n[BeforeAttack] +<style=\"highlight\">((Тяжесть атаки - 1) × 20)% к урону, если Дон Кихот атакует две и более ячейки, направляя данный навык <b>только в одну цель</b> (До 80%, в направляемых битвах учитывается только часть)</style>\n[BeforeAttack] Базовая сила -6 за каждую треснувшую монету (До -18-и)\n[EndBattle] При силе духа в диапазоне от -44 до 0 Дон Кихот восстанавливает 10 СД. Дополнительно восстанавливает по 2 СД за каждую единицу отрицательной силы духа (До 50-и)\n[WhenUse] Дон Кихот теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
           ]
         }
       ]

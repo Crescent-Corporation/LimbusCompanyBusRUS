@@ -673,6 +673,212 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2030911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Во имя любви и справедливости: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
+          "_comment": "Раб Старшей Арканы",
+          "abName": "Королева Ненависти",
+          "desc": "[BeforeAttack] Дон Кихот единожды [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 3-х)\n\n[EndSkill] Дон Кихот расходует весь счётчик [Charge:*Заряда*] для восстановления (потраченный счётчик [Charge:*Заряда*])% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До 5%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [Charge:*Заряда*] на 1 (До 5-и за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) [Burst:*Разрывов*] (До 2-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Во имя любви и справедливости: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
+          "abName": "Королева Ненависти",
+          "desc": "[BeforeAttack] Дон Кихот единожды [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)\n<style=\"highlight\">- Если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], то она <b>дважды</b> [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)</style>\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До <style=\"highlight\">5-и</style>)\n[EndSkill] Дон Кихот расходует весь счётчик [Charge:*Заряда*] для восстановления (потраченный счётчик [Charge:*Заряда*])% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До <style=\"highlight\">8</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [Charge:*Заряда*] на 1 (До 5-и за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) [Burst:*Разрывов*] (До <style=\"highlight\">3-х</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Во имя любви и справедливости: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
+          "abName": "Королева Ненависти",
+          "desc": "[BeforeAttack] Дон Кихот единожды [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) союзников (До <style=\"highlight\">4-х</style> человек)\n- Если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], то она <b>дважды</b> [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) союзников (До <style=\"highlight\">4</style>-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 5-и)\n<style=\"highlight\">- Также если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], тяжесть атаки +([Charge]) (До 5-и)</style>\n\n[EndSkill] Дон Кихот расходует весь счётчик [Charge:*Заряда*] для восстановления (потраченный счётчик [Charge:*Заряда*])% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До <style=\"highlight\">10</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [Charge:*Заряда*] на <style=\"highlight\">2</style> (До <style=\"highlight\">10-и</style> за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) [Burst:*Разрывов*] (До <style=\"highlight\">4-х</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], она повышает счётчик [Burst:*Разрывов*] на цели</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Максимально-реверсивная Аркана Слэйв: Изничтожение ненависти",
+          "_comment": "Раб максимально-реверсивной Арканы",
+          "abName": "Королева Ненависти",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n\n[BeforeAttack] Дон Кихот расходует весь счётчик [Charge:*Заряда*], +1% к урону за каждую затраченную единицу счётчика [Charge:*Заряда*] (До 20%)\n\n[BeforeAttack] Если основная цель [VillainMark:*обозначена лиходеем*], +3% к урону за каждый [Charge] (До 15%)\n\n[BeforeAttack] +5% к урону за каждые 3 греха в резонансе Зависти (До 10%; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [HystericGauge:*ступень Истерии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [Charge:*Заряда*] на 1 (До 7-и за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) [Sinking:*Погружения*] (До 2-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Максимально-реверсивная Аркана Слэйв: Изничтожение ненависти",
+          "_comment": "Раб максимально-реверсивной Арканы",
+          "abName": "Королева Ненависти",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n<style=\"highlight\">- В состоянии [NoVillain:*Реверсивной регрессии*] тяжесть атаки +([Charge] + 1) (До 5-и)</style>\n\n[BeforeAttack] Дон Кихот расходует весь счётчик [Charge:*Заряда*], +<style=\"highlight\">2</style>% к урону за каждую затраченную единицу счётчика [Charge:*Заряда*] (До <style=\"highlight\">40</style>%)\n\n[BeforeAttack] Если основная цель [VillainMark:*обозначена лиходеем*], +<style=\"highlight\">5</style>% к урону за каждый [Charge] (До <style=\"highlight\">25</style>%)\n<style=\"highlight\">-  В состоянии [HystericGauge:*Истерии*] взамен получает +7% к урону за каждый [Charge] (До 35%)</style>\n\n[BeforeAttack] +<style=\"highlight\">7</style>% к урону за каждые <style=\"highlight\">2</style> греха в резонансе Зависти (До <style=\"highlight\">21</style>%; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [HystericGauge:*ступень Истерии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [Charge:*Заряда*] на <style=\"highlight\">2</style> (До <style=\"highlight\">10-и</style> за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) [Sinking:*Погружения*] (До <style=\"highlight\">3-х</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Максимально-реверсивная Аркана Слэйв: Изничтожение ненависти",
+          "_comment": "Раб максимально-реверсивной Арканы",
+          "abName": "Королева Ненависти",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n- В состоянии [NoVillain:*Реверсивной регрессии*] тяжесть атаки +([Charge] + 1) (До 5-и)\n\n[BeforeAttack] Дон Кихот расходует весь счётчик [Charge:*Заряда*], +<style=\"highlight\">2.5</style>% к урону за каждую затраченную единицу счётчика [Charge:*Заряда*] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Если основная цель [VillainMark:*обозначена лиходеем*], +5% к урону за каждый [Charge] (До 25%)\n-  В состоянии [HystericGauge:*Истерии*] взамен получает +<style=\"highlight\">10</style>% к урону за каждый [Charge] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] <style=\"highlight\">+10</style>% к урону за каждые 2 греха в резонансе Зависти (До <style=\"highlight\">30%</style>; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [HystericGauge:*ступень Истерии*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дон Кихот повышает собственный счётчик [Charge:*Заряда*] на 2 (До <style=\"highlight\">14-и</style> за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Дон Кихот отмечает основную цель [VillainMark:*Меткой лиходея*] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) [Sinking:*Погружения*] (До <style=\"highlight\">4-х</style>)"
+                },
+                {
+                  "desc": "<style=\"highlight\">- В состоянии [NoVillain:*Реверсивной регрессии*] повышает счётчик [Sinking:*Погружения*] цели на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

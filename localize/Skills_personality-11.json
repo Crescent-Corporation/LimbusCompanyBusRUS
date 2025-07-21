@@ -1448,7 +1448,7 @@
           {
             "level": 3,
             "name": "Я выкрою тебе новый наряд!",
-            "desc": "Восстанавливает 30% от нанесённого этим навыком урона (До 20 ОЗ)\n[BeforeAttack] Тяжесть атаки +1 при 10 и более [BloodScissorPersonalityFirst:*Окровавленных полотнах ножниц*] у Отис\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:*Кровотечения*]\n[WhenUse] Сила парирований +1 за каждые 6 [Laceration:*Кровотечения*]на цели (До 2)\n[EndSkill] При повышении числа целей этого навыка тратит 15 [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*]\n[EndSkill] При убийстве противника повышает [BloodDinner] на 10 единиц. Возвращает половину [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*], истраченных этим навыком (Единожды за ход)",
+            "desc": "Восстанавливает 30% от нанесённого этим навыком урона (До 20 ОЗ)\n[BeforeAttack] Тяжесть атаки +1 при 10 и более [BloodScissorPersonalityFirst:*Окровавленных полотнах ножниц*] у Отис\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:*Кровотечения*]\n[WhenUse] Сила парирований +1 за каждые 6 [Laceration:*Кровотечения*]на цели (До 2)\n[EndSkill] При повышении числа целей этого навыка тратит 15 [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*]\n[EndSkill] При убийстве противника повышает [BloodDinner] на 10 единиц. Возвращает половину [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*], истраченных этим навыком (Раз за ход)",
             "coinlist": [
               {
                 "coindescs": [
@@ -1483,7 +1483,7 @@
           {
             "level": 4,
             "name": "Я выкрою тебе новый наряд!",
-            "desc": "Восстанавливает 30% от нанесённого этим навыком урона (До 20 ОЗ)\n[BeforeAttack] Тяжесть атаки +1 при 10 и более [BloodScissorPersonalityFirst:*Окровавленных полотнах ножниц*] у Отис\n<style=\"highlight\">- При 20 и более [BloodScissorPersonalityFirst:*Окровавленных полотнах ножниц*] заменяется на тяжесть атаки +2</style>\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:*Кровотечения*]\n[WhenUse] Сила парирований +1 за каждые 6 [Laceration:*Кровотечения*]на цели (До 2)\n[EndSkill] При повышении числа целей этого навыка тратит <style=\"highlight\">10</style> [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*]\n[EndSkill] При убийстве противника повышает [BloodDinner] на <style=\"highlight\">20</style>  единиц. Возвращает половину [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*], истраченных этим навыком (Единожды за ход)\n<style=\"highlight\">- При убийстве [LineCuttingPersonality:*Цели пошива*] Отис дополнительно повышает [BloodDinner] на 20 и получает 5 [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*] (Единожды за ход)</style>",
+            "desc": "Восстанавливает 30% от нанесённого этим навыком урона (До 20 ОЗ)\n[BeforeAttack] Тяжесть атаки +1 при 10 и более [BloodScissorPersonalityFirst:*Окровавленных полотнах ножниц*] у Отис\n<style=\"highlight\">- При 20 и более [BloodScissorPersonalityFirst:*Окровавленных полотнах ножниц*] заменяется на тяжесть атаки +2</style>\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:*Кровотечения*]\n[WhenUse] Сила парирований +1 за каждые 6 [Laceration:*Кровотечения*]на цели (До 2)\n[EndSkill] При повышении числа целей этого навыка тратит <style=\"highlight\">10</style> [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*]\n[EndSkill] При убийстве противника повышает [BloodDinner] на <style=\"highlight\">20</style>  единиц. Возвращает половину [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*], истраченных этим навыком (Раз за ход)\n<style=\"highlight\">- При убийстве [LineCuttingPersonality:*Цели пошива*] Отис дополнительно повышает [BloodDinner] на 20 и получает 5 [BloodScissorPersonalityFirst:*Усилениях Окровавленных полотен ножниц*] (Раз за ход)</style>",
             "coinlist": [
               {
                 "coindescs": [
@@ -1593,7 +1593,7 @@
                     "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                   },
                   {
-                    "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 12 и выше Отис вновь подкидывает эту монету (Единожды за навык)</style>"
+                    "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 12 и выше Отис вновь подкидывает эту монету (Раз за навык)</style>"
                   }
                 ]
               }
@@ -1617,7 +1617,7 @@
                     "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                   },
                   {
-                    "desc": "[OnSucceedAttack] При скорости <style=\"highlight\">10</style> и выше Отис вновь подкидывает эту монету (Единожды за навык)"
+                    "desc": "[OnSucceedAttack] При скорости <style=\"highlight\">10</style> и выше Отис вновь подкидывает эту монету (Раз за навык)"
                   }
                 ]
               }
@@ -1730,7 +1730,7 @@
                     "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                   },
                   {
-                    "desc": "[OnSucceedAttack] При скорости 10 и выше Отис вновь подкидывает эту монету (Единожды за навык)"
+                    "desc": "[OnSucceedAttack] При скорости 10 и выше Отис вновь подкидывает эту монету (Раз за навык)"
                   }
                 ]
               }
@@ -1764,7 +1764,7 @@
                     "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                   },
                   {
-                    "desc": "[OnSucceedAttack] При скорости 10 и выше Отис вновь подкидывает эту монету (Единожды за навык)"
+                    "desc": "[OnSucceedAttack] При скорости 10 и выше Отис вновь подкидывает эту монету (Раз за навык)"
                   },
                   {
                     "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] [BurstAgility:*Покушается на жертву*]</style>"

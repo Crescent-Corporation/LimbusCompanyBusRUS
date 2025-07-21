@@ -1025,7 +1025,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 Ослабление положительной монеты на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [PlusCoinValueDown] на следующий ход"
                 }
               ]
             }

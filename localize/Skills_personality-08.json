@@ -969,7 +969,7 @@
         {
           "level": 1,
           "name": "Ваш щит",
-          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:*Защитную стойку*] на 2 хода. (Единожды за ход)\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 10 (Единожды за ход)",
+          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:*Защитную стойку*] на 2 хода. (Раз за ход)\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 10 (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -983,7 +983,7 @@
         {
           "level": 4,
           "name": "Ваш щит",
-          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:*Защитную стойку*] на 2 хода. (Единожды за ход)\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 10 (Единожды за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:*провоцирует Тремор*]</style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:*Защитную стойку*] на 2 хода. (Раз за ход)\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 10 (Раз за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:*провоцирует Тремор*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1079,7 +1079,7 @@
         {
           "level": 1,
           "name": "Заточенное лезвие",
-          "desc": "[StartBattle] Измаил даёт 1 [AttackDmgUp] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Единожды за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 2 [AttackDmgUp:*Повышения урона*] 5-и союзникам",
+          "desc": "[StartBattle] Измаил даёт 1 [AttackDmgUp] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Раз за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 2 [AttackDmgUp:*Повышения урона*] 5-и союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -1100,7 +1100,7 @@
         {
           "level": 2,
           "name": "Заточенное лезвие",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[StartBattle] Измаил даёт <style=\"highlight\">2</style> [AttackDmgUp:*Повышения урона*] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Единожды за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт <style=\"highlight\">3</style> [AttackDmgUp:*Повышения урона*] 5-и союзникам",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[StartBattle] Измаил даёт <style=\"highlight\">2</style> [AttackDmgUp:*Повышения урона*] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Раз за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт <style=\"highlight\">3</style> [AttackDmgUp:*Повышения урона*] 5-и союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -1108,7 +1108,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Раз за ход)</style>"
                 }
               ]
             },
@@ -1118,7 +1118,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Измаил получает 1 [SlashResultUp] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Измаил получает 1 [SlashResultUp] на следующий ход (Раз за ход)</style>"
                 }
               ]
             }
@@ -1127,7 +1127,7 @@
         {
           "level": 4,
           "name": "Заточенное лезвие",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n+10% к урону за каждый негативный эффект на цели 50%)</style>\n[StartBattle] Измаил даёт 2 [AttackDmgUp:*Повышения урона*] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Единожды за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 4 [AttackDmgUp:*Повышения урона*] 5-и союзникам",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n+10% к урону за каждый негативный эффект на цели 50%)</style>\n[StartBattle] Измаил даёт 2 [AttackDmgUp:*Повышения урона*] 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Раз за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 4 [AttackDmgUp:*Повышения урона*] 5-и союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -1135,7 +1135,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Раз за ход)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">- Если в команде 6 и более членов клана «Курокумо», наносит 2 [Vulnerable:*Уязвимости*]</style>"
@@ -1190,7 +1190,7 @@
         {
           "level": 4,
           "name": "Чернение тушью",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n[EnemyKill] Измаил получает 2 [SlashResultUp:*Повышения силы рубящей атаки*] на следующий ход (Единожды за ход)</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Laceration:*Кровотечения*] на цели (До 2-х)\n[EnemyKill] Измаил получает 2 [SlashResultUp:*Повышения силы рубящей атаки*] на следующий ход (Раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1226,7 +1226,7 @@
         {
           "level": 1,
           "name": "Рассекающий разрез",
-          "desc": "[StartBattle] Измаил получает 1 [Protection] (Единожды за ход)",
+          "desc": "[StartBattle] Измаил получает 1 [Protection] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,7 +1240,7 @@
         {
           "level": 4,
           "name": "Рассекающий разрез",
-          "desc": "[StartBattle] Измаил получает 1 [Protection] (Единожды за ход)\n<style=\"highlight\">[StartBattle] Измаил даёт 2 [Endurance:*Повышения силы защиты*] (2 + наибольший резонанс) наиболее быстрым союзникам из клана «Курокумо», включая себя (Единожды за ход)</style>",
+          "desc": "[StartBattle] Измаил получает 1 [Protection] (Раз за ход)\n<style=\"highlight\">[StartBattle] Измаил даёт 2 [Endurance:*Повышения силы защиты*] (2 + наибольший резонанс) наиболее быстрым союзникам из клана «Курокумо», включая себя (Раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1274,7 +1274,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (Единожды за ход)"
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -1298,7 +1298,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (Единожды за ход)"
+                  "desc": "[CriticalOnSucceedAttack] Измаил получает 1 [AttackUp] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -1412,7 +1412,7 @@
                   "desc": "+(20 + [Breath] на Измаил + [Burst] цели)% к критическому урону (До 50%)"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Измаил получает 3 [AttackUp:*Повышения уровня атаки*] на следующий ход (Единожды за ход)"
+                  "desc": "[CriticalEnemyTargetKill] Измаил получает 3 [AttackUp:*Повышения уровня атаки*] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -1459,7 +1459,7 @@
                   "desc": "+(20 + [Breath] на Измаил + [Burst] цели)% к критическому урону (До 50%)"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Измаил получает 3 [AttackUp:*Повышения уровня атаки*] на следующий ход (Единожды за ход)"
+                  "desc": "[CriticalEnemyTargetKill] Измаил получает 3 [AttackUp:*Повышения уровня атаки*] на следующий ход (Раз за ход)"
                 }
               ]
             }

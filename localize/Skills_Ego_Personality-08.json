@@ -161,7 +161,7 @@
                   "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 4~8% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает 4~8% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
@@ -195,7 +195,7 @@
                   "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">6~10</style>% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">6~10</style>% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
@@ -229,7 +229,7 @@
                   "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">8~12</style>% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">8~12</style>% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
@@ -255,7 +255,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на 10% от нанесённого урона"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает 10% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 1~4 [Laceration:*Кровотечения*]"
@@ -273,7 +273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на <style=\"highlight\">15</style>% от нанесённого урона"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает <style=\"highlight\">15</style>% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">2~5</style> [Laceration:*Кровотечения*]"
@@ -291,7 +291,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на <style=\"highlight\">20</style>% от нанесённого урона"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает <style=\"highlight\">20</style>% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3~6</style> [Laceration:*Кровотечения*]"

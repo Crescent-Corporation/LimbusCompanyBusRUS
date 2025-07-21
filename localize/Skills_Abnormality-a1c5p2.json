@@ -5,20 +5,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Пробивание",
+                    "name": "Бросок",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] дробящий урон +3"
+                                    "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] дробящий урон +3"
+                                    "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
                                 }
                             ]
                         },
@@ -38,20 +38,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Швырок",
+                    "name": "С вертушки",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] дробящий урон +5"
+                                    "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] дробящий урон +5"
+                                    "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
                                 }
                             ]
                         },
@@ -91,8 +91,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Властность",
-                    "desc": "[StartBattle] Даёт 1 Повышение силы атаки всем союзникам\n[StartBattle] Наносит 2 [Reduction:*Понижения силы атаки*] двум противникам с наименьшей СД",
+                    "name": "Запугивание",
+                    "desc": "[StartBattle] Даёт 1 [Enhancement] всем союзникам\n[StartBattle] Наносит 2 [Reduction:*Понижения силы атаки*] двум противникам с наименьшей СД",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -110,7 +110,7 @@
             "levelList": [
               {
                 "level": 1,
-                "name": "Пусть это будет незабываемо",
+                "name": "Да отпечатается это в нашей памяти",
                 "desc": "[StartBattle] Получает 2 [AaCePbBi:*Испытания Среднего брата*]. Получает 5 [Binding:*Связываний*] на следующий ход.",
                 "coinlist": [
                   {
@@ -129,8 +129,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Прикрывайте спины!",
-                    "desc": "Если у цели менее 0 СД, сила монет +3",
+                    "name": "Берегите затылки!",
+                    "desc": "Сила монет +3 против целей с силой духа ниже 0",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -158,7 +158,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Общий сбор",
+                    "name": "Собираемся, братья",
                     "desc": "[StartBattle] Призывает двух союзников на следующий ход",
                     "coinlist": [
                         {
@@ -197,7 +197,7 @@
                 {
                     "level": 1,
                     "name": "<smallcaps>Мои парикмахерские купо-о-о-о-о-оны!!!</smallcaps>",
-                    "desc": "Если у основной цели менее 0 СД, итоговая сила +5",
+                    "desc": "Итоговая сила +5 против целей с силой духа ниже 0",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -205,7 +205,7 @@
                                     "desc": "[OnSucceedAttack] Повышает черты оглушения на 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
                                 }
                             ]
                         }

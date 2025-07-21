@@ -452,7 +452,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:*Гвоздя*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)</style>"
                 }
               ]
             }
@@ -483,7 +483,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более [Curse:*Проклятиях*] на цели</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -541,7 +541,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:*Гвоздя*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)</style>"
                 }
               ]
             }
@@ -569,13 +569,13 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:*Гвоздя*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более грехах Зависти в резонансе (включая этот навык) (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более грехах Зависти в резонансе (включая этот навык) (Раз за ход)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [DefenseDown:*Понижения уровня защиты*] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [DefenseDown:*Понижения уровня защиты*] на следующий ход (Раз за ход)</style>"
                 }
               ]
             }
@@ -605,10 +605,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)"
                 }
               ]
             }
@@ -633,10 +633,10 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -664,10 +664,10 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -697,10 +697,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)"
                 }
               ]
             }
@@ -725,10 +725,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -756,10 +756,10 @@
                   "desc": "<style=\"highlight\">+1% к урону за каждые 2% потерянного здоровья (До 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 20 и более [YesdragonSelf:*Булавках для погребения цветов*] или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
