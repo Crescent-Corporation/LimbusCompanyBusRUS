@@ -149,7 +149,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\n[EndSkill] В течение следующих 3-х ходов теряет по 10 СД за ход",
+          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\n[EndSkill] В течение последующих 3-х ходов Отис теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Магическая пуля",
+          "name": "Волшебная пуля",
           "abName": "Вольный стрелок",
           "desc": "Наносит +1% к урону за каждые 3 [Combustion:*Огня*] на цели (До 10%)\n[BeforeAttack] При отсутствии [FreischutzShotCount:*Магических пуль*], получает 1 [FreischutzShotCount:*Магическую пулю*].\n- Число [FreischutzShotCount:*Магических пуль*] определяет, какой пулей стрелять.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:*Магические пули*] от числа наибольшего резонанса (от 1 до 4)\n[EndSkill] При убийстве основной цели наносит 2 [DarkFlame:*Тёмного пламени*] на противников с [Combustion:*Огнём*]",
           "coinlist": [
@@ -455,7 +455,7 @@
         },
         {
           "level": 3,
-          "name": "Магическая пуля",
+          "name": "Волшебная пуля",
           "abName": "Вольный стрелок",
           "desc": "Наносит +<style=\"highlight\">2</style>% к урону за каждые 3 [Combustion:*Огня*] на цели (До <style=\"highlight\">20</style>%)\n[BeforeAttack] При отсутствии [FreischutzShotCount:*Магических пуль*], получает 1 [FreischutzShotCount:*Магическую пулю*].\n- Число [FreischutzShotCount:*Магических пуль*] определяет, какой пулей стрелять.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:*Магические пули*] от числа наибольшего резонанса (от 1 до 4)\n[EndSkill] При убийстве основной цели наносит <style=\"highlight\">3</style> [DarkFlame:*Тёмного пламени*] на противников с [Combustion:*Огнём*]",
           "coinlist": [
@@ -473,7 +473,7 @@
         },
         {
           "level": 4,
-          "name": "Магическая пуля",
+          "name": "Волшебная пуля",
           "abName": "Вольный стрелок",
           "desc": "Наносит +<style=\"highlight\">3</style>% к урону за каждые 3 [Combustion:*Огня*] на цели (До <style=\"highlight\">30</style>%)\n[BeforeAttack] При отсутствии [FreischutzShotCount:*Магических пуль*], получает 1 [FreischutzShotCount:*Магическую пулю*].\n- Число [FreischutzShotCount:*Магических пуль*] определяет, какой пулей стрелять.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:*Магические пули*] от числа наибольшего резонанса (от 1 до 4)\n[EndSkill] При убийстве основной цели наносит <style=\"highlight\">4</style> [DarkFlame:*Тёмного пламени*] на противников с [Combustion:*Огнём*]",
           "coinlist": [
@@ -496,7 +496,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Магическая пуля",
+          "name": "Волшебная пуля",
           "abName": "Вольный стрелок",
           "desc": "[CantIdentify]\nСлучайные цели\nНаносит +1% к урону за каждые 3 [Combustion:*Огня*] на цели (До 10%)\n[BeforeAttack] При отсутствии [FreischutzShotCount:*Магических пуль*], получает 1 [FreischutzShotCount:*Магическую пулю*].\n- Число [FreischutzShotCount:*Магических пуль*] определяет, какой пулей стрелять.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:*Магические пули*] от числа наибольшего резонанса (от 1 до 4)\n[EndSkill] При убийстве основной цели наносит 3 [DarkFlame:*Тёмного пламени*] на противников с [Combustion:*Огнём*]",
           "coinlist": [
@@ -514,7 +514,7 @@
         },
         {
           "level": 3,
-          "name": "Магическая пуля",
+          "name": "Волшебная пуля",
           "abName": "Вольный стрелок",
           "desc": "[CantIdentify]\nСлучайные цели\nНаносит +<style=\"highlight\">2</style>% к урону за каждые 3 [Combustion:*Огня*] на цели (До <style=\"highlight\">20</style>%)\n[BeforeAttack] При отсутствии [FreischutzShotCount:*Магических пуль*], получает 1 [FreischutzShotCount:*Магическую пулю*].\n- Число [FreischutzShotCount:*Магических пуль*] определяет, какой пулей стрелять.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:*Магические пули*] от числа наибольшего резонанса (от 1 до 4)\n[EndSkill] При убийстве основной цели наносит <style=\"highlight\">5</style> [DarkFlame:*Тёмного пламени*] на противников с [Combustion:*Огнём*]",
           "coinlist": [
@@ -535,7 +535,7 @@
         },
         {
           "level": 4,
-          "name": "Магическая пуля",
+          "name": "Волшебная пуля",
           "abName": "Вольный стрелок",
           "desc": "[CantIdentify]\nСлучайные цели\nНаносит +<style=\"highlight\">3</style>% к урону за каждые 3 [Combustion:*Огня*] на цели (До <style=\"highlight\">30</style>%)\n[BeforeAttack] При отсутствии [FreischutzShotCount:*Магических пуль*], получает 1 [FreischutzShotCount:*Магическую пулю*].\n- Число [FreischutzShotCount:*Магических пуль*] определяет, какой пулей стрелять.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:*Магические пули*] от числа наибольшего резонанса (от 1 до 4)\n[EndSkill] При убийстве основной цели наносит <style=\"highlight\">7</style> [DarkFlame:*Тёмного пламени*] на противников с [Combustion:*Огнём*]",
           "coinlist": [

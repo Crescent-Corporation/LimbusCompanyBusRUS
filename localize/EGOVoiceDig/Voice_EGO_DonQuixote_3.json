@@ -83,7 +83,7 @@
     {
       "id": "battle_awaken_20309_1",
       "desc": "Проявление ЭГО",
-      "dlg": "<ruby=Арканы>Аркана</ruby> <ruby=Раб>Слэйв</ruby>!"
+      "dlg": "Аркана Слэйв!"
     },
     {
       "id": "battle_awaken_20309_2",

@@ -6,7 +6,7 @@
     },
     {
       "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_ONCE",
-      "description": "При продаже повышает <color=#ff6000>стоимость ЭГО Дара</color> на {0}%. (Раз при посещении магазина)"
+      "description": "При продаже повышает <color=#ff6000>стоимость ЭГО-дара</color> на {0}%. (Раз при посещении магазина)"
     },
     {
       "id": "ADDITIONAL_FLOOR_THEME_SLOT",
@@ -22,7 +22,7 @@
     },
     {
       "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
-      "description": "<color=#ff6000>Число доступных к покупке ЭГО Даров</color> увеличится на {0}."
+      "description": "<color=#ff6000>Число доступных к покупке ЭГО-даров</color> увеличится на {0}."
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_1ST_FLOOR",
@@ -34,23 +34,23 @@
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP",
-      "description": "При входе в магазин получите {0} случайный ЭГО Дар уровня 3 или ниже для <color=#ff6000>продажи и соединения Даров</color>."
+      "description": "При входе в магазин получите {0} случайный ЭГО-дар уровня 3 или ниже для <color=#ff6000>продажи и соединения Даров</color>."
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_EGO_GIFT_ON_ENTER_3RD_FLOOR",
-      "description": "После перехода на 3-й этаж получите {0} случайных <color=#ff6000>ЭГО Дара уровня 3</color>."
+      "description": "После перехода на 3-й этаж получите {0} случайных <color=#ff6000>ЭГО-дара уровня 3</color>."
     },
     {
       "id": "ACQUIRE_LOWER_TIER_RANDOM_EGO_GIFT_ON_COMBINE",
-      "description": "При соединении Даров получите случайный <color=#ff6000>ЭГО Дар</color> на 2 уровня ниже чем результатный Дар. (Раз за посещение магазина; применимо только для уровней 3 или выше)"
+      "description": "При соединении Даров получите случайный <color=#ff6000>ЭГО-дар</color> на 2 уровня ниже чем результатный Дар. (Раз за посещение магазина; применимо только для уровней 3 или выше)"
     },
     {
       "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
-      "description": "Число <color=#ff6000>стартовых ЭГО Даров</color> увеличится на {0}."
+      "description": "Число <color=#ff6000>стартовых ЭГО-даров</color> увеличится на {0}."
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
-      "description": "После входа откроется выбор {0} <color=#ff6000>ЭГО Дара уровня 3</color> выбранного ранее аспекта."
+      "description": "После входа откроется выбор {0} <color=#ff6000>ЭГО-дара уровня 3</color> выбранного ранее аспекта."
     },
     {
       "id": "REVIVE_ONCE_PER_FLOOR",
@@ -70,7 +70,7 @@
     },
     {
       "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
-      "description": "В магазине увеличится шанс появления <color=#ff6000>высокоуровневых ЭГО Даров</color>."
+      "description": "В магазине увеличится шанс появления <color=#ff6000>высокоуровневых ЭГО-даров</color>."
     },
     {
       "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE",
@@ -78,11 +78,11 @@
     },
     {
       "id": "ACQUIRE_2_TIER_RANDOM_EGO_GIFT_ON_ENTER_2ND_FLOOR",
-      "description": "После перехода на 2-й этаж получите {0} случайных <color=#ff6000>ЭГО Дара 2 уровня</color>."
+      "description": "После перехода на 2-й этаж получите {0} случайных <color=#ff6000>ЭГО-дара 2 уровня</color>."
     },
     {
       "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR",
-      "description": "При входе на 1-й этаж получите {0} случайный <color=#ff6000>ЭГО Дар 1 уровня</color>."
+      "description": "При входе на 1-й этаж получите {0} случайный <color=#ff6000>ЭГО-дар 1 уровня</color>."
     },
     {
       "id": "MaxSpeedUpAdder",

@@ -14,15 +14,15 @@
     },
     {
       "id": "EPISODE",
-      "content": "{0} эпизод"
+      "content": "<line-height=60%>{0}-й\n<size=80%><nobr>эпизод</nobr></size></line-height>"
     },
     {
       "id": "PAGE",
-      "content": "{0} стр."
+      "content": "<line-height=60%>{0}-я\n<size=80%><nobr>стр.</nobr></size></line-height>"
     },
     {
       "id": "PROGRESS",
-      "content": "<size=18>Прогресс</size>"
+      "content": "<size=50%>Прогресс</size>"
     },
     {
       "id": "Before",
@@ -78,11 +78,11 @@
     },
     {
       "id": "DATA_DOWNLOAD_NO",
-      "content": "Без голоса\n(0.00 MB)"
+      "content": "Без голоса\n(0.00 Мб)"
     },
     {
       "id": "DATA_DOWNLOAD_YES",
-      "content": "С голосом\n({0} MB)"
+      "content": "С голосом\n({0} Мб)"
     },
     {
       "id": "CV_1",
@@ -191,11 +191,11 @@
     },
     {
       "id": "DanteNote_Main",
-      "content": "Даже не знаю, с чего бы начать.\nНаверное, это обычное дело, учитывая, что я не помню, что именно я мог забыть.\nДумаю, мне стоит начать записывать всё, что кажется мне незнакомым."
+      "content": "Даже не знаю, с чего бы начать.\nНаверное, это обычное дело, учитывая, что я не помню, что именно я мог забыть.\nДумаю, мне стоит записывать всё, что кажется мне незнакомым."
     },
     {
       "id": "MINI",
-      "content": "Мини"
+      "content": "МИНИ"
     },
     {
       "id": "DetailStoryMini",
@@ -255,7 +255,7 @@
     },
     {
       "id": "theStoryOf",
-      "content": ", История"
+      "content": ", история"
     },
     {
       "id": "OtherStoryOpenCondition_9109",
@@ -283,7 +283,39 @@
     },
     {
       "id": "PersoanlityStory_After",
-      "content": ", (Послесловие)"
+      "content": ": Послесловие"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9018",
+      "content": "Пройдите 6.5-30"
+    },
+    {
+      "id": "MainStoryOpenCondition_107",
+      "content": "Пройдите 7-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9019",
+      "content": "Пройдите 7-36"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9114",
+      "content": "Пройдите 7.5-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9116",
+      "content": "Пройдите 7.5-15"
+    },
+    {
+      "id": "MainStoryOpenCondition_108",
+      "content": "Пройдите 8-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9020",
+      "content": "Пройдите 8-33"
+    },
+    {
+      "id": "Inter",
+      "content": "Во время битвы"
     }
   ]
 }

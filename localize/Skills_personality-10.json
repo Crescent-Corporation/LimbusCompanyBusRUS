@@ -29,7 +29,7 @@
         {
           "level": 2,
           "name": "Свирепая атака",
-          "desc": "Сила монет +1 при 10 и более на счётчике [Vibration:*Тремора*]",
+          "desc": "Сила монет +1 при 10-и и более на счётчике [Vibration:*Тремора*]",
           "coinlist": [
             {},
             {
@@ -58,7 +58,7 @@
         {
           "level": 4,
           "name": "Свирепая атака",
-          "desc": "Сила монет +1 при 10 и более на счётчике [Vibration:*Тремора*]",
+          "desc": "Сила монет +1 при 10-и и более на счётчике [Vibration:*Тремора*]",
           "coinlist": [
             {},
             {
@@ -144,7 +144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 10 и более на счётчике [Vibration:*Тремора*], тратит весь счётчик [Vibration:*Тремора*], чтобы нанести столько же счётчиков [Vibration:*Тремора*] на цель\n[OnSucceedAttack] При менее, чем 10 на счётчике [Vibration:*Тремора*], получает 6 [Vibration:*Тремора*] и [VibrationExplosion:*провоцирует Тремор*] на себе\nНаносит дробящий урон, равный урону от спровоцированного [Vibration:*Тремора*]"
+                  "desc": "[OnSucceedAttack] При 10-и и более на счётчике [Vibration:*Тремора*], тратит весь счётчик [Vibration:*Тремора*], чтобы нанести столько же счётчиков [Vibration:*Тремора*] на цель\n[OnSucceedAttack] При менее, чем 10 на счётчике [Vibration:*Тремора*], получает 6 [Vibration:*Тремора*] и [VibrationExplosion:*провоцирует Тремор*] на себе\nНаносит дробящий урон, равный урону от спровоцированного [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -153,12 +153,12 @@
         {
           "level": 4,
           "name": "Пойти на риск",
-          "desc": "Сила монет +1 за каждые 10 единиц счётчика [Vibration:*Тремора*] на себе (До 2)",
+          "desc": "Сила монет +1 за каждые 10 единиц счётчика [Vibration:*Тремора*] на себе (До 2-х)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 10 и более на счётчике [Vibration:*Тремора*], тратит весь счётчик [Vibration:*Тремора*], чтобы нанести столько же счётчиков [Vibration:*Тремора*] на цель\n[OnSucceedAttack] При менее, чем 10 на счётчике [Vibration:*Тремора*], получает 10 [Vibration:*Тремора*] и [VibrationExplosion:*провоцирует Тремор*] на себе\nНаносит дробящий урон, равный урону от спровоцированного [Vibration:*Тремора*]"
+                  "desc": "[OnSucceedAttack] При 10-и и более на счётчике [Vibration:*Тремора*], тратит весь счётчик [Vibration:*Тремора*], чтобы нанести столько же счётчиков [Vibration:*Тремора*] на цель\n[OnSucceedAttack] При менее, чем 10 на счётчике [Vibration:*Тремора*], получает 10 [Vibration:*Тремора*] и [VibrationExplosion:*провоцирует Тремор*] на себе\nНаносит дробящий урон, равный урону от спровоцированного [Vibration:*Тремора*]"
                 }
               ]
             }
@@ -560,7 +560,7 @@
         {
           "level": 3,
           "name": "Клеймо",
-          "desc": "Сила монет +1 против целей с 10 и более [Combustion:*Огня*]\nВ состоянии Нестабильного ЭГО заменяется на 「Пылающий удар」\n[WinDuel] Восстанавливает 10 СД\n[DefeatDuel] Теряет 10 СД",
+          "desc": "Сила монет +1 против целей с 10-и и более [Combustion:*Огня*]\nВ состоянии Нестабильного ЭГО заменяется на 「Пылающий удар」\n[WinDuel] Восстанавливает 10 СД\n[DefeatDuel] Теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -581,7 +581,7 @@
         {
           "level": 4,
           "name": "Клеймо",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 7 [Combustion:*Огня*] на цели  (До 2)</style>\nВ состоянии Нестабильного ЭГО заменяется на 「Пылающий удар」\n[WinDuel] Восстанавливает 10 СД\n[DefeatDuel] Теряет 10 СД",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 7 [Combustion:*Огня*] на цели  (До 2-х)</style>\nВ состоянии Нестабильного ЭГО заменяется на 「Пылающий удар」\n[WinDuel] Восстанавливает 10 СД\n[DefeatDuel] Теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -649,7 +649,7 @@
                   "summary": "Повышает урон за счёт [Combustion:*Огня*] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Combustion:*Огня*], наносит 2 [Combustion:*Огня*] (число наибольшего резонанса) случайным противникам",
+                  "desc": "[OnSucceedAttack] Если на цели 10-и и более [Combustion:*Огня*], наносит 2 [Combustion:*Огня*] (число наибольшего резонанса) случайным противникам",
                   "summary": "[OnSucceedAttack] Наносит [Combustion] в зависимости от резонанса грехов"
                 },
                 {
@@ -675,7 +675,7 @@
                   "summary": "Повышает урон за счёт [Combustion:*Огня*] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Combustion:*Огня*], наносит 2 [Combustion:*Огня*] (число наибольшего резонанса) случайным противникам\n<style=\"highlight\">- Если грехом резонанса был Гнев, дополнительно повышает счётчик [Combustion:*Огня*] на 1</style>",
+                  "desc": "[OnSucceedAttack] Если на цели 10-и и более [Combustion:*Огня*], наносит 2 [Combustion:*Огня*] (число наибольшего резонанса) случайным противникам\n<style=\"highlight\">- Если грехом резонанса был Гнев, дополнительно повышает счётчик [Combustion:*Огня*] на 1</style>",
                   "summary": "[OnSucceedAttack] Наносит [Combustion] в зависимости от резонанса грехов"
                 },
                 {
@@ -827,7 +827,7 @@
         {
           "level": 3,
           "name": "Ограда",
-          "desc": "[WhenUse] За каждые 2 единицы на своём счётчике [Vibration:*Тремора*] Синклер получает 1 [DefenseUp] (До 2)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:*Повышения уровня защиты*] на Синклере (До 2)",
+          "desc": "[WhenUse] За каждые 2 единицы на своём счётчике [Vibration:*Тремора*] Синклер получает 1 [DefenseUp] (До 2-х)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:*Повышения уровня защиты*] на Синклере (До 2-х)",
           "coinlist": [
             {
               "coindescs": [
@@ -858,7 +858,7 @@
         {
           "level": 4,
           "name": "Ограда",
-          "desc": "[WhenUse] За каждые 2 единицы на своём счётчике [Vibration:*Тремора*] Синклер получает 1 [DefenseUp] (До <style=\"highlight\">4</style>)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:*Повышения уровня защиты*] на Синклере (До <style=\"highlight\">3</style>)",
+          "desc": "[WhenUse] За каждые 2 единицы на своём счётчике [Vibration:*Тремора*] Синклер получает 1 [DefenseUp] (До <style=\"highlight\">4-х</style>)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:*Повышения уровня защиты*] на Синклере (До <style=\"highlight\">3-х</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -894,7 +894,7 @@
         {
           "level": 1,
           "name": "Рыцарское фехтование «Цвай»: Блок",
-          "desc": "[CanDuelGuard]\n[StartBattle] Эта ячейка навыков получает 5 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2 (Раз за ход)\n[WinDuel] [VibrationExplosion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Эта ячейка навыков получает 5 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2 (Раз за ход)\n[WinDuel] [VibrationExplosion:*Провоцирует Тремор*]",
           "coinlist": [
             {
               "coindescs": [
@@ -908,7 +908,7 @@
         {
           "level": 4,
           "name": "Рыцарское фехтование «Цвай»: Блок",
-          "desc": "[CanDuelGuard]\n[StartBattle] Эта ячейка навыков получает 5 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>(Раз за ход)\n[WinDuel] [VibrationExplosion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Эта ячейка навыков получает 5 [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>(Раз за ход)\n[WinDuel] [VibrationExplosion:*Провоцирует Тремор*]",
           "coinlist": [
             {
               "coindescs": [
@@ -928,7 +928,7 @@
         {
           "level": 1,
           "name": "Курьерская сумка: Крушащий молот",
-          "desc": "[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
+          "desc": "[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
           "coinlist": [
             {
               "coindescs": [
@@ -949,7 +949,7 @@
         {
           "level": 2,
           "name": "Курьерская сумка: Крушащий молот",
-          "desc": "Сила монет +1 при 10 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 и более [Burst:*Разрывах*] на цели\n[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
+          "desc": "Сила монет +1 при 10-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6-и и более [Burst:*Разрывах*] на цели\n[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
           "coinlist": [
             {
               "coindescs": [
@@ -961,7 +961,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2\n- При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] дополнительно повышает счётчик [Burst:*Разрывов*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2\n- При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] дополнительно повышает счётчик [Burst:*Разрывов*] на 1"
                 }
               ]
             }
@@ -970,7 +970,7 @@
         {
           "level": 4,
           "name": "Курьерская сумка: Крушащий молот",
-          "desc": "Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 [Burst:*Разрывов*] на цели (До 2)\n[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
+          "desc": "Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 [Burst:*Разрывов*] цели (До 2-х)\n[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
           "coinlist": [
             {
               "coindescs": [
@@ -982,7 +982,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2\n- При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] дополнительно повышает счётчик [Burst:*Разрывов*] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2\n- При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] дополнительно повышает счётчик [Burst:*Разрывов*] на 1"
                 }
               ]
             }
@@ -996,7 +996,7 @@
         {
           "level": 1,
           "name": "Курьерская сумка: Таран гаджетом",
-          "desc": "[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
+          "desc": "[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)",
           "coinlist": [
             {
               "coindescs": [
@@ -1024,7 +1024,7 @@
         {
           "level": 2,
           "name": "Курьерская сумка: Таран гаджетом",
-          "desc": "Сила монет +1 при 10 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 и более [Burst:*Разрывах*] на цели\n[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)\n[WhenUse] При менее 20 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] Синклер получает 1 [Agility:*Спешку*] на следующий ход (До 1-й за ход)",
+          "desc": "Сила монет +1 при 10-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6-и и более [Burst:*Разрывах*] на цели\n[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)\n[WhenUse] При менее 20 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] Синклер получает 1 [Agility:*Спешку*] на следующий ход (До 1-й за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1036,14 +1036,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]\n- При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]\n- При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на 1"
                 }
               ]
             }
@@ -1052,7 +1052,7 @@
         {
           "level": 4,
           "name": "Курьерская сумка: Таран гаджетом",
-          "desc": "Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 [Burst:*Разрывов*] на цели (До 2)\n[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)\n[WhenUse] При менее 30 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] Синклер получает 1 [Agility:*Спешку*] на следующий ход (До 1-й за ход)",
+          "desc": "Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 [Burst:*Разрывов*] цели (До 2-х)\n[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] наносит 2 [DefenseDown:*Понижения уровня защиты*] (Раз за монету)\n[WhenUse] При менее 30 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] Синклер получает 1 [Agility:*Спешку*] на следующий ход (До 1-й за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1064,14 +1064,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]\n- При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]\n- При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на <style=\"highlight\">2</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] повышает счётчик [Burst:*Разрывов*] на <style=\"highlight\">2</style>"
                 }
               ]
             }
@@ -1085,19 +1085,19 @@
         {
           "level": 3,
           "name": "Прошу тебя… Полудница!",
-          "desc": "Сила монет +1 при 10 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 и более [Burst:*Разрывах*] на цели\n[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] получает +2 к силе последней монеты\n[WhenUse] Если на цели 15 и более [Burst:*Разрывов*], +3% к урону Синклера на последней монете за каждую единицу на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 90%)",
+          "desc": "Сила монет +1 при 10-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6-и и более [Burst:*Разрывах*] на цели\n[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] получает +2 к силе последней монеты\n[WhenUse] Если на цели 15-и и более [Burst:*Разрывов*], +3% к урону Синклера на последней монете за каждую единицу на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 90%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1\n- Дополнительно повышает счётчик [Burst:*Разрывов*] цели на 1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 2)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1\n- Дополнительно повышает счётчик [Burst:*Разрывов*] цели на 1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 2-х)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- Дополнительно наносит 1 [Burst] за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 2)"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- Дополнительно наносит 1 [Burst] за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 2-х)"
                 }
               ]
             },
@@ -1113,19 +1113,19 @@
         {
           "level": 4,
           "name": "Прошу тебя… Полудница!",
-          "desc": "Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 [Burst:*Разрывов*] на цели (До 2)\n[WhenUse] При 15 и более [Burst:*Разрывах*] или 3 и более на их счётчике Синклер вместо [Burst:*Разрывов*] получает +4 к силе последней монеты\n[WhenUse] Если на цели 15 и более [Burst:*Разрывов*], +4% к урону Синклера на последней монете за каждую единицу на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 120%)",
+          "desc": "Сила монет +1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] или 6 [Burst:*Разрывов*] цели (До 2-х)\n[WhenUse] При 15-и и более [Burst:*Разрывах*] и 3-х и более на их счётчике Синклер вместо [Burst:*Разрывов*] получает +4 к силе последней монеты\n[WhenUse] Если на цели 15-и и более [Burst:*Разрывов*], +4% к урону Синклера на последней монете за каждую единицу на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До 120%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1\n- Дополнительно повышает счётчик [Burst:*Разрывов*] цели на 1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1\n- Дополнительно повышает счётчик [Burst:*Разрывов*] цели на 1 за каждые 10 единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До <style=\"highlight\">3-х</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- Дополнительно наносит 1 [Burst] за каждые <style=\"highlight\">8</style>  единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:*Разрыва*]\n- Дополнительно наносит 1 [Burst] за каждые <style=\"highlight\">8</style>  единиц на [DevyatDimensionalSackSinclair:*Курьерской сумке*] (До <style=\"highlight\">4-х</style>)"
                 }
               ]
             },
@@ -1146,7 +1146,7 @@
         {
           "level": 1,
           "name": "Помощь в доставке и последовательный контроль",
-          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] навык заменяется на 「К-кажется, ей нужно небольшое техобслуживание!..」 (Раз за ход)\n[StartBattle] При активации навыка даёт Синклеру щит на ([DevyatDimensionalSackSinclair]/2)% ОЗ (До 15%, Раз за ход)",
+          "desc": "[StartBattle] При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] навык заменяется на 「К-кажется, ей нужно небольшое техобслуживание!..」 (Раз за ход)\n[StartBattle] При активации навыка даёт Синклеру щит на ([DevyatDimensionalSackSinclair]/2)% ОЗ (До 15%, Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1160,7 +1160,7 @@
         {
           "level": 4,
           "name": "Помощь в доставке и последовательный контроль",
-          "desc": "[StartBattle] При 15 и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] навык заменяется на 「К-кажется, ей нужно небольшое техобслуживание!..」 (Раз за ход)\n[StartBattle] При активации навыка даёт Синклеру щит на <style=\"highlight\">([DevyatDimensionalSackSinclair])</style>% ОЗ (До <style=\"highlight\">25</style>%, Раз за ход)",
+          "desc": "[StartBattle] При 15-и и более на [DevyatDimensionalSackSinclair:*Курьерской сумке*] навык заменяется на 「К-кажется, ей нужно небольшое техобслуживание!..」 (Раз за ход)\n[StartBattle] При активации навыка даёт Синклеру щит на <style=\"highlight\">([DevyatDimensionalSackSinclair])</style>% ОЗ (До <style=\"highlight\">25</style>%, Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1234,7 +1234,7 @@
         {
           "level": 2,
           "name": "Ты, сучёныш?!",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Эта ячейка получает <style=\"highlight\">3</style> [Aggro:*Провокации*] на следующий ход\n[WhenUse] Синклер восстанавливает 5 СД",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-и и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Эта ячейка получает <style=\"highlight\">3</style> [Aggro:*Провокации*] на следующий ход\n[WhenUse] Синклер восстанавливает 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1255,7 +1255,7 @@
         {
           "level": 4,
           "name": "Ты, сучёныш?!",
-          "desc": "Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[WhenUse] Эта ячейка получает <style=\"highlight\">5</style> [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Синклер восстанавливает 5 СД\n<style=\"highlight\">- Если сила духа Синклера на верхней границе, он взамен получает +1 к силе парирований</style>",
+          "desc": "Сила монет +1 против целей с 6-и и более [Laceration:*Кровотечения*]\n[WhenUse] Эта ячейка получает <style=\"highlight\">5</style> [Aggro:*Провокаций*] на следующий ход\n[WhenUse] Синклер восстанавливает 5 СД\n<style=\"highlight\">- Если сила духа Синклера на верхней границе, он взамен получает +1 к силе парирований</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1303,7 +1303,7 @@
         {
           "level": 2,
           "name": "Отплатим им сполна",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Эта ячейка получает <style=\"highlight\">3</style> [Aggro:*Провокации*] на следующий ход\n[StartBattle] Синклер повышает уровень атаки этого навыка на (наибольший резонанс /<style=\"highlight\">2</style>) (До <style=\"highlight\">3</style>-х, десятичные опускаются)",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-и и более [Laceration:*Кровотечения*]</style>\n[WhenUse] Эта ячейка получает <style=\"highlight\">3</style> [Aggro:*Провокации*] на следующий ход\n[StartBattle] Синклер повышает уровень атаки этого навыка на (наибольший резонанс /<style=\"highlight\">2</style>) (До <style=\"highlight\">3-х</style>-х, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1325,7 +1325,7 @@
         {
           "level": 4,
           "name": "Отплатим им сполна",
-          "desc": "Сила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[WhenUse] Эта ячейка получает <style=\"highlight\">5</style> [Aggro:*Провокаций*] на следующий ход\n[StartBattle] Синклер повышает уровень атаки этого навыка на (наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)\n<style=\"highlight\">- Если наибольший резонанс — абсолют, удваивает повышение уровня атаки.</style>",
+          "desc": "Сила монет +1 против целей с 6-и и более [Laceration:*Кровотечения*]\n[WhenUse] Эта ячейка получает <style=\"highlight\">5</style> [Aggro:*Провокаций*] на следующий ход\n[StartBattle] Синклер повышает уровень атаки этого навыка на (наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)\n<style=\"highlight\">- Если наибольший резонанс — абсолют, удваивает повышение уровня атаки.</style>",
           "coinlist": [
             {},
             {
@@ -1352,7 +1352,7 @@
         {
           "level": 3,
           "name": "Каждого в книгу",
-          "desc": "+1% к урону за каждые 2 единицы в [VengeanceBookSinclair:*Книге возмездия Синклера*] (До 15%)\nСила монет +1 против целей с 6 и более [Laceration:*Кровотечения*]\n[StartBattle] Синклер повышает уровень атаки этого навыка на (наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
+          "desc": "+1% к урону за каждые 2 единицы в [VengeanceBookSinclair:*Книге возмездия Синклера*] (До 15%)\nСила монет +1 против целей с 6-и и более [Laceration:*Кровотечения*]\n[StartBattle] Синклер повышает уровень атаки этого навыка на (наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
           "coinlist": [
             {},
             {
@@ -1561,7 +1561,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [VibrationIgnition:*Тремора: Накал*], Синклер повышает счётчик [Combustion:*Огня*] цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10-и и более [VibrationIgnition:*Тремора: Накал*], Синклер повышает счётчик [Combustion:*Огня*] цели на 1</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 6-и и более единиц [Vibration:*Тремора*] на цели Синклер [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
@@ -1573,7 +1573,7 @@
         {
           "level": 4,
           "name": "Почтение «Большому пальцу».",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n<style=\"highlight\">[WhenUse] +10% к наносимому урону за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 30%)\n[WhenUse] Базовая сила +2 против целей с 10 и более единиц <b>особого</b> [Vibration:*Тремора*]</style>",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n<style=\"highlight\">[WhenUse] +10% к наносимому урону за каждые 4 единицы в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 30%)\n[WhenUse] Базовая сила +2 против целей с 10-и и более единиц <b>особого</b> [Vibration:*Тремора*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1588,7 +1588,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [VibrationIgnition:*Тремора: Накал*], Синклер повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Если на цели 10-и и более [VibrationIgnition:*Тремора: Накал*], Синклер повышает счётчик [Combustion:*Огня*] цели на <style=\"highlight\">2</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 6-и и более единиц [Vibration:*Тремора*] на цели Синклер [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
@@ -1605,7 +1605,7 @@
         {
           "level": 3,
           "name": "Сосредоточение силы тяги",
-          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n[WhenUse] Базовая сила +1, если у Синклера осталось 3 и более [FireBulletPropellant:*Накалённых зажигательных патрона*]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n[WhenUse] Базовая сила +1, если у Синклера осталось 3-х и более [FireBulletPropellant:*Накалённых зажигательных патрона*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1669,7 +1669,7 @@
         {
           "level": 4,
           "name": "Сосредоточение силы тяги",
-          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n[WhenUse] <style=\"highlight\">Базовая сила +3, +30% к наносимому урону и все монеты становятся [SuperCoin:*вечными*]</style>, если у Синклера осталось 3 и более [FireBulletPropellant:*Накалённых зажигательных патрона*]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме [Combustion:*Огня*] и [Vibration:*Тремора*] на цели (До 2-х)\n[WhenUse] <style=\"highlight\">Базовая сила +3, +30% к наносимому урону и все монеты становятся [SuperCoin:*вечными*]</style>, если у Синклера осталось 3-х и более [FireBulletPropellant:*Накалённых зажигательных патрона*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1752,6 +1752,349 @@
           "desc": "При ударе по щиту Синклер наносит атакующему <style=\"highlight\">2</style> [Vibration:*Тремора*] (Активируется до <style=\"highlight\">4-х</style> раз за ход)",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дай прочувствовать запах сгорающей крови…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Дай прочувствовать запах сгорающей крови…",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ью и более единицами в сумме [Combustion:*Огня*] и [Burst:*Разрывов*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Дай прочувствовать запах сгорающей крови…",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6-ью и более единицами в сумме [Combustion:*Огня*] и [Burst:*Разрывов*]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [Combustion]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В опьяняющем бесновании.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] При менее 50% здоровья и [ChickenStance:*Пылающей кровью*] на клинке он вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "В опьяняющем бесновании.",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ью и более единицами в сумме [Combustion:*Огня*] и [Burst:*Разрывов*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] При менее 50% здоровья и [ChickenStance:*Пылающей кровью*] на клинке он вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "В опьяняющем бесновании.",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6-ью и более единицами в сумме [Combustion:*Огня*] и [Burst:*Разрывов*]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:*Разрывов*] цели на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] При менее 50% здоровья и [ChickenStance:*Пылающей кровью*] на клинке он вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] +10% к итоговому урону навыка в качестве урона Гневом</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Беснования пылающей крови",
+          "_comment": "[血炎亂舞] Сюэ янь луань-у",
+          "desc": "[WideAreaRampage]\n[StartBattle] При менее 50% здоровья и [ChickenStance:*Пылающей кровью*] на клинке все монеты этого навыка становятся [SuperCoin:*вечными*]\n[WhenUse] В течение хода [ChickenStance:*кровь на мече начинает пылать*]\n[WhenUse] Сила монет +1 против целей с 6-ью и более единицами в сумме [Combustion:*Огня*] и [Burst:*Разрывов*]\n[DefeatDuel] Синклер наносит 2 [Combustion:*Огня*] на себя и цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Беснования пылающей крови",
+          "_comment": "[血炎亂舞] Сюэ янь луань-у",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">+1% к наносимому урону за каждые 2% в сумме потерянного здоровья Синклера и цели (До 50%)</style>\n[StartBattle] При менее 50% здоровья и [ChickenStance:*Пылающей кровью*] на клинке все монеты этого навыка становятся [SuperCoin:*вечными*]\n[WhenUse] В течение хода [ChickenStance:*кровь на мече начинает пылать*]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion:*Огня*] и [Burst:*Разрывов*] цели (До 2-х)</style>\n<style=\"highlight\">[WhenUse] Сила парирований +1 за каждые 20% потерянного здоровья Синклера (До 2-х)</style>\n[DefeatDuel] Синклер наносит 2 [Combustion:*Огня*] на себя и цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:*Огня*] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] +10% к итоговому урону навыка в качестве урона Чревоугодием</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Огня*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:*Разрыва*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] +20% к итоговому урону навыка в качестве урона Чревоугодием по всем целям</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смертоносный удар петуха",
+          "_comment": "[鷄窮則殺] Цзи цюн цзэ ша",
+          "desc": "[DuelCounter]\n[WhenUse] [ChickenStance:*Кровь на клинке Синклера начинает пылать*] в течение 3-х последующих ходов\n[WhenUse] Сила монет +1 с [ChickenStance:*Пылающей кровью*] на клинке\n[DefeatDuel] Синклер наносит 2 [Combustion:*Огня*] на себя и цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смертоносный удар петуха",
+          "_comment": "[鷄窮則殺] Цзи цюн цзэ ша",
+          "desc": "[DuelCounter]\n[WhenUse] [ChickenStance:*Кровь на клинке Синклера начинает пылать*] в течение 3-х последующих ходов\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 10-и и более единиц в сумме [Combustion:*Огня*] и [Burst:*Разрывов*] цели</style>\n[WhenUse] Сила монет +1 с [ChickenStance:*Пылающей кровью*] на клинке\n<style=\"highlight\">[WhenUse] +1% к наносимому урону за каждые 3% здоровья, потерянных за всю битву (До 30%)</style>\n[DefeatDuel] Синклер наносит 2 [Combustion:*Огня*] на себя и цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
           ]
         }
       ]

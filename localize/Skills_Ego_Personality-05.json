@@ -374,7 +374,7 @@
                   "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе ÷ 2) раз. (До 3-х раз. Каждая активация понижает счётчик [Laceration:*Кровотечения*] цели)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1)</style>"
+                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1-го)</style>"
                 }
               ]
             }
@@ -532,7 +532,257 @@
                   "desc": "[WinDuelAttack] Активирует [Laceration] на цели 1 + (число грехов в наибольшем резонансе ÷ 2) раз. (До 3-х раз. Каждая активация понижает счётчик [Laceration:*Кровотечения*] цели)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1)</style>"
+                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1-го)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Мерсо теряет по 10 СД\n[EndSkill] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, Мерсо восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на половину резонанса Лености (До 3-х)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:*наложение амплитуд*] текущего [Vibration:*Тремора*] основной цели"
+                }
+
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу [Vibration:*Тремора*] на основной цели (До 50%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик [Vibration:*Тремора*]) на основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1 при ([Vibration] + счётчик [Vibration:*Тремора*]) на цели равны 30-и и более</style>\n[EndSkill] В течение последующих 3-х ходов Мерсо теряет по 10 СД\n[EndSkill] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, Мерсо восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на половину резонанса Лености (До 3-х)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:*наложение амплитуд*] текущего [Vibration:*Тремора*] основной цели<style=\"highlight\"></style>"
+                }
+
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу [Vibration:*Тремора*] на основной цели (До 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик [Vibration:*Тремора*]) на основной цели (До 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при ([Vibration] + счётчик [Vibration:*Тремора*]) на цели равны 30-и и более\n<style=\"highlight\">- Если сумма равна 100-м и более, взамен тяжесть атаки +3</style>\n<style=\"highlight\">[BeforeAttack] Наносит по 1 единице [Vibration:*Тремора*] всем целям за каждые 2 греха в наибольшем резонансе</style>\n[EndSkill] В течение последующих 3-х ходов Мерсо теряет по 10 СД\n<style=\"highlight\">[EndSkill] Мерсо восстанавливает ([AccumulatedPastSinner] × 2)% здоровья</style>\n[EndSkill] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, Мерсо восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на половину резонанса Лености (До 3-х)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:*наложение амплитуд*] текущего [Vibration:*Тремора*] основной цели<style=\"highlight\"></style>"
+                }
+
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу [Vibration:*Тремора*] на основной цели (До 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик [Vibration:*Тремора*]) на основной цели (До 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При достижении более +50% к наносимому данной монетой урону [VibrationExplosion:*провоцирует Тремор*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[CantIdentify]\nСлучайные цели\n+10% к наносимому урону за каждый грех в наибольшем резонансе (До 100%)\n- Если грех резонанса — <b>Леность</b>, взамен +20% к наносимому урону (До 100%)\n[BeforeAttack] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, +12% к наносимому урону",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик [Vibration:*Тремора*]) на основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на резонанс Лености (До 6-и)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:*наложение амплитуд*] текущего [Vibration:*Тремора*] основной цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[CantIdentify]\nСлучайные цели\n+10% к наносимому урону за каждый грех в наибольшем резонансе (До 100%)\n- Если грех резонанса — <b>Леность</b>, взамен +20% к наносимому урону (До 100%)\n<style=\"highlight\">[BeforeAttack] Тяжесть атаки +2 при ([Vibration] + счётчик [Vibration:*Тремора*]) на цели равны 30-и и более</style>\n[BeforeAttack] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, +12% к наносимому урону",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик [Vibration:*Тремора*]) на основной цели (До 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на резонанс Лености (До 6-и)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:*наложение амплитуд*] текущего [Vibration:*Тремора*] основной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[CantIdentify]\nСлучайные цели\n+10% к наносимому урону за каждый грех в наибольшем резонансе (До 100%)\n- Если грех резонанса — <b>Леность</b>, взамен +20% к наносимому урону (До 100%)\n[BeforeAttack] Тяжесть атаки +2 при ([Vibration] + счётчик [Vibration:*Тремора*]) на цели равны 30-и и более\n[BeforeAttack] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, +12% к наносимому урону\n<style=\"highlight\">[EndSkill] Мерсо восстанавливает ([AccumulatedPastSinner] × 3)% здоровья</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] <style=\"highlight\">+2%</style> к урону данной монеты за каждую единицу ([Vibration] + счётчик [Vibration:*Тремора*]) на основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*] и повышает его счётчик на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на резонанс Лености (До 6-и)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:*наложение амплитуд*] текущего [Vibration:*Тремора*] основной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 2<style=\"highlight\"></style>"
                 }
               ]
             }

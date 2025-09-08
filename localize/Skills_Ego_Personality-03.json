@@ -250,7 +250,7 @@
           "level": 1,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] (До 2)\n[BeforeAttack] При менее 50 единиц [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] (До 2)\n[BeforeAttack] При менее 50 единиц [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение последующих 3-х Дон Кихот теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -301,7 +301,7 @@
           "level": 3,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\n<style=\"highlight\">Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели</style>\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] (До <style=\"highlight\">3</style>)\n[BeforeAttack] При <style=\"highlight\">75-</style> [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\n<style=\"highlight\">Сила монет +1 при 10 и более [Laceration:*Кровотечения*] на цели</style>\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] (До <style=\"highlight\">3</style>)\n[BeforeAttack] При <style=\"highlight\">75-</style> [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение последующих 3-х Дон Кихот теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -352,7 +352,7 @@
           "level": 4,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет +1 <style=\"highlight\">за каждые 10</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2)</style>\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] <style=\"highlight\">(До 5)</style>\n[BeforeAttack] При <style=\"highlight\">100-</style> [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение 3-х ходов теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет +1 <style=\"highlight\">за каждые 10</style> [Laceration:*Кровотечения*] на цели <style=\"highlight\">(До 2)</style>\nСила парирований +1 за каждые 100 единиц [BloodDinner_Accumulation:*Испитого пиршества*] <style=\"highlight\">(До 5)</style>\n[BeforeAttack] При <style=\"highlight\">100-</style> [BloodDinner:*Кровавого пиршества*] Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение последующих 3-х Дон Кихот теряет по 10 СД",
           "coinlist": [
             {
               "coindescs": [

@@ -1083,7 +1083,7 @@
     },
     {
       "id": "ego_gift",
-      "content": "ЭГО Дары"
+      "content": "ЭГО-дары"
     },
     {
       "id": "classification",
@@ -1571,7 +1571,7 @@
     },
     {
       "id": "ego_gift_effect_format",
-      "content": "Эффекты ЭГО Дара 「{0}」"
+      "content": "Эффекты ЭГО-дара 「{0}」"
     },
     {
       "id": "mainui_previous",
@@ -1864,6 +1864,114 @@
     {
       "id": "remote_download_quit_game",
       "content": "Появилось новое обновление для загрузки.\nИгра будет завершена, пожалуйста, скачайте его при перезапуске."
+    },
+    {
+      "id": "mainui_settings_battle_speech",
+      "content": "Субтитры во время битвы"
+    },
+    {
+      "id": "unable_to_upgrade_sync_level_by_main_story_1",
+      "content": "Связь повысится\nпосле\nПесни I"
+    },
+    {
+      "id": "unable_to_upgrade_sync_level_by_main_story_2",
+      "content": "Связь повысится\nпосле\nПесни II"
+    },
+    {
+      "id": "exp_dungeon_opened_desc",
+      "content": "Открыта светодобыча опыта."
+    },
+    {
+      "id": "abnormality_tutorial_battle_participate_desc",
+      "content": "Выберите пять грешников для участия в битве."
+    },
+    {
+      "id": "thread_dungeon_opened_desc",
+      "content": "Открыта светодобыча звеньев."
+    },
+    {
+      "id": "mirror_dungeon_opened_desc",
+      "content": "Открыто зеркальное подземелье."
+    },
+    {
+      "id": "ego_gift_combine_explain_title",
+      "content": "Рецепты\nкомбинаций"
+    },
+    {
+      "id": "ego_gift_combine_explain_label_keyword",
+      "content": "Аспект"
+    },
+    {
+      "id": "ego_gift_combine_explain_label_attack_type",
+      "content": "Тип атаки"
+    },
+    {
+      "id": "ego_gift_combine_explain_label_etc",
+      "content": "Прочее"
+    },
+    {
+      "id": "ego_gift_combine_explain_button_label",
+      "content": "Рецепты"
+    },
+    {
+      "id": "ego_gift_combine_explain_no_item_list",
+      "content": "Данный ЭГО-дар нельзя использовать в комбинации."
+    },
+    {
+      "id": "ego_gift_combine_explain_required_label",
+      "content": "Необходимо {1} {0}"
+    },
+    {
+      "id": "attendance_event_s6_desc",
+      "content": "Во время ивента заходите в игру каждый день для получения наград. Ресурсы будут автоматически направляться в инвентарь.\n\nДля получения всех наград необходимо зайти в течение 14-и дней."
+    },
+    {
+      "id": "formation_none_selected_desc",
+      "content": "Вы не собрали команду.\n\nВыберите грешников и их порядок для битвы."
+    },
+    {
+      "id": "ego_gift_category_current_theme",
+      "content": "Комбинации ЭГО-даров\nтематического набора"
+    },
+    {
+      "id": "mainui_exp_dungeon_10_title",
+      "content": "Светодобыча опыта №8 (Рубящий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_10_open_day",
+      "content": "Светодобыча опыта №8 (на рубящий урон) открывается в понедельник, вторник и воскресенье.\n\n<b>ПН ВТ</b> <alpha=#66>СР ЧТ ПТ СБ <b><alpha=#FF>ВС</b>"
+    },
+    {
+      "id": "mainui_exp_dungeon_11_title",
+      "content": "Светодобыча опыта №8 (Колющий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_11_open_day",
+      "content": "Светодобыча опыта №8 (на колющий урон) открывается в среду, четверг и воскресенье.\n\n<alpha=#66>ПН ВТ <b><alpha=#FF>СР ЧТ</b> <alpha=#66>ПТ СБ <b><alpha=#FF>ВС</b>"
+    },
+    {
+      "id": "mainui_exp_dungeon_12_title",
+      "content": "Светодобыча опыта №8 (Дробящий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_12_open_day",
+      "content": "Светодобыча опыта №8 (на дробящий урон) открывается в пятницу, субботу и воскресенье.\n\n<alpha=#66>ПН ВТ СР ЧТ <b><alpha=#FF>ПТ СБ ВС</b>"
+    },
+    {
+      "id": "mainui_notice_download_failed",
+      "content": "При загрузке новостей произошла ошибка, проверьте подключение к сети."
+    },
+    {
+      "id": "mainui_settings_show_importance_level_UI",
+      "content": "Подсказки в навыках противников"
+    },
+    {
+      "id": "mainui_settings_battle_result_announcer",
+      "content": "Ожидание завершения фразы комментатора по завершении битвы"
+    },
+    {
+      "id": "jiaxicun_level",
+      "content": "Уровень Главы семьи"
     }
   ]
 }

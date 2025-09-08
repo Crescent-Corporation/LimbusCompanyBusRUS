@@ -631,7 +631,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на Роде есть [TimeRentalTwoPersonality], наносит 2 [TimeSuspend:*Временных моратория*]"
+                  "desc": "[OnSucceedAttack] Если Родя [TimeRentalTwoPersonality:*одолжила время*] наносит 2 [TimeSuspend:*Временных моратория*]"
                 }
               ]
             }
@@ -672,7 +672,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык понизил счётчик [Vibration:*Тремора*] Роди, наносит 2 [Binding:*Связывания*] на следующий ход</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на Роде есть [TimeRentalTwoPersonality], наносит 2 [TimeSuspend:*Временных моратория*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если Родя [TimeRentalTwoPersonality:*одолжила время*] наносит 2 [TimeSuspend:*Временных моратория*]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
@@ -694,7 +694,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[StartBattle] Если на Роде нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 3 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 [Vibration:*Тремора*] на атакующего (Дважды за ход)"
+                  "desc": "[StartBattle] Если у Роди нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 3 единицы [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 [Vibration:*Тремора*] на атакующего (Дважды за ход)"
                 }
               ]
             }
@@ -708,7 +708,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[StartBattle] Если на Роде нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 3 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 [Vibration:*Тремора*] на атакующего (До <style=\"highlight\">6-и</style>раз за ход)"
+                  "desc": "[StartBattle] Если у Роди нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 3 единицы [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 [Vibration:*Тремора*] на атакующего (До <style=\"highlight\">6-и</style>раз за ход)"
                 }
               ]
             }

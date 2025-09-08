@@ -1739,7 +1739,7 @@
           {
             "level": 4,
             "name": "Смерть от клинка с высеченными проклятиями",
-            "desc": "Если Отис быстрее цели, +(разница в скорости × потенциал [Burst:*Разрывов*] на цели)% к урону (До 50%)\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы в скорости, когда Отис быстрее цели(До 2-х)\n[WhenUse] Сила монет +1 при 15 ии более [Burst:*Разрывах*] на цели</style>\n[WhenUse] Отис получает 3 [LegStrength:*Усиления ног*]\n[OnDirectAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2",
+            "desc": "Если Отис быстрее цели, +(разница в скорости × потенциал [Burst:*Разрывов*] на цели)% к урону (До 50%)\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы в скорости, когда Отис быстрее цели (До 2-х)\n[WhenUse] Сила монет +1 при 15 и более [Burst:*Разрывах*] на цели</style>\n[WhenUse] Отис получает 3 [LegStrength:*Усиления ног*]\n[OnDirectAttack] Повышает счётчик [Burst:*Разрывов*] цели на 2",
             "coinlist": [
               {
                 "coindescs": [
@@ -1801,12 +1801,302 @@
                 "coindescs": [
                   {
                     "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В готовности взимать",
+          "desc": "[WhenUse] Отис повышает собственный счётчик [Vibration:*Тремора*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "В готовности взимать",
+          "desc": "[WhenUse] Повышает счётчик [Vibration:*Тремора*] цели на <style=\"highlight\">2</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "В готовности взимать",
+          "desc": "[WhenUse] Отис повышает собственный счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>\n[WhenUse] Сила монет +1 против целей с 6-ю и более [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Резонирующий модуль Корп. T",
+          "desc": "[WhenUse] Отис повышает собственный счётчик [Vibration:*Тремора*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:*Тремора*] цели равен 3-м и выше, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Резонирующий модуль Корп. T",
+          "desc": "[WhenUse] Отис повышает собственный счётчик [Vibration:*Тремора*] на <style=\"highlight\">3</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более [Vibration:*Тремора*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], Отис тратит 4 единицы [Vibration:*Тремора*] для повышения собственного счётчика [Vibration:*Тремора*] и счётчика цели на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если [Vibration] цели <b>не</b> прошёл через [Switch_Vibration:*преобразование амплитуды*] или [FusionVibration:*её наложение*], Отис расходует 3 единицы собственного счётчика [Vibration:*Тремора*] для [Switch_Vibration:*преобразования амплитуды*] в [VibrationChainPersonality]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:*Тремора*] цели равен 3-м и выше, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Резонирующий модуль Корп. T",
+          "desc": "[WhenUse] Отис повышает собственный счётчик [Vibration:*Тремора*] на <style=\"highlight\">4</style>\n[WhenUse] Сила монет +1 против целей с 6-ю и более [Vibration:*Тремора*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], Отис тратит 4 единицы [Vibration:*Тремора*] для повышения собственного счётчика [Vibration:*Тремора*] и счётчика цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+60% к урону, наносимому данной монетой, если амплитуда [Vibration:*Тремора*] цели [Switch_Vibration:*преобразована*] или [FusionVibration:*прошла через наложение*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если [Vibration] цели <b>не</b> прошёл через [Switch_Vibration:*преобразование амплитуды*] или [FusionVibration:*её наложение*], Отис расходует 3 единицы собственного счётчика [Vibration:*Тремора*] для [Switch_Vibration:*преобразования амплитуды*] в [VibrationChainPersonality]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:*Тремора*] цели равен 3-м и выше, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Максимальная развёртка коллекторской булавы T3",
+          "desc": "+30% к урону, наносимому целям под [TimeSuspend:*Временным мораторием*]\n[WhenUse] Сила монет +1 против целей с 6-ю и более [Vibration:*Тремора*]\n[EndSkill] Отис прекращает действие [TimeRentalTwoPersonality:*Одолженного времени*]\n[EndSkill] При использовании навыка Отис переходит к [OutisNoHat:*Силовому исполнению взысканий*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Отис тратит до 3-х единиц [Vibration:*Тремора*] цели\n- Взамен она повышает собственный счётчик [Vibration:*Тремора*] на (затраченный [Vibration] × 2)\n- После цель получает (затраченный [Vibration] - 1) [Binding:*Связываний*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:*Тремора*] цели равен 3-м и выше, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Отис тратит весь счётчик собственного [Vibration:*Тремора*]\n- Сила монет +1 за каждые 5 единиц затраченного счётчика [Vibration:*Тремора*] (До 5-и)\n- +1% к урону за каждую единицу затраченного счётчика [Vibration:*Тремора*] (До 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если Отис [TimeRentalTwoPersonality:*одолжила время*], [VibrationExplosion:*провоцирует Тремор*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если Отис [TimeRentalTwoPersonality:*одолжила время*], она наносит 2 [TimeSuspend:*Временных моратория*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Максимальная развёртка коллекторской булавы T3",
+          "desc": "<style=\"highlight\">+30% к урону, если амплитуда [Vibration:*Тремора*] цели [Switch_Vibration:*преобразована*] или [FusionVibration:*прошла через наложение*]</style>\n+30% к урону, наносимому целям под [TimeSuspend:*Временным мораторием*]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Vibration:*Тремора*] на цели (До 2-х)</style>\n<style=\"highlight\">[WhenUse] Сила парирований +1 против [Binding:*связанных*] целей</style>\n[EndSkill] Отис прекращает действие [TimeRentalTwoPersonality:*Одолженного времени*]\n[EndSkill] При использовании навыка Отис переходит к [OutisNoHat:*Силовому исполнению взысканий*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Отис тратит до 3-х единиц [Vibration:*Тремора*] цели<style=\"highlight\"></style>\n- Взамен она повышает собственный счётчик [Vibration:*Тремора*] на (затраченный [Vibration] × 2)<style=\"highlight\"></style>\n- После цель получает (затраченный [Vibration] - 1) [Binding:*Связываний*] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:*Тремора*] цели равен 3-м и выше, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Отис тратит весь счётчик собственного [Vibration:*Тремора*]<style=\"highlight\"></style>\n- Сила монет +1 за каждые <style=\"highlight\">4</style> единицы затраченного счётчика [Vibration:*Тремора*] (До 5-и)\n<style=\"highlight\">- +2% к урону за каждую единицу затраченного счётчика [Vibration:*Тремора*] (До 100%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если Отис [TimeRentalTwoPersonality:*одолжила время*], [VibrationExplosion:*провоцирует Тремор*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если Отис [TimeRentalTwoPersonality:*одолжила время*], она наносит 2 [TimeSuspend:*Временных моратория*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Одолженное время: Резонанс",
+          "desc": "[CanDuelGuard]\n[StartBattle] Если у Отис нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 единицы [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WinDuel] Отис повышает собственный счётчик [Vibration:*Тремора*] и счётчик цели на 2\n[DefeatDuel] Отис повышает собственный счётчик [Vibration:*Тремора*] на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Одолженное время: Резонанс",
+          "desc": "[CanDuelGuard]\n[StartBattle] Если у Отис нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 единицы [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WinDuel] Отис повышает собственный счётчик [Vibration:*Тремора*] и счётчик цели на 2\n[DefeatDuel] Отис повышает собственный счётчик [Vibration:*Тремора*] на 4<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

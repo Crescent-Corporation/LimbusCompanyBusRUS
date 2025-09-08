@@ -255,6 +255,14 @@
     {
       "id": "ReUseOnSucceedAttack",
       "name": "[Подкинута вновь, при ударе]"
+    },
+    {
+      "id": "CriticalOnSucceedAttackHead",
+      "name": "[При критической атаке орлом]"
+    },
+    {
+      "id": "OnStartCoin",
+      "name": "[В начале подкидывания монеты]"
     }
   ]
 }

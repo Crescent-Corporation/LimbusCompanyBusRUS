@@ -700,7 +700,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)\n<style=\"highlight\">Если союзник — член «Родословной клинка», даёт 2 дополнительных [Breath:*Дыхания*]</style>"
+                  "desc": "[CriticalOnSucceedAttack] Даёт 2 [Breath:*Дыхания*] союзнику с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта)\n<style=\"highlight\">Если союзник — член «Верных клинком», даёт 2 дополнительных [Breath:*Дыхания*]</style>"
                 }
               ]
             }
@@ -767,7 +767,7 @@
                   "desc": "Критический урон +30%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:*Дыхания*] 2-х союзников с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта) на 2.\n<style=\"highlight\">Если союзники — члены «Родословной клинка», дополнительно повышает их счётчик [Breath:*Дыхания*] на 2.</style>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:*Дыхания*] 2-х союзников с наименьшим потенциалом [Breath:*Дыхания*] (или не имеющих этого эффекта) на 2.\n<style=\"highlight\">Если союзники — члены «Верных клинком», дополнительно повышает их счётчик [Breath:*Дыхания*] на 2.</style>"
                 },
                 {
                   "desc": "[EndSkill] Если цель побеждена, <style=\"highlight\">даёт себе и случайному союзнику 1 Повышение рубящего урона</style>"
@@ -969,7 +969,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если Дон Кихрт [TimeRentalTwoPersonality:*одалживает время*], не тратит [Vibration] цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, [Switch_Vibration:*преобразует амплитуду Тремора*] в [VibrationChainPersonality]"
@@ -1001,7 +1001,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если на Дон Кихот есть [TimeRentalTwoPersonality], не тратит [Vibration] цели<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если Дон Кихрт [TimeRentalTwoPersonality:*одалживает время*], не тратит [Vibration] цели<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"
@@ -1021,7 +1021,7 @@
         {
           "level": 1,
           "name": "Надобно растянуть время",
-          "desc": "[StartBattle] Если на Дон Кихот нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего 2 [Vibration:*Тремора*] (Дважды за ход)",
+          "desc": "[StartBattle] Если у Дон Кихот нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 единицы [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего 2 [Vibration:*Тремора*] (Дважды за ход)",
           "coinlist": [
             {}
           ]
@@ -1029,7 +1029,7 @@
         {
           "level": 4,
           "name": "Надобно растянуть время",
-          "desc": "[StartBattle] Если на Дон Кихот нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего <style=\"highlight\">3</style> [Vibration:*Тремора*] (До <style=\"highlight\">6-и</style> раз за ход)",
+          "desc": "[StartBattle] Если у Дон Кихот нет [TimeRentalTwoPersonality:*Одолженного времени*], в конце хода получает 4 единицы [TimeRentalTwoPersonality:*Одолженного времени*] (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит на атакующего <style=\"highlight\">3</style> [Vibration:*Тремора*] (До <style=\"highlight\">6-и</style> раз за ход)",
           "coinlist": [
             {}
           ]

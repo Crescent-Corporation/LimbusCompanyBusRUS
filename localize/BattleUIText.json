@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "battle_battleunit_guard",
-      "content": "Блок"
+      "content": "Защита"
     },
     {
       "id": "popup_message_ego_seat_lack",
@@ -70,11 +70,11 @@
     },
     {
       "id": "battle_log_use_ego",
-      "content": "{0} использует ЭГО \"{1}\"!"
+      "content": "{0} использует ЭГО 「{1}}」!"
     },
     {
       "id": "battle_log_use_ego_corrosion",
-      "content": "ЭГО \"{0}\" {1} поддалось коррозии!"
+      "content": "ЭГО 「{0}}」 {1} поддалось коррозии!"
     },
     {
       "id": "battle_log_personality_corrosion",
@@ -90,11 +90,11 @@
     },
     {
       "id": "choice_result_success",
-      "content": "Прохождение проверки"
+      "content": "Проверка пройдена"
     },
     {
       "id": "choice_result_fail",
-      "content": "Провал проверки"
+      "content": "Проверка провалена"
     },
     {
       "id": "choice_result_skip",
@@ -110,7 +110,7 @@
     },
     {
       "id": "info_button_awakenskill",
-      "content": "<size=34>Пробуждение</size>"
+      "content": "<size=80%>Пробуждение</size>"
     },
     {
       "id": "info_button_erosionskill",
@@ -270,11 +270,11 @@
     },
     {
       "id": "get_ego_gift",
-      "content": "Получен ЭГО Дар"
+      "content": "Получен ЭГО-дар"
     },
     {
       "id": "get_ego_gift_desc",
-      "content": "Получен ЭГО Дар!"
+      "content": "Получен ЭГО-дар!"
     },
     {
       "id": "selection",
@@ -398,7 +398,7 @@
     },
     {
       "id": "battle_operation_defence",
-      "content": "Защита"
+      "content": "Блок"
     },
     {
       "id": "battle_increase_mp",
@@ -414,15 +414,15 @@
     },
     {
       "id": "dungeon_encounter_type_battle",
-      "content": "Обычное столкновение"
+      "content": "Обычная битва"
     },
     {
       "id": "dungeon_encounter_type_ab_battle",
-      "content": "Столкновение с аномалией"
+      "content": "Битва с аномалией"
     },
     {
       "id": "dungeon_encounter_type_hard_battle",
-      "content": "Рискованное столкновение"
+      "content": "Рискованная битва"
     },
     {
       "id": "dungeon_encounter_type_event",
@@ -434,7 +434,7 @@
     },
     {
       "id": "dungeon_encounter_type_boss",
-      "content": "Столкновение с боссом"
+      "content": "Битва с боссом"
     },
     {
       "id": "battle_mp",
@@ -458,11 +458,11 @@
     },
     {
       "id": "skillinfo_keyword",
-      "content": "<size=42>Ключевые слова</size>"
+      "content": "<size=42>Аспекты</size>"
     },
     {
       "id": "ability_turn",
-      "content": "счётчик"
+      "content": "(счётчик)"
     },
     {
       "id": "ego_erosion",
@@ -482,19 +482,19 @@
     },
     {
       "id": "slash_resistance",
-      "content": "Слаб. к рубящему"
+      "content": "Сопр. к рубящему"
     },
     {
       "id": "penetrate_resistance",
-      "content": "Слаб. к колющему"
+      "content": "Сопр. к колющему"
     },
     {
       "id": "hit_resistance",
-      "content": "Слаб. к дробящему"
+      "content": "Сопр. к дробящему"
     },
     {
       "id": "Lack_Buff",
-      "content": "{0}ов нет!"
+      "content": "Патронов типа\n「{0}」 нет!"
     },
     {
       "id": "received_the_golden_bough",
@@ -562,7 +562,7 @@
     },
     {
       "id": "targetSlotWeight",
-      "content": "<font=\"ExcelsiorSans SDF\">Тяжесть \nатаки</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Тяжесть\nатаки</font>"
     },
     {
       "id": "EGO_ErodeProbability",
@@ -771,7 +771,7 @@
     },
     {
       "id": "laceration_surge",
-      "content": "Поток кровотечения!"
+      "content": "Погружение в кровоток!"
     },
     {
       "id": "QTE_Notice",
@@ -783,7 +783,19 @@
     },
     {
       "id": "run_forBattlePortraitStateText",
-      "content": "В бегах"
+      "content": "В БЕГАХ"
+    },
+    {
+      "id": "ReturnPassUIText",
+      "content": "Возвращаемся"
+    },
+    {
+      "id": "NoHavePassive",
+      "content": "Уровень Связи слишком низок;\nпассивка Поддержки заблокирована."
+    },
+    {
+      "id": "LocalSetButtonTitle_ImportanceLevel",
+      "content": "Подсказки"
     }
   ]
 }

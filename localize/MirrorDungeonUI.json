@@ -54,7 +54,7 @@
     },
     {
       "id": "mirrordungeon_acquire_ego_gift_popup",
-      "content": "Получен ЭГО Дар!"
+      "content": "Получен ЭГО-дар!"
     },
     {
       "id": "mirrordungeon_additional_exp_weekly",
@@ -123,7 +123,7 @@
     },
     {
       "id": "mirrordunge_ego_gift_history_button_label",
-      "content": "Записи об ЭГО Дарах"
+      "content": "Записи об ЭГО-дарах"
     },
     {
       "id": "mirrordungeon_weekly_reset_description",
@@ -139,7 +139,7 @@
     },
     {
       "id": "select_ego_gift",
-      "content": "Выбор ЭГО Дара"
+      "content": "Выбор ЭГО-дара"
     },
     {
       "id": "explore_dungeon_finished",

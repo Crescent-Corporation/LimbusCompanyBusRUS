@@ -6,15 +6,15 @@
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition",
-      "content": "Получите {0} стоимости\nПолучите случайный ЭГО Дар {2} ранга или ниже с шансом {1}% (того аспекта, что Вы выбрали в начале подземелья)"
+      "content": "Получите {0} стоимости\nПолучите случайный ЭГО-дар {2} ранга или ниже с шансом {1}% (того аспекта, что Вы выбрали в начале подземелья)"
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_all_tier_gift_acquisition",
-      "content": "Получите {0} стоимости\nПолучите случайный ЭГО Дар с шансом {1}%"
+      "content": "Получите {0} стоимости\nПолучите случайный ЭГО-дар с шансом {1}%"
     },
     {
       "id": "dungeon_battle_reward_case_format_random_gift_acquisition",
-      "content": "Получите случайный ЭГО Дар {0} ранга"
+      "content": "Получите случайный ЭГО-дар {0} ранга"
     },
     {
       "id": "dungeon_battle_reward_case_format_chip_acquisition",
@@ -30,11 +30,11 @@
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition_from_start_keyword",
-      "content": "Получите {0} стоимости\nПолучите случайный ЭГО Дар {2} ранга на {3} с шансом {1}%"
+      "content": "Получите {0} стоимости\nПолучите случайный ЭГО-дар {2} ранга на {3} с шансом {1}%"
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition_from_start_keyword_none_or_random",
-      "content": "Получите {0} стоимости\nПолучите случайный ЭГО Дар {2} ранга с шансом {1}%"
+      "content": "Получите {0} стоимости\nПолучите случайный ЭГО-дар {2} ранга с шансом {1}%"
     }
   ]
 }

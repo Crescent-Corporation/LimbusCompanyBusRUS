@@ -18,11 +18,11 @@
     },
     {
       "id": "mirror_dungeon_selected_ego_gift",
-      "content": "Выбранные ЭГО Дары"
+      "content": "Выбранные ЭГО-дары"
     },
     {
       "id": "ego_gift_upgrade_ui_title",
-      "content": "Усиление ЭГО Дара"
+      "content": "Усиление ЭГО-дара"
     },
     {
       "id": "ego_gift_upgrade_confirm_format",
@@ -34,7 +34,7 @@
     },
     {
       "id": "ego_gift_combine_ui_title",
-      "content": "Соединение ЭГО Даров"
+      "content": "Соединение ЭГО-даров"
     },
     {
       "id": "combine",
@@ -42,7 +42,7 @@
     },
     {
       "id": "selected_gift",
-      "content": "Выбранный ЭГО Дар"
+      "content": "Выбранный ЭГО-дар"
     },
     {
       "id": "expectation",
@@ -50,7 +50,7 @@
     },
     {
       "id": "ego_gift_combine_ui_main_text",
-      "content": "Желаете соединить выбранные ЭГО Дары?"
+      "content": "Желаете соединить выбранные ЭГО-дары?"
     },
     {
       "id": "mirror_dungeon3_normal_reward_info",
@@ -90,7 +90,7 @@
     },
     {
       "id": "ego_gift_sell_ui_title",
-      "content": "Продажа ЭГО Даров"
+      "content": "Продажа ЭГО-даров"
     },
     {
       "id": "sell",
@@ -98,7 +98,7 @@
     },
     {
       "id": "guided_sell_ego_gift",
-      "content": "Пожалуйста, выберите ЭГО Дар для продажи."
+      "content": "Пожалуйста, выберите ЭГО-дар для продажи."
     },
     {
       "id": "ego_gift_sell_confirm_format",
@@ -114,7 +114,7 @@
     },
     {
       "id": "mirror_dungeon_give_up_getting_ego_gift_with_enemy_buff",
-      "content": "Если вы откажетесь от ЭГО Дара, в случайном порядке будет выбрано усиление."
+      "content": "Если вы откажетесь от ЭГО-дара, в случайном порядке будет выбрано усиление."
     },
     {
       "id": "mirror_dungeon_shop_could_not_refresh",
@@ -166,11 +166,11 @@
     },
     {
       "id": "number_of_acquired_ego_gift",
-      "content": "Получено ЭГО Даров"
+      "content": "Получено ЭГО-даров"
     },
     {
       "id": "choose_starting_ego_gift",
-      "content": "Начальный ЭГО Дар"
+      "content": "Начальный ЭГО-дар"
     },
     {
       "id": "rest_gauge",
@@ -190,11 +190,11 @@
     },
     {
       "id": "side_content_not_have_any_ego_gift",
-      "content": "На руках нет ЭГО Даров."
+      "content": "На руках нет ЭГО-даров."
     },
     {
       "id": "side_content_ego_gift_is_not_upgradeable",
-      "content": "Усиление этого ЭГО Дара невозможно."
+      "content": "Усиление этого ЭГО-дара невозможно."
     },
     {
       "id": "side_content_ego_gift_is_maximum_upgraded",
@@ -206,11 +206,11 @@
     },
     {
       "id": "side_content_need_more_ego_gift",
-      "content": "Для соединения необходимо не менее 2-х ЭГО Даров."
+      "content": "Для соединения необходимо не менее 2-х ЭГО-даров."
     },
     {
       "id": "side_content_need_lower_tier_ego_gift",
-      "content": "Вы можете выбрать ЭГО Дары лишь 3 ранга и ниже."
+      "content": "Вы можете выбрать ЭГО-дары лишь 3 ранга и ниже."
     },
     {
       "id": "side_title_unable_ego_gift_sell",
@@ -218,7 +218,7 @@
     },
     {
       "id": "side_content_ego_gift_is_not_for_sale",
-      "content": "Вы не можете продать этот ЭГО Дар."
+      "content": "Вы не можете продать этот ЭГО-дар."
     },
     {
       "id": "mirror_dungeon_already_participated",
@@ -226,7 +226,7 @@
     },
     {
       "id": "mirror_dungeon_acquire_ego_gift_desc",
-      "content": "Получение ЭГО Дара"
+      "content": "Получение ЭГО-дара"
     },
     {
       "id": "mirror_dungeon_acquire_enemy_buff",
@@ -290,7 +290,7 @@
     },
     {
       "id": "side_content_already_owned_tier_ego_gift",
-      "content": "Вы больше не можете получить ЭГО Дары этого ранга при соединении Даров на остановках."
+      "content": "Вы больше не можете получить ЭГО-дары этого ранга при соединении Даров на остановках."
     },
     {
       "id": "mirror_dungoen_ego_gift_history_view_desc",
@@ -298,7 +298,7 @@
     },
     {
       "id": "side_content_ego_gift_is_unable_combine",
-      "content": "Этот ЭГО Дар не подлежит соединению."
+      "content": "Этот ЭГО-дар не подлежит соединению."
     }
   ]
 }

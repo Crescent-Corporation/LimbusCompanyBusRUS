@@ -113,7 +113,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение 3-х ходов теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение 3-х ходов теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -158,7 +158,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение 3-х ходов теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheBoundKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheBoundKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

@@ -943,7 +943,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Погружения*] цели (До <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style>)[Sinking:*Погружения*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style> [Sinking:*Погружения*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 15 СД"
@@ -1008,7 +1008,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон Унынием на число [Sinking:*Погружения*] цели (До <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">2</style>)[Sinking:*Погружения*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] При убийстве цели переносит <style=\"highlight\">половину</style> [Sinking:*Погружения*] с цели на 2-ух случайных противников. (До <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 15 СД"

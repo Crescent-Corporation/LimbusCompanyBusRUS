@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "UnitKeyword_BLADE_LINEAGE",
-      "content": "«Родословная клинка»"
+      "content": "«Верные клинком»"
     },
     {
       "id": "UnitKeyword_BLACK_CLOUD",
@@ -223,6 +223,34 @@
     {
       "id": "UnitKeyword_EGO_EQUIPMENT",
       "content": "ЭГО Снаряжение"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_CHIEF",
+      "content": "Глава «Хэйшоу»"
+    },
+    {
+      "id": "UnitKeyword_H_CORP",
+      "content": "Корпорация H"
+    },
+    {
+      "id": "UnitKeyword_FAMILY_GA_CANCELED",
+      "content": "<color=#d40000><s>Семья Цзя</s></color>"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_HORSE",
+      "content": "У из «Хэйшоу»"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_CHICKEN",
+      "content": "Ю из «Хэйшоу»"
+    },
+    {
+      "id": "UnitKeyword_FAMILY_GA_HIERARCH",
+      "content": "Глава семьи Цзя"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_CHIEF_FORMER",
+      "content": "<color=#d40000><s>Глава «Хэйшоу»</s></color>"
     }
   ]
 }

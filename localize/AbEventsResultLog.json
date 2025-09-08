@@ -210,15 +210,15 @@
     },
     {
       "id": "acquire_ego_gift",
-      "content": "<color=#ebcaa2>Получен ЭГО Дар!</color>"
+      "content": "<color=#ebcaa2>Получен ЭГО-дар!</color>"
     },
     {
       "id": "disappear_ego_gift",
-      "content": "<color=#ebcaa2>ЭГО Дар {0}</color> <color=#e30000>израсходован</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>ЭГО-дар {0}</color> <color=#e30000>израсходован</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "acquire_ego_gift_if_win",
-      "content": "<color=#ebcaa2>Победите в битве, чтобы получить ЭГО Дар!</color>"
+      "content": "<color=#ebcaa2>Победите в битве, чтобы получить ЭГО-дар!</color>"
     },
     {
       "id": "chracter_mp_decrease",

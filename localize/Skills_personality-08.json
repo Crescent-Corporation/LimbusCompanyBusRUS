@@ -1307,7 +1307,7 @@
         {
           "level": 4,
           "name": "Пламенно-алая атака",
-          "desc": "[WhenUse] Сила парирований +1 против целей с 5-ю и более негативными эффектами\n[WhenUse] Сила монет +1<style=\"highlight\">за каждые 3</style> [Burst:*Разрыва*] на цели <style=\"highlight\">(До 2-х)</style>\n[WinDuel] Измаил получает <style=\"highlight\">3</style> [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">2</style>",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5-ю и более негативными эффектами\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 3</style> [Burst:*Разрыва*] на цели <style=\"highlight\">(До 2-х)</style>\n[WinDuel] Измаил получает <style=\"highlight\">3</style> [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1578,7 +1578,7 @@
         {
           "level": 1,
           "name": "Пламенно-алая атака: Из ожидания",
-          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик наа 2",
+          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик на 2",
           "coinlist": [
             {},
             {
@@ -1593,7 +1593,7 @@
         {
           "level": 2,
           "name": "Пламенно-алая атака: Из ожидания",
-          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик наа 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более [WaitingXichun:*проведённых в ожидании ходах*]</style>",
+          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик на 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более [WaitingXichun:*проведённых в ожидании ходах*]</style>",
           "coinlist": [
             {},
             {
@@ -1608,7 +1608,7 @@
         {
           "level": 4,
           "name": "Пламенно-алая атака: Из ожидания",
-          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик наа 2\n[WhenUse] Сила монет +<style=\"highlight\">2</style> при 3 и более [WaitingXichun:*проведённых в ожидании ходах*]",
+          "desc": "[CantDuel]\n[BeforeAttack] Измаил расходует всё [WaitingXichun:*ожидание*] на усиление тяжести атаки на ([WaitingXichun:*Ожидание Измаил*] × 2) (До 5-и)\n[WhenUse] Измаил получает 5 [Breath:*Дыхания*] и повышает его счётчик на 2\n[WhenUse] Сила монет +<style=\"highlight\">2</style> при 3 и более [WaitingXichun:*проведённых в ожидании ходах*]",
           "coinlist": [
             {},
             {

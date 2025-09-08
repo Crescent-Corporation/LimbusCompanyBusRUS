@@ -1,0 +1,302 @@
+{
+    "dataList": [
+        {
+            "id": 9009801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Прокол",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Наносит 4 [Laceration:*Кровотечения*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Усугубление ранения",
+                    "desc": "[WinDuel] Восстанавливает 5 СД\n+5% к урону за каждое [Laceration] на цели",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Защитим наш городок!",
+                    "desc": "[WhenUse] Получает 5 [Breath:*Дыхания*]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Житель «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Житель «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Житель «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Житель «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009804,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Бросок копья",
+                    "desc": "[WhenUse] Житель «Пекод Тауна» получает 5 [Breath:*Дыхания*] и повышает его счётчик на 2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] и 2 [AttackDmgDown:*Понижения урона*] на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009805,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Блок",
+                    "desc": "При принятии атаки с активным щитом житель «Пекод Тауна» получает 1 [AttackUp] на следующий ход",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Неустанное пробитие",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] цели на 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Усугубление ранения",
+                    "desc": "[WinDuel] Восстанавливает 5 СД\n+5% к урону за каждое [Laceration] на цели",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Защитим наш городок!",
+                    "desc": "[WhenUse] Получает 5 [Breath:*Дыхания*]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Жительница «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Жительница «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Жительница «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Жительница «Пекод Тауна» повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Бросок копья",
+                    "desc": "[WhenUse] Жительница «Пекод Тауна» получает 5 [Breath:*Дыхания*] и повышает его счётчик на 2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] и 2 [Vulnerable*Уязвимости*] на следующий ход"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "회피",
+                    "desc": "[OnSucceedEvade] Получает 1 [AttackUp] на следующий ход (До 3-х)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

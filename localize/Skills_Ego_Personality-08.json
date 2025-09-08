@@ -661,7 +661,7 @@
         {
           "level": 1,
           "name": "Смертоносная сколопендра",
-          "_comment": "Цзецзюй ша",
+          "_comment": "[蝍蛆殺] Цзецзюй ша",
           "abName": "Апостол сколопендр",
           "desc": "[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До 5-и)",
           "coinlist": [
@@ -687,7 +687,7 @@
         {
           "level": 3,
           "name": "Смертоносная сколопендра",
-          "_comment": "Цзецзюй ша",
+          "_comment": "[蝍蛆殺] Цзецзюй ша",
           "abName": "Апостол сколопендр",
           "desc": "[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До <style=\"highlight\">8-и</style>)",
           "coinlist": [
@@ -713,14 +713,14 @@
         {
           "level": 4,
           "name": "Смертоносная сколопендра",
-          "_comment": "Цзецзюй ша",
+          "_comment": "[蝍蛆殺] Цзецзюй ша",
           "abName": "Апостол сколопендр",
           "desc": "[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До <style=\"highlight\">10-и</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
                 }
               ]
             },
@@ -744,7 +744,7 @@
         {
           "level": 1,
           "name": "Смертоносная сколопендра",
-          "_comment": "Цзецзюй ша",
+          "_comment": "[蝍蛆殺] Цзецзюй ша",
           "abName": "Апостол сколопендр",
           "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До 8-и)",
           "coinlist": [
@@ -770,7 +770,7 @@
         {
           "level": 3,
           "name": "Смертоносная сколопендра",
-          "_comment": "Цзецзюй ша",
+          "_comment": "[蝍蛆殺] Цзецзюй ша",
           "abName": "Апостол сколопендр",
           "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До <style=\"highlight\">10-и</style>)",
           "coinlist": [
@@ -796,7 +796,7 @@
         {
           "level": 4,
           "name": "Смертоносная сколопендра",
-          "_comment": "Цзецзюй ша",
+          "_comment": "[蝍蛆殺] Цзецзюй ша",
           "abName": "Апостол сколопендр",
           "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До 10-и<style=\"highlight\"></style>)",
           "coinlist": [
