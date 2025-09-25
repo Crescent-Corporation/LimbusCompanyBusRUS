@@ -86,7 +86,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*]"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Сковывания*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"
@@ -107,7 +107,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*]"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Сковывания*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Огня*]"

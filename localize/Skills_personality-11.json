@@ -324,7 +324,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             }
@@ -345,7 +345,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -366,7 +366,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1112,7 +1112,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Если этот навык потратил часть счётчика [Charge:*Заряда*], наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Если этот навык потратил часть счётчика [Charge:*Заряда*], наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1139,7 +1139,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если этот навык потратил часть счётчика [Charge:*Заряда*], наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если этот навык потратил часть счётчика [Charge:*Заряда*], наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1994,7 +1994,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Отис тратит до 3-х единиц [Vibration:*Тремора*] цели\n- Взамен она повышает собственный счётчик [Vibration:*Тремора*] на (затраченный [Vibration] × 2)\n- После цель получает (затраченный [Vibration] - 1) [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Отис тратит до 3-х единиц [Vibration:*Тремора*] цели\n- Взамен она повышает собственный счётчик [Vibration:*Тремора*] на (затраченный [Vibration] × 2)\n- После цель получает (затраченный [Vibration] - 1) [Binding:*Сковываний*] на следующий ход"
                 }
               ]
             },
@@ -2034,7 +2034,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Отис тратит до 3-х единиц [Vibration:*Тремора*] цели<style=\"highlight\"></style>\n- Взамен она повышает собственный счётчик [Vibration:*Тремора*] на (затраченный [Vibration] × 2)<style=\"highlight\"></style>\n- После цель получает (затраченный [Vibration] - 1) [Binding:*Связываний*] на следующий ход<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Отис тратит до 3-х единиц [Vibration:*Тремора*] цели<style=\"highlight\"></style>\n- Взамен она повышает собственный счётчик [Vibration:*Тремора*] на (затраченный [Vibration] × 2)<style=\"highlight\"></style>\n- После цель получает (затраченный [Vibration] - 1) [Binding:*Сковываний*] на следующий ход<style=\"highlight\"></style>"
                 }
               ]
             },

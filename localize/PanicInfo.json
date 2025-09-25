@@ -63,7 +63,7 @@
     {
       "id": 1011,
       "panicName": "Нестабильность",
-      "lowMoraleDescription": "Начало хода: Получает 2 [Enhancement:*Повышения силы атаки*] и 3 [Binding:*Связывания*].",
+      "lowMoraleDescription": "Начало хода: Получает 2 [Enhancement:*Повышения силы атаки*] и 3 [Binding:*Сковывания*].",
       "panicDescription": "Начало хода: Оглушается."
     },
     {
@@ -94,7 +94,7 @@
       "id": 1015,
       "panicName": "Бледная паника",
       "lowMoraleDescription": "[MentalSystemResultDecrease_Typo] +2",
-      "panicDescription": "В конце каждого хода получает 2 [Binding:*Связывания*].\nВсе монеты падают решкой."
+      "panicDescription": "В конце каждого хода получает 2 [Binding:*Сковывания*].\nВсе монеты падают решкой."
     },
     {
       "id": 1016,

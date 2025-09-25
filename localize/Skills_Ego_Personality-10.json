@@ -452,7 +452,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:*Гвоздя*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 2 [Binding:*Сковывания*] на следующий ход (Раз за ход)</style>"
                 }
               ]
             }
@@ -483,7 +483,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более [Curse:*Проклятиях*] на цели</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Сковывания*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -541,7 +541,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:*Гвоздя*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:*Сковывания*] на следующий ход (Раз за ход)</style>"
                 }
               ]
             }
@@ -572,7 +572,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown] при 4 и более грехах Зависти в резонансе (включая этот навык) (Раз за ход)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Связывания*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:*Сковывания*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [DefenseDown:*Понижения уровня защиты*] на следующий ход (Раз за ход)</style>"

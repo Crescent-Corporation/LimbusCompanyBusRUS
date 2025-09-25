@@ -184,7 +184,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -257,7 +257,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             }
@@ -1058,7 +1058,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             }
@@ -1762,7 +1762,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1772,7 +1772,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1782,7 +1782,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1792,7 +1792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1813,7 +1813,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1823,7 +1823,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1844,7 +1844,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -1854,7 +1854,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 Паралич на следующий ход"
@@ -2058,7 +2058,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -2183,7 +2183,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 4 Понижение силы защиты"
@@ -2275,7 +2275,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 4 Понижение силы защиты"
@@ -2340,7 +2340,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -3051,7 +3051,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
                 }
               ]
             }
@@ -3073,7 +3073,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:*Уязвимости*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 Сковывание на следующий ход"
                 }
               ]
             }
@@ -3500,7 +3500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
                 }
               ]
             }
@@ -3603,7 +3603,7 @@
         {
           "level": 1,
           "name": "Нравится это пойло?",
-          "desc": "[WhenUse] Получает 1 Связывание на следующий ход",
+          "desc": "[WhenUse] Получает 1 Сковывание на следующий ход",
           "coinlist": [
             {}
           ]
@@ -3706,7 +3706,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Связывание и 2 Понижение силы атаки на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание и 2 Понижение силы атаки на следующий ход"
                 }
               ]
             }
@@ -4388,14 +4388,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание и 1 Паралич на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание и 1 Паралич на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание и 1 Паралич на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание и 1 Паралич на следующий ход"
                 }
               ]
             }
@@ -4414,7 +4414,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             },
@@ -4720,7 +4720,7 @@
         {
           "level": 1,
           "name": "Тянущаяся травма",
-          "desc": "[WhenUse] Если на цели есть Кровотечение, Наносит 1 Связывание на следующий ход",
+          "desc": "[WhenUse] Если на цели есть Кровотечение, Наносит 1 Сковывание на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -4867,7 +4867,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }

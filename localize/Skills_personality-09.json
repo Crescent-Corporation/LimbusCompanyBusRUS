@@ -569,7 +569,7 @@
         {
           "level": 4,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Связывания*] на цели (До 15%)</style>\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Сковывания*] на цели (До 15%)</style>\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 2\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц [Vibration:*Тремора*] на цели (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -640,7 +640,7 @@
         {
           "level": 4,
           "name": "Исполнение взысканий",
-          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Связывания*] на цели (До 20%)</style>\n[WhenUse] Сила парирований +<style=\"highlight\">2</style> против целей с 8 и более [Vibration:*Тремора*]\n[WhenUse] Сила монет +1 при трате 8 единиц из своего счётчика [Vibration:*Тремора*]",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу [Binding:*Сковывания*] на цели (До 20%)</style>\n[WhenUse] Сила парирований +<style=\"highlight\">2</style> против целей с 8 и более [Vibration:*Тремора*]\n[WhenUse] Сила монет +1 при трате 8 единиц из своего счётчика [Vibration:*Тремора*]",
           "coinlist": [
             {
               "coindescs": [
@@ -669,7 +669,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык понизил счётчик [Vibration:*Тремора*] Роди, наносит 2 [Binding:*Связывания*] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык понизил счётчик [Vibration:*Тремора*] Роди, наносит 2 [Binding:*Сковывания*] на следующий ход</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если Родя [TimeRentalTwoPersonality:*одолжила время*] наносит 2 [TimeSuspend:*Временных моратория*]<style=\"highlight\"></style>"

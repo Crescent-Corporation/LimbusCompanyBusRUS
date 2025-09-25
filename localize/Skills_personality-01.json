@@ -249,7 +249,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             },
@@ -270,7 +270,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             },
@@ -294,7 +294,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 }
               ]
             },
@@ -433,7 +433,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
@@ -451,7 +451,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
@@ -1574,7 +1574,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] И Сан наносит цели 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] И Сан наносит цели 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             },

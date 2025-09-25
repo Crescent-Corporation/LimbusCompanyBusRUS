@@ -711,7 +711,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                                    "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
                                 }
                             ]
                         }

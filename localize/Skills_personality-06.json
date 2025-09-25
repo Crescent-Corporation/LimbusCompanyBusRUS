@@ -1386,7 +1386,7 @@
                   "desc": "Если цель оглушена, +30% к критическому урону<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PenetrateTakeDamageUp:*Уязвимости к колющему урону*]"
@@ -1628,7 +1628,7 @@
                   "desc": "Если цель оглушена, +30% к критическому урону<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PenetrateTakeDamageUp:*Уязвимости к колющему урону*]"

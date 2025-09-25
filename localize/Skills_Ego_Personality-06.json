@@ -77,7 +77,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*]"
@@ -95,7 +95,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*]"
@@ -113,7 +113,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тремора*]"
@@ -139,7 +139,7 @@
                   "desc": "[OnSucceedAttack] Наносит (резонанс Чревоугодия/2) [Burst:*Разрывов*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -160,7 +160,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 [ShamrockTakeDamageUp:*Уязвимости к Чревоугодию*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -181,7 +181,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [ShamrockTakeDamageUp:*Уязвимости к Чревоугодию*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -207,7 +207,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 20% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -228,7 +228,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -249,7 +249,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }

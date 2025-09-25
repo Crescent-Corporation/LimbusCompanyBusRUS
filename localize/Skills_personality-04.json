@@ -1506,7 +1506,7 @@
                   "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - 10) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Раз за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Раз за ход)"
                 }
               ]
             }
@@ -1537,7 +1537,7 @@
                   "desc": "[OnSucceedAttack] Рёшу восстанавливает ([PenanceFirst] - <style=\"highlight\">5</style>) СД себе и союзнику с наименьшей СД\n- Число восстанавливаемых союзников повышается на 1 за каждые 2 греха в наибольшем резонансе (До 2-ух грешников)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] и 2 [Reduction:*Понижения силы атаки*] на следующий ход (Раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1805,6 +1805,454 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "id": 1041201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Презренная дрянь",
+          "desc": "[WhenUse] Сила парирований +1 против целей с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Презренная дрянь",
+          "desc": "[WhenUse] Сила парирований +1 против целей с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]\n[WhenUse] Сила монет +1 против целей с суммой [Laceration:*Кровотечения*] и [Vibration:*Тремора*], равной 6-и и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Презренная дрянь",
+          "desc": "[WhenUse] Сила парирований +1 против целей с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 6 единиц в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] на цели <style=\"highlight\">(До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Трепещи в благоговении",
+          "desc": "[WhenUse] Сила парирований +1 против целей с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Трепещи в благоговении",
+          "desc": "[WhenUse] Сила парирований +1 против целей с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]\n[WhenUse] Сила монет +1 против целей с суммой [Laceration:*Кровотечения*] и [Vibration:*Тремора*], равной 6-и и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GazeRyoshu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на счётчике [Vibration:*Тремора*] цели более 3-х единиц, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Трепещи в благоговении",
+          "desc": "[WhenUse] Сила парирований +1 против целей с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 6 единиц в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] на цели <style=\"highlight\">(До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [GazeRyoshu:*Взора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на счётчике [Vibration:*Тремора*] цели более 3-х единиц, [VibrationExplosion:*провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Трепет, презрение",
+          "desc": "Рёшу наносит +2 единицы к потенциалу [Laceration:*Кровотечения*] и [Vibration:*Тремора*] данным навыком против целей с [GazeRyoshu:*Взором*]\n[BeforeUse] Если сумма всех [GazeRyoshu:*Взоров*] на противниках равна 7-и или более, или [ContemptRyoshu:*Презрения*] — 1-го и более, она взамен использует навык 「<noparse>Взор</noparse>, полный трепета и разливающегося презрения」\n[WhenUse] Сила монет +1, если сумма [Laceration:*Кровотечения*] и [Vibration:*Тремора*] цели равна 8-и и более единицам\n[WhenUse] +1% к наносимому урону за каждую единицу в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] (До 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+5% к наносимому урону за каждый [GazeRyoshu] на цели (До 35%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [GazeRyoshu:*Взора*]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Трепет, презрение",
+          "desc": "Рёшу наносит +2 единицы к потенциалу [Laceration:*Кровотечения*] и [Vibration:*Тремора*] данным навыком против целей с [GazeRyoshu:*Взором*]<style=\"highlight\"></style>\n[BeforeUse] Если сумма всех [GazeRyoshu:*Взоров*] на противниках равна 7-и или более, или [ContemptRyoshu:*Презрения*] — 1-го и более, она взамен использует навык 「<noparse>Взор</noparse>, полный трепета и разливающегося презрения」\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 8 единиц в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] на цели <style=\"highlight\">(До 2-х)</style></style>\n[WhenUse] +1% к наносимому урону за каждую единицу в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] (До <style=\"highlight\">40</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+<style=\"highlight\">10</style>% к наносимому урону за каждый [GazeRyoshu] на цели (До <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [GazeRyoshu:*Взора*]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хватка",
+          "desc": "[StartBattle] Если у Рёшу нет [ContemptPersonality:*Презрения к взору*], но сумма [GazeRyoshu:*Взоров*] на всех противниках равна 7-и и более, или [ContemptRyoshu:*Презрения*] — 1-й единицы и более, она получает [ContemptPersonality] (Раз за ход)\n[WhenUse] Итоговая сила +5, если у неё уже есть [ContemptPersonality]\n[WhenUse] При принятии атаки во время использования этого навыка повышает счётчик [Laceration:*Кровотечения*] атакующего  на 1 (Активируется до 3-х раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Хватка",
+          "desc": "[StartBattle] Если у Рёшу нет [ContemptPersonality:*Презрения к взору*], но сумма [GazeRyoshu:*Взоров*] на всех противниках равна 7-и и более, или [ContemptRyoshu:*Презрения*] — 1-й единицы и более, она получает [ContemptPersonality] (Раз за ход)\n[WhenUse] Итоговая сила +10, если у неё уже есть [ContemptPersonality]\n[WhenUse] При принятии атаки во время использования этого навыка повышает счётчик [Laceration:*Кровотечения*] атакующего  на 1 (Активируется до 3-х раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Взор, полный трепета и разливающегося презрения",
+          "desc": "<b>Данный навык невозможно использовать повторно через внешние факторы.</b>\nРёшу выбирает в качестве вторичных целей противников с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]\n- -50% к наносимому урону по вторичным целям\nЕсли у данного навыка лишь <b>одна</b> цель, +200% к наносимому урону (В направляемых битвах целью считается часть)\n[WhenUse] Сила монет +1 за каждые 4 единицы  в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] основной цели (До 2-х)\n[WhenUse] +2% к наносимому урону за каждую единицу в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] основной цели (До 50%)\n[WhenUse] +7% к наносимому урону за каждый [GazeRyoshu] на всех целях данной атаки (До 49%)\n[EndSkill] Расходует все [GazeRyoshu:*Взоры*] и [ContemptRyoshu] на всех целях, принявших эту атаку на себя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+180% к наносимому урону по целям с [ContemptRyoshu:*Презрением*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*] и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взор, полный трепета и разливающегося презрения",
+          "desc": "<b>Данный навык невозможно использовать повторно через внешние факторы.</b>\nРёшу выбирает в качестве вторичных целей противников с [GazeRyoshu:*Взором*] или [ContemptRyoshu:*Презрением*]<style=\"highlight\"></style>\n- -50% к наносимому урону по вторичным целям\nЕсли у данного навыка лишь <b>одна</b> цель, +200% к наносимому урону (В направляемых битвах целью считается часть)\n[WhenUse] Сила монет +1 за каждые 4 единицы  в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] основной цели (До <style=\"highlight\">4-х</style>)\n[WhenUse] +2% к наносимому урону за каждую единицу в сумме [Laceration:*Кровотечения*] и [Vibration:*Тремора*] основной цели (До <style=\"highlight\">100</style>%)\n[WhenUse] +10% к наносимому урону за каждый [GazeRyoshu] на всех целях данной атаки (До 70%)\n[EndSkill] Расходует все [GazeRyoshu:*Взоры*] и [ContemptRyoshu] на всех целях, принявших эту атаку на себя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+<style=\"highlight\">235</style>% к наносимому урону по целям с [ContemptRyoshu:*Презрением*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тремора*] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:*Преобразует амплитуду*] [Vibration:*Тремора*] цели в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041206,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Я выстрелю | Когда душе твоей угодно",
+          "desc": "[StartBattle] И Сан выбирает целью 『ЭГО Корп. N::<noparse>Презрение</noparse>, трепет』 Рёшу\n[StartBattle] Тяжесть атаки +1 за каждые 3 [BoseProjektil:*Разорванных воспоминания*] (До 2-х)\n[WhenUse] Сила монет +1 за 5 и более [Breath:*Дыхания*] на И Сане\n[WhenUse] Базовая сила +1 за 3 и более единицы на счётчике [Breath:*Дыхания*] И Сана\n[WhenUse] Также он получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] на себе (До 7-и)\n[EndSkill] И Сан теряет ([BoseProjektil] × 2) СД (Теряет до 14-и СД)\n[EndSkill] Если в начале боевой фазы у И Сана было 7 [BoseProjektil:*Разорванных воспоминания*], он сжигает их все и восстанавливает 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон лишь основной цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон только по вторичным целям"
+                },
+                {
+                  "desc": "- Если удар первой монеты не был критическим, и Рёшу в 『ЭГО Корп. N::<noparse>Презрение</noparse>, трепет』 выжила, одна случайная из вторичных целей получает урон\n"
+                },
+                {
+                  "desc": "+30% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 210%)"
+                },
+                {
+                  "desc": "+2.5% к критическому урону за каждую единицу в потенциале [Breath:*Дыхания*] (До 25%)"
+                },
+                {
+                  "desc": "% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До 49%)"
+                },
+                {
+                  "desc": "Повышает урон в зависимости от потерянного здоровья основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кровотечения*] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я выстрелю | Когда душе твоей угодно",
+          "desc": "[StartBattle] И Сан выбирает целью 『ЭГО Корп. N::<noparse>Презрение</noparse>, трепет』 Рёшу\n[StartBattle] Тяжесть атаки +1 за каждые 3 [BoseProjektil:*Разорванных воспоминания*] (До 2-х)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 5 единиц[Breath:*Дыхания*] на И Сане <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые</style> 3 единицы на счётчике [Breath:*Дыхания*] И Сана <style=\"highlight\">(До 2-х)</style>\n[WhenUse] Также он получает 1 [Breath] за каждое [BoseProjektil:*Разорванное воспоминание*] на себе (До 7-и)\n[EndSkill] И Сан теряет ([BoseProjektil] × 2) СД (Теряет до 14-и СД)\n[EndSkill] Если в начале боевой фазы у И Сана было 7 [BoseProjektil:*Разорванных воспоминания*], он сжигает их все и восстанавливает 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон лишь основной цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон только по вторичным целям"
+                },
+                {
+                  "desc": "- Если удар первой монеты не был критическим, и Рёшу в 『ЭГО Корп. N::<noparse>Презрение</noparse>, трепет』 выжила, одна случайная из вторичных целей получает урон\n"
+                },
+                {
+                  "desc": "+<style=\"highlight\">40</style>% к урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">280</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">5</style>% к критическому урону за каждую единицу в потенциале [Breath:*Дыхания*] (До <style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">10</style>% к критическому урону за каждое [BoseProjektil:*Разорванное воспоминание*] (До <style=\"highlight\">70</style>%)"
+                },
+                {
+                  "desc": "Повышает урон в зависимости от потерянного здоровья основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:*Кровотечения*] и повышает его счётчик на 2"
                 }
               ]
             }

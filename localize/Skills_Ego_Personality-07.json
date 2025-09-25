@@ -113,7 +113,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Сковываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Сковываний*], 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -158,7 +158,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheBoundKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 [Binding:*Сковываний*], 1 [ForwardToTheBoundKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -187,12 +187,12 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Связываний*] и 3 [Enhancement:*Повышения силы атаки*] на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До 2-ух)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Сковываний*], 1 [ForwardToTheKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Сковываний*] и 3 [Enhancement:*Повышения силы атаки*] на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До 2-ух)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
@@ -211,12 +211,12 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Связываний*], 3 [Enhancement:*Повышения силы атаки*] и 1 <style=\"highlight\">[AzureDamageUp]</style> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">3</style>-ёх)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Сковываний*], 1 [ForwardToTheKing] и 2 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Сковываний*], 3 [Enhancement:*Повышения силы атаки*] и 1 <style=\"highlight\">[AzureDamageUp]</style> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">3</style>-ёх)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
@@ -235,12 +235,12 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Связываний*], 1 [ForwardToTheKing] и 3 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Связываний*], 3 [Enhancement:*Повышения силы атаки*] и <style=\"highlight\">2</style> [AzureDamageUp:*Повышения урона Унынием*] на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">4</style>-ёх)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 [Binding:*Сковываний*], 1 [ForwardToTheKing] и 3 [Enhancement:*Повышения силы атаки*] на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 [Binding:*Сковываний*], 3 [Enhancement:*Повышения силы атаки*] и <style=\"highlight\">2</style> [AzureDamageUp:*Повышения урона Унынием*] на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">4</style>-ёх)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"

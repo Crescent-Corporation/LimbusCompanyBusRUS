@@ -927,7 +927,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3-х [Vibration:*Тремора*] на цели\nПовышает собственный счётчик [Vibration:*Тремора*] на (потраченный [Vibration] цели <style=\"highlight\">x 2</style>)\n<style=\"highlight\">Наносит (потраченный [Vibration] цели - 1) [Binding:*Связывания*] на следующий ход</style>"
+                  "desc": "[OnSucceedAttack] Тратит до 3-х [Vibration:*Тремора*] на цели\nПовышает собственный счётчик [Vibration:*Тремора*] на (потраченный [Vibration] цели <style=\"highlight\">x 2</style>)\n<style=\"highlight\">Наносит (потраченный [Vibration] цели - 1) [Binding:*Сковывания*] на следующий ход</style>"
                 }
               ]
             },
@@ -981,7 +981,7 @@
         {
           "level": 4,
           "name": "Остановитесь сию же секунду!",
-          "desc": "[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 [Vibration:*Тремора*] на цели (До 2)</style>\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей со [Binding:*Связыванием*]</style>\n[WhenUse] Сила монет +2 при трате 10 единиц на своём счётчике [Vibration:*Тремора*]",
+          "desc": "[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 [Vibration:*Тремора*] на цели (До 2)</style>\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей со [Binding:*Сковыванием*]</style>\n[WhenUse] Сила монет +2 при трате 10 единиц на своём счётчике [Vibration:*Тремора*]",
           "coinlist": [
             {},
             {

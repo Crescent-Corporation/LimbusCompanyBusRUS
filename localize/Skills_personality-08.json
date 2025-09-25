@@ -667,7 +667,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp] на следующий ход"

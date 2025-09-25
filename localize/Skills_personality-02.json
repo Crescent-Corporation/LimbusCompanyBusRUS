@@ -526,7 +526,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [RedApricotBlossom:*Красных лепестка сливы*]<style=\"highlight\"></style>"
@@ -553,7 +553,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Связывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [RedApricotBlossom:*Красных лепестка сливы*]<style=\"highlight\"></style>"

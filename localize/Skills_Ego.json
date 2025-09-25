@@ -54,7 +54,7 @@
                   "desc": "[OnSucceedAttack] Все союзники получают 3 [Agility:*Спешки*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -245,7 +245,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:*Паралича*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -929,10 +929,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Reduction:*Понижения силы атаки*] на следующий ход"
@@ -953,10 +953,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Сковываний*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 5 [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 5 [Binding:*Сковываний*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Reduction:*Понижения силы атаки*] на следующий ход"
@@ -980,10 +980,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Сковываний*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Reduction:*Понижения силы атаки*] на следующий ход"
@@ -1273,7 +1273,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 Понижение уровня защиты"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 4 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 4 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1294,7 +1294,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:*Понижения уровня защиты*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1315,7 +1315,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [DefenseDown:*Понижения уровня защиты*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1497,7 +1497,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 Тремор"
@@ -1515,7 +1515,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Binding:*Сковываний*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*]"
@@ -1533,7 +1533,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Binding:*Сковываний*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*]"
@@ -1601,7 +1601,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1627,7 +1627,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:*Паралича*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1648,7 +1648,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:*Паралича*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -1669,7 +1669,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:*Паралича*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Связываний*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:*Сковываний*] на следующий ход"
                 }
               ]
             }
@@ -2919,7 +2919,7 @@
                   "desc": "[OnSucceedAttack] Повышает собственный счётчик [Charge:*Заряда*] на 10"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Paralysis:*Паралича*] и 2 [Binding:*Связывания*] 2-м случайным целям на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Paralysis:*Паралича*] и 2 [Binding:*Сковывания*] 2-м случайным целям на следующий ход"
                 }
               ]
             }
@@ -2940,7 +2940,7 @@
                   "desc": "[EndSkill] Повышает собственный счётчик [Charge:*Заряда*] на 10"
                 },
                 {
-                  "desc": "[EndSkillTail] Наносит 2 [Paralysis:*Паралича*] и 2 [Binding:*Связывания*] 2-м случайным персонажам на следующий ход, повышает собственный счётчик [Charge:*Заряда*] на 3"
+                  "desc": "[EndSkillTail] Наносит 2 [Paralysis:*Паралича*] и 2 [Binding:*Сковывания*] 2-м случайным персонажам на следующий ход, повышает собственный счётчик [Charge:*Заряда*] на 3"
                 }
               ]
             }
@@ -3548,7 +3548,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
@@ -3569,7 +3569,7 @@
                   "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчик [Sinking:*Погружения*] на 2"
@@ -3590,7 +3590,7 @@
                   "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Погружения*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчик [Sinking:*Погружения*] на 3"
@@ -3613,7 +3613,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
@@ -3637,7 +3637,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst:*Разрыва*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчики [Sinking:*Погружения*] и [Burst:*Разрыва*] на 2"
@@ -3661,7 +3661,7 @@
                   "desc": "[OnSucceedAttack] Наносит 6 [Burst:*Разрывов*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]; повышает счётчики [Sinking:*Погружения*] и [Burst:*Разрыва*] на 3"
@@ -3945,10 +3945,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит 1 [PlusCoinValueDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит 1 [PlusCoinValueDown] на следующий ход"
                 }
               ]
             }
@@ -3963,10 +3963,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит 1 [PlusCoinValueDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит 1 [PlusCoinValueDown] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 2 [SlashTakeDamageUp:*Уязвимости к рубящему урону*] на следующий ход"
@@ -3984,10 +3984,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит 1 [PlusCoinValueDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит 1 [PlusCoinValueDown] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 2 [SlashTakeDamageUp:*Уязвимости к рубящему урону*] на следующий ход"
@@ -4010,10 +4010,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит 2 [PlusCoinValueDown:*Ослабления положительной монеты*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит 2 [PlusCoinValueDown:*Ослабления положительной монеты*] на следующий ход"
                 }
               ]
             }
@@ -4028,10 +4028,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит 2 [PlusCoinValueDown:*Ослабления положительной монеты*] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит 2 [PlusCoinValueDown:*Ослабления положительной монеты*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если скорость цели ниже скорости носителя, наносит 1-3 [SlashTakeDamageUp:*Уязвимости к рубящему урону*] на следующий ход"
@@ -4054,7 +4054,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит +20% к урону"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит +20% к урону"
                 }
               ]
             }
@@ -4069,7 +4069,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит +20% к урону"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит +20% к урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
@@ -4087,7 +4087,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит +40% к урону"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит +40% к урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
@@ -4110,7 +4110,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит +30% к урону"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит +30% к урону"
                 }
               ]
             }
@@ -4125,7 +4125,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит +30% к урону"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит +30% к урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
@@ -4143,7 +4143,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Связываний*], наносит +50% к урону"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:*Сковываний*], наносит +50% к урону"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"

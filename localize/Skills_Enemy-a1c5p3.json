@@ -115,7 +115,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] и 2 [AttackDmgDown:*Понижения урона*] на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] и 2 [AttackDmgDown:*Понижения урона*] на следующий ход"
                                 }
                             ]
                         }
@@ -271,7 +271,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Связывания*] и 2 [Vulnerable*Уязвимости*] на следующий ход"
+                                    "desc": "[OnSucceedAttack] Наносит 2 [Binding:*Сковывания*] и 2 [Vulnerable*Уязвимости*] на следующий ход"
                                 }
                             ]
                         }

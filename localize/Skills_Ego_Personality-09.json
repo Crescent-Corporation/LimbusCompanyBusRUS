@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:*Тремора*] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 }
               ]
             }
@@ -33,7 +33,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*] и повышает его счётчик на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:*Провоцирует Тремор*]"
@@ -54,7 +54,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тремора*] и повышает его счётчик на 7"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Связывания*] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:*Сковывания*] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]"
