@@ -895,7 +895,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0,3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -925,7 +925,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0,3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -960,7 +960,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До 2)\n[WhenUse] Повышает урон с потерей СД (+0,3% к урону за недостающую СД, до 21%)\n[WhenUse] +7% к урону а каждый [Coffin] на Хитклифе (До 70%)\n[WhenUse] +10% к урону за каждого [NightPathfinding:*Дуллахана*] (До 30%)\n[WhenUse] Получает 1 [Coffin]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает 2 [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице, до 25)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -990,7 +990,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0.3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:*Погружения*] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает урон с потерей СД (+0,3% к урону за недостающую СД, до 21%)\n[WhenUse] +<style=\"highlight\">10</style>% к урону за каждый [Coffin] на Хитклифе (До <style=\"highlight\">100</style>%)\n[WhenUse] +<style=\"highlight\">20</style>% к урону за каждого [NightPathfinding:*Дуллахана*] (До <style=\"highlight\">60</style>%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:*Гроба*]\n[EndSkill] Если Хитклиф этим навыком убивает цель, получает <style=\"highlight\">3</style> [Coffin:*Гроба*]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице, до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:*Дуллахана*]",
           "coinlist": [
             {
               "coindescs": [
@@ -1188,7 +1188,7 @@
         {
           "level": 3,
           "name": "Прямо в яблочко",
-          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12.5)% к урону",
+          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12,5)% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -1208,7 +1208,7 @@
         {
           "level": 4,
           "name": "Прямо в яблочко",
-          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12.5)% к урону\n<style=\"highlight\">[EndSkill] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>",
+          "desc": "[BeforeUse] Активирует 「Ателье Логик: Высокоскоростной пробивной патрон」 при наличии [Bullet_LogicAtelier]\nЕсли цель медленнее Хитклифа, +10% к урону за каждую единицу разницы в скорости (До 50%)\n[WhenUse] Получает 5 [Breath:*Дыхания*]\n[WhenUse] Тратит всю [LogicAtelierAM:*Фокусировку*], чтобы получить (потраченной [LogicAtelierAM:*Фокусировки*] × 2) [Breath:*Дыхания*] и +(потраченной [LogicAtelierAM:*Фокусировки*] × 12,5)% к урону\n<style=\"highlight\">[EndSkill] Повышает собственный счётчик [Breath:*Дыхания*] на 2</style>",
           "coinlist": [
             {
               "coindescs": [

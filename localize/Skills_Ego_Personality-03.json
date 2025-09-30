@@ -199,7 +199,7 @@
           "level": 1,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × 5% (До 15%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату 1.5% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +2.5% за единицу [Charge:*Заряда*] (До 50%)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × 5% (До 15%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату 1,5% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +2,5% за единицу [Charge:*Заряда*] (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -214,7 +214,7 @@
           "level": 3,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × <style=\"highlight\">8</style>% (До <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату 1.5% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +<style=\"highlight\">3.5</style>% за единицу [Charge:*Заряда*] (До  <style=\"highlight\">70</style>%)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × <style=\"highlight\">8</style>% (До <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее 20 на счётчике [Charge:*Заряда*], восполняет счётчик [Charge:*Заряда*] до 20 через трату 1,5% от максимальных ОЗ за единицу [Charge:*Заряда*]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:*Заряда*] для повышения урона на +<style=\"highlight\">3,5</style>% за единицу [Charge:*Заряда*] (До  <style=\"highlight\">70</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -258,7 +258,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
+                  "desc": "+0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
                 }
               ]
             },
@@ -268,7 +268,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 100 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
+                  "desc": "При 100 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
                 }
               ]
             },
@@ -278,7 +278,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 200 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 20%)"
+                  "desc": "При 200 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 20%)"
                 }
               ]
             },
@@ -288,7 +288,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 300 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 30%)"
+                  "desc": "При 300 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 30%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
@@ -309,7 +309,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)<style=\"highlight\"></style>"
+                  "desc": "+0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -319,7 +319,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 100 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">15</style>%)"
+                  "desc": "При 100 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">15</style>%)"
                 }
               ]
             },
@@ -329,7 +329,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 200 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">25</style>%)"
+                  "desc": "При 200 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">25</style>%)"
                 }
               ]
             },
@@ -339,7 +339,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 300 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">40</style>%)"
+                  "desc": "При 300 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">40</style>%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
@@ -360,7 +360,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "+0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
+                  "desc": "+0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10%)"
                 }
               ]
             },
@@ -370,7 +370,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 100 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">20</style>%)"
+                  "desc": "При 100 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">20</style>%)"
                 }
               ]
             },
@@ -380,7 +380,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 200 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">30</style>%)"
+                  "desc": "При 200 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">30</style>%)"
                 }
               ]
             },
@@ -390,7 +390,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "При 300 и более долях, +0.1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">50</style>%)"
+                  "desc": "При 300 и более долях, +0,1% к урону за каждую долю [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До <style=\"highlight\">50</style>%)"
                 },
                 {
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">4</style>)"
@@ -679,7 +679,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Во имя любви и справедливости: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
+          "name": "Во имя любви и ненависти: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
           "_comment": "Раб Старшей Арканы",
           "abName": "Королева Ненависти",
           "desc": "[BeforeAttack] Дон Кихот единожды [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 3-х)\n\n[EndSkill] Дон Кихот расходует весь счётчик [Charge:*Заряда*] для восстановления (потраченный счётчик [Charge:*Заряда*])% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До 5%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
@@ -711,7 +711,7 @@
         },
         {
           "level": 3,
-          "name": "Во имя любви и справедливости: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
+          "name": "Во имя любви и ненависти: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
           "abName": "Королева Ненависти",
           "desc": "[BeforeAttack] Дон Кихот единожды [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)\n<style=\"highlight\">- Если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], то она <b>дважды</b> [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)</style>\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До <style=\"highlight\">5-и</style>)\n[EndSkill] Дон Кихот расходует весь счётчик [Charge:*Заряда*] для восстановления (потраченный счётчик [Charge:*Заряда*])% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До <style=\"highlight\">8</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
           "coinlist": [
@@ -742,7 +742,7 @@
         },
         {
           "level": 4,
-          "name": "Во имя любви и справедливости: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
+          "name": "Во имя любви и ненависти: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
           "abName": "Королева Ненависти",
           "desc": "[BeforeAttack] Дон Кихот единожды [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) союзников (До <style=\"highlight\">4-х</style> человек)\n- Если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], то она <b>дважды</b> [MagicalGirlResponse:*заклинает*] (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) союзников (До <style=\"highlight\">4</style>-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 5-и)\n<style=\"highlight\">- Также если Дон Кихот [MagicalGirlAppear:*участвует в битве как девочка-волшебница*], тяжесть атаки +([Charge]) (До 5-и)</style>\n\n[EndSkill] Дон Кихот расходует весь счётчик [Charge:*Заряда*] для восстановления (потраченный счётчик [Charge:*Заряда*])% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До <style=\"highlight\">10</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [ArcanaQueenOfHate:*Магическую Аркану*]",
           "coinlist": [
@@ -848,7 +848,7 @@
           "name": "Максимально-реверсивная Аркана Слэйв: Изничтожение ненависти",
           "_comment": "Раб максимально-реверсивной Арканы",
           "abName": "Королева Ненависти",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n- В состоянии [NoVillain:*Реверсивной регрессии*] тяжесть атаки +([Charge] + 1) (До 5-и)\n\n[BeforeAttack] Дон Кихот расходует весь счётчик [Charge:*Заряда*], +<style=\"highlight\">2.5</style>% к урону за каждую затраченную единицу счётчика [Charge:*Заряда*] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Если основная цель [VillainMark:*обозначена лиходеем*], +5% к урону за каждый [Charge] (До 25%)\n-  В состоянии [HystericGauge:*Истерии*] взамен получает +<style=\"highlight\">10</style>% к урону за каждый [Charge] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] <style=\"highlight\">+10</style>% к урону за каждые 2 греха в резонансе Зависти (До <style=\"highlight\">30%</style>; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [HystericGauge:*ступень Истерии*]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n- В состоянии [NoVillain:*Реверсивной регрессии*] тяжесть атаки +([Charge] + 1) (До 5-и)\n\n[BeforeAttack] Дон Кихот расходует весь счётчик [Charge:*Заряда*], +<style=\"highlight\">2,5</style>% к урону за каждую затраченную единицу счётчика [Charge:*Заряда*] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Если основная цель [VillainMark:*обозначена лиходеем*], +5% к урону за каждый [Charge] (До 25%)\n-  В состоянии [HystericGauge:*Истерии*] взамен получает +<style=\"highlight\">10</style>% к урону за каждый [Charge] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] <style=\"highlight\">+10</style>% к урону за каждые 2 греха в резонансе Зависти (До <style=\"highlight\">30%</style>; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 [HystericGauge:*ступень Истерии*]",
           "coinlist": [
             {
               "coindescs": [

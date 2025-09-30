@@ -1411,11 +1411,11 @@
     },
     {
       "id": "formation_force_participation_on",
-      "content": "<font=\"BebasKai SDF\"><voffset=-0.25em><cspace=-1px>Ключевой</cspace></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0,25em><cspace=-1px>Ключевой</cspace></voffset></font>"
     },
     {
       "id": "formation_force_participation_off",
-      "content": "<font=\"BebasKai SDF\"><voffset=-0.25em><size=56><cspace=-1px>Необходим</cspace></size></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0,25em><size=56><cspace=-1px>Необходим</cspace></size></voffset></font>"
     },
     {
       "id": "formation_must_participate_specific_character",
@@ -1579,7 +1579,7 @@
     },
     {
       "id": "formation_force_abstain",
-      "content": "<font=\"BebasKai SDF\"><voffset=-0.25em><cspace=-1px>Недоступен</cspace></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0,25em><cspace=-1px>Недоступен</cspace></voffset></font>"
     },
     {
       "id": "formation_view_detail",

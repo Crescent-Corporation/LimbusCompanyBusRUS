@@ -820,6 +820,280 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2081011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "Если Измаил выбрала только одну цель (в направляемых битвах ядро с частями считается за одну цель), +100% к урону и +2 к силе монет\n[WhenUse] Сила парирований +1, если на основной цели 4 и более [Sinking:*Погружения*]\n[BeforeAttack] Если у основной цели сопротивление к Унынию выше x1,0, +2% к урону за каждый 0,1 после x1,0 в сопротивлении (До 10%)\n[BeforeAttack] Если в резонансе более 2-х грехов Уныния, +5% к урону за каждый грех Уныния в резонансе (До 20%)\n[EndSkill] При убийстве одной цели и более наносит (потенциал [Sinking:*Погружения*] всех целей ÷ 2) урона Унынием двум случайным противникам (До 15-и; в приоритете цели с наибольшим потенциалом [Sinking:*Погружения*])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 2 [Sinking:*Погружения*] случайному противнику, не являющемуся целью атаки (Раз за ход; в направляемых битвах целью считается часть)"
+                },
+                {
+                  "desc": "- Если цель атаки лишь одна, взамен наносит [Sinking] трём случайным противникам"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "Если Измаил выбрала только одну цель (в направляемых битвах ядро с частями считается за одну цель), +100% к урону и +2 к силе монет\n[WhenUse] Сила парирований +1, если на основной цели 4 и более [Sinking:*Погружения*]\n[BeforeAttack] Если у основной цели сопротивление к Унынию выше x1,0, +<style=\"highlight\">3</style>% к урону за каждый 0,1 после x1,0 в сопротивлении (До <style=\"highlight\">15</style>%)\n[BeforeAttack] Если в резонансе более 2-х грехов Уныния, +<style=\"highlight\">8</style>% к урону за каждый грех Уныния в резонансе (До <style=\"highlight\">32</style>%)\n[EndSkill] При убийстве одной цели и более наносит (потенциал [Sinking:*Погружения*] всех целей ÷ 2) урона Унынием двум случайным противникам (До 15-и; в приоритете цели с наибольшим потенциалом [Sinking:*Погружения*])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 2 [Sinking:*Погружения*] случайному противнику, не являющемуся целью атаки (Раз за ход; в направляемых битвах целью считается часть)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если цель атаки лишь одна, взамен наносит [Sinking] трём случайным противникам<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "Если Измаил выбрала только одну цель (в направляемых битвах ядро с частями считается за одну цель), +100% к урону и +2 к силе монет\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 4 [Sinking:*Погружения*] на основной цели (До 2-х)</style>\n[BeforeAttack] Если у основной цели сопротивление к Унынию выше x1,0, +<style=\"highlight\">5</style>% за каждый 0,1 после x1,0 в сопротивлении (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Если в резонансе более 2-х грехов Уныния, +<style=\"highlight\">10</style>% к урону за каждый грех Уныния в резонансе (До <style=\"highlight\">40</style>%)\n[EndSkill] При убийстве одной цели и более наносит (потенциал [Sinking:*Погружения*] всех целей ÷ 2) урона Унынием двум случайным противникам (До 15-и; в приоритете цели с наибольшим потенциалом [Sinking:*Погружения*])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:*Сковывания*] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 2 [Sinking:*Погружения*] случайному противнику, не являющемуся целью атаки (Раз за ход; в направляемых битвах целью считается часть)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если цель атаки лишь одна, взамен наносит [Sinking] трём случайным противникам<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2081021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Сила парирований +1, если на основной цели 5 и более [Sinking:*Погружения*]\n[BeforeAttack] За каждые 3 греха в наибольшем резонансе Измаил для этого навыка получает:\n- +1 к тяжести атаки (До 2-х)\n- +15% к наносимому урону (До 30%)\n[EndSkill] Измаил даёт 1 [HitDamageUp] случайным союзникам в количестве, равном числу грехов в наибольшем резонансе (Включая саму Измаил; до 4-х человек; раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 5 [Sinking:*Погружения*] на основной цели (До 2-х)</style>\n[BeforeAttack] За каждые 3 греха в наибольшем резонансе Измаил для этого навыка получает:\n- +1 к тяжести атаки (До 2-х)\n- +15% к наносимому урону (До 30%)\n[EndSkill] Измаил даёт 1 [HitDamageUp] случайным союзникам в количестве, равном числу грехов в наибольшем резонансе (Включая саму Измаил; до 4-х человек; раз за ход)\n<style=\"highlight\">- Если грехом резонанса оказалось Уныние, или он оказался абсолютом, дополнительно даёт 1 [AzureDamageUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 1 [AzureTakeDamageUp] случайному противнику, не являющемуся целью атаки, на следующий ход (Раз за ход; в направляемых битвах целью считается часть)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Сила парирований +1 за каждые 5 [Sinking:*Погружения*] на основной цели (До <style=\"highlight\">3-х</style>)\n[BeforeAttack] За каждые 3 греха в наибольшем резонансе <style=\"highlight\">(или 2, если это резонанс Уныния)</style> Измаил для этого навыка получает: \n- +1 к тяжести атаки (До 2-х)\n- +15% к наносимому урону (До 30%)\n[EndSkill] Измаил даёт 1 [HitDamageUp] случайным союзникам в количестве, равном числу грехов в наибольшем резонансе (Включая саму Измаил; до 4-х человек; раз за ход)\n- Если грехом резонанса оказалось Уныние, или он оказался абсолютом, дополнительно даёт 1 [AzureDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тремора*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 1 [AzureTakeDamageUp] случайному противнику, не являющемуся целью атаки, на следующий ход (Раз за ход; в направляемых битвах целью считается часть)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

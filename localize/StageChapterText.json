@@ -41,7 +41,7 @@
       "company": "Корп. К",
       "area": "11-й Район",
       "chapter": "Антракт I",
-      "chapterNumber": "3.5",
+      "chapterNumber": "3,5",
       "chaptertitle": "Адская куря",
       "timeline": "984/03"
     },
@@ -59,7 +59,7 @@
       "company": "Корп. U",
       "area": "21-й Район",
       "chapter": "Антракт II",
-      "chapterNumber": "4.5",
+      "chapterNumber": "4,5",
       "chaptertitle": "МОРЕ",
       "timeline": "984/05"
     },
@@ -77,7 +77,7 @@
       "company": "Корп. U",
       "area": "21-й Район",
       "chapter": "Антракт III-1",
-      "chapterNumber": "5.5",
+      "chapterNumber": "5,5",
       "chaptertitle": "Чудо в 20-м Районе",
       "timeline": "984/08"
     },
@@ -95,8 +95,8 @@
       "company": "Корп. T",
       "area": "20-й Район",
       "chapter": "Антракт III-2",
-      "chapterNumber": "5.5",
-      "chaptertitle": "Уступаю плоть, дабы\nзабрать их кости",
+      "chapterNumber": "5,5",
+      "chaptertitle": "Уступлю свою плоть, дабы\nзабрать их кости",
       "timeline": "984/10"
     },
     {
@@ -122,7 +122,7 @@
       "company": "Корп. T",
       "area": "20-й Район",
       "chapter": "Антракт IV-1",
-      "chapterNumber": "6.5",
+      "chapterNumber": "6,5",
       "chaptertitle": "Время, убивающее время",
       "timeline": "984/11"
     },
@@ -131,7 +131,7 @@
       "company": "Корп. T",
       "area": "20-й Район",
       "chapter": "Антракт IV-2",
-      "chapterNumber": "6.5",
+      "chapterNumber": "6,5",
       "chaptertitle": "Убийство в Варп-экспрессе",
       "timeline": "984/11"
     },

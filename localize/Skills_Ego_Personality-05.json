@@ -193,7 +193,7 @@
           "level": 3,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] При 10 и более единиц на счётчике [Charge:*Заряда*], тратит до 20 [Charge:*Заряда*], чтобы получить +<style=\"highlight\">2.5</style>% к урону за единицу потраченного [Charge:*Заряда*] (До <style=\"highlight\">50</style>%)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] При 10 и более единиц на счётчике [Charge:*Заряда*], тратит до 20 [Charge:*Заряда*], чтобы получить +<style=\"highlight\">2,5</style>% к урону за единицу потраченного [Charge:*Заряда*] (До <style=\"highlight\">50</style>%)",
           "coinlist": [
             {
               "coindescs": [

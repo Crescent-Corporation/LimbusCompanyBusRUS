@@ -37,7 +37,7 @@
           "level": 4,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + <style=\"highlight\">x1.5</style> резонанса Уныния) [Sinking:*Погружения*] между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + <style=\"highlight\">x1,5</style> резонанса Уныния) [Sinking:*Погружения*] между целями",
           "coinlist": [
             {
               "coindescs": [

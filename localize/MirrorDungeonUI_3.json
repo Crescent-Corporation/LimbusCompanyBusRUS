@@ -26,7 +26,7 @@
     },
     {
       "id": "ego_gift_upgrade_confirm_format",
-      "content": "Желаете усилить ЭГО дар за <color=#F8C200>{0}</color> стоимости?"
+      "content": "Желаете усилить ЭГО-дар за <color=#F8C200>{0}</color> стоимости?"
     },
     {
       "id": "ego_gift_upgrade_not_enough_cost_format",

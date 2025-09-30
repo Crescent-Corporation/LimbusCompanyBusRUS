@@ -303,7 +303,7 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "Если на цели есть Тремор, урон +(<style=\"highlight\">5</style> + сумма потенциала и счётчика [Vibration:*Тремора*]/2)% (До <style=\"highlight\">30%</style>)\n- Если наибольший резонанс равен 4 и более, вместо этого урон +(<style=\"highlight\">7.5</style> + (сумма потенциала и счётчика [Vibration:*Тремора*] на цели/<style=\"highlight\">1.5</style>))% (До <style=\"highlight\">40%</style>)",
+          "desc": "Если на цели есть Тремор, урон +(<style=\"highlight\">5</style> + сумма потенциала и счётчика [Vibration:*Тремора*]/2)% (До <style=\"highlight\">30%</style>)\n- Если наибольший резонанс равен 4 и более, вместо этого урон +(<style=\"highlight\">7,5</style> + (сумма потенциала и счётчика [Vibration:*Тремора*] на цели/<style=\"highlight\">1,5</style>))% (До <style=\"highlight\">40%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\nЕсли на цели есть Тремор, урон +(<style=\"highlight\">5</style> + сумма потенциала и счётчика [Vibration:*Тремора*]/2)% (До <style=\"highlight\">40%</style>)\n- Если наибольший резонанс равен 4 и более, вместо этого урон +(<style=\"highlight\">7.5</style> + сумма потенциала и счётчика [Vibration:*Тремора*]/<style=\"highlight\">1.5</style>)% (До <style=\"highlight\">50%</style>)",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли на цели есть Тремор, урон +(<style=\"highlight\">5</style> + сумма потенциала и счётчика [Vibration:*Тремора*]/2)% (До <style=\"highlight\">40%</style>)\n- Если наибольший резонанс равен 4 и более, вместо этого урон +(<style=\"highlight\">7,5</style> + сумма потенциала и счётчика [Vibration:*Тремора*]/<style=\"highlight\">1,5</style>)% (До <style=\"highlight\">50%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -936,6 +936,229 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы остаться собой",
+          "_comment": "[宁作吾] Нин Цзо У",
+          "abName": "Лин",
+          "desc": "[WhenUse] Хун Лу получает 2 [Breath:*Дыхания*]\n[BeforeAttack] Итоговая сила +1, если сумма потенциала и счётчика [Breath:*Дыхания*] Хун Лу равна 5-и и более\n[BeforeAttack] +15% к урону c [Cianjing:*Отголосками*] в распоряжении\n[BeforeAttack] +27% к урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении\n[EndSkill] Хун Лу получает 5 [Cianjing:*Отголосков*]\n- Если в его распоряжении уже есть [Cianjing:*Отголоски*] или [SeniorCianjing:*Старшие Отголоски*], он теряет их все, чтобы получить 5 [SeniorCianjing:*Старших Отголосков*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+(потенциал [Breath:*Дыхания*] Хун Лу ÷ 2)% к критическому урону с [Cianjing:*Отголосками*] в распоряжении (До 15%)"
+                },
+                {
+                  "desc": "+((потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*]) Хун Лу ÷ 2)% к критическому урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Дабы остаться собой",
+          "_comment": "[宁作吾] Нин Цзо У",
+          "abName": "Лин",
+          "desc": "[WhenUse] Хун Лу получает <style=\"highlight\">3</style> [Breath:*Дыхания*]\n[BeforeAttack] Итоговая сила +1 <style=\"highlight\">за каждые 5 единиц в сумме потенциала и счётчика [Breath:*Дыхания*] Хун Лу (До 2-х)</style>\n[BeforeAttack] +15% к урону <style=\"highlight\">и +1 к тяжести атаки</style> c [Cianjing:*Отголосками*] в распоряжении\n[BeforeAttack] +27% к урону <style=\"highlight\">и +2 к тяжести атаки</style> со [SeniorCianjing:*Старшими Отголосками*] в распоряжении\n[EndSkill] Хун Лу получает 5 [Cianjing:*Отголосков*]\n- Если в его распоряжении уже есть [Cianjing:*Отголоски*] или [SeniorCianjing:*Старшие Отголоски*], он теряет их все, чтобы получить 5 [SeniorCianjing:*Старших Отголосков*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+(потенциал [Breath:*Дыхания*] Хун Лу ÷ 2)% к критическому урону с [Cianjing:*Отголосками*] в распоряжении (До <style=\"highlight\">20%</style>)"
+                },
+                {
+                  "desc": "+((потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*]) Хун Лу ÷ 2)% к критическому урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Дабы остаться собой",
+          "_comment": "[宁作吾] Нин Цзо У",
+          "abName": "Лин",
+          "desc": "[WhenUse] Хун Лу получает <style=\"highlight\">4</style> [Breath:*Дыхания*]\n[BeforeAttack] Итоговая сила +1 за каждые 5 единиц в сумме потенциала и счётчика [Breath:*Дыхания*] Хун Лу (До <style=\"highlight\">3-х</style>)\n<style=\"highlight\">[BeforeAttack] Пока в распоряжении Хун Лу нет [Cianjing:*Отголосков*] или их [SeniorCianjing:*старших версий*], он возвращает половину затраченных ЭГО-ресурсов и силы духа (Десятичные опускаются)</style>\n[BeforeAttack] <style=\"highlight\">+25%</style> к урону и +1 к тяжести атаки c [Cianjing:*Отголосками*] в распоряжении\n[BeforeAttack] <style=\"highlight\">+45%</style> к урону и +2 к тяжести атаки со [SeniorCianjing:*Старшими Отголосками*] в распоряжении\n[EndSkill] Хун Лу получает 5 [Cianjing:*Отголосков*]\n- Если в его распоряжении уже есть [Cianjing:*Отголоски*] или [SeniorCianjing:*Старшие Отголоски*], он теряет их все, чтобы получить 5 [SeniorCianjing:*Старших Отголосков*]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+(<style=\"highlight\">потенциал [Breath:*Дыхания*] Хун Лу</style>)% к критическому урону с [Cianjing:*Отголосками*] в распоряжении (До 20%)"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*] Хун Лу</style>)% к критическому урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении (До 40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:*Погружения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы остаться собой",
+          "_comment": "[宁作吾] Нин Цзо У",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Хун Лу получает 2 [Breath:*Дыхания*] и повышает его счётчик на 2\n[BeforeAttack] Сила монет +1, если в распоряжении Хун Лу есть [Cianjing:*Отголоски*] или их [SeniorCianjing:*старшие формы*]\n[EndSkill] Хун Лу получает 5 [Cianjing:*Отголосков*]\n- Если в его распоряжении уже есть [Cianjing:*Отголоски*] или [SeniorCianjing:*Старшие Отголоски*], он теряет их все, чтобы получить 5 [SeniorCianjing:*Старших Отголосков*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10% прошедшего урона в качестве урона Гордыней (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15% прошедшего урона в качестве урона Гордыней (До 15-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+(потенциал [Breath:*Дыхания*] Хун Лу ÷ 2)% к критическому урону с [Cianjing:*Отголосками*] в распоряжении (До 20%)"
+                },
+                {
+                  "desc": "+((потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*]) Хун Лу ÷ 2)% к критическому урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении (До 40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Дабы остаться собой",
+          "_comment": "[宁作吾] Нин Цзо У",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Хун Лу получает <style=\"highlight\">3</style> [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">3</style>\n[BeforeAttack] <style=\"highlight\">Тяжесть атаки +1, базовая сила +1 и</style> сила монет +1, если в распоряжении Хун Лу есть [Cianjing:*Отголоски*] или их [SeniorCianjing:*старшие формы*]\n[EndSkill] Хун Лу получает 5 [Cianjing:*Отголосков*]\n- Если в его распоряжении уже есть [Cianjing:*Отголоски*] или [SeniorCianjing:*Старшие Отголоски*], он теряет их все, чтобы получить 5 [SeniorCianjing:*Старших Отголосков*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10% прошедшего урона в качестве урона Гордыней (До 10-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15% прошедшего урона в качестве урона Гордыней (До 15-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+(потенциал [Breath:*Дыхания*] Хун Лу ÷ 2)% к критическому урону с [Cianjing:*Отголосками*] в распоряжении (До <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "+((потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*]) Хун Лу ÷ 2)% к критическому урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении (До <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Дабы остаться собой",
+          "_comment": "[宁作吾] Нин Цзо У",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Хун Лу получает <style=\"highlight\">4</style> [Breath:*Дыхания*] и повышает его счётчик на <style=\"highlight\">4</style>\n[BeforeAttack] Тяжесть атаки <style=\"highlight\">+2</style>, базовая сила <style=\"highlight\">+2</style> и сила монет <style=\"highlight\">+2</style>, если в распоряжении Хун Лу есть [Cianjing:*Отголоски*] или их [SeniorCianjing:*старшие формы*]\n[EndSkill] Хун Лу получает 5 [Cianjing:*Отголосков*]\n- Если в его распоряжении уже есть [Cianjing:*Отголоски*] или [SeniorCianjing:*Старшие Отголоски*], он теряет их все, чтобы получить 5 [SeniorCianjing:*Старших Отголосков*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10% прошедшего урона в качестве урона Гордыней (До 10-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15% прошедшего урона в качестве урона Гордыней (До 15-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">потенциал [Breath:*Дыхания*] Хун Лу</style>)% к критическому урону с [Cianjing:*Отголосками*] в распоряжении (До 30%)"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">потенциал [Breath:*Дыхания*] + счётчик [Breath:*Дыхания*] Хун Лу</style>)% к критическому урону со [SeniorCianjing:*Старшими Отголосками*] в распоряжении (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] <style=\"highlight\">и повышает его счётчик на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)<style=\"highlight\"></style>"
                 }
               ]
             }

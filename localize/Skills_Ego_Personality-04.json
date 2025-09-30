@@ -298,7 +298,7 @@
                   "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика [Laceration:*Кровотечения*] на цели)% к урону (До 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (1 + число грехов в наибольшем резонансе × 1.5) [Laceration:*Кровотечения*] (До 10, округление в меньшую сторону)"
+                  "desc": "[OnSucceedAttack] Наносит (1 + число грехов в наибольшем резонансе × 1,5) [Laceration:*Кровотечения*] (До 10, округление в меньшую сторону)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 2"
@@ -340,7 +340,7 @@
                   "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика [Laceration:*Кровотечения*] на цели)% к урону (До <style=\"highlight\">60%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(10 + число грехов в наибольшем резонансе × 2.5)</style> [Laceration:*Кровотечения*] (До <style=\"highlight\">25</style>, округление в меньшую сторону)"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(10 + число грехов в наибольшем резонансе × 2,5)</style> [Laceration:*Кровотечения*] (До <style=\"highlight\">25</style>, округление в меньшую сторону)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на <style=\"highlight\">5</style>"
