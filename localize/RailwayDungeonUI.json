@@ -66,7 +66,7 @@
     },
     {
       "id": "use_enkephalin_module_to_acquire_rewards",
-      "content": "Использовать <color=#990000>{0} Энкефалиновых модулей</color>,\n чтобы разблокировать награды?"
+      "content": "Использовать <color=#990000>{0} энкефалиновых модулей</color>,\n чтобы разблокировать награды?"
     },
     {
       "id": "able_to_acquire_rewards_without_using_enkephalin_module",

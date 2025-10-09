@@ -2,15 +2,15 @@
   "dataList": [
     {
       "id": "mainui_shop_charge_enkephalin_tab",
-      "content": "Заполнить Энкефалин"
+      "content": "Заполнить энкефалин"
     },
     {
       "id": "mainui_shop_buy_enkephalin_box_tab",
-      "content": "Купить ячейки Энкефалина"
+      "content": "Купить ячейки энкефалина"
     },
     {
       "id": "mainui_shop_buy_enkephalin_box",
-      "content": "Куплены ячейки Энкефалина."
+      "content": "Куплены ячейки энкефалина."
     },
     {
       "id": "mainui_shop_scarce_madness",
@@ -18,7 +18,7 @@
     },
     {
       "id": "mainui_shop_ask_buy_enkephalin_box",
-      "content": "Желаете купить ячейки Энкефалина?"
+      "content": "Желаете купить ячейки энкефалина?"
     },
     {
       "id": "mainui_shop_own",
@@ -30,7 +30,7 @@
     },
     {
       "id": "mainui_shop_ask_charge_enkephalin",
-      "content": "Желаете заполнить Энкефалин?"
+      "content": "Желаете заполнить энкефалин?"
     },
     {
       "id": "mainui_shop_charge_enkephalin",
@@ -70,7 +70,7 @@
     },
     {
       "id": "mainui_shop_enkephalin_box_scarce",
-      "content": "Недостаточно ячеек Энкефалина."
+      "content": "Недостаточно ячеек энкефалина."
     },
     {
       "id": "mainui_shop_lunacy_scarce",
@@ -98,7 +98,7 @@
     },
     {
       "id": "shopui_use_enkephalin_box",
-      "content": "Использовать ячейки Энкефалина"
+      "content": "Использовать ячейки энкефалина"
     },
     {
       "id": "shopui_use_lunacy",
@@ -114,27 +114,27 @@
     },
     {
       "id": "shopui_scarce_enkephalin_box",
-      "content": "Недостаточно ячеек Энкефалина."
+      "content": "Недостаточно ячеек энкефалина."
     },
     {
       "id": "shopui_scarce_enkephalin",
-      "content": "Недостаточно Энкефалина."
+      "content": "Недостаточно энкефалина."
     },
     {
       "id": "shopui_make_enkephalin_module",
-      "content": "Создать Энкефалиновые модули"
+      "content": "Создать энкефалиновые модули"
     },
     {
       "id": "shopui_charge_enkephalin_about",
-      "content": "Заполнить {0} Энкефалина?"
+      "content": "Заполнить {0} энкефалина?"
     },
     {
       "id": "shopui_recover_enkephalin_after_time",
-      "content": "{1} Энкефалин восстановится через {0}."
+      "content": "{1} энкефалин восстановится через {0}."
     },
     {
       "id": "shopui_ask_create_enkephalin_module",
-      "content": "Желаете создать Энкефалиновые модули?"
+      "content": "Желаете создать энкефалиновые модули?"
     },
     {
       "id": "shopui_charge_as_lunacy",
@@ -194,7 +194,7 @@
     },
     {
       "id": "lack_of_enkephalin",
-      "content": "Недостаточно Энкефалина"
+      "content": "Недостаточно энкефалина"
     },
     {
       "id": "remain_days_with_number",
@@ -206,7 +206,7 @@
     },
     {
       "id": "enkephalin_box",
-      "content": "Ячейка Энкефалина"
+      "content": "Ячейка энкефалина"
     },
     {
       "id": "today_purchase_count",
@@ -222,7 +222,7 @@
     },
     {
       "id": "enkephalin_module_count_max",
-      "content": "В хранилище модулей Энкефалина нет места."
+      "content": "В хранилище модулей энкефалина нет места."
     },
     {
       "id": "enkephalin_module_count_max_desc",

@@ -210,7 +210,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_default_text",
-      "content": "Запас Энкефалина заполнен до краёв."
+      "content": "Запас энкефалина заполнен до краёв."
     },
     {
       "id": "push_notification_message_full_stamina_1_title",
@@ -218,15 +218,15 @@
     },
     {
       "id": "push_notification_message_full_stamina_1_text",
-      "content": "Оказался я в вашем офисе, как бы чудно́ ни было, по надобности оповестить вас о заполнении запасов Энкефалина… Вот и всё."
+      "content": "Оказался я в вашем офисе, как бы чудно́ ни было, по надобности оповестить вас о заполнении запасов энкефалина… Вот и всё."
     },
     {
       "id": "push_notification_message_full_stamina_2_title",
-      "content": "Энкефалин заполнен"
+      "content": "энкефалин заполнен"
     },
     {
       "id": "push_notification_message_full_stamina_2_text",
-      "content": "Запас Энкефалина заполнен до краёв, менеджер. Я рекомендую конвертировать его в модули для повышения эффективности в использовании."
+      "content": "Запас энкефалина заполнен до краёв, менеджер. Я рекомендую конвертировать его в модули для повышения эффективности в использовании."
     },
     {
       "id": "push_notification_message_full_stamina_3_title",
@@ -234,7 +234,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_3_text",
-      "content": "<b>Сосуд, в коем хранятся запасы Энкефалина наши, переполнен!!! Менеджер, милорд, куда ж вы запропастились во взывающий в приключения час???!!!</b>"
+      "content": "<b>Сосуд, в коем хранятся запасы энкефалина наши, переполнен!!! Менеджер, милорд, куда ж вы запропастились во взывающий в приключения час???!!!</b>"
     },
     {
       "id": "push_notification_message_full_stamina_4_title",
@@ -242,7 +242,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_4_text",
-      "content": "ЗЭП.\n<i>(Запасы Энкефалина переполнены.)</i>"
+      "content": "ЗЭП.\n<i>(Запасы энкефалина переполнены.)</i>"
     },
     {
       "id": "push_notification_message_full_stamina_5_title",
@@ -258,7 +258,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_6_text",
-      "content": "Ва-а!~ Похоже, запас Энкефалина полон!~ Не желаете проверить?"
+      "content": "Ва-а!~ Похоже, запас энкефалина полон!~ Не желаете проверить?"
     },
     {
       "id": "push_notification_message_full_stamina_7_title",
@@ -266,7 +266,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_7_text",
-      "content": "Э, ну, Энке… То зеленоватое топливо, чёрт бы его побрал, уже заполнено до краёв. Проверь его, а?"
+      "content": "Э, ну, энке… То зеленоватое топливо, чёрт бы его побрал, уже заполнено до краёв. Проверь его, а?"
     },
     {
       "id": "push_notification_message_full_stamina_8_title",
@@ -274,7 +274,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_8_text",
-      "content": "Запасы Энкефалина заполнены до краёв… М-м, автобус готов отправляться в путь. Начнём же новый вояж."
+      "content": "Запасы энкефалина заполнены до краёв… М-м, автобус готов отправляться в путь. Начнём же новый вояж."
     },
     {
       "id": "push_notification_message_full_stamina_9_title",
@@ -290,7 +290,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_11_text",
-      "content": "Менеджер… Вы заняты? Н-ничего такого… Просто Энкефалин сейчас перельётся…"
+      "content": "Менеджер… Вы заняты? Н-ничего такого… Просто энкефалин сейчас перельётся…"
     },
     {
       "id": "push_notification_message_full_stamina_12_title",

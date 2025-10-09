@@ -969,7 +969,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если Дон Кихрт [TimeRentalTwoPersonality:*одалживает время*], не тратит [Vibration] цели"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если Дон Кихот [TimeRentalTwoPersonality:*одалживает время*], не тратит [Vibration] цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если скорость цели ниже, чем у Дон Кихот, [Switch_Vibration:*преобразует амплитуду Тремора*] в [VibrationChainPersonality]"
@@ -1001,7 +1001,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если Дон Кихрт [TimeRentalTwoPersonality:*одалживает время*], не тратит [Vibration] цели<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:*Тремора*], тратит 10 [Vibration:*Тремора*], чтобы нанести 2 [TimeSuspend:*Временных моратория*]\n- Если Дон Кихот [TimeRentalTwoPersonality:*одалживает время*], не тратит [Vibration] цели<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:*Провоцирует Тремор*]. После счётчик [Vibration:*Тремора*] цели понижается на 1</style>"

@@ -1,0 +1,373 @@
+{
+  "dataList": [
+    {
+      "id": 9102701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прокус",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Штурм",
+          "desc": "Сила парирований +1 против целей с 6-ью и более [Sinking:*Погружения*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Погружения*] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлестания",
+          "desc": "Сила парирований +1 против целей с 6-ью и более [Sinking:*Погружения*]\n[StartBattle] При 33% здоровья и менее обращает все монеты этого навыка в [SuperCoin:*вечные*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрезы и кромсание",
+          "desc": "Сила парирований +1 против целей с 6-ью и более [Sinking:*Погружения*]\n[StartBattle] При 33% здоровья и менее обращает последнюю монету этого навыка в [SuperCoin:*вечную*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорезание жизни",
+          "desc": "Итоговая сила +1 за каждые 6 единиц [Sinking:*Погружения*] на цели (До 3-х)\n[StartBattle] При 50% здоровья и менее обращает все монеты этого навыка в [SuperCoin:*вечные*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Беснования",
+          "desc": "Итоговая сила +1 за каждые 6 единиц [Sinking:*Погружения*] на цели (До 3-х)\n[StartBattle] При 50% здоровья и менее обращает все монеты этого навыка в [SuperCoin:*вечные*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит6 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жатва питательных веществ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Глубокий укус",
+          "desc": "Итоговая сила +1 за каждые 6 единиц [Sinking:*Погружения*] на цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Непрерывное пожирание",
+          "desc": "Итоговая сила +1 за каждые 6 единиц [Sinking:*Погружения*] на цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прокол жизни",
+          "desc": "Итоговая сила +1 за каждые 6 единиц [Sinking:*Погружения*] на основной цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:*Погружения*]и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выплеск",
+          "desc": "Итоговая сила +1 за каждые 6 единиц [Sinking:*Погружения*] на основной цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:*Погружения*] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 единицы [NervousImpairment:*Неврологического урона*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:*Погружения*]и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 единицы [NervousImpairment:*Неврологического урона*]"
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

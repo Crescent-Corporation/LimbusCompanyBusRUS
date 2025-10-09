@@ -796,6 +796,58 @@
     {
       "id": "LocalSetButtonTitle_ImportanceLevel",
       "content": "Подсказки"
+    },
+    {
+      "id": "Retreat_Command_TextAlarm",
+      "content": "! Отступает !"
+    },
+    {
+      "id": "Retreat_Quit_TextAlarm",
+      "content": "! Не на поле боя !"
+    },
+    {
+      "id": "ab_part_gadget_activated",
+      "content": "Активирована"
+    },
+    {
+      "id": "ab_part_gadget_deactivated",
+      "content": "Деактивирована"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_1_Desc",
+      "content": "! Важность: Умеренная !"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_2_Desc",
+      "content": "! Важность: Высокая !"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_3_Desc",
+      "content": "! Важность: Очень высокая !"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_1_Desc",
+      "content": "! Важность: Умеренная !"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_2_Desc",
+      "content": "! Важность: Высокая !"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_3_Desc",
+      "content": "! Важность: Очень высокая !"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_CANDIDATE",
+      "content": "Активен при условиях"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_EXCLUDE_CANDIDATE",
+      "content": "Всегда активен"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_active",
+      "content": "ЭГО-дар активен"
     }
   ]
 }

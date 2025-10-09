@@ -613,7 +613,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит +5 счётчиков Разрыв на следующий ход"
+                  "desc": "[OnSucceedAttackHead] К следующему ходу повышает счётчик [Burst:*Разрывов*] цели на 2"
                 }
               ]
             }
@@ -658,7 +658,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит +5 счётчиков Разрыв на следующий ход"
+                  "desc": "[OnSucceedAttackHead] К следующему ходу повышает счётчик [Burst:*Разрывов*] цели на 2"
                 }
               ]
             }
@@ -2861,7 +2861,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +5 счётчиков Разрыв"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 5"
                 }
               ]
             },
@@ -2910,7 +2910,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +5 счётчиков Разрыв"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] цели на 5"
                 }
               ]
             },
@@ -3039,7 +3039,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит +5 счётчиков Разрыв"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:*Разрывов*] цели на 5"
                 }
               ]
             }

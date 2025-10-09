@@ -570,7 +570,7 @@
         {
           "level": 3,
           "name": "Разлетающиеся лепестки красной сливы",
-          "desc": "Урон +3% за каждый [RedApricotBlossom:*Красный лепесток сливы*] на цели\n[WinDuel] Тратит половину счётчика [Breath:*Дыхания*] и получает Дыхание, равное потраченному числу на его счётчике. (До 10)",
+          "desc": "Урон +3% за каждый [RedApricotBlossom:*Красный лепесток сливы*] на цели\n[WinDuel] Тратит половину счётчика [Breath:*Дыхания*] и получает Дыхание, равное потраченному числу на его счётчике. (До 10-и)",
           "coinlist": [
             {
               "coindescs": [
@@ -591,7 +591,7 @@
         {
           "level": 4,
           "name": "Разлетающиеся лепестки красной сливы",
-          "desc": "Урон +3% за каждый [RedApricotBlossom:*Красный лепесток сливы*] на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 [Breath:*Дыхания*] (До 3)</style>\n[WinDuel] Тратит половину счётчика [Breath:*Дыхания*] и получает Дыхание, равное потраченному числу на его счётчике. (До 10)\n<style=\"highlight\">Этот навык не тратит Красные лепестки сливы во время критических ударов.</style>",
+          "desc": "Урон +3% за каждый [RedApricotBlossom:*Красный лепесток сливы*] на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 [Breath:*Дыхания*] (До 3)</style>\n[WinDuel] Тратит половину счётчика [Breath:*Дыхания*] и получает Дыхание, равное потраченному числу на его счётчике. (До 10-и)\n<style=\"highlight\">Этот навык не тратит Красные лепестки сливы во время критических ударов.</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1740,6 +1740,379 @@
               "coindescs": [
                 {
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отсечение",
+          "desc": "[WhenUse] Фауст получает 1 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Отсечение",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при 4-х и более единицах в сумме [Breath:*Дыхания*] Фауст и [Laceration:*Кровотечения*] цели</style>\n[WhenUse] Фауст получает <style=\"highlight\">2</style> [Breath:*Дыхания*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отсечение",
+          "desc": "[WhenUse] Сила монет +1 при 4-х и более единицах в сумме [Breath:*Дыхания*] Фауст и [Laceration:*Кровотечения*] цели\n[WhenUse] Фауст получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сохранение дистанции",
+          "desc": "[WhenUse] +11% к урону за каждые 4 [Breath:*Дыхания*] Фауст (До 44%)\n[WhenUse] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Сохранение дистанции",
+          "desc": "<style=\"highlight\">[WhenUse] Сила парирований +1 за каждые 4 единицы в сумме [Breath:*Дыхания*] Фауст и [Laceration:*Кровотечения*] цели (До 2-х)</style>\n[WhenUse] +11% к урону за каждые 4 [Breath:*Дыхания*] Фауст (До 44%)\n[WhenUse] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает <style=\"highlight\">2</style> [Breath:*Дыхания*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сохранение дистанции",
+          "desc": "[WhenUse] Сила парирований +1 за каждые 4 единицы в сумме [Breath:*Дыхания*] Фауст и [Laceration:*Кровотечения*] цели (До <style=\"highlight\">4-х</style>)\n[WhenUse] +11% к урону за каждые 4 [Breath:*Дыхания*] Фауст (До 44%)\n<style=\"highlight\">[WhenUse] +11% к урону за каждую затраченную [ArrowShiFau:*Стрелу*] Фауст (До 44%)</style>\n[WhenUse] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает 2 [Breath:*Дыхания*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 2 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Блеснувший лук",
+          "_comment": "[弓閃] Гун шань",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 единицы в сумме [Breath:*Дыхания*] Фауст и [Laceration:*Кровотечения*] цели (До 2-х)\n[WhenUse] +11% к урону за каждые 4 [Breath:*Дыхания*] Фауст (До 44%)\n[WhenUse] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+            ,{
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [DefenseDown] на следующий ход (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блеснувший лук",
+          "_comment": "[弓閃] Гун шань",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 единицы в сумме [Breath:*Дыхания*] Фауст и [Laceration:*Кровотечения*] цели (До 2-х)\n[WhenUse] +11% к урону за каждые 4 [Breath:*Дыхания*] Фауст (До 44%)\n<style=\"highlight\">[WhenUse] +11% к урону за каждую затраченную [ArrowShiFau:*Стрелу*] Фауст (До 44%)</style>\n[WhenUse] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает <style=\"highlight\">2</style> [Breath:*Дыхания*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает счётчик [Laceration:*Кровотечения*] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:*Кровотечения*]"
+                }
+              ]
+            }
+            ,{
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> [DefenseDown:*Повышения уровня защиты*] на следующий ход (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Развёртка тетивы клинкового лука",
+          "_comment": "[弓刀] Гун дао",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Развёртка тетивы клинкового лука",
+          "_comment": "[弓刀] Гун дао",
+          "desc": "<style=\"highlight\">При отсутствии  [ArrowShiFau:*Стрел: Си*] навык меняется на 「Уворот」\n\n[StartBattle] Если в этом ходу Фауст использует 「Блеск лука」, навык меняется на 「Уворот」\n[StartBattle] В [SnipingArrowMode:*прицельной стойке*] Фауст получает (36 ÷ [AimForTheGoal]) щита на время хода (Раз за ход)\n\n[EndBattle] Пока Фауст в [SnipingArrowMode:*прицельной стойке*], если во время хода она не использовала атакующие навыки, она повышает уровень [AimForTheGoal:*прицеливания*] на 1 (Раз за ход)\n[EndBattle] Если Фауст не в [SnipingArrowMode:*прицельной стойке*] при наличии 1-й и более [ArrowShiFau:*Стрел: Си*], она повышает уровень [AimForTheGoal:*прицеливания*] на 1 и становится в [SnipingArrowMode:*стойку*] на следующий ход (Раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Развёртка тетивы клинкового лука",
+          "_comment": "[弓刀] Гун дао",
+          "desc": "При отсутствии  [ArrowShiFau:*Стрел: Си*] навык меняется на 「Уворот」\n\n[StartBattle] Если в этом ходу Фауст использует 「Блеск лука」, навык меняется на 「Уворот」\n[StartBattle] В [SnipingArrowMode:*прицельной стойке*] Фауст получает (<style=\"highlight\">60</style> ÷ [AimForTheGoal]) щита на время хода (Раз за ход)\n\n[EndBattle] Пока Фауст в [SnipingArrowMode:*прицельной стойке*], если во время хода она не использовала атакующие навыки, она повышает уровень [AimForTheGoal:*прицеливания*] на 1 (Раз за ход)\n[EndBattle] Если Фауст не в [SnipingArrowMode:*прицельной стойке*] при наличии 1-й и более [ArrowShiFau:*Стрел: Си*], она повышает уровень [AimForTheGoal:*прицеливания*] на 1 и становится в [SnipingArrowMode:*стойку*] на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021305,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Блеск лука",
+          "_comment": "[閃弓] Шань гун",
+          "desc": "[CantDuel]\nДанный навык невозможно использовать повторно через внешние факторы\n+24% к урону за каждый уровень [AimForTheGoal:*прицеливания*] (До 72%)\n+24% к критическому урону за каждый уровень [AimForTheGoal:*прицеливания*] (До 72%)\n- На 4-м уровне  [AimForTheGoal:*прицеливания*] Фауст получает +444% к критическому урону; данный эффект заменяет два указанных выше\n[WhenUse] Базовая сила +2 при 4-х [Breath:*Дыхания*] Фауст\n[WhenUse] Сила монет +2 за каждый уровень [AimForTheGoal:*прицеливания*] (До 4-х)\n[WhenUse] Фауст получает 5 [Breath:*Дыхания*] за каждый уровень [AimForTheGoal:*прицеливания*]\n[EndSkill] Фауст теряет (уровень [AimForTheGoal:*прицеливания*] × 5) [Breath:*Дыхания*]\n[EndSkill] Фауст теряет все уровни [AimForTheGoal:*прицеливания*] и выходит из [SnipingArrowMode:*прицельной стойки*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [ArrowInTheEyeFau:*Вонзает*] 1-у стрелу, после чего Фауст теряет [ArrowShiFau:*Стрелу: Си*]"
+                },
+                {
+                  "desc": "[EnemyKill] Фауст [AStrokeOfDeath:*вычёркивает цель*] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блеск лука",
+          "_comment": "[閃弓] Шань гун",
+          "desc": "[CantDuel]\nДанный навык невозможно использовать повторно через внешние факторы\n+<style=\"highlight\">48</style>% к урону за каждый уровень [AimForTheGoal:*прицеливания*] (До <style=\"highlight\">144</style>%)\n+<style=\"highlight\">48</style>% к критическому урону за каждый уровень [AimForTheGoal:*прицеливания*] (До <style=\"highlight\">144</style>%)\n- На 4-м уровне  [AimForTheGoal:*прицеливания*] Фауст получает +444% к критическому урону; данный эффект заменяет два указанных выше\n[WhenUse] Базовая сила +2 <style=\"highlight\">за каждые</style> 4 [Breath:*Дыхания*] Фауст <style=\"highlight\">(До 10-и)</style>\n[WhenUse] Сила монет +<style=\"highlight\">4</style> за каждый уровень [AimForTheGoal:*прицеливания*] (До <style=\"highlight\">10-и</style>)\n[WhenUse] Фауст получает 5 [Breath:*Дыхания*] за каждый уровень [AimForTheGoal:*прицеливания*]\n[EndSkill] Фауст теряет (<style=\"highlight\">(уровень [AimForTheGoal:*прицеливания*] - 1)</style> × 5) [Breath:*Дыхания*]\n[EndSkill] Фауст теряет все уровни [AimForTheGoal:*прицеливания*] и выходит из [SnipingArrowMode:*прицельной стойки*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [ArrowInTheEyeFau:*Вонзает*] 1-у стрелу, после чего Фауст теряет [ArrowShiFau:*Стрелу: Си*]"
+                },
+                {
+                  "desc": "[EnemyKill] Фауст [AStrokeOfDeath:*вычёркивает цель*] на следующий ход"
+                },
+                {
+                  "desc": "<style=\"highlight\">Фауст повышает собственный счётчик [Breath:*Дыхания*] на 4</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1 (Дважды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Фауст повышает собственный счётчик [Breath:*Дыхания*] на 1 (Трижды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
                 }
               ]
             }

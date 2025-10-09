@@ -55,6 +55,18 @@
     {
       "id": "mirrordungeon_name_5_1",
       "content": "Усложнённое зеркало мечтаний"
+    },
+        {
+      "id": "mirrordungeon_name_6",
+      "content": "Зеркало бессмертия"
+    },
+    {
+      "id": "mirrordungeon_name_6_0",
+      "content": "Обычное зеркало бессмертия"
+    },
+    {
+      "id": "mirrordungeon_name_6_1",
+      "content": "Усложнённое зеркало бессмертия"
     }
   ]
 }

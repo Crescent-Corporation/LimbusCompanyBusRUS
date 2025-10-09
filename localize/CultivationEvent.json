@@ -1,0 +1,84 @@
+﻿{
+  "dataList": [
+    {
+      "id": "cultivation_rewardShopButton",
+      "content": "Обмен наград"
+    },
+    {
+      "id": "cultivation_missionbutton_normal",
+      "content": "Достижения"
+    },
+    {
+      "id": "cultivation_missionbutton_not_clear",
+      "content": "Пройдите 8,5-3"
+    },
+    {
+      "id": "cultivation_classbutton_normal",
+      "content": "Занятия"
+    },
+    {
+      "id": "cultivation_classbutton_not_clear",
+      "content": "Просмотрите 8,5-4"
+    },
+    {
+      "id": "cultivation_stagebutton_normal",
+      "content": "Этапы"
+    },
+    {
+      "id": "cultivation_stagebutton_not_clear",
+      "content": "Пройдите 8-33"
+    },
+    {
+      "id": "cultivation_stagebutton_end_event",
+      "content": "Ивент завершён"
+    },
+    {
+      "id": "cultivation_bonus_preview",
+      "content": "Персонажи с ивентовым бонусом:"
+    },
+    {
+      "id": "cultivation_storybutton_before_start",
+      "content": "Пройдите 8,5-1"
+    },
+    {
+      "id": "cultivation_storybutton_normal",
+      "content": "В кинозал"
+    },
+    {
+      "id": "cultivation_bonus_popup_title",
+      "content": "Персонажи с ивентовым бонусом"
+    },
+    {
+      "id": "cultivation_bonusUI_Desc",
+      "content": "Определённые идентичности в команде увеличивают число получаемых <color=#ffa7a7>「Основ Чжи, Юн и Жень」</color>.\nУвеличение не может превысить <color=#ffa7a7>120%</color>."
+    },
+    {
+      "id": "cultivation_scrap_guide_title",
+      "content": "Инфо о валюте"
+    },
+    {
+      "id": "cultivation_rewardpage_desc",
+      "content": "При прохождении ивентовых этапов и подземелий вы можете получить <color=#ffa7a7>「Основы Чжи, Юн и Жень」</color>.\nКроме того, вы можете получить, <color=#ffa7a7>「Основы Чжи, Юн и Жень」</color> при первом прохождении основной истории, при прохождении Зеркального подземелья и при выполнении достижений.\n\nВо время прохождения этапов и подземелья (включая Зеркальное) ивента и основной истории есть некоторый шанс получить <color=#ffa7a7>Совершенно точно не свиток с тайными знаниями</color>. При получении <color=#ffa7a7>Совершенно точно не свиток с тайными знаниями</color> конвертируется в 20 <color=#ffa7a7>「Основ Чжи, Юн и Жень」</color>.\n\nВы можете приобрести различные предметы за <color=#ffa7a7>「Основы Чжи, Юн и Жень」</color> в окне  <color=#ffa7a7>「Обмен наград」</color>."
+    },
+    {
+      "id": "cultivation_reward_popup_desc",
+      "content": "При прохождении ивентовых этапов и подземелий, а так же\nэтапов основной истории и Зеркального подземелья,\n гарантировано получение\n <color=#ffa7a7>「Основы Чжи, Юн и Жень」</color> в качестве награды.\n\nВы можете приобрести различные предметы за <color=#ffa7a7>「Основы Чжи, Юн и Жень」</color> в окне <color=#ffa7a7>「Обмен наград」</color>."
+    },
+    {
+      "id": "cultivation_mission_reward_popup_desc",
+      "content": "При выполнении различных достижений в ходе занятий\nвы можете получить <color=#ffa7a7>「Основы Чжи, Юн и Жень」</color>.\n\nПосле окончания периода проведения ивента\nвыполнение достижений окажется невозможным, и вам будет доступно только получение наград."
+    },
+    {
+      "id": "ask_xichun_class_node_enter",
+      "content": "Желаете перейти\nк занятиям с Цзя Сичунь?"
+    },
+    {
+      "id": "not_playing_xichun_class_node",
+      "content": "Ещё рано для занятий."
+    },
+    {
+      "id": "not_playing_xichun_class_node_retry",
+      "content": "Занятия завершены.\nЕсли желаете снова обучить Цзя Сичунь, снова пройдите этап 8,5-4."
+    }
+  ]
+}

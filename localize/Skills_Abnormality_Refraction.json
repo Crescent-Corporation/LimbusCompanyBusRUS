@@ -11,7 +11,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Наносит 5 [Sinking:*Погружения*] и +5 счётчиков [Sinking:*Погружения*]"
+                                    "desc": "[OnSucceedAttackHead] Наносит 5 [Sinking:*Погружения*] и повышает его счётчик на 5"
                                 }
                             ]
                         }

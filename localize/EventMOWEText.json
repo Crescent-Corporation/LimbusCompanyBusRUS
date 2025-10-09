@@ -18,7 +18,7 @@
     },
     {
       "id": "mowe_storybutton_normal",
-      "content": "В Кинозал"
+      "content": "В кинозал"
     },
     {
       "id": "mowe_rewardShopButton",
@@ -46,7 +46,7 @@
     },
     {
       "id": "mowe_bonusUI_Title",
-      "content": "к получению"
+      "content": "<size=60%><font=\"BebasKai SDF\">к получению</font></size>"
     },
     {
       "id": "mowe_bonusUI_Title_contain_false",

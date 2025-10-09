@@ -18,7 +18,7 @@
     },
     {
       "id": "lcb_checkup_storybutton_normal",
-      "content": "В Кинозал"
+      "content": "В кинозал"
     },
     {
       "id": "lcb_checkup_rewardShopButton",
@@ -46,7 +46,7 @@
     },
     {
       "id": "lcb_checkup_bonusUI_Title",
-      "content": "<size=45><font=\"BebasKai SDF\">к получению</font></size>"
+      "content": "<size=60%><font=\"BebasKai SDF\">к получению</font></size>"
     },
     {
       "id": "lcb_checkup_bonusUI_Title_contain_false",

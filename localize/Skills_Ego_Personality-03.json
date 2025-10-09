@@ -413,7 +413,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10-и)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] при 100 и более единиц [BloodDinner:*Кровавого пиршества*]"
@@ -429,7 +429,7 @@
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10)"
+                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
                 }
               ]
             }
@@ -444,7 +444,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10-и)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] при 100 и более единиц [BloodDinner:*Кровавого пиршества*]<style=\"highlight\"></style>"
@@ -460,7 +460,7 @@
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10)"
+                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
                 }
               ]
             }
@@ -475,7 +475,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей [BloodDinner_Common_Accumulation:*Общеиспитого пиршества*] (До 10-и)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 10 [Laceration:*Кровотечения*] при 100 и более единиц [BloodDinner:*Кровавого пиршества*]<style=\"highlight\"></style>"
@@ -491,7 +491,7 @@
                   "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">5</style>)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10)"
+                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
                 }
               ]
             }

@@ -387,7 +387,7 @@
         {
           "level": 1,
           "name": "Сбор ради общего дела",
-          "desc": "[CantDuel]\n[StartBattle] Переносит числа со счётчиков [Vibration:*Тремора*] на собственный счётчик [Vibration:*Тремора*]\n[StartBattle] Получает 1 [AttackUp] за каждые 3 единицы на своём счётчике [Vibration:*Тремора*]\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 8",
+          "desc": "[CantDuel]\n[StartBattle] Переносит числа со счётчика [Vibration:*Тремора*] цели на собственный счётчик [Vibration:*Тремора*]\n[StartBattle] Получает 1 [AttackUp] за каждые 3 единицы на своём счётчике [Vibration:*Тремора*]\n[WhenUse] Повышает собственный счётчик [Vibration:*Тремора*] на 8",
           "coinlist": [
             {
               "coindescs": [

@@ -1,0 +1,132 @@
+{
+  "dataList": [
+    {
+      "id": "Danger",
+      "content": "Критическая ситуация"
+    },
+    {
+      "id": "SpecialSkill",
+      "content": "Предупреждение о мощном навыке"
+    },
+    {
+      "id": "SpecialGimmick",
+      "content": "Оповещение об особенности"
+    },
+    {
+      "id": "AllyDebuff",
+      "content": "Особые отрицательные эффекты на союзниках"
+    },
+    {
+      "id": "AllyBuff",
+      "content": "Особые положительные эффекты на союзниках"
+    },
+    {
+      "id": "SpecialCheer",
+      "content": "Поддержка в тяжёлый момент"
+    },
+    {
+      "id": "EnemyAdv",
+      "content": "Превосходство противника"
+    },
+    {
+      "id": "AllyDead",
+      "content": "Смерть союзника"
+    },
+    {
+      "id": "AllyBigDamage_Round",
+      "content": "Начало хода после получения союзником ужасающего урона"
+    },
+    {
+      "id": "AllyAdvEx",
+      "content": "Переворот ситуации союзниками"
+    },
+    {
+      "id": "AllyAdv",
+      "content": "Превосходство союзниками"
+    },
+    {
+      "id": "AllyBreak",
+      "content": "Оглушение союзника"
+    },
+    {
+      "id": "KillEnemy",
+      "content": "Убийство противника"
+    },
+    {
+      "id": "EnemyDestroy_RoundStart",
+      "content": "Начало хода после повреждения части противника"
+    },
+    {
+      "id": "EnemyBigDamage_Round",
+      "content": "Начало хода после получения противником ужасающего урона"
+    },
+    {
+      "id": "EnemyBreak",
+      "content": "Оглушение противника"
+    },
+    {
+      "id": "Cheer",
+      "content": "Поддержка"
+    },
+    {
+      "id": "AllyBigDamage",
+      "content": "При получении ужасающего урона"
+    },
+    {
+      "id": "EnemyBigDamage",
+      "content": "При нанесении ужасающего урона"
+    },
+    {
+      "id": "EnemyDestroy_Battle",
+      "content": "Повреждение части противника"
+    },
+    {
+      "id": "MultiKillEnemy",
+      "content": "Убийство нескольких противников одним навыком"
+    },
+    {
+      "id": "Equip",
+      "content": "Выбор боевого комментатора"
+    },
+    {
+      "id": "PhysicalAdv",
+      "content": "Подходящий физический урон"
+    },
+    {
+      "id": "AttrAdv",
+      "content": "Подходящий урон грехом"
+    },
+    {
+      "id": "PhysicalDisadv",
+      "content": "Неподходящий физический урон"
+    },
+    {
+      "id": "AttrDisadv",
+      "content": "Неподходящий урон грехом"
+    },
+    {
+      "id": "EnemyBuff",
+      "content": "Особый положительный эффект на противнике"
+    },
+    {
+      "id": "EnemyDebuff",
+      "content": "Особый отрицательный эффект на противнике"
+    },
+    {
+      "id": "Neglect",
+      "content": "Во время бездействия"
+    },
+    {
+      "id": "MultiKillAlly",
+      "content": "Убийство нескольких союзников"
+    },
+    {
+      "id": "Win",
+      "content": "Победа"
+    },
+    {
+      "id": "Defeat",
+      "content": "Поражение"
+    }
+  ]
+}

@@ -1382,7 +1382,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 20 ОЗ; Наносит +5 счётчиков Кровотечение"
+                  "desc": "[OnSucceedAttack] Восстанавливает 20 ОЗ; повышает счётчик [Laceration:*Кровотечения*] на 5"
                 }
               ]
             }
@@ -3987,7 +3987,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Burst:*Разрывов*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +5 счётчиков Разрыв"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:*Разрывов*] на 5"
                 }
               ]
             }
@@ -4305,7 +4305,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +5 счётчиков Кровотечение"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:*Кровотечения*] на 5"
                 }
               ]
             }

@@ -75,7 +75,7 @@
     },
     {
       "id": "mainui_sinners_battleannouncer",
-      "content": "Комментатор"
+      "content": "<size=80%>Комментатор</size>"
     },
     {
       "id": "mainui_sinners_dante",
@@ -187,7 +187,7 @@
     },
     {
       "id": "mainui_main_enkephalin_Box",
-      "content": "Ячейка Энкефалина"
+      "content": "Ячейка энкефалина"
     },
     {
       "id": "mainui_main_own_count",
@@ -215,7 +215,7 @@
     },
     {
       "id": "mainui_mirror_entrance_warning",
-      "content": "※ Потраченные модули Энкефалина не будут возвращены."
+      "content": "※ Потраченные модули энкефалина не будут возвращены."
     },
     {
       "id": "mainui_proress",
@@ -659,11 +659,11 @@
     },
     {
       "id": "mainui_ask_purchase_enkephalin",
-      "content": "Недостаточно Энкефалина.\nЖелаете восполнить Энкефалин?"
+      "content": "Недостаточно энкефалина.\nЖелаете восполнить энкефалин?"
     },
     {
       "id": "mainui_ask_purchase_enkephalin_box",
-      "content": "Недостаточно ячеек Энкефалина.\nЖелаете купить парочку?"
+      "content": "Недостаточно ячеек энкефалина.\nЖелаете купить парочку?"
     },
     {
       "id": "mainui_rewatching-stage-story",
@@ -751,7 +751,7 @@
     },
     {
       "id": "increase_maxium_enkephalin",
-      "content": "Места для Энкефалина стало больше!"
+      "content": "Места для энкефалина стало больше!"
     },
     {
       "id": "recharge_enkephalin_notice",
@@ -859,7 +859,7 @@
     },
     {
       "id": "mainui_ask_purchase_enkephalin_module",
-      "content": "Недостаточно Энкефалиновых модулей.\nЖелаете собрать парочку?"
+      "content": "Недостаточно энкефалиновых модулей.\nЖелаете собрать парочку?"
     },
     {
       "id": "list",
@@ -1239,7 +1239,7 @@
     },
     {
       "id": "announcer_selection_description",
-      "content": "※ Если вы выберете нескольких комментаторов, диалоги будут проигрываться в случайном порядке. (До 10)"
+      "content": "※ Если вы выберете нескольких комментаторов, диалоги будут проигрываться в случайном порядке. (До 10-и)"
     },
     {
       "id": "panic_type",
